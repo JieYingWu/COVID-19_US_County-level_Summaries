@@ -25,3 +25,21 @@ We aim to collect the following information:
 * Implemented measures
   - Time of implementation
 
+## Structure
+
+We aggregate regional statistics on a state or county level granulariy.
+
+Every entry in the dataset, then, could contain:
+
+
+- Total number of beds
+- ICU beds
+- Number of emergency rooms
+- Number of physicians
+- Number of physician assistants
+- Number of specialist assistants
+
+## Instructions for Adding Data
+
+Please create a new directory in [./raw_data](https://github.com/JieYingWu/disease_spread/raw_data)
+with a sensible name based on the type of data you are adding.
