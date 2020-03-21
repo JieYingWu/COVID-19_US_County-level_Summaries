@@ -1,7 +1,8 @@
-# ARCADE Lab COVID-19 Predictive Modeling
+# County-level Socioeconomic Data for Predictive Modeling of Epidemiological Effects
 
-**Goal:** We aim to gather a *machine readable* dataset related to the novel coronavirus (COVID-19)
-for the purpose of enhancing the response of the data science community.
+**TL/DR:** We aim to gather a *machine readable* dataset related to socioeconomic factors that may affect the spread and/or consequences of epidemiological outbreaks, particularly the novel coronavirus (COVID-19). This dataset is envisioned to serve the datascience and modeling communities. If you want to contribute, please let us know! You can find a list of states currently being worked on below.
+
+**Goal:** 
 
 We aim to collect the following information:
 * Demographic data
@@ -43,3 +44,18 @@ Every entry in the dataset, then, could contain:
 
 Please create a new directory in [./raw_data](https://github.com/JieYingWu/disease_spread/raw_data)
 with a sensible name based on the type of data you are adding.
+
+### States In Progress
+* New York State
+* Kansas
+
+## Acknowledgements
+This project was initiated by the ARCADE Lab at Johns Hopkins University, directed by Mathias Unberath. People contributing are, in no particular order:
+* Jie Ying Wu
+* Benjamin Killeen
+* Kinjal Shah
+* Anna Zapaishchykova
+* Philipp Nikutta
+* Shreya Chakraborty
+* Jinchi Wei
+* Tiger Gao
