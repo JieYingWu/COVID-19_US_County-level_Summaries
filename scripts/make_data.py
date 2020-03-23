@@ -248,9 +248,8 @@ class Formatter():
     
     self.csv_readers = CSVReaders(national_data_filenames, skiprows=self.national_data_skiprows)
 
-    self.fips_codes = {}        # mapping from fips code to canonical area name
-    self.areas = {}             # mapping from (STATE, canonical area name) tuple to fips code
     self._make_reference()
+    self._write_reference()
 
   def _get_key(self, key):
     return key.lower().strip()
@@ -289,6 +288,9 @@ class Formatter():
       self.areas[state] = fips
 
   def _make_reference(self):
+    self.fips_codes = OrderedDict()  # mapping from fips code to canonical area name
+    self.areas = {}                  # mapping from (STATE, canonical area name) tuple to fips code
+    
     with self.csv_readers as readers:
       rows = iter(readers.readers['population'])
       for _ in range(readers.skiprows['population']):
@@ -303,6 +305,13 @@ class Formatter():
         state = self._get_state(row[1])
         area = row[2]
         self._set_area(fips, state, area)
+
+  def _write_reference(self):
+    with open(join(self.data_dir, 'counties_order.csv'), 'w', newline='') as file:
+      writer = csv.writer(file, delimiter=',')
+      for fips, area in self.fips_codes.items():
+        # print('reference:', fips)
+        writer.writerow([fips, area])
 
   def _get_fips(self, x):
     """Get the 5 digit FIPS string from x, which could be a couple things.
@@ -424,7 +433,7 @@ def main():
   args = parser.parse_args()
 
   # debug
-  Formatter(args).make_national_data()
+  Formatter(args)# .make_national_data()
   
 
 if __name__ == '__main__':
