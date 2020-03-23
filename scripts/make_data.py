@@ -14,69 +14,6 @@ import csv
 import argparse
 
 
-class CSVReaders():
-  def __init__(self, filenames, skiprows=None):
-    """Reader for multiple csv files, maintaining a dict convention
-
-    Usage: below is an example concatenating the two csv files along dimension 1, and printing the lines.
-
-    ```
-    filenames = {'population': 'path/to/population.csv',
-                 'density': 'path/to/density.csv'}
-    with CSVReaders(filenames) as readers:
-      for rows in readers:
-        print(','.join(rows['population'] + rows['density']))
-    ```
-
-    TODO: allow lists of filenames
-
-    :param filenames: dictionary of keys to filenames
-    :param skiprows: dictionary with the same keys mapping to integers, so that the CSVs line up.
-    :returns: 
-    :rtype: 
-
-    """
-    self.skiprows = skiprows
-    self.filenames = filenames
-    self._iterators = None
-
-  def __enter__(self):
-    self.files = dict((k, open(v, 'r', newline='')) for k, v in self.filenames.items())
-    self.readers = dict((k, csv.reader(file, delimiter=',')) for k, file in self.files.items())
-    return self
-
-  def __iter__(self):
-    # yields a dictionary mapping the original keys to each row
-    self._iterators = dict((k, iter(reader)) for k, reader in self.readers.items())
-    if self.skiprows is not None:
-      for k, n in self.skiprows.items():
-        for _ in range(n):
-          next(self._iterators[k])
-      
-    while True:
-      rows = {}
-      for k, iterator in self._iterators.items():
-        rows[k] = next(iterator, None)
-        if rows[k] is None or all(map(lambda x: x == '', rows[k])):
-          break
-      yield rows
-
-  def nextrow(self, k):
-    """Get the next row for key `k`.
-
-    :param k: 
-    :returns: 
-    :rtype: 
-
-    """
-    assert self._iterators is not None
-    return next(self._iterators[k], None)
-
-  def __exit__(self, exc_type, exc_val, exc_tb):
-    for file in self.files.values():
-      file.close()
-
-
 class Formatter():
   states = {
     'alabama': 'AL',
@@ -138,8 +75,9 @@ class Formatter():
     'population',
     'education',
     'poverty',
-    'unemployment'
-    # 'density'
+    'unemployment',
+    'climate',
+    'density'
   ]             # TODO: add density
   
   national_data_skiprows = {
@@ -147,8 +85,18 @@ class Formatter():
     'education': 4,
     'poverty': 4,
     'unemployment': 4,
+    'climate': 0,
     'density': 1}
 
+  # which column has the fips code in each table
+  fips_columns = {
+    'population': 0,
+    'education': 0,
+    'poverty': 0,
+    'unemployment': 0,
+    'climate': 0,
+    'density': 3}
+  
   national_data_which_columns = OrderedDict([
     ('population', [
       0,                        # FIPS
@@ -174,6 +122,7 @@ class Formatter():
       140,                      # R_DOMESTIC_MIG_2018
       148                       # R_NET_MIG_2018
     ]),
+    
     ('education', [
       39,                       # Less than a high school diploma, 2014-18
       40,                       # High school diploma only, 2014-18
@@ -184,6 +133,7 @@ class Formatter():
       45,                       # Percent of adults completing some college or associate's degree, 2014-18
       46                        # Percent of adults with a bachelor's degree or higher, 2014-18
     ]),
+    
     ('poverty', [
       7,                        # POVALL_2018
       8,                      # CI90LBAll_2018
@@ -207,6 +157,7 @@ class Formatter():
       26,                      # CI90LBINC_2018
       27                       # CI90UBINC_2018
     ]),
+    
     ('unemployment', [
       50,                      # Civilian_labor_force_2018
       51,                      # Employed_2018
@@ -215,6 +166,58 @@ class Formatter():
       54,                      # Median_Household_Income_2018
       55                       # Med_HH_Income_Percent_of_State_Total_2018
     ]),
+    
+    ('climate', [
+      1,                        # Jan Precipitation / inch
+      2,                        # Feb Precipitation / inch
+      3,                        # Mar Precipitation / inch
+      4,                        # Apr Precipitation / inch
+      5,                        # May Precipitation / inch
+      6,                        # Jun Precipitation / inch
+      7,                        # Jul Precipitation / inch
+      8,                        # Aug Precipitation / inch
+      9,                        # Sep Precipitation / inch
+      10,                       # Oct Precipitation / inch
+      11,                       # Nov Precipitation / inch
+      12,                       # Dec Precipitation / inch
+      13,                       # Jan Temp AVG / F
+      14,                       # Feb Temp AVG / F
+      15,                       # Mar Temp AVG / F
+      16,                       # Apr Temp AVG / F
+      17,                       # May Temp AVG / F
+      18,                       # Jun Temp AVG / F
+      19,                       # Jul Temp AVG / F
+      20,                       # Aug Temp AVG / F
+      21,                       # Sep Temp AVG / F
+      22,                       # Oct Temp AVG / F
+      23,                       # Nov Temp AVG / F
+      24,                       # Dec Temp AVG / F
+      25,                       # Jan Temp Min / F
+      26,                       # Feb Temp Min / F
+      27,                       # Mar Temp Min / F
+      28,                       # Apr Temp Min / F
+      29,                       # May Temp Min / F
+      30,                       # Jun Temp Min / F
+      31,                       # Jul Temp Min / F
+      32,                       # Aug Temp Min / F
+      33,                       # Sep Temp Min / F
+      34,                       # Oct Temp Min / F
+      35,                       # Nov Temp Min / F
+      36,                       # Dec Temp Min / F
+      37,                       # Jan Temp Max / F
+      38,                       # Feb Temp Max / F
+      39,                       # Mar Temp Max / F
+      40,                       # Apr Temp Max / F
+      41,                       # May Temp Max / F
+      42,                       # Jun Temp Max / F
+      43,                       # Jul Temp Max / F
+      44,                       # Aug Temp Max / F
+      45,                       # Sep Temp Max / F
+      46,                       # Oct Temp Max / F
+      47,                       # Nov Temp Max / F
+      48                        # Dec Temp Max / F
+    ]),
+    
     ('density', [
       8,                        # Housing units
       9,                        # Area in square miles - Total area
@@ -227,9 +230,9 @@ class Formatter():
 
   # map the old columns to the new columns
   national_data_column_mapping = {}
-  i = 0
   for k in keys:
     national_data_column_mapping[k] = {}
+    i = 0
     for idx in national_data_which_columns[k]:
       national_data_column_mapping[k][idx] = i
       i += 1
@@ -239,16 +242,15 @@ class Formatter():
     for k, v in args.__dict__.items():
       setattr(self, k, v)
 
-    national_data_filenames = {
+    self.national_data_filenames = {
       'population': join(self.raw_data_dir, 'national', 'Demographics', 'PopulationEstimates.csv'),
       'education': join(self.raw_data_dir, 'national', 'Socioeconomic_status', 'Education.csv'),
       'poverty': join(self.raw_data_dir, 'national', 'Socioeconomic_status', 'PovertyEstimates.csv'),
       'unemployment': join(self.raw_data_dir, 'national', 'Socioeconomic_status', 'Unemployment.csv'),
+      'climate': join(self.raw_data_dir, 'national', 'Climate', 'FIPS_2019_precipitation_tempAvg_tempMin_tempMax.csv'),
       'density': join(self.raw_data_dir, 'national', 'Density', 'housing_area_density_national_2010_census.csv')
     }
     
-    self.csv_readers = CSVReaders(national_data_filenames, skiprows=self.national_data_skiprows)
-
     self._make_reference()
     self._write_reference()
 
@@ -275,10 +277,11 @@ class Formatter():
     self.fips_order = []            # list of fips codes
     self.fips_indices = OrderedDict()  # mapping from fips code to index
     self.areas = {}                  # mapping from (STATE, canonical area name) tuple to fips code
-    
-    with self.csv_readers as readers:
-      rows = iter(readers.readers['population'])
-      for _ in range(readers.skiprows['population'] + 1):
+    self.populations = {}
+
+    with open(self.national_data_filenames['population'], 'r', newline='') as file:
+      rows = iter(csv.reader(file, delimiter=','))
+      for _ in range(self.national_data_skiprows['population'] + 1):
         next(rows)
       
       for i, row in enumerate(rows):
@@ -295,20 +298,15 @@ class Formatter():
         if area in self.states:
           self.areas[area] = fips
           self.areas[state] = fips
+
+        self.populations[fips] = row[18]  # POP_ESTIMATE_2018
+        
           
   def _write_reference(self):
     with open(join(self.data_dir, 'counties_order.csv'), 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
       for fips, area in self.fips_codes.items():
         writer.writerow([fips, area])
-
-  # which column has the fips code in each table
-  fips_columns = {
-    'population': 0,
-    'education': 0,
-    'poverty': 0,
-    'unemployment': 0,
-    'density': 3}
         
   def _get_fips(self, x, key=None, default=None):
     """Get the 5 digit FIPS string from x, which could be a couple things.
@@ -326,7 +324,8 @@ class Formatter():
     """
 
     if isinstance(x, list) and key is not None:
-      return self._get_fips(x[self.fips_columns[key]])
+      # assume fips in first column unless otherwise noted
+      return self._get_fips(x[self.fips_columns.get(key, 0)])  
     elif isinstance(x, dict) and key is not None:
       if x.get(key, None) is None:
         return default
@@ -336,10 +335,10 @@ class Formatter():
     elif x in self.areas:
       return self.areas[x]
     elif isinstance(x, int):
-      return str(x).zfill(5)
+      return self._get_fips(str(x).zfill(5))
     elif x[7:9] == 'US':
       fips = x[9:]
-      return fips + ''.join(['0'] * (5 - len(fips)))
+      return self._get_fips(fips + ''.join(['0'] * (5 - len(fips))))
     else:
       return default
     
@@ -372,95 +371,117 @@ class Formatter():
     :rtype: 
 
     """
-    file = open(join(self.data_dir, 'counties.csv'), 'w', newline='')
-    writer = csv.writer(file, delimiter=',')
-    self.num_rows = 0
-    
-    def writerow(rows):
-      values = sum([[rows[k][j].replace(',', '') for j in self.national_data_which_columns[k]] for k in self.keys], [])
-      
-      # the density data includes r values in the same columns, remove these
-      if 'density' in self.keys:
-        for j in self.national_data_column_mapping['density'].values():
-          values[j] = re.sub(r'\(r\d+\)', '', values[j])
 
-      if 'unemployment' in self.keys:
-        values[self.national_data_column_mapping['unemployment'][54]] = values[self.national_data_column_mapping['unemployment'][54]].replace('$', '')
+    # parse the incoming data by fips, creating a mapping from fips to a dict mapping datatype keys
+    # to data for that row, ready to by joined.
+    self.national_data = dict(
+      (fips, dict(
+        (k, ['NA'] * len(self.national_data_which_columns[k])) for k in self.keys))
+      for fips in self.fips_codes)
+    self.national_data['labels'] = dict(
+      (k, ['NA'] * len(self.national_data_which_columns[k])) for k in self.keys)
 
-      writer.writerow(values)
-      self.num_rows += 1
-      print(f'wrote row {self.num_rows}')
-
-    with self.csv_readers as readers:
-      rows_iterator = iter(readers)
-      rows = next(rows_iterator)
-      # prints all the labels and their column index
-      # print(*['\n'.join(map(lambda t: f'      {t[0]},                      # {t[1]}',
-      #                       enumerate(rows[k]))) for k in self.keys], sep='\n')
-      labels = sum([[rows[k][j].replace(',', '') for j in self.national_data_which_columns[k]] for k in self.keys], [])
-      writer.writerow(labels)
-
-      rows = next(rows_iterator, None)
-      finished = False
-      while rows is not None and not finished:
-        fips = self._get_fips(rows['population'][0])
-        # fips_idx = self.fips_indices[fips]
-        # next_fips = self.fips_order[fips_idx + 1]
+    for k in self.keys:
+      with open(self.national_data_filenames[k], 'r', newline='') as file:
+        reader = csv.reader(file, delimiter=',')
         
-        # make sure the rows are all from valid counties (i.e., counties for which we have population data).
-        for k in self.keys:
-          k_fips = self._get_fips(rows, key=k)
-          while k_fips is None:
-            rows[k] = readers.nextrow(k)
-            if rows[k] is None:
-              finished = True
-              break
-            k_fips = self._get_fips(rows, key=k)
+        for i, row in enumerate(reader):
+          if i < self.national_data_skiprows[k]:
+            continue
 
-        # if finished:
-        #   break
-            
-        if not all([self._get_fips(rows, k) == fips for k in self.keys[1:]]):
-          # population data has a row that other data are missing.
-          new_rows = {}
-          for k in self.keys:
-            if self._get_fips(rows, k) == fips:
-              new_rows[k] = rows[k]
-              rows[k] = readers.nextrow(k)
-              if rows[k] is None:
-                finished = True
-            else:
-              new_rows[k] = ['NA'] * (self.national_data_which_columns[k][-1] + 1)
-          writerow(new_rows)
-          print(*[self._get_fips(rows, k) for k in self.keys])
-          continue
-            
-        # # make sure the rows are all corresponding
-        # if not all([self._get_fips(rows, k) for k in self.keys]):
-        #   print(rows['population'][2],
-        #         rows['education'][2],
-        #         rows['poverty'][2],
-        #         rows['unemployment'][2], sep=', ')
-        #   print(rows['population'][0],
-        #         self._get_fips(rows['education'][0]),
-        #         self._get_fips(rows['poverty'][0]),
-        #         self._get_fips(rows['unemployment'][0]), sep=', ')
-        #   continue
+          if i == self.national_data_skiprows[k]:
+            self.national_data['labels'][k] = [row[j].replace(',', '') for j in self.national_data_which_columns[k]]
+            continue
 
-        writerow(rows)
-        rows = next(rows_iterator, None)
-        # print(*values, sep='\n')
-        # fix some rows
-        # values[self.column]
+          fips = self._get_fips(row, k)
+          if fips is None:
+            # county not in canonical list skip it
+            continue
+
+          values = [row[j] for j in self.national_data_which_columns[k]]
+          # the density data includes r values in the same columns, remove these
+          if k == 'density':
+            # get rid of r values
+            for j in range(len(values)):
+              values[j] = re.sub(r'\(r\d+\)', '', values[j])
           
-        # state = self._get_state(rows[k][1])
-        # fips = rows[k][0]
-        # print(fips)
-        # area = rows[k][2].lower().strip()
-        # print(area)
-        # # self._set_county()
-    
+          if k == 'unemployment':
+            # fix the median household income dollar sign
+            values[self.national_data_column_mapping[k][54]] = values[
+              self.national_data_column_mapping[k][54]].replace('$', '')
 
+          for j in range(len(values)):
+            if values[j] == '':
+              values[j] = 'NA'
+
+          self.national_data[fips][k] = values
+          
+    with open(join(self.data_dir, 'counties.csv'), 'w', newline='') as file:
+      writer = csv.writer(file, delimiter=',')
+      writer.writerow(sum([self.national_data['labels'][k] for k in self.keys], []))
+
+      for fips in self.fips_codes:
+        writer.writerow(sum([self.national_data[fips][k] for k in self.keys], []))
+
+  def _read_cases_data(self):
+    infections_filename = join(self.raw_data_dir, 'national', )
+    deaths_filename = join(self.raw_data_dir, 'national', '')
+
+    # mapping from fips to numpy array giving timeseries for each.
+    infections = {}
+    deaths = {}
+    recovered = {}
+    
+    return infections, deaths, recovered
+        
+  def make_cases_data(self):
+    """Solve for beta and gamma for each county.
+
+    based on https://towardsdatascience.com/infection-modeling-part-1-87e74645568a
+
+    rows are:
+
+    FIPS, beta, gamma
+
+    :returns: 
+    :rtype: 
+
+    """
+    # mapping from fips to numpy array giving timeseries for each, starting from the first day with
+    # nonzero infections
+    infections, deaths, recovered = self._read_cases_data()
+
+    filename = join(self.data_dir, 'beta_gamma.csv')
+    file = open(filename, 'w', newline='')
+    writer = csv.writer(file, delimiter=',')
+    writer.writerow(['FIPS', 'beta', 'gamma'])
+
+    for fips in self.fips_codes:
+      if not (fips in infections and fips in deaths and fips in recovered):
+        writer.writerow([fips, 'NA', 'NA'])
+        continue
+
+      # Total population, N.
+      N = self.populations[fips]
+
+      # number of infected people
+      X = infections[fips] / N
+      
+      # fraction removed (recovered or dead)
+      R = (recovered[fips] + deaths[fips]) / N
+
+      # fraction of population susceptible
+      S = 1 - X - R
+
+      # integrate with trapezoidal method
+      beta = - (S[-1] - S[0]) / np.trapz(S - X, x=None, dx=1)
+      gamma = R / np.trapz()
+      
+      writer.writerow([fips, f'{beta}', f'{gamma}'])
+      print(f'wrote {fips}: beta = {beta:.04f}, gamma = {gamma:.04f}')
+    file.close()
+
+        
 def main():
   parser = argparse.ArgumentParser(description='data formatter')
 
@@ -470,8 +491,9 @@ def main():
   args = parser.parse_args()
 
   # debug
-  Formatter(args).make_national_data()
-  
+  formatter = Formatter(args)
+  formatter.make_national_data()
+  # formatter.make_cases_data()
 
 if __name__ == '__main__':
   main()
