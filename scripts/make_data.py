@@ -38,6 +38,7 @@ class CSVReaders():
     """
     self.skiprows = skiprows
     self.filenames = filenames
+    self._iterators = None
 
   def __enter__(self):
     self.files = dict((k, open(v, 'r', newline='')) for k, v in self.filenames.items())
@@ -46,19 +47,30 @@ class CSVReaders():
 
   def __iter__(self):
     # yields a dictionary mapping the original keys to each row
-    iterators = dict((k, iter(reader)) for k, reader in self.readers.items())
+    self._iterators = dict((k, iter(reader)) for k, reader in self.readers.items())
     if self.skiprows is not None:
       for k, n in self.skiprows.items():
         for _ in range(n):
-          next(iterators[k])
+          next(self._iterators[k])
       
     while True:
       rows = {}
-      for k, iterator in iterators.items():
+      for k, iterator in self._iterators.items():
         rows[k] = next(iterator, None)
-        if rows[k] is None:
+        if rows[k] is None or all(map(lambda x: x == '', rows[k])):
           break
       yield rows
+
+  def nextrow(self, k):
+    """Get the next row for key `k`.
+
+    :param k: 
+    :returns: 
+    :rtype: 
+
+    """
+    assert self._iterators is not None
+    return next(self._iterators[k], None)
 
   def __exit__(self, exc_type, exc_val, exc_tb):
     for file in self.files.values():
@@ -126,8 +138,9 @@ class Formatter():
     'population',
     'education',
     'poverty',
-    'unemployment',
-    'density']             # TODO: add density
+    'unemployment'
+    # 'density'
+  ]             # TODO: add density
   
   national_data_skiprows = {
     'population': 2,
@@ -236,8 +249,8 @@ class Formatter():
     
     self.csv_readers = CSVReaders(national_data_filenames, skiprows=self.national_data_skiprows)
 
-    self.fips_codes = {}        # mapping from fips code to canonical area name
-    self.areas = {}             # mapping from (STATE, canonical area name) tuple to fips code
+    self._make_reference()
+    self._write_reference()
 
   def _get_key(self, key):
     return key.lower().strip()
@@ -255,22 +268,49 @@ class Formatter():
     elif self._get_key(state) in self.states:
       return self.states[self._get_key(state)]
     else:
-      raise ValueError(f'unrecognized state: {state}')
+      raise ValueError(f'unrecognized state: {repr(state)}')
 
-  def _set_area(self, fips, state, area):
-    """Make the dictionary of fips codes.
+  def _make_reference(self):
+    self.fips_codes = OrderedDict()  # mapping from fips code to canonical area name
+    self.fips_order = []            # list of fips codes
+    self.fips_indices = OrderedDict()  # mapping from fips code to index
+    self.areas = {}                  # mapping from (STATE, canonical area name) tuple to fips code
+    
+    with self.csv_readers as readers:
+      rows = iter(readers.readers['population'])
+      for _ in range(readers.skiprows['population'] + 1):
+        next(rows)
+      
+      for i, row in enumerate(rows):
+        if all(map(lambda x: x == '', row)):
+          break
+        fips = row[0]
+        state = self._get_state(row[1])
+        area = self._get_key(row[2])
+        
+        self.fips_codes[fips] = area
+        self.fips_order.append(fips)
+        self.fips_indices[fips] = i
+        self.areas[(state, area)] = fips
+        if area in self.states:
+          self.areas[area] = fips
+          self.areas[state] = fips
+          
+  def _write_reference(self):
+    with open(join(self.data_dir, 'counties_order.csv'), 'w', newline='') as file:
+      writer = csv.writer(file, delimiter=',')
+      for fips, area in self.fips_codes.items():
+        writer.writerow([fips, area])
 
-    :param state: 
-    :param county: 
-    :param fips: 
-    :returns: 
-    :rtype: 
-
-    """
-    self.fips_codes[fips] = area
-    self.areas[(self._get_state(state), self._get_key(area))] = fips
-
-  def _get_fips(self, x):
+  # which column has the fips code in each table
+  fips_columns = {
+    'population': 0,
+    'education': 0,
+    'poverty': 0,
+    'unemployment': 0,
+    'density': 3}
+        
+  def _get_fips(self, x, key=None, default=None):
     """Get the 5 digit FIPS string from x, which could be a couple things.
 
     The possible values for x are:
@@ -284,15 +324,24 @@ class Formatter():
     :rtype: 
 
     """
-    if x in self.fips_codes:
+
+    if isinstance(x, list) and key is not None:
+      return self._get_fips(x[self.fips_columns[key]])
+    elif isinstance(x, dict) and key is not None:
+      if x.get(key, None) is None:
+        return default
+      return self._get_fips(x[key][self.fips_columns[key]])
+    elif x in self.fips_codes:
       return x
     elif x in self.areas:
-      return self.areas(x)
+      return self.areas[x]
     elif isinstance(x, int):
       return str(x).zfill(5)
-    else:
+    elif x[7:9] == 'US':
       fips = x[9:]
       return fips + ''.join(['0'] * (5 - len(fips)))
+    else:
+      return default
     
   def _is_county(self, x):
     """Tell whether the area x is a county.
@@ -325,50 +374,79 @@ class Formatter():
     """
     file = open(join(self.data_dir, 'counties.csv'), 'w', newline='')
     writer = csv.writer(file, delimiter=',')
+
+    def writerow(rows):
+      values = sum([[rows[k][j].replace(',', '') for j in self.national_data_which_columns[k]] for k in self.keys], [])
+          
+      if not self._is_state(values[self.national_data_column_mapping['population'][1]]):
+        return
+
+      # the density data includes r values in the same columns, remove these
+      if 'density' in self.keys:
+        for j in self.national_data_column_mapping['density'].values():
+          values[j] = re.sub(r'\(r\d+\)', '', values[j])
+
+      writer.writerow(values)
     
     with self.csv_readers as readers:
-      for i, rows in enumerate(readers):
-        if i == 0:
-          # prints all the labels and their column index
-          # print(*['\n'.join(map(lambda t: f'      {t[0]},                      # {t[1]}',
-          #                       enumerate(rows[k]))) for k in self.keys], sep='\n')
-          labels = sum([[rows[k][j].replace(',', '') for j in self.national_data_which_columns[k]] for k in self.keys], [])
-          writer.writerow(labels)
-        else:
-          fips = rows['population'][0]
-          state = self._get_state(rows['population'][1])
-          area = rows['population'][2]
-          self._set_area(fips, state, area)
+      rows_iterator = iter(readers)
+      rows = next(rows_iterator)
+      # prints all the labels and their column index
+      # print(*['\n'.join(map(lambda t: f'      {t[0]},                      # {t[1]}',
+      #                       enumerate(rows[k]))) for k in self.keys], sep='\n')
+      labels = sum([[rows[k][j].replace(',', '') for j in self.national_data_which_columns[k]] for k in self.keys], [])
+      writer.writerow(labels)
 
-          # make sure the rows are all corresponding
-          if not (self._get_fips(rows['population'][0])
-                  == self._get_fips(rows['education'][0])
-                  == self._get_fips(rows['poverty'][0])
-                  == self._get_fips(rows['unemployment'][0])
-                  == self._get_fips(rows['density'][3])):
-            print(rows['population'][2],
-                  rows['education'][2],
-                  rows['poverty'][2],
-                  rows['unemployment'][2],
-                  rows['density'][4], sep='\n')
-            print(rows['population'][0],
-                  self._get_fips(rows['education'][0]),
-                  self._get_fips(rows['poverty'][0]),
-                  self._get_fips(rows['unemployment'][0]),
-                  self._get_fips(rows['density'][3]))
-            continue
-          
-          values = sum([[rows[k][j].replace(',', '') for j in self.national_data_which_columns[k]] for k in self.keys], [])
-          print(values[0])
-          if not self._is_state(values[self.national_data_column_mapping['population'][1]]):
-            continue
+      rows = next(rows_iterator, None)
+      finished = False
+      while rows is not None and not finished:
+        fips = self._get_fips(rows['population'][0])
+        # fips_idx = self.fips_indices[fips]
+        # next_fips = self.fips_order[fips_idx + 1]
+        print(fips)
+        
+        # make sure the rows are all from valid counties (i.e., counties for which we have population data).
+        for k in self.keys:
+          k_fips = self._get_fips(rows, key=k)
+          while k_fips is None:
+            rows[k] = readers.nextrow(k)
+            if rows[k] is None:
+              finished = True
+              break
+            k_fips = self._get_fips(rows, key=k)
 
-          # the density data includes r values in the same columns, remove these
-          for j in self.national_data_column_mapping['density'].values():
-            values[j] = re.sub(r'\(r\d+\)', '', values[j])
+        if finished:
+          break
+            
+        if not all([self._get_fips(rows, k) == fips for k in self.keys[1:]]):
+          # population data has a row that other data are missing.
+          new_rows = {}
+          for k in self.keys:
+            if self._get_fips(rows, k) == fips:
+              new_rows[k] = rows[k]
+              rows[k] = readers.nextrow(k)
+              if rows[k] is None:
+                finished = True
+            else:
+              new_rows[k] = ['NA'] * len(rows[k])
+          writerow(new_rows)
+          print(*[self._get_fips(rows, k) for k in self.keys])
+          continue
+            
+        # make sure the rows are all corresponding
+        if not all([self._get_fips(rows, k) for k in self.keys]):
+          print(rows['population'][2],
+                rows['education'][2],
+                rows['poverty'][2],
+                rows['unemployment'][2], sep=', ')
+          print(rows['population'][0],
+                self._get_fips(rows['education'][0]),
+                self._get_fips(rows['poverty'][0]),
+                self._get_fips(rows['unemployment'][0]), sep=', ')
+          continue
 
-          writer.writerow(values)
-          
+        writerow(rows)
+        rows = next(rows_iterator, None)
           # print(*values, sep='\n')
           # fix some rows
           # values[self.column]
