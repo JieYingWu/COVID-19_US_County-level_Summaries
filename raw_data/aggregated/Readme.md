@@ -1,21 +1,21 @@
 # List of demographics variables
 ## Population
-Total population
-Total_Male
-Total_Female
-Total_age0to17
-Male_age0to17
-Female_age0to17
-Total_age18to64
-Male_age18to64
-Female_age18to64
-Total_age65plus
-Male_age65plus
-Female_age65plus
-Total_age85plusr
-Male_age85plusr
-Female_age85plusr
-pop_density
+Total population 
+Total_Male 
+Total_Female 
+Total_age0to17 
+Male_age0to17 
+Female_age0to17 
+Total_age18to64 
+Male_age18to64 
+Female_age18to64 
+Total_age65plus 
+Male_age65plus 
+Female_age65plus 
+Total_age85plusr 
+Male_age85plusr 
+Female_age85plusr 
+pop_density 
 
 
 ## Relationship
