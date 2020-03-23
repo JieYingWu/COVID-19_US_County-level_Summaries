@@ -1,0 +1,1 @@
+ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/ 
