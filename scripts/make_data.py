@@ -374,20 +374,20 @@ class Formatter():
     """
     file = open(join(self.data_dir, 'counties.csv'), 'w', newline='')
     writer = csv.writer(file, delimiter=',')
-
+    self.num_rows = 0
+    
     def writerow(rows):
       values = sum([[rows[k][j].replace(',', '') for j in self.national_data_which_columns[k]] for k in self.keys], [])
-          
-      if not self._is_state(values[self.national_data_column_mapping['population'][1]]):
-        return
-
+      
       # the density data includes r values in the same columns, remove these
       if 'density' in self.keys:
         for j in self.national_data_column_mapping['density'].values():
           values[j] = re.sub(r'\(r\d+\)', '', values[j])
 
       writer.writerow(values)
-    
+      self.num_rows += 1
+      print(f'wrote row {self.num_rows}')
+
     with self.csv_readers as readers:
       rows_iterator = iter(readers)
       rows = next(rows_iterator)
@@ -403,7 +403,6 @@ class Formatter():
         fips = self._get_fips(rows['population'][0])
         # fips_idx = self.fips_indices[fips]
         # next_fips = self.fips_order[fips_idx + 1]
-        print(fips)
         
         # make sure the rows are all from valid counties (i.e., counties for which we have population data).
         for k in self.keys:
@@ -415,8 +414,8 @@ class Formatter():
               break
             k_fips = self._get_fips(rows, key=k)
 
-        if finished:
-          break
+        # if finished:
+        #   break
             
         if not all([self._get_fips(rows, k) == fips for k in self.keys[1:]]):
           # population data has a row that other data are missing.
@@ -428,28 +427,28 @@ class Formatter():
               if rows[k] is None:
                 finished = True
             else:
-              new_rows[k] = ['NA'] * len(rows[k])
+              new_rows[k] = ['NA'] * (self.national_data_which_columns[k][-1] + 1)
           writerow(new_rows)
           print(*[self._get_fips(rows, k) for k in self.keys])
           continue
             
-        # make sure the rows are all corresponding
-        if not all([self._get_fips(rows, k) for k in self.keys]):
-          print(rows['population'][2],
-                rows['education'][2],
-                rows['poverty'][2],
-                rows['unemployment'][2], sep=', ')
-          print(rows['population'][0],
-                self._get_fips(rows['education'][0]),
-                self._get_fips(rows['poverty'][0]),
-                self._get_fips(rows['unemployment'][0]), sep=', ')
-          continue
+        # # make sure the rows are all corresponding
+        # if not all([self._get_fips(rows, k) for k in self.keys]):
+        #   print(rows['population'][2],
+        #         rows['education'][2],
+        #         rows['poverty'][2],
+        #         rows['unemployment'][2], sep=', ')
+        #   print(rows['population'][0],
+        #         self._get_fips(rows['education'][0]),
+        #         self._get_fips(rows['poverty'][0]),
+        #         self._get_fips(rows['unemployment'][0]), sep=', ')
+        #   continue
 
         writerow(rows)
         rows = next(rows_iterator, None)
-          # print(*values, sep='\n')
-          # fix some rows
-          # values[self.column]
+        # print(*values, sep='\n')
+        # fix some rows
+        # values[self.column]
           
         # state = self._get_state(rows[k][1])
         # fips = rows[k][0]
