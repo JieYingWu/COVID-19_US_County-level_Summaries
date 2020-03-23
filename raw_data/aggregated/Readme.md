@@ -1,5 +1,5 @@
 # List of demographics variables
-## Population
+## Population age
 
 - Total population
 - Total_Male 
