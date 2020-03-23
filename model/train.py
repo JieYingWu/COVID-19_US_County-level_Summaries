@@ -19,6 +19,12 @@ lr = 1.0e-4
 n_epochs = 100
 momentum = 0.9
 
+# Make datasets and dataloaders
+train_dataset = SimulatorDataset3D(train_source_path, train_target_path, device)
+val_dataset = SimulatorDataset3D(val_source_path, val_target_path, device)
+train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
+val_loader = DataLoader(dataset=val_dataset, batch_size=batch_size, shuffle=False)
+
 # Checkpoint parameter
 root = Path("checkpoints")
 try:
@@ -64,3 +70,12 @@ save = lambda ep, model, model_path, error, optimizer, scheduler: torch.save({
     
 for e in range(epoch, n_epochs):
     model.train()
+
+    for i, (source, target) in enumerate(train_loader):
+        pred = model(source)
+        loss = loss_fn(pred, target)
+
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+    
