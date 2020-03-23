@@ -1,0 +1,1092 @@
+GEO.id,Id
+GEO.id2,Id2
+GEO.display-label,Geography
+cen42010sex0_age999,"April 1, 2010 - Census - Both Sexes; Total"
+cen42010sex1_age999,"April 1, 2010 - Census - Male; Total"
+cen42010sex2_age999,"April 1, 2010 - Census - Female; Total"
+est42010sex0_age999,"April 1, 2010 - Estimates Base - Both Sexes; Total"
+est42010sex1_age999,"April 1, 2010 - Estimates Base - Male; Total"
+est42010sex2_age999,"April 1, 2010 - Estimates Base - Female; Total"
+est72010sex0_age999,Population Estimate (as of July 1) - 2010 - Both Sexes; Total
+est72010sex1_age999,Population Estimate (as of July 1) - 2010 - Male; Total
+est72010sex2_age999,Population Estimate (as of July 1) - 2010 - Female; Total
+est72011sex0_age999,Population Estimate (as of July 1) - 2011 - Both Sexes; Total
+est72011sex1_age999,Population Estimate (as of July 1) - 2011 - Male; Total
+est72011sex2_age999,Population Estimate (as of July 1) - 2011 - Female; Total
+est72012sex0_age999,Population Estimate (as of July 1) - 2012 - Both Sexes; Total
+est72012sex1_age999,Population Estimate (as of July 1) - 2012 - Male; Total
+est72012sex2_age999,Population Estimate (as of July 1) - 2012 - Female; Total
+est72013sex0_age999,Population Estimate (as of July 1) - 2013 - Both Sexes; Total
+est72013sex1_age999,Population Estimate (as of July 1) - 2013 - Male; Total
+est72013sex2_age999,Population Estimate (as of July 1) - 2013 - Female; Total
+est72014sex0_age999,Population Estimate (as of July 1) - 2014 - Both Sexes; Total
+est72014sex1_age999,Population Estimate (as of July 1) - 2014 - Male; Total
+est72014sex2_age999,Population Estimate (as of July 1) - 2014 - Females; Total
+est72015sex0_age999,Population Estimate (as of July 1) - 2015 - Both Sexes; Total
+est72015sex1_age999,Population Estimate (as of July 1) - 2015 - Male; Total
+est72015sex2_age999,Population Estimate (as of July 1) - 2015 - Female; Total
+est72016sex0_age999,Population Estimate (as of July 1) - 2016 - Both Sexes; Total
+est72016sex1_age999,Population Estimate (as of July 1) - 2016 - Male; Total
+est72016sex2_age999,Population Estimate (as of July 1) - 2016 - Female; Total
+est72017sex0_age999,Population Estimate (as of July 1) - 2017 - Both Sexes; Total
+est72017sex1_age999,Population Estimate (as of July 1) - 2017 - Male; Total
+est72017sex2_age999,Population Estimate (as of July 1) - 2017 - Female; Total
+est72018sex0_age999,Population Estimate (as of July 1) - 2018 - Both Sexes; Total
+est72018sex1_age999,Population Estimate (as of July 1) - 2018 - Male; Total
+est72018sex2_age999,Population Estimate (as of July 1) - 2018 - Female; Total
+cen42010sex0_age0to4,"April 1, 2010 - Census - Both Sexes; Total - Under 5 years"
+cen42010sex1_age0to4,"April 1, 2010 - Census - Male; Total - Under 5 years"
+cen42010sex2_age0to4,"April 1, 2010 - Census - Female; Total - Under 5 years"
+est42010sex0_age0to4,"April 1, 2010 - Estimates Base - Both Sexes; Total - Under 5 years"
+est42010sex1_age0to4,"April 1, 2010 - Estimates Base - Male; Total - Under 5 years"
+est42010sex2_age0to4,"April 1, 2010 - Estimates Base - Female; Total - Under 5 years"
+est72010sex0_age0to4,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - Under 5 years
+est72010sex1_age0to4,Population Estimate (as of July 1) - 2010 - Male; Total - Under 5 years
+est72010sex2_age0to4,Population Estimate (as of July 1) - 2010 - Female; Total - Under 5 years
+est72011sex0_age0to4,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - Under 5 years
+est72011sex1_age0to4,Population Estimate (as of July 1) - 2011 - Male; Total - Under 5 years
+est72011sex2_age0to4,Population Estimate (as of July 1) - 2011 - Female; Total - Under 5 years
+est72012sex0_age0to4,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - Under 5 years
+est72012sex1_age0to4,Population Estimate (as of July 1) - 2012 - Male; Total - Under 5 years
+est72012sex2_age0to4,Population Estimate (as of July 1) - 2012 - Female; Total - Under 5 years
+est72013sex0_age0to4,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - Under 5 years
+est72013sex1_age0to4,Population Estimate (as of July 1) - 2013 - Male; Total - Under 5 years
+est72013sex2_age0to4,Population Estimate (as of July 1) - 2013 - Female; Total - Under 5 years
+est72014sex0_age0to4,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - Under 5 years
+est72014sex1_age0to4,Population Estimate (as of July 1) - 2014 - Male; Total - Under 5 years
+est72014sex2_age0to4,Population Estimate (as of July 1) - 2014 - Females; Total - Under 5 years
+est72015sex0_age0to4,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - Under 5 years
+est72015sex1_age0to4,Population Estimate (as of July 1) - 2015 - Male; Total - Under 5 years
+est72015sex2_age0to4,Population Estimate (as of July 1) - 2015 - Female; Total - Under 5 years
+est72016sex0_age0to4,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - Under 5 years
+est72016sex1_age0to4,Population Estimate (as of July 1) - 2016 - Male; Total - Under 5 years
+est72016sex2_age0to4,Population Estimate (as of July 1) - 2016 - Female; Total - Under 5 years
+est72017sex0_age0to4,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - Under 5 years
+est72017sex1_age0to4,Population Estimate (as of July 1) - 2017 - Male; Total - Under 5 years
+est72017sex2_age0to4,Population Estimate (as of July 1) - 2017 - Female; Total - Under 5 years
+est72018sex0_age0to4,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - Under 5 years
+est72018sex1_age0to4,Population Estimate (as of July 1) - 2018 - Male; Total - Under 5 years
+est72018sex2_age0to4,Population Estimate (as of July 1) - 2018 - Female; Total - Under 5 years
+cen42010sex0_age5to9,"April 1, 2010 - Census - Both Sexes; Total - 5 to 9 years"
+cen42010sex1_age5to9,"April 1, 2010 - Census - Male; Total - 5 to 9 years"
+cen42010sex2_age5to9,"April 1, 2010 - Census - Female; Total - 5 to 9 years"
+est42010sex0_age5to9,"April 1, 2010 - Estimates Base - Both Sexes; Total - 5 to 9 years"
+est42010sex1_age5to9,"April 1, 2010 - Estimates Base - Male; Total - 5 to 9 years"
+est42010sex2_age5to9,"April 1, 2010 - Estimates Base - Female; Total - 5 to 9 years"
+est72010sex0_age5to9,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 5 to 9 years
+est72010sex1_age5to9,Population Estimate (as of July 1) - 2010 - Male; Total - 5 to 9 years
+est72010sex2_age5to9,Population Estimate (as of July 1) - 2010 - Female; Total - 5 to 9 years
+est72011sex0_age5to9,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 5 to 9 years
+est72011sex1_age5to9,Population Estimate (as of July 1) - 2011 - Male; Total - 5 to 9 years
+est72011sex2_age5to9,Population Estimate (as of July 1) - 2011 - Female; Total - 5 to 9 years
+est72012sex0_age5to9,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 5 to 9 years
+est72012sex1_age5to9,Population Estimate (as of July 1) - 2012 - Male; Total - 5 to 9 years
+est72012sex2_age5to9,Population Estimate (as of July 1) - 2012 - Female; Total - 5 to 9 years
+est72013sex0_age5to9,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 5 to 9 years
+est72013sex1_age5to9,Population Estimate (as of July 1) - 2013 - Male; Total - 5 to 9 years
+est72013sex2_age5to9,Population Estimate (as of July 1) - 2013 - Female; Total - 5 to 9 years
+est72014sex0_age5to9,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 5 to 9 years
+est72014sex1_age5to9,Population Estimate (as of July 1) - 2014 - Male; Total - 5 to 9 years
+est72014sex2_age5to9,Population Estimate (as of July 1) - 2014 - Females; Total - 5 to 9 years
+est72015sex0_age5to9,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 5 to 9 years
+est72015sex1_age5to9,Population Estimate (as of July 1) - 2015 - Male; Total - 5 to 9 years
+est72015sex2_age5to9,Population Estimate (as of July 1) - 2015 - Female; Total - 5 to 9 years
+est72016sex0_age5to9,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 5 to 9 years
+est72016sex1_age5to9,Population Estimate (as of July 1) - 2016 - Male; Total - 5 to 9 years
+est72016sex2_age5to9,Population Estimate (as of July 1) - 2016 - Female; Total - 5 to 9 years
+est72017sex0_age5to9,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 5 to 9 years
+est72017sex1_age5to9,Population Estimate (as of July 1) - 2017 - Male; Total - 5 to 9 years
+est72017sex2_age5to9,Population Estimate (as of July 1) - 2017 - Female; Total - 5 to 9 years
+est72018sex0_age5to9,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 5 to 9 years
+est72018sex1_age5to9,Population Estimate (as of July 1) - 2018 - Male; Total - 5 to 9 years
+est72018sex2_age5to9,Population Estimate (as of July 1) - 2018 - Female; Total - 5 to 9 years
+cen42010sex0_age10to14,"April 1, 2010 - Census - Both Sexes; Total - 10 to 14 years"
+cen42010sex1_age10to14,"April 1, 2010 - Census - Male; Total - 10 to 14 years"
+cen42010sex2_age10to14,"April 1, 2010 - Census - Female; Total - 10 to 14 years"
+est42010sex0_age10to14,"April 1, 2010 - Estimates Base - Both Sexes; Total - 10 to 14 years"
+est42010sex1_age10to14,"April 1, 2010 - Estimates Base - Male; Total - 10 to 14 years"
+est42010sex2_age10to14,"April 1, 2010 - Estimates Base - Female; Total - 10 to 14 years"
+est72010sex0_age10to14,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 10 to 14 years
+est72010sex1_age10to14,Population Estimate (as of July 1) - 2010 - Male; Total - 10 to 14 years
+est72010sex2_age10to14,Population Estimate (as of July 1) - 2010 - Female; Total - 10 to 14 years
+est72011sex0_age10to14,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 10 to 14 years
+est72011sex1_age10to14,Population Estimate (as of July 1) - 2011 - Male; Total - 10 to 14 years
+est72011sex2_age10to14,Population Estimate (as of July 1) - 2011 - Female; Total - 10 to 14 years
+est72012sex0_age10to14,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 10 to 14 years
+est72012sex1_age10to14,Population Estimate (as of July 1) - 2012 - Male; Total - 10 to 14 years
+est72012sex2_age10to14,Population Estimate (as of July 1) - 2012 - Female; Total - 10 to 14 years
+est72013sex0_age10to14,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 10 to 14 years
+est72013sex1_age10to14,Population Estimate (as of July 1) - 2013 - Male; Total - 10 to 14 years
+est72013sex2_age10to14,Population Estimate (as of July 1) - 2013 - Female; Total - 10 to 14 years
+est72014sex0_age10to14,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 10 to 14 years
+est72014sex1_age10to14,Population Estimate (as of July 1) - 2014 - Male; Total - 10 to 14 years
+est72014sex2_age10to14,Population Estimate (as of July 1) - 2014 - Females; Total - 10 to 14 years
+est72015sex0_age10to14,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 10 to 14 years
+est72015sex1_age10to14,Population Estimate (as of July 1) - 2015 - Male; Total - 10 to 14 years
+est72015sex2_age10to14,Population Estimate (as of July 1) - 2015 - Female; Total - 10 to 14 years
+est72016sex0_age10to14,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 10 to 14 years
+est72016sex1_age10to14,Population Estimate (as of July 1) - 2016 - Male; Total - 10 to 14 years
+est72016sex2_age10to14,Population Estimate (as of July 1) - 2016 - Female; Total - 10 to 14 years
+est72017sex0_age10to14,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 10 to 14 years
+est72017sex1_age10to14,Population Estimate (as of July 1) - 2017 - Male; Total - 10 to 14 years
+est72017sex2_age10to14,Population Estimate (as of July 1) - 2017 - Female; Total - 10 to 14 years
+est72018sex0_age10to14,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 10 to 14 years
+est72018sex1_age10to14,Population Estimate (as of July 1) - 2018 - Male; Total - 10 to 14 years
+est72018sex2_age10to14,Population Estimate (as of July 1) - 2018 - Female; Total - 10 to 14 years
+cen42010sex0_age15to19,"April 1, 2010 - Census - Both Sexes; Total - 15 to 19 years"
+cen42010sex1_age15to19,"April 1, 2010 - Census - Male; Total - 15 to 19 years"
+cen42010sex2_age15to19,"April 1, 2010 - Census - Female; Total - 15 to 19 years"
+est42010sex0_age15to19,"April 1, 2010 - Estimates Base - Both Sexes; Total - 15 to 19 years"
+est42010sex1_age15to19,"April 1, 2010 - Estimates Base - Male; Total - 15 to 19 years"
+est42010sex2_age15to19,"April 1, 2010 - Estimates Base - Female; Total - 15 to 19 years"
+est72010sex0_age15to19,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 15 to 19 years
+est72010sex1_age15to19,Population Estimate (as of July 1) - 2010 - Male; Total - 15 to 19 years
+est72010sex2_age15to19,Population Estimate (as of July 1) - 2010 - Female; Total - 15 to 19 years
+est72011sex0_age15to19,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 15 to 19 years
+est72011sex1_age15to19,Population Estimate (as of July 1) - 2011 - Male; Total - 15 to 19 years
+est72011sex2_age15to19,Population Estimate (as of July 1) - 2011 - Female; Total - 15 to 19 years
+est72012sex0_age15to19,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 15 to 19 years
+est72012sex1_age15to19,Population Estimate (as of July 1) - 2012 - Male; Total - 15 to 19 years
+est72012sex2_age15to19,Population Estimate (as of July 1) - 2012 - Female; Total - 15 to 19 years
+est72013sex0_age15to19,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 15 to 19 years
+est72013sex1_age15to19,Population Estimate (as of July 1) - 2013 - Male; Total - 15 to 19 years
+est72013sex2_age15to19,Population Estimate (as of July 1) - 2013 - Female; Total - 15 to 19 years
+est72014sex0_age15to19,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 15 to 19 years
+est72014sex1_age15to19,Population Estimate (as of July 1) - 2014 - Male; Total - 15 to 19 years
+est72014sex2_age15to19,Population Estimate (as of July 1) - 2014 - Females; Total - 15 to 19 years
+est72015sex0_age15to19,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 15 to 19 years
+est72015sex1_age15to19,Population Estimate (as of July 1) - 2015 - Male; Total - 15 to 19 years
+est72015sex2_age15to19,Population Estimate (as of July 1) - 2015 - Female; Total - 15 to 19 years
+est72016sex0_age15to19,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 15 to 19 years
+est72016sex1_age15to19,Population Estimate (as of July 1) - 2016 - Male; Total - 15 to 19 years
+est72016sex2_age15to19,Population Estimate (as of July 1) - 2016 - Female; Total - 15 to 19 years
+est72017sex0_age15to19,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 15 to 19 years
+est72017sex1_age15to19,Population Estimate (as of July 1) - 2017 - Male; Total - 15 to 19 years
+est72017sex2_age15to19,Population Estimate (as of July 1) - 2017 - Female; Total - 15 to 19 years
+est72018sex0_age15to19,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 15 to 19 years
+est72018sex1_age15to19,Population Estimate (as of July 1) - 2018 - Male; Total - 15 to 19 years
+est72018sex2_age15to19,Population Estimate (as of July 1) - 2018 - Female; Total - 15 to 19 years
+cen42010sex0_age20to24,"April 1, 2010 - Census - Both Sexes; Total - 20 to 24 years"
+cen42010sex1_age20to24,"April 1, 2010 - Census - Male; Total - 20 to 24 years"
+cen42010sex2_age20to24,"April 1, 2010 - Census - Female; Total - 20 to 24 years"
+est42010sex0_age20to24,"April 1, 2010 - Estimates Base - Both Sexes; Total - 20 to 24 years"
+est42010sex1_age20to24,"April 1, 2010 - Estimates Base - Male; Total - 20 to 24 years"
+est42010sex2_age20to24,"April 1, 2010 - Estimates Base - Female; Total - 20 to 24 years"
+est72010sex0_age20to24,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 20 to 24 years
+est72010sex1_age20to24,Population Estimate (as of July 1) - 2010 - Male; Total - 20 to 24 years
+est72010sex2_age20to24,Population Estimate (as of July 1) - 2010 - Female; Total - 20 to 24 years
+est72011sex0_age20to24,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 20 to 24 years
+est72011sex1_age20to24,Population Estimate (as of July 1) - 2011 - Male; Total - 20 to 24 years
+est72011sex2_age20to24,Population Estimate (as of July 1) - 2011 - Female; Total - 20 to 24 years
+est72012sex0_age20to24,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 20 to 24 years
+est72012sex1_age20to24,Population Estimate (as of July 1) - 2012 - Male; Total - 20 to 24 years
+est72012sex2_age20to24,Population Estimate (as of July 1) - 2012 - Female; Total - 20 to 24 years
+est72013sex0_age20to24,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 20 to 24 years
+est72013sex1_age20to24,Population Estimate (as of July 1) - 2013 - Male; Total - 20 to 24 years
+est72013sex2_age20to24,Population Estimate (as of July 1) - 2013 - Female; Total - 20 to 24 years
+est72014sex0_age20to24,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 20 to 24 years
+est72014sex1_age20to24,Population Estimate (as of July 1) - 2014 - Male; Total - 20 to 24 years
+est72014sex2_age20to24,Population Estimate (as of July 1) - 2014 - Females; Total - 20 to 24 years
+est72015sex0_age20to24,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 20 to 24 years
+est72015sex1_age20to24,Population Estimate (as of July 1) - 2015 - Male; Total - 20 to 24 years
+est72015sex2_age20to24,Population Estimate (as of July 1) - 2015 - Female; Total - 20 to 24 years
+est72016sex0_age20to24,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 20 to 24 years
+est72016sex1_age20to24,Population Estimate (as of July 1) - 2016 - Male; Total - 20 to 24 years
+est72016sex2_age20to24,Population Estimate (as of July 1) - 2016 - Female; Total - 20 to 24 years
+est72017sex0_age20to24,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 20 to 24 years
+est72017sex1_age20to24,Population Estimate (as of July 1) - 2017 - Male; Total - 20 to 24 years
+est72017sex2_age20to24,Population Estimate (as of July 1) - 2017 - Female; Total - 20 to 24 years
+est72018sex0_age20to24,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 20 to 24 years
+est72018sex1_age20to24,Population Estimate (as of July 1) - 2018 - Male; Total - 20 to 24 years
+est72018sex2_age20to24,Population Estimate (as of July 1) - 2018 - Female; Total - 20 to 24 years
+cen42010sex0_age25to29,"April 1, 2010 - Census - Both Sexes; Total - 25 to 29 years"
+cen42010sex1_age25to29,"April 1, 2010 - Census - Male; Total - 25 to 29 years"
+cen42010sex2_age25to29,"April 1, 2010 - Census - Female; Total - 25 to 29 years"
+est42010sex0_age25to29,"April 1, 2010 - Estimates Base - Both Sexes; Total - 25 to 29 years"
+est42010sex1_age25to29,"April 1, 2010 - Estimates Base - Male; Total - 25 to 29 years"
+est42010sex2_age25to29,"April 1, 2010 - Estimates Base - Female; Total - 25 to 29 years"
+est72010sex0_age25to29,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 25 to 29 years
+est72010sex1_age25to29,Population Estimate (as of July 1) - 2010 - Male; Total - 25 to 29 years
+est72010sex2_age25to29,Population Estimate (as of July 1) - 2010 - Female; Total - 25 to 29 years
+est72011sex0_age25to29,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 25 to 29 years
+est72011sex1_age25to29,Population Estimate (as of July 1) - 2011 - Male; Total - 25 to 29 years
+est72011sex2_age25to29,Population Estimate (as of July 1) - 2011 - Female; Total - 25 to 29 years
+est72012sex0_age25to29,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 25 to 29 years
+est72012sex1_age25to29,Population Estimate (as of July 1) - 2012 - Male; Total - 25 to 29 years
+est72012sex2_age25to29,Population Estimate (as of July 1) - 2012 - Female; Total - 25 to 29 years
+est72013sex0_age25to29,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 25 to 29 years
+est72013sex1_age25to29,Population Estimate (as of July 1) - 2013 - Male; Total - 25 to 29 years
+est72013sex2_age25to29,Population Estimate (as of July 1) - 2013 - Female; Total - 25 to 29 years
+est72014sex0_age25to29,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 25 to 29 years
+est72014sex1_age25to29,Population Estimate (as of July 1) - 2014 - Male; Total - 25 to 29 years
+est72014sex2_age25to29,Population Estimate (as of July 1) - 2014 - Females; Total - 25 to 29 years
+est72015sex0_age25to29,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 25 to 29 years
+est72015sex1_age25to29,Population Estimate (as of July 1) - 2015 - Male; Total - 25 to 29 years
+est72015sex2_age25to29,Population Estimate (as of July 1) - 2015 - Female; Total - 25 to 29 years
+est72016sex0_age25to29,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 25 to 29 years
+est72016sex1_age25to29,Population Estimate (as of July 1) - 2016 - Male; Total - 25 to 29 years
+est72016sex2_age25to29,Population Estimate (as of July 1) - 2016 - Female; Total - 25 to 29 years
+est72017sex0_age25to29,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 25 to 29 years
+est72017sex1_age25to29,Population Estimate (as of July 1) - 2017 - Male; Total - 25 to 29 years
+est72017sex2_age25to29,Population Estimate (as of July 1) - 2017 - Female; Total - 25 to 29 years
+est72018sex0_age25to29,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 25 to 29 years
+est72018sex1_age25to29,Population Estimate (as of July 1) - 2018 - Male; Total - 25 to 29 years
+est72018sex2_age25to29,Population Estimate (as of July 1) - 2018 - Female; Total - 25 to 29 years
+cen42010sex0_age30to34,"April 1, 2010 - Census - Both Sexes; Total - 30 to 34 years"
+cen42010sex1_age30to34,"April 1, 2010 - Census - Male; Total - 30 to 34 years"
+cen42010sex2_age30to34,"April 1, 2010 - Census - Female; Total - 30 to 34 years"
+est42010sex0_age30to34,"April 1, 2010 - Estimates Base - Both Sexes; Total - 30 to 34 years"
+est42010sex1_age30to34,"April 1, 2010 - Estimates Base - Male; Total - 30 to 34 years"
+est42010sex2_age30to34,"April 1, 2010 - Estimates Base - Female; Total - 30 to 34 years"
+est72010sex0_age30to34,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 30 to 34 years
+est72010sex1_age30to34,Population Estimate (as of July 1) - 2010 - Male; Total - 30 to 34 years
+est72010sex2_age30to34,Population Estimate (as of July 1) - 2010 - Female; Total - 30 to 34 years
+est72011sex0_age30to34,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 30 to 34 years
+est72011sex1_age30to34,Population Estimate (as of July 1) - 2011 - Male; Total - 30 to 34 years
+est72011sex2_age30to34,Population Estimate (as of July 1) - 2011 - Female; Total - 30 to 34 years
+est72012sex0_age30to34,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 30 to 34 years
+est72012sex1_age30to34,Population Estimate (as of July 1) - 2012 - Male; Total - 30 to 34 years
+est72012sex2_age30to34,Population Estimate (as of July 1) - 2012 - Female; Total - 30 to 34 years
+est72013sex0_age30to34,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 30 to 34 years
+est72013sex1_age30to34,Population Estimate (as of July 1) - 2013 - Male; Total - 30 to 34 years
+est72013sex2_age30to34,Population Estimate (as of July 1) - 2013 - Female; Total - 30 to 34 years
+est72014sex0_age30to34,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 30 to 34 years
+est72014sex1_age30to34,Population Estimate (as of July 1) - 2014 - Male; Total - 30 to 34 years
+est72014sex2_age30to34,Population Estimate (as of July 1) - 2014 - Females; Total - 30 to 34 years
+est72015sex0_age30to34,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 30 to 34 years
+est72015sex1_age30to34,Population Estimate (as of July 1) - 2015 - Male; Total - 30 to 34 years
+est72015sex2_age30to34,Population Estimate (as of July 1) - 2015 - Female; Total - 30 to 34 years
+est72016sex0_age30to34,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 30 to 34 years
+est72016sex1_age30to34,Population Estimate (as of July 1) - 2016 - Male; Total - 30 to 34 years
+est72016sex2_age30to34,Population Estimate (as of July 1) - 2016 - Female; Total - 30 to 34 years
+est72017sex0_age30to34,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 30 to 34 years
+est72017sex1_age30to34,Population Estimate (as of July 1) - 2017 - Male; Total - 30 to 34 years
+est72017sex2_age30to34,Population Estimate (as of July 1) - 2017 - Female; Total - 30 to 34 years
+est72018sex0_age30to34,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 30 to 34 years
+est72018sex1_age30to34,Population Estimate (as of July 1) - 2018 - Male; Total - 30 to 34 years
+est72018sex2_age30to34,Population Estimate (as of July 1) - 2018 - Female; Total - 30 to 34 years
+cen42010sex0_age35to39,"April 1, 2010 - Census - Both Sexes; Total - 35 to 39 years"
+cen42010sex1_age35to39,"April 1, 2010 - Census - Male; Total - 35 to 39 years"
+cen42010sex2_age35to39,"April 1, 2010 - Census - Female; Total - 35 to 39 years"
+est42010sex0_age35to39,"April 1, 2010 - Estimates Base - Both Sexes; Total - 35 to 39 years"
+est42010sex1_age35to39,"April 1, 2010 - Estimates Base - Male; Total - 35 to 39 years"
+est42010sex2_age35to39,"April 1, 2010 - Estimates Base - Female; Total - 35 to 39 years"
+est72010sex0_age35to39,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 35 to 39 years
+est72010sex1_age35to39,Population Estimate (as of July 1) - 2010 - Male; Total - 35 to 39 years
+est72010sex2_age35to39,Population Estimate (as of July 1) - 2010 - Female; Total - 35 to 39 years
+est72011sex0_age35to39,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 35 to 39 years
+est72011sex1_age35to39,Population Estimate (as of July 1) - 2011 - Male; Total - 35 to 39 years
+est72011sex2_age35to39,Population Estimate (as of July 1) - 2011 - Female; Total - 35 to 39 years
+est72012sex0_age35to39,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 35 to 39 years
+est72012sex1_age35to39,Population Estimate (as of July 1) - 2012 - Male; Total - 35 to 39 years
+est72012sex2_age35to39,Population Estimate (as of July 1) - 2012 - Female; Total - 35 to 39 years
+est72013sex0_age35to39,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 35 to 39 years
+est72013sex1_age35to39,Population Estimate (as of July 1) - 2013 - Male; Total - 35 to 39 years
+est72013sex2_age35to39,Population Estimate (as of July 1) - 2013 - Female; Total - 35 to 39 years
+est72014sex0_age35to39,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 35 to 39 years
+est72014sex1_age35to39,Population Estimate (as of July 1) - 2014 - Male; Total - 35 to 39 years
+est72014sex2_age35to39,Population Estimate (as of July 1) - 2014 - Females; Total - 35 to 39 years
+est72015sex0_age35to39,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 35 to 39 years
+est72015sex1_age35to39,Population Estimate (as of July 1) - 2015 - Male; Total - 35 to 39 years
+est72015sex2_age35to39,Population Estimate (as of July 1) - 2015 - Female; Total - 35 to 39 years
+est72016sex0_age35to39,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 35 to 39 years
+est72016sex1_age35to39,Population Estimate (as of July 1) - 2016 - Male; Total - 35 to 39 years
+est72016sex2_age35to39,Population Estimate (as of July 1) - 2016 - Female; Total - 35 to 39 years
+est72017sex0_age35to39,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 35 to 39 years
+est72017sex1_age35to39,Population Estimate (as of July 1) - 2017 - Male; Total - 35 to 39 years
+est72017sex2_age35to39,Population Estimate (as of July 1) - 2017 - Female; Total - 35 to 39 years
+est72018sex0_age35to39,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 35 to 39 years
+est72018sex1_age35to39,Population Estimate (as of July 1) - 2018 - Male; Total - 35 to 39 years
+est72018sex2_age35to39,Population Estimate (as of July 1) - 2018 - Female; Total - 35 to 39 years
+cen42010sex0_age40to44,"April 1, 2010 - Census - Both Sexes; Total - 40 to 44 years"
+cen42010sex1_age40to44,"April 1, 2010 - Census - Male; Total - 40 to 44 years"
+cen42010sex2_age40to44,"April 1, 2010 - Census - Female; Total - 40 to 44 years"
+est42010sex0_age40to44,"April 1, 2010 - Estimates Base - Both Sexes; Total - 40 to 44 years"
+est42010sex1_age40to44,"April 1, 2010 - Estimates Base - Male; Total - 40 to 44 years"
+est42010sex2_age40to44,"April 1, 2010 - Estimates Base - Female; Total - 40 to 44 years"
+est72010sex0_age40to44,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 40 to 44 years
+est72010sex1_age40to44,Population Estimate (as of July 1) - 2010 - Male; Total - 40 to 44 years
+est72010sex2_age40to44,Population Estimate (as of July 1) - 2010 - Female; Total - 40 to 44 years
+est72011sex0_age40to44,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 40 to 44 years
+est72011sex1_age40to44,Population Estimate (as of July 1) - 2011 - Male; Total - 40 to 44 years
+est72011sex2_age40to44,Population Estimate (as of July 1) - 2011 - Female; Total - 40 to 44 years
+est72012sex0_age40to44,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 40 to 44 years
+est72012sex1_age40to44,Population Estimate (as of July 1) - 2012 - Male; Total - 40 to 44 years
+est72012sex2_age40to44,Population Estimate (as of July 1) - 2012 - Female; Total - 40 to 44 years
+est72013sex0_age40to44,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 40 to 44 years
+est72013sex1_age40to44,Population Estimate (as of July 1) - 2013 - Male; Total - 40 to 44 years
+est72013sex2_age40to44,Population Estimate (as of July 1) - 2013 - Female; Total - 40 to 44 years
+est72014sex0_age40to44,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 40 to 44 years
+est72014sex1_age40to44,Population Estimate (as of July 1) - 2014 - Male; Total - 40 to 44 years
+est72014sex2_age40to44,Population Estimate (as of July 1) - 2014 - Females; Total - 40 to 44 years
+est72015sex0_age40to44,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 40 to 44 years
+est72015sex1_age40to44,Population Estimate (as of July 1) - 2015 - Male; Total - 40 to 44 years
+est72015sex2_age40to44,Population Estimate (as of July 1) - 2015 - Female; Total - 40 to 44 years
+est72016sex0_age40to44,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 40 to 44 years
+est72016sex1_age40to44,Population Estimate (as of July 1) - 2016 - Male; Total - 40 to 44 years
+est72016sex2_age40to44,Population Estimate (as of July 1) - 2016 - Female; Total - 40 to 44 years
+est72017sex0_age40to44,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 40 to 44 years
+est72017sex1_age40to44,Population Estimate (as of July 1) - 2017 - Male; Total - 40 to 44 years
+est72017sex2_age40to44,Population Estimate (as of July 1) - 2017 - Female; Total - 40 to 44 years
+est72018sex0_age40to44,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 40 to 44 years
+est72018sex1_age40to44,Population Estimate (as of July 1) - 2018 - Male; Total - 40 to 44 years
+est72018sex2_age40to44,Population Estimate (as of July 1) - 2018 - Female; Total - 40 to 44 years
+cen42010sex0_age45to49,"April 1, 2010 - Census - Both Sexes; Total - 45 to 49 years"
+cen42010sex1_age45to49,"April 1, 2010 - Census - Male; Total - 45 to 49 years"
+cen42010sex2_age45to49,"April 1, 2010 - Census - Female; Total - 45 to 49 years"
+est42010sex0_age45to49,"April 1, 2010 - Estimates Base - Both Sexes; Total - 45 to 49 years"
+est42010sex1_age45to49,"April 1, 2010 - Estimates Base - Male; Total - 45 to 49 years"
+est42010sex2_age45to49,"April 1, 2010 - Estimates Base - Female; Total - 45 to 49 years"
+est72010sex0_age45to49,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 45 to 49 years
+est72010sex1_age45to49,Population Estimate (as of July 1) - 2010 - Male; Total - 45 to 49 years
+est72010sex2_age45to49,Population Estimate (as of July 1) - 2010 - Female; Total - 45 to 49 years
+est72011sex0_age45to49,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 45 to 49 years
+est72011sex1_age45to49,Population Estimate (as of July 1) - 2011 - Male; Total - 45 to 49 years
+est72011sex2_age45to49,Population Estimate (as of July 1) - 2011 - Female; Total - 45 to 49 years
+est72012sex0_age45to49,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 45 to 49 years
+est72012sex1_age45to49,Population Estimate (as of July 1) - 2012 - Male; Total - 45 to 49 years
+est72012sex2_age45to49,Population Estimate (as of July 1) - 2012 - Female; Total - 45 to 49 years
+est72013sex0_age45to49,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 45 to 49 years
+est72013sex1_age45to49,Population Estimate (as of July 1) - 2013 - Male; Total - 45 to 49 years
+est72013sex2_age45to49,Population Estimate (as of July 1) - 2013 - Female; Total - 45 to 49 years
+est72014sex0_age45to49,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 45 to 49 years
+est72014sex1_age45to49,Population Estimate (as of July 1) - 2014 - Male; Total - 45 to 49 years
+est72014sex2_age45to49,Population Estimate (as of July 1) - 2014 - Females; Total - 45 to 49 years
+est72015sex0_age45to49,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 45 to 49 years
+est72015sex1_age45to49,Population Estimate (as of July 1) - 2015 - Male; Total - 45 to 49 years
+est72015sex2_age45to49,Population Estimate (as of July 1) - 2015 - Female; Total - 45 to 49 years
+est72016sex0_age45to49,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 45 to 49 years
+est72016sex1_age45to49,Population Estimate (as of July 1) - 2016 - Male; Total - 45 to 49 years
+est72016sex2_age45to49,Population Estimate (as of July 1) - 2016 - Female; Total - 45 to 49 years
+est72017sex0_age45to49,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 45 to 49 years
+est72017sex1_age45to49,Population Estimate (as of July 1) - 2017 - Male; Total - 45 to 49 years
+est72017sex2_age45to49,Population Estimate (as of July 1) - 2017 - Female; Total - 45 to 49 years
+est72018sex0_age45to49,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 45 to 49 years
+est72018sex1_age45to49,Population Estimate (as of July 1) - 2018 - Male; Total - 45 to 49 years
+est72018sex2_age45to49,Population Estimate (as of July 1) - 2018 - Female; Total - 45 to 49 years
+cen42010sex0_age50to54,"April 1, 2010 - Census - Both Sexes; Total - 50 to 54 years"
+cen42010sex1_age50to54,"April 1, 2010 - Census - Male; Total - 50 to 54 years"
+cen42010sex2_age50to54,"April 1, 2010 - Census - Female; Total - 50 to 54 years"
+est42010sex0_age50to54,"April 1, 2010 - Estimates Base - Both Sexes; Total - 50 to 54 years"
+est42010sex1_age50to54,"April 1, 2010 - Estimates Base - Male; Total - 50 to 54 years"
+est42010sex2_age50to54,"April 1, 2010 - Estimates Base - Female; Total - 50 to 54 years"
+est72010sex0_age50to54,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 50 to 54 years
+est72010sex1_age50to54,Population Estimate (as of July 1) - 2010 - Male; Total - 50 to 54 years
+est72010sex2_age50to54,Population Estimate (as of July 1) - 2010 - Female; Total - 50 to 54 years
+est72011sex0_age50to54,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 50 to 54 years
+est72011sex1_age50to54,Population Estimate (as of July 1) - 2011 - Male; Total - 50 to 54 years
+est72011sex2_age50to54,Population Estimate (as of July 1) - 2011 - Female; Total - 50 to 54 years
+est72012sex0_age50to54,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 50 to 54 years
+est72012sex1_age50to54,Population Estimate (as of July 1) - 2012 - Male; Total - 50 to 54 years
+est72012sex2_age50to54,Population Estimate (as of July 1) - 2012 - Female; Total - 50 to 54 years
+est72013sex0_age50to54,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 50 to 54 years
+est72013sex1_age50to54,Population Estimate (as of July 1) - 2013 - Male; Total - 50 to 54 years
+est72013sex2_age50to54,Population Estimate (as of July 1) - 2013 - Female; Total - 50 to 54 years
+est72014sex0_age50to54,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 50 to 54 years
+est72014sex1_age50to54,Population Estimate (as of July 1) - 2014 - Male; Total - 50 to 54 years
+est72014sex2_age50to54,Population Estimate (as of July 1) - 2014 - Females; Total - 50 to 54 years
+est72015sex0_age50to54,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 50 to 54 years
+est72015sex1_age50to54,Population Estimate (as of July 1) - 2015 - Male; Total - 50 to 54 years
+est72015sex2_age50to54,Population Estimate (as of July 1) - 2015 - Female; Total - 50 to 54 years
+est72016sex0_age50to54,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 50 to 54 years
+est72016sex1_age50to54,Population Estimate (as of July 1) - 2016 - Male; Total - 50 to 54 years
+est72016sex2_age50to54,Population Estimate (as of July 1) - 2016 - Female; Total - 50 to 54 years
+est72017sex0_age50to54,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 50 to 54 years
+est72017sex1_age50to54,Population Estimate (as of July 1) - 2017 - Male; Total - 50 to 54 years
+est72017sex2_age50to54,Population Estimate (as of July 1) - 2017 - Female; Total - 50 to 54 years
+est72018sex0_age50to54,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 50 to 54 years
+est72018sex1_age50to54,Population Estimate (as of July 1) - 2018 - Male; Total - 50 to 54 years
+est72018sex2_age50to54,Population Estimate (as of July 1) - 2018 - Female; Total - 50 to 54 years
+cen42010sex0_age55to59,"April 1, 2010 - Census - Both Sexes; Total - 55 to 59 years"
+cen42010sex1_age55to59,"April 1, 2010 - Census - Male; Total - 55 to 59 years"
+cen42010sex2_age55to59,"April 1, 2010 - Census - Female; Total - 55 to 59 years"
+est42010sex0_age55to59,"April 1, 2010 - Estimates Base - Both Sexes; Total - 55 to 59 years"
+est42010sex1_age55to59,"April 1, 2010 - Estimates Base - Male; Total - 55 to 59 years"
+est42010sex2_age55to59,"April 1, 2010 - Estimates Base - Female; Total - 55 to 59 years"
+est72010sex0_age55to59,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 55 to 59 years
+est72010sex1_age55to59,Population Estimate (as of July 1) - 2010 - Male; Total - 55 to 59 years
+est72010sex2_age55to59,Population Estimate (as of July 1) - 2010 - Female; Total - 55 to 59 years
+est72011sex0_age55to59,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 55 to 59 years
+est72011sex1_age55to59,Population Estimate (as of July 1) - 2011 - Male; Total - 55 to 59 years
+est72011sex2_age55to59,Population Estimate (as of July 1) - 2011 - Female; Total - 55 to 59 years
+est72012sex0_age55to59,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 55 to 59 years
+est72012sex1_age55to59,Population Estimate (as of July 1) - 2012 - Male; Total - 55 to 59 years
+est72012sex2_age55to59,Population Estimate (as of July 1) - 2012 - Female; Total - 55 to 59 years
+est72013sex0_age55to59,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 55 to 59 years
+est72013sex1_age55to59,Population Estimate (as of July 1) - 2013 - Male; Total - 55 to 59 years
+est72013sex2_age55to59,Population Estimate (as of July 1) - 2013 - Female; Total - 55 to 59 years
+est72014sex0_age55to59,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 55 to 59 years
+est72014sex1_age55to59,Population Estimate (as of July 1) - 2014 - Male; Total - 55 to 59 years
+est72014sex2_age55to59,Population Estimate (as of July 1) - 2014 - Females; Total - 55 to 59 years
+est72015sex0_age55to59,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 55 to 59 years
+est72015sex1_age55to59,Population Estimate (as of July 1) - 2015 - Male; Total - 55 to 59 years
+est72015sex2_age55to59,Population Estimate (as of July 1) - 2015 - Female; Total - 55 to 59 years
+est72016sex0_age55to59,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 55 to 59 years
+est72016sex1_age55to59,Population Estimate (as of July 1) - 2016 - Male; Total - 55 to 59 years
+est72016sex2_age55to59,Population Estimate (as of July 1) - 2016 - Female; Total - 55 to 59 years
+est72017sex0_age55to59,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 55 to 59 years
+est72017sex1_age55to59,Population Estimate (as of July 1) - 2017 - Male; Total - 55 to 59 years
+est72017sex2_age55to59,Population Estimate (as of July 1) - 2017 - Female; Total - 55 to 59 years
+est72018sex0_age55to59,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 55 to 59 years
+est72018sex1_age55to59,Population Estimate (as of July 1) - 2018 - Male; Total - 55 to 59 years
+est72018sex2_age55to59,Population Estimate (as of July 1) - 2018 - Female; Total - 55 to 59 years
+cen42010sex0_age60to64,"April 1, 2010 - Census - Both Sexes; Total - 60 to 64 years"
+cen42010sex1_age60to64,"April 1, 2010 - Census - Male; Total - 60 to 64 years"
+cen42010sex2_age60to64,"April 1, 2010 - Census - Female; Total - 60 to 64 years"
+est42010sex0_age60to64,"April 1, 2010 - Estimates Base - Both Sexes; Total - 60 to 64 years"
+est42010sex1_age60to64,"April 1, 2010 - Estimates Base - Male; Total - 60 to 64 years"
+est42010sex2_age60to64,"April 1, 2010 - Estimates Base - Female; Total - 60 to 64 years"
+est72010sex0_age60to64,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 60 to 64 years
+est72010sex1_age60to64,Population Estimate (as of July 1) - 2010 - Male; Total - 60 to 64 years
+est72010sex2_age60to64,Population Estimate (as of July 1) - 2010 - Female; Total - 60 to 64 years
+est72011sex0_age60to64,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 60 to 64 years
+est72011sex1_age60to64,Population Estimate (as of July 1) - 2011 - Male; Total - 60 to 64 years
+est72011sex2_age60to64,Population Estimate (as of July 1) - 2011 - Female; Total - 60 to 64 years
+est72012sex0_age60to64,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 60 to 64 years
+est72012sex1_age60to64,Population Estimate (as of July 1) - 2012 - Male; Total - 60 to 64 years
+est72012sex2_age60to64,Population Estimate (as of July 1) - 2012 - Female; Total - 60 to 64 years
+est72013sex0_age60to64,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 60 to 64 years
+est72013sex1_age60to64,Population Estimate (as of July 1) - 2013 - Male; Total - 60 to 64 years
+est72013sex2_age60to64,Population Estimate (as of July 1) - 2013 - Female; Total - 60 to 64 years
+est72014sex0_age60to64,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 60 to 64 years
+est72014sex1_age60to64,Population Estimate (as of July 1) - 2014 - Male; Total - 60 to 64 years
+est72014sex2_age60to64,Population Estimate (as of July 1) - 2014 - Females; Total - 60 to 64 years
+est72015sex0_age60to64,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 60 to 64 years
+est72015sex1_age60to64,Population Estimate (as of July 1) - 2015 - Male; Total - 60 to 64 years
+est72015sex2_age60to64,Population Estimate (as of July 1) - 2015 - Female; Total - 60 to 64 years
+est72016sex0_age60to64,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 60 to 64 years
+est72016sex1_age60to64,Population Estimate (as of July 1) - 2016 - Male; Total - 60 to 64 years
+est72016sex2_age60to64,Population Estimate (as of July 1) - 2016 - Female; Total - 60 to 64 years
+est72017sex0_age60to64,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 60 to 64 years
+est72017sex1_age60to64,Population Estimate (as of July 1) - 2017 - Male; Total - 60 to 64 years
+est72017sex2_age60to64,Population Estimate (as of July 1) - 2017 - Female; Total - 60 to 64 years
+est72018sex0_age60to64,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 60 to 64 years
+est72018sex1_age60to64,Population Estimate (as of July 1) - 2018 - Male; Total - 60 to 64 years
+est72018sex2_age60to64,Population Estimate (as of July 1) - 2018 - Female; Total - 60 to 64 years
+cen42010sex0_age65to69,"April 1, 2010 - Census - Both Sexes; Total - 65 to 69 years"
+cen42010sex1_age65to69,"April 1, 2010 - Census - Male; Total - 65 to 69 years"
+cen42010sex2_age65to69,"April 1, 2010 - Census - Female; Total - 65 to 69 years"
+est42010sex0_age65to69,"April 1, 2010 - Estimates Base - Both Sexes; Total - 65 to 69 years"
+est42010sex1_age65to69,"April 1, 2010 - Estimates Base - Male; Total - 65 to 69 years"
+est42010sex2_age65to69,"April 1, 2010 - Estimates Base - Female; Total - 65 to 69 years"
+est72010sex0_age65to69,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 65 to 69 years
+est72010sex1_age65to69,Population Estimate (as of July 1) - 2010 - Male; Total - 65 to 69 years
+est72010sex2_age65to69,Population Estimate (as of July 1) - 2010 - Female; Total - 65 to 69 years
+est72011sex0_age65to69,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 65 to 69 years
+est72011sex1_age65to69,Population Estimate (as of July 1) - 2011 - Male; Total - 65 to 69 years
+est72011sex2_age65to69,Population Estimate (as of July 1) - 2011 - Female; Total - 65 to 69 years
+est72012sex0_age65to69,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 65 to 69 years
+est72012sex1_age65to69,Population Estimate (as of July 1) - 2012 - Male; Total - 65 to 69 years
+est72012sex2_age65to69,Population Estimate (as of July 1) - 2012 - Female; Total - 65 to 69 years
+est72013sex0_age65to69,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 65 to 69 years
+est72013sex1_age65to69,Population Estimate (as of July 1) - 2013 - Male; Total - 65 to 69 years
+est72013sex2_age65to69,Population Estimate (as of July 1) - 2013 - Female; Total - 65 to 69 years
+est72014sex0_age65to69,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 65 to 69 years
+est72014sex1_age65to69,Population Estimate (as of July 1) - 2014 - Male; Total - 65 to 69 years
+est72014sex2_age65to69,Population Estimate (as of July 1) - 2014 - Females; Total - 65 to 69 years
+est72015sex0_age65to69,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 65 to 69 years
+est72015sex1_age65to69,Population Estimate (as of July 1) - 2015 - Male; Total - 65 to 69 years
+est72015sex2_age65to69,Population Estimate (as of July 1) - 2015 - Female; Total - 65 to 69 years
+est72016sex0_age65to69,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 65 to 69 years
+est72016sex1_age65to69,Population Estimate (as of July 1) - 2016 - Male; Total - 65 to 69 years
+est72016sex2_age65to69,Population Estimate (as of July 1) - 2016 - Female; Total - 65 to 69 years
+est72017sex0_age65to69,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 65 to 69 years
+est72017sex1_age65to69,Population Estimate (as of July 1) - 2017 - Male; Total - 65 to 69 years
+est72017sex2_age65to69,Population Estimate (as of July 1) - 2017 - Female; Total - 65 to 69 years
+est72018sex0_age65to69,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 65 to 69 years
+est72018sex1_age65to69,Population Estimate (as of July 1) - 2018 - Male; Total - 65 to 69 years
+est72018sex2_age65to69,Population Estimate (as of July 1) - 2018 - Female; Total - 65 to 69 years
+cen42010sex0_age70to74,"April 1, 2010 - Census - Both Sexes; Total - 70 to 74 years"
+cen42010sex1_age70to74,"April 1, 2010 - Census - Male; Total - 70 to 74 years"
+cen42010sex2_age70to74,"April 1, 2010 - Census - Female; Total - 70 to 74 years"
+est42010sex0_age70to74,"April 1, 2010 - Estimates Base - Both Sexes; Total - 70 to 74 years"
+est42010sex1_age70to74,"April 1, 2010 - Estimates Base - Male; Total - 70 to 74 years"
+est42010sex2_age70to74,"April 1, 2010 - Estimates Base - Female; Total - 70 to 74 years"
+est72010sex0_age70to74,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 70 to 74 years
+est72010sex1_age70to74,Population Estimate (as of July 1) - 2010 - Male; Total - 70 to 74 years
+est72010sex2_age70to74,Population Estimate (as of July 1) - 2010 - Female; Total - 70 to 74 years
+est72011sex0_age70to74,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 70 to 74 years
+est72011sex1_age70to74,Population Estimate (as of July 1) - 2011 - Male; Total - 70 to 74 years
+est72011sex2_age70to74,Population Estimate (as of July 1) - 2011 - Female; Total - 70 to 74 years
+est72012sex0_age70to74,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 70 to 74 years
+est72012sex1_age70to74,Population Estimate (as of July 1) - 2012 - Male; Total - 70 to 74 years
+est72012sex2_age70to74,Population Estimate (as of July 1) - 2012 - Female; Total - 70 to 74 years
+est72013sex0_age70to74,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 70 to 74 years
+est72013sex1_age70to74,Population Estimate (as of July 1) - 2013 - Male; Total - 70 to 74 years
+est72013sex2_age70to74,Population Estimate (as of July 1) - 2013 - Female; Total - 70 to 74 years
+est72014sex0_age70to74,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 70 to 74 years
+est72014sex1_age70to74,Population Estimate (as of July 1) - 2014 - Male; Total - 70 to 74 years
+est72014sex2_age70to74,Population Estimate (as of July 1) - 2014 - Females; Total - 70 to 74 years
+est72015sex0_age70to74,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 70 to 74 years
+est72015sex1_age70to74,Population Estimate (as of July 1) - 2015 - Male; Total - 70 to 74 years
+est72015sex2_age70to74,Population Estimate (as of July 1) - 2015 - Female; Total - 70 to 74 years
+est72016sex0_age70to74,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 70 to 74 years
+est72016sex1_age70to74,Population Estimate (as of July 1) - 2016 - Male; Total - 70 to 74 years
+est72016sex2_age70to74,Population Estimate (as of July 1) - 2016 - Female; Total - 70 to 74 years
+est72017sex0_age70to74,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 70 to 74 years
+est72017sex1_age70to74,Population Estimate (as of July 1) - 2017 - Male; Total - 70 to 74 years
+est72017sex2_age70to74,Population Estimate (as of July 1) - 2017 - Female; Total - 70 to 74 years
+est72018sex0_age70to74,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 70 to 74 years
+est72018sex1_age70to74,Population Estimate (as of July 1) - 2018 - Male; Total - 70 to 74 years
+est72018sex2_age70to74,Population Estimate (as of July 1) - 2018 - Female; Total - 70 to 74 years
+cen42010sex0_age75to79,"April 1, 2010 - Census - Both Sexes; Total - 75 to 79 years"
+cen42010sex1_age75to79,"April 1, 2010 - Census - Male; Total - 75 to 79 years"
+cen42010sex2_age75to79,"April 1, 2010 - Census - Female; Total - 75 to 79 years"
+est42010sex0_age75to79,"April 1, 2010 - Estimates Base - Both Sexes; Total - 75 to 79 years"
+est42010sex1_age75to79,"April 1, 2010 - Estimates Base - Male; Total - 75 to 79 years"
+est42010sex2_age75to79,"April 1, 2010 - Estimates Base - Female; Total - 75 to 79 years"
+est72010sex0_age75to79,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 75 to 79 years
+est72010sex1_age75to79,Population Estimate (as of July 1) - 2010 - Male; Total - 75 to 79 years
+est72010sex2_age75to79,Population Estimate (as of July 1) - 2010 - Female; Total - 75 to 79 years
+est72011sex0_age75to79,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 75 to 79 years
+est72011sex1_age75to79,Population Estimate (as of July 1) - 2011 - Male; Total - 75 to 79 years
+est72011sex2_age75to79,Population Estimate (as of July 1) - 2011 - Female; Total - 75 to 79 years
+est72012sex0_age75to79,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 75 to 79 years
+est72012sex1_age75to79,Population Estimate (as of July 1) - 2012 - Male; Total - 75 to 79 years
+est72012sex2_age75to79,Population Estimate (as of July 1) - 2012 - Female; Total - 75 to 79 years
+est72013sex0_age75to79,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 75 to 79 years
+est72013sex1_age75to79,Population Estimate (as of July 1) - 2013 - Male; Total - 75 to 79 years
+est72013sex2_age75to79,Population Estimate (as of July 1) - 2013 - Female; Total - 75 to 79 years
+est72014sex0_age75to79,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 75 to 79 years
+est72014sex1_age75to79,Population Estimate (as of July 1) - 2014 - Male; Total - 75 to 79 years
+est72014sex2_age75to79,Population Estimate (as of July 1) - 2014 - Females; Total - 75 to 79 years
+est72015sex0_age75to79,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 75 to 79 years
+est72015sex1_age75to79,Population Estimate (as of July 1) - 2015 - Male; Total - 75 to 79 years
+est72015sex2_age75to79,Population Estimate (as of July 1) - 2015 - Female; Total - 75 to 79 years
+est72016sex0_age75to79,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 75 to 79 years
+est72016sex1_age75to79,Population Estimate (as of July 1) - 2016 - Male; Total - 75 to 79 years
+est72016sex2_age75to79,Population Estimate (as of July 1) - 2016 - Female; Total - 75 to 79 years
+est72017sex0_age75to79,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 75 to 79 years
+est72017sex1_age75to79,Population Estimate (as of July 1) - 2017 - Male; Total - 75 to 79 years
+est72017sex2_age75to79,Population Estimate (as of July 1) - 2017 - Female; Total - 75 to 79 years
+est72018sex0_age75to79,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 75 to 79 years
+est72018sex1_age75to79,Population Estimate (as of July 1) - 2018 - Male; Total - 75 to 79 years
+est72018sex2_age75to79,Population Estimate (as of July 1) - 2018 - Female; Total - 75 to 79 years
+cen42010sex0_age80to84,"April 1, 2010 - Census - Both Sexes; Total - 80 to 84 years"
+cen42010sex1_age80to84,"April 1, 2010 - Census - Male; Total - 80 to 84 years"
+cen42010sex2_age80to84,"April 1, 2010 - Census - Female; Total - 80 to 84 years"
+est42010sex0_age80to84,"April 1, 2010 - Estimates Base - Both Sexes; Total - 80 to 84 years"
+est42010sex1_age80to84,"April 1, 2010 - Estimates Base - Male; Total - 80 to 84 years"
+est42010sex2_age80to84,"April 1, 2010 - Estimates Base - Female; Total - 80 to 84 years"
+est72010sex0_age80to84,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 80 to 84 years
+est72010sex1_age80to84,Population Estimate (as of July 1) - 2010 - Male; Total - 80 to 84 years
+est72010sex2_age80to84,Population Estimate (as of July 1) - 2010 - Female; Total - 80 to 84 years
+est72011sex0_age80to84,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 80 to 84 years
+est72011sex1_age80to84,Population Estimate (as of July 1) - 2011 - Male; Total - 80 to 84 years
+est72011sex2_age80to84,Population Estimate (as of July 1) - 2011 - Female; Total - 80 to 84 years
+est72012sex0_age80to84,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 80 to 84 years
+est72012sex1_age80to84,Population Estimate (as of July 1) - 2012 - Male; Total - 80 to 84 years
+est72012sex2_age80to84,Population Estimate (as of July 1) - 2012 - Female; Total - 80 to 84 years
+est72013sex0_age80to84,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 80 to 84 years
+est72013sex1_age80to84,Population Estimate (as of July 1) - 2013 - Male; Total - 80 to 84 years
+est72013sex2_age80to84,Population Estimate (as of July 1) - 2013 - Female; Total - 80 to 84 years
+est72014sex0_age80to84,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 80 to 84 years
+est72014sex1_age80to84,Population Estimate (as of July 1) - 2014 - Male; Total - 80 to 84 years
+est72014sex2_age80to84,Population Estimate (as of July 1) - 2014 - Females; Total - 80 to 84 years
+est72015sex0_age80to84,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 80 to 84 years
+est72015sex1_age80to84,Population Estimate (as of July 1) - 2015 - Male; Total - 80 to 84 years
+est72015sex2_age80to84,Population Estimate (as of July 1) - 2015 - Female; Total - 80 to 84 years
+est72016sex0_age80to84,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 80 to 84 years
+est72016sex1_age80to84,Population Estimate (as of July 1) - 2016 - Male; Total - 80 to 84 years
+est72016sex2_age80to84,Population Estimate (as of July 1) - 2016 - Female; Total - 80 to 84 years
+est72017sex0_age80to84,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 80 to 84 years
+est72017sex1_age80to84,Population Estimate (as of July 1) - 2017 - Male; Total - 80 to 84 years
+est72017sex2_age80to84,Population Estimate (as of July 1) - 2017 - Female; Total - 80 to 84 years
+est72018sex0_age80to84,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 80 to 84 years
+est72018sex1_age80to84,Population Estimate (as of July 1) - 2018 - Male; Total - 80 to 84 years
+est72018sex2_age80to84,Population Estimate (as of July 1) - 2018 - Female; Total - 80 to 84 years
+cen42010sex0_age85plus,"April 1, 2010 - Census - Both Sexes; Total - 85 years and over"
+cen42010sex1_age85plus,"April 1, 2010 - Census - Male; Total - 85 years and over"
+cen42010sex2_age85plus,"April 1, 2010 - Census - Female; Total - 85 years and over"
+est42010sex0_age85plus,"April 1, 2010 - Estimates Base - Both Sexes; Total - 85 years and over"
+est42010sex1_age85plus,"April 1, 2010 - Estimates Base - Male; Total - 85 years and over"
+est42010sex2_age85plus,"April 1, 2010 - Estimates Base - Female; Total - 85 years and over"
+est72010sex0_age85plus,Population Estimate (as of July 1) - 2010 - Both Sexes; Total - 85 years and over
+est72010sex1_age85plus,Population Estimate (as of July 1) - 2010 - Male; Total - 85 years and over
+est72010sex2_age85plus,Population Estimate (as of July 1) - 2010 - Female; Total - 85 years and over
+est72011sex0_age85plus,Population Estimate (as of July 1) - 2011 - Both Sexes; Total - 85 years and over
+est72011sex1_age85plus,Population Estimate (as of July 1) - 2011 - Male; Total - 85 years and over
+est72011sex2_age85plus,Population Estimate (as of July 1) - 2011 - Female; Total - 85 years and over
+est72012sex0_age85plus,Population Estimate (as of July 1) - 2012 - Both Sexes; Total - 85 years and over
+est72012sex1_age85plus,Population Estimate (as of July 1) - 2012 - Male; Total - 85 years and over
+est72012sex2_age85plus,Population Estimate (as of July 1) - 2012 - Female; Total - 85 years and over
+est72013sex0_age85plus,Population Estimate (as of July 1) - 2013 - Both Sexes; Total - 85 years and over
+est72013sex1_age85plus,Population Estimate (as of July 1) - 2013 - Male; Total - 85 years and over
+est72013sex2_age85plus,Population Estimate (as of July 1) - 2013 - Female; Total - 85 years and over
+est72014sex0_age85plus,Population Estimate (as of July 1) - 2014 - Both Sexes; Total - 85 years and over
+est72014sex1_age85plus,Population Estimate (as of July 1) - 2014 - Male; Total - 85 years and over
+est72014sex2_age85plus,Population Estimate (as of July 1) - 2014 - Females; Total - 85 years and over
+est72015sex0_age85plus,Population Estimate (as of July 1) - 2015 - Both Sexes; Total - 85 years and over
+est72015sex1_age85plus,Population Estimate (as of July 1) - 2015 - Male; Total - 85 years and over
+est72015sex2_age85plus,Population Estimate (as of July 1) - 2015 - Female; Total - 85 years and over
+est72016sex0_age85plus,Population Estimate (as of July 1) - 2016 - Both Sexes; Total - 85 years and over
+est72016sex1_age85plus,Population Estimate (as of July 1) - 2016 - Male; Total - 85 years and over
+est72016sex2_age85plus,Population Estimate (as of July 1) - 2016 - Female; Total - 85 years and over
+est72017sex0_age85plus,Population Estimate (as of July 1) - 2017 - Both Sexes; Total - 85 years and over
+est72017sex1_age85plus,Population Estimate (as of July 1) - 2017 - Male; Total - 85 years and over
+est72017sex2_age85plus,Population Estimate (as of July 1) - 2017 - Female; Total - 85 years and over
+est72018sex0_age85plus,Population Estimate (as of July 1) - 2018 - Both Sexes; Total - 85 years and over
+est72018sex1_age85plus,Population Estimate (as of July 1) - 2018 - Male; Total - 85 years and over
+est72018sex2_age85plus,Population Estimate (as of July 1) - 2018 - Female; Total - 85 years and over
+cen42010sex0_age0to17,"April 1, 2010 - Census - Both Sexes; Under 18 years"
+cen42010sex1_age0to17,"April 1, 2010 - Census - Male; Under 18 years"
+cen42010sex2_age0to17,"April 1, 2010 - Census - Female; Under 18 years"
+est42010sex0_age0to17,"April 1, 2010 - Estimates Base - Both Sexes; Under 18 years"
+est42010sex1_age0to17,"April 1, 2010 - Estimates Base - Male; Under 18 years"
+est42010sex2_age0to17,"April 1, 2010 - Estimates Base - Female; Under 18 years"
+est72010sex0_age0to17,Population Estimate (as of July 1) - 2010 - Both Sexes; Under 18 years
+est72010sex1_age0to17,Population Estimate (as of July 1) - 2010 - Male; Under 18 years
+est72010sex2_age0to17,Population Estimate (as of July 1) - 2010 - Female; Under 18 years
+est72011sex0_age0to17,Population Estimate (as of July 1) - 2011 - Both Sexes; Under 18 years
+est72011sex1_age0to17,Population Estimate (as of July 1) - 2011 - Male; Under 18 years
+est72011sex2_age0to17,Population Estimate (as of July 1) - 2011 - Female; Under 18 years
+est72012sex0_age0to17,Population Estimate (as of July 1) - 2012 - Both Sexes; Under 18 years
+est72012sex1_age0to17,Population Estimate (as of July 1) - 2012 - Male; Under 18 years
+est72012sex2_age0to17,Population Estimate (as of July 1) - 2012 - Female; Under 18 years
+est72013sex0_age0to17,Population Estimate (as of July 1) - 2013 - Both Sexes; Under 18 years
+est72013sex1_age0to17,Population Estimate (as of July 1) - 2013 - Male; Under 18 years
+est72013sex2_age0to17,Population Estimate (as of July 1) - 2013 - Female; Under 18 years
+est72014sex0_age0to17,Population Estimate (as of July 1) - 2014 - Both Sexes; Under 18 years
+est72014sex1_age0to17,Population Estimate (as of July 1) - 2014 - Male; Under 18 years
+est72014sex2_age0to17,Population Estimate (as of July 1) - 2014 - Females; Under 18 years
+est72015sex0_age0to17,Population Estimate (as of July 1) - 2015 - Both Sexes; Under 18 years
+est72015sex1_age0to17,Population Estimate (as of July 1) - 2015 - Male; Under 18 years
+est72015sex2_age0to17,Population Estimate (as of July 1) - 2015 - Female; Under 18 years
+est72016sex0_age0to17,Population Estimate (as of July 1) - 2016 - Both Sexes; Under 18 years
+est72016sex1_age0to17,Population Estimate (as of July 1) - 2016 - Male; Under 18 years
+est72016sex2_age0to17,Population Estimate (as of July 1) - 2016 - Female; Under 18 years
+est72017sex0_age0to17,Population Estimate (as of July 1) - 2017 - Both Sexes; Under 18 years
+est72017sex1_age0to17,Population Estimate (as of July 1) - 2017 - Male; Under 18 years
+est72017sex2_age0to17,Population Estimate (as of July 1) - 2017 - Female; Under 18 years
+est72018sex0_age0to17,Population Estimate (as of July 1) - 2018 - Both Sexes; Under 18 years
+est72018sex1_age0to17,Population Estimate (as of July 1) - 2018 - Male; Under 18 years
+est72018sex2_age0to17,Population Estimate (as of July 1) - 2018 - Female; Under 18 years
+cen42010sex0_age0to4r,"April 1, 2010 - Census - Both Sexes; Under 18 years - Under 5 years"
+cen42010sex1_age0to4r,"April 1, 2010 - Census - Male; Under 18 years - Under 5 years"
+cen42010sex2_age0to4r,"April 1, 2010 - Census - Female; Under 18 years - Under 5 years"
+est42010sex0_age0to4r,"April 1, 2010 - Estimates Base - Both Sexes; Under 18 years - Under 5 years"
+est42010sex1_age0to4r,"April 1, 2010 - Estimates Base - Male; Under 18 years - Under 5 years"
+est42010sex2_age0to4r,"April 1, 2010 - Estimates Base - Female; Under 18 years - Under 5 years"
+est72010sex0_age0to4r,Population Estimate (as of July 1) - 2010 - Both Sexes; Under 18 years - Under 5 years
+est72010sex1_age0to4r,Population Estimate (as of July 1) - 2010 - Male; Under 18 years - Under 5 years
+est72010sex2_age0to4r,Population Estimate (as of July 1) - 2010 - Female; Under 18 years - Under 5 years
+est72011sex0_age0to4r,Population Estimate (as of July 1) - 2011 - Both Sexes; Under 18 years - Under 5 years
+est72011sex1_age0to4r,Population Estimate (as of July 1) - 2011 - Male; Under 18 years - Under 5 years
+est72011sex2_age0to4r,Population Estimate (as of July 1) - 2011 - Female; Under 18 years - Under 5 years
+est72012sex0_age0to4r,Population Estimate (as of July 1) - 2012 - Both Sexes; Under 18 years - Under 5 years
+est72012sex1_age0to4r,Population Estimate (as of July 1) - 2012 - Male; Under 18 years - Under 5 years
+est72012sex2_age0to4r,Population Estimate (as of July 1) - 2012 - Female; Under 18 years - Under 5 years
+est72013sex0_age0to4r,Population Estimate (as of July 1) - 2013 - Both Sexes; Under 18 years - Under 5 years
+est72013sex1_age0to4r,Population Estimate (as of July 1) - 2013 - Male; Under 18 years - Under 5 years
+est72013sex2_age0to4r,Population Estimate (as of July 1) - 2013 - Female; Under 18 years - Under 5 years
+est72014sex0_age0to4r,Population Estimate (as of July 1) - 2014 - Both Sexes; Under 18 years - Under 5 years
+est72014sex1_age0to4r,Population Estimate (as of July 1) - 2014 - Male; Under 18 years - Under 5 years
+est72014sex2_age0to4r,Population Estimate (as of July 1) - 2014 - Females; Under 18 years - Under 5 years
+est72015sex0_age0to4r,Population Estimate (as of July 1) - 2015 - Both Sexes; Under 18 years - Under 5 years
+est72015sex1_age0to4r,Population Estimate (as of July 1) - 2015 - Male; Under 18 years - Under 5 years
+est72015sex2_age0to4r,Population Estimate (as of July 1) - 2015 - Female; Under 18 years - Under 5 years
+est72016sex0_age0to4r,Population Estimate (as of July 1) - 2016 - Both Sexes; Under 18 years - Under 5 years
+est72016sex1_age0to4r,Population Estimate (as of July 1) - 2016 - Male; Under 18 years - Under 5 years
+est72016sex2_age0to4r,Population Estimate (as of July 1) - 2016 - Female; Under 18 years - Under 5 years
+est72017sex0_age0to4r,Population Estimate (as of July 1) - 2017 - Both Sexes; Under 18 years - Under 5 years
+est72017sex1_age0to4r,Population Estimate (as of July 1) - 2017 - Male; Under 18 years - Under 5 years
+est72017sex2_age0to4r,Population Estimate (as of July 1) - 2017 - Female; Under 18 years - Under 5 years
+est72018sex0_age0to4r,Population Estimate (as of July 1) - 2018 - Both Sexes; Under 18 years - Under 5 years
+est72018sex1_age0to4r,Population Estimate (as of July 1) - 2018 - Male; Under 18 years - Under 5 years
+est72018sex2_age0to4r,Population Estimate (as of July 1) - 2018 - Female; Under 18 years - Under 5 years
+cen42010sex0_age5to13,"April 1, 2010 - Census - Both Sexes; Under 18 years - 5 to 13 years"
+cen42010sex1_age5to13,"April 1, 2010 - Census - Male; Under 18 years - 5 to 13 years"
+cen42010sex2_age5to13,"April 1, 2010 - Census - Female; Under 18 years - 5 to 13 years"
+est42010sex0_age5to13,"April 1, 2010 - Estimates Base - Both Sexes; Under 18 years - 5 to 13 years"
+est42010sex1_age5to13,"April 1, 2010 - Estimates Base - Male; Under 18 years - 5 to 13 years"
+est42010sex2_age5to13,"April 1, 2010 - Estimates Base - Female; Under 18 years - 5 to 13 years"
+est72010sex0_age5to13,Population Estimate (as of July 1) - 2010 - Both Sexes; Under 18 years - 5 to 13 years
+est72010sex1_age5to13,Population Estimate (as of July 1) - 2010 - Male; Under 18 years - 5 to 13 years
+est72010sex2_age5to13,Population Estimate (as of July 1) - 2010 - Female; Under 18 years - 5 to 13 years
+est72011sex0_age5to13,Population Estimate (as of July 1) - 2011 - Both Sexes; Under 18 years - 5 to 13 years
+est72011sex1_age5to13,Population Estimate (as of July 1) - 2011 - Male; Under 18 years - 5 to 13 years
+est72011sex2_age5to13,Population Estimate (as of July 1) - 2011 - Female; Under 18 years - 5 to 13 years
+est72012sex0_age5to13,Population Estimate (as of July 1) - 2012 - Both Sexes; Under 18 years - 5 to 13 years
+est72012sex1_age5to13,Population Estimate (as of July 1) - 2012 - Male; Under 18 years - 5 to 13 years
+est72012sex2_age5to13,Population Estimate (as of July 1) - 2012 - Female; Under 18 years - 5 to 13 years
+est72013sex0_age5to13,Population Estimate (as of July 1) - 2013 - Both Sexes; Under 18 years - 5 to 13 years
+est72013sex1_age5to13,Population Estimate (as of July 1) - 2013 - Male; Under 18 years - 5 to 13 years
+est72013sex2_age5to13,Population Estimate (as of July 1) - 2013 - Female; Under 18 years - 5 to 13 years
+est72014sex0_age5to13,Population Estimate (as of July 1) - 2014 - Both Sexes; Under 18 years - 5 to 13 years
+est72014sex1_age5to13,Population Estimate (as of July 1) - 2014 - Male; Under 18 years - 5 to 13 years
+est72014sex2_age5to13,Population Estimate (as of July 1) - 2014 - Females; Under 18 years - 5 to 13 years
+est72015sex0_age5to13,Population Estimate (as of July 1) - 2015 - Both Sexes; Under 18 years - 5 to 13 years
+est72015sex1_age5to13,Population Estimate (as of July 1) - 2015 - Male; Under 18 years - 5 to 13 years
+est72015sex2_age5to13,Population Estimate (as of July 1) - 2015 - Female; Under 18 years - 5 to 13 years
+est72016sex0_age5to13,Population Estimate (as of July 1) - 2016 - Both Sexes; Under 18 years - 5 to 13 years
+est72016sex1_age5to13,Population Estimate (as of July 1) - 2016 - Male; Under 18 years - 5 to 13 years
+est72016sex2_age5to13,Population Estimate (as of July 1) - 2016 - Female; Under 18 years - 5 to 13 years
+est72017sex0_age5to13,Population Estimate (as of July 1) - 2017 - Both Sexes; Under 18 years - 5 to 13 years
+est72017sex1_age5to13,Population Estimate (as of July 1) - 2017 - Male; Under 18 years - 5 to 13 years
+est72017sex2_age5to13,Population Estimate (as of July 1) - 2017 - Female; Under 18 years - 5 to 13 years
+est72018sex0_age5to13,Population Estimate (as of July 1) - 2018 - Both Sexes; Under 18 years - 5 to 13 years
+est72018sex1_age5to13,Population Estimate (as of July 1) - 2018 - Male; Under 18 years - 5 to 13 years
+est72018sex2_age5to13,Population Estimate (as of July 1) - 2018 - Female; Under 18 years - 5 to 13 years
+cen42010sex0_age14to17,"April 1, 2010 - Census - Both Sexes; Under 18 years - 14 to 17 years"
+cen42010sex1_age14to17,"April 1, 2010 - Census - Male; Under 18 years - 14 to 17 years"
+cen42010sex2_age14to17,"April 1, 2010 - Census - Female; Under 18 years - 14 to 17 years"
+est42010sex0_age14to17,"April 1, 2010 - Estimates Base - Both Sexes; Under 18 years - 14 to 17 years"
+est42010sex1_age14to17,"April 1, 2010 - Estimates Base - Male; Under 18 years - 14 to 17 years"
+est42010sex2_age14to17,"April 1, 2010 - Estimates Base - Female; Under 18 years - 14 to 17 years"
+est72010sex0_age14to17,Population Estimate (as of July 1) - 2010 - Both Sexes; Under 18 years - 14 to 17 years
+est72010sex1_age14to17,Population Estimate (as of July 1) - 2010 - Male; Under 18 years - 14 to 17 years
+est72010sex2_age14to17,Population Estimate (as of July 1) - 2010 - Female; Under 18 years - 14 to 17 years
+est72011sex0_age14to17,Population Estimate (as of July 1) - 2011 - Both Sexes; Under 18 years - 14 to 17 years
+est72011sex1_age14to17,Population Estimate (as of July 1) - 2011 - Male; Under 18 years - 14 to 17 years
+est72011sex2_age14to17,Population Estimate (as of July 1) - 2011 - Female; Under 18 years - 14 to 17 years
+est72012sex0_age14to17,Population Estimate (as of July 1) - 2012 - Both Sexes; Under 18 years - 14 to 17 years
+est72012sex1_age14to17,Population Estimate (as of July 1) - 2012 - Male; Under 18 years - 14 to 17 years
+est72012sex2_age14to17,Population Estimate (as of July 1) - 2012 - Female; Under 18 years - 14 to 17 years
+est72013sex0_age14to17,Population Estimate (as of July 1) - 2013 - Both Sexes; Under 18 years - 14 to 17 years
+est72013sex1_age14to17,Population Estimate (as of July 1) - 2013 - Male; Under 18 years - 14 to 17 years
+est72013sex2_age14to17,Population Estimate (as of July 1) - 2013 - Female; Under 18 years - 14 to 17 years
+est72014sex0_age14to17,Population Estimate (as of July 1) - 2014 - Both Sexes; Under 18 years - 14 to 17 years
+est72014sex1_age14to17,Population Estimate (as of July 1) - 2014 - Male; Under 18 years - 14 to 17 years
+est72014sex2_age14to17,Population Estimate (as of July 1) - 2014 - Females; Under 18 years - 14 to 17 years
+est72015sex0_age14to17,Population Estimate (as of July 1) - 2015 - Both Sexes; Under 18 years - 14 to 17 years
+est72015sex1_age14to17,Population Estimate (as of July 1) - 2015 - Male; Under 18 years - 14 to 17 years
+est72015sex2_age14to17,Population Estimate (as of July 1) - 2015 - Female; Under 18 years - 14 to 17 years
+est72016sex0_age14to17,Population Estimate (as of July 1) - 2016 - Both Sexes; Under 18 years - 14 to 17 years
+est72016sex1_age14to17,Population Estimate (as of July 1) - 2016 - Male; Under 18 years - 14 to 17 years
+est72016sex2_age14to17,Population Estimate (as of July 1) - 2016 - Female; Under 18 years - 14 to 17 years
+est72017sex0_age14to17,Population Estimate (as of July 1) - 2017 - Both Sexes; Under 18 years - 14 to 17 years
+est72017sex1_age14to17,Population Estimate (as of July 1) - 2017 - Male; Under 18 years - 14 to 17 years
+est72017sex2_age14to17,Population Estimate (as of July 1) - 2017 - Female; Under 18 years - 14 to 17 years
+est72018sex0_age14to17,Population Estimate (as of July 1) - 2018 - Both Sexes; Under 18 years - 14 to 17 years
+est72018sex1_age14to17,Population Estimate (as of July 1) - 2018 - Male; Under 18 years - 14 to 17 years
+est72018sex2_age14to17,Population Estimate (as of July 1) - 2018 - Female; Under 18 years - 14 to 17 years
+cen42010sex0_age18to64,"April 1, 2010 - Census - Both Sexes; 18 to 64 years"
+cen42010sex1_age18to64,"April 1, 2010 - Census - Male; 18 to 64 years"
+cen42010sex2_age18to64,"April 1, 2010 - Census - Female; 18 to 64 years"
+est42010sex0_age18to64,"April 1, 2010 - Estimates Base - Both Sexes; 18 to 64 years"
+est42010sex1_age18to64,"April 1, 2010 - Estimates Base - Male; 18 to 64 years"
+est42010sex2_age18to64,"April 1, 2010 - Estimates Base - Female; 18 to 64 years"
+est72010sex0_age18to64,Population Estimate (as of July 1) - 2010 - Both Sexes; 18 to 64 years
+est72010sex1_age18to64,Population Estimate (as of July 1) - 2010 - Male; 18 to 64 years
+est72010sex2_age18to64,Population Estimate (as of July 1) - 2010 - Female; 18 to 64 years
+est72011sex0_age18to64,Population Estimate (as of July 1) - 2011 - Both Sexes; 18 to 64 years
+est72011sex1_age18to64,Population Estimate (as of July 1) - 2011 - Male; 18 to 64 years
+est72011sex2_age18to64,Population Estimate (as of July 1) - 2011 - Female; 18 to 64 years
+est72012sex0_age18to64,Population Estimate (as of July 1) - 2012 - Both Sexes; 18 to 64 years
+est72012sex1_age18to64,Population Estimate (as of July 1) - 2012 - Male; 18 to 64 years
+est72012sex2_age18to64,Population Estimate (as of July 1) - 2012 - Female; 18 to 64 years
+est72013sex0_age18to64,Population Estimate (as of July 1) - 2013 - Both Sexes; 18 to 64 years
+est72013sex1_age18to64,Population Estimate (as of July 1) - 2013 - Male; 18 to 64 years
+est72013sex2_age18to64,Population Estimate (as of July 1) - 2013 - Female; 18 to 64 years
+est72014sex0_age18to64,Population Estimate (as of July 1) - 2014 - Both Sexes; 18 to 64 years
+est72014sex1_age18to64,Population Estimate (as of July 1) - 2014 - Male; 18 to 64 years
+est72014sex2_age18to64,Population Estimate (as of July 1) - 2014 - Females; 18 to 64 years
+est72015sex0_age18to64,Population Estimate (as of July 1) - 2015 - Both Sexes; 18 to 64 years
+est72015sex1_age18to64,Population Estimate (as of July 1) - 2015 - Male; 18 to 64 years
+est72015sex2_age18to64,Population Estimate (as of July 1) - 2015 - Female; 18 to 64 years
+est72016sex0_age18to64,Population Estimate (as of July 1) - 2016 - Both Sexes; 18 to 64 years
+est72016sex1_age18to64,Population Estimate (as of July 1) - 2016 - Male; 18 to 64 years
+est72016sex2_age18to64,Population Estimate (as of July 1) - 2016 - Female; 18 to 64 years
+est72017sex0_age18to64,Population Estimate (as of July 1) - 2017 - Both Sexes; 18 to 64 years
+est72017sex1_age18to64,Population Estimate (as of July 1) - 2017 - Male; 18 to 64 years
+est72017sex2_age18to64,Population Estimate (as of July 1) - 2017 - Female; 18 to 64 years
+est72018sex0_age18to64,Population Estimate (as of July 1) - 2018 - Both Sexes; 18 to 64 years
+est72018sex1_age18to64,Population Estimate (as of July 1) - 2018 - Male; 18 to 64 years
+est72018sex2_age18to64,Population Estimate (as of July 1) - 2018 - Female; 18 to 64 years
+cen42010sex0_age18to24,"April 1, 2010 - Census - Both Sexes; 18 to 64 years - 18 to 24 years"
+cen42010sex1_age18to24,"April 1, 2010 - Census - Male; 18 to 64 years - 18 to 24 years"
+cen42010sex2_age18to24,"April 1, 2010 - Census - Female; 18 to 64 years - 18 to 24 years"
+est42010sex0_age18to24,"April 1, 2010 - Estimates Base - Both Sexes; 18 to 64 years - 18 to 24 years"
+est42010sex1_age18to24,"April 1, 2010 - Estimates Base - Male; 18 to 64 years - 18 to 24 years"
+est42010sex2_age18to24,"April 1, 2010 - Estimates Base - Female; 18 to 64 years - 18 to 24 years"
+est72010sex0_age18to24,Population Estimate (as of July 1) - 2010 - Both Sexes; 18 to 64 years - 18 to 24 years
+est72010sex1_age18to24,Population Estimate (as of July 1) - 2010 - Male; 18 to 64 years - 18 to 24 years
+est72010sex2_age18to24,Population Estimate (as of July 1) - 2010 - Female; 18 to 64 years - 18 to 24 years
+est72011sex0_age18to24,Population Estimate (as of July 1) - 2011 - Both Sexes; 18 to 64 years - 18 to 24 years
+est72011sex1_age18to24,Population Estimate (as of July 1) - 2011 - Male; 18 to 64 years - 18 to 24 years
+est72011sex2_age18to24,Population Estimate (as of July 1) - 2011 - Female; 18 to 64 years - 18 to 24 years
+est72012sex0_age18to24,Population Estimate (as of July 1) - 2012 - Both Sexes; 18 to 64 years - 18 to 24 years
+est72012sex1_age18to24,Population Estimate (as of July 1) - 2012 - Male; 18 to 64 years - 18 to 24 years
+est72012sex2_age18to24,Population Estimate (as of July 1) - 2012 - Female; 18 to 64 years - 18 to 24 years
+est72013sex0_age18to24,Population Estimate (as of July 1) - 2013 - Both Sexes; 18 to 64 years - 18 to 24 years
+est72013sex1_age18to24,Population Estimate (as of July 1) - 2013 - Male; 18 to 64 years - 18 to 24 years
+est72013sex2_age18to24,Population Estimate (as of July 1) - 2013 - Female; 18 to 64 years - 18 to 24 years
+est72014sex0_age18to24,Population Estimate (as of July 1) - 2014 - Both Sexes; 18 to 64 years - 18 to 24 years
+est72014sex1_age18to24,Population Estimate (as of July 1) - 2014 - Male; 18 to 64 years - 18 to 24 years
+est72014sex2_age18to24,Population Estimate (as of July 1) - 2014 - Females; 18 to 64 years - 18 to 24 years
+est72015sex0_age18to24,Population Estimate (as of July 1) - 2015 - Both Sexes; 18 to 64 years - 18 to 24 years
+est72015sex1_age18to24,Population Estimate (as of July 1) - 2015 - Male; 18 to 64 years - 18 to 24 years
+est72015sex2_age18to24,Population Estimate (as of July 1) - 2015 - Female; 18 to 64 years - 18 to 24 years
+est72016sex0_age18to24,Population Estimate (as of July 1) - 2016 - Both Sexes; 18 to 64 years - 18 to 24 years
+est72016sex1_age18to24,Population Estimate (as of July 1) - 2016 - Male; 18 to 64 years - 18 to 24 years
+est72016sex2_age18to24,Population Estimate (as of July 1) - 2016 - Female; 18 to 64 years - 18 to 24 years
+est72017sex0_age18to24,Population Estimate (as of July 1) - 2017 - Both Sexes; 18 to 64 years - 18 to 24 years
+est72017sex1_age18to24,Population Estimate (as of July 1) - 2017 - Male; 18 to 64 years - 18 to 24 years
+est72017sex2_age18to24,Population Estimate (as of July 1) - 2017 - Female; 18 to 64 years - 18 to 24 years
+est72018sex0_age18to24,Population Estimate (as of July 1) - 2018 - Both Sexes; 18 to 64 years - 18 to 24 years
+est72018sex1_age18to24,Population Estimate (as of July 1) - 2018 - Male; 18 to 64 years - 18 to 24 years
+est72018sex2_age18to24,Population Estimate (as of July 1) - 2018 - Female; 18 to 64 years - 18 to 24 years
+cen42010sex0_age25to44,"April 1, 2010 - Census - Both Sexes; 18 to 64 years - 25 to 44 years"
+cen42010sex1_age25to44,"April 1, 2010 - Census - Male; 18 to 64 years - 25 to 44 years"
+cen42010sex2_age25to44,"April 1, 2010 - Census - Female; 18 to 64 years - 25 to 44 years"
+est42010sex0_age25to44,"April 1, 2010 - Estimates Base - Both Sexes; 18 to 64 years - 25 to 44 years"
+est42010sex1_age25to44,"April 1, 2010 - Estimates Base - Male; 18 to 64 years - 25 to 44 years"
+est42010sex2_age25to44,"April 1, 2010 - Estimates Base - Female; 18 to 64 years - 25 to 44 years"
+est72010sex0_age25to44,Population Estimate (as of July 1) - 2010 - Both Sexes; 18 to 64 years - 25 to 44 years
+est72010sex1_age25to44,Population Estimate (as of July 1) - 2010 - Male; 18 to 64 years - 25 to 44 years
+est72010sex2_age25to44,Population Estimate (as of July 1) - 2010 - Female; 18 to 64 years - 25 to 44 years
+est72011sex0_age25to44,Population Estimate (as of July 1) - 2011 - Both Sexes; 18 to 64 years - 25 to 44 years
+est72011sex1_age25to44,Population Estimate (as of July 1) - 2011 - Male; 18 to 64 years - 25 to 44 years
+est72011sex2_age25to44,Population Estimate (as of July 1) - 2011 - Female; 18 to 64 years - 25 to 44 years
+est72012sex0_age25to44,Population Estimate (as of July 1) - 2012 - Both Sexes; 18 to 64 years - 25 to 44 years
+est72012sex1_age25to44,Population Estimate (as of July 1) - 2012 - Male; 18 to 64 years - 25 to 44 years
+est72012sex2_age25to44,Population Estimate (as of July 1) - 2012 - Female; 18 to 64 years - 25 to 44 years
+est72013sex0_age25to44,Population Estimate (as of July 1) - 2013 - Both Sexes; 18 to 64 years - 25 to 44 years
+est72013sex1_age25to44,Population Estimate (as of July 1) - 2013 - Male; 18 to 64 years - 25 to 44 years
+est72013sex2_age25to44,Population Estimate (as of July 1) - 2013 - Female; 18 to 64 years - 25 to 44 years
+est72014sex0_age25to44,Population Estimate (as of July 1) - 2014 - Both Sexes; 18 to 64 years - 25 to 44 years
+est72014sex1_age25to44,Population Estimate (as of July 1) - 2014 - Male; 18 to 64 years - 25 to 44 years
+est72014sex2_age25to44,Population Estimate (as of July 1) - 2014 - Females; 18 to 64 years - 25 to 44 years
+est72015sex0_age25to44,Population Estimate (as of July 1) - 2015 - Both Sexes; 18 to 64 years - 25 to 44 years
+est72015sex1_age25to44,Population Estimate (as of July 1) - 2015 - Male; 18 to 64 years - 25 to 44 years
+est72015sex2_age25to44,Population Estimate (as of July 1) - 2015 - Female; 18 to 64 years - 25 to 44 years
+est72016sex0_age25to44,Population Estimate (as of July 1) - 2016 - Both Sexes; 18 to 64 years - 25 to 44 years
+est72016sex1_age25to44,Population Estimate (as of July 1) - 2016 - Male; 18 to 64 years - 25 to 44 years
+est72016sex2_age25to44,Population Estimate (as of July 1) - 2016 - Female; 18 to 64 years - 25 to 44 years
+est72017sex0_age25to44,Population Estimate (as of July 1) - 2017 - Both Sexes; 18 to 64 years - 25 to 44 years
+est72017sex1_age25to44,Population Estimate (as of July 1) - 2017 - Male; 18 to 64 years - 25 to 44 years
+est72017sex2_age25to44,Population Estimate (as of July 1) - 2017 - Female; 18 to 64 years - 25 to 44 years
+est72018sex0_age25to44,Population Estimate (as of July 1) - 2018 - Both Sexes; 18 to 64 years - 25 to 44 years
+est72018sex1_age25to44,Population Estimate (as of July 1) - 2018 - Male; 18 to 64 years - 25 to 44 years
+est72018sex2_age25to44,Population Estimate (as of July 1) - 2018 - Female; 18 to 64 years - 25 to 44 years
+cen42010sex0_age45to64,"April 1, 2010 - Census - Both Sexes; 18 to 64 years - 45 to 64 years"
+cen42010sex1_age45to64,"April 1, 2010 - Census - Male; 18 to 64 years - 45 to 64 years"
+cen42010sex2_age45to64,"April 1, 2010 - Census - Female; 18 to 64 years - 45 to 64 years"
+est42010sex0_age45to64,"April 1, 2010 - Estimates Base - Both Sexes; 18 to 64 years - 45 to 64 years"
+est42010sex1_age45to64,"April 1, 2010 - Estimates Base - Male; 18 to 64 years - 45 to 64 years"
+est42010sex2_age45to64,"April 1, 2010 - Estimates Base - Female; 18 to 64 years - 45 to 64 years"
+est72010sex0_age45to64,Population Estimate (as of July 1) - 2010 - Both Sexes; 18 to 64 years - 45 to 64 years
+est72010sex1_age45to64,Population Estimate (as of July 1) - 2010 - Male; 18 to 64 years - 45 to 64 years
+est72010sex2_age45to64,Population Estimate (as of July 1) - 2010 - Female; 18 to 64 years - 45 to 64 years
+est72011sex0_age45to64,Population Estimate (as of July 1) - 2011 - Both Sexes; 18 to 64 years - 45 to 64 years
+est72011sex1_age45to64,Population Estimate (as of July 1) - 2011 - Male; 18 to 64 years - 45 to 64 years
+est72011sex2_age45to64,Population Estimate (as of July 1) - 2011 - Female; 18 to 64 years - 45 to 64 years
+est72012sex0_age45to64,Population Estimate (as of July 1) - 2012 - Both Sexes; 18 to 64 years - 45 to 64 years
+est72012sex1_age45to64,Population Estimate (as of July 1) - 2012 - Male; 18 to 64 years - 45 to 64 years
+est72012sex2_age45to64,Population Estimate (as of July 1) - 2012 - Female; 18 to 64 years - 45 to 64 years
+est72013sex0_age45to64,Population Estimate (as of July 1) - 2013 - Both Sexes; 18 to 64 years - 45 to 64 years
+est72013sex1_age45to64,Population Estimate (as of July 1) - 2013 - Male; 18 to 64 years - 45 to 64 years
+est72013sex2_age45to64,Population Estimate (as of July 1) - 2013 - Female; 18 to 64 years - 45 to 64 years
+est72014sex0_age45to64,Population Estimate (as of July 1) - 2014 - Both Sexes; 18 to 64 years - 45 to 64 years
+est72014sex1_age45to64,Population Estimate (as of July 1) - 2014 - Male; 18 to 64 years - 45 to 64 years
+est72014sex2_age45to64,Population Estimate (as of July 1) - 2014 - Females; 18 to 64 years - 45 to 64 years
+est72015sex0_age45to64,Population Estimate (as of July 1) - 2015 - Both Sexes; 18 to 64 years - 45 to 64 years
+est72015sex1_age45to64,Population Estimate (as of July 1) - 2015 - Male; 18 to 64 years - 45 to 64 years
+est72015sex2_age45to64,Population Estimate (as of July 1) - 2015 - Female; 18 to 64 years - 45 to 64 years
+est72016sex0_age45to64,Population Estimate (as of July 1) - 2016 - Both Sexes; 18 to 64 years - 45 to 64 years
+est72016sex1_age45to64,Population Estimate (as of July 1) - 2016 - Male; 18 to 64 years - 45 to 64 years
+est72016sex2_age45to64,Population Estimate (as of July 1) - 2016 - Female; 18 to 64 years - 45 to 64 years
+est72017sex0_age45to64,Population Estimate (as of July 1) - 2017 - Both Sexes; 18 to 64 years - 45 to 64 years
+est72017sex1_age45to64,Population Estimate (as of July 1) - 2017 - Male; 18 to 64 years - 45 to 64 years
+est72017sex2_age45to64,Population Estimate (as of July 1) - 2017 - Female; 18 to 64 years - 45 to 64 years
+est72018sex0_age45to64,Population Estimate (as of July 1) - 2018 - Both Sexes; 18 to 64 years - 45 to 64 years
+est72018sex1_age45to64,Population Estimate (as of July 1) - 2018 - Male; 18 to 64 years - 45 to 64 years
+est72018sex2_age45to64,Population Estimate (as of July 1) - 2018 - Female; 18 to 64 years - 45 to 64 years
+cen42010sex0_age65plus,"April 1, 2010 - Census - Both Sexes; 65 years and over"
+cen42010sex1_age65plus,"April 1, 2010 - Census - Male; 65 years and over"
+cen42010sex2_age65plus,"April 1, 2010 - Census - Female; 65 years and over"
+est42010sex0_age65plus,"April 1, 2010 - Estimates Base - Both Sexes; 65 years and over"
+est42010sex1_age65plus,"April 1, 2010 - Estimates Base - Male; 65 years and over"
+est42010sex2_age65plus,"April 1, 2010 - Estimates Base - Female; 65 years and over"
+est72010sex0_age65plus,Population Estimate (as of July 1) - 2010 - Both Sexes; 65 years and over
+est72010sex1_age65plus,Population Estimate (as of July 1) - 2010 - Male; 65 years and over
+est72010sex2_age65plus,Population Estimate (as of July 1) - 2010 - Female; 65 years and over
+est72011sex0_age65plus,Population Estimate (as of July 1) - 2011 - Both Sexes; 65 years and over
+est72011sex1_age65plus,Population Estimate (as of July 1) - 2011 - Male; 65 years and over
+est72011sex2_age65plus,Population Estimate (as of July 1) - 2011 - Female; 65 years and over
+est72012sex0_age65plus,Population Estimate (as of July 1) - 2012 - Both Sexes; 65 years and over
+est72012sex1_age65plus,Population Estimate (as of July 1) - 2012 - Male; 65 years and over
+est72012sex2_age65plus,Population Estimate (as of July 1) - 2012 - Female; 65 years and over
+est72013sex0_age65plus,Population Estimate (as of July 1) - 2013 - Both Sexes; 65 years and over
+est72013sex1_age65plus,Population Estimate (as of July 1) - 2013 - Male; 65 years and over
+est72013sex2_age65plus,Population Estimate (as of July 1) - 2013 - Female; 65 years and over
+est72014sex0_age65plus,Population Estimate (as of July 1) - 2014 - Both Sexes; 65 years and over
+est72014sex1_age65plus,Population Estimate (as of July 1) - 2014 - Male; 65 years and over
+est72014sex2_age65plus,Population Estimate (as of July 1) - 2014 - Females; 65 years and over
+est72015sex0_age65plus,Population Estimate (as of July 1) - 2015 - Both Sexes; 65 years and over
+est72015sex1_age65plus,Population Estimate (as of July 1) - 2015 - Male; 65 years and over
+est72015sex2_age65plus,Population Estimate (as of July 1) - 2015 - Female; 65 years and over
+est72016sex0_age65plus,Population Estimate (as of July 1) - 2016 - Both Sexes; 65 years and over
+est72016sex1_age65plus,Population Estimate (as of July 1) - 2016 - Male; 65 years and over
+est72016sex2_age65plus,Population Estimate (as of July 1) - 2016 - Female; 65 years and over
+est72017sex0_age65plus,Population Estimate (as of July 1) - 2017 - Both Sexes; 65 years and over
+est72017sex1_age65plus,Population Estimate (as of July 1) - 2017 - Male; 65 years and over
+est72017sex2_age65plus,Population Estimate (as of July 1) - 2017 - Female; 65 years and over
+est72018sex0_age65plus,Population Estimate (as of July 1) - 2018 - Both Sexes; 65 years and over
+est72018sex1_age65plus,Population Estimate (as of July 1) - 2018 - Male; 65 years and over
+est72018sex2_age65plus,Population Estimate (as of July 1) - 2018 - Female; 65 years and over
+cen42010sex0_age85plusr,"April 1, 2010 - Census - Both Sexes; 85 years and over"
+cen42010sex1_age85plusr,"April 1, 2010 - Census - Male; 85 years and over"
+cen42010sex2_age85plusr,"April 1, 2010 - Census - Female; 85 years and over"
+est42010sex0_age85plusr,"April 1, 2010 - Estimates Base - Both Sexes; 85 years and over"
+est42010sex1_age85plusr,"April 1, 2010 - Estimates Base - Male; 85 years and over"
+est42010sex2_age85plusr,"April 1, 2010 - Estimates Base - Female; 85 years and over"
+est72010sex0_age85plusr,Population Estimate (as of July 1) - 2010 - Both Sexes; 85 years and over
+est72010sex1_age85plusr,Population Estimate (as of July 1) - 2010 - Male; 85 years and over
+est72010sex2_age85plusr,Population Estimate (as of July 1) - 2010 - Female; 85 years and over
+est72011sex0_age85plusr,Population Estimate (as of July 1) - 2011 - Both Sexes; 85 years and over
+est72011sex1_age85plusr,Population Estimate (as of July 1) - 2011 - Male; 85 years and over
+est72011sex2_age85plusr,Population Estimate (as of July 1) - 2011 - Female; 85 years and over
+est72012sex0_age85plusr,Population Estimate (as of July 1) - 2012 - Both Sexes; 85 years and over
+est72012sex1_age85plusr,Population Estimate (as of July 1) - 2012 - Male; 85 years and over
+est72012sex2_age85plusr,Population Estimate (as of July 1) - 2012 - Female; 85 years and over
+est72013sex0_age85plusr,Population Estimate (as of July 1) - 2013 - Both Sexes; 85 years and over
+est72013sex1_age85plusr,Population Estimate (as of July 1) - 2013 - Male; 85 years and over
+est72013sex2_age85plusr,Population Estimate (as of July 1) - 2013 - Female; 85 years and over
+est72014sex0_age85plusr,Population Estimate (as of July 1) - 2014 - Both Sexes; 85 years and over
+est72014sex1_age85plusr,Population Estimate (as of July 1) - 2014 - Male; 85 years and over
+est72014sex2_age85plusr,Population Estimate (as of July 1) - 2014 - Females; 85 years and over
+est72015sex0_age85plusr,Population Estimate (as of July 1) - 2015 - Both Sexes; 85 years and over
+est72015sex1_age85plusr,Population Estimate (as of July 1) - 2015 - Male; 85 years and over
+est72015sex2_age85plusr,Population Estimate (as of July 1) - 2015 - Female; 85 years and over
+est72016sex0_age85plusr,Population Estimate (as of July 1) - 2016 - Both Sexes; 85 years and over
+est72016sex1_age85plusr,Population Estimate (as of July 1) - 2016 - Male; 85 years and over
+est72016sex2_age85plusr,Population Estimate (as of July 1) - 2016 - Female; 85 years and over
+est72017sex0_age85plusr,Population Estimate (as of July 1) - 2017 - Both Sexes; 85 years and over
+est72017sex1_age85plusr,Population Estimate (as of July 1) - 2017 - Male; 85 years and over
+est72017sex2_age85plusr,Population Estimate (as of July 1) - 2017 - Female; 85 years and over
+est72018sex0_age85plusr,Population Estimate (as of July 1) - 2018 - Both Sexes; 85 years and over
+est72018sex1_age85plusr,Population Estimate (as of July 1) - 2018 - Male; 85 years and over
+est72018sex2_age85plusr,Population Estimate (as of July 1) - 2018 - Female; 85 years and over
+cen42010sex0_age16plus,"April 1, 2010 - Census - Both Sexes; 16 years and over"
+cen42010sex1_age16plus,"April 1, 2010 - Census - Male; 16 years and over"
+cen42010sex2_age16plus,"April 1, 2010 - Census - Female; 16 years and over"
+est42010sex0_age16plus,"April 1, 2010 - Estimates Base - Both Sexes; 16 years and over"
+est42010sex1_age16plus,"April 1, 2010 - Estimates Base - Male; 16 years and over"
+est42010sex2_age16plus,"April 1, 2010 - Estimates Base - Female; 16 years and over"
+est72010sex0_age16plus,Population Estimate (as of July 1) - 2010 - Both Sexes; 16 years and over
+est72010sex1_age16plus,Population Estimate (as of July 1) - 2010 - Male; 16 years and over
+est72010sex2_age16plus,Population Estimate (as of July 1) - 2010 - Female; 16 years and over
+est72011sex0_age16plus,Population Estimate (as of July 1) - 2011 - Both Sexes; 16 years and over
+est72011sex1_age16plus,Population Estimate (as of July 1) - 2011 - Male; 16 years and over
+est72011sex2_age16plus,Population Estimate (as of July 1) - 2011 - Female; 16 years and over
+est72012sex0_age16plus,Population Estimate (as of July 1) - 2012 - Both Sexes; 16 years and over
+est72012sex1_age16plus,Population Estimate (as of July 1) - 2012 - Male; 16 years and over
+est72012sex2_age16plus,Population Estimate (as of July 1) - 2012 - Female; 16 years and over
+est72013sex0_age16plus,Population Estimate (as of July 1) - 2013 - Both Sexes; 16 years and over
+est72013sex1_age16plus,Population Estimate (as of July 1) - 2013 - Male; 16 years and over
+est72013sex2_age16plus,Population Estimate (as of July 1) - 2013 - Female; 16 years and over
+est72014sex0_age16plus,Population Estimate (as of July 1) - 2014 - Both Sexes; 16 years and over
+est72014sex1_age16plus,Population Estimate (as of July 1) - 2014 - Male; 16 years and over
+est72014sex2_age16plus,Population Estimate (as of July 1) - 2014 - Females; 16 years and over
+est72015sex0_age16plus,Population Estimate (as of July 1) - 2015 - Both Sexes; 16 years and over
+est72015sex1_age16plus,Population Estimate (as of July 1) - 2015 - Male; 16 years and over
+est72015sex2_age16plus,Population Estimate (as of July 1) - 2015 - Female; 16 years and over
+est72016sex0_age16plus,Population Estimate (as of July 1) - 2016 - Both Sexes; 16 years and over
+est72016sex1_age16plus,Population Estimate (as of July 1) - 2016 - Male; 16 years and over
+est72016sex2_age16plus,Population Estimate (as of July 1) - 2016 - Female; 16 years and over
+est72017sex0_age16plus,Population Estimate (as of July 1) - 2017 - Both Sexes; 16 years and over
+est72017sex1_age16plus,Population Estimate (as of July 1) - 2017 - Male; 16 years and over
+est72017sex2_age16plus,Population Estimate (as of July 1) - 2017 - Female; 16 years and over
+est72018sex0_age16plus,Population Estimate (as of July 1) - 2018 - Both Sexes; 16 years and over
+est72018sex1_age16plus,Population Estimate (as of July 1) - 2018 - Male; 16 years and over
+est72018sex2_age16plus,Population Estimate (as of July 1) - 2018 - Female; 16 years and over
+cen42010sex0_age18plus,"April 1, 2010 - Census - Both Sexes; 18 years and over"
+cen42010sex1_age18plus,"April 1, 2010 - Census - Male; 18 years and over"
+cen42010sex2_age18plus,"April 1, 2010 - Census - Female; 18 years and over"
+est42010sex0_age18plus,"April 1, 2010 - Estimates Base - Both Sexes; 18 years and over"
+est42010sex1_age18plus,"April 1, 2010 - Estimates Base - Male; 18 years and over"
+est42010sex2_age18plus,"April 1, 2010 - Estimates Base - Female; 18 years and over"
+est72010sex0_age18plus,Population Estimate (as of July 1) - 2010 - Both Sexes; 18 years and over
+est72010sex1_age18plus,Population Estimate (as of July 1) - 2010 - Male; 18 years and over
+est72010sex2_age18plus,Population Estimate (as of July 1) - 2010 - Female; 18 years and over
+est72011sex0_age18plus,Population Estimate (as of July 1) - 2011 - Both Sexes; 18 years and over
+est72011sex1_age18plus,Population Estimate (as of July 1) - 2011 - Male; 18 years and over
+est72011sex2_age18plus,Population Estimate (as of July 1) - 2011 - Female; 18 years and over
+est72012sex0_age18plus,Population Estimate (as of July 1) - 2012 - Both Sexes; 18 years and over
+est72012sex1_age18plus,Population Estimate (as of July 1) - 2012 - Male; 18 years and over
+est72012sex2_age18plus,Population Estimate (as of July 1) - 2012 - Female; 18 years and over
+est72013sex0_age18plus,Population Estimate (as of July 1) - 2013 - Both Sexes; 18 years and over
+est72013sex1_age18plus,Population Estimate (as of July 1) - 2013 - Male; 18 years and over
+est72013sex2_age18plus,Population Estimate (as of July 1) - 2013 - Female; 18 years and over
+est72014sex0_age18plus,Population Estimate (as of July 1) - 2014 - Both Sexes; 18 years and over
+est72014sex1_age18plus,Population Estimate (as of July 1) - 2014 - Male; 18 years and over
+est72014sex2_age18plus,Population Estimate (as of July 1) - 2014 - Females; 18 years and over
+est72015sex0_age18plus,Population Estimate (as of July 1) - 2015 - Both Sexes; 18 years and over
+est72015sex1_age18plus,Population Estimate (as of July 1) - 2015 - Male; 18 years and over
+est72015sex2_age18plus,Population Estimate (as of July 1) - 2015 - Female; 18 years and over
+est72016sex0_age18plus,Population Estimate (as of July 1) - 2016 - Both Sexes; 18 years and over
+est72016sex1_age18plus,Population Estimate (as of July 1) - 2016 - Male; 18 years and over
+est72016sex2_age18plus,Population Estimate (as of July 1) - 2016 - Female; 18 years and over
+est72017sex0_age18plus,Population Estimate (as of July 1) - 2017 - Both Sexes; 18 years and over
+est72017sex1_age18plus,Population Estimate (as of July 1) - 2017 - Male; 18 years and over
+est72017sex2_age18plus,Population Estimate (as of July 1) - 2017 - Female; 18 years and over
+est72018sex0_age18plus,Population Estimate (as of July 1) - 2018 - Both Sexes; 18 years and over
+est72018sex1_age18plus,Population Estimate (as of July 1) - 2018 - Male; 18 years and over
+est72018sex2_age18plus,Population Estimate (as of July 1) - 2018 - Female; 18 years and over
+cen42010sex0_age15to44,"April 1, 2010 - Census - Both Sexes; 15 to 44 years"
+cen42010sex1_age15to44,"April 1, 2010 - Census - Male; 15 to 44 years"
+cen42010sex2_age15to44,"April 1, 2010 - Census - Female; 15 to 44 years"
+est42010sex0_age15to44,"April 1, 2010 - Estimates Base - Both Sexes; 15 to 44 years"
+est42010sex1_age15to44,"April 1, 2010 - Estimates Base - Male; 15 to 44 years"
+est42010sex2_age15to44,"April 1, 2010 - Estimates Base - Female; 15 to 44 years"
+est72010sex0_age15to44,Population Estimate (as of July 1) - 2010 - Both Sexes; 15 to 44 years
+est72010sex1_age15to44,Population Estimate (as of July 1) - 2010 - Male; 15 to 44 years
+est72010sex2_age15to44,Population Estimate (as of July 1) - 2010 - Female; 15 to 44 years
+est72011sex0_age15to44,Population Estimate (as of July 1) - 2011 - Both Sexes; 15 to 44 years
+est72011sex1_age15to44,Population Estimate (as of July 1) - 2011 - Male; 15 to 44 years
+est72011sex2_age15to44,Population Estimate (as of July 1) - 2011 - Female; 15 to 44 years
+est72012sex0_age15to44,Population Estimate (as of July 1) - 2012 - Both Sexes; 15 to 44 years
+est72012sex1_age15to44,Population Estimate (as of July 1) - 2012 - Male; 15 to 44 years
+est72012sex2_age15to44,Population Estimate (as of July 1) - 2012 - Female; 15 to 44 years
+est72013sex0_age15to44,Population Estimate (as of July 1) - 2013 - Both Sexes; 15 to 44 years
+est72013sex1_age15to44,Population Estimate (as of July 1) - 2013 - Male; 15 to 44 years
+est72013sex2_age15to44,Population Estimate (as of July 1) - 2013 - Female; 15 to 44 years
+est72014sex0_age15to44,Population Estimate (as of July 1) - 2014 - Both Sexes; 15 to 44 years
+est72014sex1_age15to44,Population Estimate (as of July 1) - 2014 - Male; 15 to 44 years
+est72014sex2_age15to44,Population Estimate (as of July 1) - 2014 - Females; 15 to 44 years
+est72015sex0_age15to44,Population Estimate (as of July 1) - 2015 - Both Sexes; 15 to 44 years
+est72015sex1_age15to44,Population Estimate (as of July 1) - 2015 - Male; 15 to 44 years
+est72015sex2_age15to44,Population Estimate (as of July 1) - 2015 - Female; 15 to 44 years
+est72016sex0_age15to44,Population Estimate (as of July 1) - 2016 - Both Sexes; 15 to 44 years
+est72016sex1_age15to44,Population Estimate (as of July 1) - 2016 - Male; 15 to 44 years
+est72016sex2_age15to44,Population Estimate (as of July 1) - 2016 - Female; 15 to 44 years
+est72017sex0_age15to44,Population Estimate (as of July 1) - 2017 - Both Sexes; 15 to 44 years
+est72017sex1_age15to44,Population Estimate (as of July 1) - 2017 - Male; 15 to 44 years
+est72017sex2_age15to44,Population Estimate (as of July 1) - 2017 - Female; 15 to 44 years
+est72018sex0_age15to44,Population Estimate (as of July 1) - 2018 - Both Sexes; 15 to 44 years
+est72018sex1_age15to44,Population Estimate (as of July 1) - 2018 - Male; 15 to 44 years
+est72018sex2_age15to44,Population Estimate (as of July 1) - 2018 - Female; 15 to 44 years
+cen42010sex0_medage,"April 1, 2010 - Census - Both Sexes; Median age (years)"
+cen42010sex1_medage,"April 1, 2010 - Census - Male; Median age (years)"
+cen42010sex2_medage,"April 1, 2010 - Census - Female; Median age (years)"
+est42010sex0_medage,"April 1, 2010 - Estimates Base - Both Sexes; Median age (years)"
+est42010sex1_medage,"April 1, 2010 - Estimates Base - Male; Median age (years)"
+est42010sex2_medage,"April 1, 2010 - Estimates Base - Female; Median age (years)"
+est72010sex0_medage,Population Estimate (as of July 1) - 2010 - Both Sexes; Median age (years)
+est72010sex1_medage,Population Estimate (as of July 1) - 2010 - Male; Median age (years)
+est72010sex2_medage,Population Estimate (as of July 1) - 2010 - Female; Median age (years)
+est72011sex0_medage,Population Estimate (as of July 1) - 2011 - Both Sexes; Median age (years)
+est72011sex1_medage,Population Estimate (as of July 1) - 2011 - Male; Median age (years)
+est72011sex2_medage,Population Estimate (as of July 1) - 2011 - Female; Median age (years)
+est72012sex0_medage,Population Estimate (as of July 1) - 2012 - Both Sexes; Median age (years)
+est72012sex1_medage,Population Estimate (as of July 1) - 2012 - Male; Median age (years)
+est72012sex2_medage,Population Estimate (as of July 1) - 2012 - Female; Median age (years)
+est72013sex0_medage,Population Estimate (as of July 1) - 2013 - Both Sexes; Median age (years)
+est72013sex1_medage,Population Estimate (as of July 1) - 2013 - Male; Median age (years)
+est72013sex2_medage,Population Estimate (as of July 1) - 2013 - Female; Median age (years)
+est72014sex0_medage,Population Estimate (as of July 1) - 2014 - Both Sexes; Median age (years)
+est72014sex1_medage,Population Estimate (as of July 1) - 2014 - Male; Median age (years)
+est72014sex2_medage,Population Estimate (as of July 1) - 2014 - Females; Median age (years)
+est72015sex0_medage,Population Estimate (as of July 1) - 2015 - Both Sexes; Median age (years)
+est72015sex1_medage,Population Estimate (as of July 1) - 2015 - Male; Median age (years)
+est72015sex2_medage,Population Estimate (as of July 1) - 2015 - Female; Median age (years)
+est72016sex0_medage,Population Estimate (as of July 1) - 2016 - Both Sexes; Median age (years)
+est72016sex1_medage,Population Estimate (as of July 1) - 2016 - Male; Median age (years)
+est72016sex2_medage,Population Estimate (as of July 1) - 2016 - Female; Median age (years)
+est72017sex0_medage,Population Estimate (as of July 1) - 2017 - Both Sexes; Median age (years)
+est72017sex1_medage,Population Estimate (as of July 1) - 2017 - Male; Median age (years)
+est72017sex2_medage,Population Estimate (as of July 1) - 2017 - Female; Median age (years)
+est72018sex0_medage,Population Estimate (as of July 1) - 2018 - Both Sexes; Median age (years)
+est72018sex1_medage,Population Estimate (as of July 1) - 2018 - Male; Median age (years)
+est72018sex2_medage,Population Estimate (as of July 1) - 2018 - Female; Median age (years)
