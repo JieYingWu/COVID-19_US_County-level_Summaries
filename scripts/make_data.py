@@ -384,6 +384,9 @@ class Formatter():
         for j in self.national_data_column_mapping['density'].values():
           values[j] = re.sub(r'\(r\d+\)', '', values[j])
 
+      if 'unemployment' in self.keys:
+        values[self.national_data_column_mapping['unemployment'][54]] = values[self.national_data_column_mapping['unemployment'][54]].replace('$', '')
+
       writer.writerow(values)
       self.num_rows += 1
       print(f'wrote row {self.num_rows}')
