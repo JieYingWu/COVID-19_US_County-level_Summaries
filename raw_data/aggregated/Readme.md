@@ -1,5 +1,6 @@
 # List of demographics variables
 ## Population
+
 - Total population
 - Total_Male 
 - Total_Female 
@@ -152,3 +153,7 @@ Description  can be found here: https://www2.census.gov/programs-surveys/popest/
 - HAAC_FEMALE Hispanic, Asian alone or in combination female population
 - HNAC_MALE Hispanic, Native Hawaiian and Other Pacific Islander alone or in combination male population
 - HNAC_FEMALE Hispanic, Native Hawaiian and Other Pacific Islander alone or in combination female population
+
+### Data links 
+1. [https://data.census.gov/cedsci/table?q=dp02&hidePreview=true&tid=ACSDP1Y2018.DP02&vintage=2018&g=0400000US36.050000&tp=true&y=2018](https://data.census.gov/cedsci/table?q=dp02&hidePreview=true&tid=ACSDP1Y2018.DP02&vintage=2018&g=0400000US36.050000&tp=true&y=2018)
+2. [https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/](https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/)
