@@ -38,6 +38,7 @@ class CSVReaders():
     """
     self.skiprows = skiprows
     self.filenames = filenames
+    self._iterators = None
 
   def __enter__(self):
     self.files = dict((k, open(v, 'r', newline='')) for k, v in self.filenames.items())
@@ -46,19 +47,30 @@ class CSVReaders():
 
   def __iter__(self):
     # yields a dictionary mapping the original keys to each row
-    iterators = dict((k, iter(reader)) for k, reader in self.readers.items())
+    self._iterators = dict((k, iter(reader)) for k, reader in self.readers.items())
     if self.skiprows is not None:
       for k, n in self.skiprows.items():
         for _ in range(n):
-          next(iterators[k])
+          next(self._iterators[k])
       
     while True:
       rows = {}
-      for k, iterator in iterators.items():
+      for k, iterator in self._iterators.items():
         rows[k] = next(iterator, None)
-        if rows[k] is None:
+        if rows[k] is None or all(map(lambda x: x == '', rows[k])):
           break
       yield rows
+
+  def next(self, k):
+    """Get the next row for key `k`.
+
+    :param k: 
+    :returns: 
+    :rtype: 
+
+    """
+    assert self._iterators is not None
+    return next(self._iterators[k])
 
   def __exit__(self, exc_type, exc_val, exc_tb):
     for file in self.files.values():
@@ -238,6 +250,7 @@ class Formatter():
 
     self.fips_codes = {}        # mapping from fips code to canonical area name
     self.areas = {}             # mapping from (STATE, canonical area name) tuple to fips code
+    self._make_reference()
 
   def _get_key(self, key):
     return key.lower().strip()
@@ -255,7 +268,7 @@ class Formatter():
     elif self._get_key(state) in self.states:
       return self.states[self._get_key(state)]
     else:
-      raise ValueError(f'unrecognized state: {state}')
+      raise ValueError(f'unrecognized state: {repr(state)}')
 
   def _set_area(self, fips, state, area):
     """Make the dictionary of fips codes.
@@ -268,7 +281,28 @@ class Formatter():
 
     """
     self.fips_codes[fips] = area
-    self.areas[(self._get_state(state), self._get_key(area))] = fips
+    area = self._get_key(area)
+    state = self._get_state(state)
+    self.areas[(state, area)] = fips
+    if area in self.states:
+      self.areas[area] = fips
+      self.areas[state] = fips
+
+  def _make_reference(self):
+    with self.csv_readers as readers:
+      rows = iter(readers.readers['population'])
+      for _ in range(readers.skiprows['population']):
+        next(rows)
+      
+      for i, row in enumerate(rows):
+        if i == 0:
+          continue
+        if all(map(lambda x: x == '', row)):
+          break
+        fips = row[0]
+        state = self._get_state(row[1])
+        area = row[2]
+        self._set_area(fips, state, area)
 
   def _get_fips(self, x):
     """Get the 5 digit FIPS string from x, which could be a couple things.
@@ -284,15 +318,18 @@ class Formatter():
     :rtype: 
 
     """
+
     if x in self.fips_codes:
       return x
     elif x in self.areas:
-      return self.areas(x)
+      return self.areas[x]
     elif isinstance(x, int):
       return str(x).zfill(5)
-    else:
+    elif x[7:9] == 'US':
       fips = x[9:]
       return fips + ''.join(['0'] * (5 - len(fips)))
+    else:
+      raise ValueError(f'unrecognized area: {x}')
     
   def _is_county(self, x):
     """Tell whether the area x is a county.
@@ -335,10 +372,6 @@ class Formatter():
           labels = sum([[rows[k][j].replace(',', '') for j in self.national_data_which_columns[k]] for k in self.keys], [])
           writer.writerow(labels)
         else:
-          fips = rows['population'][0]
-          state = self._get_state(rows['population'][1])
-          area = rows['population'][2]
-          self._set_area(fips, state, area)
 
           # make sure the rows are all corresponding
           if not (self._get_fips(rows['population'][0])
@@ -350,16 +383,17 @@ class Formatter():
                   rows['education'][2],
                   rows['poverty'][2],
                   rows['unemployment'][2],
-                  rows['density'][4], sep='\n')
+                  rows['density'][5], sep=', ')
             print(rows['population'][0],
                   self._get_fips(rows['education'][0]),
                   self._get_fips(rows['poverty'][0]),
                   self._get_fips(rows['unemployment'][0]),
-                  self._get_fips(rows['density'][3]))
+                  self._get_fips(rows['density'][3]), sep=', ')
             continue
           
           values = sum([[rows[k][j].replace(',', '') for j in self.national_data_which_columns[k]] for k in self.keys], [])
           print(values[0])
+          
           if not self._is_state(values[self.national_data_column_mapping['population'][1]]):
             continue
 
