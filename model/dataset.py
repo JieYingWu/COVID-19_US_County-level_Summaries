@@ -19,11 +19,11 @@ class CoronavirusCases(Dataset):
     :rtype: 
 
     """
-    val_states = {'06'}           # California FIPS
-    test_states = {'53'}          # Washington State FIPS
-    train_states = set(str(i).zfill(2) for i in range(1, 100)
-                       if str(i).zfill(2) not in val_states
-                       and str(i).zfill(2) not in test_states)
+    self.val_states = {'06'}           # California FIPS
+    self.test_states = {'53'}          # Washington State FIPS
+    self.train_states = set(str(i).zfill(2) for i in range(1, 100)
+                            if str(i).zfill(2) not in self.val_states
+                            and str(i).zfill(2) not in self.test_states)
 
     self.device = device
     self.threshold = threshold
@@ -31,21 +31,16 @@ class CoronavirusCases(Dataset):
 #    counties = np.loadtxt(join(data_dir, 'counties.csv'))
 #    counties = counties[1:,:]
 #    cases = np.loadtxt(join(data_dir, 'cases.csv'))  # fips, num infections, beta, gamma
-
     
-    counties = np.genfromtxt(join(data_dir, 'counties.csv'), delimiter=',', skip_header=1)
+    counties = np.genfromtxt(join(data_dir, 'counties.csv'), delimiter=',', skip_header=1, dtype=str)
     counties = counties[1:, :]
-    cases = np.genfromtxt(join(data_dir, 'cases.csv'), delimiter=',', skip_header=1)
+    cases = np.genfromtxt(join(data_dir, 'cases.csv'), delimiter=',', skip_header=1, dtype=str)
     cases = cases[1:, :]
-                        
-    print(cases.shape)
-    print(counties.shape)
     
     # get which rows correspond to this split
     which = []
     for i, row in enumerate(counties):
-      print(row[0])
-      if row[0][:2] in getattr(self, split + '_states') and int(cases[i, 1]) > threshold:
+      if row[0][:2] in getattr(self, split + '_states') and float(cases[i, 1]) > threshold:
         which.append(i)
         # which = np.random.choice([0, 1], size=(3272,), p=[1./3, 2./3])
     
@@ -90,11 +85,19 @@ class CoronavirusCases(Dataset):
     # self.counties = counties
     # self.cases = torch.from_numpy(cases).float()
     
-  def _format_input(self, row):
+  def format_input(self, row):
+
     print(row)
+    
+    # Convert rural-urban continuum code (1-9), 0 means no data
+    ruc = 0 if row[3] == 'NA' else 
+    
+    x = row[3:].astype(np.float32)
+    
+    print(x)
     return np.zeros(4)
 
-  def _format_output(self, row):
+  def format_output(self, row):
     print(row)
     return np.zeros(4)
   
@@ -104,8 +107,8 @@ class CoronavirusCases(Dataset):
     
     county = torch.from_numpy(county).float().to(self.device)
     case = torch.from_numpy(case).float().to(self.device)
-    county = self.counties[i].float().to(self.device)
-    case = self.cases[i].float().to(self.device)
+    # county = self.counties[i].float().to(self.device)
+    # case = self.cases[i].float().to(self.device)
 
     return county, case
   
