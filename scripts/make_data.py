@@ -547,7 +547,7 @@ class Formatter():
             # county not in canonical list skip it
             continue
 
-          values = [row[j] for j in self.national_data_which_columns[k]]
+          values = [row[j].replace(',', '') for j in self.national_data_which_columns[k]]
           # the density data includes r values in the same columns, remove these
           if k == 'density':
             # get rid of r values
@@ -575,14 +575,28 @@ class Formatter():
       print(f'wrote data for {i} counties')
 
   def _read_cases_data(self):
-    infections_filename = join(self.raw_data_dir, 'national', )
-    deaths_filename = join(self.raw_data_dir, 'national', '')
+    def load(filename):
+      data = {}
+      with open(filename, 'r', newline='') as file:
+        reader = csv.reader(file, delimiter=',')
+        for i, row in enumerate(reader):
+          if i == 0:
+            continue
+          fips = self._get_fips(row[0])
+          if fips is None:
+            continue
+          data[fips] = np.array(list(map(lambda x: 0 if x == '' else float(x), row[4:])))
+      return data
+      
+    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_JHU_timeseries.csv')
+    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_JHU_timeseries.csv')
+    recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_JHU_timeseries.csv')
 
     # mapping from fips to numpy array giving timeseries for each.
-    infections = {}
-    deaths = {}
-    recovered = {}
-    
+    infections = load(infections_filename)
+    deaths = load(deaths_filename)
+    recovered = load(recovered_filename)
+
     return infections, deaths, recovered
         
   def make_cases_data(self):
@@ -616,7 +630,8 @@ class Formatter():
       N = self.populations[fips]
 
       # number of infected people
-      X = infections[fips] / N
+      start = np.nonzero(infections[fips] > 0)
+      X = infections[fips][start:] / N
       
       # fraction removed (recovered or dead)
       R = (recovered[fips] + deaths[fips]) / N
