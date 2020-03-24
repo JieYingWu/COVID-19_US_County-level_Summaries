@@ -198,32 +198,32 @@
 |MARITAL STATUS!!Females 15 years and over!!Separated|Total number of Females 15 years and over that are Separated|
 |MARITAL STATUS!!Females 15 years and over!!Widowed|Total number of Females 15 years and over that are Widowed|
 |MARITAL STATUS!!Females 15 years and over!!Divorced|Total number of Females 15 years and overt that are Divorced|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8)|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8)|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12)|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12)|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over|EDUCATIONAL ATTAINMENT!!Population 25 years and over|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher|
-|VETERAN STATUS!!Civilian population 18 years and over|VETERAN STATUS!!Civilian population 18 years and over|
-|VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans|VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school|Total Population 3 years and over enrolled in school|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool|Population 3 years and over enrolled in nursery school, preschool|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten|Population 3 years and over enrolled in kindergarten|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8)|Population 3 years and over enrolled in Elementary school (grades 1-8)|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12)|Population 3 years and over enrolled in High school (grades 9-12)|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school|Population 3 years and over enrolled in College or graduate school|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over|Total Population 25 years and over|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade|Population 25 years and over that completed less than 9th grade|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma|Population 25 years and over that completed between 9th to 12th grade, no diploma|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)|Population 25 years and over that is High school graduate (includes equivalency)|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree|Population 25 years and over that completed some college, no degree|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree|Population 25 years and over that has Associate's degree|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree|Population 25 years and over that has Bachelor's degree|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree|Population 25 years and over that has Graduate or professional degree|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher|Population 25 years and over that has High school graduate or higher|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher|Population 25 years and over that has Bachelor's degree or higher|
+|VETERAN STATUS!!Civilian population 18 years and over|Total Civilian population 18 years and over|
+|VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans|Civilian population 18 years and over that are Civilian veterans|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population|Total Civilian Noninstitutionalized Population|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability|Total Civilian Noninstitutionalized Population with a disability|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years|Total Civilian population under 18 years|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability|Total Civilian population with disability Under 18 years|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years|Total Civilian population from 18 to 64 years|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability|Total Civilian population with disability from 18 to 64 years|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over|Total Civilian population 65 years and over|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability|Total Civilian population with disability65 years and over|
 
 #### Ethnicity
 | Data variable     | Description |
