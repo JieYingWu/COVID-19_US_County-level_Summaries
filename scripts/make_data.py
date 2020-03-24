@@ -78,7 +78,7 @@ class Formatter():
     'unemployment',
     'climate',
     'density',
-    'demographics'
+    'demographics',
   ]
   
   national_data_skiprows = {
