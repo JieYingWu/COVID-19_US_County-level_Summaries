@@ -5,8 +5,8 @@ Meant to be run from the root as `python scripts/format_data.py`.
 
 """
 
+from shutil import copyfile
 from os.path import join, exists
-import itertools
 import numpy as np
 import re
 from collections import OrderedDict
@@ -572,6 +572,8 @@ class Formatter():
       return self._get_fips(x[key][self.fips_columns[key]])
     elif x in self.fips_codes:
       return x
+    elif re.match(r'^-?\d+(?:\.\d+)$', x) is not None:
+      return str(int(float(x))).zfill(5)
     elif x in self.areas:
       return self.areas[x]
     elif isinstance(x, int):
@@ -694,8 +696,9 @@ class Formatter():
         if self._is_county(row[0]) and int(row[3]) <= 3:
           num_metro += 1
         writer.writerow(row)
-
-      print(f'wrote data for {i} rows, {num_counties} counties, {num_metro} metro counties')
+        
+      num_columns = len(row)
+      print(f'wrote {num_columns} data columns for {i} rows, {num_counties} counties, {num_metro} metro counties')
 
     num_rows = i
     
@@ -726,7 +729,7 @@ class Formatter():
       
       print(f'wrote data for NA values')
       
-  def _read_cases_data(self):
+  def _read_cases_data(self, infections_filename, deaths_filename, recovered_filename):
     def load(filename):
       data = {}
       with open(filename, 'r', newline='') as file:
@@ -740,10 +743,6 @@ class Formatter():
           data[fips] = np.array(list(map(lambda x: 0 if x == '' else float(x), row[4:])))
       return data
       
-    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_JHU_timeseries.csv')
-    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_JHU_timeseries.csv')
-    recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_JHU_timeseries.csv')
-
     # mapping from fips to numpy array giving timeseries for each.
     infections = load(infections_filename)
     deaths = load(deaths_filename)
@@ -766,7 +765,14 @@ class Formatter():
     """
     # mapping from fips to numpy array giving timeseries for each, starting from the first day with
     # nonzero infections
-    infections, deaths, recovered = self._read_cases_data()
+    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_time_series_JHU.csv')
+    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_time_series_JHU.csv')
+    recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_time_series_JHU.csv')
+    copyfile(infections_filename, join(self.data_dir, 'infections_timeseries.csv'))
+    copyfile(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'))
+    copyfile(recovered_filename, join(self.data_dir, 'recovered_timeseries.csv'))
+    
+    infections, deaths, recovered = self._read_cases_data(infections_filename, deaths_filename, recovered_filename)
 
     filename = join(self.data_dir, 'cases.csv')
     file = open(filename, 'w', newline='')
@@ -794,8 +800,11 @@ class Formatter():
       # integrate with trapezoidal method
       beta = - (S[-1] - S[0]) / np.trapz(S - X, x=None, dx=1)
       gamma = R[-1] / np.trapz(X, x=None, dx=1)
-      
-      writer.writerow([fips, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
+
+      if np.isnan(beta) or np.isnan(gamma):
+        writer.writerow([fips, f'{infections[fips][-1]}', 'NA', 'NA'])
+      else:
+        writer.writerow([fips, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
       if infections[fips][-1] > 8:
         print(f'wrote {fips}: N = {N}, beta = {beta}, gamma = {gamma}')
     file.close()
@@ -809,7 +818,7 @@ def main():
   parser.add_argument('--data-dir', default='./data', help='directory to write formatted data to')
   args = parser.parse_args()
 
-  # debug
+  # run
   formatter = Formatter(args)
   # formatter.make_national_data()
   formatter.make_cases_data()
