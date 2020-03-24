@@ -135,11 +135,11 @@
 |Nov Temp Max / F| Maximum temperature in Nov, 2019 in Fahrenheit |
 |Dec Temp Max / F| Maximum temperature in Dec, 2019 in Fahrenheit |
 
-#### Housing 
+#### Housing
 | Data variable     | Description |
 | ---   | --- |
 |Housing units| Number of housing units as per 2010 census|
-|Area in square miles - Total area| Total area in sq. miles as per 2010 census| 
+|Area in square miles - Total area| Total area in sq. miles as per 2010 census|
 |Area in square miles - Water area| Total water area in sq. miles as per 2010 census|
 |Area in square miles - Land area| Total land area in sq. miles as per 2010 census|
 |Density per square mile of land area - Population| Land area density for population as per 2010 census|
@@ -303,6 +303,7 @@
 |HNAC_FEMALE| Hispanic, Native Hawaiian and Other Pacific Islander alone or in combination female population|
 
 #### Healthcare
+Data presented below was retrieved at state level and projected onto county level. Absolute numbers were projected based on the county to state population proportion. Ratios (e.g. per 100,00 people) or percentages at the state level were assumed to be representative of the county level.
 | Data variable     | Description |
 | ---   | --- |
 |Active Physicians per 100,000 Population, 2018 (AAMC)|Active Physicians per 100,000 Population, 2018 |
@@ -317,7 +318,7 @@
 |MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (AAMC)|MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 |
 |Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (AAMC)|Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 |
 |Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (AAMC)|Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 |
-|Percentage of MD Students Matriculating In-State, AY 2018-2019 (AAMC)|Percentage of MD Students Matriculating In-State, AY 2018-2019 |
+|Percentage of MD Students Matriculating In-State, AY 2018-2019 (AAMC)*|Percentage of MD Students Matriculating In-State, AY 2018-2019 |
 |Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (AAMC)|Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 |
 |Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (AAMC)|Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 |
 |Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (AAMC)|Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 |
@@ -371,28 +372,28 @@
 |Non-profit hospital beds per 1000 people (2019)|Non-profit hospital beds per 1000 people (2019)|
 |For-profit hospital beds per 1000 people (2019)|For-profit hospital beds per 1000 people (2019)|
 |Total hospital beds per 1000 people (2019)|Total hospital beds per 1000 people (2019)|
-|Total nurses (2019)|Total nurses (2019)|
-|Total physical assistants (2019)|Total physical assistants (2019)|
+|Total nurse practitioners (2019)|Total nurses (2019)|
+|Total physician assistants (2019)|Total physical assistants (2019)|
 |Total Hospitals (2019)|Total Hospitals (2019)|
-|Internal Medicine specialists (2019)|Internal Medicine specialists (2019)|
-|Family Medicine/General Practice specialists (2019)|Family Medicine/General Practice specialists (2019)|
-|Pediatrics specialists (2019)|Pediatrics specialists (2019)|
-|Obstetrics & Gynecology specialists (2019)|Obstetrics & Gynecology specialists (2019)|
-|Geriatrics specialists (2019)|Geriatrics specialists (2019)|
-|Total Primary Care specialists (2019)|Total Primary Care specialists (2019)|
-|Psychiatry specialists (2019)|Psychiatry specialists (2019)|
-|Surgery specialists (2019)|Surgery specialists (2019)|
-|Anesthesiology specialists (2019)|Anesthesiology specialists (2019)|
-|Emergency Medicine specialists (2019)|Emergency Medicine specialists (2019)|
-|Radiology specialists (2019)|Radiology specialists (2019)|
-|Cardiology specialists (2019)|Cardiology specialists (2019)|
-|Oncology (Cancer) specialists (2019)|Oncology (Cancer) specialists (2019)|
-|Endocrinology, Diabetes, and Metabolism specialists (2019)|Endocrinology, Diabetes, and Metabolism specialists (2019)|
+|Internal Medicine Primary Care (2019)|Active Internal Medicine Primary Care Physicians (2019)|
+|Family Medicine/General Practice Primary Care (2019)|Active Family Medicine/General Practice Primary Care Physicians (2019)|
+|Pediatrics Primary Care (2019)|Active Pediatrics Primary Care Physicians (2019)|
+|Obstetrics & Gynecology Primary Care (2019)|Active Obstetrics & Gynecology Primary Care Physicians (2019)|
+|Geriatrics Primary Care (2019)|Active Geriatrics Primary Care Physicians (2019)|
+|Total Primary Care specialists (2019)|Sum of Internal Medicine, Family Med/General Practice, Pediatrics, OBGYN, and Geriatrics (2019)|
+|Psychiatry specialists (2019)|Active Psychiatry specialists (2019)|
+|Surgery specialists (2019)|Active Surgery specialists (2019)|
+|Anesthesiology specialists (2019)|Active Anesthesiology specialists (2019)|
+|Emergency Medicine specialists (2019)|Active Emergency Medicine specialists (2019)|
+|Radiology specialists (2019)|Active Radiology specialists (2019)|
+|Cardiology specialists (2019)|Active Cardiology specialists (2019)|
+|Oncology (Cancer) specialists (2019)|Active Oncology (Cancer) specialists (2019)|
+|Endocrinology, Diabetes, and Metabolism specialists (2019)|Active Endocrinology, Diabetes, and Metabolism specialists (2019)|
 |All Other Specialties specialists (2019)|All Other Specialties specialists (2019)|
-|Total specialists (2019)|Total specialists (2019)|
-
+|Total specialists (2019)|Sum of Psychiatry, Surgery, Anesthesiology, Emergency Med, Radiology, Cardiology, Oncology, Endocrinology, and Other specialists (2019)|
+\* All physician data includes MDs and DOs
 #### Data links
-1. ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/ 
+1. ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/
 2. https://data.census.gov/cedsci/table?q=dp02&hidePreview=true&tid=ACSDP1Y2018.DP02&vintage=2018&g=0400000US36.050000&tp=true&y=2018
 3. https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/
 4. https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
