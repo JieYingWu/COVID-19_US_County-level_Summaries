@@ -8,7 +8,7 @@ import torch.nn.functional as F
 
 class CoronavirusCases(Dataset):
 
-
+    
   def __init__(self, data_dir, split='train', threshold=8, device='cuda'):
     """Return dataset entries with county info and estimated beta and gamma.
 
@@ -83,6 +83,8 @@ class CoronavirusCases(Dataset):
     counties[np.isnan(counties)] = 0
     counties = torch.from_numpy(counties).float()
     counties = torch.cat((ruc_one_hot, ui_one_hot, et_one_hot, counties), dim=1)
+
+    cases[np.isnan(cases)] = 0 # TODO: Consider removing if we're filtering by threshold
 
     self.counties = counties
     self.cases = torch.from_numpy(cases).float()

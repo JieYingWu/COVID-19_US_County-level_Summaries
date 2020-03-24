@@ -3,13 +3,16 @@
 
 import torch
 import torch.nn as nn
-import numpy as np
-from mlp import MLP
-from pathlib import Path
-from loader import CoronavirusCases
 import torch.optim as optim
 from torch.utils.data import DataLoader
 from torch.optim.lr_scheduler import ReduceLROnPlateau
+
+import tqdm
+import numpy as np
+from mlp import MLP
+from pathlib import Path
+from dataset import CoronavirusCases
+
 
 # Device information
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -28,9 +31,9 @@ momentum = 0.9
 # Make datasets and dataloaders
 data_dir = '../data'
 train_dataset = CoronavirusCases(data_dir, split='train', device=device)
-#val_dataset = SimulatorDataset3D(data_dir, split='val', device=device)
+val_dataset = CoronavirusCases(data_dir, split='val', device=device)
 train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
-#val_loader = DataLoader(dataset=val_dataset, batch_size=batch_size, shuffle=False)
+val_loader = DataLoader(dataset=val_dataset, batch_size=batch_size, shuffle=False)
 
 # Checkpoint parameter
 root = Path("checkpoints")
@@ -74,21 +77,41 @@ save = lambda ep, model, model_path, error, optimizer, scheduler: torch.save({
     'scheduler': scheduler.state_dict()
 }, str(model_path))
 
-    
+
+print("WARNING - using random train set. Should set to a more reasonable split")    
 for e in range(epoch, n_epochs):
     model.train()
     epoch_loss = 0.0
     step = 0.0
 
-    for i, (source, target) in enumerate(train_loader):
-        pred = model(source)
-        loss = loss_fn(pred, target)
+    tq = tqdm.tqdm(total=(len(train_loader) * batch_size))
+    tq.set_description('Epoch {}, lr {}'.format(e, lr))
+    
+    for i, (counties, cases) in enumerate(train_loader):
+        pred = model(counties)
+        loss = loss_fn(pred, cases)
         
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
         epoch_loss += loss
         step += 1
+        tq.update(batch_size)
+        tq.set_postfix(loss=' loss={:.5f}'.format(loss))
 
-    print(epoch_loss/step)
+    tq.set_postfix(loss=' loss={:.5f}'.format(epoch_loss/step))
+
+    if e % validate_each == 0:
+        all_vall_loss = []
+    
+        with torch.no_grad():
+            for j, (counties, cases) in enumerate(val_loader):
+                pred = model(counties)
+                loss = loss_fn(pred, cases)
+                all_val_loss.append(loss.item())
+                
+        mean_loss = np.mean(all_val_loss)
+        scheduler.step(mean_loss)
+        model_path = model_root/"model_{}.pt".format(e)
+        save(e, model, model_path, mean_loss, optiizer, scheduler)
         
