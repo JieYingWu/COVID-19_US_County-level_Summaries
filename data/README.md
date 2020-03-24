@@ -135,7 +135,7 @@
 |Nov Temp Max / F| Maximum temperature in Nov, 2019 in Fahrenheit |
 |Dec Temp Max / F| Maximum temperature in Dec, 2019 in Fahrenheit |
 
-####Housing 
+#### Housing 
 | Data variable     | Description |
 | ---   | --- |
 |Housing units| Number of housing units as per 2010 census|
@@ -164,13 +164,13 @@
 |Female_age85plusr|Total number of females with age >85|
 |pop_density| Population density as of 2018|
 |Total households|Total number of households|
-|Total households!!Family households (families)|Total households!!Family households (families)|
-|Total households!!Family households (families)!!With own children of the householder under 18 years|Total households!!Family households (families)!!With own children of the householder under 18 years|
-|Total households!!Family households (families)!!Married-couple family|Total households!!Family households (families)!!Married-couple family|
-|Total households!!Family households (families)!!Married-couple family!!With own children of the householder under 18 years|Total households!!Family households (families)!!Married-couple family!!With own children of the householder under 18 years|
-|Total households!!Family households (families)!!Male householder, no wife present, family|Total households!!Family households (families)!!Male householder, no wife present, family|
+|Total households!!Family households (families)|Total number of Family households (families)|
+|Total households!!Family households (families)!!With own children of the householder under 18 years|Total number of family households (families) with own children of the householder under 18 years|
+|Total households!!Family households (families)!!Married-couple family|Total number of family households (families) with Married-couple family|
+|Total households!!Family households (families)!!Married-couple family!!With own children of the householder under 18 years|Total number of family households (families) with married-couple family and with own children of the householder under 18 years|
+|Total households!!Family households (families)!!Male householder, no wife present, family|Total number of family households (families) with Male householder, no wife present, family|
 |HOUSEHOLDS BY TYPE!!|HOUSEHOLDS BY TYPE!!|
-|Total households!!Family households (families)!!Female householder, no husband present, family|Total households!!Family households (families)!!Female householder, no husband present, family|
+|Total households!!Family households (families)!!Female householder, no husband present, family|Total number of family households (families) with Female householder, no husband present, family|
 |Total households!!Family households (families)!!Female householder, no husband present, family!!With own children of the householder under 18 years|Total households!!Family households (families)!!Female householder, no husband present, family!!With own children of the householder under 18 years|
 |Total households!!Nonfamily households|Total households!!Nonfamily households|
 |Total households!!Nonfamily households!!Householder living alone|Total households!!Nonfamily households!!Householder living alone|
