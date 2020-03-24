@@ -804,8 +804,11 @@ class Formatter():
       # integrate with trapezoidal method
       beta = - (S[-1] - S[0]) / np.trapz(S - X, x=None, dx=1)
       gamma = R[-1] / np.trapz(X, x=None, dx=1)
-      
-      writer.writerow([fips, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
+
+      if np.isnan(beta) or np.isnan(gamma):
+        writer.writerow([fips, f'{infections[fips][-1]}', 'NA', 'NA'])
+      else:
+        writer.writerow([fips, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
       if infections[fips][-1] > 8:
         print(f'wrote {fips}: N = {N}, beta = {beta}, gamma = {gamma}')
     file.close()
