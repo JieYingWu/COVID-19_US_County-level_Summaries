@@ -573,23 +573,56 @@ class Formatter():
     with open(join(self.data_dir, 'counties.csv'), 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
       labels = sum([self.national_data['labels'][k] for k in self.keys], [])
-      na_values = OrderedDict([(label, 0) for label in labels])
+      na_total = OrderedDict([(label, 0) for label in labels])
+      na_counties = OrderedDict([(label, 0) for label in labels])
+      na_metro = OrderedDict([(label, 0) for label in labels])
       writer.writerow(labels)
 
+      num_counties = 0
+      num_metro = 0
       for i, fips in enumerate(self.fips_codes):
         row = sum([self.national_data[fips][k] for k in self.keys], [])
-        for j, label in enumerate(na_values):
+        for j, label in enumerate(na_total):
           if row[j] == 'NA':
-            na_values[label] += 1
+            na_total[label] += 1
+          if row[j] == 'NA' and self._is_county(row[0]):
+            na_counties[label] += 1
+          if row[j] == 'NA' and self._is_county(row[0]) and int(row[3]) <= 3:
+            na_metro[label] += 1
+        if self._is_county(row[0]):
+          num_counties += 1
+        if self._is_county(row[0]) and int(row[3]) <= 3:
+          num_metro += 1
         writer.writerow(row)
 
-      print(f'wrote data for {i} counties')
+      print(f'wrote data for {i} rows, {num_counties} counties, {num_metro} metro counties')
 
-    with open(join(self.data_dir, 'not_available.csv'), 'w', newline='') as file:
+    num_rows = i
+    
+    with open(join(self.data_dir, 'availability.csv'), 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
-      writer.writerow(['COLUMN LABEL', 'TOTAL NA', 'FRACTION NA'])
+      writer.writerow(['COLUMN_LABEL',
+                       'TOTAL_AVAILABLE', 'TOTAL_NA', 'FRACTION_AVAILABLE', 'FRACTION_NA',
+                       'COUNTIES_AVAILABLE', 'COUNTIES_NA', 'FRACTION_COUNTIES_AVAILABLE', 'FRACTION_COUNTIES_NA',
+                       'METRO_COUNTIES_AVAILABLE', 'METRO_COUNTIES_NA', 'FRACTION_METRO_COUNTIES_AVAILABLE', 'FRACTION_METRO_COUNTIES_NA'])
       for label in labels:
-        writer.writerow([label, na_values[label], na_values[label] / i])
+        total_available = num_rows - na_total[label]
+        counties_available = num_counties - na_counties[label]
+        metro_counties_available = num_metro - na_metro[label]
+        writer.writerow([
+          label,
+          total_available,
+          na_total[label],
+          f'{total_available / num_rows:.04f}',
+          f'{na_total[label] / num_rows:.04f}',
+          counties_available,
+          na_counties[label],
+          f'{counties_available / num_counties:.04f}',
+          f'{na_counties[label] / num_counties:.04f}',
+          metro_counties_available,
+          na_metro[label],
+          f'{metro_counties_available / num_metro:.04f}',
+          f'{na_metro[label] / num_metro:.04f}'])
       
       print(f'wrote data for NA values')
       
