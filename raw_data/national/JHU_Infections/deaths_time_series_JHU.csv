@@ -102,7 +102,7 @@ FIPS,Admin2,Province_State,Country_Region,21/03/2020 16:47,22/03/2020 18:57,23/0
 4009,Graham,Arizona,US,0,0,0,0
 4011,Greenlee,Arizona,US,0,0,0,0
 4012,La Paz,Arizona,US,0,0,0,0
-4013,Maricopa,Arizona,US,1,0,2,2
+4013,Maricopa,Arizona,US,1,1,2,2
 4015,Mohave,Arizona,US,0,0,0,0
 4017,Navajo,Arizona,US,0,0,0,0
 4019,Pima,Arizona,US,0,0,0,1
@@ -217,7 +217,7 @@ FIPS,Admin2,Province_State,Country_Region,21/03/2020 16:47,22/03/2020 18:57,23/0
 6059,Orange,California,US,0,0,0,0
 6061,Placer,California,US,1,1,1,1
 6063,Plumas,California,US,0,0,0,0
-6065,Riverside,California,US,4,0,6,6
+6065,Riverside,California,US,4,4,6,6
 6067,Sacramento,California,US,3,3,3,4
 6069,San Benito,California,US,1,1,1,1
 6071,San Bernardino,California,US,0,0,0,0
@@ -1860,7 +1860,7 @@ FIPS,Admin2,Province_State,Country_Region,21/03/2020 16:47,22/03/2020 18:57,23/0
 36055,Monroe,New York,US,1,1,1,3
 36057,Montgomery,New York,US,0,0,0,0
 36059,Nassau,New York,US,4,4,4,9
-36061,New York City,New York,US,43,0,98,125
+36061,New York City,New York,US,43,43,98,125
 36063,Niagara,New York,US,0,0,0,0
 36065,Oneida,New York,US,0,0,0,0
 36067,Onondaga,New York,US,0,0,0,0
@@ -2099,7 +2099,7 @@ FIPS,Admin2,Province_State,Country_Region,21/03/2020 16:47,22/03/2020 18:57,23/0
 39103,Medina,Ohio,US,0,0,0,0
 39105,Meigs,Ohio,US,0,0,0,0
 39107,Mercer,Ohio,US,0,0,0,0
-39109,Miami,Ohio,US,1,0,0,0
+39109,Miami,Ohio,US,1,1,1,1
 39111,Monroe,Ohio,US,0,0,0,0
 39113,Montgomery,Ohio,US,0,0,0,0
 39115,Morgan,Ohio,US,0,0,0,0
@@ -2331,7 +2331,7 @@ FIPS,Admin2,Province_State,Country_Region,21/03/2020 16:47,22/03/2020 18:57,23/0
 45021,Cherokee,South Carolina,US,0,0,0,0
 45023,Chester,South Carolina,US,0,0,0,0
 45025,Chesterfield,South Carolina,US,0,0,0,0
-45027,Clarendon,South Carolina,US,1,1,0,1
+45027,Clarendon,South Carolina,US,1,1,1,1
 45029,Colleton,South Carolina,US,0,0,0,0
 45031,Darlington,South Carolina,US,0,0,0,0
 45033,Dillon,South Carolina,US,0,0,0,0
@@ -2582,7 +2582,7 @@ FIPS,Admin2,Province_State,Country_Region,21/03/2020 16:47,22/03/2020 18:57,23/0
 48107,Crosby,Texas,US,0,0,0,0
 48109,Culberson,Texas,US,0,0,0,0
 48111,Dallam,Texas,US,0,0,0,0
-48113,Dallas,Texas,US,1,0,3,4
+48113,Dallas,Texas,US,1,1,3,4
 48115,Dawson,Texas,US,0,0,0,0
 48117,Deaf Smith,Texas,US,0,0,0,0
 48119,Delta,Texas,US,0,0,0,0
