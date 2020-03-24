@@ -6,7 +6,6 @@ Meant to be run from the root as `python scripts/format_data.py`.
 """
 
 from os.path import join, exists
-import itertools
 import numpy as np
 import re
 from collections import OrderedDict
@@ -698,8 +697,9 @@ class Formatter():
         if self._is_county(row[0]) and int(row[3]) <= 3:
           num_metro += 1
         writer.writerow(row)
-
-      print(f'wrote data for {i} rows, {num_counties} counties, {num_metro} metro counties')
+        
+      num_columns = len(row)
+      print(f'wrote {num_columns} data columns for {i} rows, {num_counties} counties, {num_metro} metro counties')
 
     num_rows = i
     
@@ -813,7 +813,7 @@ def main():
   parser.add_argument('--data-dir', default='./data', help='directory to write formatted data to')
   args = parser.parse_args()
 
-  # debug
+  # run
   formatter = Formatter(args)
   formatter.make_national_data()
   formatter.make_cases_data()
