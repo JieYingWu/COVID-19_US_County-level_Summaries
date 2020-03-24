@@ -36,8 +36,8 @@ class CoronavirusCases(Dataset):
     
     # get which rows correspond to this split
     which = []
-    for i, (row, case_row) in enumerate(zip(counties, cases)):
-      if row[0][:2] in getattr(self, split + '_states') and float(cases[i, 1]) > threshold and float(case_row[1]) > threshold:
+    for i, row in enumerate(counties):
+      if row[0][:2] in getattr(self, split + '_states') and float(cases[i, 1]) > threshold:
         which.append(i)
     
     self.counties = counties[which]

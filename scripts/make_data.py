@@ -5,6 +5,7 @@ Meant to be run from the root as `python scripts/format_data.py`.
 
 """
 
+from shutil import copyfile
 from os.path import join, exists
 import numpy as np
 import re
@@ -730,7 +731,7 @@ class Formatter():
       
       print(f'wrote data for NA values')
       
-  def _read_cases_data(self):
+  def _read_cases_data(self, infections_filename, deaths_filename, recovered_filename):
     def load(filename):
       data = {}
       with open(filename, 'r', newline='') as file:
@@ -744,10 +745,6 @@ class Formatter():
           data[fips] = np.array(list(map(lambda x: 0 if x == '' else float(x), row[4:])))
       return data
       
-    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_JHU_timeseries.csv')
-    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_JHU_timeseries.csv')
-    recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_JHU_timeseries.csv')
-
     # mapping from fips to numpy array giving timeseries for each.
     infections = load(infections_filename)
     deaths = load(deaths_filename)
@@ -770,7 +767,14 @@ class Formatter():
     """
     # mapping from fips to numpy array giving timeseries for each, starting from the first day with
     # nonzero infections
-    infections, deaths, recovered = self._read_cases_data()
+    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_JHU_timeseries.csv')
+    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_JHU_timeseries.csv')
+    recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_JHU_timeseries.csv')
+    copyfile(infections_filename, join(self.data_dir, 'infections_timeseries.csv'))
+    copyfile(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'))
+    copyfile(recovered_filename, join(self.data_dir, 'recovered_timeseries.csv'))
+    
+    infections, deaths, recovered = self._read_cases_data(infections_filename, deaths_filename, recovered_filename)
 
     filename = join(self.data_dir, 'cases.csv')
     file = open(filename, 'w', newline='')
