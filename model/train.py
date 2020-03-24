@@ -4,6 +4,7 @@
 import torch
 import numpy as np
 from mlp import MLP
+from loader import CoronavirusCases
 
 # Device information
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -20,10 +21,13 @@ n_epochs = 100
 momentum = 0.9
 
 # Make datasets and dataloaders
-train_dataset = SimulatorDataset3D(train_source_path, train_target_path, device)
-val_dataset = SimulatorDataset3D(val_source_path, val_target_path, device)
+data_dir = '../data'
+train_dataset = CoronavirusCases(data_dir, split='train', device=device)
+#val_dataset = SimulatorDataset3D(data_dir, split='val', device=device)
 train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
-val_loader = DataLoader(dataset=val_dataset, batch_size=batch_size, shuffle=False)
+#val_loader = DataLoader(dataset=val_dataset, batch_size=batch_size, shuffle=False)
+
+exit()
 
 # Checkpoint parameter
 root = Path("checkpoints")
