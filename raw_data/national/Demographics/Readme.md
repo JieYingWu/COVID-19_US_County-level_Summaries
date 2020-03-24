@@ -16,11 +16,11 @@
 - Total_age85plusr 
 - Male_age85plusr 
 - Female_age85plusr 
-- pop_density
+- pop_density - population density
 
 
-## Relationship
-- RELATIONSHIP!!Population in households
+## Relationship status
+- RELATIONSHIP!!Population in households - Total
 - RELATIONSHIP!!Population in households!!Householder
 - RELATIONSHIP!!Population in households!!Spouse
 - RELATIONSHIP!!Population in households!!Child
@@ -29,13 +29,13 @@
 - RELATIONSHIP!!Population in households!!Nonrelatives!!Unmarried partner
 
 ## Marital status
-- MARITAL STATUS!!Males 15 years and over
+- MARITAL STATUS!!Males 15 years and over - Total
 - MARITAL STATUS!!Males 15 years and over!!Never married
 - MARITAL STATUS!!Males 15 years and over!!Now married, except separated
 - MARITAL STATUS!!Males 15 years and over!!Separated
 - MARITAL STATUS!!Males 15 years and over!!Widowed
 - MARITAL STATUS!!Males 15 years and over!!Divorced
-- MARITAL STATUS!!Females 15 years and over
+- MARITAL STATUS!!Females 15 years and over - Total
 - MARITAL STATUS!!Females 15 years and over!!Never married
 - MARITAL STATUS!!Females 15 years and over!!Now married, except separated
 - MARITAL STATUS!!Females 15 years and over!!Separated
@@ -43,7 +43,7 @@
 - MARITAL STATUS!!Females 15 years and over!!Divorced
 
 ## School enrolment
-- SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school
+- SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school - Total
 - SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool
 - SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten
 - SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school(grades 1-8)
@@ -51,7 +51,7 @@
 - SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school
 
 ## Education
-- EDUCATIONAL ATTAINMENT!!Population 25 years and over
+- EDUCATIONAL ATTAINMENT!!Population 25 years and over - Total
 - EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade
 - EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma
 - EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate(includes equivalency)
@@ -77,7 +77,7 @@
 - DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability
 - DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability
 
-##Etnicity
+## Etnicity
 Description  can be found here: https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2010-2018/cc-est2018-alldata.pdf
 - TOT_POP Total population
 - TOT_MALE Total male population
