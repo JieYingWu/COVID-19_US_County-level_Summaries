@@ -399,3 +399,5 @@
 5. Johns Hopkins CSSE COVID-19 Tracking: https://github.com/CSSEGISandData/COVID-19
 6. https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
 7. USAfacts: https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
+8. [https://www.kff.org/state-category/providers-service-use/](https://www.kff.org/state-category/providers-service-use/)
+9. [https://www.aamc.org/data-reports/workforce/data/2019-state-profiles](https://www.aamc.org/data-reports/workforce/data/2019-state-profiles)
