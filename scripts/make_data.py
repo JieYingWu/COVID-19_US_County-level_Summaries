@@ -572,6 +572,8 @@ class Formatter():
       return self._get_fips(x[key][self.fips_columns[key]])
     elif x in self.fips_codes:
       return x
+    elif re.match(r'^-?\d+(?:\.\d+)$', x) is not None:
+      return str(int(float(x))).zfill(5)
     elif x in self.areas:
       return self.areas[x]
     elif isinstance(x, int):
@@ -767,9 +769,9 @@ class Formatter():
     """
     # mapping from fips to numpy array giving timeseries for each, starting from the first day with
     # nonzero infections
-    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_JHU_timeseries.csv')
-    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_JHU_timeseries.csv')
-    recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_JHU_timeseries.csv')
+    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_time_series_JHU.csv')
+    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_time_series_JHU.csv')
+    recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_time_series_JHU.csv')
     copyfile(infections_filename, join(self.data_dir, 'infections_timeseries.csv'))
     copyfile(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'))
     copyfile(recovered_filename, join(self.data_dir, 'recovered_timeseries.csv'))
