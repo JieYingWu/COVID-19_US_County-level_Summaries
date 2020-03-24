@@ -19,8 +19,8 @@ class CoronavirusCases(Dataset):
     :rtype: 
 
     """
-    self.val_states = {'06'}           # California FIPS
-    self.test_states = {'53'}          # Washington State FIPS
+    self.val_states = {'53'}           # Washington State FIPS
+    self.test_states = {'06'}          # California FIPS
     self.train_states = set(str(i).zfill(2) for i in range(1, 100)
                             if str(i).zfill(2) not in self.val_states
                             and str(i).zfill(2) not in self.test_states)
@@ -39,7 +39,7 @@ class CoronavirusCases(Dataset):
     for i, (row, case_row) in enumerate(zip(counties, cases)):
       if row[0][:2] in getattr(self, split + '_states') and float(cases[i, 1]) > threshold and float(case_row[1]) > threshold:
         which.append(i)
-    
+
     self.counties = counties[which]
     self.cases = cases[which]
     
