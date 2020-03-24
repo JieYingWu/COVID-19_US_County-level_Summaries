@@ -39,11 +39,11 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 1075.0,Lamar,Alabama,US,1.0,1.0,1.0,1.0
 1077.0,Lauderdale,Alabama,US,1.0,2.0,2.0,3.0
 1079.0,Lawrence,Alabama,US,0.0,0.0,0.0,0.0
-1081.0,Lee,Alabama,US,12.0,0.0,16.0,21.0
+1081.0,Lee,Alabama,US,12.0,12.0,16.0,21.0
 1083.0,Limestone,Alabama,US,1.0,1.0,1.0,2.0
 1085.0,Lowndes,Alabama,US,0.0,0.0,0.0,0.0
 1087.0,Macon,Alabama,US,0.0,0.0,0.0,0.0
-1089.0,Madison,Alabama,US,7.0,0.0,16.0,21.0
+1089.0,Madison,Alabama,US,7.0,7.0,16.0,21.0
 1091.0,Marengo,Alabama,US,0.0,0.0,0.0,0.0
 1093.0,Marion,Alabama,US,0.0,1.0,1.0,1.0
 1095.0,Marshall,Alabama,US,0.0,0.0,0.0,0.0
@@ -57,11 +57,11 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 1111.0,Randolph,Alabama,US,0.0,0.0,0.0,0.0
 1113.0,Russell,Alabama,US,0.0,0.0,0.0,0.0
 1115.0,St. Clair,Alabama,US,1.0,1.0,3.0,4.0
-1117.0,Shelby,Alabama,US,16.0,0.0,17.0,24.0
+1117.0,Shelby,Alabama,US,16.0,16.0,17.0,24.0
 1119.0,Sumter,Alabama,US,0.0,0.0,0.0,0.0
 1121.0,Talladega,Alabama,US,1.0,1.0,1.0,1.0
 1123.0,Tallapoosa,Alabama,US,0.0,0.0,0.0,1.0
-1125.0,Tuscaloosa,Alabama,US,4.0,0.0,7.0,9.0
+1125.0,Tuscaloosa,Alabama,US,4.0,4.0,7.0,9.0
 1127.0,Walker,Alabama,US,1.0,1.0,1.0,3.0
 1129.0,Washington,Alabama,US,1.0,1.0,1.0,1.0
 1131.0,Wilcox,Alabama,US,0.0,0.0,0.0,0.0
@@ -97,18 +97,18 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 2290.0,Yukon-Koyukuk,Alaska,US,0.0,0.0,0.0,0.0
 4001.0,Apache,Arizona,US,3.0,3.0,3.0,4.0
 4003.0,Cochise,Arizona,US,1.0,1.0,1.0,1.0
-4005.0,Coconino,Arizona,US,11.0,0.0,14.0,18.0
+4005.0,Coconino,Arizona,US,11.0,11.0,14.0,18.0
 4007.0,Gila,Arizona,US,0.0,0.0,0.0,0.0
-4009.0,Graham,Arizona,US,1.0,0.0,2.0,2.0
+4009.0,Graham,Arizona,US,1.0,1.0,2.0,2.0
 4011.0,Greenlee,Arizona,US,0.0,0.0,0.0,0.0
 4012.0,La Paz,Arizona,US,0.0,0.0,0.0,0.0
-4013.0,Maricopa,Arizona,US,49.0,0.0,81.0,169.0
+4013.0,Maricopa,Arizona,US,49.0,49.0,81.0,169.0
 4015.0,Mohave,Arizona,US,0.0,0.0,0.0,0.0
-4017.0,Navajo,Arizona,US,3.0,0.0,13.0,32.0
-4019.0,Pima,Arizona,US,12.0,0.0,17.0,42.0
-4021.0,Pinal,Arizona,US,14.0,0.0,16.0,22.0
+4017.0,Navajo,Arizona,US,3.0,3.0,13.0,32.0
+4019.0,Pima,Arizona,US,12.0,12.0,17.0,42.0
+4021.0,Pinal,Arizona,US,14.0,14.0,16.0,22.0
 4023.0,Santa Cruz,Arizona,US,1.0,1.0,1.0,1.0
-4025.0,Yavapai,Arizona,US,1.0,0.0,3.0,3.0
+4025.0,Yavapai,Arizona,US,1.0,1.0,3.0,3.0
 4027.0,Yuma,Arizona,US,1.0,1.0,1.0,2.0
 5001.0,Arkansas,Arkansas,US,0.0,0.0,0.0,0.0
 5003.0,Ashley,Arkansas,US,0.0,0.0,0.0,0.0
@@ -217,15 +217,15 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 6059.0,Orange,California,US,65.0,78.0,95.0,125.0
 6061.0,Placer,California,US,9.0,12.0,12.0,20.0
 6063.0,Plumas,California,US,0.0,0.0,0.0,0.0
-6065.0,Riverside,California,US,28.0,0.0,43.0,46.0
+6065.0,Riverside,California,US,28.0,28.0,43.0,46.0
 6067.0,Sacramento,California,US,53.0,53.0,53.0,88.0
 6069.0,San Benito,California,US,5.0,5.0,5.0,6.0
 6071.0,San Bernardino,California,US,9.0,10.0,17.0,17.0
 6073.0,San Diego,California,US,127.0,155.0,199.0,226.0
-6075.0,San Francisco,California,US,76.0,0.0,131.0,152.0
+6075.0,San Francisco,California,US,76.0,76.0,131.0,152.0
 6077.0,San Joaquin,California,US,25.0,31.0,41.0,51.0
 6079.0,San Luis Obispo,California,US,16.0,21.0,27.0,33.0
-6081.0,San Mateo,California,US,110.0,0.0,117.0,161.0
+6081.0,San Mateo,California,US,110.0,110.0,117.0,161.0
 6083.0,Santa Barbara,California,US,9.0,13.0,18.0,18.0
 6085.0,Santa Clara,California,US,196.0,263.0,302.0,321.0
 6087.0,Santa Cruz,California,US,15.0,15.0,15.0,22.0
@@ -316,15 +316,15 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 9013.0,Tolland,Connecticut,US,4.0,5.0,14.0,16.0
 9015.0,Windham,Connecticut,US,2.0,1.0,1.0,2.0
 10001.0,Kent,Delaware,US,5.0,5.0,6.0,9.0
-10003.0,New Castle,Delaware,US,27.0,0.0,43.0,58.0
-10005.0,Sussex,Delaware,US,7.0,0.0,15.0,20.0
-11001.0,District of Columbia,District of Columbia,US,77.0,0.0,120.0,141.0
-12001.0,Alachua,Florida,US,21.0,0.0,37.0,37.0
+10003.0,New Castle,Delaware,US,27.0,27.0,43.0,58.0
+10005.0,Sussex,Delaware,US,7.0,7.0,15.0,20.0
+11001.0,District of Columbia,District of Columbia,US,77.0,77.0,120.0,141.0
+12001.0,Alachua,Florida,US,21.0,21.0,37.0,37.0
 12003.0,Baker,Florida,US,1.0,1.0,3.0,4.0
 12005.0,Bay,Florida,US,1.0,1.0,1.0,1.0
 12007.0,Bradford,Florida,US,0.0,0.0,1.0,1.0
 12009.0,Brevard,Florida,US,4.0,5.0,7.0,9.0
-12011.0,Broward,Florida,US,151.0,0.0,258.0,311.0
+12011.0,Broward,Florida,US,151.0,151.0,258.0,311.0
 12013.0,Calhoun,Florida,US,0.0,0.0,0.0,0.0
 12015.0,Charlotte,Florida,US,2.0,2.0,3.0,3.0
 12017.0,Citrus,Florida,US,7.0,8.0,9.0,9.0
@@ -333,7 +333,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 12023.0,Columbia,Florida,US,0.0,0.0,2.0,3.0
 12027.0,DeSoto,Florida,US,0.0,0.0,1.0,1.0
 12029.0,Dixie,Florida,US,0.0,0.0,0.0,0.0
-12031.0,Duval,Florida,US,20.0,0.0,46.0,50.0
+12031.0,Duval,Florida,US,20.0,20.0,46.0,50.0
 12033.0,Escambia,Florida,US,1.0,1.0,5.0,10.0
 12035.0,Flagler,Florida,US,0.0,0.0,3.0,4.0
 12037.0,Franklin,Florida,US,0.0,0.0,0.0,0.0
@@ -346,20 +346,20 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 12051.0,Hendry,Florida,US,0.0,0.0,0.0,0.0
 12053.0,Hernando,Florida,US,5.0,5.0,5.0,5.0
 12055.0,Highlands,Florida,US,1.0,1.0,2.0,4.0
-12057.0,Hillsborough,Florida,US,42.0,0.0,73.0,91.0
+12057.0,Hillsborough,Florida,US,42.0,42.0,73.0,91.0
 12059.0,Holmes,Florida,US,0.0,0.0,0.0,0.0
-12061.0,Indian River,Florida,US,4.0,0.0,8.0,11.0
+12061.0,Indian River,Florida,US,4.0,4.0,8.0,11.0
 12063.0,Jackson,Florida,US,1.0,1.0,1.0,1.0
 12065.0,Jefferson,Florida,US,0.0,0.0,0.0,0.0
 12067.0,Lafayette,Florida,US,0.0,0.0,0.0,0.0
-12069.0,Lake,Florida,US,4.0,0.0,7.0,14.0
-12071.0,Lee,Florida,US,14.0,0.0,28.0,32.0
+12069.0,Lake,Florida,US,4.0,4.0,7.0,14.0
+12071.0,Lee,Florida,US,14.0,14.0,28.0,32.0
 12073.0,Leon,Florida,US,5.0,4.0,5.0,8.0
 12075.0,Levy,Florida,US,0.0,0.0,0.0,0.0
 12077.0,Liberty,Florida,US,0.0,0.0,0.0,0.0
 12079.0,Madison,Florida,US,0.0,0.0,0.0,0.0
 12081.0,Manatee,Florida,US,11.0,13.0,15.0,16.0
-12083.0,Marion,Florida,US,1.0,0.0,4.0,4.0
+12083.0,Marion,Florida,US,1.0,1.0,4.0,4.0
 12085.0,Martin,Florida,US,1.0,1.0,2.0,4.0
 12086.0,Miami-Dade,Florida,US,0.0,0.0,267.0,338.0
 12087.0,Monroe,Florida,US,1.0,1.0,2.0,3.0
@@ -367,22 +367,22 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 12091.0,Okaloosa,Florida,US,9.0,12.0,14.0,14.0
 12093.0,Okeechobee,Florida,US,0.0,0.0,0.0,0.0
 12095.0,Orange,Florida,US,23.0,29.0,45.0,50.0
-12097.0,Osceola,Florida,US,14.0,0.0,24.0,26.0
-12099.0,Palm Beach,Florida,US,45.0,0.0,89.0,101.0
+12097.0,Osceola,Florida,US,14.0,14.0,24.0,26.0
+12099.0,Palm Beach,Florida,US,45.0,45.0,89.0,101.0
 12101.0,Pasco,Florida,US,8.0,8.0,13.0,15.0
-12103.0,Pinellas,Florida,US,27.0,0.0,40.0,45.0
-12105.0,Polk,Florida,US,10.0,0.0,13.0,13.0
+12103.0,Pinellas,Florida,US,27.0,27.0,40.0,45.0
+12105.0,Polk,Florida,US,10.0,10.0,13.0,13.0
 12107.0,Putnam,Florida,US,1.0,1.0,2.0,2.0
-12109.0,St. Johns,Florida,US,8.0,0.0,18.0,22.0
-12111.0,St. Lucie,Florida,US,1.0,0.0,3.0,6.0
+12109.0,St. Johns,Florida,US,8.0,8.0,18.0,22.0
+12111.0,St. Lucie,Florida,US,1.0,1.0,3.0,6.0
 12113.0,Santa Rosa,Florida,US,3.0,3.0,3.0,4.0
-12115.0,Sarasota,Florida,US,10.0,0.0,20.0,26.0
-12117.0,Seminole,Florida,US,11.0,0.0,19.0,23.0
+12115.0,Sarasota,Florida,US,10.0,10.0,20.0,26.0
+12117.0,Seminole,Florida,US,11.0,11.0,19.0,23.0
 12119.0,Sumter,Florida,US,2.0,4.0,8.0,10.0
 12121.0,Suwannee,Florida,US,0.0,0.0,0.0,0.0
 12123.0,Taylor,Florida,US,0.0,0.0,0.0,0.0
 12125.0,Union,Florida,US,0.0,0.0,0.0,0.0
-12127.0,Volusia,Florida,US,10.0,0.0,15.0,18.0
+12127.0,Volusia,Florida,US,10.0,10.0,15.0,18.0
 12129.0,Wakulla,Florida,US,0.0,0.0,0.0,0.0
 12131.0,Walton,Florida,US,3.0,4.0,5.0,10.0
 12133.0,Washington,Florida,US,0.0,0.0,0.0,0.0
@@ -393,7 +393,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 13009.0,Baldwin,Georgia,US,0.0,2.0,2.0,2.0
 13011.0,Banks,Georgia,US,0.0,0.0,0.0,0.0
 13013.0,Barrow,Georgia,US,1.0,1.0,2.0,1.0
-13015.0,Bartow,Georgia,US,54.0,0.0,56.0,75.0
+13015.0,Bartow,Georgia,US,54.0,54.0,56.0,75.0
 13017.0,Ben Hill,Georgia,US,0.0,0.0,0.0,1.0
 13019.0,Berrien,Georgia,US,0.0,0.0,0.0,0.0
 13021.0,Bibb,Georgia,US,1.0,1.0,1.0,4.0
@@ -413,12 +413,12 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 13051.0,Chatham,Georgia,US,2.0,4.0,4.0,4.0
 13053.0,Chattahoochee,Georgia,US,0.0,0.0,0.0,0.0
 13055.0,Chattooga,Georgia,US,0.0,0.0,1.0,1.0
-13057.0,Cherokee,Georgia,US,16.0,0.0,18.0,24.0
+13057.0,Cherokee,Georgia,US,16.0,16.0,18.0,24.0
 13059.0,Clarke,Georgia,US,10.0,9.0,10.0,14.0
 13061.0,Clay,Georgia,US,0.0,0.0,0.0,0.0
 13063.0,Clayton,Georgia,US,10.0,13.0,13.0,19.0
 13065.0,Clinch,Georgia,US,0.0,1.0,1.0,1.0
-13067.0,Cobb,Georgia,US,47.0,0.0,67.0,79.0
+13067.0,Cobb,Georgia,US,47.0,47.0,67.0,79.0
 13069.0,Coffee,Georgia,US,0.0,0.0,1.0,1.0
 13071.0,Colquitt,Georgia,US,0.0,0.0,0.0,2.0
 13073.0,Columbia,Georgia,US,2.0,3.0,3.0,3.0
@@ -429,30 +429,30 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 13083.0,Dade,Georgia,US,0.0,0.0,0.0,0.0
 13085.0,Dawson,Georgia,US,1.0,1.0,1.0,1.0
 13087.0,Decatur,Georgia,US,0.0,0.0,0.0,0.0
-13089.0,DeKalb,Georgia,US,36.0,0.0,53.0,74.0
+13089.0,DeKalb,Georgia,US,36.0,36.0,53.0,74.0
 13091.0,Dodge,Georgia,US,0.0,0.0,0.0,0.0
 13093.0,Dooly,Georgia,US,0.0,0.0,0.0,0.0
-13095.0,Dougherty,Georgia,US,44.0,0.0,52.0,69.0
+13095.0,Dougherty,Georgia,US,44.0,44.0,52.0,69.0
 13097.0,Douglas,Georgia,US,1.0,4.0,4.0,7.0
 13099.0,Early,Georgia,US,2.0,2.0,2.0,2.0
 13101.0,Echols,Georgia,US,0.0,0.0,0.0,0.0
-13103.0,Effingham,Georgia,US,1.0,0.0,2.0,2.0
+13103.0,Effingham,Georgia,US,1.0,1.0,2.0,2.0
 13105.0,Elbert,Georgia,US,0.0,0.0,0.0,0.0
 13107.0,Emanuel,Georgia,US,0.0,0.0,0.0,0.0
 13109.0,Evans,Georgia,US,0.0,0.0,0.0,0.0
 13111.0,Fannin,Georgia,US,0.0,0.0,0.0,0.0
 13113.0,Fayette,Georgia,US,9.0,9.0,9.0,11.0
-13115.0,Floyd,Georgia,US,7.0,0.0,9.0,10.0
+13115.0,Floyd,Georgia,US,7.0,7.0,9.0,10.0
 13117.0,Forsyth,Georgia,US,3.0,4.0,5.0,7.0
 13119.0,Franklin,Georgia,US,0.0,0.0,0.0,0.0
-13121.0,Fulton,Georgia,US,88.0,0.0,111.0,152.0
+13121.0,Fulton,Georgia,US,88.0,88.0,111.0,152.0
 13123.0,Gilmer,Georgia,US,0.0,0.0,0.0,0.0
 13125.0,Glascock,Georgia,US,0.0,0.0,0.0,0.0
-13127.0,Glynn,Georgia,US,2.0,0.0,4.0,4.0
+13127.0,Glynn,Georgia,US,2.0,2.0,4.0,4.0
 13129.0,Gordon,Georgia,US,3.0,4.0,4.0,6.0
 13131.0,Grady,Georgia,US,0.0,0.0,0.0,0.0
 13133.0,Greene,Georgia,US,0.0,0.0,0.0,0.0
-13135.0,Gwinnett,Georgia,US,23.0,0.0,27.0,35.0
+13135.0,Gwinnett,Georgia,US,23.0,23.0,27.0,35.0
 13137.0,Habersham,Georgia,US,0.0,0.0,0.0,0.0
 13139.0,Hall,Georgia,US,6.0,9.0,9.0,10.0
 13141.0,Hancock,Georgia,US,0.0,0.0,0.0,0.0
@@ -470,14 +470,14 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 13165.0,Jenkins,Georgia,US,0.0,0.0,0.0,0.0
 13167.0,Johnson,Georgia,US,0.0,0.0,0.0,0.0
 13169.0,Jones,Georgia,US,0.0,0.0,0.0,0.0
-13171.0,Lamar,Georgia,US,1.0,0.0,3.0,3.0
+13171.0,Lamar,Georgia,US,1.0,1.0,3.0,3.0
 13173.0,Lanier,Georgia,US,0.0,0.0,0.0,0.0
 13175.0,Laurens,Georgia,US,2.0,2.0,2.0,2.0
 13177.0,Lee,Georgia,US,13.0,14.0,16.0,19.0
 13179.0,Liberty,Georgia,US,0.0,0.0,0.0,1.0
 13181.0,Lincoln,Georgia,US,0.0,1.0,1.0,1.0
 13183.0,Long,Georgia,US,0.0,0.0,0.0,0.0
-13185.0,Lowndes,Georgia,US,7.0,0.0,8.0,8.0
+13185.0,Lowndes,Georgia,US,7.0,7.0,8.0,8.0
 13187.0,Lumpkin,Georgia,US,0.0,1.0,1.0,2.0
 13189.0,McDuffie,Georgia,US,0.0,0.0,0.0,0.0
 13191.0,McIntosh,Georgia,US,0.0,0.0,0.0,0.0
@@ -496,7 +496,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 13219.0,Oconee,Georgia,US,2.0,1.0,2.0,3.0
 13221.0,Oglethorpe,Georgia,US,0.0,0.0,0.0,0.0
 13223.0,Paulding,Georgia,US,3.0,4.0,4.0,5.0
-13225.0,Peach,Georgia,US,1.0,0.0,3.0,3.0
+13225.0,Peach,Georgia,US,1.0,1.0,3.0,3.0
 13227.0,Pickens,Georgia,US,2.0,2.0,2.0,3.0
 13229.0,Pierce,Georgia,US,0.0,0.0,0.0,1.0
 13231.0,Pike,Georgia,US,0.0,0.0,0.0,0.0
@@ -540,7 +540,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 13307.0,Webster,Georgia,US,0.0,0.0,0.0,0.0
 13309.0,Wheeler,Georgia,US,0.0,0.0,0.0,0.0
 13311.0,White,Georgia,US,0.0,0.0,0.0,0.0
-13313.0,Whitfield,Georgia,US,1.0,0.0,2.0,2.0
+13313.0,Whitfield,Georgia,US,1.0,1.0,2.0,2.0
 13315.0,Wilcox,Georgia,US,0.0,0.0,0.0,0.0
 13317.0,Wilkes,Georgia,US,0.0,0.0,0.0,0.0
 13319.0,Wilkinson,Georgia,US,0.0,0.0,0.0,0.0
@@ -571,7 +571,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 16037.0,Custer,Idaho,US,0.0,0.0,0.0,0.0
 16039.0,Elmore,Idaho,US,0.0,0.0,0.0,0.0
 16041.0,Franklin,Idaho,US,0.0,0.0,0.0,0.0
-16043.0,Fremont,Idaho,US,1.0,0.0,0.0,0.0
+16043.0,Fremont,Idaho,US,1.0,1.0,1.0,1.0
 16045.0,Gem,Idaho,US,0.0,0.0,0.0,0.0
 16047.0,Gooding,Idaho,US,0.0,0.0,0.0,0.0
 16049.0,Idaho,Idaho,US,0.0,0.0,0.0,0.0
@@ -813,13 +813,13 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 19043.0,Clayton,Iowa,US,0.0,0.0,0.0,0.0
 19045.0,Clinton,Iowa,US,0.0,0.0,0.0,0.0
 19047.0,Crawford,Iowa,US,0.0,0.0,0.0,0.0
-19049.0,Dallas,Iowa,US,5.0,0.0,6.0,6.0
+19049.0,Dallas,Iowa,US,5.0,5.0,6.0,6.0
 19051.0,Davis,Iowa,US,0.0,0.0,0.0,0.0
 19053.0,Decatur,Iowa,US,0.0,0.0,0.0,0.0
 19055.0,Delaware,Iowa,US,0.0,0.0,0.0,0.0
 19057.0,Des Moines,Iowa,US,0.0,0.0,0.0,0.0
 19059.0,Dickinson,Iowa,US,0.0,0.0,0.0,0.0
-19061.0,Dubuque,Iowa,US,1.0,0.0,4.0,6.0
+19061.0,Dubuque,Iowa,US,1.0,1.0,4.0,6.0
 19063.0,Emmet,Iowa,US,0.0,0.0,0.0,0.0
 19065.0,Fayette,Iowa,US,0.0,1.0,1.0,1.0
 19067.0,Floyd,Iowa,US,0.0,0.0,0.0,0.0
@@ -831,7 +831,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 19079.0,Hamilton,Iowa,US,0.0,0.0,0.0,0.0
 19081.0,Hancock,Iowa,US,0.0,0.0,0.0,2.0
 19083.0,Hardin,Iowa,US,0.0,0.0,0.0,0.0
-19085.0,Harrison,Iowa,US,1.0,0.0,3.0,3.0
+19085.0,Harrison,Iowa,US,1.0,1.0,3.0,3.0
 19087.0,Henry,Iowa,US,0.0,1.0,1.0,1.0
 19089.0,Howard,Iowa,US,0.0,0.0,0.0,0.0
 19091.0,Humboldt,Iowa,US,0.0,0.0,0.0,0.0
@@ -840,7 +840,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 19097.0,Jackson,Iowa,US,0.0,0.0,0.0,0.0
 19099.0,Jasper,Iowa,US,0.0,0.0,0.0,0.0
 19101.0,Jefferson,Iowa,US,0.0,0.0,0.0,0.0
-19103.0,Johnson,Iowa,US,22.0,0.0,32.0,35.0
+19103.0,Johnson,Iowa,US,22.0,22.0,32.0,35.0
 19105.0,Jones,Iowa,US,0.0,0.0,0.0,0.0
 19107.0,Keokuk,Iowa,US,0.0,0.0,0.0,0.0
 19109.0,Kossuth,Iowa,US,0.0,0.0,1.0,1.0
@@ -880,7 +880,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 19177.0,Van Buren,Iowa,US,0.0,0.0,0.0,0.0
 19179.0,Wapello,Iowa,US,0.0,0.0,0.0,1.0
 19181.0,Warren,Iowa,US,0.0,0.0,0.0,0.0
-19183.0,Washington,Iowa,US,1.0,0.0,3.0,3.0
+19183.0,Washington,Iowa,US,1.0,1.0,3.0,3.0
 19185.0,Wayne,Iowa,US,0.0,0.0,0.0,0.0
 19187.0,Webster,Iowa,US,0.0,0.0,0.0,0.0
 19189.0,Winnebago,Iowa,US,0.0,0.0,0.0,0.0
@@ -968,13 +968,13 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 20155.0,Reno,Kansas,US,1.0,1.0,1.0,2.0
 20157.0,Republic,Kansas,US,0.0,0.0,0.0,0.0
 20159.0,Rice,Kansas,US,0.0,0.0,0.0,0.0
-20161.0,Riley,Kansas,US,1.0,1.0,1.0,0.0
+20161.0,Riley,Kansas,US,1.0,1.0,1.0,1.0
 20163.0,Rooks,Kansas,US,0.0,0.0,0.0,0.0
 20165.0,Rush,Kansas,US,0.0,0.0,0.0,0.0
 20167.0,Russell,Kansas,US,0.0,0.0,0.0,0.0
 20169.0,Saline,Kansas,US,0.0,0.0,0.0,0.0
 20171.0,Scott,Kansas,US,0.0,0.0,0.0,0.0
-20173.0,Sedgwick,Kansas,US,1.0,0.0,2.0,3.0
+20173.0,Sedgwick,Kansas,US,1.0,1.0,2.0,3.0
 20175.0,Seward,Kansas,US,0.0,0.0,0.0,0.0
 20177.0,Shawnee,Kansas,US,0.0,0.0,0.0,0.0
 20179.0,Sheridan,Kansas,US,0.0,0.0,0.0,0.0
@@ -1148,7 +1148,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 22065.0,Madison,Louisiana,US,0.0,0.0,0.0,0.0
 22067.0,Morehouse,Louisiana,US,0.0,0.0,0.0,0.0
 22069.0,Natchitoches,Louisiana,US,0.0,0.0,0.0,2.0
-22071.0,Orleans,Louisiana,US,352.0,0.0,451.0,567.0
+22071.0,Orleans,Louisiana,US,352.0,352.0,451.0,567.0
 22073.0,Ouachita,Louisiana,US,0.0,2.0,4.0,9.0
 22075.0,Plaquemines,Louisiana,US,1.0,4.0,5.0,8.0
 22077.0,Pointe Coupee,Louisiana,US,0.0,0.0,0.0,0.0
@@ -1179,7 +1179,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 22127.0,Winn,Louisiana,US,0.0,0.0,0.0,0.0
 23001.0,Androscoggin,Maine,US,3.0,3.0,3.0,3.0
 23003.0,Aroostook,Maine,US,0.0,0.0,0.0,0.0
-23005.0,Cumberland,Maine,US,35.0,0.0,66.0,74.0
+23005.0,Cumberland,Maine,US,35.0,35.0,66.0,74.0
 23007.0,Franklin,Maine,US,0.0,0.0,0.0,0.0
 23009.0,Hancock,Maine,US,0.0,0.0,0.0,0.0
 23011.0,Kennebec,Maine,US,4.0,4.0,4.0,5.0
@@ -1194,29 +1194,29 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 23029.0,Washington,Maine,US,0.0,0.0,0.0,0.0
 23031.0,York,Maine,US,5.0,8.0,12.0,16.0
 24001.0,Allegany,Maryland,US,0.0,0.0,0.0,0.0
-24003.0,Anne Arundel,Maryland,US,15.0,0.0,20.0,24.0
-24005.0,Baltimore,Maryland,US,19.0,0.0,35.0,42.0
-24009.0,Calvert,Maryland,US,1.0,0.0,1.0,3.0
+24003.0,Anne Arundel,Maryland,US,15.0,15.0,20.0,24.0
+24005.0,Baltimore,Maryland,US,19.0,19.0,35.0,42.0
+24009.0,Calvert,Maryland,US,1.0,1.0,1.0,3.0
 24011.0,Caroline,Maryland,US,0.0,1.0,1.0,1.0
-24013.0,Carroll,Maryland,US,3.0,0.0,5.0,5.0
+24013.0,Carroll,Maryland,US,3.0,3.0,5.0,5.0
 24015.0,Cecil,Maryland,US,0.0,0.0,1.0,3.0
-24017.0,Charles,Maryland,US,4.0,0.0,5.0,5.0
+24017.0,Charles,Maryland,US,4.0,4.0,5.0,5.0
 24019.0,Dorchester,Maryland,US,0.0,0.0,0.0,0.0
 24021.0,Frederick,Maryland,US,1.0,1.0,4.0,4.0
 24023.0,Garrett,Maryland,US,0.0,0.0,3.0,3.0
 24025.0,Harford,Maryland,US,5.0,5.0,5.0,5.0
-24027.0,Howard,Maryland,US,19.0,0.0,26.0,30.0
+24027.0,Howard,Maryland,US,19.0,19.0,26.0,30.0
 24029.0,Kent,Maryland,US,0.0,0.0,0.0,0.0
-24031.0,Montgomery,Maryland,US,68.0,0.0,94.0,107.0
-24033.0,Prince George's,Maryland,US,36.0,0.0,47.0,63.0
+24031.0,Montgomery,Maryland,US,68.0,68.0,94.0,107.0
+24033.0,Prince George's,Maryland,US,36.0,36.0,47.0,63.0
 24035.0,Queen Anne's,Maryland,US,0.0,1.0,1.0,1.0
 24037.0,St. Mary's,Maryland,US,0.0,0.0,1.0,2.0
 24039.0,Somerset,Maryland,US,0.0,1.0,1.0,1.0
 24041.0,Talbot,Maryland,US,1.0,1.0,1.0,1.0
 24043.0,Washington,Maryland,US,0.0,1.0,2.0,2.0
 24045.0,Wicomico,Maryland,US,2.0,2.0,4.0,4.0
-24047.0,Worcester,Maryland,US,1.0,0.0,2.0,2.0
-24510.0,Baltimore City,Maryland,US,15.0,0.0,31.0,41.0
+24047.0,Worcester,Maryland,US,1.0,1.0,2.0,2.0
+24510.0,Baltimore City,Maryland,US,15.0,15.0,31.0,41.0
 25001.0,Barnstable,Massachusetts,US,9.0,11.0,24.0,30.0
 25003.0,Berkshire,Massachusetts,US,20.0,21.0,23.0,26.0
 25005.0,Bristol,Massachusetts,US,6.0,14.0,24.0,25.0
@@ -1320,19 +1320,19 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 27007.0,Beltrami,Minnesota,US,0.0,0.0,0.0,0.0
 27009.0,Benton,Minnesota,US,1.0,1.0,1.0,1.0
 27011.0,Big Stone,Minnesota,US,0.0,0.0,0.0,1.0
-27013.0,Blue Earth,Minnesota,US,2.0,0.0,4.0,5.0
+27013.0,Blue Earth,Minnesota,US,2.0,2.0,4.0,5.0
 27015.0,Brown,Minnesota,US,0.0,0.0,0.0,0.0
 27017.0,Carlton,Minnesota,US,0.0,0.0,0.0,0.0
-27019.0,Carver,Minnesota,US,3.0,0.0,7.0,8.0
+27019.0,Carver,Minnesota,US,3.0,3.0,7.0,8.0
 27021.0,Cass,Minnesota,US,0.0,1.0,1.0,1.0
 27023.0,Chippewa,Minnesota,US,0.0,0.0,0.0,0.0
 27025.0,Chisago,Minnesota,US,1.0,1.0,1.0,2.0
-27027.0,Clay,Minnesota,US,1.0,0.0,2.0,2.0
+27027.0,Clay,Minnesota,US,1.0,1.0,2.0,2.0
 27029.0,Clearwater,Minnesota,US,0.0,0.0,0.0,0.0
 27031.0,Cook,Minnesota,US,0.0,0.0,0.0,0.0
 27033.0,Cottonwood,Minnesota,US,0.0,0.0,0.0,0.0
 27035.0,Crow Wing,Minnesota,US,0.0,0.0,0.0,0.0
-27037.0,Dakota,Minnesota,US,7.0,0.0,11.0,18.0
+27037.0,Dakota,Minnesota,US,7.0,7.0,11.0,18.0
 27039.0,Dodge,Minnesota,US,0.0,0.0,2.0,2.0
 27041.0,Douglas,Minnesota,US,0.0,0.0,0.0,0.0
 27043.0,Faribault,Minnesota,US,0.0,0.0,0.0,0.0
@@ -1340,7 +1340,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 27047.0,Freeborn,Minnesota,US,0.0,0.0,0.0,0.0
 27049.0,Goodhue,Minnesota,US,0.0,0.0,0.0,0.0
 27051.0,Grant,Minnesota,US,0.0,0.0,0.0,0.0
-27053.0,Hennepin,Minnesota,US,45.0,0.0,57.0,89.0
+27053.0,Hennepin,Minnesota,US,45.0,45.0,57.0,89.0
 27055.0,Houston,Minnesota,US,0.0,0.0,0.0,0.0
 27057.0,Hubbard,Minnesota,US,0.0,0.0,0.0,0.0
 27059.0,Isanti,Minnesota,US,0.0,0.0,0.0,0.0
@@ -1359,23 +1359,23 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 27085.0,McLeod,Minnesota,US,0.0,0.0,0.0,0.0
 27087.0,Mahnomen,Minnesota,US,0.0,0.0,0.0,0.0
 27089.0,Marshall,Minnesota,US,0.0,0.0,0.0,0.0
-27091.0,Martin,Minnesota,US,4.0,0.0,8.0,8.0
+27091.0,Martin,Minnesota,US,4.0,4.0,8.0,8.0
 27093.0,Meeker,Minnesota,US,0.0,0.0,0.0,0.0
 27095.0,Mille Lacs,Minnesota,US,0.0,0.0,0.0,0.0
 27097.0,Morrison,Minnesota,US,0.0,0.0,0.0,0.0
-27099.0,Mower,Minnesota,US,1.0,0.0,6.0,6.0
+27099.0,Mower,Minnesota,US,1.0,1.0,6.0,6.0
 27101.0,Murray,Minnesota,US,0.0,0.0,0.0,0.0
-27103.0,Nicollet,Minnesota,US,2.0,0.0,3.0,3.0
+27103.0,Nicollet,Minnesota,US,2.0,2.0,3.0,3.0
 27105.0,Nobles,Minnesota,US,0.0,0.0,0.0,0.0
 27107.0,Norman,Minnesota,US,0.0,0.0,0.0,0.0
-27109.0,Olmsted,Minnesota,US,12.0,0.0,14.0,16.0
+27109.0,Olmsted,Minnesota,US,12.0,12.0,14.0,16.0
 27111.0,Otter Tail,Minnesota,US,0.0,0.0,0.0,0.0
 27113.0,Pennington,Minnesota,US,0.0,0.0,0.0,0.0
 27115.0,Pine,Minnesota,US,0.0,0.0,0.0,0.0
 27117.0,Pipestone,Minnesota,US,0.0,0.0,0.0,0.0
 27119.0,Polk,Minnesota,US,0.0,0.0,0.0,0.0
 27121.0,Pope,Minnesota,US,0.0,0.0,0.0,0.0
-27123.0,Ramsey,Minnesota,US,17.0,0.0,18.0,24.0
+27123.0,Ramsey,Minnesota,US,17.0,17.0,18.0,24.0
 27125.0,Red Lake,Minnesota,US,0.0,0.0,0.0,0.0
 27127.0,Redwood,Minnesota,US,0.0,0.0,0.0,0.0
 27129.0,Renville,Minnesota,US,1.0,1.0,1.0,1.0
@@ -1383,7 +1383,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 27133.0,Rock,Minnesota,US,0.0,0.0,0.0,0.0
 27135.0,Roseau,Minnesota,US,0.0,0.0,0.0,0.0
 27137.0,St. Louis,Minnesota,US,0.0,1.0,1.0,2.0
-27139.0,Scott,Minnesota,US,2.0,0.0,3.0,5.0
+27139.0,Scott,Minnesota,US,2.0,2.0,3.0,5.0
 27141.0,Sherburne,Minnesota,US,0.0,0.0,0.0,1.0
 27143.0,Sibley,Minnesota,US,0.0,0.0,0.0,0.0
 27145.0,Stearns,Minnesota,US,4.0,4.0,4.0,5.0
@@ -1395,7 +1395,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 27157.0,Wabasha,Minnesota,US,0.0,1.0,1.0,1.0
 27159.0,Wadena,Minnesota,US,0.0,0.0,0.0,0.0
 27161.0,Waseca,Minnesota,US,1.0,1.0,1.0,2.0
-27163.0,Washington,Minnesota,US,3.0,0.0,7.0,10.0
+27163.0,Washington,Minnesota,US,3.0,3.0,7.0,10.0
 27165.0,Watonwan,Minnesota,US,0.0,0.0,0.0,0.0
 27167.0,Wilkin,Minnesota,US,0.0,0.0,0.0,0.0
 27169.0,Winona,Minnesota,US,0.0,0.0,0.0,0.0
@@ -1406,7 +1406,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 28005.0,Amite,Mississippi,US,0.0,0.0,0.0,0.0
 28007.0,Attala,Mississippi,US,0.0,1.0,1.0,3.0
 28009.0,Benton,Mississippi,US,0.0,0.0,0.0,0.0
-28011.0,Bolivar,Mississippi,US,2.0,0.0,3.0,4.0
+28011.0,Bolivar,Mississippi,US,2.0,2.0,3.0,4.0
 28013.0,Calhoun,Mississippi,US,0.0,0.0,0.0,0.0
 28015.0,Carroll,Mississippi,US,0.0,0.0,0.0,0.0
 28017.0,Chickasaw,Mississippi,US,0.0,0.0,1.0,6.0
@@ -1414,19 +1414,19 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 28021.0,Claiborne,Mississippi,US,0.0,0.0,0.0,0.0
 28023.0,Clarke,Mississippi,US,0.0,0.0,0.0,0.0
 28025.0,Clay,Mississippi,US,1.0,1.0,1.0,1.0
-28027.0,Coahoma,Mississippi,US,5.0,0.0,7.0,11.0
-28029.0,Copiah,Mississippi,US,2.0,0.0,4.0,5.0
+28027.0,Coahoma,Mississippi,US,5.0,5.0,7.0,11.0
+28029.0,Copiah,Mississippi,US,2.0,2.0,4.0,5.0
 28031.0,Covington,Mississippi,US,0.0,0.0,0.0,0.0
-28033.0,DeSoto,Mississippi,US,13.0,0.0,18.0,29.0
-28035.0,Forrest,Mississippi,US,5.0,0.0,11.0,14.0
-28037.0,Franklin,Mississippi,US,2.0,0.0,3.0,3.0
+28033.0,DeSoto,Mississippi,US,13.0,13.0,18.0,29.0
+28035.0,Forrest,Mississippi,US,5.0,5.0,11.0,14.0
+28037.0,Franklin,Mississippi,US,2.0,2.0,3.0,3.0
 28039.0,George,Mississippi,US,1.0,1.0,1.0,1.0
 28041.0,Greene,Mississippi,US,0.0,0.0,0.0,0.0
-28043.0,Grenada,Mississippi,US,1.0,0.0,2.0,2.0
+28043.0,Grenada,Mississippi,US,1.0,1.0,2.0,2.0
 28045.0,Hancock,Mississippi,US,4.0,4.0,4.0,5.0
-28047.0,Harrison,Mississippi,US,8.0,0.0,15.0,24.0
-28049.0,Hinds,Mississippi,US,7.0,0.0,20.0,31.0
-28051.0,Holmes,Mississippi,US,3.0,0.0,6.0,6.0
+28047.0,Harrison,Mississippi,US,8.0,8.0,15.0,24.0
+28049.0,Hinds,Mississippi,US,7.0,7.0,20.0,31.0
+28051.0,Holmes,Mississippi,US,3.0,3.0,6.0,6.0
 28053.0,Humphreys,Mississippi,US,1.0,1.0,1.0,1.0
 28055.0,Issaquena,Mississippi,US,0.0,0.0,0.0,0.0
 28057.0,Itawamba,Mississippi,US,0.0,3.0,3.0,3.0
@@ -1436,18 +1436,18 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 28065.0,Jefferson Davis,Mississippi,US,0.0,0.0,0.0,0.0
 28067.0,Jones,Mississippi,US,1.0,1.0,1.0,1.0
 28069.0,Kemper,Mississippi,US,0.0,0.0,0.0,0.0
-28071.0,Lafayette,Mississippi,US,1.0,0.0,5.0,8.0
+28071.0,Lafayette,Mississippi,US,1.0,1.0,5.0,8.0
 28073.0,Lamar,Mississippi,US,0.0,0.0,0.0,2.0
 28075.0,Lauderdale,Mississippi,US,0.0,0.0,0.0,0.0
-28077.0,Lawrence,Mississippi,US,1.0,0.0,2.0,2.0
+28077.0,Lawrence,Mississippi,US,1.0,1.0,2.0,2.0
 28079.0,Leake,Mississippi,US,0.0,1.0,1.0,2.0
-28081.0,Lee,Mississippi,US,1.0,0.0,6.0,12.0
-28083.0,Leflore,Mississippi,US,7.0,0.0,8.0,10.0
+28081.0,Lee,Mississippi,US,1.0,1.0,6.0,12.0
+28083.0,Leflore,Mississippi,US,7.0,7.0,8.0,10.0
 28085.0,Lincoln,Mississippi,US,0.0,0.0,4.0,4.0
 28087.0,Lowndes,Mississippi,US,0.0,4.0,4.0,6.0
-28089.0,Madison,Mississippi,US,3.0,0.0,9.0,14.0
+28089.0,Madison,Mississippi,US,3.0,3.0,9.0,14.0
 28091.0,Marion,Mississippi,US,0.0,0.0,0.0,1.0
-28093.0,Marshall,Mississippi,US,1.0,0.0,3.0,3.0
+28093.0,Marshall,Mississippi,US,1.0,1.0,3.0,3.0
 28095.0,Monroe,Mississippi,US,2.0,2.0,2.0,3.0
 28097.0,Montgomery,Mississippi,US,0.0,0.0,1.0,2.0
 28099.0,Neshoba,Mississippi,US,0.0,0.0,0.0,0.0
@@ -1455,9 +1455,9 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 28103.0,Noxubee,Mississippi,US,0.0,0.0,0.0,1.0
 28105.0,Oktibbeha,Mississippi,US,0.0,0.0,2.0,5.0
 28107.0,Panola,Mississippi,US,0.0,0.0,2.0,2.0
-28109.0,Pearl River,Mississippi,US,7.0,0.0,10.0,13.0
+28109.0,Pearl River,Mississippi,US,7.0,7.0,10.0,13.0
 28111.0,Perry,Mississippi,US,1.0,1.0,1.0,1.0
-28113.0,Pike,Mississippi,US,1.0,0.0,3.0,7.0
+28113.0,Pike,Mississippi,US,1.0,1.0,3.0,7.0
 28115.0,Pontotoc,Mississippi,US,0.0,0.0,1.0,2.0
 28117.0,Prentiss,Mississippi,US,0.0,0.0,0.0,0.0
 28119.0,Quitman,Mississippi,US,0.0,0.0,0.0,0.0
@@ -1470,17 +1470,17 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 28133.0,Sunflower,Mississippi,US,0.0,0.0,2.0,3.0
 28135.0,Tallahatchie,Mississippi,US,0.0,0.0,0.0,2.0
 28137.0,Tate,Mississippi,US,0.0,0.0,1.0,1.0
-28139.0,Tippah,Mississippi,US,3.0,0.0,7.0,11.0
+28139.0,Tippah,Mississippi,US,3.0,3.0,7.0,11.0
 28141.0,Tishomingo,Mississippi,US,0.0,0.0,0.0,0.0
 28143.0,Tunica,Mississippi,US,0.0,0.0,2.0,3.0
 28145.0,Union,Mississippi,US,0.0,1.0,1.0,1.0
-28147.0,Walthall,Mississippi,US,1.0,0.0,2.0,2.0
+28147.0,Walthall,Mississippi,US,1.0,1.0,2.0,2.0
 28149.0,Warren,Mississippi,US,0.0,0.0,0.0,0.0
 28151.0,Washington,Mississippi,US,0.0,0.0,3.0,5.0
 28153.0,Wayne,Mississippi,US,0.0,0.0,0.0,0.0
 28155.0,Webster,Mississippi,US,1.0,1.0,1.0,2.0
-28157.0,Wilkinson,Mississippi,US,1.0,0.0,3.0,4.0
-28159.0,Winston,Mississippi,US,1.0,0.0,2.0,2.0
+28157.0,Wilkinson,Mississippi,US,1.0,1.0,3.0,4.0
+28159.0,Winston,Mississippi,US,1.0,1.0,2.0,2.0
 28161.0,Yalobusha,Mississippi,US,0.0,0.0,0.0,0.0
 28163.0,Yazoo,Mississippi,US,1.0,1.0,1.0,3.0
 29001.0,Adair,Missouri,US,0.0,1.0,1.0,2.0
@@ -1613,7 +1613,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 30025.0,Fallon,Montana,US,0.0,0.0,0.0,0.0
 30027.0,Fergus,Montana,US,0.0,0.0,0.0,0.0
 30029.0,Flathead,Montana,US,2.0,2.0,2.0,4.0
-30031.0,Gallatin,Montana,US,3.0,0.0,10.0,16.0
+30031.0,Gallatin,Montana,US,3.0,3.0,10.0,16.0
 30033.0,Garfield,Montana,US,0.0,0.0,0.0,0.0
 30035.0,Glacier,Montana,US,0.0,0.0,0.0,0.0
 30037.0,Golden Valley,Montana,US,0.0,0.0,0.0,0.0
@@ -1804,7 +1804,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 35009.0,Curry,New Mexico,US,0.0,0.0,0.0,0.0
 35011.0,De Baca,New Mexico,US,0.0,0.0,0.0,0.0
 35013.0,Dona Ana,New Mexico,US,,,4.0,10.0
-35013.0,Doña Ana,New Mexico,US,1.0,0.0,0.0,0.0
+35013.0,Doña Ana,New Mexico,US,1.0,1.0,1.0,1.0
 35015.0,Eddy,New Mexico,US,0.0,0.0,0.0,0.0
 35017.0,Grant,New Mexico,US,0.0,0.0,0.0,0.0
 35019.0,Guadalupe,New Mexico,US,0.0,0.0,0.0,0.0
@@ -1830,7 +1830,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 35057.0,Torrance,New Mexico,US,0.0,0.0,0.0,0.0
 35059.0,Union,New Mexico,US,0.0,0.0,0.0,0.0
 35061.0,Valencia,New Mexico,US,0.0,0.0,0.0,0.0
-36001.0,Albany,New York,US,70.0,0.0,123.0,146.0
+36001.0,Albany,New York,US,70.0,70.0,123.0,146.0
 36003.0,Allegany,New York,US,2.0,2.0,2.0,2.0
 36005.0,Bronx,New York,US,0.0,0.0,0.0,0.0
 36007.0,Broome,New York,US,2.0,3.0,3.0,9.0
@@ -1840,10 +1840,10 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 36015.0,Chemung,New York,US,0.0,0.0,2.0,3.0
 36017.0,Chenango,New York,US,2.0,2.0,2.0,3.0
 36019.0,Clinton,New York,US,3.0,4.0,4.0,6.0
-36021.0,Columbia,New York,US,3.0,0.0,17.0,17.0
+36021.0,Columbia,New York,US,3.0,3.0,17.0,17.0
 36023.0,Cortland,New York,US,0.0,2.0,2.0,2.0
 36025.0,Delaware,New York,US,1.0,1.0,1.0,3.0
-36027.0,Dutchess,New York,US,36.0,0.0,82.0,124.0
+36027.0,Dutchess,New York,US,36.0,36.0,82.0,124.0
 36029.0,Erie,New York,US,47.0,56.0,56.0,107.0
 36031.0,Essex,New York,US,1.0,3.0,3.0,3.0
 36033.0,Franklin,New York,US,0.0,0.0,0.0,0.0
@@ -1857,15 +1857,15 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 36049.0,Lewis,New York,US,0.0,0.0,0.0,0.0
 36051.0,Livingston,New York,US,1.0,2.0,2.0,3.0
 36053.0,Madison,New York,US,0.0,0.0,0.0,4.0
-36055.0,Monroe,New York,US,46.0,0.0,68.0,97.0
+36055.0,Monroe,New York,US,46.0,46.0,68.0,97.0
 36057.0,Montgomery,New York,US,2.0,3.0,3.0,3.0
-36059.0,Nassau,New York,US,1234.0,0.0,1900.0,2869.0
-36061.0,New York City,New York,US,6211.0,0.0,10764.0,14904.0
+36059.0,Nassau,New York,US,1234.0,1234.0,1900.0,2869.0
+36061.0,New York City,New York,US,6211.0,6211.0,10764.0,14904.0
 36063.0,Niagara,New York,US,4.0,9.0,9.0,10.0
 36065.0,Oneida,New York,US,2.0,4.0,4.0,10.0
 36067.0,Onondaga,New York,US,13.0,34.0,45.0,53.0
 36069.0,Ontario,New York,US,3.0,4.0,4.0,6.0
-36071.0,Orange,New York,US,84.0,0.0,247.0,498.0
+36071.0,Orange,New York,US,84.0,84.0,247.0,498.0
 36073.0,Orleans,New York,US,0.0,0.0,0.0,0.0
 36075.0,Oswego,New York,US,0.0,0.0,2.0,2.0
 36077.0,Otsego,New York,US,0.0,0.0,0.0,1.0
@@ -1873,7 +1873,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 36081.0,Queens,New York,US,0.0,0.0,0.0,0.0
 36083.0,Rensselaer,New York,US,15.0,20.0,20.0,29.0
 36085.0,Richmond,New York,US,0.0,0.0,0.0,0.0
-36087.0,Rockland,New York,US,2222.0,0.0,455.0,671.0
+36087.0,Rockland,New York,US,2222.0,2222.0,455.0,671.0
 36089.0,St. Lawrence,New York,US,0.0,0.0,0.0,1.0
 36091.0,Saratoga,New York,US,24.0,35.0,35.0,53.0
 36093.0,Schenectady,New York,US,21.0,32.0,32.0,44.0
@@ -1881,7 +1881,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 36097.0,Schuyler,New York,US,0.0,0.0,0.0,0.0
 36099.0,Seneca,New York,US,0.0,0.0,0.0,0.0
 36101.0,Steuben,New York,US,2.0,2.0,4.0,5.0
-36103.0,Suffolk,New York,US,662.0,0.0,1034.0,1880.0
+36103.0,Suffolk,New York,US,662.0,662.0,1034.0,1880.0
 36105.0,Sullivan,New York,US,8.0,12.0,12.0,23.0
 36107.0,Tioga,New York,US,1.0,1.0,1.0,1.0
 36109.0,Tompkins,New York,US,11.0,12.0,15.0,15.0
@@ -1889,7 +1889,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 36113.0,Warren,New York,US,1.0,1.0,1.0,2.0
 36115.0,Washington,New York,US,1.0,1.0,1.0,3.0
 36117.0,Wayne,New York,US,1.0,3.0,3.0,6.0
-36119.0,Westchester,New York,US,1385.0,0.0,1873.0,3891.0
+36119.0,Westchester,New York,US,1385.0,1385.0,1873.0,3891.0
 36121.0,Wyoming,New York,US,2.0,2.0,2.0,4.0
 36123.0,Yates,New York,US,0.0,0.0,0.0,0.0
 37001.0,Alamance,North Carolina,US,1.0,2.0,2.0,3.0
@@ -1981,7 +1981,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 37173.0,Swain,North Carolina,US,0.0,0.0,0.0,0.0
 37175.0,Transylvania,North Carolina,US,0.0,0.0,0.0,1.0
 37177.0,Tyrrell,North Carolina,US,0.0,0.0,0.0,0.0
-37179.0,Union,North Carolina,US,6.0,0.0,12.0,13.0
+37179.0,Union,North Carolina,US,6.0,6.0,12.0,13.0
 37181.0,Vance,North Carolina,US,0.0,0.0,1.0,1.0
 37183.0,Wake,North Carolina,US,32.0,49.0,52.0,66.0
 37185.0,Warren,North Carolina,US,0.0,0.0,0.0,0.0
@@ -2048,12 +2048,12 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 39001.0,Adams,Ohio,US,0.0,0.0,0.0,0.0
 39003.0,Allen,Ohio,US,0.0,0.0,0.0,0.0
 39005.0,Ashland,Ohio,US,1.0,1.0,1.0,1.0
-39007.0,Ashtabula,Ohio,US,1.0,0.0,2.0,3.0
+39007.0,Ashtabula,Ohio,US,1.0,1.0,2.0,3.0
 39009.0,Athens,Ohio,US,0.0,0.0,0.0,0.0
 39011.0,Auglaize,Ohio,US,0.0,0.0,0.0,0.0
 39013.0,Belmont,Ohio,US,2.0,2.0,2.0,2.0
 39015.0,Brown,Ohio,US,0.0,0.0,0.0,0.0
-39017.0,Butler,Ohio,US,12.0,0.0,17.0,17.0
+39017.0,Butler,Ohio,US,12.0,12.0,17.0,17.0
 39019.0,Carroll,Ohio,US,0.0,0.0,1.0,2.0
 39021.0,Champaign,Ohio,US,0.0,0.0,0.0,0.0
 39023.0,Clark,Ohio,US,1.0,1.0,1.0,1.0
@@ -2062,20 +2062,20 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 39029.0,Columbiana,Ohio,US,0.0,2.0,2.0,2.0
 39031.0,Coshocton,Ohio,US,2.0,2.0,2.0,3.0
 39033.0,Crawford,Ohio,US,0.0,0.0,0.0,0.0
-39035.0,Cuyahoga,Ohio,US,69.0,0.0,125.0,149.0
+39035.0,Cuyahoga,Ohio,US,69.0,69.0,125.0,149.0
 39037.0,Darke,Ohio,US,1.0,1.0,1.0,1.0
 39039.0,Defiance,Ohio,US,1.0,2.0,2.0,2.0
-39041.0,Delaware,Ohio,US,2.0,0.0,6.0,7.0
+39041.0,Delaware,Ohio,US,2.0,2.0,6.0,7.0
 39043.0,Erie,Ohio,US,1.0,1.0,1.0,1.0
 39045.0,Fairfield,Ohio,US,0.0,0.0,0.0,0.0
 39047.0,Fayette,Ohio,US,0.0,0.0,0.0,0.0
-39049.0,Franklin,Ohio,US,14.0,0.0,34.0,44.0
+39049.0,Franklin,Ohio,US,14.0,14.0,34.0,44.0
 39051.0,Fulton,Ohio,US,0.0,0.0,0.0,0.0
 39053.0,Gallia,Ohio,US,0.0,1.0,1.0,1.0
-39055.0,Geauga,Ohio,US,1.0,0.0,2.0,2.0
+39055.0,Geauga,Ohio,US,1.0,1.0,2.0,2.0
 39057.0,Greene,Ohio,US,0.0,0.0,1.0,1.0
 39059.0,Guernsey,Ohio,US,0.0,0.0,0.0,0.0
-39061.0,Hamilton,Ohio,US,7.0,0.0,19.0,26.0
+39061.0,Hamilton,Ohio,US,7.0,7.0,19.0,26.0
 39063.0,Hancock,Ohio,US,0.0,0.0,1.0,1.0
 39065.0,Hardin,Ohio,US,0.0,0.0,0.0,0.0
 39067.0,Harrison,Ohio,US,0.0,0.0,0.0,0.0
@@ -2087,19 +2087,19 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 39079.0,Jackson,Ohio,US,0.0,0.0,0.0,0.0
 39081.0,Jefferson,Ohio,US,0.0,0.0,0.0,0.0
 39083.0,Knox,Ohio,US,0.0,0.0,1.0,1.0
-39085.0,Lake,Ohio,US,3.0,0.0,6.0,8.0
+39085.0,Lake,Ohio,US,3.0,3.0,6.0,8.0
 39087.0,Lawrence,Ohio,US,0.0,0.0,0.0,0.0
 39089.0,Licking,Ohio,US,1.0,1.0,1.0,1.0
 39091.0,Logan,Ohio,US,0.0,0.0,0.0,1.0
-39093.0,Lorain,Ohio,US,10.0,0.0,19.0,24.0
-39095.0,Lucas,Ohio,US,2.0,0.0,7.0,10.0
+39093.0,Lorain,Ohio,US,10.0,10.0,19.0,24.0
+39095.0,Lucas,Ohio,US,2.0,2.0,7.0,10.0
 39097.0,Madison,Ohio,US,0.0,0.0,1.0,1.0
-39099.0,Mahoning,Ohio,US,7.0,0.0,18.0,23.0
+39099.0,Mahoning,Ohio,US,7.0,7.0,18.0,23.0
 39101.0,Marion,Ohio,US,1.0,1.0,1.0,3.0
-39103.0,Medina,Ohio,US,6.0,0.0,10.0,15.0
+39103.0,Medina,Ohio,US,6.0,6.0,10.0,15.0
 39105.0,Meigs,Ohio,US,0.0,0.0,0.0,0.0
 39107.0,Mercer,Ohio,US,0.0,0.0,0.0,0.0
-39109.0,Miami,Ohio,US,2.0,0.0,13.0,17.0
+39109.0,Miami,Ohio,US,2.0,2.0,13.0,17.0
 39111.0,Monroe,Ohio,US,0.0,0.0,0.0,0.0
 39113.0,Montgomery,Ohio,US,1.0,1.0,5.0,7.0
 39115.0,Morgan,Ohio,US,0.0,0.0,0.0,0.0
@@ -2146,7 +2146,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 40021.0,Cherokee,Oklahoma,US,0.0,0.0,0.0,0.0
 40023.0,Choctaw,Oklahoma,US,0.0,0.0,0.0,0.0
 40025.0,Cimarron,Oklahoma,US,0.0,0.0,0.0,0.0
-40027.0,Cleveland,Oklahoma,US,11.0,0.0,13.0,16.0
+40027.0,Cleveland,Oklahoma,US,11.0,11.0,13.0,16.0
 40029.0,Coal,Oklahoma,US,0.0,0.0,0.0,0.0
 40031.0,Comanche,Oklahoma,US,0.0,0.0,0.0,0.0
 40033.0,Cotton,Oklahoma,US,0.0,0.0,0.0,0.0
@@ -2168,7 +2168,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 40065.0,Jackson,Oklahoma,US,1.0,1.0,1.0,1.0
 40067.0,Jefferson,Oklahoma,US,0.0,0.0,0.0,0.0
 40069.0,Johnston,Oklahoma,US,0.0,0.0,0.0,0.0
-40071.0,Kay,Oklahoma,US,3.0,0.0,4.0,5.0
+40071.0,Kay,Oklahoma,US,3.0,3.0,4.0,5.0
 40073.0,Kingfisher,Oklahoma,US,0.0,0.0,0.0,0.0
 40075.0,Kiowa,Oklahoma,US,0.0,0.0,0.0,0.0
 40077.0,Latimer,Oklahoma,US,0.0,0.0,0.0,0.0
@@ -2187,12 +2187,12 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 40103.0,Noble,Oklahoma,US,0.0,0.0,1.0,1.0
 40105.0,Nowata,Oklahoma,US,0.0,0.0,0.0,0.0
 40107.0,Okfuskee,Oklahoma,US,0.0,0.0,0.0,0.0
-40109.0,Oklahoma,Oklahoma,US,19.0,0.0,26.0,29.0
+40109.0,Oklahoma,Oklahoma,US,19.0,19.0,26.0,29.0
 40111.0,Okmulgee,Oklahoma,US,0.0,0.0,0.0,0.0
 40113.0,Osage,Oklahoma,US,0.0,0.0,0.0,0.0
 40115.0,Ottawa,Oklahoma,US,0.0,0.0,0.0,0.0
-40117.0,Pawnee,Oklahoma,US,1.0,0.0,3.0,3.0
-40119.0,Payne,Oklahoma,US,1.0,0.0,2.0,3.0
+40117.0,Pawnee,Oklahoma,US,1.0,1.0,3.0,3.0
+40119.0,Payne,Oklahoma,US,1.0,1.0,2.0,3.0
 40121.0,Pittsburg,Oklahoma,US,0.0,0.0,0.0,0.0
 40123.0,Pontotoc,Oklahoma,US,0.0,0.0,1.0,1.0
 40125.0,Pottawatomie,Oklahoma,US,0.0,0.0,0.0,0.0
@@ -2204,9 +2204,9 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 40137.0,Stephens,Oklahoma,US,0.0,0.0,0.0,0.0
 40139.0,Texas,Oklahoma,US,0.0,0.0,0.0,0.0
 40141.0,Tillman,Oklahoma,US,0.0,0.0,0.0,0.0
-40143.0,Tulsa,Oklahoma,US,5.0,0.0,6.0,11.0
+40143.0,Tulsa,Oklahoma,US,5.0,5.0,6.0,11.0
 40145.0,Wagoner,Oklahoma,US,0.0,0.0,0.0,0.0
-40147.0,Washington,Oklahoma,US,1.0,0.0,2.0,2.0
+40147.0,Washington,Oklahoma,US,1.0,1.0,2.0,2.0
 40149.0,Washita,Oklahoma,US,0.0,0.0,0.0,0.0
 40151.0,Woods,Oklahoma,US,0.0,0.0,0.0,0.0
 40153.0,Woodward,Oklahoma,US,0.0,0.0,0.0,0.0
@@ -2246,12 +2246,12 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 41067.0,Washington,Oregon,US,31.0,42.0,55.0,69.0
 41069.0,Wheeler,Oregon,US,0.0,0.0,0.0,0.0
 41071.0,Yamhill,Oregon,US,4.0,4.0,6.0,6.0
-42001.0,Adams,Pennsylvania,US,4.0,0.0,5.0,6.0
-42003.0,Allegheny,Pennsylvania,US,31.0,0.0,48.0,58.0
+42001.0,Adams,Pennsylvania,US,4.0,4.0,5.0,6.0
+42003.0,Allegheny,Pennsylvania,US,31.0,31.0,48.0,58.0
 42005.0,Armstrong,Pennsylvania,US,0.0,0.0,0.0,0.0
 42007.0,Beaver,Pennsylvania,US,3.0,3.0,3.0,3.0
 42009.0,Bedford,Pennsylvania,US,0.0,0.0,0.0,0.0
-42011.0,Berks,Pennsylvania,US,5.0,0.0,13.0,14.0
+42011.0,Berks,Pennsylvania,US,5.0,5.0,13.0,14.0
 42013.0,Blair,Pennsylvania,US,0.0,0.0,0.0,0.0
 42015.0,Bradford,Pennsylvania,US,0.0,0.0,0.0,0.0
 42017.0,Bucks,Pennsylvania,US,24.0,34.0,41.0,65.0
@@ -2260,7 +2260,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 42023.0,Cameron,Pennsylvania,US,0.0,0.0,0.0,0.0
 42025.0,Carbon,Pennsylvania,US,0.0,0.0,0.0,0.0
 42027.0,Centre,Pennsylvania,US,1.0,1.0,1.0,3.0
-42029.0,Chester,Pennsylvania,US,17.0,0.0,23.0,40.0
+42029.0,Chester,Pennsylvania,US,17.0,17.0,23.0,40.0
 42031.0,Clarion,Pennsylvania,US,0.0,0.0,0.0,0.0
 42033.0,Clearfield,Pennsylvania,US,0.0,0.0,0.0,0.0
 42035.0,Clinton,Pennsylvania,US,0.0,0.0,0.0,0.0
@@ -2268,9 +2268,9 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 42039.0,Crawford,Pennsylvania,US,0.0,0.0,0.0,0.0
 42041.0,Cumberland,Pennsylvania,US,11.0,11.0,11.0,12.0
 42043.0,Dauphin,Pennsylvania,US,0.0,1.0,1.0,1.0
-42045.0,Delaware,Pennsylvania,US,23.0,0.0,43.0,84.0
+42045.0,Delaware,Pennsylvania,US,23.0,23.0,43.0,84.0
 42047.0,Elk,Pennsylvania,US,0.0,0.0,0.0,0.0
-42049.0,Erie,Pennsylvania,US,1.0,0.0,2.0,3.0
+42049.0,Erie,Pennsylvania,US,1.0,1.0,2.0,3.0
 42051.0,Fayette,Pennsylvania,US,0.0,0.0,1.0,1.0
 42053.0,Forest,Pennsylvania,US,0.0,0.0,0.0,0.0
 42055.0,Franklin,Pennsylvania,US,1.0,1.0,1.0,1.0
@@ -2280,23 +2280,23 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 42063.0,Indiana,Pennsylvania,US,0.0,0.0,0.0,0.0
 42065.0,Jefferson,Pennsylvania,US,0.0,0.0,0.0,0.0
 42067.0,Juniata,Pennsylvania,US,0.0,0.0,0.0,0.0
-42069.0,Lackawanna,Pennsylvania,US,4.0,0.0,6.0,7.0
-42071.0,Lancaster,Pennsylvania,US,2.0,0.0,6.0,5.0
+42069.0,Lackawanna,Pennsylvania,US,4.0,4.0,6.0,7.0
+42071.0,Lancaster,Pennsylvania,US,2.0,2.0,6.0,5.0
 42073.0,Lawrence,Pennsylvania,US,0.0,0.0,0.0,0.0
-42075.0,Lebanon,Pennsylvania,US,1.0,0.0,3.0,3.0
-42077.0,Lehigh,Pennsylvania,US,2.0,0.0,19.0,27.0
-42079.0,Luzerne,Pennsylvania,US,2.0,0.0,7.0,21.0
+42075.0,Lebanon,Pennsylvania,US,1.0,1.0,3.0,3.0
+42077.0,Lehigh,Pennsylvania,US,2.0,2.0,19.0,27.0
+42079.0,Luzerne,Pennsylvania,US,2.0,2.0,7.0,21.0
 42081.0,Lycoming,Pennsylvania,US,0.0,0.0,0.0,0.0
 42083.0,McKean,Pennsylvania,US,0.0,0.0,0.0,0.0
 42085.0,Mercer,Pennsylvania,US,0.0,0.0,1.0,1.0
 42087.0,Mifflin,Pennsylvania,US,0.0,0.0,0.0,0.0
-42089.0,Monroe,Pennsylvania,US,19.0,0.0,31.0,45.0
-42091.0,Montgomery,Pennsylvania,US,68.0,0.0,110.0,144.0
+42089.0,Monroe,Pennsylvania,US,19.0,19.0,31.0,45.0
+42091.0,Montgomery,Pennsylvania,US,68.0,68.0,110.0,144.0
 42093.0,Montour,Pennsylvania,US,0.0,1.0,1.0,1.0
-42095.0,Northampton,Pennsylvania,US,10.0,0.0,21.0,33.0
+42095.0,Northampton,Pennsylvania,US,10.0,10.0,21.0,33.0
 42097.0,Northumberland,Pennsylvania,US,0.0,0.0,0.0,0.0
 42099.0,Perry,Pennsylvania,US,0.0,0.0,0.0,0.0
-42101.0,Philadelphia,Pennsylvania,US,67.0,0.0,96.0,177.0
+42101.0,Philadelphia,Pennsylvania,US,67.0,67.0,96.0,177.0
 42103.0,Pike,Pennsylvania,US,3.0,3.0,3.0,3.0
 42105.0,Potter,Pennsylvania,US,1.0,1.0,1.0,1.0
 42107.0,Schuylkill,Pennsylvania,US,0.0,0.0,1.0,3.0
@@ -2308,15 +2308,15 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 42119.0,Union,Pennsylvania,US,0.0,0.0,0.0,0.0
 42121.0,Venango,Pennsylvania,US,0.0,0.0,0.0,0.0
 42123.0,Warren,Pennsylvania,US,0.0,0.0,0.0,0.0
-42125.0,Washington,Pennsylvania,US,3.0,0.0,7.0,7.0
-42127.0,Wayne,Pennsylvania,US,1.0,0.0,2.0,3.0
+42125.0,Washington,Pennsylvania,US,3.0,3.0,7.0,7.0
+42127.0,Wayne,Pennsylvania,US,1.0,1.0,2.0,3.0
 42129.0,Westmoreland,Pennsylvania,US,4.0,4.0,4.0,6.0
 42131.0,Wyoming,Pennsylvania,US,0.0,0.0,0.0,0.0
-42133.0,York,Pennsylvania,US,6.0,0.0,10.0,10.0
-44001.0,Bristol,Rhode Island,US,4.0,0.0,14.0,24.0
+42133.0,York,Pennsylvania,US,6.0,6.0,10.0,10.0
+44001.0,Bristol,Rhode Island,US,4.0,4.0,14.0,24.0
 44003.0,Kent,Rhode Island,US,4.0,7.0,7.0,7.0
 44005.0,Newport,Rhode Island,US,8.0,8.0,8.0,9.0
-44007.0,Providence,Rhode Island,US,30.0,0.0,37.0,52.0
+44007.0,Providence,Rhode Island,US,30.0,30.0,37.0,52.0
 44009.0,Washington,Rhode Island,US,8.0,9.0,9.0,9.0
 45001.0,Abbeville,South Carolina,US,1.0,1.0,1.0,1.0
 45003.0,Aiken,South Carolina,US,1.0,1.0,1.0,1.0
@@ -2331,7 +2331,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 45021.0,Cherokee,South Carolina,US,0.0,0.0,0.0,0.0
 45023.0,Chester,South Carolina,US,0.0,0.0,0.0,1.0
 45025.0,Chesterfield,South Carolina,US,0.0,0.0,0.0,0.0
-45027.0,Clarendon,South Carolina,US,1.0,1.0,0.0,4.0
+45027.0,Clarendon,South Carolina,US,1.0,1.0,1.0,4.0
 45029.0,Colleton,South Carolina,US,0.0,1.0,1.0,1.0
 45031.0,Darlington,South Carolina,US,1.0,2.0,5.0,7.0
 45033.0,Dillon,South Carolina,US,0.0,1.0,1.0,1.0
@@ -2365,7 +2365,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 45089.0,Williamsburg,South Carolina,US,0.0,0.0,0.0,0.0
 45091.0,York,South Carolina,US,1.0,2.0,4.0,7.0
 46003.0,Aurora,South Dakota,US,0.0,0.0,0.0,0.0
-46005.0,Beadle,South Dakota,US,4.0,0.0,12.0,12.0
+46005.0,Beadle,South Dakota,US,4.0,4.0,12.0,12.0
 46007.0,Bennett,South Dakota,US,0.0,0.0,0.0,0.0
 46009.0,Bon Homme,South Dakota,US,1.0,1.0,1.0,1.0
 46011.0,Brookings,South Dakota,US,0.0,0.0,0.0,0.0
@@ -2462,7 +2462,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 47059.0,Greene,Tennessee,US,1.0,1.0,2.0,4.0
 47061.0,Grundy,Tennessee,US,0.0,0.0,0.0,0.0
 47063.0,Hamblen,Tennessee,US,1.0,2.0,2.0,3.0
-47065.0,Hamilton,Tennessee,US,5.0,0.0,8.0,12.0
+47065.0,Hamilton,Tennessee,US,5.0,5.0,8.0,12.0
 47067.0,Hancock,Tennessee,US,0.0,0.0,0.0,0.0
 47069.0,Hardeman,Tennessee,US,0.0,0.0,0.0,0.0
 47071.0,Hardin,Tennessee,US,0.0,0.0,0.0,1.0
@@ -2540,13 +2540,13 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 48023.0,Baylor,Texas,US,0.0,0.0,0.0,0.0
 48025.0,Bee,Texas,US,0.0,0.0,0.0,0.0
 48027.0,Bell,Texas,US,7.0,8.0,10.0,16.0
-48029.0,Bexar,Texas,US,29.0,0.0,46.0,57.0
+48029.0,Bexar,Texas,US,29.0,29.0,46.0,57.0
 48031.0,Blanco,Texas,US,0.0,0.0,0.0,1.0
 48033.0,Borden,Texas,US,0.0,0.0,0.0,0.0
 48035.0,Bosque,Texas,US,0.0,0.0,0.0,0.0
 48037.0,Bowie,Texas,US,1.0,1.0,1.0,1.0
 48039.0,Brazoria,Texas,US,10.0,14.0,16.0,16.0
-48041.0,Brazos,Texas,US,6.0,0.0,12.0,12.0
+48041.0,Brazos,Texas,US,6.0,6.0,12.0,12.0
 48043.0,Brewster,Texas,US,0.0,0.0,0.0,0.0
 48045.0,Briscoe,Texas,US,0.0,0.0,0.0,0.0
 48047.0,Brooks,Texas,US,0.0,0.0,0.0,0.0
@@ -2582,7 +2582,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 48107.0,Crosby,Texas,US,0.0,0.0,0.0,0.0
 48109.0,Culberson,Texas,US,0.0,0.0,0.0,0.0
 48111.0,Dallam,Texas,US,0.0,0.0,0.0,0.0
-48113.0,Dallas,Texas,US,74.0,0.0,131.0,155.0
+48113.0,Dallas,Texas,US,74.0,74.0,131.0,155.0
 48115.0,Dawson,Texas,US,0.0,0.0,0.0,0.0
 48117.0,Deaf Smith,Texas,US,0.0,1.0,1.0,1.0
 48119.0,Delta,Texas,US,0.0,0.0,0.0,0.0
@@ -2609,7 +2609,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 48161.0,Freestone,Texas,US,0.0,0.0,0.0,0.0
 48163.0,Frio,Texas,US,0.0,0.0,0.0,0.0
 48165.0,Gaines,Texas,US,0.0,0.0,0.0,1.0
-48167.0,Galveston,Texas,US,6.0,0.0,17.0,18.0
+48167.0,Galveston,Texas,US,6.0,6.0,17.0,18.0
 48169.0,Garza,Texas,US,0.0,0.0,0.0,0.0
 48171.0,Gillespie,Texas,US,0.0,0.0,0.0,0.0
 48173.0,Glasscock,Texas,US,0.0,0.0,0.0,0.0
@@ -2630,7 +2630,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 48203.0,Harrison,Texas,US,0.0,0.0,0.0,0.0
 48205.0,Hartley,Texas,US,0.0,0.0,0.0,0.0
 48207.0,Haskell,Texas,US,0.0,0.0,0.0,0.0
-48209.0,Hays,Texas,US,6.0,0.0,7.0,7.0
+48209.0,Hays,Texas,US,6.0,6.0,7.0,7.0
 48211.0,Hemphill,Texas,US,0.0,0.0,0.0,0.0
 48213.0,Henderson,Texas,US,0.0,0.0,0.0,0.0
 48215.0,Hidalgo,Texas,US,0.0,1.0,2.0,2.0
@@ -2648,7 +2648,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 48239.0,Jackson,Texas,US,0.0,0.0,0.0,0.0
 48241.0,Jasper,Texas,US,0.0,0.0,0.0,0.0
 48243.0,Jeff Davis,Texas,US,0.0,0.0,0.0,0.0
-48245.0,Jefferson,Texas,US,1.0,0.0,3.0,6.0
+48245.0,Jefferson,Texas,US,1.0,1.0,3.0,6.0
 48247.0,Jim Hogg,Texas,US,0.0,0.0,0.0,0.0
 48249.0,Jim Wells,Texas,US,0.0,0.0,0.0,0.0
 48251.0,Johnson,Texas,US,2.0,2.0,2.0,2.0
@@ -2824,12 +2824,12 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 50025.0,Windham,Vermont,US,0.0,1.0,5.0,5.0
 50027.0,Windsor,Vermont,US,3.0,9.0,8.0,12.0
 51001.0,Accomack,Virginia,US,1.0,1.0,1.0,1.0
-51003.0,Albemarle,Virginia,US,1.0,0.0,2.0,2.0
+51003.0,Albemarle,Virginia,US,1.0,1.0,2.0,2.0
 51005.0,Alleghany,Virginia,US,0.0,0.0,0.0,0.0
 51007.0,Amelia,Virginia,US,0.0,0.0,0.0,0.0
 51009.0,Amherst,Virginia,US,0.0,0.0,1.0,1.0
 51011.0,Appomattox,Virginia,US,0.0,0.0,0.0,0.0
-51013.0,Arlington,Virginia,US,17.0,0.0,26.0,34.0
+51013.0,Arlington,Virginia,US,17.0,17.0,26.0,34.0
 51015.0,Augusta,Virginia,US,0.0,0.0,0.0,0.0
 51017.0,Bath,Virginia,US,0.0,0.0,0.0,0.0
 51019.0,Bedford,Virginia,US,0.0,0.0,1.0,1.0
@@ -2843,7 +2843,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 51035.0,Carroll,Virginia,US,0.0,0.0,0.0,0.0
 51036.0,Charles City,Virginia,US,1.0,1.0,1.0,1.0
 51037.0,Charlotte,Virginia,US,0.0,0.0,0.0,0.0
-51041.0,Chesterfield,Virginia,US,6.0,0.0,8.0,9.0
+51041.0,Chesterfield,Virginia,US,6.0,6.0,8.0,9.0
 51043.0,Clarke,Virginia,US,0.0,0.0,0.0,0.0
 51045.0,Craig,Virginia,US,0.0,0.0,0.0,0.0
 51047.0,Culpeper,Virginia,US,0.0,0.0,2.0,2.0
@@ -2851,7 +2851,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 51051.0,Dickenson,Virginia,US,0.0,0.0,0.0,0.0
 51053.0,Dinwiddie,Virginia,US,0.0,0.0,0.0,0.0
 51057.0,Essex,Virginia,US,0.0,0.0,0.0,0.0
-51059.0,Fairfax,Virginia,US,16.0,0.0,31.0,43.0
+51059.0,Fairfax,Virginia,US,16.0,16.0,31.0,43.0
 51061.0,Fauquier,Virginia,US,0.0,0.0,0.0,0.0
 51063.0,Floyd,Virginia,US,0.0,0.0,0.0,0.0
 51065.0,Fluvanna,Virginia,US,0.0,0.0,1.0,1.0
@@ -2859,23 +2859,23 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 51069.0,Frederick,Virginia,US,0.0,0.0,0.0,0.0
 51071.0,Giles,Virginia,US,0.0,0.0,0.0,0.0
 51073.0,Gloucester,Virginia,US,1.0,2.0,2.0,2.0
-51075.0,Goochland,Virginia,US,1.0,0.0,2.0,2.0
+51075.0,Goochland,Virginia,US,1.0,1.0,2.0,2.0
 51077.0,Grayson,Virginia,US,0.0,0.0,0.0,0.0
 51079.0,Greene,Virginia,US,0.0,0.0,0.0,0.0
 51081.0,Greensville,Virginia,US,0.0,0.0,0.0,0.0
 51083.0,Halifax,Virginia,US,0.0,0.0,0.0,0.0
 51085.0,Hanover,Virginia,US,1.0,1.0,1.0,2.0
-51087.0,Henrico,Virginia,US,3.0,0.0,8.0,11.0
+51087.0,Henrico,Virginia,US,3.0,3.0,8.0,11.0
 51089.0,Henry,Virginia,US,0.0,0.0,0.0,0.0
 51091.0,Highland,Virginia,US,0.0,0.0,0.0,0.0
 51093.0,Isle of Wight,Virginia,US,1.0,1.0,1.0,1.0
-51095.0,James City,Virginia,US,19.0,0.0,32.0,34.0
+51095.0,James City,Virginia,US,19.0,19.0,32.0,34.0
 51097.0,King and Queen,Virginia,US,0.0,0.0,0.0,0.0
 51099.0,King George,Virginia,US,0.0,0.0,0.0,0.0
 51101.0,King William,Virginia,US,0.0,0.0,0.0,0.0
 51103.0,Lancaster,Virginia,US,0.0,0.0,0.0,0.0
 51105.0,Lee,Virginia,US,0.0,2.0,2.0,2.0
-51107.0,Loudoun,Virginia,US,9.0,0.0,15.0,15.0
+51107.0,Loudoun,Virginia,US,9.0,9.0,15.0,15.0
 51109.0,Louisa,Virginia,US,0.0,0.0,1.0,2.0
 51111.0,Lunenburg,Virginia,US,0.0,0.0,0.0,0.0
 51113.0,Madison,Virginia,US,0.0,0.0,0.0,0.0
@@ -2895,7 +2895,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 51145.0,Powhatan,Virginia,US,0.0,0.0,0.0,0.0
 51147.0,Prince Edward,Virginia,US,1.0,1.0,1.0,1.0
 51149.0,Prince George,Virginia,US,0.0,0.0,0.0,0.0
-51153.0,Prince William,Virginia,US,12.0,0.0,18.0,18.0
+51153.0,Prince William,Virginia,US,12.0,12.0,18.0,18.0
 51155.0,Pulaski,Virginia,US,0.0,0.0,0.0,0.0
 51157.0,Rappahannock,Virginia,US,0.0,0.0,0.0,0.0
 51159.0,Richmond,Virginia,US,0.0,0.0,0.0,0.0
@@ -2907,8 +2907,8 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 51171.0,Shenandoah,Virginia,US,0.0,0.0,0.0,0.0
 51173.0,Smyth,Virginia,US,0.0,0.0,0.0,0.0
 51175.0,Southampton,Virginia,US,0.0,0.0,0.0,0.0
-51177.0,Spotsylvania,Virginia,US,1.0,0.0,2.0,2.0
-51179.0,Stafford,Virginia,US,2.0,0.0,5.0,6.0
+51177.0,Spotsylvania,Virginia,US,1.0,1.0,2.0,2.0
+51179.0,Stafford,Virginia,US,2.0,2.0,5.0,6.0
 51181.0,Surry,Virginia,US,0.0,0.0,0.0,0.0
 51183.0,Sussex,Virginia,US,0.0,0.0,0.0,0.0
 51185.0,Tazewell,Virginia,US,0.0,0.0,0.0,0.0
@@ -2917,11 +2917,11 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 51193.0,Westmoreland,Virginia,US,0.0,0.0,0.0,0.0
 51195.0,Wise,Virginia,US,0.0,0.0,0.0,0.0
 51197.0,Wythe,Virginia,US,0.0,0.0,0.0,0.0
-51199.0,York,Virginia,US,3.0,0.0,5.0,5.0
+51199.0,York,Virginia,US,3.0,3.0,5.0,5.0
 51510.0,Alexandria,Virginia,US,3.0,5.0,5.0,6.0
 51520.0,Bristol,Virginia,US,0.0,0.0,0.0,0.0
 51530.0,Buena Vista,Virginia,US,0.0,0.0,0.0,0.0
-51540.0,Charlottesville,Virginia,US,3.0,0.0,4.0,4.0
+51540.0,Charlottesville,Virginia,US,3.0,3.0,4.0,4.0
 51550.0,Chesapeake,Virginia,US,0.0,0.0,0.0,0.0
 51570.0,Colonial Heights,Virginia,US,0.0,0.0,0.0,0.0
 51580.0,Covington,Virginia,US,0.0,0.0,0.0,0.0
@@ -2952,9 +2952,9 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 51775.0,Salem,Virginia,US,0.0,0.0,0.0,0.0
 51790.0,Staunton,Virginia,US,0.0,0.0,0.0,0.0
 51800.0,Suffolk,Virginia,US,1.0,1.0,1.0,1.0
-51810.0,Virginia Beach,Virginia,US,5.0,0.0,17.0,17.0
+51810.0,Virginia Beach,Virginia,US,5.0,5.0,17.0,17.0
 51820.0,Waynesboro,Virginia,US,0.0,0.0,0.0,0.0
-51830.0,Williamsburg,Virginia,US,4.0,0.0,5.0,5.0
+51830.0,Williamsburg,Virginia,US,4.0,4.0,5.0,5.0
 51840.0,Winchester,Virginia,US,0.0,0.0,0.0,0.0
 53001.0,Adams,Washington,US,0.0,0.0,0.0,1.0
 53003.0,Asotin,Washington,US,0.0,0.0,0.0,0.0
@@ -2991,7 +2991,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 53065.0,Stevens,Washington,US,0.0,1.0,1.0,1.0
 53067.0,Thurston,Washington,US,8.0,9.0,11.0,11.0
 53069.0,Wahkiakum,Washington,US,0.0,0.0,0.0,0.0
-53071.0,Walla Walla County,Washington,US,,1.0,0.0,0.0
+53071.0,Walla Walla County,Washington,US,,1.0,1.0,1.0
 53071.0,Walla Walla,Washington,US,0.0,0.0,1.0,1.0
 53073.0,Whatcom,Washington,US,10.0,14.0,14.0,48.0
 53075.0,Whitman,Washington,US,0.0,0.0,1.0,2.0
@@ -3091,7 +3091,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 55075.0,Marinette,Wisconsin,US,0.0,0.0,0.0,0.0
 55077.0,Marquette,Wisconsin,US,0.0,0.0,0.0,0.0
 55078.0,Menominee,Wisconsin,US,0.0,0.0,0.0,0.0
-55079.0,Milwaukee,Wisconsin,US,95.0,0.0,182.0,243.0
+55079.0,Milwaukee,Wisconsin,US,95.0,95.0,182.0,243.0
 55081.0,Monroe,Wisconsin,US,0.0,0.0,0.0,0.0
 55083.0,Oconto,Wisconsin,US,0.0,0.0,0.0,0.0
 55085.0,Oneida,Wisconsin,US,0.0,0.0,0.0,0.0
@@ -3118,7 +3118,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 55127.0,Walworth,Wisconsin,US,3.0,3.0,3.0,3.0
 55129.0,Washburn,Wisconsin,US,0.0,0.0,0.0,0.0
 55131.0,Washington,Wisconsin,US,3.0,3.0,14.0,15.0
-55133.0,Waukesha,Wisconsin,US,15.0,0.0,30.0,31.0
+55133.0,Waukesha,Wisconsin,US,15.0,15.0,30.0,31.0
 55135.0,Waupaca,Wisconsin,US,0.0,0.0,0.0,0.0
 55137.0,Waushara,Wisconsin,US,0.0,0.0,0.0,0.0
 55139.0,Winnebago,Wisconsin,US,5.0,5.0,5.0,5.0
@@ -3147,7 +3147,7 @@ FIPS,Admin2,Province_State,Country_Region,2020-03-21 16:47:28,2020-03-22 18:57:1
 56043.0,Washakie,Wyoming,US,0.0,0.0,0.0,0.0
 56045.0,Weston,Wyoming,US,0.0,0.0,0.0,0.0
 60000.0,,American Samoa,US,0.0,0.0,0.0,0.0
-66000.0,,Guam,US,15.0,0.0,29.0,29.0
+66000.0,,Guam,US,15.0,15.0,29.0,29.0
 69000.0,,Northern Mariana Islands,US,0.0,0.0,0.0,0.0
 78000.0,,Virgin Islands,US,3.0,6.0,6.0,17.0
 88888.0,,Diamond Princess,US,49.0,49.0,49.0,49.0
