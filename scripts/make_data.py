@@ -446,7 +446,6 @@ class Formatter():
           self.areas[state] = fips
 
         self.populations[fips] = row[18]  # POP_ESTIMATE_2018
-        
           
   def _write_reference(self):
     with open(join(self.data_dir, 'counties_order.csv'), 'w', newline='') as file:
