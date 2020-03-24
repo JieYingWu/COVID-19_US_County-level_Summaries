@@ -27,6 +27,7 @@ batch_size = 32
 lr = 1.0e-4
 n_epochs = 100
 momentum = 0.9
+validate_each = 5
 
 # Make datasets and dataloaders
 data_dir = '../data'
@@ -102,7 +103,7 @@ for e in range(epoch, n_epochs):
     tq.set_postfix(loss=' loss={:.5f}'.format(epoch_loss/step))
 
     if e % validate_each == 0:
-        all_vall_loss = []
+        all_val_loss = []
     
         with torch.no_grad():
             for j, (counties, cases) in enumerate(val_loader):
@@ -113,5 +114,5 @@ for e in range(epoch, n_epochs):
         mean_loss = np.mean(all_val_loss)
         scheduler.step(mean_loss)
         model_path = model_root/"model_{}.pt".format(e)
-        save(e, model, model_path, mean_loss, optiizer, scheduler)
+        save(e, model, model_path, mean_loss, optimizer, scheduler)
         
