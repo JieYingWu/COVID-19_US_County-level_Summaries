@@ -394,7 +394,7 @@ class Formatter():
       'unemployment': join(self.raw_data_dir, 'national', 'Socioeconomic_status', 'Unemployment.csv'),
       'climate': join(self.raw_data_dir, 'national', 'Climate', 'FIPS_2019_precipitation_tempAvg_tempMin_tempMax.csv'),
       'density': join(self.raw_data_dir, 'national', 'Density', 'housing_area_density_national_2010_census.csv'),
-      'demographics': join(self.raw_data_dir, 'national', 'Demographics', 'demographics_by_county.csv')
+      'demographics': join(self.raw_data_dir, 'aggregated', 'demographics_by_county.csv')
     }
     
     self._make_reference()
@@ -547,10 +547,7 @@ class Formatter():
             # county not in canonical list skip it
             continue
 
-          values = [row[j] for j in self.national_data_which_columns[k]]
-
-          for j in range(len(values)):
-            values[j] = values[j].replace(',', '').replace('null', 'NA')
+          values = [row[j].replace(',', '') for j in self.national_data_which_columns[k]]
           # the density data includes r values in the same columns, remove these
           if k == 'density':
             # get rid of r values
@@ -569,30 +566,14 @@ class Formatter():
           self.national_data[fips][k] = values
 
     # write to the csv
-    
     with open(join(self.data_dir, 'counties.csv'), 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
-      labels = sum([self.national_data['labels'][k] for k in self.keys], [])
-      na_values = OrderedDict([(label, 0) for label in labels])
-      writer.writerow(labels)
+      writer.writerow(sum([self.national_data['labels'][k] for k in self.keys], []))
 
       for i, fips in enumerate(self.fips_codes):
-        row = sum([self.national_data[fips][k] for k in self.keys], [])
-        for j, label in enumerate(na_values):
-          if row[j] == 'NA':
-            na_values[label] += 1
-        writer.writerow(row)
-
+        writer.writerow(sum([self.national_data[fips][k] for k in self.keys], []))
       print(f'wrote data for {i} counties')
 
-    with open(join(self.data_dir, 'not_available.csv'), 'w', newline='') as file:
-      writer = csv.writer(file, delimiter=',')
-      writer.writerow(['COLUMN LABEL', 'TOTAL NA', 'FRACTION NA'])
-      for label in labels:
-        writer.writerow([label, na_values[label], na_values[label] / i])
-      
-      print(f'wrote data for NA values')
-      
   def _read_cases_data(self):
     def load(filename):
       data = {}
@@ -678,7 +659,7 @@ def main():
 
   # debug
   formatter = Formatter(args)
-  formatter.make_national_data()
+  # formatter.make_national_data()
   formatter.make_cases_data()
 
 if __name__ == '__main__':
