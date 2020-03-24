@@ -78,7 +78,8 @@ class Formatter():
     'unemployment',
     'climate',
     'density',
-    'demographics'
+    'demographics',
+    'health',
   ]
   
   national_data_skiprows = {
@@ -88,7 +89,8 @@ class Formatter():
     'unemployment': 4,
     'climate': 0,
     'density': 1,
-    'demographics': 0}
+    'demographics': 0,
+    'health': 0}
 
   # which column has the fips code in each table
   fips_columns = {
@@ -98,7 +100,8 @@ class Formatter():
     'unemployment': 0,
     'climate': 0,
     'density': 3,
-    'demographics': 0}
+    'demographics': 0,
+    'health': 0}
   
   national_data_which_columns = OrderedDict([
     ('population', [
@@ -370,6 +373,94 @@ class Formatter():
       149,                      # HAAC_FEMALE
       150,                      # HNAC_MALE
       151                       # HNAC_FEMALE
+    ]),
+
+    ('health', [
+      4,                      # Active Physicians per 100,000 Population, 2018 (AAMC)
+      5,                      # Total Active Patient Care Physicians per 100,000 Population, 2018 (AAMC)
+      6,                      # Active Primary Care Physicians per 100,000 Population, 2018 (AAMC)
+      7,                      # Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (AAMC)
+      8,                      # Active General Surgeons per 100,000 Population, 2018 (AAMC)
+      9,                      # Active Patient Care General Surgeons per 100,000 Population, 2018 (AAMC)
+      10,                      # Percentage of Active Physicians Who Are Female, 2018 (AAMC)
+      11,                      # Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (AAMC)
+      12,                      # Percentage of Active Physicians Who Are Age 60 or Older, 2018 (AAMC)
+      13,                      # MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (AAMC)
+      14,                      # Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (AAMC)
+      15,                      # Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (AAMC)
+      16,                      # Percentage of MD Students Matriculating In-State, AY 2018-2019 (AAMC)
+      17,                      # Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (AAMC)
+      18,                      # Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (AAMC)
+      19,                      # Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (AAMC)
+      20,                      # Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (AAMC)
+      21,                      # Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (AAMC)
+      22,                      # Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (AAMC)
+      23,                      # All Specialties (AAMC)
+      24,                      # Allergy & Immunology (AAMC)
+      25,                      # Anatomic/Clinical Pathology (AAMC)
+      26,                      # Anesthesiology (AAMC)
+      27,                      # Cardiovascular Disease (AAMC)
+      28,                      # Child & Adolescent Psychiatry** (AAMC)
+      29,                      # Critical Care Medicine (AAMC)
+      30,                      # Dermatology (AAMC)
+      31,                      # Emergency Medicine (AAMC)
+      32,                      # Endocrinology, Diabetes & Metabolism (AAMC)
+      33,                      # Family Medicine/General Practice (AAMC)
+      34,                      # Gastroenterology (AAMC)
+      35,                      # General Surgery (AAMC)
+      36,                      # Geriatric Medicine*** (AAMC)
+      37,                      # Hematology & Oncology (AAMC)
+      38,                      # Infectious Disease (AAMC)
+      39,                      # Internal Medicine (AAMC)
+      40,                      # Internal Medicine/Pediatrics (AAMC)
+      41,                      # Interventional Cardiology (AAMC)
+      42,                      # Neonatal-Perinatal Medicine (AAMC)
+      43,                      # Nephrology (AAMC)
+      44,                      # Neurological Surgery (AAMC)
+      45,                      # Neurology (AAMC)
+      46,                      # Neuroradiology (AAMC)
+      47,                      # Obstetrics & Gynecology (AAMC)
+      48,                      # Ophthalmology (AAMC)
+      49,                      # Orthopedic Surgery (AAMC)
+      50,                      # Otolaryngology (AAMC)
+      51,                      # Pain Medicine & Pain Management (AAMC)
+      52,                      # Pediatrics** (AAMC)
+      53,                      # Physical Medicine & Rehabilitation (AAMC)
+      54,                      # Plastic Surgery (AAMC)
+      55,                      # Preventive Medicine (AAMC)
+      56,                      # Psychiatry (AAMC)
+      57,                      # Pulmonary Disease (AAMC)
+      58,                      # Radiation Oncology (AAMC)
+      59,                      # Radiology & Diagnostic Radiology (AAMC)
+      60,                      # Rheumatology (AAMC)
+      61,                      # Sports Medicine (AAMC)
+      62,                      # Thoracic Surgery (AAMC)
+      63,                      # Urology (AAMC)
+      64,                      # Vascular & Interventional Radiology (AAMC)
+      65,                      # Vascular Surgery (AAMC)
+      66,                      # State/Local Government hospital beds per 1000 people (2019)
+      67,                      # Non-profit hospital beds per 1000 people (2019)
+      68,                      # For-profit hospital beds per 1000 people (2019)
+      69,                      # Total hospital beds per 1000 people (2019)
+      70,                      # Total nurses (2019)
+      71,                      # Total physical assistants (2019)
+      72,                      # Total Hospitals (2019)
+      73,                      # Internal Medicine specialists (2019)
+      74,                      # Family Medicine/General Practice specialists (2019)
+      75,                      # Pediatrics specialists (2019)
+      76,                      # Obstetrics & Gynecology specialists (2019)
+      77,                      # Geriatrics specialists (2019)
+      78,                      # Total Primary Care specialists (2019)
+      79,                      # Psychiatry specialists (2019)
+      80,                      # Surgery specialists (2019)
+      81,                      # Anesthesiology specialists (2019)
+      82,                      # Emergency Medicine specialists (2019)
+      83,                      # Radiology specialists (2019)
+      84,                      # Cardiology specialists (2019)
+      85,                      # Oncology (Cancer) specialists (2019)
+      86,                      # Endocrinology, Diabetes, and Metabolism specialists (2019)
+      87,                      # All Other Specialties specialists (2019)
+      88                       # Total specialists (2019)
     ])
   ])
 
@@ -394,7 +485,8 @@ class Formatter():
       'unemployment': join(self.raw_data_dir, 'national', 'Socioeconomic_status', 'Unemployment.csv'),
       'climate': join(self.raw_data_dir, 'national', 'Climate', 'FIPS_2019_precipitation_tempAvg_tempMin_tempMax.csv'),
       'density': join(self.raw_data_dir, 'national', 'Density', 'housing_area_density_national_2010_census.csv'),
-      'demographics': join(self.raw_data_dir, 'aggregated', 'demographics_by_county.csv')
+      'demographics': join(self.raw_data_dir, 'national', 'Demographics', 'demographics_by_county.csv'),
+      'health': join(self.raw_data_dir, 'national', 'healthcare_services_per_county.csv')
     }
     
     self._make_reference()
@@ -424,6 +516,7 @@ class Formatter():
     self.fips_indices = OrderedDict()  # mapping from fips code to index
     self.areas = {}                  # mapping from (STATE, canonical area name) tuple to fips code
     self.populations = {}
+    self.fips_to_state = {}
 
     with open(self.national_data_filenames['population'], 'r', newline='') as file:
       rows = iter(csv.reader(file, delimiter=','))
@@ -444,6 +537,7 @@ class Formatter():
         if area in self.states:
           self.areas[area] = fips
           self.areas[state] = fips
+        self.fips_to_state[fips] = state
 
         self.populations[fips] = int(row[18].replace(',', '')) # POP_ESTIMATE_2018
           
@@ -451,7 +545,8 @@ class Formatter():
     with open(join(self.data_dir, 'counties_order.csv'), 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
       for fips, area in self.fips_codes.items():
-        writer.writerow([fips, area])
+        state = self.fips_to_state[fips]
+        writer.writerow([fips, area, state])
         
   def _get_fips(self, x, key=None, default=None):
     """Get the 5 digit FIPS string from x, which could be a couple things.
@@ -539,7 +634,11 @@ class Formatter():
           if i == self.national_data_skiprows[k]:
             print(k)
             print(*list(map(lambda t: f'      {t[0]},                      # {t[1]}', enumerate(row))), sep='\n')
-            self.national_data['labels'][k] = [row[j].replace(',', '') for j in self.national_data_which_columns[k]]
+            if k == 'health':
+              self.national_data['labels'][k] = [row[j].replace(',', '').replace('Percentage', 'Fraction')
+                                                 for j in self.national_data_which_columns[k]]
+            else:
+              self.national_data['labels'][k] = [row[j].replace(',', '') for j in self.national_data_which_columns[k]]
             continue
 
           fips = self._get_fips(row, k)
@@ -559,6 +658,11 @@ class Formatter():
             values[self.national_data_column_mapping[k][54]] = values[
               self.national_data_column_mapping[k][54]].replace('$', '')
 
+          if k == 'health':
+            for j in range(len(values)):
+              if '%' in values[j]:
+                values[j] = '{:.03f}'.format(float(values[j].replace('%', '')) / 100.)
+
           for j in range(len(values)):
             if values[j] == '':
               values[j] = 'NA'
@@ -568,12 +672,60 @@ class Formatter():
     # write to the csv
     with open(join(self.data_dir, 'counties.csv'), 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
-      writer.writerow(sum([self.national_data['labels'][k] for k in self.keys], []))
+      labels = sum([self.national_data['labels'][k] for k in self.keys], [])
+      na_total = OrderedDict([(label, 0) for label in labels])
+      na_counties = OrderedDict([(label, 0) for label in labels])
+      na_metro = OrderedDict([(label, 0) for label in labels])
+      writer.writerow(labels)
 
+      num_counties = 0
+      num_metro = 0
       for i, fips in enumerate(self.fips_codes):
-        writer.writerow(sum([self.national_data[fips][k] for k in self.keys], []))
-      print(f'wrote data for {i} counties')
+        row = sum([self.national_data[fips][k] for k in self.keys], [])
+        for j, label in enumerate(na_total):
+          if row[j] == 'NA':
+            na_total[label] += 1
+          if row[j] == 'NA' and self._is_county(row[0]):
+            na_counties[label] += 1
+          if row[j] == 'NA' and self._is_county(row[0]) and int(row[3]) <= 3:
+            na_metro[label] += 1
+        if self._is_county(row[0]):
+          num_counties += 1
+        if self._is_county(row[0]) and int(row[3]) <= 3:
+          num_metro += 1
+        writer.writerow(row)
 
+      print(f'wrote data for {i} rows, {num_counties} counties, {num_metro} metro counties')
+
+    num_rows = i
+    
+    with open(join(self.data_dir, 'availability.csv'), 'w', newline='') as file:
+      writer = csv.writer(file, delimiter=',')
+      writer.writerow(['COLUMN_LABEL',
+                       'TOTAL_AVAILABLE', 'TOTAL_NA', 'FRACTION_AVAILABLE', 'FRACTION_NA',
+                       'COUNTIES_AVAILABLE', 'COUNTIES_NA', 'FRACTION_COUNTIES_AVAILABLE', 'FRACTION_COUNTIES_NA',
+                       'METRO_COUNTIES_AVAILABLE', 'METRO_COUNTIES_NA', 'FRACTION_METRO_COUNTIES_AVAILABLE', 'FRACTION_METRO_COUNTIES_NA'])
+      for label in labels:
+        total_available = num_rows - na_total[label]
+        counties_available = num_counties - na_counties[label]
+        metro_counties_available = num_metro - na_metro[label]
+        writer.writerow([
+          label,
+          total_available,
+          na_total[label],
+          f'{total_available / num_rows:.04f}',
+          f'{na_total[label] / num_rows:.04f}',
+          counties_available,
+          na_counties[label],
+          f'{counties_available / num_counties:.04f}',
+          f'{na_counties[label] / num_counties:.04f}',
+          metro_counties_available,
+          na_metro[label],
+          f'{metro_counties_available / num_metro:.04f}',
+          f'{na_metro[label] / num_metro:.04f}'])
+      
+      print(f'wrote data for NA values')
+      
   def _read_cases_data(self):
     def load(filename):
       data = {}
