@@ -1,0 +1,472 @@
+population
+      0,                      # FIPS
+      1,                      # State
+      2,                      # Area_Name
+      3,                      # Rural-urban_Continuum Code_2003
+      4,                      # Rural-urban_Continuum Code_2013
+      5,                      # Urban_Influence_Code_2003
+      6,                      # Urban_Influence_Code_2013
+      7,                      # Economic_typology_2015
+      8,                      # CENSUS_2010_POP
+      9,                      # ESTIMATES_BASE_2010
+      10,                      # POP_ESTIMATE_2010
+      11,                      # POP_ESTIMATE_2011
+      12,                      # POP_ESTIMATE_2012
+      13,                      # POP_ESTIMATE_2013
+      14,                      # POP_ESTIMATE_2014
+      15,                      # POP_ESTIMATE_2015
+      16,                      # POP_ESTIMATE_2016
+      17,                      # POP_ESTIMATE_2017
+      18,                      # POP_ESTIMATE_2018
+      19,                      # N_POP_CHG_2010
+      20,                      # N_POP_CHG_2011
+      21,                      # N_POP_CHG_2012
+      22,                      # N_POP_CHG_2013
+      23,                      # N_POP_CHG_2014
+      24,                      # N_POP_CHG_2015
+      25,                      # N_POP_CHG_2016
+      26,                      # N_POP_CHG_2017
+      27,                      # N_POP_CHG_2018
+      28,                      # Births_2010
+      29,                      # Births_2011
+      30,                      # Births_2012
+      31,                      # Births_2013
+      32,                      # Births_2014
+      33,                      # Births_2015
+      34,                      # Births_2016
+      35,                      # Births_2017
+      36,                      # Births_2018
+      37,                      # Deaths_2010
+      38,                      # Deaths_2011
+      39,                      # Deaths_2012
+      40,                      # Deaths_2013
+      41,                      # Deaths_2014
+      42,                      # Deaths_2015
+      43,                      # Deaths_2016
+      44,                      # Deaths_2017
+      45,                      # Deaths_2018
+      46,                      # NATURAL_INC_2010
+      47,                      # NATURAL_INC_2011
+      48,                      # NATURAL_INC_2012
+      49,                      # NATURAL_INC_2013
+      50,                      # NATURAL_INC_2014
+      51,                      # NATURAL_INC_2015
+      52,                      # NATURAL_INC_2016
+      53,                      # NATURAL_INC_2017
+      54,                      # NATURAL_INC_2018
+      55,                      # INTERNATIONAL_MIG_2010
+      56,                      # INTERNATIONAL_MIG_2011
+      57,                      # INTERNATIONAL_MIG_2012
+      58,                      # INTERNATIONAL_MIG_2013
+      59,                      # INTERNATIONAL_MIG_2014
+      60,                      # INTERNATIONAL_MIG_2015
+      61,                      # INTERNATIONAL_MIG_2016
+      62,                      # INTERNATIONAL_MIG_2017
+      63,                      # INTERNATIONAL_MIG_2018
+      64,                      # DOMESTIC_MIG_2010
+      65,                      # DOMESTIC_MIG_2011
+      66,                      # DOMESTIC_MIG_2012
+      67,                      # DOMESTIC_MIG_2013
+      68,                      # DOMESTIC_MIG_2014
+      69,                      # DOMESTIC_MIG_2015
+      70,                      # DOMESTIC_MIG_2016
+      71,                      # DOMESTIC_MIG_2017
+      72,                      # DOMESTIC_MIG_2018
+      73,                      # NET_MIG_2010
+      74,                      # NET_MIG_2011
+      75,                      # NET_MIG_2012
+      76,                      # NET_MIG_2013
+      77,                      # NET_MIG_2014
+      78,                      # NET_MIG_2015
+      79,                      # NET_MIG_2016
+      80,                      # NET_MIG_2017
+      81,                      # NET_MIG_2018
+      82,                      # RESIDUAL_2010
+      83,                      # RESIDUAL_2011
+      84,                      # RESIDUAL_2012
+      85,                      # RESIDUAL_2013
+      86,                      # RESIDUAL_2014
+      87,                      # RESIDUAL_2015
+      88,                      # RESIDUAL_2016
+      89,                      # RESIDUAL_2017
+      90,                      # RESIDUAL_2018
+      91,                      # GQ_ESTIMATES_BASE_2010
+      92,                      # GQ_ESTIMATES_2010
+      93,                      # GQ_ESTIMATES_2011
+      94,                      # GQ_ESTIMATES_2012
+      95,                      # GQ_ESTIMATES_2013
+      96,                      # GQ_ESTIMATES_2014
+      97,                      # GQ_ESTIMATES_2015
+      98,                      # GQ_ESTIMATES_2016
+      99,                      # GQ_ESTIMATES_2017
+      100,                      # GQ_ESTIMATES_2018
+      101,                      # R_birth_2011
+      102,                      # R_birth_2012
+      103,                      # R_birth_2013
+      104,                      # R_birth_2014
+      105,                      # R_birth_2015
+      106,                      # R_birth_2016
+      107,                      # R_birth_2017
+      108,                      # R_birth_2018
+      109,                      # R_death_2011
+      110,                      # R_death_2012
+      111,                      # R_death_2013
+      112,                      # R_death_2014
+      113,                      # R_death_2015
+      114,                      # R_death_2016
+      115,                      # R_death_2017
+      116,                      # R_death_2018
+      117,                      # R_NATURAL_INC_2011
+      118,                      # R_NATURAL_INC_2012
+      119,                      # R_NATURAL_INC_2013
+      120,                      # R_NATURAL_INC_2014
+      121,                      # R_NATURAL_INC_2015
+      122,                      # R_NATURAL_INC_2016
+      123,                      # R_NATURAL_INC_2017
+      124,                      # R_NATURAL_INC_2018
+      125,                      # R_INTERNATIONAL_MIG_2011
+      126,                      # R_INTERNATIONAL_MIG_2012
+      127,                      # R_INTERNATIONAL_MIG_2013
+      128,                      # R_INTERNATIONAL_MIG_2014
+      129,                      # R_INTERNATIONAL_MIG_2015
+      130,                      # R_INTERNATIONAL_MIG_2016
+      131,                      # R_INTERNATIONAL_MIG_2017
+      132,                      # R_INTERNATIONAL_MIG_2018
+      133,                      # R_DOMESTIC_MIG_2011
+      134,                      # R_DOMESTIC_MIG_2012
+      135,                      # R_DOMESTIC_MIG_2013
+      136,                      # R_DOMESTIC_MIG_2014
+      137,                      # R_DOMESTIC_MIG_2015
+      138,                      # R_DOMESTIC_MIG_2016
+      139,                      # R_DOMESTIC_MIG_2017
+      140,                      # R_DOMESTIC_MIG_2018
+      141,                      # R_NET_MIG_2011
+      142,                      # R_NET_MIG_2012
+      143,                      # R_NET_MIG_2013
+      144,                      # R_NET_MIG_2014
+      145,                      # R_NET_MIG_2015
+      146,                      # R_NET_MIG_2016
+      147,                      # R_NET_MIG_2017
+      148,                      # R_NET_MIG_2018
+education
+      0,                      # FIPS Code
+      1,                      # State
+      2,                      # Area name
+      3,                      # 2003 Rural-urban Continuum Code
+      4,                      # 2003 Urban Influence Code
+      5,                      # 2013 Rural-urban Continuum Code
+      6,                      # 2013 Urban Influence Code
+      7,                      # Less than a high school diploma, 1970
+      8,                      # High school diploma only, 1970
+      9,                      # Some college (1-3 years), 1970
+      10,                      # Four years of college or higher, 1970
+      11,                      # Percent of adults with less than a high school diploma, 1970
+      12,                      # Percent of adults with a high school diploma only, 1970
+      13,                      # Percent of adults completing some college (1-3 years), 1970
+      14,                      # Percent of adults completing four years of college or higher, 1970
+      15,                      # Less than a high school diploma, 1980
+      16,                      # High school diploma only, 1980
+      17,                      # Some college (1-3 years), 1980
+      18,                      # Four years of college or higher, 1980
+      19,                      # Percent of adults with less than a high school diploma, 1980
+      20,                      # Percent of adults with a high school diploma only, 1980
+      21,                      # Percent of adults completing some college (1-3 years), 1980
+      22,                      # Percent of adults completing four years of college or higher, 1980
+      23,                      # Less than a high school diploma, 1990
+      24,                      # High school diploma only, 1990
+      25,                      # Some college or associate's degree, 1990
+      26,                      # Bachelor's degree or higher, 1990
+      27,                      # Percent of adults with less than a high school diploma, 1990
+      28,                      # Percent of adults with a high school diploma only, 1990
+      29,                      # Percent of adults completing some college or associate's degree, 1990
+      30,                      # Percent of adults with a bachelor's degree or higher, 1990
+      31,                      # Less than a high school diploma, 2000
+      32,                      # High school diploma only, 2000
+      33,                      # Some college or associate's degree, 2000
+      34,                      # Bachelor's degree or higher, 2000
+      35,                      # Percent of adults with less than a high school diploma, 2000
+      36,                      # Percent of adults with a high school diploma only, 2000
+      37,                      # Percent of adults completing some college or associate's degree, 2000
+      38,                      # Percent of adults with a bachelor's degree or higher, 2000
+      39,                      # Less than a high school diploma, 2014-18
+      40,                      # High school diploma only, 2014-18
+      41,                      # Some college or associate's degree, 2014-18
+      42,                      # Bachelor's degree or higher, 2014-18
+      43,                      # Percent of adults with less than a high school diploma, 2014-18
+      44,                      # Percent of adults with a high school diploma only, 2014-18
+      45,                      # Percent of adults completing some college or associate's degree, 2014-18
+      46,                      # Percent of adults with a bachelor's degree or higher, 2014-18
+poverty
+      0,                      # FIPStxt
+      1,                      # Stabr
+      2,                      # Area_name
+      3,                      # Rural-urban_Continuum_Code_2003
+      4,                      # Urban_Influence_Code_2003
+      5,                      # Rural-urban_Continuum_Code_2013
+      6,                      # Urban_Influence_Code_2013
+      7,                      # POVALL_2018
+      8,                      # CI90LBAll_2018
+      9,                      # CI90UBALL_2018
+      10,                      # PCTPOVALL_2018
+      11,                      # CI90LBALLP_2018
+      12,                      # CI90UBALLP_2018
+      13,                      # POV017_2018
+      14,                      # CI90LB017_2018
+      15,                      # CI90UB017_2018
+      16,                      # PCTPOV017_2018
+      17,                      # CI90LB017P_2018
+      18,                      # CI90UB017P_2018
+      19,                      # POV517_2018
+      20,                      # CI90LB517_2018
+      21,                      # CI90UB517_2018
+      22,                      # PCTPOV517_2018
+      23,                      # CI90LB517P_2018
+      24,                      # CI90UB517P_2018
+      25,                      # MEDHHINC_2018
+      26,                      # CI90LBINC_2018
+      27,                      # CI90UBINC_2018
+      28,                      # POV04_2018
+      29,                      # CI90LB04_2018
+      30,                      # CI90UB04_2018
+      31,                      # PCTPOV04_2018
+      32,                      # CI90LB04P_2018
+      33,                      # CI90UB04P_2018
+      34,                      #
+      35,                      #
+      36,                      #
+      37,                      #
+      38,                      #
+      39,                      #
+      40,                      #
+      41,                      #
+      42,                      #
+      43,                      #
+      44,                      #
+      45,                      #
+      46,                      #
+unemployment
+      0,                      # FIPS
+      1,                      # State
+      2,                      # Area_name
+      3,                      # Rural_urban_continuum_code_2013
+      4,                      # Urban_influence_code_2013
+      5,                      # Metro_2013
+      6,                      #  Civilian_labor_force_2007
+      7,                      #  Employed_2007
+      8,                      #  Unemployed_2007
+      9,                      # Unemployment_rate_2007
+      10,                      #  Civilian_labor_force_2008
+      11,                      #  Employed_2008
+      12,                      #  Unemployed_2008
+      13,                      # Unemployment_rate_2008
+      14,                      # Civilian_labor_force_2009
+      15,                      # Employed_2009
+      16,                      # Unemployed_2009
+      17,                      # Unemployment_rate_2009
+      18,                      #  Civilian_labor_force_2010
+      19,                      #  Employed_2010
+      20,                      #  Unemployed_2010
+      21,                      # Unemployment_rate_2010
+      22,                      #  Civilian_labor_force_2011
+      23,                      #  Employed_2011
+      24,                      #  Unemployed_2011
+      25,                      # Unemployment_rate_2011
+      26,                      #  Civilian_labor_force_2012
+      27,                      #  Employed_2012
+      28,                      #  Unemployed_2012
+      29,                      # Unemployment_rate_2012
+      30,                      #  Civilian_labor_force_2013
+      31,                      #  Employed_2013
+      32,                      #  Unemployed_2013
+      33,                      # Unemployment_rate_2013
+      34,                      #  Civilian_labor_force_2014
+      35,                      #  Employed_2014
+      36,                      #  Unemployed_2014
+      37,                      # Unemployment_rate_2014
+      38,                      #  Civilian_labor_force_2015
+      39,                      #  Employed_2015
+      40,                      #  Unemployed_2015
+      41,                      # Unemployment_rate_2015
+      42,                      #  Civilian_labor_force_2016
+      43,                      #  Employed_2016
+      44,                      #  Unemployed_2016
+      45,                      # Unemployment_rate_2016
+      46,                      # Civilian_labor_force_2017
+      47,                      # Employed_2017
+      48,                      # Unemployed_2017
+      49,                      # Unemployment_rate_2017
+      50,                      # Civilian_labor_force_2018
+      51,                      # Employed_2018
+      52,                      # Unemployed_2018
+      53,                      # Unemployment_rate_2018
+      54,                      # Median_Household_Income_2018
+      55,                      # Med_HH_Income_Percent_of_State_Total_2018
+density
+      0,                      # Id
+      1,                      # Id2
+      2,                      # Geography
+      3,                      # Target Geo Id
+      4,                      # Target Geo Id2
+      5,                      # Geographic area
+      6,                      # Geographic area
+      7,                      # Population
+      8,                      # Housing units
+      9,                      # Area in square miles - Total area
+      10,                      # Area in square miles - Water area
+      11,                      # Area in square miles - Land area
+      12,                      # Density per square mile of land area - Population
+      13,                      # Density per square mile of land area - Housing units
+
+demographics
+      0,                      # id
+      1,                      # geography
+      2,                      #  Total_population
+      3,                      #  Total_Male
+      4,                      #  Total_Female
+      5,                      # Total_age0to17
+      6,                      # Male_age0to17
+      7,                      # Female_age0to17
+      8,                      # Total_age18to64
+      9,                      # Male_age18to64
+      10,                      # Female_age18to64
+      11,                      # Total_age65plus
+      12,                      # Male_age65plus
+      13,                      # Female_age65plus
+      14,                      # Total_age85plusr
+      15,                      # Male_age85plusr
+      16,                      # Female_age85plusr
+      17,                      # pop_density
+      18,                      # Total households
+      19,                      # Total households!!Family households (families)
+      20,                      # Total households!!Family households (families)!!With own children of the householder under 18 years
+      21,                      # Total households!!Family households (families)!!Married-couple family
+      22,                      # Total households!!Family households (families)!!Married-couple family!!With own children of the householder under 18 years
+      23,                      # Total households!!Family households (families)!!Male householder, no wife present, family
+      24,                      # HOUSEHOLDS BY TYPE!!
+      25,                      # Total households!!Family households (families)!!Female householder, no husband present, family
+      26,                      # Total households!!Family households (families)!!Female householder, no husband present, family!!With own children of the householder under 18 years
+      27,                      # Total households!!Nonfamily households
+      28,                      # Total households!!Nonfamily households!!Householder living alone
+      29,                      # Total households!!Nonfamily households!!Householder living alone!!65 years and over
+      30,                      # Total households!!Households with one or more people under 18 years
+      31,                      # Total households!!Households with one or more people 65 years and over
+      32,                      # Total households!!Average household size
+      33,                      # Total households!!Average family size
+      34,                      # RELATIONSHIP!!Population in households
+      35,                      # RELATIONSHIP!!Population in households!!Householder
+      36,                      # RELATIONSHIP!!Population in households!!Spouse
+      37,                      # RELATIONSHIP!!Population in households!!Child
+      38,                      # RELATIONSHIP!!Population in households!!Other relatives
+      39,                      # RELATIONSHIP!!Population in households!!Nonrelatives
+      40,                      # RELATIONSHIP!!Population in households!!Nonrelatives!!Unmarried partner
+      41,                      # MARITAL STATUS!!Males 15 years and over
+      42,                      # MARITAL STATUS!!Males 15 years and over!!Never married
+      43,                      # MARITAL STATUS!!Males 15 years and over!!Now married, except separated
+      44,                      # MARITAL STATUS!!Males 15 years and over!!Separated
+      45,                      # MARITAL STATUS!!Males 15 years and over!!Widowed
+      46,                      # MARITAL STATUS!!Males 15 years and over!!Divorced
+      47,                      # MARITAL STATUS!!Females 15 years and over
+      48,                      # MARITAL STATUS!!Females 15 years and over!!Never married
+      49,                      # MARITAL STATUS!!Females 15 years and over!!Now married, except separated
+      50,                      # MARITAL STATUS!!Females 15 years and over!!Separated
+      51,                      # MARITAL STATUS!!Females 15 years and over!!Widowed
+      52,                      # MARITAL STATUS!!Females 15 years and over!!Divorced
+      53,                      # SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school
+      54,                      # SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool
+      55,                      # SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten
+      56,                      # SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8)
+      57,                      # SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12)
+      58,                      # SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school
+      59,                      # EDUCATIONAL ATTAINMENT!!Population 25 years and over
+      60,                      # EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade
+      61,                      # EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma
+      62,                      # EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)
+      63,                      # EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree
+      64,                      # EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree
+      65,                      # EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree
+      66,                      # EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree
+      67,                      # EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher
+      68,                      # EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher
+      69,                      # VETERAN STATUS!!Civilian population 18 years and over
+      70,                      # VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans
+      71,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population
+      72,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability
+      73,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years
+      74,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability
+      75,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years
+      76,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability
+      77,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over
+      78,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability
+      79,                      # TOT_POP
+      80,                      # TOT_MALE
+      81,                      # TOT_FEMALE
+      82,                      # WA_MALE
+      83,                      # WA_FEMALE
+      84,                      # BA_MALE
+      85,                      # BA_FEMALE
+      86,                      # IA_MALE
+      87,                      # IA_FEMALE
+      88,                      # AA_MALE
+      89,                      # AA_FEMALE
+      90,                      # NA_MALE
+      91,                      # NA_FEMALE
+      92,                      # TOM_MALE
+      93,                      # TOM_FEMALE
+      94,                      # WAC_MALE
+      95,                      # WAC_FEMALE
+      96,                      # BAC_MALE
+      97,                      # BAC_FEMALE
+      98,                      # IAC_MALE
+      99,                      # IAC_FEMALE
+      100,                      # AAC_MALE
+      101,                      # AAC_FEMALE
+      102,                      # NAC_MALE
+      103,                      # NAC_FEMALE
+      104,                      # NH_MALE
+      105,                      # NH_FEMALE
+      106,                      # NHWA_MALE
+      107,                      # NHWA_FEMALE
+      108,                      # NHBA_MALE
+      109,                      # NHBA_FEMALE
+      110,                      # NHIA_MALE
+      111,                      # NHIA_FEMALE
+      112,                      # NHAA_MALE
+      113,                      # NHAA_FEMALE
+      114,                      # NHNA_MALE
+      115,                      # NHNA_FEMALE
+      116,                      # NHTOM_MALE
+      117,                      # NHTOM_FEMALE
+      118,                      # NHWAC_MALE
+      119,                      # NHWAC_FEMALE
+      120,                      # NHBAC_MALE
+      121,                      # NHBAC_FEMALE
+      122,                      # NHIAC_MALE
+      123,                      # NHIAC_FEMALE
+      124,                      # NHAAC_MALE
+      125,                      # NHAAC_FEMALE
+      126,                      # NHNAC_MALE
+      127,                      # NHNAC_FEMALE
+      128,                      # H_MALE
+      129,                      # H_FEMALE
+      130,                      # HWA_MALE
+      131,                      # HWA_FEMALE
+      132,                      # HBA_MALE
+      133,                      # HBA_FEMALE
+      134,                      # HIA_MALE
+      135,                      # HIA_FEMALE
+      136,                      # HAA_MALE
+      137,                      # HAA_FEMALE
+      138,                      # HNA_MALE
+      139,                      # HNA_FEMALE
+      140,                      # HTOM_MALE
+      141,                      # HTOM_FEMALE
+      142,                      # HWAC_MALE
+      143,                      # HWAC_FEMALE
+      144,                      # HBAC_MALE
+      145,                      # HBAC_FEMALE
+      146,                      # HIAC_MALE
+      147,                      # HIAC_FEMALE
+      148,                      # HAAC_MALE
+      149,                      # HAAC_FEMALE
+      150,                      # HNAC_MALE
+      151,                      # HNAC_FEMALE
