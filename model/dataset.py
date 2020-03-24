@@ -55,7 +55,7 @@ class CoronavirusCases(Dataset):
     
     # Remove FIPS, state, and county name columns
     counties = counties[:,3:]
-    cases = cases[:,3:]
+    cases = cases[:,2:]
 
     # Convert rural-urban continuum code (1-9), 0 means no data
     ruc_category = counties[:,0]
