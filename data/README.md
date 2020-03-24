@@ -40,7 +40,7 @@
 |R_DOMESTIC_MIG_2018| Net domestic migration rate in period 7/1/2017 to 6/30/2018|
 |R_NET_MIG_2018| Net migration rate in period 7/1/2017 to 6/30/2018|
 
- ####Education
+#### Education
 | Data variable     | Description |
 | ---   | --- |
 |Less than a high school diploma 2014-18	|	Number of adults who do not have a high school diploma|
@@ -224,6 +224,10 @@
 |DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability|
 |DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over|
 |DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability|
+
+#### Ethnicity
+| Data variable     | Description |
+| ---   | --- |
 |TOT_POP| Total population|
 |TOT_MALE| Total male population|
 |TOT_FEMALE| Total female population|
@@ -298,7 +302,7 @@
 |HNAC_MALE| Hispanic, Native Hawaiian and Other Pacific Islander alone or in combination male population|
 |HNAC_FEMALE| Hispanic, Native Hawaiian and Other Pacific Islander alone or in combination female population|
 
-####Healthcare
+#### Healthcare
 | Data variable     | Description |
 | ---   | --- |
 |Active Physicians per 100,000 Population, 2018 (AAMC)|Active Physicians per 100,000 Population, 2018 |
