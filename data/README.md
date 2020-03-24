@@ -390,3 +390,12 @@
 |Endocrinology, Diabetes, and Metabolism specialists (2019)|Endocrinology, Diabetes, and Metabolism specialists (2019)|
 |All Other Specialties specialists (2019)|All Other Specialties specialists (2019)|
 |Total specialists (2019)|Total specialists (2019)|
+
+#### Data links
+1. ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/ 
+2. https://data.census.gov/cedsci/table?q=dp02&hidePreview=true&tid=ACSDP1Y2018.DP02&vintage=2018&g=0400000US36.050000&tp=true&y=2018
+3. https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/
+4. https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
+5. Johns Hopkins CSSE COVID-19 Tracking: https://github.com/CSSEGISandData/COVID-19
+6. https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
+7. USAfacts: https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
