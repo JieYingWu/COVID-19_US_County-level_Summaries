@@ -135,7 +135,7 @@
 |Nov Temp Max / F| Maximum temperature in Nov, 2019 in Fahrenheit |
 |Dec Temp Max / F| Maximum temperature in Dec, 2019 in Fahrenheit |
 
-####Housing 
+#### Housing 
 | Data variable     | Description |
 | ---   | --- |
 |Housing units| Number of housing units as per 2010 census|
@@ -164,66 +164,66 @@
 |Female_age85plusr|Total number of females with age >85|
 |pop_density| Population density as of 2018|
 |Total households|Total number of households|
-|Total households!!Family households (families)|Total households!!Family households (families)|
-|Total households!!Family households (families)!!With own children of the householder under 18 years|Total households!!Family households (families)!!With own children of the householder under 18 years|
-|Total households!!Family households (families)!!Married-couple family|Total households!!Family households (families)!!Married-couple family|
-|Total households!!Family households (families)!!Married-couple family!!With own children of the householder under 18 years|Total households!!Family households (families)!!Married-couple family!!With own children of the householder under 18 years|
-|Total households!!Family households (families)!!Male householder, no wife present, family|Total households!!Family households (families)!!Male householder, no wife present, family|
-|HOUSEHOLDS BY TYPE!!|HOUSEHOLDS BY TYPE!!|
-|Total households!!Family households (families)!!Female householder, no husband present, family|Total households!!Family households (families)!!Female householder, no husband present, family|
-|Total households!!Family households (families)!!Female householder, no husband present, family!!With own children of the householder under 18 years|Total households!!Family households (families)!!Female householder, no husband present, family!!With own children of the householder under 18 years|
-|Total households!!Nonfamily households|Total households!!Nonfamily households|
-|Total households!!Nonfamily households!!Householder living alone|Total households!!Nonfamily households!!Householder living alone|
-|Total households!!Nonfamily households!!Householder living alone!!65 years and over|Total households!!Nonfamily households!!Householder living alone!!65 years and over|
-|Total households!!Households with one or more people under 18 years|Total households!!Households with one or more people under 18 years|
-|Total households!!Households with one or more people 65 years and over|Total households!!Households with one or more people 65 years and over|
-|Total households!!Average household size|Total households!!Average household size|
-|Total households!!Average family size|Total households!!Average family size|
-|RELATIONSHIP!!Population in households|RELATIONSHIP!!Population in households|
-|RELATIONSHIP!!Population in households!!Householder|RELATIONSHIP!!Population in households!!Householder|
-|RELATIONSHIP!!Population in households!!Spouse|RELATIONSHIP!!Population in households!!Spouse|
-|RELATIONSHIP!!Population in households!!Child|RELATIONSHIP!!Population in households!!Child|
-|RELATIONSHIP!!Population in households!!Other relatives|RELATIONSHIP!!Population in households!!Other relatives|
-|RELATIONSHIP!!Population in households!!Nonrelatives|RELATIONSHIP!!Population in households!!Nonrelatives|
-|RELATIONSHIP!!Population in households!!Nonrelatives!!Unmarried partner|RELATIONSHIP!!Population in households!!Nonrelatives!!Unmarried partner|
-|MARITAL STATUS!!Males 15 years and over|MARITAL STATUS!!Males 15 years and over|
-|MARITAL STATUS!!Males 15 years and over!!Never married|MARITAL STATUS!!Males 15 years and over!!Never married|
-|MARITAL STATUS!!Males 15 years and over!!Now married, except separated|MARITAL STATUS!!Males 15 years and over!!Now married, except separated|
-|MARITAL STATUS!!Males 15 years and over!!Separated|MARITAL STATUS!!Males 15 years and over!!Separated|
-|MARITAL STATUS!!Males 15 years and over!!Widowed|MARITAL STATUS!!Males 15 years and over!!Widowed|
-|MARITAL STATUS!!Males 15 years and over!!Divorced|MARITAL STATUS!!Males 15 years and over!!Divorced|
-|MARITAL STATUS!!Females 15 years and over|MARITAL STATUS!!Females 15 years and over|
-|MARITAL STATUS!!Females 15 years and over!!Never married|MARITAL STATUS!!Females 15 years and over!!Never married|
-|MARITAL STATUS!!Females 15 years and over!!Now married, except separated|MARITAL STATUS!!Females 15 years and over!!Now married, except separated|
-|MARITAL STATUS!!Females 15 years and over!!Separated|MARITAL STATUS!!Females 15 years and over!!Separated|
-|MARITAL STATUS!!Females 15 years and over!!Widowed|MARITAL STATUS!!Females 15 years and over!!Widowed|
-|MARITAL STATUS!!Females 15 years and over!!Divorced|MARITAL STATUS!!Females 15 years and over!!Divorced|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8)|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8)|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12)|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12)|
-|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over|EDUCATIONAL ATTAINMENT!!Population 25 years and over|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher|
-|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher|
-|VETERAN STATUS!!Civilian population 18 years and over|VETERAN STATUS!!Civilian population 18 years and over|
-|VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans|VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over|
-|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability|
+|Total households!!Family households (families)|Total number of Family households (families)|
+|Total households!!Family households (families)!!With own children of the householder under 18 years|Total number of family households (families) with own children of the householder under 18 years|
+|Total households!!Family households (families)!!Married-couple family|Total number of family households (families) with Married-couple family|
+|Total households!!Family households (families)!!Married-couple family!!With own children of the householder under 18 years|Total number of family households (families) with married-couple family and with own children of the householder under 18 years|
+|Total households!!Family households (families)!!Male householder, no wife present, family|Total number of family households (families) with Male householder, no wife present, family|
+|HOUSEHOLDS BY TYPE!!| Total number of households by type|
+|Total households!!Family households (families)!!Female householder, no husband present, family|Total number of family households (families) with Female householder, no husband present, family|
+|Total households!!Family households (families)!!Female householder, no husband present, family!!With own children of the householder under 18 years|Total number of family households (families) with female householder, no husband present, family with own children of the householder under 18 years|
+|Total households!!Nonfamily households|Total number of Nonfamily households|
+|Total households!!Nonfamily households!!Householder living alone|Total number of Nonfamily households where householder living alone|
+|Total households!!Nonfamily households!!Householder living alone!!65 years and over|Total number of nonfamily households where Householder living alone is 65 years and over|
+|Total households!!Households with one or more people under 18 years|Total number of households with one or more people under 18 years|
+|Total households!!Households with one or more people 65 years and over|Total number of households with one or more people 65 years and over|
+|Total households!!Average household size|Total Average household size|
+|Total households!!Average family size|Total household Average family size|
+|RELATIONSHIP!!Population in households|Total Population in households|
+|RELATIONSHIP!!Population in households!!Householder|Number of Householders living in household|
+|RELATIONSHIP!!Population in households!!Spouse|Number of Spouse living in household|
+|RELATIONSHIP!!Population in households!!Child|Number of Child living in household|
+|RELATIONSHIP!!Population in households!!Other relatives|Number of Other relatives living in household|
+|RELATIONSHIP!!Population in households!!Nonrelatives|Number of Nonrelatives living in household|
+|RELATIONSHIP!!Population in households!!Nonrelatives!!Unmarried partner|Number of Nonrelatives/Unmarried partner living in household|
+|MARITAL STATUS!!Males 15 years and over|Total number of Males 15 years and over|
+|MARITAL STATUS!!Males 15 years and over!!Never married|Total number of Males 15 years and over that Never married|
+|MARITAL STATUS!!Males 15 years and over!!Now married, except separated| Total number of  Males 15 years and over that are Now married, except separated|
+|MARITAL STATUS!!Males 15 years and over!!Separated|Total number of Males 15 years and over that are Separated|
+|MARITAL STATUS!!Males 15 years and over!!Widowed|Total number of Males 15 years and over that are Widowed|
+|MARITAL STATUS!!Males 15 years and over!!Divorced|Total number of Males 15 years and over that are Divorced|
+|MARITAL STATUS!!Females 15 years and over|Total number of Females 15 years and over|
+|MARITAL STATUS!!Females 15 years and over!!Never married|Total number of Females 15 years and over that Never married|
+|MARITAL STATUS!!Females 15 years and over!!Now married, except separated|Total number of Females 15 years and over that are now married, except separated|
+|MARITAL STATUS!!Females 15 years and over!!Separated|Total number of Females 15 years and over that are Separated|
+|MARITAL STATUS!!Females 15 years and over!!Widowed|Total number of Females 15 years and over that are Widowed|
+|MARITAL STATUS!!Females 15 years and over!!Divorced|Total number of Females 15 years and overt that are Divorced|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school|Total Population 3 years and over enrolled in school|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool|Population 3 years and over enrolled in nursery school, preschool|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten|Population 3 years and over enrolled in kindergarten|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8)|Population 3 years and over enrolled in Elementary school (grades 1-8)|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12)|Population 3 years and over enrolled in High school (grades 9-12)|
+|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school|Population 3 years and over enrolled in College or graduate school|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over|Total Population 25 years and over|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade|Population 25 years and over that completed less than 9th grade|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma|Population 25 years and over that completed between 9th to 12th grade, no diploma|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency)|Population 25 years and over that is High school graduate (includes equivalency)|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree|Population 25 years and over that completed some college, no degree|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree|Population 25 years and over that has Associate's degree|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree|Population 25 years and over that has Bachelor's degree|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree|Population 25 years and over that has Graduate or professional degree|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher|Population 25 years and over that has High school graduate or higher|
+|EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher|Population 25 years and over that has Bachelor's degree or higher|
+|VETERAN STATUS!!Civilian population 18 years and over|Total Civilian population 18 years and over|
+|VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans|Civilian population 18 years and over that are Civilian veterans|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population|Total Civilian Noninstitutionalized Population|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability|Total Civilian Noninstitutionalized Population with a disability|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years|Total Civilian population under 18 years|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability|Total Civilian population with disability Under 18 years|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years|Total Civilian population from 18 to 64 years|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability|Total Civilian population with disability from 18 to 64 years|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over|Total Civilian population 65 years and over|
+|DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability|Total Civilian population with disability65 years and over|
 
 #### Ethnicity
 | Data variable     | Description |
@@ -390,3 +390,12 @@
 |Endocrinology, Diabetes, and Metabolism specialists (2019)|Endocrinology, Diabetes, and Metabolism specialists (2019)|
 |All Other Specialties specialists (2019)|All Other Specialties specialists (2019)|
 |Total specialists (2019)|Total specialists (2019)|
+
+#### Data links
+1. ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/ 
+2. https://data.census.gov/cedsci/table?q=dp02&hidePreview=true&tid=ACSDP1Y2018.DP02&vintage=2018&g=0400000US36.050000&tp=true&y=2018
+3. https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/
+4. https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
+5. Johns Hopkins CSSE COVID-19 Tracking: https://github.com/CSSEGISandData/COVID-19
+6. https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
+7. USAfacts: https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
