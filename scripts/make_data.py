@@ -578,8 +578,8 @@ class Formatter():
 
       for i, fips in enumerate(self.fips_codes):
         row = sum([self.national_data[fips][k] for k in self.keys], [])
-        for i, label in enumerate(na_values):
-          if row[i] == 'NA':
+        for j, label in enumerate(na_values):
+          if row[j] == 'NA':
             na_values[label] += 1
         writer.writerow(row)
 
