@@ -2,16 +2,21 @@
 # Focus on estimating the parameters based on socio-economics data
 
 import torch
+import torch.nn as nn
 import numpy as np
 from mlp import MLP
+from pathlib import Path
 from loader import CoronavirusCases
+import torch.optim as optim
+from torch.utils.data import DataLoader
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 # Device information
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # Model parameters
-in_channels = 5
-channels = [10, 10, 10]
+in_channels = 274
+channels = [256, 128, 2]
 out_channels = 2
 
 # Training parameters
@@ -26,8 +31,6 @@ train_dataset = CoronavirusCases(data_dir, split='train', device=device)
 #val_dataset = SimulatorDataset3D(data_dir, split='val', device=device)
 train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
 #val_loader = DataLoader(dataset=val_dataset, batch_size=batch_size, shuffle=False)
-
-exit()
 
 # Checkpoint parameter
 root = Path("checkpoints")
@@ -74,12 +77,18 @@ save = lambda ep, model, model_path, error, optimizer, scheduler: torch.save({
     
 for e in range(epoch, n_epochs):
     model.train()
+    epoch_loss = 0.0
+    step = 0.0
 
     for i, (source, target) in enumerate(train_loader):
         pred = model(source)
         loss = loss_fn(pred, target)
-
+        
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-    
+        epoch_loss += loss
+        step += 1
+
+    print(epoch_loss/step)
+        
