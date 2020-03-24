@@ -169,35 +169,35 @@
 |Total households!!Family households (families)!!Married-couple family|Total number of family households (families) with Married-couple family|
 |Total households!!Family households (families)!!Married-couple family!!With own children of the householder under 18 years|Total number of family households (families) with married-couple family and with own children of the householder under 18 years|
 |Total households!!Family households (families)!!Male householder, no wife present, family|Total number of family households (families) with Male householder, no wife present, family|
-|HOUSEHOLDS BY TYPE!!|HOUSEHOLDS BY TYPE!!|
+|HOUSEHOLDS BY TYPE!!| Total number of households by type|
 |Total households!!Family households (families)!!Female householder, no husband present, family|Total number of family households (families) with Female householder, no husband present, family|
-|Total households!!Family households (families)!!Female householder, no husband present, family!!With own children of the householder under 18 years|Total households!!Family households (families)!!Female householder, no husband present, family!!With own children of the householder under 18 years|
-|Total households!!Nonfamily households|Total households!!Nonfamily households|
-|Total households!!Nonfamily households!!Householder living alone|Total households!!Nonfamily households!!Householder living alone|
-|Total households!!Nonfamily households!!Householder living alone!!65 years and over|Total households!!Nonfamily households!!Householder living alone!!65 years and over|
-|Total households!!Households with one or more people under 18 years|Total households!!Households with one or more people under 18 years|
-|Total households!!Households with one or more people 65 years and over|Total households!!Households with one or more people 65 years and over|
-|Total households!!Average household size|Total households!!Average household size|
-|Total households!!Average family size|Total households!!Average family size|
-|RELATIONSHIP!!Population in households|RELATIONSHIP!!Population in households|
-|RELATIONSHIP!!Population in households!!Householder|RELATIONSHIP!!Population in households!!Householder|
-|RELATIONSHIP!!Population in households!!Spouse|RELATIONSHIP!!Population in households!!Spouse|
-|RELATIONSHIP!!Population in households!!Child|RELATIONSHIP!!Population in households!!Child|
-|RELATIONSHIP!!Population in households!!Other relatives|RELATIONSHIP!!Population in households!!Other relatives|
-|RELATIONSHIP!!Population in households!!Nonrelatives|RELATIONSHIP!!Population in households!!Nonrelatives|
-|RELATIONSHIP!!Population in households!!Nonrelatives!!Unmarried partner|RELATIONSHIP!!Population in households!!Nonrelatives!!Unmarried partner|
-|MARITAL STATUS!!Males 15 years and over|MARITAL STATUS!!Males 15 years and over|
-|MARITAL STATUS!!Males 15 years and over!!Never married|MARITAL STATUS!!Males 15 years and over!!Never married|
-|MARITAL STATUS!!Males 15 years and over!!Now married, except separated|MARITAL STATUS!!Males 15 years and over!!Now married, except separated|
-|MARITAL STATUS!!Males 15 years and over!!Separated|MARITAL STATUS!!Males 15 years and over!!Separated|
-|MARITAL STATUS!!Males 15 years and over!!Widowed|MARITAL STATUS!!Males 15 years and over!!Widowed|
-|MARITAL STATUS!!Males 15 years and over!!Divorced|MARITAL STATUS!!Males 15 years and over!!Divorced|
-|MARITAL STATUS!!Females 15 years and over|MARITAL STATUS!!Females 15 years and over|
-|MARITAL STATUS!!Females 15 years and over!!Never married|MARITAL STATUS!!Females 15 years and over!!Never married|
-|MARITAL STATUS!!Females 15 years and over!!Now married, except separated|MARITAL STATUS!!Females 15 years and over!!Now married, except separated|
-|MARITAL STATUS!!Females 15 years and over!!Separated|MARITAL STATUS!!Females 15 years and over!!Separated|
-|MARITAL STATUS!!Females 15 years and over!!Widowed|MARITAL STATUS!!Females 15 years and over!!Widowed|
-|MARITAL STATUS!!Females 15 years and over!!Divorced|MARITAL STATUS!!Females 15 years and over!!Divorced|
+|Total households!!Family households (families)!!Female householder, no husband present, family!!With own children of the householder under 18 years|Total number of family households (families) with female householder, no husband present, family with own children of the householder under 18 years|
+|Total households!!Nonfamily households|Total number of Nonfamily households|
+|Total households!!Nonfamily households!!Householder living alone|Total number of Nonfamily households where householder living alone|
+|Total households!!Nonfamily households!!Householder living alone!!65 years and over|Total number of nonfamily households where Householder living alone is 65 years and over|
+|Total households!!Households with one or more people under 18 years|Total number of households with one or more people under 18 years|
+|Total households!!Households with one or more people 65 years and over|Total number of households with one or more people 65 years and over|
+|Total households!!Average household size|Total Average household size|
+|Total households!!Average family size|Total household Average family size|
+|RELATIONSHIP!!Population in households|Total Population in households|
+|RELATIONSHIP!!Population in households!!Householder|Number of Householders living in household|
+|RELATIONSHIP!!Population in households!!Spouse|Number of Spouse living in household|
+|RELATIONSHIP!!Population in households!!Child|Number of Child living in household|
+|RELATIONSHIP!!Population in households!!Other relatives|Number of Other relatives living in household|
+|RELATIONSHIP!!Population in households!!Nonrelatives|Number of Nonrelatives living in household|
+|RELATIONSHIP!!Population in households!!Nonrelatives!!Unmarried partner|Number of Nonrelatives/Unmarried partner living in household|
+|MARITAL STATUS!!Males 15 years and over|Total number of Males 15 years and over|
+|MARITAL STATUS!!Males 15 years and over!!Never married|Total number of Males 15 years and over that Never married|
+|MARITAL STATUS!!Males 15 years and over!!Now married, except separated| Total number of  Males 15 years and over that are Now married, except separated|
+|MARITAL STATUS!!Males 15 years and over!!Separated|Total number of Males 15 years and over that are Separated|
+|MARITAL STATUS!!Males 15 years and over!!Widowed|Total number of Males 15 years and over that are Widowed|
+|MARITAL STATUS!!Males 15 years and over!!Divorced|Total number of Males 15 years and over that are Divorced|
+|MARITAL STATUS!!Females 15 years and over|Total number of Females 15 years and over|
+|MARITAL STATUS!!Females 15 years and over!!Never married|Total number of Females 15 years and over that Never married|
+|MARITAL STATUS!!Females 15 years and over!!Now married, except separated|Total number of Females 15 years and over that are now married, except separated|
+|MARITAL STATUS!!Females 15 years and over!!Separated|Total number of Females 15 years and over that are Separated|
+|MARITAL STATUS!!Females 15 years and over!!Widowed|Total number of Females 15 years and over that are Widowed|
+|MARITAL STATUS!!Females 15 years and over!!Divorced|Total number of Females 15 years and overt that are Divorced|
 |SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school|
 |SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool|
 |SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten|SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten|
