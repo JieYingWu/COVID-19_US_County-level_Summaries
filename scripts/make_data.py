@@ -445,7 +445,7 @@ class Formatter():
           self.areas[area] = fips
           self.areas[state] = fips
 
-        self.populations[fips] = row[18]  # POP_ESTIMATE_2018
+        self.populations[fips] = int(row[18].replace(',', '')) # POP_ESTIMATE_2018
           
   def _write_reference(self):
     with open(join(self.data_dir, 'counties_order.csv'), 'w', newline='') as file:
@@ -616,35 +616,36 @@ class Formatter():
     # nonzero infections
     infections, deaths, recovered = self._read_cases_data()
 
-    filename = join(self.data_dir, 'beta_gamma.csv')
+    filename = join(self.data_dir, 'cases.csv')
     file = open(filename, 'w', newline='')
     writer = csv.writer(file, delimiter=',')
     writer.writerow(['FIPS', 'infected', 'beta', 'gamma'])
 
     for fips in self.fips_codes:
-      if not (fips in infections and fips in deaths and fips in recovered):
-        writer.writerow([fips, 'NA', 'NA', 'NA'])
+      if not (fips in infections and fips in deaths and fips in recovered) or np.all(infections[fips] == 0):
+        writer.writerow([fips, '0', 'NA', 'NA'])
         continue
 
       # Total population, N.
       N = self.populations[fips]
 
       # number of infected people
-      start = np.nonzero(infections[fips] > 0)
+      start = np.nonzero(infections[fips] > 0)[0][0]
       X = infections[fips][start:] / N
       
       # fraction removed (recovered or dead)
-      R = (recovered[fips] + deaths[fips]) / N
+      R = (recovered[fips][start:] + deaths[fips][start:]) / N
 
       # fraction of population susceptible
       S = 1 - X - R
 
       # integrate with trapezoidal method
       beta = - (S[-1] - S[0]) / np.trapz(S - X, x=None, dx=1)
-      gamma = R / np.trapz()
+      gamma = R[-1] / np.trapz(X, x=None, dx=1)
       
       writer.writerow([fips, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
-      print(f'wrote {fips}: beta = {beta:.04f}, gamma = {gamma:.04f}')
+      if infections[fips][-1] > 8:
+        print(f'wrote {fips}: N = {N}, beta = {beta}, gamma = {gamma}')
     file.close()
 
         
@@ -658,8 +659,8 @@ def main():
 
   # debug
   formatter = Formatter(args)
-  formatter.make_national_data()
-  # formatter.make_cases_data()
+  # formatter.make_national_data()
+  formatter.make_cases_data()
 
 if __name__ == '__main__':
   main()
