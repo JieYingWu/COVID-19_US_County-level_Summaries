@@ -1,7 +1,7 @@
 """
 Read the raw data and convert it to the machine-readable format.
 
-Meant to be run from the root as `python scripts/format_data.py`.
+Meant to be run from the root as `python scripts/make_data.py`.
 
 """
 
