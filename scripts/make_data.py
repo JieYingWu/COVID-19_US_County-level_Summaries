@@ -465,7 +465,7 @@ class Formatter():
       89                      # Total Specialist Physicians (2019)
     ]),
     ('transit', [
-      2,                      # transit_scores - population weighted averages aggregated from town/city level to county
+      2                      # transit_scores - population weighted averages aggregated from town/city level to county
     ])
   ])
 
