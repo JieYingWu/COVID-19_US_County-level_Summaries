@@ -648,10 +648,7 @@ class Formatter():
             # county not in canonical list skip it
             continue
 
-          values = [row[j] for j in self.national_data_which_columns[k]]
-
-          for j in range(len(values)):
-            values[j] = values[j].replace(',', '').replace('null', 'NA')
+          values = [row[j].replace(',', '') for j in self.national_data_which_columns[k]]
           # the density data includes r values in the same columns, remove these
           if k == 'density':
             # get rid of r values
@@ -675,7 +672,6 @@ class Formatter():
           self.national_data[fips][k] = values
 
     # write to the csv
-    
     with open(join(self.data_dir, 'counties.csv'), 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
       labels = sum([self.national_data['labels'][k] for k in self.keys], [])
@@ -824,7 +820,7 @@ def main():
 
   # run
   formatter = Formatter(args)
-  formatter.make_national_data()
+  # formatter.make_national_data()
   formatter.make_cases_data()
 
 if __name__ == '__main__':
