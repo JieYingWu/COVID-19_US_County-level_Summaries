@@ -8,10 +8,10 @@ We have curated a machine readable dataset from multiple governmental sources on
 ## Structure
 
 We accumulated statistics from different sources on a county level granularity.
-- *data* folder contains aggregated machine-readable file counties.csv with demographic, socioeconomic, health care, and education data for each county in the 50 states and Washington DC. Data is organized by FIPS codes - unambiguous identifiers for each county, since the same county name may appear in many states.
-- *raw_data* contains raw datasets that were used to create *data* folder
-- *model*
-- *scripts*
+- [./data](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/tree/master/data) folder contains aggregated machine-readable file counties.csv with demographic, socioeconomic, health care, and education data for each county in the 50 states and Washington DC. Data is organized by FIPS codes - unambiguous identifiers for each county, since the same county name may appear in many states.
+-  [./raw_data](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/tree/master/raw_data) contains raw datasets that were used to create *data* folder
+- [./model](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/tree/master/model) *under construction*
+- [./scripts](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/tree/master/scripts) - scripts for making the raw_data machine-readable
 
 ## Instructions for Adding Data
 
