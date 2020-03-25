@@ -309,7 +309,7 @@ Data presented below was retrieved at state level and projected onto county leve
 |MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (AAMC)|MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 |
 |Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (AAMC)|Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 |
 |Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (AAMC)|Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 |
-|Percentage of MD Students Matriculating In-State, AY 2018-2019 (AAMC)*|Percentage of MD Students Matriculating In-State, AY 2018-2019 |
+|Percentage of MD Students Matriculating In-State, AY 2018-2019* (AAMC)|Percentage of MD Students Matriculating In-State, AY 2018-2019 |
 |Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (AAMC)|Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 |
 |Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (AAMC)|Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 |
 |Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (AAMC)|Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 |
@@ -383,3 +383,8 @@ Data presented below was retrieved at state level and projected onto county leve
 |All Other Specialties specialists (2019)|All Other Specialties specialists (2019)|
 |Total specialists (2019)|Sum of Psychiatry, Surgery, Anesthesiology, Emergency Med, Radiology, Cardiology, Oncology, Endocrinology, and Other specialists (2019)|
 \* All physician data includes MDs and DOs
+
+#### Transit Scores
+| Data variable     | Description |
+| ---   | --- |
+|transit_scores - population weighted averages aggregated from town/city level to county| Transit scores - how well a location is served by public transit|
