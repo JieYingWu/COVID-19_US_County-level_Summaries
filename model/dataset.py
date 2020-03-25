@@ -9,7 +9,7 @@ import torch.nn.functional as F
 class CoronavirusCases(Dataset):
 
     
-  def __init__(self, data_dir, split='train', threshold=8, device='cpu'):
+  def __init__(self, data_dir, split='train', threshold=8, device='cuda'):
     """Return dataset entries with county info and estimated beta and gamma.
 
     :param path: 
@@ -19,20 +19,23 @@ class CoronavirusCases(Dataset):
     :rtype: 
 
     """
-    self.val_states = {'06'}           # California FIPS
-    self.test_states = {'53'}          # Washington State FIPS
-    self.train_states = set(str(i).zfill(2) for i in range(1, 100)
-                            if str(i).zfill(2) not in self.val_states
-                            and str(i).zfill(2) not in self.test_states)
+    val_states = {'06'}           # California FIPS
+    test_states = {'53'}          # Washington State FIPS
+    train_states = set(str(i).zfill(2) for i in range(1, 100)
+                     if str(i).zfill(2) not in val_states
+                     and str(i).zfill(2) not in test_states)
 
     self.device = device
     self.threshold = threshold
     self.split = split
     
-    counties = np.genfromtxt(join(data_dir, 'counties.csv'), delimiter=',', skip_header=1, dtype=str)
-    counties = counties[1:, :]
-    cases = np.genfromtxt(join(data_dir, 'cases.csv'), delimiter=',', skip_header=1, dtype=str)
-    cases = cases[1:, :]
+    counties = np.genfromtxt(join(data_dir, 'counties.csv'), delimiter=',')
+    counties = counties[1:,:]
+    cases = np.genfromtxt(join(data_dir, 'cases.csv'), delimiter=',')
+    cases = cases[1:,:]
+                        
+    print(cases.shape)
+    print(counties.shape)
     
     # get which rows correspond to this split
     which = []
@@ -79,11 +82,10 @@ class CoronavirusCases(Dataset):
     case = torch.from_numpy(case).float().to(self.device)
 
     return county, case
-  
+    
   def __len__(self):
     return len(self.counties)
 
 
 if __name__ == '__main__':
-  cases = CoronavirusCases('data')
-  print(cases[0])
+  cases = CoronavirusCases()
