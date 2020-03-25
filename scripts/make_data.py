@@ -80,6 +80,7 @@ class Formatter():
     'density',
     'demographics',
     'health',
+    'transit'
   ]
   
   national_data_skiprows = {
@@ -90,7 +91,9 @@ class Formatter():
     'climate': 0,
     'density': 1,
     'demographics': 0,
-    'health': 0}
+    'health': 0,
+    'transit': 0
+  }
 
   # which column has the fips code in each table
   fips_columns = {
@@ -101,7 +104,8 @@ class Formatter():
     'climate': 0,
     'density': 3,
     'demographics': 0,
-    'health': 0}
+    'health': 0,
+    'transit': 1}
   
   national_data_which_columns = OrderedDict([
     ('population', [
@@ -459,6 +463,9 @@ class Formatter():
       87,                      # Endocrinology, Diabetes, and Metabolism specialists (2019)
       88,                      # All Other Specialties specialists (2019)
       89                      # Total Specialist Physicians (2019)
+    ]),
+    ('transit', [
+      2,                      # transit_scores - population weighted averages aggregated from town/city level to county
     ])
   ])
 
@@ -484,7 +491,8 @@ class Formatter():
       'climate': join(self.raw_data_dir, 'national', 'Climate', 'FIPS_2019_precipitation_tempAvg_tempMin_tempMax.csv'),
       'density': join(self.raw_data_dir, 'national', 'Density', 'housing_area_density_national_2010_census.csv'),
       'demographics': join(self.raw_data_dir, 'national', 'Demographics', 'demographics_by_county.csv'),
-      'health': join(self.raw_data_dir, 'national', 'healthcare_services_per_county.csv')
+      'health': join(self.raw_data_dir, 'national', 'healthcare_services_per_county.csv'),
+      'transit': join(self.raw_data_dir, 'national', 'transit_scores.csv')
     }
     
     self._make_reference()
@@ -609,7 +617,8 @@ class Formatter():
     fips = self._get_fips(x)
     return fips[1] == '1' and fips[4] == '0'
 
-  national_data_delimiters = {'demographics': ';'}
+  national_data_delimiters = {'demographics': ';',
+                              'transit': ';'}
   
   def make_national_data(self):
     """Make the national data.
