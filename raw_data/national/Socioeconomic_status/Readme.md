@@ -71,7 +71,6 @@ The rest are arranged year-wise from 1970 till 2014-2018. The fields are:
 |Rural_urban_continuum_code_2013 |	Rural-urban Continuum Code, 2013|
 |Urban_influence_code_2013|	Urban Influence Code, 2013|
 |Metro_2013|	Metro nonmetro dummy 0=Nonmetro 1=Metro (Based on 2013 OMB Metropolitan Area delineation)|
-
 The following three variables are available from years 2007 - 2018
 
 | Data variable     | Description |
