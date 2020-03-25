@@ -80,6 +80,7 @@ class Formatter():
     'density',
     'demographics',
     'health',
+    'transit'
   ]
   
   national_data_skiprows = {
@@ -90,7 +91,9 @@ class Formatter():
     'climate': 0,
     'density': 1,
     'demographics': 0,
-    'health': 0}
+    'health': 0,
+    'transit': 0
+  }
 
   # which column has the fips code in each table
   fips_columns = {
@@ -101,7 +104,8 @@ class Formatter():
     'climate': 0,
     'density': 3,
     'demographics': 0,
-    'health': 0}
+    'health': 0,
+    'transit': 1}
   
   national_data_which_columns = OrderedDict([
     ('population', [
@@ -248,7 +252,6 @@ class Formatter():
       14,                      # Total_age85plusr
       15,                      # Male_age85plusr
       16,                      # Female_age85plusr
-      17,                      # pop_density
       18,                      # Total households
       19,                      # Total households!!Family households (families)
       20,                      # Total households!!Family households (families)!!With own children of the householder under 18 years
@@ -300,7 +303,6 @@ class Formatter():
       76,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability
       77,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over
       78,                      # DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability
-      79,                      # TOT_POP
       80,                      # TOT_MALE
       81,                      # TOT_FEMALE
       82,                      # WA_MALE
@@ -376,91 +378,94 @@ class Formatter():
     ]),
 
     ('health', [
-      4,                      # Active Physicians per 100,000 Population, 2018 (AAMC)
-      5,                      # Total Active Patient Care Physicians per 100,000 Population, 2018 (AAMC)
-      6,                      # Active Primary Care Physicians per 100,000 Population, 2018 (AAMC)
-      7,                      # Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (AAMC)
-      8,                      # Active General Surgeons per 100,000 Population, 2018 (AAMC)
-      9,                      # Active Patient Care General Surgeons per 100,000 Population, 2018 (AAMC)
-      10,                      # Percentage of Active Physicians Who Are Female, 2018 (AAMC)
-      11,                      # Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (AAMC)
-      12,                      # Percentage of Active Physicians Who Are Age 60 or Older, 2018 (AAMC)
-      13,                      # MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (AAMC)
-      14,                      # Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (AAMC)
-      15,                      # Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (AAMC)
-      16,                      # Percentage of MD Students Matriculating In-State, AY 2018-2019 (AAMC)
-      17,                      # Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (AAMC)
-      18,                      # Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (AAMC)
-      19,                      # Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (AAMC)
-      20,                      # Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (AAMC)
-      21,                      # Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (AAMC)
-      22,                      # Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (AAMC)
-      23,                      # All Specialties (AAMC)
-      24,                      # Allergy & Immunology (AAMC)
-      25,                      # Anatomic/Clinical Pathology (AAMC)
-      26,                      # Anesthesiology (AAMC)
-      27,                      # Cardiovascular Disease (AAMC)
-      28,                      # Child & Adolescent Psychiatry** (AAMC)
-      29,                      # Critical Care Medicine (AAMC)
-      30,                      # Dermatology (AAMC)
-      31,                      # Emergency Medicine (AAMC)
-      32,                      # Endocrinology, Diabetes & Metabolism (AAMC)
-      33,                      # Family Medicine/General Practice (AAMC)
-      34,                      # Gastroenterology (AAMC)
-      35,                      # General Surgery (AAMC)
-      36,                      # Geriatric Medicine*** (AAMC)
-      37,                      # Hematology & Oncology (AAMC)
-      38,                      # Infectious Disease (AAMC)
-      39,                      # Internal Medicine (AAMC)
-      40,                      # Internal Medicine/Pediatrics (AAMC)
-      41,                      # Interventional Cardiology (AAMC)
-      42,                      # Neonatal-Perinatal Medicine (AAMC)
-      43,                      # Nephrology (AAMC)
-      44,                      # Neurological Surgery (AAMC)
-      45,                      # Neurology (AAMC)
-      46,                      # Neuroradiology (AAMC)
-      47,                      # Obstetrics & Gynecology (AAMC)
-      48,                      # Ophthalmology (AAMC)
-      49,                      # Orthopedic Surgery (AAMC)
-      50,                      # Otolaryngology (AAMC)
-      51,                      # Pain Medicine & Pain Management (AAMC)
-      52,                      # Pediatrics** (AAMC)
-      53,                      # Physical Medicine & Rehabilitation (AAMC)
-      54,                      # Plastic Surgery (AAMC)
-      55,                      # Preventive Medicine (AAMC)
-      56,                      # Psychiatry (AAMC)
-      57,                      # Pulmonary Disease (AAMC)
-      58,                      # Radiation Oncology (AAMC)
-      59,                      # Radiology & Diagnostic Radiology (AAMC)
-      60,                      # Rheumatology (AAMC)
-      61,                      # Sports Medicine (AAMC)
-      62,                      # Thoracic Surgery (AAMC)
-      63,                      # Urology (AAMC)
-      64,                      # Vascular & Interventional Radiology (AAMC)
-      65,                      # Vascular Surgery (AAMC)
-      66,                      # State/Local Government hospital beds per 1000 people (2019)
-      67,                      # Non-profit hospital beds per 1000 people (2019)
-      68,                      # For-profit hospital beds per 1000 people (2019)
-      69,                      # Total hospital beds per 1000 people (2019)
-      70,                      # Total nurses (2019)
-      71,                      # Total physical assistants (2019)
-      72,                      # Total Hospitals (2019)
-      73,                      # Internal Medicine specialists (2019)
-      74,                      # Family Medicine/General Practice specialists (2019)
-      75,                      # Pediatrics specialists (2019)
-      76,                      # Obstetrics & Gynecology specialists (2019)
-      77,                      # Geriatrics specialists (2019)
-      78,                      # Total Primary Care specialists (2019)
-      79,                      # Psychiatry specialists (2019)
-      80,                      # Surgery specialists (2019)
-      81,                      # Anesthesiology specialists (2019)
-      82,                      # Emergency Medicine specialists (2019)
-      83,                      # Radiology specialists (2019)
-      84,                      # Cardiology specialists (2019)
-      85,                      # Oncology (Cancer) specialists (2019)
-      86,                      # Endocrinology, Diabetes, and Metabolism specialists (2019)
-      87,                      # All Other Specialties specialists (2019)
-      88                       # Total specialists (2019)
+      5,                      # Active Physicians per 100,000 Population, 2018 (AAMC)
+      6,                      # Total Active Patient Care Physicians per 100,000 Population, 2018 (AAMC)
+      7,                      # Active Primary Care Physicians per 100,000 Population, 2018 (AAMC)
+      8,                      # Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (AAMC)
+      9,                      # Active General Surgeons per 100,000 Population, 2018 (AAMC)
+      10,                      # Active Patient Care General Surgeons per 100,000 Population, 2018 (AAMC)
+      11,                      # Percentage of Active Physicians Who Are Female, 2018 (AAMC)
+      12,                      # Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (AAMC)
+      13,                      # Percentage of Active Physicians Who Are Age 60 or Older, 2018 (AAMC)
+      14,                      # MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (AAMC)
+      15,                      # Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (AAMC)
+      16,                      # Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (AAMC)
+      17,                      # Percentage of MD Students Matriculating In-State, AY 2018-2019 (AAMC)
+      18,                      # Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (AAMC)
+      19,                      # Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (AAMC)
+      20,                      # Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (AAMC)
+      21,                      # Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (AAMC)
+      22,                      # Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (AAMC)
+      23,                      # Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (AAMC)
+      24,                      # All Specialties (AAMC)
+      25,                      # Allergy & Immunology (AAMC)
+      26,                      # Anatomic/Clinical Pathology (AAMC)
+      27,                      # Anesthesiology (AAMC)
+      28,                      # Cardiovascular Disease (AAMC)
+      29,                      # Child & Adolescent Psychiatry** (AAMC)
+      30,                      # Critical Care Medicine (AAMC)
+      31,                      # Dermatology (AAMC)
+      32,                      # Emergency Medicine (AAMC)
+      33,                      # Endocrinology, Diabetes & Metabolism (AAMC)
+      34,                      # Family Medicine/General Practice (AAMC)
+      35,                      # Gastroenterology (AAMC)
+      36,                      # General Surgery (AAMC)
+      37,                      # Geriatric Medicine*** (AAMC)
+      38,                      # Hematology & Oncology (AAMC)
+      39,                      # Infectious Disease (AAMC)
+      40,                      # Internal Medicine (AAMC)
+      41,                      # Internal Medicine/Pediatrics (AAMC)
+      42,                      # Interventional Cardiology (AAMC)
+      43,                      # Neonatal-Perinatal Medicine (AAMC)
+      44,                      # Nephrology (AAMC)
+      45,                      # Neurological Surgery (AAMC)
+      46,                      # Neurology (AAMC)
+      47,                      # Neuroradiology (AAMC)
+      48,                      # Obstetrics & Gynecology (AAMC)
+      49,                      # Ophthalmology (AAMC)
+      50,                      # Orthopedic Surgery (AAMC)
+      51,                      # Otolaryngology (AAMC)
+      52,                      # Pain Medicine & Pain Management (AAMC)
+      53,                      # Pediatrics** (AAMC)
+      54,                      # Physical Medicine & Rehabilitation (AAMC)
+      55,                      # Plastic Surgery (AAMC)
+      56,                      # Preventive Medicine (AAMC)
+      57,                      # Psychiatry (AAMC)
+      58,                      # Pulmonary Disease (AAMC)
+      59,                      # Radiation Oncology (AAMC)
+      60,                      # Radiology & Diagnostic Radiology (AAMC)
+      61,                      # Rheumatology (AAMC)
+      62,                      # Sports Medicine (AAMC)
+      63,                      # Thoracic Surgery (AAMC)
+      64,                      # Urology (AAMC)
+      65,                      # Vascular & Interventional Radiology (AAMC)
+      66,                      # Vascular Surgery (AAMC)
+      67,                      # State/Local Government hospital beds per 1000 people (2019)
+      68,                      # Non-profit hospital beds per 1000 people (2019)
+      69,                      # For-profit hospital beds per 1000 people (2019)
+      70,                      # Total hospital beds per 1000 people (2019)
+      71,                      # Total nurse practitioners (2019)
+      72,                      # Total physician assistants (2019)
+      73,                      # Total Hospitals (2019)
+      74,                      # Internal Medicine Primary Care (2019)
+      75,                      # Family Medicine/General Practice Primary Care (2019)
+      76,                      # Pediatrics Primary Care (2019)
+      77,                      # Obstetrics & Gynecology Primary Care (2019)
+      78,                      # Geriatrics Primary Care (2019)
+      79,                      # Total Primary Care Physicians (2019)
+      80,                      # Psychiatry specialists (2019)
+      81,                      # Surgery specialists (2019)
+      82,                      # Anesthesiology specialists (2019)
+      83,                      # Emergency Medicine specialists (2019)
+      84,                      # Radiology specialists (2019)
+      85,                      # Cardiology specialists (2019)
+      86,                      # Oncology (Cancer) specialists (2019)
+      87,                      # Endocrinology, Diabetes, and Metabolism specialists (2019)
+      88,                      # All Other Specialties specialists (2019)
+      89                      # Total Specialist Physicians (2019)
+    ]),
+    ('transit', [
+      2                      # transit_scores - population weighted averages aggregated from town/city level to county
     ])
   ])
 
@@ -486,7 +491,8 @@ class Formatter():
       'climate': join(self.raw_data_dir, 'national', 'Climate', 'FIPS_2019_precipitation_tempAvg_tempMin_tempMax.csv'),
       'density': join(self.raw_data_dir, 'national', 'Density', 'housing_area_density_national_2010_census.csv'),
       'demographics': join(self.raw_data_dir, 'national', 'Demographics', 'demographics_by_county.csv'),
-      'health': join(self.raw_data_dir, 'national', 'healthcare_services_per_county.csv')
+      'health': join(self.raw_data_dir, 'national', 'healthcare_services_per_county.csv'),
+      'transit': join(self.raw_data_dir, 'national', 'transit_scores.csv')
     }
     
     self._make_reference()
@@ -495,7 +501,7 @@ class Formatter():
   def _get_key(self, key):
     return key.lower().strip()
     
-  def _get_state(self, state):
+  def _get_state(self, x):
     """Get the standard state abbreviation.
 
     :param state: String identifying state.
@@ -503,10 +509,12 @@ class Formatter():
     :rtype: 
 
     """
-    if state in self.abbreviations:
-      return state
-    elif self._get_key(state) in self.states:
-      return self.states[self._get_key(state)]
+    if x in self.abbreviations:
+      return x
+    elif x in self.fips_codes:
+      return self.fips_to_state[x]
+    elif self._get_key(x) in self.states:
+      return self.states[self._get_key(x)]
     else:
       raise ValueError(f'unrecognized state: {repr(state)}')
 
@@ -517,6 +525,7 @@ class Formatter():
     self.areas = {}                  # mapping from (STATE, canonical area name) tuple to fips code
     self.populations = {}
     self.fips_to_state = {}
+    self.state_to_fips_codes = {}  # mapping from state XX to list of fips codes in that state
 
     with open(self.national_data_filenames['population'], 'r', newline='') as file:
       rows = iter(csv.reader(file, delimiter=','))
@@ -538,7 +547,9 @@ class Formatter():
           self.areas[area] = fips
           self.areas[state] = fips
         self.fips_to_state[fips] = state
-
+        if self._is_county(fips):
+          self.state_to_fips_codes[state] = self.state_to_fips_codes.get(state, []) + [fips]
+          self.state_to_fips_codes['US'] = self.state_to_fips_codes.get('US', []) + [fips]
         self.populations[fips] = int(row[18].replace(',', '')) # POP_ESTIMATE_2018
           
   def _write_reference(self):
@@ -572,8 +583,10 @@ class Formatter():
       return self._get_fips(x[key][self.fips_columns[key]])
     elif x in self.fips_codes:
       return x
-    elif re.match(r'^-?\d+(?:\.\d+)$', x) is not None:
-      return str(int(float(x))).zfill(5)
+    elif type(x) is str and re.match(r'^\d+(?:\.\d+)$', x) is not None:
+      return self._get_fips(str(int(float(x))).zfill(5))
+    elif type(x) is str and re.match(r'^\d+$', x) is not None and len(x) < 5:
+      return self._get_fips(x.zfill(5))
     elif x in self.areas:
       return self.areas[x]
     elif isinstance(x, int):
@@ -606,7 +619,8 @@ class Formatter():
     fips = self._get_fips(x)
     return fips[1] == '1' and fips[4] == '0'
 
-  national_data_delimiters = {'demographics': ';'}
+  national_data_delimiters = {'demographics': ';',
+                              'transit': ';'}
   
   def make_national_data(self):
     """Make the national data.
@@ -637,10 +651,11 @@ class Formatter():
             print(k)
             print(*list(map(lambda t: f'      {t[0]},                      # {t[1]}', enumerate(row))), sep='\n')
             if k == 'health':
-              self.national_data['labels'][k] = [row[j].replace(',', '').replace('Percentage', 'Fraction')
+              self.national_data['labels'][k] = [row[j].strip().replace(',', '').replace('Percentage', 'Fraction')
                                                  for j in self.national_data_which_columns[k]]
             else:
-              self.national_data['labels'][k] = [row[j].replace(',', '') for j in self.national_data_which_columns[k]]
+              self.national_data['labels'][k] = [row[j].strip().replace(',', '')
+                                                 for j in self.national_data_which_columns[k]]
             continue
 
           fips = self._get_fips(row, k)
@@ -734,6 +749,7 @@ class Formatter():
       data = {}
       with open(filename, 'r', newline='') as file:
         reader = csv.reader(file, delimiter=',')
+        length = None
         for i, row in enumerate(reader):
           if i == 0:
             continue
@@ -741,6 +757,17 @@ class Formatter():
           if fips is None:
             continue
           data[fips] = np.array(list(map(lambda x: 0 if x == '' else float(x), row[4:])))
+          if length is None:
+            length = data[fips].shape[0]
+
+        # fix the state data, which is just a sum of the counties
+        for state in self.abbreviations:
+          # print(state, len(self.state_to_fips_codes[state]))
+          x = np.zeros(length)
+          for fips in self.state_to_fips_codes[state]:
+            # print(state, self.fips_codes[fips], data.get(fips, np.zeros_like(x)))
+            x += data.get(fips, np.zeros_like(x))
+          data[self._get_fips(state)] = x
       return data
       
     # mapping from fips to numpy array giving timeseries for each.
@@ -775,39 +802,43 @@ class Formatter():
     infections, deaths, recovered = self._read_cases_data(infections_filename, deaths_filename, recovered_filename)
 
     filename = join(self.data_dir, 'cases.csv')
-    file = open(filename, 'w', newline='')
-    writer = csv.writer(file, delimiter=',')
-    writer.writerow(['FIPS', 'infected', 'beta', 'gamma'])
-
-    for fips in self.fips_codes:
-      if not (fips in infections and fips in deaths and fips in recovered) or np.all(infections[fips] == 0):
-        writer.writerow([fips, '0', 'NA', 'NA'])
-        continue
-
-      # Total population, N.
-      N = self.populations[fips]
-
-      # number of infected people
-      start = np.nonzero(infections[fips] > 0)[0][0]
-      X = infections[fips][start:] / N
+    with open(filename, 'w', newline='') as file:
+      writer = csv.writer(file, delimiter=',')
+      writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'infected', 'beta', 'gamma'])
       
-      # fraction removed (recovered or dead)
-      R = (recovered[fips][start:] + deaths[fips][start:]) / N
+      for fips in self.fips_codes:
+        area = self.fips_codes.get(fips, 'NA')
+        state = self.fips_to_state.get(fips, 'NA')
+        if not (fips in infections and fips in deaths and fips in recovered) or np.all(infections[fips] == 0):
+          writer.writerow([fips, state, area, '0', 'NA', 'NA'])
+          continue
 
-      # fraction of population susceptible
-      S = 1 - X - R
+        if fips not in self.fips_codes:
+          writer.writerow([fips, state, area, infections[fips][-1], 'NA', 'NA'])
+          continue
 
-      # integrate with trapezoidal method
-      beta = - (S[-1] - S[0]) / np.trapz(S - X, x=None, dx=1)
-      gamma = R[-1] / np.trapz(X, x=None, dx=1)
+        # Total population, N.
+        N = self.populations[fips]
 
-      if np.isnan(beta) or np.isnan(gamma):
-        writer.writerow([fips, f'{infections[fips][-1]}', 'NA', 'NA'])
-      else:
-        writer.writerow([fips, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
-      if infections[fips][-1] > 8:
+        # number of infected people
+        start = np.nonzero(infections[fips] > 0)[0][0]
+        X = infections[fips][start:] / N
+
+        # fraction removed (recovered or dead)
+        R = (recovered[fips][start:] + deaths[fips][start:]) / N
+
+        # fraction of population susceptible
+        S = 1 - X - R
+
+        # integrate with trapezoidal method
+        beta = - (S[-1] - S[0]) / np.trapz(S - X, x=None, dx=1)
+        gamma = R[-1] / np.trapz(X, x=None, dx=1)
+
+        if np.isnan(beta) or np.isnan(gamma):
+          beta = gamma = 'NA'
+
+        writer.writerow([fips, state, area, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
         print(f'wrote {fips}: N = {N}, beta = {beta}, gamma = {gamma}')
-    file.close()
 
         
 def main():
@@ -820,8 +851,9 @@ def main():
 
   # run
   formatter = Formatter(args)
-  # formatter.make_national_data()
+  formatter.make_national_data()
   formatter.make_cases_data()
+
 
 if __name__ == '__main__':
   main()

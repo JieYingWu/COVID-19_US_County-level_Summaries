@@ -66,7 +66,7 @@ class CoronavirusCases(Dataset):
     return x
 
   def format_output(self, row):
-    y = row[2:4].astype(np.float32)
+    y = row[4:6].astype(np.float32)
     return y
   
   def __getitem__(self, i):

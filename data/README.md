@@ -1,6 +1,6 @@
 # Datasets
 
-* `counties.csv` contains demographic, socioeconomic, health care, and education data for each
+* `counties.csv` contains demographic, socioeconomic, health care, education and transit data for each
   county in the 50 states and Washington DC.
 * `counties_order.csv` contains the FIPS codes and county name for each of these counties. FIPS
   codes are unambiguous identifiers for each county, since the same county name may appear in many
@@ -18,3 +18,4 @@
 8. [https://www.kff.org/state-category/providers-service-use/](https://www.kff.org/state-category/providers-service-use/)
 9. [https://www.aamc.org/data-reports/workforce/data/2019-state-profiles](https://www.aamc.org/data-reports/workforce/data/2019-state-profiles)
 10. [https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)
+11. [https://alltransit.cnt.org/data-download/](https://alltransit.cnt.org/data-download/)
