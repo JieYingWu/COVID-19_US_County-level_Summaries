@@ -1,15 +1,15 @@
 FIPS,STATE,AREA_NAME,infected,beta,gamma
-00000,US,united states,48287.0,2.626895979219017e-05,0.004930956144850763
+00000,US,united states,48287.0,2.6300553947360715e-05,0.005600979909756175
 01000,AL,alabama,215.0,6.206221416412423e-06,0.0
 01001,AL,autauga county,0,NA,NA
-01003,AL,baldwin county,0,NA,NA
+01003,AL,baldwin county,3.0,1.5289280838054813e-06,0.0
 01005,AL,barbour county,0,NA,NA
 01007,AL,bibb county,0,NA,NA
 01009,AL,blount county,0,NA,NA
 01011,AL,bullock county,0,NA,NA
 01013,AL,butler county,0,NA,NA
-01015,AL,calhoun county,0,NA,NA
-01017,AL,chambers county,0,NA,NA
+01015,AL,calhoun county,2.0,2.9169486383685584e-06,0.0
+01017,AL,chambers county,3.0,1.9834382902763008e-05,0.0
 01019,AL,cherokee county,0,NA,NA
 01021,AL,chilton county,0,NA,NA
 01023,AL,choctaw county,0,NA,NA
@@ -22,66 +22,66 @@ FIPS,STATE,AREA_NAME,infected,beta,gamma
 01037,AL,coosa county,0,NA,NA
 01039,AL,covington county,0,NA,NA
 01041,AL,crenshaw county,0,NA,NA
-01043,AL,cullman county,0,NA,NA
+01043,AL,cullman county,2.0,-0.0,0.0
 01045,AL,dale county,0,NA,NA
 01047,AL,dallas county,0,NA,NA
 01049,AL,dekalb county,0,NA,NA
-01051,AL,elmore county,0,NA,NA
+01051,AL,elmore county,8.0,8.142559939441096e-06,0.0
 01053,AL,escambia county,0,NA,NA
 01055,AL,etowah county,0,NA,NA
 01057,AL,fayette county,0,NA,NA
-01059,AL,franklin county,0,NA,NA
+01059,AL,franklin county,1.0,NA,NA
 01061,AL,geneva county,0,NA,NA
 01063,AL,greene county,0,NA,NA
 01065,AL,hale county,0,NA,NA
 01067,AL,henry county,0,NA,NA
-01069,AL,houston county,0,NA,NA
-01071,AL,jackson county,0,NA,NA
-01073,AL,jefferson county,0,NA,NA
-01075,AL,lamar county,0,NA,NA
-01077,AL,lauderdale county,0,NA,NA
+01069,AL,houston county,1.0,NA,NA
+01071,AL,jackson county,1.0,-0.0,0.0
+01073,AL,jefferson county,90.0,1.5170777441690263e-05,0.0
+01075,AL,lamar county,1.0,-0.0,0.0
+01077,AL,lauderdale county,3.0,7.216334895680611e-06,0.0
 01079,AL,lawrence county,0,NA,NA
-01081,AL,lee county,0,NA,NA
-01083,AL,limestone county,0,NA,NA
+01081,AL,lee county,21.0,1.8302578223174062e-05,0.0
+01083,AL,limestone county,2.0,3.4660242968095983e-06,0.0
 01085,AL,lowndes county,0,NA,NA
 01087,AL,macon county,0,NA,NA
-01089,AL,madison county,0,NA,NA
+01089,AL,madison county,21.0,1.273325735824678e-05,0.0
 01091,AL,marengo county,0,NA,NA
-01093,AL,marion county,0,NA,NA
+01093,AL,marion county,1.0,-0.0,0.0
 01095,AL,marshall county,0,NA,NA
-01097,AL,mobile county,0,NA,NA
+01097,AL,mobile county,3.0,8.056342839587813e-07,0.0
 01099,AL,monroe county,0,NA,NA
-01101,AL,montgomery county,0,NA,NA
-01103,AL,morgan county,0,NA,NA
+01101,AL,montgomery county,8.0,7.382623666353159e-06,0.0
+01103,AL,morgan county,1.0,NA,NA
 01105,AL,perry county,0,NA,NA
 01107,AL,pickens county,0,NA,NA
 01109,AL,pike county,0,NA,NA
 01111,AL,randolph county,0,NA,NA
 01113,AL,russell county,0,NA,NA
-01115,AL,st. clair county,0,NA,NA
-01117,AL,shelby county,0,NA,NA
+01115,AL,st. clair county,4.0,1.1275779250311977e-05,0.0
+01117,AL,shelby county,24.0,1.236447377571097e-05,0.0
 01119,AL,sumter county,0,NA,NA
-01121,AL,talladega county,0,NA,NA
-01123,AL,tallapoosa county,0,NA,NA
-01125,AL,tuscaloosa county,0,NA,NA
-01127,AL,walker county,0,NA,NA
-01129,AL,washington county,0,NA,NA
+01121,AL,talladega county,1.0,-0.0,0.0
+01123,AL,tallapoosa county,1.0,NA,NA
+01125,AL,tuscaloosa county,9.0,7.978324488033884e-06,0.0
+01127,AL,walker county,3.0,1.0464355788101844e-05,0.0
+01129,AL,washington county,1.0,-0.0,0.0
 01131,AL,wilcox county,0,NA,NA
 01133,AL,winston county,0,NA,NA
 02000,AK,alaska,3.0,-0.0,0.0
 02013,AK,aleutians east borough,0,NA,NA
 02016,AK,aleutians west census area,0,NA,NA
-02020,AK,anchorage municipality,0,NA,NA
+02020,AK,anchorage municipality,17.0,1.4864668626517195e-05,0.0
 02050,AK,bethel census area,0,NA,NA
 02060,AK,bristol bay borough,0,NA,NA
 02068,AK,denali borough,0,NA,NA
 02070,AK,dillingham census area,0,NA,NA
-02090,AK,fairbanks north star borough,0,NA,NA
+02090,AK,fairbanks north star borough,7.0,3.368455091733421e-06,0.0
 02100,AK,haines borough,0,NA,NA
 02105,AK,hoonah-angoon census area,0,NA,NA
-02110,AK,juneau city and borough,0,NA,NA
-02122,AK,kenai peninsula borough,0,NA,NA
-02130,AK,ketchikan gateway borough,0,NA,NA
+02110,AK,juneau city and borough,1.0,-0.0,0.0
+02122,AK,kenai peninsula borough,3.0,-0.0,0.0
+02130,AK,ketchikan gateway borough,6.0,7.190623427050255e-05,0.0
 02150,AK,kodiak island borough,0,NA,NA
 02158,AK,kusilvak census area,0,NA,NA
 02164,AK,lake and peninsula borough,0,NA,NA
@@ -98,63 +98,63 @@ FIPS,STATE,AREA_NAME,infected,beta,gamma
 02275,AK,wrangell city and borough,0,NA,NA
 02282,AK,yakutat city and borough,0,NA,NA
 02290,AK,yukon-koyukuk census area,0,NA,NA
-04000,AZ,arizona,296.0,9.24977062659912e-06,0.0
-04001,AZ,apache county,0,NA,NA
-04003,AZ,cochise county,0,NA,NA
-04005,AZ,coconino county,0,NA,NA
+04000,AZ,arizona,296.0,9.342735316759145e-06,0.006734006734006734
+04001,AZ,apache county,4.0,4.641771299921827e-06,0.0
+04003,AZ,cochise county,1.0,-0.0,0.0
+04005,AZ,coconino county,18.0,1.6336704139964402e-05,0.0
 04007,AZ,gila county,0,NA,NA
-04009,AZ,graham county,0,NA,NA
+04009,AZ,graham county,2.0,8.756030716131248e-06,0.0
 04011,AZ,greenlee county,0,NA,NA
 04012,AZ,la paz county,0,NA,NA
-04013,AZ,maricopa county,0,NA,NA
+04013,AZ,maricopa county,169.0,9.14450544268182e-06,0.008368200836820083
 04015,AZ,mohave county,0,NA,NA
-04017,AZ,navajo county,0,NA,NA
-04019,AZ,pima county,0,NA,NA
-04021,AZ,pinal county,0,NA,NA
-04023,AZ,santa cruz county,0,NA,NA
-04025,AZ,yavapai county,0,NA,NA
-04027,AZ,yuma county,0,NA,NA
+04017,AZ,navajo county,32.0,8.754241278964895e-05,0.0
+04019,AZ,pima county,42.0,9.945120578958489e-06,0.017857142857142856
+04021,AZ,pinal county,22.0,5.964282891908795e-06,0.0
+04023,AZ,santa cruz county,1.0,-0.0,0.0
+04025,AZ,yavapai county,3.0,2.8736994713893006e-06,0.0
+04027,AZ,yuma county,2.0,1.5713955721405826e-06,0.0
 05000,AR,arkansas,197.0,2.1347909199030883e-05,0.0
 05001,AR,arkansas county,0,NA,NA
 05003,AR,ashley county,0,NA,NA
 05005,AR,baxter county,0,NA,NA
-05007,AR,benton county,0,NA,NA
-05009,AR,boone county,0,NA,NA
-05011,AR,bradley county,0,NA,NA
+05007,AR,benton county,1.0,-0.0,0.0
+05009,AR,boone county,1.0,-0.0,0.0
+05011,AR,bradley county,4.0,-0.0,0.0
 05013,AR,calhoun county,0,NA,NA
 05015,AR,carroll county,0,NA,NA
 05017,AR,chicot county,0,NA,NA
-05019,AR,clark county,0,NA,NA
+05019,AR,clark county,7.0,0.0002267368039180293,0.0
 05021,AR,clay county,0,NA,NA
-05023,AR,cleburne county,0,NA,NA
-05025,AR,cleveland county,0,NA,NA
-05027,AR,columbia county,0,NA,NA
-05029,AR,conway county,0,NA,NA
-05031,AR,craighead county,0,NA,NA
-05033,AR,crawford county,0,NA,NA
-05035,AR,crittenden county,0,NA,NA
-05037,AR,cross county,0,NA,NA
+05023,AR,cleburne county,28.0,6.020832078993157e-05,0.0
+05025,AR,cleveland county,3.0,-0.0,0.0
+05027,AR,columbia county,1.0,-0.0,0.0
+05029,AR,conway county,1.0,-0.0,0.0
+05031,AR,craighead county,4.0,-0.0,0.0
+05033,AR,crawford county,1.0,NA,NA
+05035,AR,crittenden county,1.0,-0.0,0.0
+05037,AR,cross county,1.0,NA,NA
 05039,AR,dallas county,0,NA,NA
-05041,AR,desha county,0,NA,NA
+05041,AR,desha county,2.0,-0.0,0.0
 05043,AR,drew county,0,NA,NA
-05045,AR,faulkner county,0,NA,NA
+05045,AR,faulkner county,13.0,2.404077315123722e-05,0.0
 05047,AR,franklin county,0,NA,NA
 05049,AR,fulton county,0,NA,NA
-05051,AR,garland county,0,NA,NA
-05053,AR,grant county,0,NA,NA
-05055,AR,greene county,0,NA,NA
+05051,AR,garland county,9.0,-0.0,0.0
+05053,AR,grant county,3.0,5.499642523235997e-05,0.0
+05055,AR,greene county,1.0,-0.0,0.0
 05057,AR,hempstead county,0,NA,NA
 05059,AR,hot spring county,0,NA,NA
-05061,AR,howard county,0,NA,NA
-05063,AR,independence county,0,NA,NA
+05061,AR,howard county,1.0,NA,NA
+05063,AR,independence county,3.0,-0.0,0.0
 05065,AR,izard county,0,NA,NA
 05067,AR,jackson county,0,NA,NA
-05069,AR,jefferson county,0,NA,NA
+05069,AR,jefferson county,21.0,8.81324728992765e-05,0.0
 05071,AR,johnson county,0,NA,NA
 05073,AR,lafayette county,0,NA,NA
-05075,AR,lawrence county,0,NA,NA
+05075,AR,lawrence county,1.0,NA,NA
 05077,AR,lee county,0,NA,NA
-05079,AR,lincoln county,0,NA,NA
+05079,AR,lincoln county,2.0,-0.0,0.0
 05081,AR,little river county,0,NA,NA
 05083,AR,logan county,0,NA,NA
 05085,AR,lonoke county,0,NA,NA
@@ -170,159 +170,159 @@ FIPS,STATE,AREA_NAME,infected,beta,gamma
 05105,AR,perry county,0,NA,NA
 05107,AR,phillips county,0,NA,NA
 05109,AR,pike county,0,NA,NA
-05111,AR,poinsett county,0,NA,NA
-05113,AR,polk county,0,NA,NA
-05115,AR,pope county,0,NA,NA
+05111,AR,poinsett county,3.0,-0.0,0.0
+05113,AR,polk county,1.0,-0.0,0.0
+05115,AR,pope county,1.0,-0.0,0.0
 05117,AR,prairie county,0,NA,NA
-05119,AR,pulaski county,0,NA,NA
+05119,AR,pulaski county,63.0,1.4010293744911798e-05,0.0
 05121,AR,randolph county,0,NA,NA
 05123,AR,st. francis county,0,NA,NA
-05125,AR,saline county,0,NA,NA
+05125,AR,saline county,4.0,1.2354372830232135e-05,0.0
 05127,AR,scott county,0,NA,NA
-05129,AR,searcy county,0,NA,NA
-05131,AR,sebastian county,0,NA,NA
-05133,AR,sevier county,0,NA,NA
+05129,AR,searcy county,2.0,-0.0,0.0
+05131,AR,sebastian county,1.0,-0.0,0.0
+05133,AR,sevier county,1.0,-0.0,0.0
 05135,AR,sharp county,0,NA,NA
-05137,AR,stone county,0,NA,NA
-05139,AR,union county,0,NA,NA
-05141,AR,van buren county,0,NA,NA
-05143,AR,washington county,0,NA,NA
-05145,AR,white county,0,NA,NA
-05147,AR,woodruff county,0,NA,NA
+05137,AR,stone county,1.0,NA,NA
+05139,AR,union county,1.0,-0.0,0.0
+05141,AR,van buren county,3.0,-0.0,0.0
+05143,AR,washington county,5.0,5.627010777149572e-06,0.0
+05145,AR,white county,1.0,NA,NA
+05147,AR,woodruff county,1.0,-0.0,0.0
 05149,AR,yell county,0,NA,NA
-06000,CA,california,2267.0,8.494793900689023e-06,0.0
-06001,CA,alameda county,0,NA,NA
+06000,CA,california,2267.0,8.654920989416081e-06,0.0084132263744864
+06001,CA,alameda county,122.0,1.5000796542318345e-05,0.0038167938931297713
 06003,CA,alpine county,0,NA,NA
-06005,CA,amador county,0,NA,NA
-06007,CA,butte county,0,NA,NA
-06009,CA,calaveras county,0,NA,NA
+06005,CA,amador county,2.0,8.464390309938833e-06,0.0
+06007,CA,butte county,2.0,2.1621387876544132e-06,0.0
+06009,CA,calaveras county,2.0,-0.0,0.0
 06011,CA,colusa county,0,NA,NA
-06013,CA,contra costa county,0,NA,NA
+06013,CA,contra costa county,71.0,7.245744646625542e-06,0.0058651026392961885
 06015,CA,del norte county,0,NA,NA
-06017,CA,el dorado county,0,NA,NA
-06019,CA,fresno county,0,NA,NA
+06017,CA,el dorado county,2.0,-0.0,0.0
+06019,CA,fresno county,13.0,2.346507408114906e-06,0.0
 06021,CA,glenn county,0,NA,NA
-06023,CA,humboldt county,0,NA,NA
-06025,CA,imperial county,0,NA,NA
+06023,CA,humboldt county,2.0,2.4443423252551726e-06,0.0
+06025,CA,imperial county,6.0,3.666717389575891e-06,0.0
 06027,CA,inyo county,0,NA,NA
-06029,CA,kern county,0,NA,NA
+06029,CA,kern county,12.0,2.9736946966898633e-06,0.0
 06031,CA,kings county,0,NA,NA
 06033,CA,lake county,0,NA,NA
 06035,CA,lassen county,0,NA,NA
-06037,CA,los angeles county,0,NA,NA
-06039,CA,madera county,0,NA,NA
-06041,CA,marin county,0,NA,NA
+06037,CA,los angeles county,540.0,8.378914850036738e-06,0.006802721088435373
+06039,CA,madera county,6.0,6.342561760722725e-06,0.0
+06041,CA,marin county,47.0,1.1556819101123267e-05,0.0
 06043,CA,mariposa county,0,NA,NA
-06045,CA,mendocino county,0,NA,NA
-06047,CA,merced county,0,NA,NA
+06045,CA,mendocino county,1.0,-0.0,0.0
+06047,CA,merced county,1.0,-0.0,0.0
 06049,CA,modoc county,0,NA,NA
-06051,CA,mono county,0,NA,NA
-06053,CA,monterey county,0,NA,NA
-06055,CA,napa county,0,NA,NA
-06057,CA,nevada county,0,NA,NA
-06059,CA,orange county,0,NA,NA
-06061,CA,placer county,0,NA,NA
+06051,CA,mono county,1.0,-0.0,0.0
+06053,CA,monterey county,20.0,1.2244487206626092e-05,0.028985507246376812
+06055,CA,napa county,2.0,-0.0,0.0
+06057,CA,nevada county,3.0,6.687174000280737e-06,0.0
+06059,CA,orange county,125.0,6.277879014389262e-06,0.0
+06061,CA,placer county,20.0,9.32703730051434e-06,0.02597402597402597
 06063,CA,plumas county,0,NA,NA
-06065,CA,riverside county,0,NA,NA
-06067,CA,sacramento county,0,NA,NA
-06069,CA,san benito county,0,NA,NA
-06071,CA,san bernardino county,0,NA,NA
-06073,CA,san diego county,0,NA,NA
-06075,CA,san francisco county,0,NA,NA
-06077,CA,san joaquin county,0,NA,NA
-06079,CA,san luis obispo county,0,NA,NA
-06081,CA,san mateo county,0,NA,NA
-06083,CA,santa barbara county,0,NA,NA
-06085,CA,santa clara county,0,NA,NA
-06087,CA,santa cruz county,0,NA,NA
-06089,CA,shasta county,0,NA,NA
+06065,CA,riverside county,46.0,2.720332294064878e-06,0.05555555555555555
+06067,CA,sacramento county,88.0,7.787888211355867e-06,0.022662889518413595
+06069,CA,san benito county,6.0,5.417793116149639e-06,0.06451612903225806
+06071,CA,san bernardino county,17.0,1.227986613116443e-06,0.0
+06073,CA,san diego county,226.0,9.9710545272663e-06,0.0018850141376060322
+06075,CA,san francisco county,152.0,2.8687115295403787e-05,0.0
+06077,CA,san joaquin county,51.0,1.1515869310804037e-05,0.01818181818181818
+06079,CA,san luis obispo county,33.0,1.9955745200347242e-05,0.0
+06081,CA,san mateo county,161.0,2.2097944154573936e-05,0.002758620689655172
+06083,CA,santa barbara county,18.0,6.718965100174575e-06,0.0
+06085,CA,santa clara county,321.0,2.2371231834852534e-05,0.015786278081360048
+06087,CA,santa cruz county,22.0,8.508900309723609e-06,0.0
+06089,CA,shasta county,2.0,1.8514712716403089e-06,0.0
 06091,CA,sierra county,0,NA,NA
-06093,CA,siskiyou county,0,NA,NA
-06095,CA,solano county,0,NA,NA
-06097,CA,sonoma county,0,NA,NA
-06099,CA,stanislaus county,0,NA,NA
+06093,CA,siskiyou county,2.0,-0.0,0.0
+06095,CA,solano county,21.0,5.9712989516014e-06,0.0
+06097,CA,sonoma county,29.0,1.333611613624194e-05,0.014705882352941175
+06099,CA,stanislaus county,10.0,3.031398008028716e-06,0.0
 06101,CA,sutter county,0,NA,NA
 06103,CA,tehama county,0,NA,NA
 06105,CA,trinity county,0,NA,NA
-06107,CA,tulare county,0,NA,NA
+06107,CA,tulare county,16.0,3.577797050158115e-06,0.0
 06109,CA,tuolumne county,0,NA,NA
-06111,CA,ventura county,0,NA,NA
-06113,CA,yolo county,0,NA,NA
-06115,CA,yuba county,0,NA,NA
-08000,CO,colorado,718.0,2.195101435050513e-05,0.0
-08001,CO,adams county,0,NA,NA
+06111,CA,ventura county,35.0,6.659522696310311e-06,0.012195121951219513
+06113,CA,yolo county,8.0,4.537311446366384e-06,0.052631578947368425
+06115,CA,yuba county,3.0,6.407340248967429e-06,0.0
+08000,CO,colorado,718.0,2.2185183177606088e-05,0.005001562988433886
+08001,CO,adams county,25.0,8.46628108182219e-06,0.0
 08003,CO,alamosa county,0,NA,NA
-08005,CO,arapahoe county,0,NA,NA
+08005,CO,arapahoe county,58.0,1.4846000896884404e-05,0.0
 08007,CO,archuleta county,0,NA,NA
 08009,CO,baca county,0,NA,NA
 08011,CO,bent county,0,NA,NA
-08013,CO,boulder county,0,NA,NA
-08014,CO,broomfield county,0,NA,NA
-08015,CO,chaffee county,0,NA,NA
+08013,CO,boulder county,39.0,2.3516300374729843e-05,0.0
+08014,CO,broomfield county,2.0,-0.0,0.0
+08015,CO,chaffee county,3.0,2.4973153859555057e-05,0.0
 08017,CO,cheyenne county,0,NA,NA
-08019,CO,clear creek county,0,NA,NA
+08019,CO,clear creek county,3.0,3.4724633655101055e-05,0.0
 08021,CO,conejos county,0,NA,NA
 08023,CO,costilla county,0,NA,NA
-08025,CO,crowley county,0,NA,NA
+08025,CO,crowley county,1.0,-0.0,0.33333333333333337
 08027,CO,custer county,0,NA,NA
 08029,CO,delta county,0,NA,NA
-08031,CO,denver county,0,NA,NA
+08031,CO,denver county,148.0,3.7695159708804555e-05,0.0
 08033,CO,dolores county,0,NA,NA
-08035,CO,douglas county,0,NA,NA
-08037,CO,eagle county,0,NA,NA
-08039,CO,elbert county,0,NA,NA
-08041,CO,el paso county,0,NA,NA
+08035,CO,douglas county,48.0,3.0151447804420535e-05,0.0
+08037,CO,eagle county,92.0,0.00019451054763839043,0.0043383947939262466
+08039,CO,elbert county,3.0,-0.0,0.0
+08041,CO,el paso county,69.0,2.054838982349188e-05,0.029411764705882356
 08043,CO,fremont county,0,NA,NA
-08045,CO,garfield county,0,NA,NA
+08045,CO,garfield county,8.0,2.2312961599419123e-05,0.0
 08047,CO,gilpin county,0,NA,NA
-08049,CO,grand county,0,NA,NA
-08051,CO,gunnison county,0,NA,NA
-08053,CO,hinsdale county,0,NA,NA
+08049,CO,grand county,2.0,-2.147674068984485e-05,0.0
+08051,CO,gunnison county,28.0,0.00029060193347151556,0.0
+08053,CO,hinsdale county,1.0,-0.0,0.0
 08055,CO,huerfano county,0,NA,NA
 08057,CO,jackson county,0,NA,NA
-08059,CO,jefferson county,0,NA,NA
+08059,CO,jefferson county,55.0,1.0342337103894724e-05,0.0
 08061,CO,kiowa county,0,NA,NA
 08063,CO,kit carson county,0,NA,NA
 08065,CO,lake county,0,NA,NA
 08067,CO,la plata county,0,NA,NA
-08069,CO,larimer county,0,NA,NA
+08069,CO,larimer county,34.0,2.5679776985399562e-05,0.0
 08071,CO,las animas county,0,NA,NA
 08073,CO,lincoln county,0,NA,NA
-08075,CO,logan county,0,NA,NA
-08077,CO,mesa county,0,NA,NA
+08075,CO,logan county,2.0,-0.0,0.0
+08077,CO,mesa county,5.0,8.703163382301884e-06,0.0
 08079,CO,mineral county,0,NA,NA
 08081,CO,moffat county,0,NA,NA
 08083,CO,montezuma county,0,NA,NA
-08085,CO,montrose county,0,NA,NA
-08087,CO,morgan county,0,NA,NA
+08085,CO,montrose county,1.0,-0.0,0.0
+08087,CO,morgan county,3.0,1.1673923956074819e-05,0.0
 08089,CO,otero county,0,NA,NA
 08091,CO,ouray county,0,NA,NA
-08093,CO,park county,0,NA,NA
+08093,CO,park county,1.0,-0.0,0.0
 08095,CO,phillips county,0,NA,NA
-08097,CO,pitkin county,0,NA,NA
+08097,CO,pitkin county,18.0,7.44102983852687e-05,0.0
 08099,CO,prowers county,0,NA,NA
-08101,CO,pueblo county,0,NA,NA
+08101,CO,pueblo county,3.0,1.9897725689923457e-06,0.0
 08103,CO,rio blanco county,0,NA,NA
 08105,CO,rio grande county,0,NA,NA
-08107,CO,routt county,0,NA,NA
+08107,CO,routt county,3.0,1.2956053067980992e-05,0.0
 08109,CO,saguache county,0,NA,NA
 08111,CO,san juan county,0,NA,NA
-08113,CO,san miguel county,0,NA,NA
+08113,CO,san miguel county,1.0,-0.0,0.0
 08115,CO,sedgwick county,0,NA,NA
-08117,CO,summit county,0,NA,NA
-08119,CO,teller county,0,NA,NA
+08117,CO,summit county,8.0,1.075523242057298e-05,0.0
+08119,CO,teller county,3.0,NA,NA
 08121,CO,washington county,0,NA,NA
-08123,CO,weld county,0,NA,NA
-08125,CO,yuma county,0,NA,NA
-09000,CT,connecticut,415.0,2.0622816524329805e-05,0.0
-09001,CT,fairfield county,0,NA,NA
-09003,CT,hartford county,0,NA,NA
-09005,CT,litchfield county,0,NA,NA
-09007,CT,middlesex county,0,NA,NA
-09009,CT,new haven county,0,NA,NA
-09011,CT,new london county,0,NA,NA
-09013,CT,tolland county,0,NA,NA
-09015,CT,windham county,0,NA,NA
+08123,CO,weld county,50.0,3.818698788995397e-05,0.022099447513812154
+08125,CO,yuma county,1.0,-0.0,0.0
+09000,CT,connecticut,415.0,2.118275152930443e-05,0.011702750146284378
+09001,CT,fairfield county,270.0,5.299666085704245e-05,0.011029411764705881
+09003,CT,hartford county,61.0,1.2696890494212723e-05,0.014925373134328358
+09005,CT,litchfield county,13.0,9.203594555870282e-06,0.0
+09007,CT,middlesex county,8.0,6.1474276089259645e-06,0.0
+09009,CT,new haven county,41.0,6.996567794783213e-06,0.0
+09011,CT,new london county,4.0,3.748411610558656e-06,0.0
+09013,CT,tolland county,16.0,3.092548945107192e-05,0.06896551724137931
+09015,CT,windham county,2.0,-0.0,0.0
 10000,DE,delaware,87.0,1.6544986334890044e-05,0.0
 10001,DE,kent county,9.0,7.4680646883946195e-06,0.0
 10003,DE,new castle county,58.0,1.8476796719502567e-05,0.0

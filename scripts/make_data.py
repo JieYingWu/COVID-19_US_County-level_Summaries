@@ -583,8 +583,10 @@ class Formatter():
       return self._get_fips(x[key][self.fips_columns[key]])
     elif x in self.fips_codes:
       return x
-    elif re.match(r'^-?\d+(?:\.\d+)$', x) is not None:
-      return str(int(float(x))).zfill(5)
+    elif type(x) is str and re.match(r'^\d+(?:\.\d+)$', x) is not None:
+      return self._get_fips(str(int(float(x))).zfill(5))
+    elif type(x) is str and re.match(r'^\d+$', x) is not None and len(x) < 5:
+      return self._get_fips(x.zfill(5))
     elif x in self.areas:
       return self.areas[x]
     elif isinstance(x, int):
