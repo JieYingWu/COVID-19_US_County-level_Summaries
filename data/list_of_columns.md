@@ -382,6 +382,7 @@ Data presented below was retrieved at state level and projected onto county leve
 |Endocrinology, Diabetes, and Metabolism specialists (2019)|Active Endocrinology, Diabetes, and Metabolism specialists (2019)|
 |All Other Specialties specialists (2019)|All Other Specialties specialists (2019)|
 |Total specialists (2019)|Sum of Psychiatry, Surgery, Anesthesiology, Emergency Med, Radiology, Cardiology, Oncology, Endocrinology, and Other specialists (2019)|
+|ICU Beds | Number of ICU beds per county|
 \* All physician data includes MDs and DOs
 
 #### Transit Scores
