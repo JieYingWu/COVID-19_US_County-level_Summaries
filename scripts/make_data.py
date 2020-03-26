@@ -840,6 +840,84 @@ class Formatter():
         writer.writerow([fips, state, area, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
         print(f'wrote {fips}: N = {N}, beta = {beta}, gamma = {gamma}')
 
+
+  def filter_data(self):
+    """Filter out counties that have few cases
+
+    """
+    # mapping from fips to numpy array giving timeseries for each, starting from the first day with
+    # nonzero infections
+    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_time_series_JHU.csv')
+    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_time_series_JHU.csv')
+    recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_time_series_JHU.csv')
+    
+    infections, deaths, recovered = self._read_cases_data(infections_filename, deaths_filename, recovered_filename)
+
+    filename = join(self.data_dir, 'filtered_cases_and_deaths.csv')
+    with open(filename, 'w', newline='') as file:
+      writer = csv.writer(file, delimiter=',')
+#      writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'infected', 'beta', 'gamma'])
+      
+      for fips in self.fips_codes:
+        area = self.fips_codes.get(fips, 'NA')
+        state = self.fips_to_state.get(fips, 'NA')
+        if not (fips in infections and fips in deaths and fips in recovered) or np.all(infections[fips] == 0):
+#          writer.writerow([fips, state, area, '0', 'NA'])
+          continue
+
+        if fips not in self.fips_codes:
+#          writer.writerow([fips, state, area, infections[fips][-1], 'NA'])
+          continue
+
+        if infections[fips][-1] < int(self.threshold) or infections[fips][0] == 0:
+          continue
+
+        to_write = [fips, state, area]
+        I = infections[fips]
+        I = I/I[0]
+        to_write.extend(I)
+        to_write.extend(deaths[fips])
+        writer.writerow(to_write)
+#        print(f'wrote {fips}')
+
+  def filter_data_states(self):
+    """Filter out counties that have few cases
+
+    """
+    # mapping from fips to numpy array giving timeseries for each, starting from the first day with
+    # nonzero infections
+    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_time_series_JHU.csv')
+    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_time_series_JHU.csv')
+    recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_time_series_JHU.csv')
+    
+    infections, deaths, recovered = self._read_cases_data(infections_filename, deaths_filename, recovered_filename)
+
+    filename = join(self.data_dir, 'filtered_cases_and_deaths_states.csv')
+    with open(filename, 'w', newline='') as file:
+      writer = csv.writer(file, delimiter=',')
+#      writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'infected', 'beta', 'gamma'])
+      
+      for fips in self.fips_codes:
+        area = self.fips_codes.get(fips, 'NA')
+        state = self.fips_to_state.get(fips, 'NA')
+        if not (fips in infections and fips in deaths and fips in recovered) or np.all(infections[fips] == 0):
+#          writer.writerow([fips, state, area, '0', 'NA'])
+          continue
+
+        if fips not in self.fips_codes:
+#          writer.writerow([fips, state, area, infections[fips][-1], 'NA'])
+          continue
+
+        if self._is_county(fips):
+          continue
+
+        to_write = [fips, state, area]
+        I = infections[fips]
+        to_write.extend(I)
+        to_write.extend(deaths[fips])
+        writer.writerow(to_write)
+#        print(f'wrote {fips}')
+
         
 def main():
   parser = argparse.ArgumentParser(description='data formatter')
@@ -847,14 +925,17 @@ def main():
   # file settings
   parser.add_argument('--raw-data-dir', default='./raw_data', help='directory containing raw data')
   parser.add_argument('--data-dir', default='./data', help='directory to write formatted data to')
+  parser.add_argument('--threshold', default='20', help='threshold for relevant counties')
+    
   args = parser.parse_args()
 
   # run
   formatter = Formatter(args)
-  formatter.make_national_data()
-  formatter.make_cases_data()
-
-
+#  formatter.make_national_data()
+#  formatter.make_cases_data()
+  formatter.filter_data()
+  formatter.filter_data_states()
+  
 if __name__ == '__main__':
   main()
   
