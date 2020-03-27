@@ -617,7 +617,7 @@ class Formatter():
 
     """
     fips = self._get_fips(x)
-    return fips[1] == '1' and fips[4] == '0'
+    return fips[-1] == '0' and fips[-2] == '0' and fips[-3] == '0'
 
   national_data_delimiters = {'demographics': ';',
                               'transit': ';'}
@@ -908,14 +908,12 @@ class Formatter():
 #          writer.writerow([fips, state, area, infections[fips][-1], 'NA'])
           continue
 
-        if self._is_county(fips):
-          continue
-
         to_write = [fips, state, area]
         I = infections[fips]
         to_write.extend(I)
         to_write.extend(deaths[fips])
-        writer.writerow(to_write)
+        if self._is_state(fips):
+          writer.writerow(to_write)
 #        print(f'wrote {fips}')
 
         
