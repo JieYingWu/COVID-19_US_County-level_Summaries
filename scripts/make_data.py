@@ -822,10 +822,16 @@ class Formatter():
 
         # number of infected people
         start = np.nonzero(infections[fips] > 0)[0][0]
-        X = infections[fips][start:] / N
+        end = min(infections[fips].shape[0], recovered[fips].shape[0], deaths[fips].shape[0])
+        start = min(start, end)
+        if start == end:
+          writer.writerow([fips, state, area, '0', 'NA', 'NA'])
+          continue
+          
+        X = infections[fips][start:end] / N
 
         # fraction removed (recovered or dead)
-        R = (recovered[fips][start:] + deaths[fips][start:]) / N
+        R = (recovered[fips][start:end] + deaths[fips][start:end]) / N
 
         # fraction of population susceptible
         S = 1 - X - R
