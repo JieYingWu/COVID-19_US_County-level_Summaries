@@ -17,6 +17,9 @@ from bokeh.sampledata.unemployment import data as unemployment
 from bokeh.models import LogColorMapper
 from bokeh.palettes import Viridis6
 
+from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar
+from bokeh.palettes import brewer
+
 
 def create_html_page(html_page_name, infected_cases):
   del states["HI"]
@@ -33,12 +36,11 @@ def create_html_page(html_page_name, infected_cases):
   county_names = [counties[code]["name"] for code in counties if counties[code]["state"] not in EXCLUDED]
 
   colors = ['#084594', '#4292c6', '#9ecae1', '#c6dbef', '#deebf7', '#f7fbff']
-  palette = Viridis6
-  palette = tuple(reversed(palette))
-  color_mapper = LogColorMapper(palette=palette)
-  print(color_mapper)
+  #palette = Viridis6
+  #palette = tuple(reversed(palette))
+  #color_mapper = LogColorMapper(palette=palette)
 
-  county_colors = []
+  #county_colors = []
   county_rates = []
   for county_id in counties:
     if counties[county_id]["state"] in EXCLUDED:
@@ -49,9 +51,10 @@ def create_html_page(html_page_name, infected_cases):
       idx = int(rate / 10000)
       #print(idx)
       county_rates.append(infected_cases[county_id])
-      county_colors.append(colors[idx])
+      #county_colors.append(colors[idx])
     except KeyError:
-      county_colors.append("black")
+      county_rates.append(0.0)
+      #county_colors.append("black")
 
   data = dict(
     x=county_xs,
@@ -59,7 +62,11 @@ def create_html_page(html_page_name, infected_cases):
     name=county_names,
     rate=county_rates
   )
-
+  # Define a sequential multi-hue color palette.
+  palette = brewer['YlGnBu'][8]
+  # Reverse color order so that dark blue is highest obesity.
+  palette = palette[::-1]
+  color_mapper = LinearColorMapper(palette=palette, low=0, high=40)
   # color_mapper = LogColorMapper(palette=colors)
   TOOLS = "pan,wheel_zoom,reset,hover,save"
   p = figure(title="US density", toolbar_location="left",
@@ -75,7 +82,7 @@ def create_html_page(html_page_name, infected_cases):
   p.hover.point_policy = "follow_mouse"
 
   p.patches(county_xs, county_ys,
-            fill_alpha=0.7,
+            #fill_alpha=0.7,
             line_color="white", line_width=0.5)
 
   p.patches(state_xs, state_ys, fill_alpha=0.0,
@@ -101,7 +108,6 @@ def create_cases_dict(data_dir):
       state_fips_code = int('{:0d}'.format(int(line[0][0:2])))
       county_fips_code = int('{:0d}'.format(int(line[0][2:])))
       infected = float(line[3])
-      #print((type(state_fips_code), county_fips_code))
       cases_dict[(state_fips_code, county_fips_code)] = infected
 
     return cases_dict
