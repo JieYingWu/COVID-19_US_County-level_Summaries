@@ -25,5 +25,9 @@ We accumulated statistics from different sources on a county level granularity.
 Please create a new directory in [./raw_data](https://github.com/JieYingWu/disease_spread/raw_data)
 with a sensible name based on the type of data you are adding.
 
+## Other County-level Efforts
+* Team at UC Berkeley trying to estimate where ventilators should go: https://yu-group.github.io/covid-19-ventilator-demand-prediction/outline
+* Students at CalTech working on COVID-19 predictions: https://github.com/COVIDmodeling/covid_19_modeling 
+
 ## Acknowledgements
 This dataset is the result of a herculean effort by a group of students and faculty at Johns Hopkins University. Special thanks goes to Jie Ying Wu, Benjamin Killeen, Kinjal Shah, Anna Zapaishchykova, Philipp Nikutta, Aniruddha Tamhane, Shreya Chakraborty, Jinchi Wei, Tiger Gao, and Mareike Thies.
