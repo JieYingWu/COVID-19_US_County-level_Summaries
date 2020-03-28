@@ -35,26 +35,15 @@ def create_html_page(html_page_name, infected_cases):
 
   county_names = [counties[code]["name"] for code in counties if counties[code]["state"] not in EXCLUDED]
 
-  colors = ['#084594', '#4292c6', '#9ecae1', '#c6dbef', '#deebf7', '#f7fbff']
-  #palette = Viridis6
-  #palette = tuple(reversed(palette))
-  #color_mapper = LogColorMapper(palette=palette)
-
-  #county_colors = []
   county_rates = []
   for county_id in counties:
     if counties[county_id]["state"] in EXCLUDED:
       continue
     try:
-      #rate = unemployment[county_id]
       rate = infected_cases[county_id]
-      idx = int(rate / 10000)
-      #print(idx)
       county_rates.append(infected_cases[county_id])
-      #county_colors.append(colors[idx])
     except KeyError:
       county_rates.append(0.0)
-      #county_colors.append("black")
 
   data = dict(
     x=county_xs,
@@ -64,10 +53,11 @@ def create_html_page(html_page_name, infected_cases):
   )
   # Define a sequential multi-hue color palette.
   palette = brewer['YlGnBu'][8]
+
   # Reverse color order so that dark blue is highest obesity.
   palette = palette[::-1]
   color_mapper = LinearColorMapper(palette=palette, low=0, high=40)
-  # color_mapper = LogColorMapper(palette=colors)
+
   TOOLS = "pan,wheel_zoom,reset,hover,save"
   p = figure(title="US density", toolbar_location="left",
              plot_width=1100, plot_height=700, tools=TOOLS,
