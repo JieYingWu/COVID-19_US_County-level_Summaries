@@ -626,6 +626,7 @@ class Formatter():
                               'transit': ';'}
 
   def unify_climate_data(self):
+    # requires datafiles downloaded from ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/
     filenames = [join(self.raw_data_dir, 'national', 'Climate', 'climdiv-pcpncy-v1.0.0-20200304'),
                  join(self.raw_data_dir, 'national', 'Climate', 'climdiv-tmpccy-v1.0.0-20200304'),
                  join(self.raw_data_dir, 'national', 'Climate', 'climdiv-tmaxcy-v1.0.0-20200304'),
@@ -988,7 +989,7 @@ def main():
 
   # run
   formatter = Formatter(args)
-  formatter.unify_climate_data()
+  # formatter.unify_climate_data() # only run if data files present, see function for which files
   formatter.make_national_data()
   formatter.make_cases_data()
   # formatter.filter_data()
