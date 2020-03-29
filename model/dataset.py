@@ -139,14 +139,19 @@ class CumulativeCoronavirusCases(Dataset):
     entries = []
     for county_index, row in enumerate(self.counties):
       fips = self._get_fips(row[0])
-      if fips[:2] not in self.which_states:
-        continue
+
       if self.cases.get(fips) is None or self.cases[fips][1][-1] < self.threshold:
         continue
-      for t, q in zip(*self.cases[fips]):
-        if q == 0:
-          continue
-        entries.append([county_index, t, q])
+
+      # train on the first n - 1 days, test on the last day
+      ts, qs = self.cases[fips]
+      if split == 'val' or split == 'test':
+        entries.append([county_index, ts[-1], qs[-1]])
+      else:
+        for t, q in zip(ts[:-1], qs[:-1]):
+          if q == 0:
+            continue
+          entries.append([county_index, t, q])
     self.entries = np.array(entries, dtype=np.int64)
 
   def _get_fips(self, x, default=None):
@@ -208,15 +213,17 @@ class CumulativeCoronavirusCases(Dataset):
     x.append(np.eye(num_classes)[0] if row[idx] == 'NA' else np.eye(num_classes)[int(row[idx]) + 1])
 
     p = []                      # float variables present, 1 if present, 0 if NA
+    i2 = np.eye(2)
     for idx in range(6, len(row)):
       if row[idx] == 'NA':
-        p.append(0.)        # class 0 means data not available
+        p.append(i2[0])        # class 0 means data not available
         x.append([0])
       else:
-        p.append(1.)        # class 1 means data available
+        p.append(i2[1])        # class 1 means data available
         x.append([float(row[idx])])
 
     x = np.concatenate(x, axis=0)
+    p = np.concatenate(p, axis=0)
     x = np.concatenate([x, p], axis=0)
     return x.astype(np.float32)
 
@@ -224,15 +231,17 @@ class CumulativeCoronavirusCases(Dataset):
     x = []
     p = []                      # 1 if present, 0 if NA
 
+    i2 = np.eye(2)
     for idx in range(3, len(row)):
       if row[idx] == 'NA':
-        p.append(0.)
+        p.append(i2[0])
         x.append([0])
       else:
-        p.append(1.0)
+        p.append(i2[1])
         x.append([float(row[idx])])
 
     x = np.concatenate(x, axis=0)
+    p = np.concatenate(p, axis=0)
     x = np.concatenate([x, p], axis=0)
     return x.astype(np.float32)
 

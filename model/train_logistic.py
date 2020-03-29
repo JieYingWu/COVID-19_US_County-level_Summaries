@@ -18,7 +18,6 @@ from dataset import CumulativeCoronavirusCases
 
 def init_weights(m):
   if type(m) == nn.Linear:
-    print('initializing layer')
     torch.nn.init.kaiming_uniform_(m.weight, nonlinearity='relu')
     m.bias.data.fill_(0.00)
 
@@ -27,13 +26,13 @@ def init_weights(m):
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # Model parameters
-in_channels = 734
+in_channels = 1085 # 734
 channels = [2048, 2048, 1024, 1024, 512, 512, 256, 256, 128, 128, 2]
 # channels = [1024, 1024, 512, 512]
 out_channels = 1
 threshold = 8
 deaths = False
-max_cols = 10
+max_cols = None
 
 # Training parameters
 batch_size = 32
@@ -115,7 +114,6 @@ for e in range(epoch, n_epochs):
     step += 1
     tq.update(batch_size)
     tq.set_postfix(loss=' loss={:.5f}'.format(loss.item()))
-    quit()
     
   tq.set_postfix(loss=' loss={:.5f}'.format(epoch_loss / step))
   

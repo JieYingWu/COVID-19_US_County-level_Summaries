@@ -49,8 +49,8 @@ class Net(nn.Module):
     t0 = torch.sum(self.t0_table.view(1, -1) * county_index_one_hot, dim=1, keepdim=True)
     lparams = torch.cat([t, t0, abc], dim=1)
     q = self.logistic(lparams)
-    print('abc', abc, abc.shape)
-    print('t0', t0, t0.shape)
-    print('q', q, q.shape)
+    # print('abc', abc, abc.shape)
+    # print('t0', t0, t0.shape)
+    # print('q', q, q.shape)
     return q
 
