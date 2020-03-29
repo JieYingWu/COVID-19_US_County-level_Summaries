@@ -21,8 +21,7 @@ from bokeh.sampledata.us_states import data as states
 from bokeh.sampledata.unemployment import data as unemployment
 from bokeh.models import Slider, CustomJS, DateSlider
 from bokeh.models import LogColorMapper
-from bokeh.palettes import Viridis6
-import bokeh.palettes as pal
+from bokeh.palettes import Magma256
 from bokeh.layouts import widgetbox, row, column
 
 from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar
@@ -95,11 +94,14 @@ def create_html_page(html_page_name, df):
     print(np.shape(source_new), type(source_new))
 
     # Define a sequential multi-hue color palette.
-    palette = brewer['YlGnBu'][9]
+    #palette = brewer['YlGnBu'][9]
+    palette = Magma256
     # palette = big_palette(200, bokeh.palettes.plasma)
 
     palette = palette[::-1]
-    color_mapper = LinearColorMapper(palette=palette, low=0, high=150)
+    color_mapper = LinearColorMapper(palette=palette, low=0, high=100)
+
+    #color_mapper = LogColorMapper(palette=palette)
 
     TOOLS = "pan,wheel_zoom,reset,hover,save"
     p = figure(title="US density", toolbar_location="left",
@@ -132,21 +134,19 @@ def create_html_page(html_page_name, df):
     first_day = datetime.strptime(first_day_str, '%Y-%m-%d %H:%M:%S').date()
     print(last_day)
 
-    date_slider = DateSlider(title="Date: ", start=first_day, end=last_day, value=last_day, step=1)
+    date_slider = DateSlider(title="Date:", start=first_day, end=last_day, value=last_day, step=1)
     callback = CustomJS(args=dict(source=source_new, ts=source_visible), code="""
                             var data=ts.data;
                             var rate=data['rate'];
                             var name=data['name'];
                             var data1=source.data;
-                            var f=cb_obj.value; //this is the selection value
+                            var f=cb_obj.value; //this is the selection value of slider 
                             const event = new Date(f);
-                            var date_selected = event.toISOString().substring(0,10)
-                            //console.log(typeof date_selected);
+                            var date_selected = event.toISOString().substring(0,10); // converting date from python to JS
                             //console.log(typeof data1[0]);
-                            //console.log(data1[date_selected]);
 
                             data['rate']=data1[date_selected];
-                            source.change.emit();
+                            ts.change.emit();
                     """)
 
     date_slider.js_on_change('value', callback)
