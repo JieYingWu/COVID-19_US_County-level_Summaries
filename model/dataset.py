@@ -8,7 +8,6 @@ import torch.nn.functional as F
 
 class CoronavirusCases(Dataset):
 
-    
   def __init__(self, data_dir, split='train', threshold=8, device='cpu'):
     """Return dataset entries with county info and estimated beta and gamma.
     :param path: 
@@ -29,13 +28,16 @@ class CoronavirusCases(Dataset):
     
     counties = np.genfromtxt(join(data_dir, 'counties.csv'), delimiter=',', skip_header=1, dtype=str)
     counties = counties[1:, :]
+    
     cases = np.genfromtxt(join(data_dir, 'cases.csv'), delimiter=',', skip_header=1, dtype=str)
     cases = cases[1:, :]
     
     # get which rows correspond to this split
     which = []
     for i, (row, case_row) in enumerate(zip(counties, cases)):
-      if row[0][:2] in getattr(self, split + '_states') and float(cases[i, 1]) > threshold and float(case_row[1]) > threshold:
+      if (row[0][:2] in getattr(self, split + '_states')
+          and float(cases[i, 1]) > threshold
+          and float(case_row[1]) > threshold):
         which.append(i)
 
     self.counties = counties[which]
@@ -82,6 +84,24 @@ class CoronavirusCases(Dataset):
     return len(self.counties)
 
 
+class CoronavirusCumulativeCases(Dataset):
+  def __init__(self, data_dir, split='train', threshold=8, device='cpu'):
+    """Return dataset entries with county info, t, t0, 
+
+    :param path: 
+    :param split: 
+    :param threshold: 
+    :returns: 
+    :rtype: 
+    """
+    self.val_states = {'53'}           # Washington State FIPS
+    self.test_states = {'06'}          # California FIPS
+    self.train_states = set(str(i).zfill(2) for i in range(1, 100)
+                            if str(i).zfill(2) not in self.val_states
+                            and str(i).zfill(2) not in self.test_states)
+    
+
+  
 if __name__ == '__main__':
   cases = CoronavirusCases('data')
   print(cases[0])

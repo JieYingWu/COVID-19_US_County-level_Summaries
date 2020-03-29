@@ -13,6 +13,7 @@ from collections import OrderedDict
 import csv
 import argparse
 import json
+import datetime
 
 
 class Formatter():
@@ -81,7 +82,8 @@ class Formatter():
     'density',
     'demographics',
     'health',
-    'transit'
+    'transit',
+    'crime'
   ]
   
   national_data_skiprows = {
@@ -93,7 +95,8 @@ class Formatter():
     'density': 1,
     'demographics': 0,
     'health': 0,
-    'transit': 0
+    'transit': 0,
+    'crime': 0
   }
 
   # which column has the fips code in each table
@@ -106,7 +109,13 @@ class Formatter():
     'density': 3,
     'demographics': 0,
     'health': 0,
-    'transit': 1}
+    'transit': 1,
+    'crime': 1
+  }
+
+  national_data_delimiters = {'demographics': ';',
+                              'transit': ';',
+                              'crime': ';'}
   
   national_data_which_columns = OrderedDict([
     ('population', [
@@ -467,6 +476,24 @@ class Formatter():
     ]),
     ('transit', [
       2                      # transit_scores - population weighted averages aggregated from town/city level to county
+    ]),
+    ('crime', [
+      2,                      # crime_rate_per_100000
+      3,                      # COUNTY POPULATION-AGENCIES REPORT ARRESTS
+      4,                      # COUNTY POPULATION-AGENCIES REPORT CRIMES
+      5,                      # NUMBER OF AGENCIES IN COUNTY REPORT ARRESTS
+      6,                      # NUMBER OF AGENCIES IN COUNTY REPORT CRIMES
+      7,                      # COVERAGE INDICATOR
+      8,                      # Total number of UCR (Uniform Crime Report) Index crimes, excluding arson.
+      9,                      # Total number of UCR (Uniform Crime Report) index crimes reported, including arson
+      10,                      # MURDER
+      11,                      # RAPE
+      12,                      # ROBBERY
+      13,                      # Number of AGGRAVATED ASSAULTS
+      14,                      # BURGLRY
+      15,                      # LARCENY
+      16,                      # MOTOR VEHICLE THEFTS
+      17,                      # ARSON
     ])
   ])
 
@@ -494,11 +521,12 @@ class Formatter():
       'density': join(self.raw_data_dir, 'national', 'Density', 'housing_area_density_national_2010_census.csv'),
       'demographics': join(self.raw_data_dir, 'national', 'Demographics', 'demographics_by_county.csv'),
       'health': join(self.raw_data_dir, 'national', 'healthcare_services_per_county.csv'),
-      'transit': join(self.raw_data_dir, 'national', 'transit_scores.csv')
+      'transit': join(self.raw_data_dir, 'national', 'transit_scores.csv'),
+      'crime': join(self.raw_data_dir, 'national', 'crime_data.csv')
     }
     
     self._make_reference()
-    self._write_reference()
+    # self._write_reference()
 
   def _get_key(self, key):
     return key.lower().strip()
@@ -621,9 +649,6 @@ class Formatter():
     """
     fips = self._get_fips(x)
     return fips[-1] == '0' and fips[-2] == '0' and fips[-3] == '0'
-
-  national_data_delimiters = {'demographics': ';',
-                              'transit': ';'}
 
   def unify_climate_data(self):
     # requires datafiles downloaded from ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/
@@ -992,17 +1017,21 @@ class Formatter():
 
 
   def intervention_to_ordinal(self):
+    t0 = datetime.date(2020, 2, 29).toordinal()
+    
     def date_to_ordinal(x):
+      
       x = x.split('-')
-      month = x[1]
-      day = x[0]
-      if month == 'Mar':
-        return day
-      elif month == 'Apr':
-        return str(int(day) + 31)
-      else:
-        print('Invalid month')
-        exit()
+      month = int(x[1])
+      day = int(x[0])
+      return datetime.date(2020, month, day).toordinal() - t0
+      # if month == 'Mar':
+      #   return day
+      # elif month == 'Apr':
+      #   return str(int(day) + 31)
+      # else:
+      #   print('Invalid month')
+      #   exit()
     
     interventions_filename = join(self.raw_data_dir, 'national', 'public_implementations_fips.csv')
     data = {}
@@ -1031,7 +1060,6 @@ class Formatter():
         writer.writerow([fips, state, area, f'{data[fips][0]}', f'{data[fips][1]}', f'{data[fips][2]}', f'{data[fips][3]}', f'{data[fips][4]}', f'{data[fips][5]}', f'{data[fips][6]}'])
         print(f'wrote {fips}: {data[fips]}')
 
-        
     return data
 
           
@@ -1049,7 +1077,7 @@ def main():
   formatter = Formatter(args)
   # formatter.unify_climate_data() # only run if data files present, see function for which files
   formatter.make_national_data()
-  formatter.make_cases_data()
+  # formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
   # formatter.intervention_to_ordinal()
