@@ -1,0 +1,3154 @@
+FIPS,Admin2,Province_State,Country_Region,Last_Update,Confirmed,Deaths,Recovered,Active
+1001.0,Autauga,Alabama,US,2020-03-28 20:48:56,6,0,0,0
+1003.0,Baldwin,Alabama,US,2020-03-28 20:48:56,10,0,0,0
+1005.0,Barbour,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1007.0,Bibb,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1009.0,Blount,Alabama,US,2020-03-28 20:48:56,5,0,0,0
+1011.0,Bullock,Alabama,US,2020-03-28 20:48:56,3,0,0,0
+1013.0,Butler,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1015.0,Calhoun,Alabama,US,2020-03-28 20:48:56,3,0,0,0
+1017.0,Chambers,Alabama,US,2020-03-28 20:48:56,17,0,0,0
+1019.0,Cherokee,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1021.0,Chilton,Alabama,US,2020-03-28 20:48:56,7,0,0,0
+1023.0,Choctaw,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1025.0,Clarke,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1027.0,Clay,Alabama,US,2020-03-28 20:48:56,2,0,0,0
+1029.0,Cleburne,Alabama,US,2020-03-28 20:48:56,4,0,0,0
+1031.0,Coffee,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1033.0,Colbert,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1035.0,Conecuh,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1037.0,Coosa,Alabama,US,2020-03-28 20:48:56,2,0,0,0
+1039.0,Covington,Alabama,US,2020-03-28 20:48:56,2,0,0,0
+1041.0,Crenshaw,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1043.0,Cullman,Alabama,US,2020-03-28 20:48:56,7,0,0,0
+1045.0,Dale,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1047.0,Dallas,Alabama,US,2020-03-28 20:48:56,2,0,0,0
+1049.0,DeKalb,Alabama,US,2020-03-28 20:48:56,4,0,0,0
+1051.0,Elmore,Alabama,US,2020-03-28 20:48:56,12,0,0,0
+1053.0,Escambia,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1055.0,Etowah,Alabama,US,2020-03-28 20:48:56,6,0,0,0
+1057.0,Fayette,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1059.0,Franklin,Alabama,US,2020-03-28 20:48:56,3,0,0,0
+1061.0,Geneva,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1063.0,Greene,Alabama,US,2020-03-28 20:48:56,3,0,0,0
+1065.0,Hale,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1067.0,Henry,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1069.0,Houston,Alabama,US,2020-03-28 20:48:56,4,0,0,0
+1071.0,Jackson,Alabama,US,2020-03-28 20:48:56,5,1,0,0
+1073.0,Jefferson,Alabama,US,2020-03-28 20:48:56,195,0,0,0
+1075.0,Lamar,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1077.0,Lauderdale,Alabama,US,2020-03-28 20:48:56,12,1,0,0
+1079.0,Lawrence,Alabama,US,2020-03-28 20:48:56,3,0,0,0
+1081.0,Lee,Alabama,US,2020-03-28 20:48:56,56,0,0,0
+1083.0,Limestone,Alabama,US,2020-03-28 20:48:56,16,0,0,0
+1085.0,Lowndes,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1087.0,Macon,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1089.0,Madison,Alabama,US,2020-03-28 20:48:56,62,1,0,0
+1091.0,Marengo,Alabama,US,2020-03-28 20:48:56,3,0,0,0
+1093.0,Marion,Alabama,US,2020-03-28 20:48:56,9,0,0,0
+1095.0,Marshall,Alabama,US,2020-03-28 20:48:56,4,0,0,0
+1097.0,Mobile,Alabama,US,2020-03-28 20:48:56,29,1,0,0
+1099.0,Monroe,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1101.0,Montgomery,Alabama,US,2020-03-28 20:48:56,18,0,0,0
+1103.0,Morgan,Alabama,US,2020-03-28 20:48:56,15,0,0,0
+1105.0,Perry,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1107.0,Pickens,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1109.0,Pike,Alabama,US,2020-03-28 20:48:56,4,0,0,0
+1111.0,Randolph,Alabama,US,2020-03-28 20:48:56,2,0,0,0
+1113.0,Russell,Alabama,US,2020-03-28 20:48:56,1,0,0,0
+1115.0,St. Clair,Alabama,US,2020-03-28 20:48:56,11,0,0,0
+1117.0,Shelby,Alabama,US,2020-03-28 20:48:56,72,0,0,0
+1119.0,Sumter,Alabama,US,2020-03-28 20:48:56,0,0,0,0
+1121.0,Talladega,Alabama,US,2020-03-28 20:48:56,4,0,0,0
+1123.0,Tallapoosa,Alabama,US,2020-03-28 20:48:56,5,0,0,0
+1125.0,Tuscaloosa,Alabama,US,2020-03-28 20:48:56,22,0,0,0
+1127.0,Walker,Alabama,US,2020-03-28 20:48:56,28,0,0,0
+1129.0,Washington,Alabama,US,2020-03-28 20:48:56,2,0,0,0
+1131.0,Wilcox,Alabama,US,2020-03-28 20:48:56,2,0,0,0
+1133.0,Winston,Alabama,US,2020-03-28 20:48:56,2,0,0,0
+2013.0,Aleutians East,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2016.0,Aleutians West,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2020.0,Anchorage,Alaska,US,2020-03-28 20:48:56,42,1,0,0
+2050.0,Bethel,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2060.0,Bristol Bay,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2068.0,Denali,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2070.0,Dillingham,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2090.0,Fairbanks North Star,Alaska,US,2020-03-28 20:48:56,19,0,0,0
+2100.0,Haines,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2105.0,Hoonah-Angoon,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2110.0,Juneau,Alaska,US,2020-03-28 20:48:56,4,0,0,0
+2122.0,Kenai Peninsula,Alaska,US,2020-03-28 20:48:56,5,0,0,0
+2130.0,Ketchikan Gateway,Alaska,US,2020-03-28 20:48:56,12,0,0,0
+2150.0,Kodiak Island,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2158.0,Kusilvak,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2164.0,Lake and Peninsula,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2170.0,Matanuska-Susitna,Alaska,US,2020-03-28 20:48:56,2,0,0,0
+2180.0,Nome,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2185.0,North Slope,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2188.0,Northwest Arctic,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2195.0,Petersburg,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2198.0,Prince of Wales-Hyder,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2220.0,Sitka,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2230.0,Skagway,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2240.0,Southeast Fairbanks,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2261.0,Valdez-Cordova,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2275.0,Wrangell,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2282.0,Yakutat,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+2290.0,Yukon-Koyukuk,Alaska,US,2020-03-28 20:48:56,0,0,0,0
+4001.0,Apache,Arizona,US,2020-03-28 20:48:56,13,0,0,0
+4003.0,Cochise,Arizona,US,2020-03-28 20:48:56,3,0,0,0
+4005.0,Coconino,Arizona,US,2020-03-28 20:48:56,56,2,0,0
+4007.0,Gila,Arizona,US,2020-03-28 20:48:56,1,0,0,0
+4009.0,Graham,Arizona,US,2020-03-28 20:48:56,2,0,0,0
+4011.0,Greenlee,Arizona,US,2020-03-28 20:48:56,0,0,0,0
+4012.0,La Paz,Arizona,US,2020-03-28 20:48:56,2,0,0,0
+4013.0,Maricopa,Arizona,US,2020-03-28 20:48:56,454,5,0,0
+4015.0,Mohave,Arizona,US,2020-03-28 20:48:56,5,0,0,0
+4017.0,Navajo,Arizona,US,2020-03-28 20:48:56,57,0,0,0
+4019.0,Pima,Arizona,US,2020-03-28 20:48:56,120,4,0,0
+4021.0,Pinal,Arizona,US,2020-03-28 20:48:56,41,0,0,0
+4023.0,Santa Cruz,Arizona,US,2020-03-28 20:48:56,2,0,0,0
+4025.0,Yavapai,Arizona,US,2020-03-28 20:48:56,13,0,0,0
+4027.0,Yuma,Arizona,US,2020-03-28 20:48:56,4,0,0,0
+5001.0,Arkansas,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5003.0,Ashley,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5005.0,Baxter,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5007.0,Benton,Arkansas,US,2020-03-28 20:48:56,28,0,0,0
+5009.0,Boone,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5011.0,Bradley,Arkansas,US,2020-03-28 20:48:56,4,0,0,0
+5013.0,Calhoun,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5015.0,Carroll,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5017.0,Chicot,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5019.0,Clark,Arkansas,US,2020-03-28 20:48:56,18,0,0,0
+5021.0,Clay,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5023.0,Cleburne,Arkansas,US,2020-03-28 20:48:56,49,1,0,0
+5025.0,Cleveland,Arkansas,US,2020-03-28 20:48:56,5,0,0,0
+5027.0,Columbia,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5029.0,Conway,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5031.0,Craighead,Arkansas,US,2020-03-28 20:48:56,4,0,0,0
+5033.0,Crawford,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5035.0,Crittenden,Arkansas,US,2020-03-28 20:48:56,14,0,0,0
+5037.0,Cross,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5039.0,Dallas,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5041.0,Desha,Arkansas,US,2020-03-28 20:48:56,2,0,0,0
+5043.0,Drew,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5045.0,Faulkner,Arkansas,US,2020-03-28 20:48:56,29,0,0,0
+5047.0,Franklin,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5049.0,Fulton,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5051.0,Garland,Arkansas,US,2020-03-28 20:48:56,20,0,0,0
+5053.0,Grant,Arkansas,US,2020-03-28 20:48:56,3,0,0,0
+5055.0,Greene,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5057.0,Hempstead,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5059.0,Hot Spring,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5061.0,Howard,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5063.0,Independence,Arkansas,US,2020-03-28 20:48:56,3,0,0,0
+5065.0,Izard,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5067.0,Jackson,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5069.0,Jefferson,Arkansas,US,2020-03-28 20:48:56,24,0,0,0
+5071.0,Johnson,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5073.0,Lafayette,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5075.0,Lawrence,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5077.0,Lee,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5079.0,Lincoln,Arkansas,US,2020-03-28 20:48:56,6,0,0,0
+5081.0,Little River,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5083.0,Logan,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5085.0,Lonoke,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5087.0,Madison,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5089.0,Marion,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5091.0,Miller,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5093.0,Mississippi,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5095.0,Monroe,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5097.0,Montgomery,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5099.0,Nevada,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5101.0,Newton,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5103.0,Ouachita,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5105.0,Perry,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5107.0,Phillips,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5109.0,Pike,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5111.0,Poinsett,Arkansas,US,2020-03-28 20:48:56,3,0,0,0
+5113.0,Polk,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5115.0,Pope,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5117.0,Prairie,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5119.0,Pulaski,Arkansas,US,2020-03-28 20:48:56,89,0,0,0
+5121.0,Randolph,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5123.0,St. Francis,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5125.0,Saline,Arkansas,US,2020-03-28 20:48:56,4,0,0,0
+5127.0,Scott,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5129.0,Searcy,Arkansas,US,2020-03-28 20:48:56,2,0,0,0
+5131.0,Sebastian,Arkansas,US,2020-03-28 20:48:56,2,0,0,0
+5133.0,Sevier,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5135.0,Sharp,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+5137.0,Stone,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5139.0,Union,Arkansas,US,2020-03-28 20:48:56,5,0,0,0
+5141.0,Van Buren,Arkansas,US,2020-03-28 20:48:56,17,0,0,0
+5143.0,Washington,Arkansas,US,2020-03-28 20:48:56,14,0,0,0
+5145.0,White,Arkansas,US,2020-03-28 20:48:56,6,0,0,0
+5147.0,Woodruff,Arkansas,US,2020-03-28 20:48:56,1,0,0,0
+5149.0,Yell,Arkansas,US,2020-03-28 20:48:56,0,0,0,0
+6001.0,Alameda,California,US,2020-03-28 20:48:56,220,4,0,0
+6003.0,Alpine,California,US,2020-03-28 20:48:56,0,0,0,0
+6005.0,Amador,California,US,2020-03-28 20:48:56,2,0,0,0
+6007.0,Butte,California,US,2020-03-28 20:48:56,5,0,0,0
+6009.0,Calaveras,California,US,2020-03-28 20:48:56,3,0,0,0
+6011.0,Colusa,California,US,2020-03-28 20:48:56,0,0,0,0
+6013.0,Contra Costa,California,US,2020-03-28 20:48:56,151,2,0,0
+6015.0,Del Norte,California,US,2020-03-28 20:48:56,0,0,0,0
+6017.0,El Dorado,California,US,2020-03-28 20:48:56,12,0,0,0
+6019.0,Fresno,California,US,2020-03-28 20:48:56,31,0,0,0
+6021.0,Glenn,California,US,2020-03-28 20:48:56,0,0,0,0
+6023.0,Humboldt,California,US,2020-03-28 20:48:56,14,0,0,0
+6025.0,Imperial,California,US,2020-03-28 20:48:56,21,0,0,0
+6027.0,Inyo,California,US,2020-03-28 20:48:56,5,0,0,0
+6029.0,Kern,California,US,2020-03-28 20:48:56,47,1,0,0
+6031.0,Kings,California,US,2020-03-28 20:48:56,1,0,0,0
+6033.0,Lake,California,US,2020-03-28 20:48:56,0,0,0,0
+6035.0,Lassen,California,US,2020-03-28 20:48:56,0,0,0,0
+6037.0,Los Angeles,California,US,2020-03-28 20:48:56,1465,26,0,0
+6039.0,Madera,California,US,2020-03-28 20:48:56,11,1,0,0
+6041.0,Marin,California,US,2020-03-28 20:48:56,68,1,0,0
+6043.0,Mariposa,California,US,2020-03-28 20:48:56,0,0,0,0
+6045.0,Mendocino,California,US,2020-03-28 20:48:56,2,0,0,0
+6047.0,Merced,California,US,2020-03-28 20:48:56,7,0,0,0
+6049.0,Modoc,California,US,2020-03-28 20:48:56,0,0,0,0
+6051.0,Mono,California,US,2020-03-28 20:48:56,8,0,0,0
+6053.0,Monterey,California,US,2020-03-28 20:48:56,32,1,0,0
+6055.0,Napa,California,US,2020-03-28 20:48:56,9,0,0,0
+6057.0,Nevada,California,US,2020-03-28 20:48:56,12,0,0,0
+6059.0,Orange,California,US,2020-03-28 20:48:56,321,3,0,0
+6061.0,Placer,California,US,2020-03-28 20:48:56,41,1,0,0
+6063.0,Plumas,California,US,2020-03-28 20:48:56,0,0,0,0
+6065.0,Riverside,California,US,2020-03-28 20:48:56,183,8,0,0
+6067.0,Sacramento,California,US,2020-03-28 20:48:56,164,6,0,0
+6069.0,San Benito,California,US,2020-03-28 20:48:56,14,1,0,0
+6071.0,San Bernardino,California,US,2020-03-28 20:48:56,64,3,0,0
+6073.0,San Diego,California,US,2020-03-28 20:48:56,413,6,0,0
+6075.0,San Francisco,California,US,2020-03-28 20:48:56,308,4,0,0
+6077.0,San Joaquin,California,US,2020-03-28 20:48:56,93,4,0,0
+6079.0,San Luis Obispo,California,US,2020-03-28 20:48:56,59,0,0,0
+6081.0,San Mateo,California,US,2020-03-28 20:48:56,274,6,0,0
+6083.0,Santa Barbara,California,US,2020-03-28 20:48:56,47,0,0,0
+6085.0,Santa Clara,California,US,2020-03-28 20:48:56,574,20,0,0
+6087.0,Santa Cruz,California,US,2020-03-28 20:48:56,34,0,0,0
+6089.0,Shasta,California,US,2020-03-28 20:48:56,3,1,0,0
+6091.0,Sierra,California,US,2020-03-28 20:48:56,0,0,0,0
+6093.0,Siskiyou,California,US,2020-03-28 20:48:56,3,0,0,0
+6095.0,Solano,California,US,2020-03-28 20:48:56,34,0,0,0
+6097.0,Sonoma,California,US,2020-03-28 20:48:56,50,1,0,0
+6099.0,Stanislaus,California,US,2020-03-28 20:48:56,23,0,0,0
+6101.0,Sutter,California,US,2020-03-28 20:48:56,2,0,0,0
+6103.0,Tehama,California,US,2020-03-28 20:48:56,0,0,0,0
+6105.0,Trinity,California,US,2020-03-28 20:48:56,0,0,0,0
+6107.0,Tulare,California,US,2020-03-28 20:48:56,24,0,0,0
+6109.0,Tuolumne,California,US,2020-03-28 20:48:56,0,0,0,0
+6111.0,Ventura,California,US,2020-03-28 20:48:56,83,3,0,0
+6113.0,Yolo,California,US,2020-03-28 20:48:56,16,1,0,0
+6115.0,Yuba,California,US,2020-03-28 20:48:56,3,0,0,0
+8001.0,Adams,Colorado,US,2020-03-28 20:48:56,71,0,0,0
+8003.0,Alamosa,Colorado,US,2020-03-28 20:48:56,1,0,0,0
+8005.0,Arapahoe,Colorado,US,2020-03-28 20:48:56,155,1,0,0
+8007.0,Archuleta,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8009.0,Baca,Colorado,US,2020-03-28 20:48:56,1,0,0,0
+8011.0,Bent,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8013.0,Boulder,Colorado,US,2020-03-28 20:48:56,76,1,0,0
+8014.0,Broomfield,Colorado,US,2020-03-28 20:48:56,13,0,0,0
+8015.0,Chaffee,Colorado,US,2020-03-28 20:48:56,5,1,0,0
+8017.0,Cheyenne,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8019.0,Clear Creek,Colorado,US,2020-03-28 20:48:56,3,0,0,0
+8021.0,Conejos,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8023.0,Costilla,Colorado,US,2020-03-28 20:48:56,1,0,0,0
+8025.0,Crowley,Colorado,US,2020-03-28 20:48:56,1,1,0,0
+8027.0,Custer,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8029.0,Delta,Colorado,US,2020-03-28 20:48:56,2,0,0,0
+8031.0,Denver,Colorado,US,2020-03-28 20:48:56,312,3,0,0
+8033.0,Dolores,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8035.0,Douglas,Colorado,US,2020-03-28 20:48:56,79,0,0,0
+8037.0,Eagle,Colorado,US,2020-03-28 20:48:56,170,1,0,0
+8039.0,Elbert,Colorado,US,2020-03-28 20:48:56,3,0,0,0
+8041.0,El Paso,Colorado,US,2020-03-28 20:48:56,160,7,0,0
+8043.0,Fremont,Colorado,US,2020-03-28 20:48:56,1,0,0,0
+8045.0,Garfield,Colorado,US,2020-03-28 20:48:56,16,0,0,0
+8047.0,Gilpin,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8049.0,Grand,Colorado,US,2020-03-28 20:48:56,2,0,0,0
+8051.0,Gunnison,Colorado,US,2020-03-28 20:48:56,66,1,0,0
+8053.0,Hinsdale,Colorado,US,2020-03-28 20:48:56,1,0,0,0
+8055.0,Huerfano,Colorado,US,2020-03-28 20:48:56,1,0,0,0
+8057.0,Jackson,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8059.0,Jefferson,Colorado,US,2020-03-28 20:48:56,158,5,0,0
+8061.0,Kiowa,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8063.0,Kit Carson,Colorado,US,2020-03-28 20:48:56,2,0,0,0
+8065.0,Lake,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8067.0,La Plata,Colorado,US,2020-03-28 20:48:56,13,0,0,0
+8069.0,Larimer,Colorado,US,2020-03-28 20:48:56,67,1,0,0
+8071.0,Las Animas,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8073.0,Lincoln,Colorado,US,2020-03-28 20:48:56,1,0,0,0
+8075.0,Logan,Colorado,US,2020-03-28 20:48:56,3,0,0,0
+8077.0,Mesa,Colorado,US,2020-03-28 20:48:56,9,0,0,0
+8079.0,Mineral,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8081.0,Moffat,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8083.0,Montezuma,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8085.0,Montrose,Colorado,US,2020-03-28 20:48:56,6,0,0,0
+8087.0,Morgan,Colorado,US,2020-03-28 20:48:56,4,0,0,0
+8089.0,Otero,Colorado,US,2020-03-28 20:48:56,2,0,0,0
+8091.0,Ouray,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8093.0,Park,Colorado,US,2020-03-28 20:48:56,1,0,0,0
+8095.0,Phillips,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8097.0,Pitkin,Colorado,US,2020-03-28 20:48:56,25,0,0,0
+8099.0,Prowers,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8101.0,Pueblo,Colorado,US,2020-03-28 20:48:56,6,1,0,0
+8103.0,Rio Blanco,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8105.0,Rio Grande,Colorado,US,2020-03-28 20:48:56,2,0,0,0
+8107.0,Routt,Colorado,US,2020-03-28 20:48:56,12,0,0,0
+8109.0,Saguache,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8111.0,San Juan,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8113.0,San Miguel,Colorado,US,2020-03-28 20:48:56,1,0,0,0
+8115.0,Sedgwick,Colorado,US,2020-03-28 20:48:56,0,0,0,0
+8117.0,Summit,Colorado,US,2020-03-28 20:48:56,13,0,0,0
+8119.0,Teller,Colorado,US,2020-03-28 20:48:56,7,1,0,0
+8121.0,Washington,Colorado,US,2020-03-28 20:48:56,1,0,0,0
+8123.0,Weld,Colorado,US,2020-03-28 20:48:56,129,6,0,0
+8125.0,Yuma,Colorado,US,2020-03-28 20:48:56,2,0,0,0
+9001.0,Fairfield,Connecticut,US,2020-03-28 20:48:56,752,15,0,0
+9003.0,Hartford,Connecticut,US,2020-03-28 20:48:56,189,2,0,0
+9005.0,Litchfield,Connecticut,US,2020-03-28 20:48:56,52,0,0,0
+9007.0,Middlesex,Connecticut,US,2020-03-28 20:48:56,25,1,0,0
+9009.0,New Haven,Connecticut,US,2020-03-28 20:48:56,222,6,0,0
+9011.0,New London,Connecticut,US,2020-03-28 20:48:56,15,0,0,0
+9013.0,Tolland,Connecticut,US,2020-03-28 20:48:56,33,3,0,0
+9015.0,Windham,Connecticut,US,2020-03-28 20:48:56,3,0,0,0
+10001.0,Kent,Delaware,US,2020-03-28 20:48:56,25,1,0,0
+10003.0,New Castle,Delaware,US,2020-03-28 20:48:56,129,1,0,0
+10005.0,Sussex,Delaware,US,2020-03-28 20:48:56,59,1,0,0
+11001.0,District of Columbia,District of Columbia,US,2020-03-28 20:48:56,304,4,0,0
+12001.0,Alachua,Florida,US,2020-03-28 20:48:56,67,0,0,0
+12003.0,Baker,Florida,US,2020-03-28 20:48:56,7,0,0,0
+12005.0,Bay,Florida,US,2020-03-28 20:48:56,5,0,0,0
+12007.0,Bradford,Florida,US,2020-03-28 20:48:56,1,0,0,0
+12009.0,Brevard,Florida,US,2020-03-28 20:48:56,26,0,0,0
+12011.0,Broward,Florida,US,2020-03-28 20:48:56,814,10,0,0
+12013.0,Calhoun,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12015.0,Charlotte,Florida,US,2020-03-28 20:48:56,12,0,0,0
+12017.0,Citrus,Florida,US,2020-03-28 20:48:56,14,1,0,0
+12019.0,Clay,Florida,US,2020-03-28 20:48:56,24,4,0,0
+12021.0,Collier,Florida,US,2020-03-28 20:48:56,92,0,0,0
+12023.0,Columbia,Florida,US,2020-03-28 20:48:56,3,0,0,0
+12027.0,DeSoto,Florida,US,2020-03-28 20:48:56,7,0,0,0
+12029.0,Dixie,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12031.0,Duval,Florida,US,2020-03-28 20:48:56,115,3,0,0
+12033.0,Escambia,Florida,US,2020-03-28 20:48:56,28,0,0,0
+12035.0,Flagler,Florida,US,2020-03-28 20:48:56,13,0,0,0
+12037.0,Franklin,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12039.0,Gadsden,Florida,US,2020-03-28 20:48:56,1,0,0,0
+12041.0,Gilchrist,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12043.0,Glades,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12045.0,Gulf,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12047.0,Hamilton,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12049.0,Hardee,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12051.0,Hendry,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12053.0,Hernando,Florida,US,2020-03-28 20:48:56,13,0,0,0
+12055.0,Highlands,Florida,US,2020-03-28 20:48:56,10,1,0,0
+12057.0,Hillsborough,Florida,US,2020-03-28 20:48:56,195,2,0,0
+12059.0,Holmes,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12061.0,Indian River,Florida,US,2020-03-28 20:48:56,16,0,0,0
+12063.0,Jackson,Florida,US,2020-03-28 20:48:56,1,0,0,0
+12065.0,Jefferson,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12067.0,Lafayette,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12069.0,Lake,Florida,US,2020-03-28 20:48:56,35,0,0,0
+12071.0,Lee,Florida,US,2020-03-28 20:48:56,101,5,0,0
+12073.0,Leon,Florida,US,2020-03-28 20:48:56,16,0,0,0
+12075.0,Levy,Florida,US,2020-03-28 20:48:56,1,0,0,0
+12077.0,Liberty,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12079.0,Madison,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12081.0,Manatee,Florida,US,2020-03-28 20:48:56,30,1,0,0
+12083.0,Marion,Florida,US,2020-03-28 20:48:56,17,0,0,0
+12085.0,Martin,Florida,US,2020-03-28 20:48:56,25,0,0,0
+12086.0,Miami-Dade,Florida,US,2020-03-28 20:48:56,1003,2,0,0
+12087.0,Monroe,Florida,US,2020-03-28 20:48:56,20,0,0,0
+12089.0,Nassau,Florida,US,2020-03-28 20:48:56,6,0,0,0
+12091.0,Okaloosa,Florida,US,2020-03-28 20:48:56,27,0,0,0
+12093.0,Okeechobee,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12095.0,Orange,Florida,US,2020-03-28 20:48:56,206,4,0,0
+12097.0,Osceola,Florida,US,2020-03-28 20:48:56,66,0,0,0
+12099.0,Palm Beach,Florida,US,2020-03-28 20:48:56,292,5,0,0
+12101.0,Pasco,Florida,US,2020-03-28 20:48:56,28,1,0,0
+12103.0,Pinellas,Florida,US,2020-03-28 20:48:56,94,1,0,0
+12105.0,Polk,Florida,US,2020-03-28 20:48:56,34,0,0,0
+12107.0,Putnam,Florida,US,2020-03-28 20:48:56,12,0,0,0
+12109.0,St. Johns,Florida,US,2020-03-28 20:48:56,48,2,0,0
+12111.0,St. Lucie,Florida,US,2020-03-28 20:48:56,21,1,0,0
+12113.0,Santa Rosa,Florida,US,2020-03-28 20:48:56,14,1,0,0
+12115.0,Sarasota,Florida,US,2020-03-28 20:48:56,48,2,0,0
+12117.0,Seminole,Florida,US,2020-03-28 20:48:56,61,0,0,0
+12119.0,Sumter,Florida,US,2020-03-28 20:48:56,33,0,0,0
+12121.0,Suwannee,Florida,US,2020-03-28 20:48:56,1,0,0,0
+12123.0,Taylor,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12125.0,Union,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12127.0,Volusia,Florida,US,2020-03-28 20:48:56,44,0,0,0
+12129.0,Wakulla,Florida,US,2020-03-28 20:48:56,0,0,0,0
+12131.0,Walton,Florida,US,2020-03-28 20:48:56,15,0,0,0
+12133.0,Washington,Florida,US,2020-03-28 20:48:56,1,0,0,0
+13001.0,Appling,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13003.0,Atkinson,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13005.0,Bacon,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13007.0,Baker,Georgia,US,2020-03-28 20:48:56,1,1,0,0
+13009.0,Baldwin,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13011.0,Banks,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13013.0,Barrow,Georgia,US,2020-03-28 20:48:56,7,1,0,0
+13015.0,Bartow,Georgia,US,2020-03-28 20:48:56,116,1,0,0
+13017.0,Ben Hill,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13019.0,Berrien,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13021.0,Bibb,Georgia,US,2020-03-28 20:48:56,11,0,0,0
+13023.0,Bleckley,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13025.0,Brantley,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13027.0,Brooks,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13029.0,Bryan,Georgia,US,2020-03-28 20:48:56,6,0,0,0
+13031.0,Bulloch,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13033.0,Burke,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13035.0,Butts,Georgia,US,2020-03-28 20:48:56,5,0,0,0
+13037.0,Calhoun,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13039.0,Camden,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13043.0,Candler,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13045.0,Carroll,Georgia,US,2020-03-28 20:48:56,64,0,0,0
+13047.0,Catoosa,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13049.0,Charlton,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13051.0,Chatham,Georgia,US,2020-03-28 20:48:56,15,0,0,0
+13053.0,Chattahoochee,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13055.0,Chattooga,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13057.0,Cherokee,Georgia,US,2020-03-28 20:48:56,52,1,0,0
+13059.0,Clarke,Georgia,US,2020-03-28 20:48:56,35,2,0,0
+13061.0,Clay,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13063.0,Clayton,Georgia,US,2020-03-28 20:48:56,57,1,0,0
+13065.0,Clinch,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13067.0,Cobb,Georgia,US,2020-03-28 20:48:56,181,8,0,0
+13069.0,Coffee,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13071.0,Colquitt,Georgia,US,2020-03-28 20:48:56,5,0,0,0
+13073.0,Columbia,Georgia,US,2020-03-28 20:48:56,12,0,0,0
+13075.0,Cook,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13077.0,Coweta,Georgia,US,2020-03-28 20:48:56,19,2,0,0
+13079.0,Crawford,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13081.0,Crisp,Georgia,US,2020-03-28 20:48:56,5,0,0,0
+13083.0,Dade,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13085.0,Dawson,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13087.0,Decatur,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13089.0,DeKalb,Georgia,US,2020-03-28 20:48:56,240,2,0,0
+13091.0,Dodge,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13093.0,Dooly,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13095.0,Dougherty,Georgia,US,2020-03-28 20:48:56,205,13,0,0
+13097.0,Douglas,Georgia,US,2020-03-28 20:48:56,35,1,0,0
+13099.0,Early,Georgia,US,2020-03-28 20:48:56,15,1,0,0
+13101.0,Echols,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13103.0,Effingham,Georgia,US,2020-03-28 20:48:56,4,0,0,0
+13105.0,Elbert,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13107.0,Emanuel,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13109.0,Evans,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13111.0,Fannin,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13113.0,Fayette,Georgia,US,2020-03-28 20:48:56,25,2,0,0
+13115.0,Floyd,Georgia,US,2020-03-28 20:48:56,27,1,0,0
+13117.0,Forsyth,Georgia,US,2020-03-28 20:48:56,21,1,0,0
+13119.0,Franklin,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13121.0,Fulton,Georgia,US,2020-03-28 20:48:56,373,12,0,0
+13123.0,Gilmer,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13125.0,Glascock,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13127.0,Glynn,Georgia,US,2020-03-28 20:48:56,7,0,0,0
+13129.0,Gordon,Georgia,US,2020-03-28 20:48:56,14,1,0,0
+13131.0,Grady,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13133.0,Greene,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13135.0,Gwinnett,Georgia,US,2020-03-28 20:48:56,129,1,0,0
+13137.0,Habersham,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13139.0,Hall,Georgia,US,2020-03-28 20:48:56,31,0,0,0
+13141.0,Hancock,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13143.0,Haralson,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13145.0,Harris,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13147.0,Hart,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13149.0,Heard,Georgia,US,2020-03-28 20:48:56,1,1,0,0
+13151.0,Henry,Georgia,US,2020-03-28 20:48:56,50,1,0,0
+13153.0,Houston,Georgia,US,2020-03-28 20:48:56,12,1,0,0
+13155.0,Irwin,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13157.0,Jackson,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13159.0,Jasper,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13161.0,Jeff Davis,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13163.0,Jefferson,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13165.0,Jenkins,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13167.0,Johnson,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13169.0,Jones,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13171.0,Lamar,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13173.0,Lanier,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13175.0,Laurens,Georgia,US,2020-03-28 20:48:56,7,0,0,0
+13177.0,Lee,Georgia,US,2020-03-28 20:48:56,37,5,0,0
+13179.0,Liberty,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13181.0,Lincoln,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13183.0,Long,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13185.0,Lowndes,Georgia,US,2020-03-28 20:48:56,20,1,0,0
+13187.0,Lumpkin,Georgia,US,2020-03-28 20:48:56,4,0,0,0
+13189.0,McDuffie,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13191.0,McIntosh,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13193.0,Macon,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13195.0,Madison,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13197.0,Marion,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13199.0,Meriwether,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13201.0,Miller,Georgia,US,2020-03-28 20:48:56,4,0,0,0
+13205.0,Mitchell,Georgia,US,2020-03-28 20:48:56,14,0,0,0
+13207.0,Monroe,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13209.0,Montgomery,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13211.0,Morgan,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13213.0,Murray,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13215.0,Muscogee,Georgia,US,2020-03-28 20:48:56,8,0,0,0
+13217.0,Newton,Georgia,US,2020-03-28 20:48:56,15,0,0,0
+13219.0,Oconee,Georgia,US,2020-03-28 20:48:56,10,0,0,0
+13221.0,Oglethorpe,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13223.0,Paulding,Georgia,US,2020-03-28 20:48:56,19,0,0,0
+13225.0,Peach,Georgia,US,2020-03-28 20:48:56,6,0,0,0
+13227.0,Pickens,Georgia,US,2020-03-28 20:48:56,5,1,0,0
+13229.0,Pierce,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13231.0,Pike,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13233.0,Polk,Georgia,US,2020-03-28 20:48:56,10,0,0,0
+13235.0,Pulaski,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13237.0,Putnam,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13239.0,Quitman,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13241.0,Rabun,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13243.0,Randolph,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13245.0,Richmond,Georgia,US,2020-03-28 20:48:56,12,0,0,0
+13247.0,Rockdale,Georgia,US,2020-03-28 20:48:56,17,1,0,0
+13249.0,Schley,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13251.0,Screven,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13253.0,Seminole,Georgia,US,2020-03-28 20:48:56,3,0,0,0
+13255.0,Spalding,Georgia,US,2020-03-28 20:48:56,11,0,0,0
+13257.0,Stephens,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13259.0,Stewart,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13261.0,Sumter,Georgia,US,2020-03-28 20:48:56,11,0,0,0
+13263.0,Talbot,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13265.0,Taliaferro,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13267.0,Tattnall,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13269.0,Taylor,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13271.0,Telfair,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13273.0,Terrell,Georgia,US,2020-03-28 20:48:56,6,2,0,0
+13275.0,Thomas,Georgia,US,2020-03-28 20:48:56,6,0,0,0
+13277.0,Tift,Georgia,US,2020-03-28 20:48:56,13,0,0,0
+13279.0,Toombs,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13281.0,Towns,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13283.0,Treutlen,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13285.0,Troup,Georgia,US,2020-03-28 20:48:56,9,1,0,0
+13287.0,Turner,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13289.0,Twiggs,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13291.0,Union,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13293.0,Upson,Georgia,US,2020-03-28 20:48:56,4,0,0,0
+13295.0,Walker,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13297.0,Walton,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13299.0,Ware,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13301.0,Warren,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13303.0,Washington,Georgia,US,2020-03-28 20:48:56,2,0,0,0
+13305.0,Wayne,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13307.0,Webster,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13309.0,Wheeler,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13311.0,White,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13313.0,Whitfield,Georgia,US,2020-03-28 20:48:56,6,0,0,0
+13315.0,Wilcox,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13317.0,Wilkes,Georgia,US,2020-03-28 20:48:56,1,0,0,0
+13319.0,Wilkinson,Georgia,US,2020-03-28 20:48:56,0,0,0,0
+13321.0,Worth,Georgia,US,2020-03-28 20:48:56,8,1,0,0
+15001.0,Hawaii,Hawaii,US,2020-03-28 20:48:56,7,0,0,0
+15003.0,Honolulu,Hawaii,US,2020-03-28 20:48:56,87,0,0,0
+15005.0,Kalawao,Hawaii,US,2020-03-28 20:48:56,0,0,0,0
+15007.0,Kauai,Hawaii,US,2020-03-28 20:48:56,7,0,0,0
+15009.0,Maui,Hawaii,US,2020-03-28 20:48:56,16,0,0,0
+16001.0,Ada,Idaho,US,2020-03-28 20:48:56,76,0,0,0
+16003.0,Adams,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16005.0,Bannock,Idaho,US,2020-03-28 20:48:56,3,0,0,0
+16007.0,Bear Lake,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16009.0,Benewah,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16011.0,Bingham,Idaho,US,2020-03-28 20:48:56,1,0,0,0
+16013.0,Blaine,Idaho,US,2020-03-28 20:48:56,99,2,0,0
+16015.0,Boise,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16017.0,Bonner,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16019.0,Bonneville,Idaho,US,2020-03-28 20:48:56,1,0,0,0
+16021.0,Boundary,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16023.0,Butte,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16025.0,Camas,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16027.0,Canyon,Idaho,US,2020-03-28 20:48:56,23,1,0,0
+16029.0,Caribou,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16031.0,Cassia,Idaho,US,2020-03-28 20:48:56,1,0,0,0
+16033.0,Clark,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16035.0,Clearwater,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16037.0,Custer,Idaho,US,2020-03-28 20:48:56,1,0,0,0
+16039.0,Elmore,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16041.0,Franklin,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16043.0,Fremont,Idaho,US,2020-03-28 20:48:56,1,0,0,0
+16045.0,Gem,Idaho,US,2020-03-28 20:48:56,1,0,0,0
+16047.0,Gooding,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16049.0,Idaho,Idaho,US,2020-03-28 20:48:56,1,0,0,0
+16051.0,Jefferson,Idaho,US,2020-03-28 20:48:56,2,0,0,0
+16053.0,Jerome,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16055.0,Kootenai,Idaho,US,2020-03-28 20:48:56,11,0,0,0
+16057.0,Latah,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16059.0,Lemhi,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16061.0,Lewis,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16063.0,Lincoln,Idaho,US,2020-03-28 20:48:56,1,0,0,0
+16065.0,Madison,Idaho,US,2020-03-28 20:48:56,2,0,0,0
+16067.0,Minidoka,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16069.0,Nez Perce,Idaho,US,2020-03-28 20:48:56,4,1,0,0
+16071.0,Oneida,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16073.0,Owyhee,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16075.0,Payette,Idaho,US,2020-03-28 20:48:56,1,0,0,0
+16077.0,Power,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16079.0,Shoshone,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+16081.0,Teton,Idaho,US,2020-03-28 20:48:56,2,0,0,0
+16083.0,Twin Falls,Idaho,US,2020-03-28 20:48:56,2,0,0,0
+16085.0,Valley,Idaho,US,2020-03-28 20:48:56,1,0,0,0
+16087.0,Washington,Idaho,US,2020-03-28 20:48:56,0,0,0,0
+17001.0,Adams,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17003.0,Alexander,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17005.0,Bond,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17007.0,Boone,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17009.0,Brown,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17011.0,Bureau,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17013.0,Calhoun,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17015.0,Carroll,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17017.0,Cass,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17019.0,Champaign,Illinois,US,2020-03-28 20:48:56,11,0,0,0
+17021.0,Christian,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17023.0,Clark,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17025.0,Clay,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17027.0,Clinton,Illinois,US,2020-03-28 20:48:56,5,0,0,0
+17029.0,Coles,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17031.0,Cook,Illinois,US,2020-03-28 20:48:56,2613,28,0,0
+17033.0,Crawford,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17035.0,Cumberland,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17037.0,DeKalb,Illinois,US,2020-03-28 20:48:56,4,0,0,0
+17039.0,De Witt,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17041.0,Douglas,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17043.0,DuPage,Illinois,US,2020-03-28 20:48:56,202,6,0,0
+17045.0,Edgar,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17047.0,Edwards,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17049.0,Effingham,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17051.0,Fayette,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17053.0,Ford,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17055.0,Franklin,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17057.0,Fulton,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17059.0,Gallatin,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17061.0,Greene,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17063.0,Grundy,Illinois,US,2020-03-28 20:48:56,2,0,0,0
+17065.0,Hamilton,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17067.0,Hancock,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17069.0,Hardin,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17071.0,Henderson,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17073.0,Henry,Illinois,US,2020-03-28 20:48:56,2,0,0,0
+17075.0,Iroquois,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17077.0,Jackson,Illinois,US,2020-03-28 20:48:56,2,0,0,0
+17079.0,Jasper,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17081.0,Jefferson,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17083.0,Jersey,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17085.0,Jo Daviess,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17087.0,Johnson,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17089.0,Kane,Illinois,US,2020-03-28 20:48:56,90,4,0,0
+17091.0,Kankakee,Illinois,US,2020-03-28 20:48:56,27,0,0,0
+17093.0,Kendall,Illinois,US,2020-03-28 20:48:56,11,0,0,0
+17095.0,Knox,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17097.0,Lake,Illinois,US,2020-03-28 20:48:56,241,1,0,0
+17099.0,LaSalle,Illinois,US,2020-03-28 20:48:56,3,0,0,0
+17101.0,Lawrence,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17103.0,Lee,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17105.0,Livingston,Illinois,US,2020-03-28 20:48:56,2,0,0,0
+17107.0,Logan,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17109.0,McDonough,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17111.0,McHenry,Illinois,US,2020-03-28 20:48:56,47,2,0,0
+17113.0,McLean,Illinois,US,2020-03-28 20:48:56,10,1,0,0
+17115.0,Macon,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17117.0,Macoupin,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17119.0,Madison,Illinois,US,2020-03-28 20:48:56,10,0,0,0
+17121.0,Marion,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17123.0,Marshall,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17125.0,Mason,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17127.0,Massac,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17129.0,Menard,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17131.0,Mercer,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17133.0,Monroe,Illinois,US,2020-03-28 20:48:56,3,0,0,0
+17135.0,Montgomery,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17137.0,Morgan,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17139.0,Moultrie,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17141.0,Ogle,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17143.0,Peoria,Illinois,US,2020-03-28 20:48:56,7,0,0,0
+17145.0,Perry,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17147.0,Piatt,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17149.0,Pike,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17151.0,Pope,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17153.0,Pulaski,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17155.0,Putnam,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17157.0,Randolph,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17159.0,Richland,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17161.0,Rock Island,Illinois,US,2020-03-28 20:48:56,4,0,0,0
+17163.0,St. Clair,Illinois,US,2020-03-28 20:48:56,18,0,0,0
+17165.0,Saline,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17167.0,Sangamon,Illinois,US,2020-03-28 20:48:56,8,1,0,0
+17169.0,Schuyler,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17171.0,Scott,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17173.0,Shelby,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17175.0,Stark,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17177.0,Stephenson,Illinois,US,2020-03-28 20:48:56,2,0,0,0
+17179.0,Tazewell,Illinois,US,2020-03-28 20:48:56,3,0,0,0
+17181.0,Union,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17183.0,Vermilion,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17185.0,Wabash,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17187.0,Warren,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17189.0,Washington,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17191.0,Wayne,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17193.0,White,Illinois,US,2020-03-28 20:48:56,0,0,0,0
+17195.0,Whiteside,Illinois,US,2020-03-28 20:48:56,2,0,0,0
+17197.0,Will,Illinois,US,2020-03-28 20:48:56,127,4,0,0
+17199.0,Williamson,Illinois,US,2020-03-28 20:48:56,1,0,0,0
+17201.0,Winnebago,Illinois,US,2020-03-28 20:48:56,9,0,0,0
+17203.0,Woodford,Illinois,US,2020-03-28 20:48:56,3,0,0,0
+18001.0,Adams,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18003.0,Allen,Indiana,US,2020-03-28 20:48:56,23,1,0,0
+18005.0,Bartholomew,Indiana,US,2020-03-28 20:48:56,7,0,0,0
+18007.0,Benton,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18009.0,Blackford,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18011.0,Boone,Indiana,US,2020-03-28 20:48:56,8,0,0,0
+18013.0,Brown,Indiana,US,2020-03-28 20:48:56,2,0,0,0
+18015.0,Carroll,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18017.0,Cass,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18019.0,Clark,Indiana,US,2020-03-28 20:48:56,18,0,0,0
+18021.0,Clay,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18023.0,Clinton,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18025.0,Crawford,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18027.0,Daviess,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18029.0,Dearborn,Indiana,US,2020-03-28 20:48:56,8,1,0,0
+18031.0,Decatur,Indiana,US,2020-03-28 20:48:56,30,0,0,0
+18033.0,DeKalb,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18035.0,Delaware,Indiana,US,2020-03-28 20:48:56,8,1,0,0
+18035.0,Delaware County,Indiana,US,NA,NA,NA,NA,NA
+18037.0,Dubois,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18039.0,Elkhart,Indiana,US,2020-03-28 20:48:56,11,0,0,0
+18041.0,Fayette,Indiana,US,2020-03-28 20:48:56,4,1,0,0
+18043.0,Floyd,Indiana,US,2020-03-28 20:48:56,13,0,0,0
+18045.0,Fountain,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18047.0,Franklin,Indiana,US,2020-03-28 20:48:56,23,2,0,0
+18049.0,Fulton,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18051.0,Gibson,Indiana,US,2020-03-28 20:48:56,4,0,0,0
+18053.0,Grant,Indiana,US,2020-03-28 20:48:56,5,0,0,0
+18055.0,Greene,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18057.0,Hamilton,Indiana,US,2020-03-28 20:48:56,64,0,0,0
+18059.0,Hancock,Indiana,US,2020-03-28 20:48:56,19,1,0,0
+18061.0,Harrison,Indiana,US,2020-03-28 20:48:56,7,0,0,0
+18063.0,Hendricks,Indiana,US,2020-03-28 20:48:56,36,2,0,0
+18065.0,Henry,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18067.0,Howard,Indiana,US,2020-03-28 20:48:56,9,1,0,0
+18069.0,Huntington,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18071.0,Jackson,Indiana,US,2020-03-28 20:48:56,7,0,0,0
+18073.0,Jasper,Indiana,US,2020-03-28 20:48:56,5,1,0,0
+18075.0,Jay,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18077.0,Jefferson,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18079.0,Jennings,Indiana,US,2020-03-28 20:48:56,10,0,0,0
+18081.0,Johnson,Indiana,US,2020-03-28 20:48:56,52,3,0,0
+18083.0,Knox,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18085.0,Kosciusko,Indiana,US,2020-03-28 20:48:56,2,0,0,0
+18087.0,LaGrange,Indiana,US,2020-03-28 20:48:56,2,0,0,0
+18089.0,Lake,Indiana,US,2020-03-28 20:48:56,68,1,0,0
+18091.0,LaPorte,Indiana,US,2020-03-28 20:48:56,4,0,0,0
+18093.0,Lawrence,Indiana,US,2020-03-28 20:48:56,5,0,0,0
+18095.0,Madison,Indiana,US,2020-03-28 20:48:56,12,1,0,0
+18097.0,Marion,Indiana,US,2020-03-28 20:48:56,584,10,0,0
+18099.0,Marshall,Indiana,US,2020-03-28 20:48:56,3,0,0,0
+18101.0,Martin,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18103.0,Miami,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18105.0,Monroe,Indiana,US,2020-03-28 20:48:56,16,0,0,0
+18107.0,Montgomery,Indiana,US,2020-03-28 20:48:56,4,0,0,0
+18109.0,Morgan,Indiana,US,2020-03-28 20:48:56,14,0,0,0
+18111.0,Newton,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18113.0,Noble,Indiana,US,2020-03-28 20:48:56,2,0,0,0
+18115.0,Ohio,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18117.0,Orange,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18119.0,Owen,Indiana,US,2020-03-28 20:48:56,7,0,0,0
+18121.0,Parke,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18123.0,Perry,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18125.0,Pike,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18127.0,Porter,Indiana,US,2020-03-28 20:48:56,9,0,0,0
+18129.0,Posey,Indiana,US,2020-03-28 20:48:56,2,0,0,0
+18131.0,Pulaski,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18133.0,Putnam,Indiana,US,2020-03-28 20:48:56,5,1,0,0
+18135.0,Randolph,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18137.0,Ripley,Indiana,US,2020-03-28 20:48:56,15,0,0,0
+18139.0,Rush,Indiana,US,2020-03-28 20:48:56,3,0,0,0
+18141.0,St. Joseph,Indiana,US,2020-03-28 20:48:56,31,1,0,0
+18143.0,Scott,Indiana,US,2020-03-28 20:48:56,1,1,0,0
+18145.0,Shelby,Indiana,US,2020-03-28 20:48:56,10,0,0,0
+18147.0,Spencer,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18149.0,Starke,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18151.0,Steuben,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18153.0,Sullivan,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18155.0,Switzerland,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18157.0,Tippecanoe,Indiana,US,2020-03-28 20:48:56,11,1,0,0
+18159.0,Tipton,Indiana,US,2020-03-28 20:48:56,2,0,0,0
+18161.0,Union,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18163.0,Vanderburgh,Indiana,US,2020-03-28 20:48:56,10,0,0,0
+18165.0,Vermillion,Indiana,US,2020-03-28 20:48:56,0,0,0,0
+18167.0,Vigo,Indiana,US,2020-03-28 20:48:56,4,1,0,0
+18169.0,Wabash,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18171.0,Warren,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18173.0,Warrick,Indiana,US,2020-03-28 20:48:56,6,0,0,0
+18175.0,Washington,Indiana,US,2020-03-28 20:48:56,4,0,0,0
+18177.0,Wayne,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18179.0,Wells,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18181.0,White,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+18183.0,Whitley,Indiana,US,2020-03-28 20:48:56,1,0,0,0
+19001.0,Adair,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19003.0,Adams,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19005.0,Allamakee,Iowa,US,2020-03-28 20:48:56,7,1,0,0
+19007.0,Appanoose,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19009.0,Audubon,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19011.0,Benton,Iowa,US,2020-03-28 20:48:56,4,0,0,0
+19013.0,Black Hawk,Iowa,US,2020-03-28 20:48:56,6,0,0,0
+19015.0,Boone,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19017.0,Bremer,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19019.0,Buchanan,Iowa,US,2020-03-28 20:48:56,2,0,0,0
+19021.0,Buena Vista,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19023.0,Butler,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19025.0,Calhoun,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19027.0,Carroll,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19029.0,Cass,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19031.0,Cedar,Iowa,US,2020-03-28 20:48:56,6,0,0,0
+19033.0,Cerro Gordo,Iowa,US,2020-03-28 20:48:56,4,0,0,0
+19035.0,Cherokee,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19037.0,Chickasaw,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19039.0,Clarke,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19041.0,Clay,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19043.0,Clayton,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19045.0,Clinton,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19047.0,Crawford,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19049.0,Dallas,Iowa,US,2020-03-28 20:48:56,15,0,0,0
+19051.0,Davis,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19053.0,Decatur,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19055.0,Delaware,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19057.0,Des Moines,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19059.0,Dickinson,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19061.0,Dubuque,Iowa,US,2020-03-28 20:48:56,12,1,0,0
+19063.0,Emmet,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19065.0,Fayette,Iowa,US,2020-03-28 20:48:56,2,0,0,0
+19067.0,Floyd,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19069.0,Franklin,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19071.0,Fremont,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19073.0,Greene,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19075.0,Grundy,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19077.0,Guthrie,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19079.0,Hamilton,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19081.0,Hancock,Iowa,US,2020-03-28 20:48:56,3,0,0,0
+19083.0,Hardin,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19085.0,Harrison,Iowa,US,2020-03-28 20:48:56,8,0,0,0
+19087.0,Henry,Iowa,US,2020-03-28 20:48:56,2,0,0,0
+19089.0,Howard,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19091.0,Humboldt,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19093.0,Ida,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19095.0,Iowa,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19097.0,Jackson,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19099.0,Jasper,Iowa,US,2020-03-28 20:48:56,3,0,0,0
+19101.0,Jefferson,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19103.0,Johnson,Iowa,US,2020-03-28 20:48:56,61,0,0,0
+19105.0,Jones,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19107.0,Keokuk,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19109.0,Kossuth,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19111.0,Lee,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19113.0,Linn,Iowa,US,2020-03-28 20:48:56,36,0,0,0
+19115.0,Louisa,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19117.0,Lucas,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19119.0,Lyon,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19121.0,Madison,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19123.0,Mahaska,Iowa,US,2020-03-28 20:48:56,2,0,0,0
+19125.0,Marion,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19127.0,Marshall,Iowa,US,2020-03-28 20:48:56,5,0,0,0
+19129.0,Mills,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19131.0,Mitchell,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19133.0,Monona,Iowa,US,2020-03-28 20:48:56,2,0,0,0
+19135.0,Monroe,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19137.0,Montgomery,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19139.0,Muscatine,Iowa,US,2020-03-28 20:48:56,10,0,0,0
+19141.0,O'Brien,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19143.0,Osceola,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19145.0,Page,Iowa,US,2020-03-28 20:48:56,2,0,0,0
+19147.0,Palo Alto,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19149.0,Plymouth,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19151.0,Pocahontas,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19153.0,Polk,Iowa,US,2020-03-28 20:48:56,40,0,0,0
+19155.0,Pottawattamie,Iowa,US,2020-03-28 20:48:56,3,0,0,0
+19157.0,Poweshiek,Iowa,US,2020-03-28 20:48:56,5,1,0,0
+19159.0,Ringgold,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19161.0,Sac,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19163.0,Scott,Iowa,US,2020-03-28 20:48:56,10,0,0,0
+19165.0,Shelby,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19167.0,Sioux,Iowa,US,2020-03-28 20:48:56,2,0,0,0
+19169.0,Story,Iowa,US,2020-03-28 20:48:56,2,0,0,0
+19171.0,Tama,Iowa,US,2020-03-28 20:48:56,8,0,0,0
+19173.0,Taylor,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19175.0,Union,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19177.0,Van Buren,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19179.0,Wapello,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19181.0,Warren,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19183.0,Washington,Iowa,US,2020-03-28 20:48:56,11,0,0,0
+19185.0,Wayne,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19187.0,Webster,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+19189.0,Winnebago,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19191.0,Winneshiek,Iowa,US,2020-03-28 20:48:56,2,0,0,0
+19193.0,Woodbury,Iowa,US,2020-03-28 20:48:56,3,0,0,0
+19195.0,Worth,Iowa,US,2020-03-28 20:48:56,0,0,0,0
+19197.0,Wright,Iowa,US,2020-03-28 20:48:56,1,0,0,0
+20001.0,Allen,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20003.0,Anderson,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20005.0,Atchison,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20007.0,Barber,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20009.0,Barton,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20011.0,Bourbon,Kansas,US,2020-03-28 20:48:56,3,0,0,0
+20013.0,Brown,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20015.0,Butler,Kansas,US,2020-03-28 20:48:56,3,0,0,0
+20017.0,Chase,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20019.0,Chautauqua,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20021.0,Cherokee,Kansas,US,2020-03-28 20:48:56,2,0,0,0
+20023.0,Cheyenne,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20025.0,Clark,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20027.0,Clay,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20029.0,Cloud,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20031.0,Coffey,Kansas,US,2020-03-28 20:48:56,5,0,0,0
+20033.0,Comanche,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20035.0,Cowley,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20037.0,Crawford,Kansas,US,2020-03-28 20:48:56,3,0,0,0
+20039.0,Decatur,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20041.0,Dickinson,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20043.0,Doniphan,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20045.0,Douglas,Kansas,US,2020-03-28 20:48:56,23,0,0,0
+20047.0,Edwards,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20049.0,Elk,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20051.0,Ellis,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20053.0,Ellsworth,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20055.0,Finney,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20057.0,Ford,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20059.0,Franklin,Kansas,US,2020-03-28 20:48:56,6,0,0,0
+20061.0,Geary,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20063.0,Gove,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20065.0,Graham,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20067.0,Grant,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20069.0,Gray,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20071.0,Greeley,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20073.0,Greenwood,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20075.0,Hamilton,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20077.0,Harper,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20079.0,Harvey,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20081.0,Haskell,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20083.0,Hodgeman,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20085.0,Jackson,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20087.0,Jefferson,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20089.0,Jewell,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20091.0,Johnson,Kansas,US,2020-03-28 20:48:56,80,1,0,0
+20093.0,Kearny,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20095.0,Kingman,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20097.0,Kiowa,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20099.0,Labette,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20101.0,Lane,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20103.0,Leavenworth,Kansas,US,2020-03-28 20:48:56,15,0,0,0
+20105.0,Lincoln,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20107.0,Linn,Kansas,US,2020-03-28 20:48:56,4,0,0,0
+20109.0,Logan,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20111.0,Lyon,Kansas,US,2020-03-28 20:48:56,4,0,0,0
+20113.0,McPherson,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20115.0,Marion,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20117.0,Marshall,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20119.0,Meade,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20121.0,Miami,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20123.0,Mitchell,Kansas,US,2020-03-28 20:48:56,2,0,0,0
+20125.0,Montgomery,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20127.0,Morris,Kansas,US,2020-03-28 20:48:56,2,0,0,0
+20129.0,Morton,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20131.0,Nemaha,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20133.0,Neosho,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20135.0,Ness,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20137.0,Norton,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20139.0,Osage,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20141.0,Osborne,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20143.0,Ottawa,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20145.0,Pawnee,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20147.0,Phillips,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20149.0,Pottawatomie,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20151.0,Pratt,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20153.0,Rawlins,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20155.0,Reno,Kansas,US,2020-03-28 20:48:56,5,0,0,0
+20157.0,Republic,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20159.0,Rice,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20161.0,Riley,Kansas,US,2020-03-28 20:48:56,2,0,0,0
+20163.0,Rooks,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20165.0,Rush,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20167.0,Russell,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20169.0,Saline,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20171.0,Scott,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20173.0,Sedgwick,Kansas,US,2020-03-28 20:48:56,33,0,0,0
+20175.0,Seward,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20177.0,Shawnee,Kansas,US,2020-03-28 20:48:56,7,0,0,0
+20179.0,Sheridan,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20181.0,Sherman,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20183.0,Smith,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20185.0,Stafford,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20187.0,Stanton,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20189.0,Stevens,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20191.0,Sumner,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20193.0,Thomas,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20195.0,Trego,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20197.0,Wabaunsee,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20199.0,Wallace,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20201.0,Washington,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20203.0,Wichita,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20205.0,Wilson,Kansas,US,2020-03-28 20:48:56,0,0,0,0
+20207.0,Woodson,Kansas,US,2020-03-28 20:48:56,1,0,0,0
+20209.0,Wyandotte,Kansas,US,2020-03-28 20:48:56,53,3,0,0
+21001.0,Adair,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21003.0,Allen,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21005.0,Anderson,Kentucky,US,2020-03-28 20:48:56,2,1,0,0
+21007.0,Ballard,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21009.0,Barren,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21011.0,Bath,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21013.0,Bell,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21015.0,Boone,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21017.0,Bourbon,Kentucky,US,2020-03-28 20:48:56,2,1,0,0
+21019.0,Boyd,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21021.0,Boyle,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21023.0,Bracken,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21025.0,Breathitt,Kentucky,US,2020-03-28 20:48:56,2,0,0,0
+21027.0,Breckinridge,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21029.0,Bullitt,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21031.0,Butler,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21033.0,Caldwell,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21035.0,Calloway,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21037.0,Campbell,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21039.0,Carlisle,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21041.0,Carroll,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21043.0,Carter,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21045.0,Casey,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21047.0,Christian,Kentucky,US,2020-03-28 20:48:56,2,0,0,0
+21049.0,Clark,Kentucky,US,2020-03-28 20:48:56,2,0,0,0
+21051.0,Clay,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21053.0,Clinton,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21055.0,Crittenden,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21057.0,Cumberland,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21059.0,Daviess,Kentucky,US,2020-03-28 20:48:56,33,0,0,0
+21061.0,Edmonson,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21063.0,Elliott,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21065.0,Estill,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21067.0,Fayette,Kentucky,US,2020-03-28 20:48:56,28,2,0,0
+21069.0,Fleming,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21071.0,Floyd,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21073.0,Franklin,Kentucky,US,2020-03-28 20:48:56,2,0,0,0
+21075.0,Fulton,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21077.0,Gallatin,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21079.0,Garrard,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21081.0,Grant,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21083.0,Graves,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21085.0,Grayson,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21087.0,Green,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21089.0,Greenup,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21091.0,Hancock,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21093.0,Hardin,Kentucky,US,2020-03-28 20:48:56,2,0,0,0
+21095.0,Harlan,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21097.0,Harrison,Kentucky,US,2020-03-28 20:48:56,10,0,0,0
+21099.0,Hart,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21101.0,Henderson,Kentucky,US,2020-03-28 20:48:56,3,0,0,0
+21103.0,Henry,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21105.0,Hickman,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21107.0,Hopkins,Kentucky,US,2020-03-28 20:48:56,0,1,0,0
+21109.0,Jackson,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21111.0,Jefferson,Kentucky,US,2020-03-28 20:48:56,103,3,0,0
+21113.0,Jessamine,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21115.0,Johnson,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21117.0,Kenton,Kentucky,US,2020-03-28 20:48:56,8,0,0,0
+21119.0,Knott,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21121.0,Knox,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21123.0,Larue,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21125.0,Laurel,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21127.0,Lawrence,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21129.0,Lee,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21131.0,Leslie,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21133.0,Letcher,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21135.0,Lewis,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21137.0,Lincoln,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21139.0,Livingston,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21141.0,Logan,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21143.0,Lyon,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21145.0,McCracken,Kentucky,US,2020-03-28 20:48:56,2,0,0,0
+21147.0,McCreary,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21149.0,McLean,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21151.0,Madison,Kentucky,US,2020-03-28 20:48:56,2,0,0,0
+21153.0,Magoffin,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21155.0,Marion,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21157.0,Marshall,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21159.0,Martin,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21161.0,Mason,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21163.0,Meade,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21165.0,Menifee,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21167.0,Mercer,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21169.0,Metcalfe,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21171.0,Monroe,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21173.0,Montgomery,Kentucky,US,2020-03-28 20:48:56,2,0,0,0
+21175.0,Morgan,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21177.0,Muhlenberg,Kentucky,US,2020-03-28 20:48:56,2,0,0,0
+21179.0,Nelson,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21181.0,Nicholas,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21183.0,Ohio,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21185.0,Oldham,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21187.0,Owen,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21189.0,Owsley,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21191.0,Pendleton,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21193.0,Perry,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21195.0,Pike,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21197.0,Powell,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21199.0,Pulaski,Kentucky,US,2020-03-28 20:48:56,3,0,0,0
+21201.0,Robertson,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21203.0,Rockcastle,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21205.0,Rowan,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21207.0,Russell,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21209.0,Scott,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21211.0,Shelby,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21213.0,Simpson,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21215.0,Spencer,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21217.0,Taylor,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21219.0,Todd,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21221.0,Trigg,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21223.0,Trimble,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21225.0,Union,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21227.0,Warren,Kentucky,US,2020-03-28 20:48:56,5,0,0,0
+21229.0,Washington,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21231.0,Wayne,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21233.0,Webster,Kentucky,US,2020-03-28 20:48:56,1,0,0,0
+21235.0,Whitley,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21237.0,Wolfe,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+21239.0,Woodford,Kentucky,US,2020-03-28 20:48:56,0,0,0,0
+22001.0,Acadia,Louisiana,US,2020-03-28 20:48:56,9,1,0,0
+22003.0,Allen,Louisiana,US,2020-03-28 20:48:56,7,0,0,0
+22005.0,Ascension,Louisiana,US,2020-03-28 20:48:56,107,1,0,0
+22007.0,Assumption,Louisiana,US,2020-03-28 20:48:56,8,0,0,0
+22009.0,Avoyelles,Louisiana,US,2020-03-28 20:48:56,12,0,0,0
+22011.0,Beauregard,Louisiana,US,2020-03-28 20:48:56,4,0,0,0
+22013.0,Bienville,Louisiana,US,2020-03-28 20:48:56,3,1,0,0
+22015.0,Bossier,Louisiana,US,2020-03-28 20:48:56,45,0,0,0
+22017.0,Caddo,Louisiana,US,2020-03-28 20:48:56,189,2,0,0
+22019.0,Calcasieu,Louisiana,US,2020-03-28 20:48:56,28,1,0,0
+22021.0,Caldwell,Louisiana,US,2020-03-28 20:48:56,0,0,0,0
+22023.0,Cameron,Louisiana,US,2020-03-28 20:48:56,0,0,0,0
+22025.0,Catahoula,Louisiana,US,2020-03-28 20:48:56,1,1,0,0
+22027.0,Claiborne,Louisiana,US,2020-03-28 20:48:56,4,0,0,0
+22029.0,Concordia,Louisiana,US,2020-03-28 20:48:56,0,0,0,0
+22031.0,De Soto,Louisiana,US,2020-03-28 20:48:56,21,1,0,0
+22033.0,East Baton Rouge,Louisiana,US,2020-03-28 20:48:56,153,4,0,0
+22035.0,East Carroll,Louisiana,US,2020-03-28 20:48:56,1,0,0,0
+22037.0,East Feliciana,Louisiana,US,2020-03-28 20:48:56,6,0,0,0
+22039.0,Evangeline,Louisiana,US,2020-03-28 20:48:56,4,0,0,0
+22041.0,Franklin,Louisiana,US,2020-03-28 20:48:56,4,0,0,0
+22043.0,Grant,Louisiana,US,2020-03-28 20:48:56,1,0,0,0
+22045.0,Iberia,Louisiana,US,2020-03-28 20:48:56,9,0,0,0
+22047.0,Iberville,Louisiana,US,2020-03-28 20:48:56,21,1,0,0
+22049.0,Jackson,Louisiana,US,2020-03-28 20:48:56,2,0,0,0
+22051.0,Jefferson,Louisiana,US,2020-03-28 20:48:56,744,26,0,0
+22053.0,Jefferson Davis,Louisiana,US,2020-03-28 20:48:56,1,0,0,0
+22055.0,Lafayette,Louisiana,US,2020-03-28 20:48:56,48,1,0,0
+22057.0,Lafourche,Louisiana,US,2020-03-28 20:48:56,34,2,0,0
+22059.0,LaSalle,Louisiana,US,2020-03-28 20:48:56,2,0,0,0
+22061.0,Lincoln,Louisiana,US,2020-03-28 20:48:56,6,0,0,0
+22063.0,Livingston,Louisiana,US,2020-03-28 20:48:56,12,0,0,0
+22065.0,Madison,Louisiana,US,2020-03-28 20:48:56,1,0,0,0
+22067.0,Morehouse,Louisiana,US,2020-03-28 20:48:56,2,0,0,0
+22069.0,Natchitoches,Louisiana,US,2020-03-28 20:48:56,2,0,0,0
+22071.0,Orleans,Louisiana,US,2020-03-28 20:48:56,1298,70,0,0
+22073.0,Ouachita,Louisiana,US,2020-03-28 20:48:56,34,1,0,0
+22075.0,Plaquemines,Louisiana,US,2020-03-28 20:48:56,19,2,0,0
+22077.0,Pointe Coupee,Louisiana,US,2020-03-28 20:48:56,2,0,0,0
+22079.0,Rapides,Louisiana,US,2020-03-28 20:48:56,37,1,0,0
+22081.0,Red River,Louisiana,US,2020-03-28 20:48:56,0,0,0,0
+22083.0,Richland,Louisiana,US,2020-03-28 20:48:56,2,0,0,0
+22085.0,Sabine,Louisiana,US,2020-03-28 20:48:56,0,0,0,0
+22087.0,St. Bernard,Louisiana,US,2020-03-28 20:48:56,43,2,0,0
+22089.0,St. Charles,Louisiana,US,2020-03-28 20:48:56,30,2,0,0
+22091.0,St. Helena,Louisiana,US,2020-03-28 20:48:56,0,0,0,0
+22093.0,St. James,Louisiana,US,2020-03-28 20:48:56,48,3,0,0
+22095.0,St. John the Baptist,Louisiana,US,2020-03-28 20:48:56,54,3,0,0
+22097.0,St. Landry,Louisiana,US,2020-03-28 20:48:56,10,0,0,0
+22099.0,St. Martin,Louisiana,US,2020-03-28 20:48:56,13,3,0,0
+22101.0,St. Mary,Louisiana,US,2020-03-28 20:48:56,7,0,0,0
+22103.0,St. Tammany,Louisiana,US,2020-03-28 20:48:56,134,2,0,0
+22105.0,Tangipahoa,Louisiana,US,2020-03-28 20:48:56,10,0,0,0
+22107.0,Tensas,Louisiana,US,2020-03-28 20:48:56,0,0,0,0
+22109.0,Terrebonne,Louisiana,US,2020-03-28 20:48:56,26,1,0,0
+22111.0,Union,Louisiana,US,2020-03-28 20:48:56,7,0,0,0
+22113.0,Vermilion,Louisiana,US,2020-03-28 20:48:56,3,1,0,0
+22115.0,Vernon,Louisiana,US,2020-03-28 20:48:56,2,0,0,0
+22117.0,Washington,Louisiana,US,2020-03-28 20:48:56,10,1,0,0
+22119.0,Webster,Louisiana,US,2020-03-28 20:48:56,9,1,0,0
+22121.0,West Baton Rouge,Louisiana,US,2020-03-28 20:48:56,12,1,0,0
+22123.0,West Carroll,Louisiana,US,2020-03-28 20:48:56,0,0,0,0
+22125.0,West Feliciana,Louisiana,US,2020-03-28 20:48:56,4,0,0,0
+22127.0,Winn,Louisiana,US,2020-03-28 20:48:56,1,0,0,0
+23001.0,Androscoggin,Maine,US,2020-03-28 20:48:56,7,0,0,0
+23003.0,Aroostook,Maine,US,2020-03-28 20:48:56,0,0,0,0
+23005.0,Cumberland,Maine,US,2020-03-28 20:48:56,120,1,0,0
+23007.0,Franklin,Maine,US,2020-03-28 20:48:56,2,0,0,0
+23009.0,Hancock,Maine,US,2020-03-28 20:48:56,0,0,0,0
+23011.0,Kennebec,Maine,US,2020-03-28 20:48:56,9,0,0,0
+23013.0,Knox,Maine,US,2020-03-28 20:48:56,2,0,0,0
+23015.0,Lincoln,Maine,US,2020-03-28 20:48:56,5,0,0,0
+23017.0,Oxford,Maine,US,2020-03-28 20:48:56,8,0,0,0
+23019.0,Penobscot,Maine,US,2020-03-28 20:48:56,10,0,0,0
+23021.0,Piscataquis,Maine,US,2020-03-28 20:48:56,0,0,0,0
+23023.0,Sagadahoc,Maine,US,2020-03-28 20:48:56,5,0,0,0
+23025.0,Somerset,Maine,US,2020-03-28 20:48:56,0,0,0,0
+23027.0,Waldo,Maine,US,2020-03-28 20:48:56,2,0,0,0
+23029.0,Washington,Maine,US,2020-03-28 20:48:56,0,0,0,0
+23031.0,York,Maine,US,2020-03-28 20:48:56,38,0,0,0
+24001.0,Allegany,Maryland,US,2020-03-28 20:48:56,0,0,0,0
+24003.0,Anne Arundel,Maryland,US,2020-03-28 20:48:56,88,0,0,0
+24005.0,Baltimore,Maryland,US,2020-03-28 20:48:56,141,1,0,0
+24009.0,Calvert,Maryland,US,2020-03-28 20:48:56,8,0,0,0
+24011.0,Caroline,Maryland,US,2020-03-28 20:48:56,1,0,0,0
+24013.0,Carroll,Maryland,US,2020-03-28 20:48:56,10,0,0,0
+24015.0,Cecil,Maryland,US,2020-03-28 20:48:56,13,0,0,0
+24017.0,Charles,Maryland,US,2020-03-28 20:48:56,21,0,0,0
+24019.0,Dorchester,Maryland,US,2020-03-28 20:48:56,0,0,0,0
+24021.0,Frederick,Maryland,US,2020-03-28 20:48:56,22,0,0,0
+24023.0,Garrett,Maryland,US,2020-03-28 20:48:56,3,0,0,0
+24025.0,Harford,Maryland,US,2020-03-28 20:48:56,21,0,0,0
+24027.0,Howard,Maryland,US,2020-03-28 20:48:56,73,0,0,0
+24029.0,Kent,Maryland,US,2020-03-28 20:48:56,2,0,0,0
+24031.0,Montgomery,Maryland,US,2020-03-28 20:48:56,255,1,0,0
+24033.0,Prince George's,Maryland,US,2020-03-28 20:48:56,196,2,0,0
+24035.0,Queen Anne's,Maryland,US,2020-03-28 20:48:56,4,0,0,0
+24037.0,St. Mary's,Maryland,US,2020-03-28 20:48:56,8,0,0,0
+24039.0,Somerset,Maryland,US,2020-03-28 20:48:56,1,0,0,0
+24041.0,Talbot,Maryland,US,2020-03-28 20:48:56,2,0,0,0
+24043.0,Washington,Maryland,US,2020-03-28 20:48:56,6,0,0,0
+24045.0,Wicomico,Maryland,US,2020-03-28 20:48:56,6,0,0,0
+24047.0,Worcester,Maryland,US,2020-03-28 20:48:56,2,0,0,0
+24510.0,Baltimore City,Maryland,US,2020-03-28 20:48:56,112,0,0,0
+25001.0,Barnstable,Massachusetts,US,2020-03-28 20:48:56,133,2,0,0
+25003.0,Berkshire,Massachusetts,US,2020-03-28 20:48:56,119,2,0,0
+25005.0,Bristol,Massachusetts,US,2020-03-28 20:48:56,179,1,0,0
+25007.0,Dukes,Massachusetts,US,2020-03-28 20:48:56,0,0,0,0
+25009.0,Essex,Massachusetts,US,2020-03-28 20:48:56,472,3,0,0
+25011.0,Franklin,Massachusetts,US,2020-03-28 20:48:56,39,2,0,0
+25013.0,Hampden,Massachusetts,US,2020-03-28 20:48:56,183,4,0,0
+25015.0,Hampshire,Massachusetts,US,2020-03-28 20:48:56,30,0,0,0
+25017.0,Middlesex,Massachusetts,US,2020-03-28 20:48:56,842,5,0,0
+25019.0,Nantucket,Massachusetts,US,2020-03-28 20:48:56,0,0,0,0
+25021.0,Norfolk,Massachusetts,US,2020-03-28 20:48:56,490,8,0,0
+25023.0,Plymouth,Massachusetts,US,2020-03-28 20:48:56,272,0,0,0
+25025.0,Suffolk,Massachusetts,US,2020-03-28 20:48:56,843,3,0,0
+25027.0,Worcester,Massachusetts,US,2020-03-28 20:48:56,291,5,0,0
+26001.0,Alcona,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26003.0,Alger,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26005.0,Allegan,Michigan,US,2020-03-28 20:48:56,2,0,0,0
+26007.0,Alpena,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26009.0,Antrim,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26011.0,Arenac,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26013.0,Baraga,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26015.0,Barry,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26017.0,Bay,Michigan,US,2020-03-28 20:48:56,4,0,0,0
+26019.0,Benzie,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26021.0,Berrien,Michigan,US,2020-03-28 20:48:56,22,0,0,0
+26023.0,Branch,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26025.0,Calhoun,Michigan,US,2020-03-28 20:48:56,10,0,0,0
+26027.0,Cass,Michigan,US,2020-03-28 20:48:56,2,0,0,0
+26029.0,Charlevoix,Michigan,US,2020-03-28 20:48:56,4,0,0,0
+26031.0,Cheboygan,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26033.0,Chippewa,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26035.0,Clare,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26037.0,Clinton,Michigan,US,2020-03-28 20:48:56,13,0,0,0
+26039.0,Crawford,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26041.0,Delta,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26043.0,Dickinson,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26045.0,Eaton,Michigan,US,2020-03-28 20:48:56,8,0,0,0
+26047.0,Emmet,Michigan,US,2020-03-28 20:48:56,4,0,0,0
+26049.0,Genesee,Michigan,US,2020-03-28 20:48:56,110,5,0,0
+26051.0,Gladwin,Michigan,US,2020-03-28 20:48:56,2,0,0,0
+26053.0,Gogebic,Michigan,US,2020-03-28 20:48:56,1,1,0,0
+26055.0,Grand Traverse,Michigan,US,2020-03-28 20:48:56,3,0,0,0
+26057.0,Gratiot,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26059.0,Hillsdale,Michigan,US,2020-03-28 20:48:56,6,0,0,0
+26061.0,Houghton,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26063.0,Huron,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26065.0,Ingham,Michigan,US,2020-03-28 20:48:56,26,0,0,0
+26067.0,Ionia,Michigan,US,2020-03-28 20:48:56,2,0,0,0
+26069.0,Iosco,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26071.0,Iron,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26073.0,Isabella,Michigan,US,2020-03-28 20:48:56,4,0,0,0
+26075.0,Jackson,Michigan,US,2020-03-28 20:48:56,16,0,0,0
+26077.0,Kalamazoo,Michigan,US,2020-03-28 20:48:56,11,0,0,0
+26079.0,Kalkaska,Michigan,US,2020-03-28 20:48:56,4,0,0,0
+26081.0,Kent,Michigan,US,2020-03-28 20:48:56,45,1,0,0
+26083.0,Keweenaw,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26085.0,Lake,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26087.0,Lapeer,Michigan,US,2020-03-28 20:48:56,4,0,0,0
+26089.0,Leelanau,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26091.0,Lenawee,Michigan,US,2020-03-28 20:48:56,8,0,0,0
+26093.0,Livingston,Michigan,US,2020-03-28 20:48:56,31,2,0,0
+26095.0,Luce,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26097.0,Mackinac,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26099.0,Macomb,Michigan,US,2020-03-28 20:48:56,404,17,0,0
+26101.0,Manistee,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26103.0,Marquette,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26105.0,Mason,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26107.0,Mecosta,Michigan,US,2020-03-28 20:48:56,1,1,0,0
+26109.0,Menominee,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26111.0,Midland,Michigan,US,2020-03-28 20:48:56,8,0,0,0
+26113.0,Missaukee,Michigan,US,2020-03-28 20:48:56,1,1,0,0
+26115.0,Monroe,Michigan,US,2020-03-28 20:48:56,28,0,0,0
+26117.0,Montcalm,Michigan,US,2020-03-28 20:48:56,3,0,0,0
+26119.0,Montmorency,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26121.0,Muskegon,Michigan,US,2020-03-28 20:48:56,6,2,0,0
+26123.0,Newaygo,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26125.0,Oakland,Michigan,US,2020-03-28 20:48:56,824,31,0,0
+26127.0,Oceana,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26129.0,Ogemaw,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26131.0,Ontonagon,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26133.0,Osceola,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26135.0,Oscoda,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26137.0,Otsego,Michigan,US,2020-03-28 20:48:56,7,0,0,0
+26139.0,Ottawa,Michigan,US,2020-03-28 20:48:56,21,0,0,0
+26141.0,Presque Isle,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26143.0,Roscommon,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+26145.0,Saginaw,Michigan,US,2020-03-28 20:48:56,14,0,0,0
+26147.0,St. Clair,Michigan,US,2020-03-28 20:48:56,15,0,0,0
+26149.0,St. Joseph,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26151.0,Sanilac,Michigan,US,2020-03-28 20:48:56,2,0,0,0
+26153.0,Schoolcraft,Michigan,US,2020-03-28 20:48:56,0,0,0,0
+26155.0,Shiawassee,Michigan,US,2020-03-28 20:48:56,2,0,0,0
+26157.0,Tuscola,Michigan,US,2020-03-28 20:48:56,2,1,0,0
+26159.0,Van Buren,Michigan,US,2020-03-28 20:48:56,3,0,0,0
+26161.0,Washtenaw,Michigan,US,2020-03-28 20:48:56,150,3,0,0
+26163.0,Wayne,Michigan,US,2020-03-28 20:48:56,2316,46,0,0
+26165.0,Wexford,Michigan,US,2020-03-28 20:48:56,1,0,0,0
+27001.0,Aitkin,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27003.0,Anoka,Minnesota,US,2020-03-28 20:48:56,12,0,0,0
+27005.0,Becker,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27007.0,Beltrami,Minnesota,US,2020-03-28 20:48:56,2,0,0,0
+27009.0,Benton,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27011.0,Big Stone,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27013.0,Blue Earth,Minnesota,US,2020-03-28 20:48:56,7,0,0,0
+27015.0,Brown,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27017.0,Carlton,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27019.0,Carver,Minnesota,US,2020-03-28 20:48:56,9,0,0,0
+27021.0,Cass,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27023.0,Chippewa,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27025.0,Chisago,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27027.0,Clay,Minnesota,US,2020-03-28 20:48:56,4,0,0,0
+27029.0,Clearwater,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27031.0,Cook,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27033.0,Cottonwood,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27035.0,Crow Wing,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27037.0,Dakota,Minnesota,US,2020-03-28 20:48:56,33,0,0,0
+27039.0,Dodge,Minnesota,US,2020-03-28 20:48:56,6,0,0,0
+27041.0,Douglas,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27043.0,Faribault,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27045.0,Fillmore,Minnesota,US,2020-03-28 20:48:56,5,0,0,0
+27047.0,Freeborn,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27049.0,Goodhue,Minnesota,US,2020-03-28 20:48:56,2,0,0,0
+27051.0,Grant,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27053.0,Hennepin,Minnesota,US,2020-03-28 20:48:56,152,1,0,0
+27055.0,Houston,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27057.0,Hubbard,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27059.0,Isanti,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27061.0,Itasca,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27063.0,Jackson,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27065.0,Kanabec,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27067.0,Kandiyohi,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27069.0,Kittson,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27071.0,Koochiching,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27073.0,Lac qui Parle,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27075.0,Lake,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27077.0,Lake of the Woods,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27079.0,Le Sueur,Minnesota,US,2020-03-28 20:48:56,11,0,0,0
+27081.0,Lincoln,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27083.0,Lyon,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27085.0,McLeod,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27087.0,Mahnomen,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27089.0,Marshall,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27091.0,Martin,Minnesota,US,2020-03-28 20:48:56,19,1,0,0
+27093.0,Meeker,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27095.0,Mille Lacs,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27097.0,Morrison,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27099.0,Mower,Minnesota,US,2020-03-28 20:48:56,11,0,0,0
+27101.0,Murray,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27103.0,Nicollet,Minnesota,US,2020-03-28 20:48:56,3,0,0,0
+27105.0,Nobles,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27107.0,Norman,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27109.0,Olmsted,Minnesota,US,2020-03-28 20:48:56,37,0,0,0
+27111.0,Otter Tail,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27113.0,Pennington,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27115.0,Pine,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27117.0,Pipestone,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27119.0,Polk,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27121.0,Pope,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27123.0,Ramsey,Minnesota,US,2020-03-28 20:48:56,42,2,0,0
+27125.0,Red Lake,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27127.0,Redwood,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27129.0,Renville,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27131.0,Rice,Minnesota,US,2020-03-28 20:48:56,3,0,0,0
+27133.0,Rock,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27135.0,Roseau,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27137.0,St. Louis,Minnesota,US,2020-03-28 20:48:56,5,0,0,0
+27139.0,Scott,Minnesota,US,2020-03-28 20:48:56,8,0,0,0
+27141.0,Sherburne,Minnesota,US,2020-03-28 20:48:56,5,0,0,0
+27143.0,Sibley,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27145.0,Stearns,Minnesota,US,2020-03-28 20:48:56,5,0,0,0
+27147.0,Steele,Minnesota,US,2020-03-28 20:48:56,5,0,0,0
+27149.0,Stevens,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27151.0,Swift,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27153.0,Todd,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27155.0,Traverse,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27157.0,Wabasha,Minnesota,US,2020-03-28 20:48:56,4,0,0,0
+27159.0,Wadena,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27161.0,Waseca,Minnesota,US,2020-03-28 20:48:56,3,0,0,0
+27163.0,Washington,Minnesota,US,2020-03-28 20:48:56,25,0,0,0
+27165.0,Watonwan,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+27167.0,Wilkin,Minnesota,US,2020-03-28 20:48:56,1,0,0,0
+27169.0,Winona,Minnesota,US,2020-03-28 20:48:56,4,0,0,0
+27171.0,Wright,Minnesota,US,2020-03-28 20:48:56,5,0,0,0
+27173.0,Yellow Medicine,Minnesota,US,2020-03-28 20:48:56,0,0,0,0
+28001.0,Adams,Mississippi,US,2020-03-28 20:48:56,6,0,0,0
+28003.0,Alcorn,Mississippi,US,2020-03-28 20:48:56,1,0,0,0
+28005.0,Amite,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28007.0,Attala,Mississippi,US,2020-03-28 20:48:56,9,0,0,0
+28009.0,Benton,Mississippi,US,2020-03-28 20:48:56,2,0,0,0
+28011.0,Bolivar,Mississippi,US,2020-03-28 20:48:56,11,0,0,0
+28013.0,Calhoun,Mississippi,US,2020-03-28 20:48:56,3,0,0,0
+28015.0,Carroll,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28017.0,Chickasaw,Mississippi,US,2020-03-28 20:48:56,10,0,0,0
+28019.0,Choctaw,Mississippi,US,2020-03-28 20:48:56,4,0,0,0
+28021.0,Claiborne,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28023.0,Clarke,Mississippi,US,2020-03-28 20:48:56,1,0,0,0
+28025.0,Clay,Mississippi,US,2020-03-28 20:48:56,2,0,0,0
+28027.0,Coahoma,Mississippi,US,2020-03-28 20:48:56,18,0,0,0
+28029.0,Copiah,Mississippi,US,2020-03-28 20:48:56,8,0,0,0
+28031.0,Covington,Mississippi,US,2020-03-28 20:48:56,1,0,0,0
+28033.0,DeSoto,Mississippi,US,2020-03-28 20:48:56,65,1,0,0
+28035.0,Forrest,Mississippi,US,2020-03-28 20:48:56,18,0,0,0
+28037.0,Franklin,Mississippi,US,2020-03-28 20:48:56,3,0,0,0
+28039.0,George,Mississippi,US,2020-03-28 20:48:56,1,0,0,0
+28041.0,Greene,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28043.0,Grenada,Mississippi,US,2020-03-28 20:48:56,2,0,0,0
+28045.0,Hancock,Mississippi,US,2020-03-28 20:48:56,9,1,0,0
+28047.0,Harrison,Mississippi,US,2020-03-28 20:48:56,38,1,0,0
+28049.0,Hinds,Mississippi,US,2020-03-28 20:48:56,58,0,0,0
+28051.0,Holmes,Mississippi,US,2020-03-28 20:48:56,13,1,0,0
+28053.0,Humphreys,Mississippi,US,2020-03-28 20:48:56,2,0,0,0
+28055.0,Issaquena,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28057.0,Itawamba,Mississippi,US,2020-03-28 20:48:56,3,0,0,0
+28059.0,Jackson,Mississippi,US,2020-03-28 20:48:56,33,0,0,0
+28061.0,Jasper,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28063.0,Jefferson,Mississippi,US,2020-03-28 20:48:56,1,0,0,0
+28065.0,Jefferson Davis,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28067.0,Jones,Mississippi,US,2020-03-28 20:48:56,3,0,0,0
+28069.0,Kemper,Mississippi,US,2020-03-28 20:48:56,1,0,0,0
+28071.0,Lafayette,Mississippi,US,2020-03-28 20:48:56,11,0,0,0
+28073.0,Lamar,Mississippi,US,2020-03-28 20:48:56,4,0,0,0
+28075.0,Lauderdale,Mississippi,US,2020-03-28 20:48:56,12,0,0,0
+28077.0,Lawrence,Mississippi,US,2020-03-28 20:48:56,5,0,0,0
+28079.0,Leake,Mississippi,US,2020-03-28 20:48:56,4,0,0,0
+28081.0,Lee,Mississippi,US,2020-03-28 20:48:56,17,1,0,0
+28083.0,Leflore,Mississippi,US,2020-03-28 20:48:56,15,0,0,0
+28085.0,Lincoln,Mississippi,US,2020-03-28 20:48:56,8,0,0,0
+28087.0,Lowndes,Mississippi,US,2020-03-28 20:48:56,10,0,0,0
+28089.0,Madison,Mississippi,US,2020-03-28 20:48:56,29,0,0,0
+28091.0,Marion,Mississippi,US,2020-03-28 20:48:56,3,0,0,0
+28093.0,Marshall,Mississippi,US,2020-03-28 20:48:56,11,0,0,0
+28095.0,Monroe,Mississippi,US,2020-03-28 20:48:56,3,0,0,0
+28097.0,Montgomery,Mississippi,US,2020-03-28 20:48:56,5,0,0,0
+28099.0,Neshoba,Mississippi,US,2020-03-28 20:48:56,3,0,0,0
+28101.0,Newton,Mississippi,US,2020-03-28 20:48:56,1,0,0,0
+28103.0,Noxubee,Mississippi,US,2020-03-28 20:48:56,2,0,0,0
+28105.0,Oktibbeha,Mississippi,US,2020-03-28 20:48:56,14,0,0,0
+28107.0,Panola,Mississippi,US,2020-03-28 20:48:56,4,0,0,0
+28109.0,Pearl River,Mississippi,US,2020-03-28 20:48:56,23,0,0,0
+28111.0,Perry,Mississippi,US,2020-03-28 20:48:56,2,1,0,0
+28113.0,Pike,Mississippi,US,2020-03-28 20:48:56,12,0,0,0
+28115.0,Pontotoc,Mississippi,US,2020-03-28 20:48:56,4,0,0,0
+28117.0,Prentiss,Mississippi,US,2020-03-28 20:48:56,2,0,0,0
+28119.0,Quitman,Mississippi,US,2020-03-28 20:48:56,4,0,0,0
+28121.0,Rankin,Mississippi,US,2020-03-28 20:48:56,31,1,0,0
+28123.0,Scott,Mississippi,US,2020-03-28 20:48:56,7,0,0,0
+28125.0,Sharkey,Mississippi,US,2020-03-28 20:48:56,1,0,0,0
+28127.0,Simpson,Mississippi,US,2020-03-28 20:48:56,2,0,0,0
+28129.0,Smith,Mississippi,US,2020-03-28 20:48:56,1,0,0,0
+28131.0,Stone,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28133.0,Sunflower,Mississippi,US,2020-03-28 20:48:56,7,1,0,0
+28135.0,Tallahatchie,Mississippi,US,2020-03-28 20:48:56,2,0,0,0
+28137.0,Tate,Mississippi,US,2020-03-28 20:48:56,8,0,0,0
+28139.0,Tippah,Mississippi,US,2020-03-28 20:48:56,18,2,0,0
+28141.0,Tishomingo,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28143.0,Tunica,Mississippi,US,2020-03-28 20:48:56,6,1,0,0
+28145.0,Union,Mississippi,US,2020-03-28 20:48:56,3,0,0,0
+28147.0,Walthall,Mississippi,US,2020-03-28 20:48:56,5,0,0,0
+28149.0,Warren,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28151.0,Washington,Mississippi,US,2020-03-28 20:48:56,13,0,0,0
+28153.0,Wayne,Mississippi,US,2020-03-28 20:48:56,0,0,0,0
+28155.0,Webster,Mississippi,US,2020-03-28 20:48:56,3,1,0,0
+28157.0,Wilkinson,Mississippi,US,2020-03-28 20:48:56,11,1,0,0
+28159.0,Winston,Mississippi,US,2020-03-28 20:48:56,4,0,0,0
+28161.0,Yalobusha,Mississippi,US,2020-03-28 20:48:56,3,0,0,0
+28163.0,Yazoo,Mississippi,US,2020-03-28 20:48:56,4,0,0,0
+29001.0,Adair,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29003.0,Andrew,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29005.0,Atchison,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29007.0,Audrain,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29009.0,Barry,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29011.0,Barton,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29013.0,Bates,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29015.0,Benton,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29017.0,Bollinger,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29019.0,Boone,Missouri,US,2020-03-28 20:48:56,49,1,0,0
+29021.0,Buchanan,Missouri,US,2020-03-28 20:48:56,3,0,0,0
+29023.0,Butler,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29025.0,Caldwell,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29027.0,Callaway,Missouri,US,2020-03-28 20:48:56,6,0,0,0
+29029.0,Camden,Missouri,US,2020-03-28 20:48:56,4,0,0,0
+29031.0,Cape Girardeau,Missouri,US,2020-03-28 20:48:56,5,0,0,0
+29033.0,Carroll,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29035.0,Carter,Missouri,US,2020-03-28 20:48:56,2,0,0,0
+29037.0,Cass,Missouri,US,2020-03-28 20:48:56,8,0,0,0
+29039.0,Cedar,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29041.0,Chariton,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29043.0,Christian,Missouri,US,2020-03-28 20:48:56,7,0,0,0
+29045.0,Clark,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29047.0,Clay,Missouri,US,2020-03-28 20:48:56,10,0,0,0
+29049.0,Clinton,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29051.0,Cole,Missouri,US,2020-03-28 20:48:56,17,0,0,0
+29053.0,Cooper,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29055.0,Crawford,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29057.0,Dade,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29059.0,Dallas,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29061.0,Daviess,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29063.0,DeKalb,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29065.0,Dent,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29067.0,Douglas,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29069.0,Dunklin,Missouri,US,2020-03-28 20:48:56,3,0,0,0
+29071.0,Franklin,Missouri,US,2020-03-28 20:48:56,6,0,0,0
+29073.0,Gasconade,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29075.0,Gentry,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29077.0,Greene,Missouri,US,2020-03-28 20:48:56,41,4,0,0
+29079.0,Grundy,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29081.0,Harrison,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29083.0,Henry,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29085.0,Hickory,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29087.0,Holt,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29089.0,Howard,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29091.0,Howell,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29093.0,Iron,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29095.0,Jackson,Missouri,US,2020-03-28 20:48:56,43,1,0,0
+29097.0,Jasper,Missouri,US,2020-03-28 20:48:56,3,0,0,0
+29099.0,Jefferson,Missouri,US,2020-03-28 20:48:56,17,0,0,0
+29101.0,Johnson,Missouri,US,2020-03-28 20:48:56,9,0,0,0
+29103.0,Knox,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29105.0,Laclede,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29107.0,Lafayette,Missouri,US,2020-03-28 20:48:56,4,0,0,0
+29109.0,Lawrence,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29111.0,Lewis,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29113.0,Lincoln,Missouri,US,2020-03-28 20:48:56,2,0,0,0
+29115.0,Linn,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29117.0,Livingston,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29119.0,McDonald,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29121.0,Macon,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29123.0,Madison,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29125.0,Maries,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29127.0,Marion,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29129.0,Mercer,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29131.0,Miller,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29133.0,Mississippi,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29135.0,Moniteau,Missouri,US,2020-03-28 20:48:56,3,0,0,0
+29137.0,Monroe,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29139.0,Montgomery,Missouri,US,2020-03-28 20:48:56,3,0,0,0
+29141.0,Morgan,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29143.0,New Madrid,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29145.0,Newton,Missouri,US,2020-03-28 20:48:56,4,0,0,0
+29147.0,Nodaway,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29149.0,Oregon,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29151.0,Osage,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29153.0,Ozark,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29155.0,Pemiscot,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29157.0,Perry,Missouri,US,2020-03-28 20:48:56,7,0,0,0
+29159.0,Pettis,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29161.0,Phelps,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29163.0,Pike,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29165.0,Platte,Missouri,US,2020-03-28 20:48:56,6,0,0,0
+29167.0,Polk,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29169.0,Pulaski,Missouri,US,2020-03-28 20:48:56,5,0,0,0
+29171.0,Putnam,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29173.0,Ralls,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29175.0,Randolph,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29177.0,Ray,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29179.0,Reynolds,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29181.0,Ripley,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29183.0,St. Charles,Missouri,US,2020-03-28 20:48:56,37,1,0,0
+29185.0,St. Clair,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29186.0,Ste. Genevieve,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29187.0,St. Francois,Missouri,US,2020-03-28 20:48:56,4,0,0,0
+29189.0,St. Louis,Missouri,US,2020-03-28 20:48:56,313,2,0,0
+29195.0,Saline,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29197.0,Schuyler,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29199.0,Scotland,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29201.0,Scott,Missouri,US,2020-03-28 20:48:56,3,0,0,0
+29203.0,Shannon,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29205.0,Shelby,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29207.0,Stoddard,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29209.0,Stone,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29211.0,Sullivan,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29213.0,Taney,Missouri,US,2020-03-28 20:48:56,2,0,0,0
+29215.0,Texas,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29217.0,Vernon,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29219.0,Warren,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29221.0,Washington,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29223.0,Wayne,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29225.0,Webster,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29227.0,Worth,Missouri,US,2020-03-28 20:48:56,0,0,0,0
+29229.0,Wright,Missouri,US,2020-03-28 20:48:56,1,0,0,0
+29510.0,St. Louis City,Missouri,US,2020-03-28 20:48:56,95,1,0,0
+30001.0,Beaverhead,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30003.0,Big Horn,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30005.0,Blaine,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30007.0,Broadwater,Montana,US,2020-03-28 20:48:56,2,0,0,0
+30009.0,Carbon,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30011.0,Carter,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30013.0,Cascade,Montana,US,2020-03-28 20:48:56,7,0,0,0
+30015.0,Chouteau,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30017.0,Custer,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30019.0,Daniels,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30021.0,Dawson,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30023.0,Deer Lodge,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30025.0,Fallon,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30027.0,Fergus,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30029.0,Flathead,Montana,US,2020-03-28 20:48:56,6,0,0,0
+30031.0,Gallatin,Montana,US,2020-03-28 20:48:56,46,0,0,0
+30033.0,Garfield,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30035.0,Glacier,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30037.0,Golden Valley,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30039.0,Granite,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30041.0,Hill,Montana,US,2020-03-28 20:48:56,1,0,0,0
+30043.0,Jefferson,Montana,US,2020-03-28 20:48:56,2,0,0,0
+30045.0,Judith Basin,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30047.0,Lake,Montana,US,2020-03-28 20:48:56,1,0,0,0
+30049.0,Lewis and Clark,Montana,US,2020-03-28 20:48:56,9,0,0,0
+30051.0,Liberty,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30053.0,Lincoln,Montana,US,2020-03-28 20:48:56,3,1,0,0
+30055.0,McCone,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30057.0,Madison,Montana,US,2020-03-28 20:48:56,3,0,0,0
+30059.0,Meagher,Montana,US,2020-03-28 20:48:56,1,0,0,0
+30061.0,Mineral,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30063.0,Missoula,Montana,US,2020-03-28 20:48:56,9,0,0,0
+30065.0,Musselshell,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30067.0,Park,Montana,US,2020-03-28 20:48:56,1,0,0,0
+30069.0,Petroleum,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30071.0,Phillips,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30073.0,Pondera,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30075.0,Powder River,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30077.0,Powell,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30079.0,Prairie,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30081.0,Ravalli,Montana,US,2020-03-28 20:48:56,1,0,0,0
+30083.0,Richland,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30085.0,Roosevelt,Montana,US,2020-03-28 20:48:56,1,0,0,0
+30087.0,Rosebud,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30089.0,Sanders,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30091.0,Sheridan,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30093.0,Silver Bow,Montana,US,2020-03-28 20:48:56,8,0,0,0
+30095.0,Stillwater,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30097.0,Sweet Grass,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30099.0,Teton,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30101.0,Toole,Montana,US,2020-03-28 20:48:56,5,0,0,0
+30103.0,Treasure,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30105.0,Valley,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30107.0,Wheatland,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30109.0,Wibaux,Montana,US,2020-03-28 20:48:56,0,0,0,0
+30111.0,Yellowstone,Montana,US,2020-03-28 20:48:56,23,0,0,0
+31001.0,Adams,Nebraska,US,2020-03-28 20:48:56,2,0,0,0
+31003.0,Antelope,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31005.0,Arthur,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31007.0,Banner,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31009.0,Blaine,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31011.0,Boone,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31013.0,Box Butte,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31015.0,Boyd,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31017.0,Brown,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31019.0,Buffalo,Nebraska,US,2020-03-28 20:48:56,4,0,0,0
+31021.0,Burt,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31023.0,Butler,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31025.0,Cass,Nebraska,US,2020-03-28 20:48:56,2,0,0,0
+31027.0,Cedar,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31029.0,Chase,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31031.0,Cherry,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31033.0,Cheyenne,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31035.0,Clay,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31037.0,Colfax,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31039.0,Cuming,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31041.0,Custer,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31043.0,Dakota,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31045.0,Dawes,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31047.0,Dawson,Nebraska,US,2020-03-28 20:48:56,1,0,0,0
+31049.0,Deuel,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31051.0,Dixon,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31053.0,Dodge,Nebraska,US,2020-03-28 20:48:56,1,0,0,0
+31055.0,Douglas,Nebraska,US,2020-03-28 20:48:56,47,1,0,0
+31057.0,Dundy,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31059.0,Fillmore,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31061.0,Franklin,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31063.0,Frontier,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31065.0,Furnas,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31067.0,Gage,Nebraska,US,2020-03-28 20:48:56,1,0,0,0
+31069.0,Garden,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31071.0,Garfield,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31073.0,Gosper,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31075.0,Grant,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31077.0,Greeley,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31079.0,Hall,Nebraska,US,2020-03-28 20:48:56,2,1,0,0
+31081.0,Hamilton,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31083.0,Harlan,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31085.0,Hayes,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31087.0,Hitchcock,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31089.0,Holt,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31091.0,Hooker,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31093.0,Howard,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31095.0,Jefferson,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31097.0,Johnson,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31099.0,Kearney,Nebraska,US,2020-03-28 20:48:56,1,0,0,0
+31101.0,Keith,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31103.0,Keya Paha,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31105.0,Kimball,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31107.0,Knox,Nebraska,US,2020-03-28 20:48:56,2,0,0,0
+31109.0,Lancaster,Nebraska,US,2020-03-28 20:48:56,4,0,0,0
+31111.0,Lincoln,Nebraska,US,2020-03-28 20:48:56,3,0,0,0
+31113.0,Logan,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31115.0,Loup,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31117.0,McPherson,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31119.0,Madison,Nebraska,US,2020-03-28 20:48:56,1,0,0,0
+31121.0,Merrick,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31123.0,Morrill,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31125.0,Nance,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31127.0,Nemaha,Nebraska,US,2020-03-28 20:48:56,1,0,0,0
+31129.0,Nuckolls,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31131.0,Otoe,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31133.0,Pawnee,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31135.0,Perkins,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31137.0,Phelps,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31139.0,Pierce,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31141.0,Platte,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31143.0,Polk,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31145.0,Red Willow,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31147.0,Richardson,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31149.0,Rock,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31151.0,Saline,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31153.0,Sarpy,Nebraska,US,2020-03-28 20:48:56,11,0,0,0
+31155.0,Saunders,Nebraska,US,2020-03-28 20:48:56,2,0,0,0
+31157.0,Scotts Bluff,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31159.0,Seward,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31161.0,Sheridan,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31163.0,Sherman,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31165.0,Sioux,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31167.0,Stanton,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31169.0,Thayer,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31171.0,Thomas,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31173.0,Thurston,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31175.0,Valley,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31177.0,Washington,Nebraska,US,2020-03-28 20:48:56,5,0,0,0
+31179.0,Wayne,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31181.0,Webster,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31183.0,Wheeler,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+31185.0,York,Nebraska,US,2020-03-28 20:48:56,0,0,0,0
+32001.0,Churchill,Nevada,US,2020-03-28 20:48:56,0,0,0,0
+32003.0,Clark,Nevada,US,2020-03-28 20:48:56,443,10,0,0
+32005.0,Douglas,Nevada,US,2020-03-28 20:48:56,5,0,0,0
+32007.0,Elko,Nevada,US,2020-03-28 20:48:56,2,0,0,0
+32007.0,Elko,Nevada,US,NA,NA,NA,NA,NA
+32009.0,Esmeralda,Nevada,US,2020-03-28 20:48:56,0,0,0,0
+32011.0,Eureka,Nevada,US,2020-03-28 20:48:56,0,0,0,0
+32013.0,Humboldt,Nevada,US,2020-03-28 20:48:56,1,0,0,0
+32015.0,Lander,Nevada,US,2020-03-28 20:48:56,0,0,0,0
+32017.0,Lincoln,Nevada,US,2020-03-28 20:48:56,0,0,0,0
+32019.0,Lyon,Nevada,US,2020-03-28 20:48:56,1,0,0,0
+32021.0,Mineral,Nevada,US,2020-03-28 20:48:56,0,0,0,0
+32023.0,Nye,Nevada,US,2020-03-28 20:48:56,1,0,0,0
+32027.0,Pershing,Nevada,US,2020-03-28 20:48:56,0,0,0,0
+32029.0,Storey,Nevada,US,2020-03-28 20:48:56,0,0,0,0
+32031.0,Washoe,Nevada,US,2020-03-28 20:48:56,75,0,0,0
+32033.0,White Pine,Nevada,US,2020-03-28 20:48:56,0,0,0,0
+32510.0,Carson City,Nevada,US,2020-03-28 20:48:56,5,0,0,0
+33001.0,Belknap,New Hampshire,US,2020-03-28 20:48:56,9,0,0,0
+33003.0,Carroll,New Hampshire,US,2020-03-28 20:48:56,8,0,0,0
+33005.0,Cheshire,New Hampshire,US,2020-03-28 20:48:56,2,0,0,0
+33007.0,Coos,New Hampshire,US,2020-03-28 20:48:56,0,0,0,0
+33009.0,Grafton,New Hampshire,US,2020-03-28 20:48:56,26,0,0,0
+33011.0,Hillsborough,New Hampshire,US,2020-03-28 20:48:56,43,2,0,0
+33013.0,Merrimack,New Hampshire,US,2020-03-28 20:48:56,11,0,0,0
+33015.0,Rockingham,New Hampshire,US,2020-03-28 20:48:56,75,0,0,0
+33017.0,Strafford,New Hampshire,US,2020-03-28 20:48:56,11,0,0,0
+33019.0,Sullivan,New Hampshire,US,2020-03-28 20:48:56,2,0,0,0
+34001.0,Atlantic,New Jersey,US,2020-03-28 20:48:56,17,0,0,0
+34003.0,Bergen,New Jersey,US,2020-03-28 20:48:56,1838,13,0,0
+34005.0,Burlington,New Jersey,US,2020-03-28 20:48:56,115,0,0,0
+34007.0,Camden,New Jersey,US,2020-03-28 20:48:56,123,1,0,0
+34009.0,Cape May,New Jersey,US,2020-03-28 20:48:56,7,0,0,0
+34011.0,Cumberland,New Jersey,US,2020-03-28 20:48:56,11,0,0,0
+34013.0,Essex,New Jersey,US,2020-03-28 20:48:56,1086,7,0,0
+34015.0,Gloucester,New Jersey,US,2020-03-28 20:48:56,51,1,0,0
+34017.0,Hudson,New Jersey,US,2020-03-28 20:48:56,771,4,0,0
+34019.0,Hunterdon,New Jersey,US,2020-03-28 20:48:56,61,0,0,0
+34021.0,Mercer,New Jersey,US,2020-03-28 20:48:56,168,0,0,0
+34023.0,Middlesex,New Jersey,US,2020-03-28 20:48:56,808,4,0,0
+34025.0,Monmouth,New Jersey,US,2020-03-28 20:48:56,781,6,0,0
+34027.0,Morris,New Jersey,US,2020-03-28 20:48:56,442,3,0,0
+34029.0,Ocean,New Jersey,US,2020-03-28 20:48:56,624,4,0,0
+34031.0,Passaic,New Jersey,US,2020-03-28 20:48:56,608,7,0,0
+34033.0,Salem,New Jersey,US,2020-03-28 20:48:56,3,0,0,0
+34035.0,Somerset,New Jersey,US,2020-03-28 20:48:56,258,4,0,0
+34037.0,Sussex,New Jersey,US,2020-03-28 20:48:56,81,0,0,0
+34039.0,Union,New Jersey,US,2020-03-28 20:48:56,742,0,0,0
+34041.0,Warren,New Jersey,US,2020-03-28 20:48:56,51,0,0,0
+35001.0,Bernalillo,New Mexico,US,2020-03-28 20:48:56,82,0,0,0
+35003.0,Catron,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35005.0,Chaves,New Mexico,US,2020-03-28 20:48:56,4,0,0,0
+35006.0,Cibola,New Mexico,US,2020-03-28 20:48:56,2,0,0,0
+35007.0,Colfax,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35009.0,Curry,New Mexico,US,2020-03-28 20:48:56,1,0,0,0
+35011.0,De Baca,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35013.0,Doña Ana,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35013.0,Doña Ana,New Mexico,US,NA,NA,NA,NA,NA
+35015.0,Eddy,New Mexico,US,2020-03-28 20:48:56,2,1,0,0
+35017.0,Grant,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35019.0,Guadalupe,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35021.0,Harding,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35023.0,Hidalgo,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35025.0,Lea,New Mexico,US,2020-03-28 20:48:56,2,0,0,0
+35027.0,Lincoln,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35028.0,Los Alamos,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35029.0,Luna,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35031.0,McKinley,New Mexico,US,2020-03-28 20:48:56,5,0,0,0
+35033.0,Mora,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35035.0,Otero,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35037.0,Quay,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35039.0,Rio Arriba,New Mexico,US,2020-03-28 20:48:56,3,0,0,0
+35041.0,Roosevelt,New Mexico,US,2020-03-28 20:48:56,1,0,0,0
+35043.0,Sandoval,New Mexico,US,2020-03-28 20:48:56,15,0,0,0
+35045.0,San Juan,New Mexico,US,2020-03-28 20:48:56,17,0,0,0
+35047.0,San Miguel,New Mexico,US,2020-03-28 20:48:56,1,0,0,0
+35049.0,Santa Fe,New Mexico,US,2020-03-28 20:48:56,29,0,0,0
+35051.0,Sierra,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35053.0,Socorro,New Mexico,US,2020-03-28 20:48:56,2,0,0,0
+35055.0,Taos,New Mexico,US,2020-03-28 20:48:56,8,0,0,0
+35057.0,Torrance,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35059.0,Union,New Mexico,US,2020-03-28 20:48:56,0,0,0,0
+35061.0,Valencia,New Mexico,US,2020-03-28 20:48:56,1,0,0,0
+36001.0,Albany,New York,US,2020-03-28 20:48:56,187,0,0,0
+36003.0,Allegany,New York,US,2020-03-28 20:48:56,2,0,0,0
+36005.0,Bronx,New York,US,2020-03-28 20:48:56,0,0,0,0
+36007.0,Broome,New York,US,2020-03-28 20:48:56,18,3,0,0
+36009.0,Cattaraugus,New York,US,2020-03-28 20:48:56,0,0,0,0
+36011.0,Cayuga,New York,US,2020-03-28 20:48:56,2,0,0,0
+36013.0,Chautauqua,New York,US,2020-03-28 20:48:56,5,0,0,0
+36015.0,Chemung,New York,US,2020-03-28 20:48:56,11,0,0,0
+36017.0,Chenango,New York,US,2020-03-28 20:48:56,4,0,0,0
+36019.0,Clinton,New York,US,2020-03-28 20:48:56,11,0,0,0
+36021.0,Columbia,New York,US,2020-03-28 20:48:56,30,1,0,0
+36023.0,Cortland,New York,US,2020-03-28 20:48:56,7,0,0,0
+36025.0,Delaware,New York,US,2020-03-28 20:48:56,8,0,0,0
+36027.0,Dutchess,New York,US,2020-03-28 20:48:56,225,2,0,0
+36029.0,Erie,New York,US,2020-03-28 20:48:56,310,6,0,0
+36031.0,Essex,New York,US,2020-03-28 20:48:56,5,0,0,0
+36033.0,Franklin,New York,US,2020-03-28 20:48:56,5,0,0,0
+36035.0,Fulton,New York,US,2020-03-28 20:48:56,1,0,0,0
+36037.0,Genesee,New York,US,2020-03-28 20:48:56,7,0,0,0
+36039.0,Greene,New York,US,2020-03-28 20:48:56,6,0,0,0
+36041.0,Hamilton,New York,US,2020-03-28 20:48:56,2,0,0,0
+36043.0,Herkimer,New York,US,2020-03-28 20:48:56,9,1,0,0
+36045.0,Jefferson,New York,US,2020-03-28 20:48:56,4,0,0,0
+36047.0,Kings,New York,US,2020-03-28 20:48:56,0,0,0,0
+36049.0,Lewis,New York,US,2020-03-28 20:48:56,0,0,0,0
+36051.0,Livingston,New York,US,2020-03-28 20:48:56,10,0,0,0
+36053.0,Madison,New York,US,2020-03-28 20:48:56,28,1,0,0
+36055.0,Monroe,New York,US,2020-03-28 20:48:56,190,4,0,0
+36057.0,Montgomery,New York,US,2020-03-28 20:48:56,6,0,0,0
+36059.0,Nassau,New York,US,2020-03-28 20:48:56,4657,27,0,0
+36061.0,New York City,New York,US,2020-03-28 20:48:56,29158,517,0,0
+36063.0,Niagara,New York,US,2020-03-28 20:48:56,23,0,0,0
+36065.0,Oneida,New York,US,2020-03-28 20:48:56,13,0,0,0
+36067.0,Onondaga,New York,US,2020-03-28 20:48:56,146,1,0,0
+36069.0,Ontario,New York,US,2020-03-28 20:48:56,14,0,0,0
+36071.0,Orange,New York,US,2020-03-28 20:48:56,910,4,0,0
+36073.0,Orleans,New York,US,2020-03-28 20:48:56,3,0,0,0
+36075.0,Oswego,New York,US,2020-03-28 20:48:56,9,0,0,0
+36077.0,Otsego,New York,US,2020-03-28 20:48:56,6,1,0,0
+36079.0,Putnam,New York,US,2020-03-28 20:48:56,111,0,0,0
+36081.0,Queens,New York,US,2020-03-28 20:48:56,0,0,0,0
+36083.0,Rensselaer,New York,US,2020-03-28 20:48:56,51,0,0,0
+36085.0,Richmond,New York,US,2020-03-28 20:48:56,0,0,0,0
+36087.0,Rockland,New York,US,2020-03-28 20:48:56,1457,8,0,0
+36089.0,St. Lawrence,New York,US,2020-03-28 20:48:56,6,0,0,0
+36091.0,Saratoga,New York,US,2020-03-28 20:48:56,93,0,0,0
+36093.0,Schenectady,New York,US,2020-03-28 20:48:56,66,1,0,0
+36095.0,Schoharie,New York,US,2020-03-28 20:48:56,3,0,0,0
+36097.0,Schuyler,New York,US,2020-03-28 20:48:56,0,0,0,0
+36099.0,Seneca,New York,US,2020-03-28 20:48:56,0,0,0,0
+36101.0,Steuben,New York,US,2020-03-28 20:48:56,12,0,0,0
+36103.0,Suffolk,New York,US,2020-03-28 20:48:56,3385,30,0,0
+36105.0,Sullivan,New York,US,2020-03-28 20:48:56,68,0,0,0
+36107.0,Tioga,New York,US,2020-03-28 20:48:56,6,0,0,0
+36109.0,Tompkins,New York,US,2020-03-28 20:48:56,48,0,0,0
+36111.0,Ulster,New York,US,2020-03-28 20:48:56,133,0,0,0
+36113.0,Warren,New York,US,2020-03-28 20:48:56,8,0,0,0
+36115.0,Washington,New York,US,2020-03-28 20:48:56,9,0,0,0
+36117.0,Wayne,New York,US,2020-03-28 20:48:56,11,0,0,0
+36119.0,Westchester,New York,US,2020-03-28 20:48:56,7187,10,0,0
+36121.0,Wyoming,New York,US,2020-03-28 20:48:56,7,1,0,0
+36123.0,Yates,New York,US,2020-03-28 20:48:56,0,0,0,0
+37001.0,Alamance,North Carolina,US,2020-03-28 20:48:56,5,0,0,0
+37003.0,Alexander,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37005.0,Alleghany,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37007.0,Anson,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37009.0,Ashe,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37011.0,Avery,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37013.0,Beaufort,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37015.0,Bertie,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37017.0,Bladen,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37019.0,Brunswick,North Carolina,US,2020-03-28 20:48:56,12,0,0,0
+37021.0,Buncombe,North Carolina,US,2020-03-28 20:48:56,17,0,0,0
+37023.0,Burke,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37025.0,Cabarrus,North Carolina,US,2020-03-28 20:48:56,31,2,0,0
+37027.0,Caldwell,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37029.0,Camden,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37031.0,Carteret,North Carolina,US,2020-03-28 20:48:56,6,0,0,0
+37033.0,Caswell,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37035.0,Catawba,North Carolina,US,2020-03-28 20:48:56,10,0,0,0
+37037.0,Chatham,North Carolina,US,2020-03-28 20:48:56,12,0,0,0
+37039.0,Cherokee,North Carolina,US,2020-03-28 20:48:56,4,0,0,0
+37041.0,Chowan,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37043.0,Clay,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37045.0,Cleveland,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37047.0,Columbus,North Carolina,US,2020-03-28 20:48:56,2,0,0,0
+37049.0,Craven,North Carolina,US,2020-03-28 20:48:56,4,0,0,0
+37051.0,Cumberland,North Carolina,US,2020-03-28 20:48:56,8,0,0,0
+37053.0,Currituck,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37055.0,Dare,North Carolina,US,2020-03-28 20:48:56,2,0,0,0
+37057.0,Davidson,North Carolina,US,2020-03-28 20:48:56,14,0,0,0
+37059.0,Davie,North Carolina,US,2020-03-28 20:48:56,6,0,0,0
+37061.0,Duplin,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37063.0,Durham,North Carolina,US,2020-03-28 20:48:56,113,0,0,0
+37065.0,Edgecombe,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37067.0,Forsyth,North Carolina,US,2020-03-28 20:48:56,33,0,0,0
+37069.0,Franklin,North Carolina,US,2020-03-28 20:48:56,5,0,0,0
+37071.0,Gaston,North Carolina,US,2020-03-28 20:48:56,17,0,0,0
+37073.0,Gates,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37075.0,Graham,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37077.0,Granville,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37079.0,Greene,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37081.0,Guilford,North Carolina,US,2020-03-28 20:48:56,34,0,0,0
+37083.0,Halifax,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37085.0,Harnett,North Carolina,US,2020-03-28 20:48:56,11,1,0,0
+37087.0,Haywood,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37089.0,Henderson,North Carolina,US,2020-03-28 20:48:56,9,0,0,0
+37091.0,Hertford,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37093.0,Hoke,North Carolina,US,2020-03-28 20:48:56,2,0,0,0
+37095.0,Hyde,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37097.0,Iredell,North Carolina,US,2020-03-28 20:48:56,18,0,0,0
+37099.0,Jackson,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37101.0,Johnston,North Carolina,US,2020-03-28 20:48:56,9,1,0,0
+37103.0,Jones,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37105.0,Lee,North Carolina,US,2020-03-28 20:48:56,2,0,0,0
+37107.0,Lenoir,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37109.0,Lincoln,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37111.0,McDowell,North Carolina,US,2020-03-28 20:48:56,5,0,0,0
+37113.0,Macon,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37115.0,Madison,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37117.0,Martin,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37119.0,Mecklenburg,North Carolina,US,2020-03-28 20:48:56,299,0,0,0
+37121.0,Mitchell,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37123.0,Montgomery,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37125.0,Moore,North Carolina,US,2020-03-28 20:48:56,5,0,0,0
+37127.0,Nash,North Carolina,US,2020-03-28 20:48:56,4,0,0,0
+37129.0,New Hanover,North Carolina,US,2020-03-28 20:48:56,21,0,0,0
+37131.0,Northampton,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37133.0,Onslow,North Carolina,US,2020-03-28 20:48:56,4,0,0,0
+37135.0,Orange,North Carolina,US,2020-03-28 20:48:56,24,0,0,0
+37137.0,Pamlico,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37139.0,Pasquotank,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37141.0,Pender,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37143.0,Perquimans,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37145.0,Person,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37147.0,Pitt,North Carolina,US,2020-03-28 20:48:56,10,0,0,0
+37149.0,Polk,North Carolina,US,2020-03-28 20:48:56,2,0,0,0
+37151.0,Randolph,North Carolina,US,2020-03-28 20:48:56,9,0,0,0
+37153.0,Richmond,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37155.0,Robeson,North Carolina,US,2020-03-28 20:48:56,2,0,0,0
+37157.0,Rockingham,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37159.0,Rowan,North Carolina,US,2020-03-28 20:48:56,12,1,0,0
+37161.0,Rutherford,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37163.0,Sampson,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37165.0,Scotland,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37167.0,Stanly,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37169.0,Stokes,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37171.0,Surry,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37173.0,Swain,North Carolina,US,2020-03-28 20:48:56,1,0,0,0
+37175.0,Transylvania,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37177.0,Tyrrell,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37179.0,Union,North Carolina,US,2020-03-28 20:48:56,34,0,0,0
+37181.0,Vance,North Carolina,US,2020-03-28 20:48:56,2,0,0,0
+37183.0,Wake,North Carolina,US,2020-03-28 20:48:56,123,0,0,0
+37185.0,Warren,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37187.0,Washington,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37189.0,Watauga,North Carolina,US,2020-03-28 20:48:56,5,0,0,0
+37191.0,Wayne,North Carolina,US,2020-03-28 20:48:56,3,0,0,0
+37193.0,Wilkes,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37195.0,Wilson,North Carolina,US,2020-03-28 20:48:56,7,0,0,0
+37197.0,Yadkin,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+37199.0,Yancey,North Carolina,US,2020-03-28 20:48:56,0,0,0,0
+38001.0,Adams,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38003.0,Barnes,North Dakota,US,2020-03-28 20:48:56,2,0,0,0
+38005.0,Benson,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38007.0,Billings,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38009.0,Bottineau,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38011.0,Bowman,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38013.0,Burke,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38015.0,Burleigh,North Dakota,US,2020-03-28 20:48:56,27,0,0,0
+38017.0,Cass,North Dakota,US,2020-03-28 20:48:56,17,1,0,0
+38019.0,Cavalier,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38021.0,Dickey,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38023.0,Divide,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38025.0,Dunn,North Dakota,US,2020-03-28 20:48:56,1,0,0,0
+38027.0,Eddy,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38029.0,Emmons,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38031.0,Foster,North Dakota,US,2020-03-28 20:48:56,1,0,0,0
+38033.0,Golden Valley,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38035.0,Grand Forks,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38037.0,Grant,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38039.0,Griggs,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38041.0,Hettinger,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38043.0,Kidder,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38045.0,LaMoure,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38047.0,Logan,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38049.0,McHenry,North Dakota,US,2020-03-28 20:48:56,1,0,0,0
+38051.0,McIntosh,North Dakota,US,2020-03-28 20:48:56,1,0,0,0
+38053.0,McKenzie,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38055.0,McLean,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38057.0,Mercer,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38059.0,Morton,North Dakota,US,2020-03-28 20:48:56,12,0,0,0
+38061.0,Mountrail,North Dakota,US,2020-03-28 20:48:56,1,0,0,0
+38063.0,Nelson,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38065.0,Oliver,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38067.0,Pembina,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38069.0,Pierce,North Dakota,US,2020-03-28 20:48:56,2,0,0,0
+38071.0,Ramsey,North Dakota,US,2020-03-28 20:48:56,3,0,0,0
+38073.0,Ransom,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38075.0,Renville,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38077.0,Richland,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38079.0,Rolette,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38081.0,Sargent,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38083.0,Sheridan,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38085.0,Sioux,North Dakota,US,2020-03-28 20:48:56,1,0,0,0
+38087.0,Slope,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38089.0,Stark,North Dakota,US,2020-03-28 20:48:56,9,0,0,0
+38091.0,Steele,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38093.0,Stutsman,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38095.0,Towner,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38097.0,Traill,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38099.0,Walsh,North Dakota,US,2020-03-28 20:48:56,1,0,0,0
+38101.0,Ward,North Dakota,US,2020-03-28 20:48:56,4,0,0,0
+38103.0,Wells,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+38105.0,Williams,North Dakota,US,2020-03-28 20:48:56,0,0,0,0
+39001.0,Adams,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39003.0,Allen,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39005.0,Ashland,Ohio,US,2020-03-28 20:48:56,3,0,0,0
+39007.0,Ashtabula,Ohio,US,2020-03-28 20:48:56,6,0,0,0
+39009.0,Athens,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39011.0,Auglaize,Ohio,US,2020-03-28 20:48:56,1,0,0,0
+39013.0,Belmont,Ohio,US,2020-03-28 20:48:56,8,0,0,0
+39015.0,Brown,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39017.0,Butler,Ohio,US,2020-03-28 20:48:56,25,0,0,0
+39019.0,Carroll,Ohio,US,2020-03-28 20:48:56,3,0,0,0
+39021.0,Champaign,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39023.0,Clark,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39025.0,Clermont,Ohio,US,2020-03-28 20:48:56,8,0,0,0
+39027.0,Clinton,Ohio,US,2020-03-28 20:48:56,3,0,0,0
+39029.0,Columbiana,Ohio,US,2020-03-28 20:48:56,9,1,0,0
+39031.0,Coshocton,Ohio,US,2020-03-28 20:48:56,4,0,0,0
+39033.0,Crawford,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39035.0,Cuyahoga,Ohio,US,2020-03-28 20:48:56,370,3,0,0
+39037.0,Darke,Ohio,US,2020-03-28 20:48:56,1,0,0,0
+39039.0,Defiance,Ohio,US,2020-03-28 20:48:56,5,0,0,0
+39041.0,Delaware,Ohio,US,2020-03-28 20:48:56,26,0,0,0
+39043.0,Erie,Ohio,US,2020-03-28 20:48:56,5,1,0,0
+39045.0,Fairfield,Ohio,US,2020-03-28 20:48:56,14,0,0,0
+39047.0,Fayette,Ohio,US,2020-03-28 20:48:56,1,0,0,0
+39049.0,Franklin,Ohio,US,2020-03-28 20:48:56,222,2,0,0
+39051.0,Fulton,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39053.0,Gallia,Ohio,US,2020-03-28 20:48:56,1,1,0,0
+39055.0,Geauga,Ohio,US,2020-03-28 20:48:56,14,0,0,0
+39057.0,Greene,Ohio,US,2020-03-28 20:48:56,3,0,0,0
+39059.0,Guernsey,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39061.0,Hamilton,Ohio,US,2020-03-28 20:48:56,71,0,0,0
+39063.0,Hancock,Ohio,US,2020-03-28 20:48:56,3,0,0,0
+39065.0,Hardin,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39067.0,Harrison,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39069.0,Henry,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39071.0,Highland,Ohio,US,2020-03-28 20:48:56,1,0,0,0
+39073.0,Hocking,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39075.0,Holmes,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39077.0,Huron,Ohio,US,2020-03-28 20:48:56,3,0,0,0
+39079.0,Jackson,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39081.0,Jefferson,Ohio,US,2020-03-28 20:48:56,5,0,0,0
+39083.0,Knox,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39085.0,Lake,Ohio,US,2020-03-28 20:48:56,30,1,0,0
+39087.0,Lawrence,Ohio,US,2020-03-28 20:48:56,1,0,0,0
+39089.0,Licking,Ohio,US,2020-03-28 20:48:56,14,0,0,0
+39091.0,Logan,Ohio,US,2020-03-28 20:48:56,3,0,0,0
+39093.0,Lorain,Ohio,US,2020-03-28 20:48:56,65,0,0,0
+39095.0,Lucas,Ohio,US,2020-03-28 20:48:56,67,2,0,0
+39097.0,Madison,Ohio,US,2020-03-28 20:48:56,4,0,0,0
+39099.0,Mahoning,Ohio,US,2020-03-28 20:48:56,80,2,0,0
+39101.0,Marion,Ohio,US,2020-03-28 20:48:56,5,0,0,0
+39103.0,Medina,Ohio,US,2020-03-28 20:48:56,37,0,0,0
+39105.0,Meigs,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39107.0,Mercer,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39109.0,Miami,Ohio,US,2020-03-28 20:48:56,38,4,0,0
+39111.0,Monroe,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39113.0,Montgomery,Ohio,US,2020-03-28 20:48:56,20,0,0,0
+39115.0,Morgan,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39117.0,Morrow,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39119.0,Muskingum,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39121.0,Noble,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39123.0,Ottawa,Ohio,US,2020-03-28 20:48:56,1,0,0,0
+39125.0,Paulding,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39127.0,Perry,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39129.0,Pickaway,Ohio,US,2020-03-28 20:48:56,4,0,0,0
+39131.0,Pike,Ohio,US,2020-03-28 20:48:56,1,0,0,0
+39133.0,Portage,Ohio,US,2020-03-28 20:48:56,19,0,0,0
+39135.0,Preble,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39137.0,Putnam,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39139.0,Richland,Ohio,US,2020-03-28 20:48:56,5,0,0,0
+39141.0,Ross,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39143.0,Sandusky,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39145.0,Scioto,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39147.0,Seneca,Ohio,US,2020-03-28 20:48:56,1,0,0,0
+39149.0,Shelby,Ohio,US,2020-03-28 20:48:56,3,0,0,0
+39151.0,Stark,Ohio,US,2020-03-28 20:48:56,25,2,0,0
+39153.0,Summit,Ohio,US,2020-03-28 20:48:56,79,4,0,0
+39155.0,Trumbull,Ohio,US,2020-03-28 20:48:56,27,2,0,0
+39157.0,Tuscarawas,Ohio,US,2020-03-28 20:48:56,5,0,0,0
+39159.0,Union,Ohio,US,2020-03-28 20:48:56,3,0,0,0
+39161.0,Van Wert,Ohio,US,2020-03-28 20:48:56,1,0,0,0
+39163.0,Vinton,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39165.0,Warren,Ohio,US,2020-03-28 20:48:56,16,0,0,0
+39167.0,Washington,Ohio,US,2020-03-28 20:48:56,2,0,0,0
+39169.0,Wayne,Ohio,US,2020-03-28 20:48:56,4,0,0,0
+39171.0,Williams,Ohio,US,2020-03-28 20:48:56,0,0,0,0
+39173.0,Wood,Ohio,US,2020-03-28 20:48:56,10,0,0,0
+39175.0,Wyandot,Ohio,US,2020-03-28 20:48:56,1,0,0,0
+40001.0,Adair,Oklahoma,US,2020-03-28 20:48:56,3,0,0,0
+40003.0,Alfalfa,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40005.0,Atoka,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40007.0,Beaver,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40009.0,Beckham,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40011.0,Blaine,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40013.0,Bryan,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40015.0,Caddo,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40017.0,Canadian,Oklahoma,US,2020-03-28 20:48:56,11,0,0,0
+40019.0,Carter,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40021.0,Cherokee,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40023.0,Choctaw,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40025.0,Cimarron,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40027.0,Cleveland,Oklahoma,US,2020-03-28 20:48:56,39,3,0,0
+40029.0,Coal,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40031.0,Comanche,Oklahoma,US,2020-03-28 20:48:56,6,0,0,0
+40033.0,Cotton,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40035.0,Craig,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40037.0,Creek,Oklahoma,US,2020-03-28 20:48:56,14,1,0,0
+40039.0,Custer,Oklahoma,US,2020-03-28 20:48:56,3,0,0,0
+40041.0,Delaware,Oklahoma,US,2020-03-28 20:48:56,2,0,0,0
+40043.0,Dewey,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40045.0,Ellis,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40047.0,Garfield,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40049.0,Garvin,Oklahoma,US,2020-03-28 20:48:56,2,0,0,0
+40051.0,Grady,Oklahoma,US,2020-03-28 20:48:56,2,0,0,0
+40053.0,Grant,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40055.0,Greer,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40057.0,Harmon,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40059.0,Harper,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40061.0,Haskell,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40063.0,Hughes,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40065.0,Jackson,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40067.0,Jefferson,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40069.0,Johnston,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40071.0,Kay,Oklahoma,US,2020-03-28 20:48:56,17,0,0,0
+40073.0,Kingfisher,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40075.0,Kiowa,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40077.0,Latimer,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40079.0,Le Flore,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40081.0,Lincoln,Oklahoma,US,2020-03-28 20:48:56,3,0,0,0
+40083.0,Logan,Oklahoma,US,2020-03-28 20:48:56,3,0,0,0
+40085.0,Love,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40087.0,McClain,Oklahoma,US,2020-03-28 20:48:56,2,0,0,0
+40089.0,McCurtain,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40091.0,McIntosh,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40093.0,Major,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40095.0,Marshall,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40097.0,Mayes,Oklahoma,US,2020-03-28 20:48:56,2,0,0,0
+40099.0,Murray,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40101.0,Muskogee,Oklahoma,US,2020-03-28 20:48:56,5,0,0,0
+40103.0,Noble,Oklahoma,US,2020-03-28 20:48:56,3,0,0,0
+40105.0,Nowata,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40107.0,Okfuskee,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40109.0,Oklahoma,Oklahoma,US,2020-03-28 20:48:56,94,2,0,0
+40111.0,Okmulgee,Oklahoma,US,2020-03-28 20:48:56,2,0,0,0
+40113.0,Osage,Oklahoma,US,2020-03-28 20:48:56,5,0,0,0
+40115.0,Ottawa,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40117.0,Pawnee,Oklahoma,US,2020-03-28 20:48:56,14,1,0,0
+40119.0,Payne,Oklahoma,US,2020-03-28 20:48:56,7,0,0,0
+40121.0,Pittsburg,Oklahoma,US,2020-03-28 20:48:56,2,0,0,0
+40123.0,Pontotoc,Oklahoma,US,2020-03-28 20:48:56,2,0,0,0
+40125.0,Pottawatomie,Oklahoma,US,2020-03-28 20:48:56,2,0,0,0
+40127.0,Pushmataha,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40129.0,Roger Mills,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40131.0,Rogers,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40133.0,Seminole,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40135.0,Sequoyah,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40137.0,Stephens,Oklahoma,US,2020-03-28 20:48:56,1,0,0,0
+40139.0,Texas,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40141.0,Tillman,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40143.0,Tulsa,Oklahoma,US,2020-03-28 20:48:56,49,1,0,0
+40145.0,Wagoner,Oklahoma,US,2020-03-28 20:48:56,8,0,0,0
+40147.0,Washington,Oklahoma,US,2020-03-28 20:48:56,9,0,0,0
+40149.0,Washita,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40151.0,Woods,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+40153.0,Woodward,Oklahoma,US,2020-03-28 20:48:56,0,0,0,0
+41001.0,Baker,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41003.0,Benton,Oregon,US,2020-03-28 20:48:56,8,0,0,0
+41005.0,Clackamas,Oregon,US,2020-03-28 20:48:56,36,2,0,0
+41007.0,Clatsop,Oregon,US,2020-03-28 20:48:56,3,0,0,0
+41009.0,Columbia,Oregon,US,2020-03-28 20:48:56,1,0,0,0
+41011.0,Coos,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41013.0,Crook,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41015.0,Curry,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41017.0,Deschutes,Oregon,US,2020-03-28 20:48:56,20,0,0,0
+41019.0,Douglas,Oregon,US,2020-03-28 20:48:56,4,0,0,0
+41021.0,Gilliam,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41023.0,Grant,Oregon,US,2020-03-28 20:48:56,1,0,0,0
+41025.0,Harney,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41027.0,Hood River,Oregon,US,2020-03-28 20:48:56,1,0,0,0
+41029.0,Jackson,Oregon,US,2020-03-28 20:48:56,8,0,0,0
+41031.0,Jefferson,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41033.0,Josephine,Oregon,US,2020-03-28 20:48:56,5,0,0,0
+41035.0,Klamath,Oregon,US,2020-03-28 20:48:56,2,0,0,0
+41037.0,Lake,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41039.0,Lane,Oregon,US,2020-03-28 20:48:56,9,1,0,0
+41041.0,Lincoln,Oregon,US,2020-03-28 20:48:56,1,0,0,0
+41043.0,Linn,Oregon,US,2020-03-28 20:48:56,32,1,0,0
+41045.0,Malheur,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41047.0,Marion,Oregon,US,2020-03-28 20:48:56,94,3,0,0
+41049.0,Morrow,Oregon,US,2020-03-28 20:48:56,1,0,0,0
+41051.0,Multnomah,Oregon,US,2020-03-28 20:48:56,81,2,0,0
+41053.0,Polk,Oregon,US,2020-03-28 20:48:56,11,0,0,0
+41055.0,Sherman,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41057.0,Tillamook,Oregon,US,2020-03-28 20:48:56,1,0,0,0
+41059.0,Umatilla,Oregon,US,2020-03-28 20:48:56,4,0,0,0
+41061.0,Union,Oregon,US,2020-03-28 20:48:56,1,0,0,0
+41063.0,Wallowa,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41065.0,Wasco,Oregon,US,2020-03-28 20:48:56,2,0,0,0
+41067.0,Washington,Oregon,US,2020-03-28 20:48:56,140,3,0,0
+41069.0,Wheeler,Oregon,US,2020-03-28 20:48:56,0,0,0,0
+41071.0,Yamhill,Oregon,US,2020-03-28 20:48:56,13,1,0,0
+42001.0,Adams,Pennsylvania,US,2020-03-28 20:48:56,8,0,0,0
+42003.0,Allegheny,Pennsylvania,US,2020-03-28 20:48:56,219,2,0,0
+42005.0,Armstrong,Pennsylvania,US,2020-03-28 20:48:56,2,0,0,0
+42007.0,Beaver,Pennsylvania,US,2020-03-28 20:48:56,22,0,0,0
+42009.0,Bedford,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42011.0,Berks,Pennsylvania,US,2020-03-28 20:48:56,65,0,0,0
+42013.0,Blair,Pennsylvania,US,2020-03-28 20:48:56,2,0,0,0
+42015.0,Bradford,Pennsylvania,US,2020-03-28 20:48:56,3,0,0,0
+42017.0,Bucks,Pennsylvania,US,2020-03-28 20:48:56,152,0,0,0
+42019.0,Butler,Pennsylvania,US,2020-03-28 20:48:56,41,2,0,0
+42021.0,Cambria,Pennsylvania,US,2020-03-28 20:48:56,1,0,0,0
+42023.0,Cameron,Pennsylvania,US,2020-03-28 20:48:56,1,0,0,0
+42025.0,Carbon,Pennsylvania,US,2020-03-28 20:48:56,3,0,0,0
+42027.0,Centre,Pennsylvania,US,2020-03-28 20:48:56,15,0,0,0
+42029.0,Chester,Pennsylvania,US,2020-03-28 20:48:56,116,0,0,0
+42031.0,Clarion,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42033.0,Clearfield,Pennsylvania,US,2020-03-28 20:48:56,2,0,0,0
+42035.0,Clinton,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42037.0,Columbia,Pennsylvania,US,2020-03-28 20:48:56,4,0,0,0
+42039.0,Crawford,Pennsylvania,US,2020-03-28 20:48:56,2,0,0,0
+42041.0,Cumberland,Pennsylvania,US,2020-03-28 20:48:56,22,1,0,0
+42043.0,Dauphin,Pennsylvania,US,2020-03-28 20:48:56,23,0,0,0
+42045.0,Delaware,Pennsylvania,US,2020-03-28 20:48:56,226,4,0,0
+42047.0,Elk,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42049.0,Erie,Pennsylvania,US,2020-03-28 20:48:56,7,0,0,0
+42051.0,Fayette,Pennsylvania,US,2020-03-28 20:48:56,10,0,0,0
+42053.0,Forest,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42055.0,Franklin,Pennsylvania,US,2020-03-28 20:48:56,7,0,0,0
+42057.0,Fulton,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42059.0,Greene,Pennsylvania,US,2020-03-28 20:48:56,6,0,0,0
+42061.0,Huntingdon,Pennsylvania,US,2020-03-28 20:48:56,1,0,0,0
+42063.0,Indiana,Pennsylvania,US,2020-03-28 20:48:56,2,0,0,0
+42065.0,Jefferson,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42067.0,Juniata,Pennsylvania,US,2020-03-28 20:48:56,1,0,0,0
+42069.0,Lackawanna,Pennsylvania,US,2020-03-28 20:48:56,51,2,0,0
+42071.0,Lancaster,Pennsylvania,US,2020-03-28 20:48:56,45,1,0,0
+42073.0,Lawrence,Pennsylvania,US,2020-03-28 20:48:56,8,0,0,0
+42075.0,Lebanon,Pennsylvania,US,2020-03-28 20:48:56,15,0,0,0
+42077.0,Lehigh,Pennsylvania,US,2020-03-28 20:48:56,109,3,0,0
+42079.0,Luzerne,Pennsylvania,US,2020-03-28 20:48:56,65,2,0,0
+42081.0,Lycoming,Pennsylvania,US,2020-03-28 20:48:56,2,0,0,0
+42083.0,McKean,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42085.0,Mercer,Pennsylvania,US,2020-03-28 20:48:56,6,0,0,0
+42087.0,Mifflin,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42089.0,Monroe,Pennsylvania,US,2020-03-28 20:48:56,106,2,0,0
+42091.0,Montgomery,Pennsylvania,US,2020-03-28 20:48:56,411,5,0,0
+42093.0,Montour,Pennsylvania,US,2020-03-28 20:48:56,5,0,0,0
+42095.0,Northampton,Pennsylvania,US,2020-03-28 20:48:56,94,4,0,0
+42097.0,Northumberland,Pennsylvania,US,2020-03-28 20:48:56,1,0,0,0
+42099.0,Perry,Pennsylvania,US,2020-03-28 20:48:56,1,0,0,0
+42101.0,Philadelphia,Pennsylvania,US,2020-03-28 20:48:56,803,5,0,0
+42103.0,Pike,Pennsylvania,US,2020-03-28 20:48:56,27,1,0,0
+42105.0,Potter,Pennsylvania,US,2020-03-28 20:48:56,2,0,0,0
+42107.0,Schuylkill,Pennsylvania,US,2020-03-28 20:48:56,16,0,0,0
+42109.0,Snyder,Pennsylvania,US,2020-03-28 20:48:56,1,0,0,0
+42111.0,Somerset,Pennsylvania,US,2020-03-28 20:48:56,2,0,0,0
+42113.0,Sullivan,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42115.0,Susquehanna,Pennsylvania,US,2020-03-28 20:48:56,1,0,0,0
+42117.0,Tioga,Pennsylvania,US,2020-03-28 20:48:56,1,0,0,0
+42119.0,Union,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42121.0,Venango,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42123.0,Warren,Pennsylvania,US,2020-03-28 20:48:56,1,0,0,0
+42125.0,Washington,Pennsylvania,US,2020-03-28 20:48:56,23,0,0,0
+42127.0,Wayne,Pennsylvania,US,2020-03-28 20:48:56,6,0,0,0
+42129.0,Westmoreland,Pennsylvania,US,2020-03-28 20:48:56,41,0,0,0
+42131.0,Wyoming,Pennsylvania,US,2020-03-28 20:48:56,0,0,0,0
+42133.0,York,Pennsylvania,US,2020-03-28 20:48:56,37,0,0,0
+44001.0,Bristol,Rhode Island,US,2020-03-28 20:48:56,6,0,0,0
+44003.0,Kent,Rhode Island,US,2020-03-28 20:48:56,9,0,0,0
+44005.0,Newport,Rhode Island,US,2020-03-28 20:48:56,12,0,0,0
+44007.0,Providence,Rhode Island,US,2020-03-28 20:48:56,91,0,0,0
+44009.0,Washington,Rhode Island,US,2020-03-28 20:48:56,14,0,0,0
+45001.0,Abbeville,South Carolina,US,2020-03-28 20:48:56,4,0,0,0
+45003.0,Aiken,South Carolina,US,2020-03-28 20:48:56,6,0,0,0
+45005.0,Allendale,South Carolina,US,2020-03-28 20:48:56,0,0,0,0
+45007.0,Anderson,South Carolina,US,2020-03-28 20:48:56,21,0,0,0
+45009.0,Bamberg,South Carolina,US,2020-03-28 20:48:56,0,0,0,0
+45011.0,Barnwell,South Carolina,US,2020-03-28 20:48:56,0,0,0,0
+45013.0,Beaufort,South Carolina,US,2020-03-28 20:48:56,35,0,0,0
+45015.0,Berkeley,South Carolina,US,2020-03-28 20:48:56,10,0,0,0
+45017.0,Calhoun,South Carolina,US,2020-03-28 20:48:56,1,0,0,0
+45019.0,Charleston,South Carolina,US,2020-03-28 20:48:56,92,1,0,0
+45021.0,Cherokee,South Carolina,US,2020-03-28 20:48:56,0,0,0,0
+45023.0,Chester,South Carolina,US,2020-03-28 20:48:56,1,0,0,0
+45025.0,Chesterfield,South Carolina,US,2020-03-28 20:48:56,4,0,0,0
+45027.0,Clarendon,South Carolina,US,2020-03-28 20:48:56,6,1,0,0
+45029.0,Colleton,South Carolina,US,2020-03-28 20:48:56,2,0,0,0
+45031.0,Darlington,South Carolina,US,2020-03-28 20:48:56,8,0,0,0
+45033.0,Dillon,South Carolina,US,2020-03-28 20:48:56,1,0,0,0
+45035.0,Dorchester,South Carolina,US,2020-03-28 20:48:56,9,0,0,0
+45037.0,Edgefield,South Carolina,US,2020-03-28 20:48:56,1,0,0,0
+45039.0,Fairfield,South Carolina,US,2020-03-28 20:48:56,4,0,0,0
+45041.0,Florence,South Carolina,US,2020-03-28 20:48:56,11,3,0,0
+45043.0,Georgetown,South Carolina,US,2020-03-28 20:48:56,3,0,0,0
+45045.0,Greenville,South Carolina,US,2020-03-28 20:48:56,51,1,0,0
+45047.0,Greenwood,South Carolina,US,2020-03-28 20:48:56,2,0,0,0
+45049.0,Hampton,South Carolina,US,2020-03-28 20:48:56,0,0,0,0
+45051.0,Horry,South Carolina,US,2020-03-28 20:48:56,24,1,0,0
+45053.0,Jasper,South Carolina,US,2020-03-28 20:48:56,3,0,0,0
+45055.0,Kershaw,South Carolina,US,2020-03-28 20:48:56,70,2,0,0
+45057.0,Lancaster,South Carolina,US,2020-03-28 20:48:56,8,0,0,0
+45059.0,Laurens,South Carolina,US,2020-03-28 20:48:56,0,0,0,0
+45061.0,Lee,South Carolina,US,2020-03-28 20:48:56,2,0,0,0
+45063.0,Lexington,South Carolina,US,2020-03-28 20:48:56,25,1,0,0
+45065.0,McCormick,South Carolina,US,2020-03-28 20:48:56,0,0,0,0
+45067.0,Marion,South Carolina,US,2020-03-28 20:48:56,1,0,0,0
+45069.0,Marlboro,South Carolina,US,2020-03-28 20:48:56,1,0,0,0
+45071.0,Newberry,South Carolina,US,2020-03-28 20:48:56,1,0,0,0
+45073.0,Oconee,South Carolina,US,2020-03-28 20:48:56,3,0,0,0
+45075.0,Orangeburg,South Carolina,US,2020-03-28 20:48:56,12,0,0,0
+45077.0,Pickens,South Carolina,US,2020-03-28 20:48:56,7,0,0,0
+45079.0,Richland,South Carolina,US,2020-03-28 20:48:56,65,1,0,0
+45081.0,Saluda,South Carolina,US,2020-03-28 20:48:56,1,0,0,0
+45083.0,Spartanburg,South Carolina,US,2020-03-28 20:48:56,16,0,0,0
+45085.0,Sumter,South Carolina,US,2020-03-28 20:48:56,10,2,0,0
+45087.0,Union,South Carolina,US,2020-03-28 20:48:56,1,0,0,0
+45089.0,Williamsburg,South Carolina,US,2020-03-28 20:48:56,1,0,0,0
+45091.0,York,South Carolina,US,2020-03-28 20:48:56,19,0,0,0
+46003.0,Aurora,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46005.0,Beadle,South Dakota,US,2020-03-28 20:48:56,16,0,0,0
+46007.0,Bennett,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46009.0,Bon Homme,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46011.0,Brookings,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46013.0,Brown,South Dakota,US,2020-03-28 20:48:56,2,0,0,0
+46015.0,Brule,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46017.0,Buffalo,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46019.0,Butte,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46021.0,Campbell,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46023.0,Charles Mix,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46025.0,Clark,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46027.0,Clay,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46029.0,Codington,South Dakota,US,2020-03-28 20:48:56,2,0,0,0
+46031.0,Corson,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46033.0,Custer,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46035.0,Davison,South Dakota,US,2020-03-28 20:48:56,2,0,0,0
+46037.0,Day,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46039.0,Deuel,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46041.0,Dewey,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46043.0,Douglas,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46045.0,Edmunds,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46047.0,Fall River,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46049.0,Faulk,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46051.0,Grant,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46053.0,Gregory,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46055.0,Haakon,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46057.0,Hamlin,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46059.0,Hand,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46061.0,Hanson,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46063.0,Harding,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46065.0,Hughes,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46067.0,Hutchinson,South Dakota,US,2020-03-28 20:48:56,2,0,0,0
+46069.0,Hyde,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46071.0,Jackson,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46073.0,Jerauld,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46075.0,Jones,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46077.0,Kingsbury,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46079.0,Lake,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46081.0,Lawrence,South Dakota,US,2020-03-28 20:48:56,2,0,0,0
+46083.0,Lincoln,South Dakota,US,2020-03-28 20:48:56,3,0,0,0
+46085.0,Lyman,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46087.0,McCook,South Dakota,US,2020-03-28 20:48:56,2,0,0,0
+46089.0,McPherson,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46091.0,Marshall,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46093.0,Meade,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46095.0,Mellette,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46097.0,Miner,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46099.0,Minnehaha,South Dakota,US,2020-03-28 20:48:56,21,0,0,0
+46101.0,Moody,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46102.0,Oglala Lakota,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46103.0,Pennington,South Dakota,US,2020-03-28 20:48:56,3,1,0,0
+46105.0,Perkins,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46107.0,Potter,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46109.0,Roberts,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46111.0,Sanborn,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46115.0,Spink,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46117.0,Stanley,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46119.0,Sully,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46121.0,Todd,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46123.0,Tripp,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46125.0,Turner,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46127.0,Union,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46129.0,Walworth,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+46135.0,Yankton,South Dakota,US,2020-03-28 20:48:56,1,0,0,0
+46137.0,Ziebach,South Dakota,US,2020-03-28 20:48:56,0,0,0,0
+47001.0,Anderson,Tennessee,US,2020-03-28 20:48:56,5,0,0,0
+47003.0,Bedford,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47005.0,Benton,Tennessee,US,2020-03-28 20:48:56,3,0,0,0
+47007.0,Bledsoe,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47009.0,Blount,Tennessee,US,2020-03-28 20:48:56,9,0,0,0
+47011.0,Bradley,Tennessee,US,2020-03-28 20:48:56,5,0,0,0
+47013.0,Campbell,Tennessee,US,2020-03-28 20:48:56,4,0,0,0
+47015.0,Cannon,Tennessee,US,2020-03-28 20:48:56,3,0,0,0
+47017.0,Carroll,Tennessee,US,2020-03-28 20:48:56,4,0,0,0
+47019.0,Carter,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47021.0,Cheatham,Tennessee,US,2020-03-28 20:48:56,7,0,0,0
+47023.0,Chester,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47025.0,Claiborne,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47027.0,Clay,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47029.0,Cocke,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47031.0,Coffee,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47033.0,Crockett,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47035.0,Cumberland,Tennessee,US,2020-03-28 20:48:56,6,0,0,0
+47037.0,Davidson,Tennessee,US,2020-03-28 20:48:56,376,2,0,0
+47039.0,Decatur,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47041.0,DeKalb,Tennessee,US,2020-03-28 20:48:56,3,0,0,0
+47043.0,Dickson,Tennessee,US,2020-03-28 20:48:56,11,0,0,0
+47045.0,Dyer,Tennessee,US,2020-03-28 20:48:56,3,0,0,0
+47047.0,Fayette,Tennessee,US,2020-03-28 20:48:56,4,0,0,0
+47049.0,Fentress,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47051.0,Franklin,Tennessee,US,2020-03-28 20:48:56,3,0,0,0
+47053.0,Gibson,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47055.0,Giles,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47057.0,Grainger,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47059.0,Greene,Tennessee,US,2020-03-28 20:48:56,8,0,0,0
+47061.0,Grundy,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47063.0,Hamblen,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47065.0,Hamilton,Tennessee,US,2020-03-28 20:48:56,35,1,0,0
+47067.0,Hancock,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47069.0,Hardeman,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47071.0,Hardin,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47073.0,Hawkins,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47075.0,Haywood,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47077.0,Henderson,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47079.0,Henry,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47081.0,Hickman,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47083.0,Houston,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47085.0,Humphreys,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47087.0,Jackson,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47089.0,Jefferson,Tennessee,US,2020-03-28 20:48:56,5,0,0,0
+47091.0,Johnson,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47093.0,Knox,Tennessee,US,2020-03-28 20:48:56,33,0,0,0
+47095.0,Lake,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47097.0,Lauderdale,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47099.0,Lawrence,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47101.0,Lewis,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47103.0,Lincoln,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47105.0,Loudon,Tennessee,US,2020-03-28 20:48:56,6,0,0,0
+47107.0,McMinn,Tennessee,US,2020-03-28 20:48:56,3,0,0,0
+47109.0,McNairy,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47111.0,Macon,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47113.0,Madison,Tennessee,US,2020-03-28 20:48:56,3,0,0,0
+47115.0,Marion,Tennessee,US,2020-03-28 20:48:56,4,0,0,0
+47117.0,Marshall,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47119.0,Maury,Tennessee,US,2020-03-28 20:48:56,8,0,0,0
+47121.0,Meigs,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47123.0,Monroe,Tennessee,US,2020-03-28 20:48:56,3,0,0,0
+47125.0,Montgomery,Tennessee,US,2020-03-28 20:48:56,11,0,0,0
+47127.0,Moore,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47129.0,Morgan,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47131.0,Obion,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47133.0,Overton,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47135.0,Perry,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47137.0,Pickett,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47139.0,Polk,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47141.0,Putnam,Tennessee,US,2020-03-28 20:48:56,17,0,0,0
+47143.0,Rhea,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47145.0,Roane,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47147.0,Robertson,Tennessee,US,2020-03-28 20:48:56,23,0,0,0
+47149.0,Rutherford,Tennessee,US,2020-03-28 20:48:56,46,0,0,0
+47151.0,Scott,Tennessee,US,2020-03-28 20:48:56,2,0,0,0
+47151.0,Scott County,Tennessee,US,NA,NA,NA,NA,NA
+47153.0,Sequatchie,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47155.0,Sevier,Tennessee,US,2020-03-28 20:48:56,6,0,0,0
+47157.0,Shelby,Tennessee,US,2020-03-28 20:48:56,275,0,0,0
+47159.0,Smith,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47161.0,Stewart,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47163.0,Sullivan,Tennessee,US,2020-03-28 20:48:56,6,0,0,0
+47165.0,Sumner,Tennessee,US,2020-03-28 20:48:56,82,0,0,0
+47167.0,Tipton,Tennessee,US,2020-03-28 20:48:56,11,0,0,0
+47169.0,Trousdale,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47171.0,Unicoi,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47173.0,Union,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47175.0,Van Buren,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47177.0,Warren,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47179.0,Washington,Tennessee,US,2020-03-28 20:48:56,14,0,0,0
+47181.0,Wayne,Tennessee,US,2020-03-28 20:48:56,0,0,0,0
+47183.0,Weakley,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47185.0,White,Tennessee,US,2020-03-28 20:48:56,1,0,0,0
+47187.0,Williamson,Tennessee,US,2020-03-28 20:48:56,95,0,0,0
+47189.0,Wilson,Tennessee,US,2020-03-28 20:48:56,20,0,0,0
+48001.0,Anderson,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48003.0,Andrews,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48005.0,Angelina,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48007.0,Aransas,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48009.0,Archer,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48011.0,Armstrong,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48013.0,Atascosa,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48015.0,Austin,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48017.0,Bailey,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48019.0,Bandera,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48021.0,Bastrop,Texas,US,2020-03-28 20:48:56,4,0,0,0
+48023.0,Baylor,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48025.0,Bee,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48027.0,Bell,Texas,US,2020-03-28 20:48:56,28,1,0,0
+48029.0,Bexar,Texas,US,2020-03-28 20:48:56,125,5,0,0
+48031.0,Blanco,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48033.0,Borden,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48035.0,Bosque,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48037.0,Bowie,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48039.0,Brazoria,Texas,US,2020-03-28 20:48:56,61,0,0,0
+48041.0,Brazos,Texas,US,2020-03-28 20:48:56,36,0,0,0
+48043.0,Brewster,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48045.0,Briscoe,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48047.0,Brooks,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48049.0,Brown,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48051.0,Burleson,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48053.0,Burnet,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48055.0,Caldwell,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48057.0,Calhoun,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48059.0,Callahan,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48061.0,Cameron,Texas,US,2020-03-28 20:48:56,13,0,0,0
+48063.0,Camp,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48065.0,Carson,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48067.0,Cass,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48069.0,Castro,Texas,US,2020-03-28 20:48:56,8,0,0,0
+48071.0,Chambers,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48073.0,Cherokee,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48075.0,Childress,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48077.0,Clay,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48079.0,Cochran,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48081.0,Coke,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48083.0,Coleman,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48085.0,Collin,Texas,US,2020-03-28 20:48:56,119,1,0,0
+48087.0,Collingsworth,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48089.0,Colorado,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48091.0,Comal,Texas,US,2020-03-28 20:48:56,9,1,0,0
+48093.0,Comanche,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48095.0,Concho,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48097.0,Cooke,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48099.0,Coryell,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48101.0,Cottle,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48103.0,Crane,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48105.0,Crockett,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48107.0,Crosby,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48109.0,Culberson,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48111.0,Dallam,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48113.0,Dallas,Texas,US,2020-03-28 20:48:56,439,9,0,0
+48115.0,Dawson,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48117.0,Deaf Smith,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48119.0,Delta,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48121.0,Denton,Texas,US,2020-03-28 20:48:56,137,1,0,0
+48123.0,DeWitt,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48125.0,Dickens,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48127.0,Dimmit,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48129.0,Donley,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48131.0,Duval,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48133.0,Eastland,Texas,US,2020-03-28 20:48:56,4,0,0,0
+48135.0,Ector,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48137.0,Edwards,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48139.0,Ellis,Texas,US,2020-03-28 20:48:56,13,0,0,0
+48141.0,El Paso,Texas,US,2020-03-28 20:48:56,38,0,0,0
+48143.0,Erath,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48145.0,Falls,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48147.0,Fannin,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48149.0,Fayette,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48151.0,Fisher,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48153.0,Floyd,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48155.0,Foard,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48157.0,Fort Bend,Texas,US,2020-03-28 20:48:56,101,1,0,0
+48159.0,Franklin,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48161.0,Freestone,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48163.0,Frio,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48165.0,Gaines,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48167.0,Galveston,Texas,US,2020-03-28 20:48:56,49,0,0,0
+48169.0,Garza,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48171.0,Gillespie,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48173.0,Glasscock,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48175.0,Goliad,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48177.0,Gonzales,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48179.0,Gray,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48181.0,Grayson,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48183.0,Gregg,Texas,US,2020-03-28 20:48:56,4,0,0,0
+48185.0,Grimes,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48187.0,Guadalupe,Texas,US,2020-03-28 20:48:56,8,0,0,0
+48189.0,Hale,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48191.0,Hall,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48193.0,Hamilton,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48195.0,Hansford,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48197.0,Hardeman,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48199.0,Hardin,Texas,US,2020-03-28 20:48:56,6,0,0,0
+48201.0,Harris,Texas,US,2020-03-28 20:48:56,392,2,0,0
+48203.0,Harrison,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48205.0,Hartley,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48207.0,Haskell,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48209.0,Hays,Texas,US,2020-03-28 20:48:56,13,0,0,0
+48211.0,Hemphill,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48213.0,Henderson,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48215.0,Hidalgo,Texas,US,2020-03-28 20:48:56,18,0,0,0
+48217.0,Hill,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48219.0,Hockley,Texas,US,2020-03-28 20:48:56,7,0,0,0
+48221.0,Hood,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48223.0,Hopkins,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48225.0,Houston,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48227.0,Howard,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48229.0,Hudspeth,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48231.0,Hunt,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48233.0,Hutchinson,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48235.0,Irion,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48237.0,Jack,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48239.0,Jackson,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48241.0,Jasper,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48243.0,Jeff Davis,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48245.0,Jefferson,Texas,US,2020-03-28 20:48:56,12,1,0,0
+48247.0,Jim Hogg,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48249.0,Jim Wells,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48251.0,Johnson,Texas,US,2020-03-28 20:48:56,8,0,0,0
+48253.0,Jones,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48255.0,Karnes,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48257.0,Kaufman,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48259.0,Kendall,Texas,US,2020-03-28 20:48:56,6,0,0,0
+48261.0,Kenedy,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48263.0,Kent,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48265.0,Kerr,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48267.0,Kimble,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48269.0,King,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48271.0,Kinney,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48273.0,Kleberg,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48275.0,Knox,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48277.0,Lamar,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48279.0,Lamb,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48281.0,Lampasas,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48283.0,La Salle,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48285.0,Lavaca,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48287.0,Lee,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48289.0,Leon,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48291.0,Liberty,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48293.0,Limestone,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48295.0,Lipscomb,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48297.0,Live Oak,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48299.0,Llano,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48301.0,Loving,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48303.0,Lubbock,Texas,US,2020-03-28 20:48:56,31,0,0,0
+48305.0,Lynn,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48307.0,McCulloch,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48309.0,McLennan,Texas,US,2020-03-28 20:48:56,34,0,0,0
+48311.0,McMullen,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48313.0,Madison,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48315.0,Marion,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48317.0,Martin,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48319.0,Mason,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48321.0,Matagorda,Texas,US,2020-03-28 20:48:56,10,1,0,0
+48323.0,Maverick,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48325.0,Medina,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48327.0,Menard,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48329.0,Midland,Texas,US,2020-03-28 20:48:56,11,1,0,0
+48331.0,Milam,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48333.0,Mills,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48335.0,Mitchell,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48337.0,Montague,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48339.0,Montgomery,Texas,US,2020-03-28 20:48:56,63,0,0,0
+48341.0,Moore,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48343.0,Morris,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48345.0,Motley,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48347.0,Nacogdoches,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48349.0,Navarro,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48351.0,Newton,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48353.0,Nolan,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48355.0,Nueces,Texas,US,2020-03-28 20:48:56,20,0,0,0
+48357.0,Ochiltree,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48359.0,Oldham,Texas,US,2020-03-28 20:48:56,2,1,0,0
+48361.0,Orange,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48363.0,Palo Pinto,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48365.0,Panola,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48367.0,Parker,Texas,US,2020-03-28 20:48:56,4,0,0,0
+48369.0,Parmer,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48371.0,Pecos,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48373.0,Polk,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48375.0,Potter,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48377.0,Presidio,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48379.0,Rains,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48381.0,Randall,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48383.0,Reagan,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48385.0,Real,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48387.0,Red River,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48389.0,Reeves,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48391.0,Refugio,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48393.0,Roberts,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48395.0,Robertson,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48397.0,Rockwall,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48399.0,Runnels,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48401.0,Rusk,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48403.0,Sabine,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48405.0,San Augustine,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48407.0,San Jacinto,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48409.0,San Patricio,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48411.0,San Saba,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48413.0,Schleicher,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48415.0,Scurry,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48417.0,Shackelford,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48419.0,Shelby,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48421.0,Sherman,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48423.0,Smith,Texas,US,2020-03-28 20:48:56,27,1,0,0
+48425.0,Somervell,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48427.0,Starr,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48429.0,Stephens,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48431.0,Sterling,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48433.0,Stonewall,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48435.0,Sutton,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48437.0,Swisher,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48439.0,Tarrant,Texas,US,2020-03-28 20:48:56,128,1,0,0
+48441.0,Taylor,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48443.0,Terrell,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48445.0,Terry,Texas,US,2020-03-28 20:48:56,4,0,0,0
+48447.0,Throckmorton,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48449.0,Titus,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48451.0,Tom Green,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48453.0,Travis,Texas,US,2020-03-28 20:48:56,160,1,0,0
+48455.0,Trinity,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48457.0,Tyler,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48459.0,Upshur,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48461.0,Upton,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48463.0,Uvalde,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48465.0,Val Verde,Texas,US,2020-03-28 20:48:56,5,0,0,0
+48467.0,Van Zandt,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48469.0,Victoria,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48471.0,Walker,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48473.0,Waller,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48475.0,Ward,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48477.0,Washington,Texas,US,2020-03-28 20:48:56,5,0,0,0
+48479.0,Webb,Texas,US,2020-03-28 20:48:56,25,0,0,0
+48481.0,Wharton,Texas,US,2020-03-28 20:48:56,3,0,0,0
+48483.0,Wheeler,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48485.0,Wichita,Texas,US,2020-03-28 20:48:56,23,0,0,0
+48487.0,Wilbarger,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48489.0,Willacy,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48491.0,Williamson,Texas,US,2020-03-28 20:48:56,34,0,0,0
+48493.0,Wilson,Texas,US,2020-03-28 20:48:56,2,0,0,0
+48495.0,Winkler,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48497.0,Wise,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48499.0,Wood,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48501.0,Yoakum,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48503.0,Young,Texas,US,2020-03-28 20:48:56,1,0,0,0
+48505.0,Zapata,Texas,US,2020-03-28 20:48:56,0,0,0,0
+48507.0,Zavala,Texas,US,2020-03-28 20:48:56,0,0,0,0
+49001.0,Beaver,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49003.0,Box Elder,Utah,US,2020-03-28 20:48:56,4,0,0,0
+49005.0,Cache,Utah,US,2020-03-28 20:48:56,5,0,0,0
+49007.0,Carbon,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49009.0,Daggett,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49011.0,Davis,Utah,US,2020-03-28 20:48:56,59,1,0,0
+49013.0,Duchesne,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49015.0,Emery,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49017.0,Garfield,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49019.0,Grand,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49021.0,Iron,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49023.0,Juab,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49025.0,Kane,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49027.0,Millard,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49029.0,Morgan,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49031.0,Piute,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49033.0,Rich,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49035.0,Salt Lake,Utah,US,2020-03-28 20:48:56,276,0,0,0
+49037.0,San Juan,Utah,US,2020-03-28 20:48:56,1,0,0,0
+49039.0,Sanpete,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49041.0,Sevier,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49043.0,Summit,Utah,US,2020-03-28 20:48:56,127,0,0,0
+49045.0,Tooele,Utah,US,2020-03-28 20:48:56,8,0,0,0
+49047.0,Uintah,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49049.0,Utah,Utah,US,2020-03-28 20:48:56,30,0,0,0
+49051.0,Wasatch,Utah,US,2020-03-28 20:48:56,36,0,0,0
+49053.0,Washington,Utah,US,2020-03-28 20:48:56,13,0,0,0
+49055.0,Wayne,Utah,US,2020-03-28 20:48:56,0,0,0,0
+49057.0,Weber,Utah,US,2020-03-28 20:48:56,29,0,0,0
+50001.0,Addison,Vermont,US,2020-03-28 20:48:56,15,0,0,0
+50003.0,Bennington,Vermont,US,2020-03-28 20:48:56,15,0,0,0
+50005.0,Caledonia,Vermont,US,2020-03-28 20:48:56,2,0,0,0
+50007.0,Chittenden,Vermont,US,2020-03-28 20:48:56,105,4,0,0
+50009.0,Essex,Vermont,US,2020-03-28 20:48:56,0,0,0,0
+50011.0,Franklin,Vermont,US,2020-03-28 20:48:56,7,0,0,0
+50013.0,Grand Isle,Vermont,US,2020-03-28 20:48:56,0,0,0,0
+50015.0,Lamoille,Vermont,US,2020-03-28 20:48:56,9,0,0,0
+50017.0,Orange,Vermont,US,2020-03-28 20:48:56,3,0,0,0
+50019.0,Orleans,Vermont,US,2020-03-28 20:48:56,5,0,0,0
+50021.0,Rutland,Vermont,US,2020-03-28 20:48:56,6,0,0,0
+50023.0,Washington,Vermont,US,2020-03-28 20:48:56,10,0,0,0
+50025.0,Windham,Vermont,US,2020-03-28 20:48:56,9,0,0,0
+50027.0,Windsor,Vermont,US,2020-03-28 20:48:56,18,1,0,0
+51001.0,Accomack,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51003.0,Albemarle,Virginia,US,2020-03-28 20:48:56,16,0,0,0
+51005.0,Alleghany,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51007.0,Amelia,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51009.0,Amherst,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51011.0,Appomattox,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51013.0,Arlington,Virginia,US,2020-03-28 20:48:56,75,0,0,0
+51015.0,Augusta,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51017.0,Bath,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51019.0,Bedford,Virginia,US,2020-03-28 20:48:56,3,0,0,0
+51021.0,Bland,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51023.0,Botetourt,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51025.0,Brunswick,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51027.0,Buchanan,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51029.0,Buckingham,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51031.0,Campbell,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51033.0,Caroline,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51035.0,Carroll,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51036.0,Charles City,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51037.0,Charlotte,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51041.0,Chesterfield,Virginia,US,2020-03-28 20:48:56,12,0,0,0
+51043.0,Clarke,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51045.0,Craig,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51047.0,Culpeper,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51049.0,Cumberland,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51051.0,Dickenson,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51053.0,Dinwiddie,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51057.0,Essex,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51059.0,Fairfax,Virginia,US,2020-03-28 20:48:56,156,2,0,0
+51061.0,Fauquier,Virginia,US,2020-03-28 20:48:56,6,0,0,0
+51063.0,Floyd,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51065.0,Fluvanna,Virginia,US,2020-03-28 20:48:56,3,0,0,0
+51067.0,Franklin,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51069.0,Frederick,Virginia,US,2020-03-28 20:48:56,4,0,0,0
+51071.0,Giles,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51073.0,Gloucester,Virginia,US,2020-03-28 20:48:56,6,0,0,0
+51075.0,Goochland,Virginia,US,2020-03-28 20:48:56,5,0,0,0
+51077.0,Grayson,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51079.0,Greene,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51081.0,Greensville,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51083.0,Halifax,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51085.0,Hanover,Virginia,US,2020-03-28 20:48:56,3,0,0,0
+51087.0,Henrico,Virginia,US,2020-03-28 20:48:56,31,2,0,0
+51089.0,Henry,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51091.0,Highland,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51093.0,Isle of Wight,Virginia,US,2020-03-28 20:48:56,3,0,0,0
+51095.0,James City,Virginia,US,2020-03-28 20:48:56,65,2,0,0
+51097.0,King and Queen,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51099.0,King George,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51101.0,King William,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51103.0,Lancaster,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51105.0,Lee,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51107.0,Loudoun,Virginia,US,2020-03-28 20:48:56,54,1,0,0
+51109.0,Louisa,Virginia,US,2020-03-28 20:48:56,6,0,0,0
+51111.0,Lunenburg,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51113.0,Madison,Virginia,US,2020-03-28 20:48:56,3,0,0,0
+51115.0,Mathews,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51117.0,Mecklenburg,Virginia,US,2020-03-28 20:48:56,4,0,0,0
+51119.0,Middlesex,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51121.0,Montgomery,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51125.0,Nelson,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51127.0,New Kent,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51131.0,Northampton,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51133.0,Northumberland,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51135.0,Nottoway,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51137.0,Orange,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51139.0,Page,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51141.0,Patrick,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51143.0,Pittsylvania,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51145.0,Powhatan,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51147.0,Prince Edward,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51149.0,Prince George,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51153.0,Prince William,Virginia,US,2020-03-28 20:48:56,56,1,0,0
+51155.0,Pulaski,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51157.0,Rappahannock,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51159.0,Richmond,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51161.0,Roanoke,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51163.0,Rockbridge,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51165.0,Rockingham,Virginia,US,2020-03-28 20:48:56,4,0,0,0
+51167.0,Russell,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51169.0,Scott,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51171.0,Shenandoah,Virginia,US,2020-03-28 20:48:56,3,0,0,0
+51173.0,Smyth,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51175.0,Southampton,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51177.0,Spotsylvania,Virginia,US,2020-03-28 20:48:56,3,0,0,0
+51179.0,Stafford,Virginia,US,2020-03-28 20:48:56,11,0,0,0
+51181.0,Surry,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51183.0,Sussex,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51185.0,Tazewell,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51187.0,Warren,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51191.0,Washington,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51193.0,Westmoreland,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51195.0,Wise,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51197.0,Wythe,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51199.0,York,Virginia,US,2020-03-28 20:48:56,9,1,0,0
+51510.0,Alexandria,Virginia,US,2020-03-28 20:48:56,20,0,0,0
+51520.0,Bristol,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51530.0,Buena Vista,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51540.0,Charlottesville,Virginia,US,2020-03-28 20:48:56,12,0,0,0
+51550.0,Chesapeake,Virginia,US,2020-03-28 20:48:56,7,0,0,0
+51570.0,Colonial Heights,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51580.0,Covington,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51590.0,Danville,Virginia,US,2020-03-28 20:48:56,4,0,0,0
+51595.0,Emporia,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51600.0,Fairfax City,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51610.0,Falls Church,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51620.0,Franklin City,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51630.0,Fredericksburg,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51640.0,Galax,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51650.0,Hampton,Virginia,US,2020-03-28 20:48:56,7,0,0,0
+51660.0,Harrisonburg,Virginia,US,2020-03-28 20:48:56,5,0,0,0
+51670.0,Hopewell,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51678.0,Lexington,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51680.0,Lynchburg,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51683.0,Manassas,Virginia,US,2020-03-28 20:48:56,4,0,0,0
+51685.0,Manassas Park,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51690.0,Martinsville,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51700.0,Newport News,Virginia,US,2020-03-28 20:48:56,13,1,0,0
+51710.0,Norfolk,Virginia,US,2020-03-28 20:48:56,10,0,0,0
+51720.0,Norton,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51730.0,Petersburg,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51735.0,Poquoson,Virginia,US,2020-03-28 20:48:56,2,0,0,0
+51740.0,Portsmouth,Virginia,US,2020-03-28 20:48:56,4,0,0,0
+51750.0,Radford,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51760.0,Richmond City,Virginia,US,2020-03-28 20:48:56,20,0,0,0
+51770.0,Roanoke City,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51775.0,Salem,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51790.0,Staunton,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51800.0,Suffolk,Virginia,US,2020-03-28 20:48:56,1,0,0,0
+51810.0,Virginia Beach,Virginia,US,2020-03-28 20:48:56,35,1,0,0
+51820.0,Waynesboro,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+51830.0,Williamsburg,Virginia,US,2020-03-28 20:48:56,6,1,0,0
+51840.0,Winchester,Virginia,US,2020-03-28 20:48:56,0,0,0,0
+53001.0,Adams,Washington,US,2020-03-28 20:48:56,5,0,0,0
+53003.0,Asotin,Washington,US,2020-03-28 20:48:56,0,0,0,0
+53005.0,Benton,Washington,US,2020-03-28 20:48:56,42,5,0,0
+53007.0,Chelan,Washington,US,2020-03-28 20:48:56,13,1,0,0
+53009.0,Clallam,Washington,US,2020-03-28 20:48:56,5,0,0,0
+53011.0,Clark,Washington,US,2020-03-28 20:48:56,76,6,0,0
+53013.0,Columbia,Washington,US,2020-03-28 20:48:56,1,0,0,0
+53015.0,Cowlitz,Washington,US,2020-03-28 20:48:56,10,0,0,0
+53017.0,Douglas,Washington,US,2020-03-28 20:48:56,5,0,0,0
+53019.0,Ferry,Washington,US,2020-03-28 20:48:56,1,0,0,0
+53021.0,Franklin,Washington,US,2020-03-28 20:48:56,12,0,0,0
+53023.0,Garfield,Washington,US,2020-03-28 20:48:56,0,0,0,0
+53025.0,Grant,Washington,US,2020-03-28 20:48:56,44,1,0,0
+53027.0,Grays Harbor,Washington,US,2020-03-28 20:48:56,1,0,0,0
+53029.0,Island,Washington,US,2020-03-28 20:48:56,80,1,0,0
+53031.0,Jefferson,Washington,US,2020-03-28 20:48:56,11,0,0,0
+53033.0,King,Washington,US,2020-03-28 20:48:56,1828,125,0,0
+53035.0,Kitsap,Washington,US,2020-03-28 20:48:56,42,1,0,0
+53037.0,Kittitas,Washington,US,2020-03-28 20:48:56,8,0,0,0
+53039.0,Klickitat,Washington,US,2020-03-28 20:48:56,7,0,0,0
+53041.0,Lewis,Washington,US,2020-03-28 20:48:56,7,0,0,0
+53043.0,Lincoln,Washington,US,2020-03-28 20:48:56,1,0,0,0
+53045.0,Mason,Washington,US,2020-03-28 20:48:56,2,0,0,0
+53047.0,Okanogan,Washington,US,2020-03-28 20:48:56,3,0,0,0
+53049.0,Pacific,Washington,US,2020-03-28 20:48:56,0,0,0,0
+53051.0,Pend Oreille,Washington,US,2020-03-28 20:48:56,0,0,0,0
+53053.0,Pierce,Washington,US,2020-03-28 20:48:56,231,5,0,0
+53055.0,San Juan,Washington,US,2020-03-28 20:48:56,3,0,0,0
+53057.0,Skagit,Washington,US,2020-03-28 20:48:56,91,2,0,0
+53059.0,Skamania,Washington,US,2020-03-28 20:48:56,1,0,0,0
+53061.0,Snohomish,Washington,US,2020-03-28 20:48:56,913,23,0,0
+53063.0,Spokane,Washington,US,2020-03-28 20:48:56,86,0,0,0
+53065.0,Stevens,Washington,US,2020-03-28 20:48:56,3,0,0,0
+53067.0,Thurston,Washington,US,2020-03-28 20:48:56,27,0,0,0
+53069.0,Wahkiakum,Washington,US,2020-03-28 20:48:56,0,0,0,0
+53071.0,Walla Walla,Washington,US,2020-03-28 20:48:56,4,0,0,0
+53071.0,Walla Walla,Washington,US,NA,NA,NA,NA,NA
+53073.0,Whatcom,Washington,US,2020-03-28 20:48:56,102,4,0,0
+53075.0,Whitman,Washington,US,2020-03-28 20:48:56,6,0,0,0
+53077.0,Yakima,Washington,US,2020-03-28 20:48:56,72,2,0,0
+54001.0,Barbour,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54003.0,Berkeley,West Virginia,US,2020-03-28 20:48:56,9,0,0,0
+54005.0,Boone,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54007.0,Braxton,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54009.0,Brooke,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54011.0,Cabell,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54013.0,Calhoun,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54015.0,Clay,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54017.0,Doddridge,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54019.0,Fayette,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54021.0,Gilmer,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54023.0,Grant,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54025.0,Greenbrier,West Virginia,US,2020-03-28 20:48:56,1,0,0,0
+54027.0,Hampshire,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54029.0,Hancock,West Virginia,US,2020-03-28 20:48:56,1,0,0,0
+54031.0,Hardy,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54033.0,Harrison,West Virginia,US,2020-03-28 20:48:56,4,0,0,0
+54035.0,Jackson,West Virginia,US,2020-03-28 20:48:56,6,0,0,0
+54037.0,Jefferson,West Virginia,US,2020-03-28 20:48:56,4,0,0,0
+54039.0,Kanawha,West Virginia,US,2020-03-28 20:48:56,17,0,0,0
+54041.0,Lewis,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54043.0,Lincoln,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54045.0,Logan,West Virginia,US,2020-03-28 20:48:56,1,0,0,0
+54047.0,McDowell,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54049.0,Marion,West Virginia,US,2020-03-28 20:48:56,3,0,0,0
+54051.0,Marshall,West Virginia,US,2020-03-28 20:48:56,3,0,0,0
+54053.0,Mason,West Virginia,US,2020-03-28 20:48:56,3,0,0,0
+54055.0,Mercer,West Virginia,US,2020-03-28 20:48:56,2,0,0,0
+54057.0,Mineral,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54059.0,Mingo,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54061.0,Monongalia,West Virginia,US,2020-03-28 20:48:56,23,0,0,0
+54063.0,Monroe,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54065.0,Morgan,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54067.0,Nicholas,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54069.0,Ohio,West Virginia,US,2020-03-28 20:48:56,6,0,0,0
+54071.0,Pendleton,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54073.0,Pleasants,West Virginia,US,2020-03-28 20:48:56,1,0,0,0
+54075.0,Pocahontas,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54077.0,Preston,West Virginia,US,2020-03-28 20:48:56,1,0,0,0
+54079.0,Putnam,West Virginia,US,2020-03-28 20:48:56,3,0,0,0
+54081.0,Raleigh,West Virginia,US,2020-03-28 20:48:56,3,0,0,0
+54083.0,Randolph,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54085.0,Ritchie,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54087.0,Roane,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54089.0,Summers,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54091.0,Taylor,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54093.0,Tucker,West Virginia,US,2020-03-28 20:48:56,2,0,0,0
+54095.0,Tyler,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54097.0,Upshur,West Virginia,US,2020-03-28 20:48:56,1,0,0,0
+54099.0,Wayne,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54101.0,Webster,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54103.0,Wetzel,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54105.0,Wirt,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+54107.0,Wood,West Virginia,US,2020-03-28 20:48:56,2,0,0,0
+54109.0,Wyoming,West Virginia,US,2020-03-28 20:48:56,0,0,0,0
+55001.0,Adams,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55003.0,Ashland,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55005.0,Barron,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55007.0,Bayfield,Wisconsin,US,2020-03-28 20:48:56,2,0,0,0
+55009.0,Brown,Wisconsin,US,2020-03-28 20:48:56,5,0,0,0
+55011.0,Buffalo,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55013.0,Burnett,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55015.0,Calumet,Wisconsin,US,2020-03-28 20:48:56,1,0,0,0
+55017.0,Chippewa,Wisconsin,US,2020-03-28 20:48:56,3,0,0,0
+55019.0,Clark,Wisconsin,US,2020-03-28 20:48:56,2,0,0,0
+55021.0,Columbia,Wisconsin,US,2020-03-28 20:48:56,6,0,0,0
+55023.0,Crawford,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55025.0,Dane,Wisconsin,US,2020-03-28 20:48:56,164,1,0,0
+55027.0,Dodge,Wisconsin,US,2020-03-28 20:48:56,6,0,0,0
+55029.0,Door,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55031.0,Douglas,Wisconsin,US,2020-03-28 20:48:56,5,0,0,0
+55033.0,Dunn,Wisconsin,US,2020-03-28 20:48:56,2,0,0,0
+55035.0,Eau Claire,Wisconsin,US,2020-03-28 20:48:56,7,0,0,0
+55037.0,Florence,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55039.0,Fond du Lac,Wisconsin,US,2020-03-28 20:48:56,18,1,0,0
+55041.0,Forest,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55043.0,Grant,Wisconsin,US,2020-03-28 20:48:56,1,0,0,0
+55045.0,Green,Wisconsin,US,2020-03-28 20:48:56,3,0,0,0
+55047.0,Green Lake,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55049.0,Iowa,Wisconsin,US,2020-03-28 20:48:56,3,0,0,0
+55051.0,Iron,Wisconsin,US,2020-03-28 20:48:56,1,1,0,0
+55053.0,Jackson,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55055.0,Jefferson,Wisconsin,US,2020-03-28 20:48:56,6,0,0,0
+55057.0,Juneau,Wisconsin,US,2020-03-28 20:48:56,2,0,0,0
+55059.0,Kenosha,Wisconsin,US,2020-03-28 20:48:56,23,0,0,0
+55061.0,Kewaunee,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55063.0,La Crosse,Wisconsin,US,2020-03-28 20:48:56,14,0,0,0
+55065.0,Lafayette,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55067.0,Langlade,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55069.0,Lincoln,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55071.0,Manitowoc,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55073.0,Marathon,Wisconsin,US,2020-03-28 20:48:56,1,0,0,0
+55075.0,Marinette,Wisconsin,US,2020-03-28 20:48:56,1,0,0,0
+55077.0,Marquette,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55078.0,Menominee,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55079.0,Milwaukee,Wisconsin,US,2020-03-28 20:48:56,411,8,0,0
+55081.0,Monroe,Wisconsin,US,2020-03-28 20:48:56,1,0,0,0
+55083.0,Oconto,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55085.0,Oneida,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55087.0,Outagamie,Wisconsin,US,2020-03-28 20:48:56,4,0,0,0
+55089.0,Ozaukee,Wisconsin,US,2020-03-28 20:48:56,30,3,0,0
+55091.0,Pepin,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55093.0,Pierce,Wisconsin,US,2020-03-28 20:48:56,4,0,0,0
+55095.0,Polk,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55097.0,Portage,Wisconsin,US,2020-03-28 20:48:56,1,0,0,0
+55099.0,Price,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55101.0,Racine,Wisconsin,US,2020-03-28 20:48:56,9,0,0,0
+55103.0,Richland,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55105.0,Rock,Wisconsin,US,2020-03-28 20:48:56,12,0,0,0
+55107.0,Rusk,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55109.0,St. Croix,Wisconsin,US,2020-03-28 20:48:56,4,0,0,0
+55111.0,Sauk,Wisconsin,US,2020-03-28 20:48:56,10,1,0,0
+55113.0,Sawyer,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55115.0,Shawano,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55117.0,Sheboygan,Wisconsin,US,2020-03-28 20:48:56,7,0,0,0
+55119.0,Taylor,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55121.0,Trempealeau,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55123.0,Vernon,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55125.0,Vilas,Wisconsin,US,2020-03-28 20:48:56,2,0,0,0
+55127.0,Walworth,Wisconsin,US,2020-03-28 20:48:56,5,0,0,0
+55129.0,Washburn,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55131.0,Washington,Wisconsin,US,2020-03-28 20:48:56,27,0,0,0
+55133.0,Waukesha,Wisconsin,US,2020-03-28 20:48:56,61,0,0,0
+55135.0,Waupaca,Wisconsin,US,2020-03-28 20:48:56,1,0,0,0
+55137.0,Waushara,Wisconsin,US,2020-03-28 20:48:56,0,0,0,0
+55139.0,Winnebago,Wisconsin,US,2020-03-28 20:48:56,6,0,0,0
+55141.0,Wood,Wisconsin,US,2020-03-28 20:48:56,2,0,0,0
+56001.0,Albany,Wyoming,US,2020-03-28 20:48:56,1,0,0,0
+56003.0,Big Horn,Wyoming,US,2020-03-28 20:48:56,0,0,0,0
+56005.0,Campbell,Wyoming,US,2020-03-28 20:48:56,1,0,0,0
+56007.0,Carbon,Wyoming,US,2020-03-28 20:48:56,3,0,0,0
+56009.0,Converse,Wyoming,US,2020-03-28 20:48:56,1,0,0,0
+56011.0,Crook,Wyoming,US,2020-03-28 20:48:56,0,0,0,0
+56013.0,Fremont,Wyoming,US,2020-03-28 20:48:56,20,0,0,0
+56015.0,Goshen,Wyoming,US,2020-03-28 20:48:56,1,0,0,0
+56017.0,Hot Springs,Wyoming,US,2020-03-28 20:48:56,0,0,0,0
+56019.0,Johnson,Wyoming,US,2020-03-28 20:48:56,5,0,0,0
+56021.0,Laramie,Wyoming,US,2020-03-28 20:48:56,19,0,0,0
+56023.0,Lincoln,Wyoming,US,2020-03-28 20:48:56,0,0,0,0
+56025.0,Natrona,Wyoming,US,2020-03-28 20:48:56,8,0,0,0
+56027.0,Niobrara,Wyoming,US,2020-03-28 20:48:56,0,0,0,0
+56029.0,Park,Wyoming,US,2020-03-28 20:48:56,1,0,0,0
+56031.0,Platte,Wyoming,US,2020-03-28 20:48:56,0,0,0,0
+56033.0,Sheridan,Wyoming,US,2020-03-28 20:48:56,6,0,0,0
+56035.0,Sublette,Wyoming,US,2020-03-28 20:48:56,1,0,0,0
+56037.0,Sweetwater,Wyoming,US,2020-03-28 20:48:56,1,0,0,0
+56039.0,Teton,Wyoming,US,2020-03-28 20:48:56,13,0,0,0
+56041.0,Uinta,Wyoming,US,2020-03-28 20:48:56,0,0,0,0
+56043.0,Washakie,Wyoming,US,2020-03-28 20:48:56,1,0,0,0
+56045.0,Weston,Wyoming,US,2020-03-28 20:48:56,0,0,0,0
+60000.0,,American Samoa,US,2020-03-28 20:48:56,0,0,0,0
+66000.0,,Guam,US,2020-03-28 20:48:56,55,1,0,0
+69000.0,,Northern Mariana Islands,US,2020-03-28 20:48:56,0,0,0,0
+78000.0,,Virgin Islands,US,2020-03-28 20:48:56,22,0,0,0
+88888.0,,Diamond Princess,US,2020-03-28 20:48:56,49,0,0,0
+99999.0,,Grand Princess,US,2020-03-28 20:48:56,103,3,0,0

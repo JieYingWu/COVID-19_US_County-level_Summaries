@@ -976,7 +976,51 @@ class Formatter():
           writer.writerow(to_write)
 #        print(f'wrote {fips}')
 
+
+  def intervention_to_ordinal(self):
+    def date_to_ordinal(x):
+      x = x.split('-')
+      month = x[1]
+      day = x[0]
+      if month == 'Mar':
+        return day
+      elif month == 'Apr':
+        return str(int(day) + 31)
+      else:
+        print('Invalid month')
+        exit()
+    
+    interventions_filename = join(self.raw_data_dir, 'national', 'public_implementations_fips.csv')
+    data = {}
+    with open(interventions_filename, 'r', newline='') as file:
+      reader = csv.reader(file, delimiter=',')
+      for i, row in enumerate(reader):
+        if i == 0:
+          continue
+        fips = self._get_fips(row[0])
+        if fips is None:
+          continue
+        data[fips] = np.array(list(map(lambda x: 'NA' if x == '' else date_to_ordinal(x), row[4:])))
+
+    filename = join(self.data_dir, 'interventions.csv')
+    with open(filename, 'w', newline='') as file:
+      writer = csv.writer(file, delimiter=',')
+      writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'stay at home', '>50 gatherings', '>500 gatherings', 'public schools', 'restaurant dine-in', 'entertainment/gym', 'federal guidelines', 'foreign travel ban'])
+      
+      for fips in self.fips_codes:
+        area = self.fips_codes.get(fips, 'NA')
+        state = self.fips_to_state.get(fips, 'NA')
+        if not (fips in data):
+          writer.writerow([fips, state, area, 'NA', 'NA', 'NA', 'NA', 'NA', 'NA', 'NA', 'NA'])
+          continue
+
+        writer.writerow([fips, state, area, f'{data[fips][0]}', f'{data[fips][1]}', f'{data[fips][2]}', f'{data[fips][3]}', f'{data[fips][4]}', f'{data[fips][5]}', f'{data[fips][6]}'])
+        print(f'wrote {fips}: {data[fips]}')
+
         
+    return data
+
+          
 def main():
   parser = argparse.ArgumentParser(description='data formatter')
 
@@ -994,6 +1038,7 @@ def main():
   formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
+  # formatter.intervention_to_ordinal()
 
   
 if __name__ == '__main__':
