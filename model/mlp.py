@@ -1,8 +1,9 @@
 import torch
 import torch.nn as nn
 
+
 class MLP(nn.Module):
-    def __init__(self, in_channels=5, out_channels=2, channels=[10,10]):
+    def __init__(self, in_channels=5, out_channels=2, channels=[10, 10]):
         super(MLP, self).__init__()
         layers = []
 
@@ -21,6 +22,7 @@ class MLP(nn.Module):
     def forward(self, x):
         return self.layers(x)
 
+    
 # Test various layers initialization
 if __name__ == "__main__":
     x = torch.tensor([1,2]).float().unsqueeze(0)

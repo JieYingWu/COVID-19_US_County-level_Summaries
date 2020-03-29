@@ -889,6 +889,8 @@ class Formatter():
         if max_cols is not None:
           row = row[:max_cols]
 
+        row = [x.replace(',', '') for x in row]
+
         if i == 0:
           writer.writerow(row)
           continue
@@ -918,8 +920,9 @@ class Formatter():
     
     # copyfile(infections_filename, join(self.data_dir, 'infections_timeseries.csv'))
     # copyfile(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'))
-    self.copy_cases_data(infections_filename, join(self.data_dir, 'infections_timeseries.csv'), max_cols=11)
-    self.copy_cases_data(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'), max_cols=11)
+    max_cols = None
+    self.copy_cases_data(infections_filename, join(self.data_dir, 'infections_timeseries.csv'), max_cols=max_cols)
+    self.copy_cases_data(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'), max_cols=max_cols)
     
     copyfile(recovered_filename, join(self.data_dir, 'recovered_timeseries.csv'))
     
