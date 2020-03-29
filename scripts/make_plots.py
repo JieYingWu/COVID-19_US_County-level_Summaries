@@ -9,18 +9,19 @@ import numpy as np
 import re
 import pandas as pd
 from collections import OrderedDict
+from datetime import datetime
 import csv
 import argparse
 from bokeh.plotting import figure, show, output_file
 from bokeh.sampledata.us_counties import data as counties
+from datetime import timedelta
 
 from bokeh.models import ColumnDataSource, CustomJS, Slider
 from bokeh.sampledata.us_states import data as states
 from bokeh.sampledata.unemployment import data as unemployment
-from bokeh.models import Slider, CustomJS
+from bokeh.models import Slider, CustomJS, DateSlider
 from bokeh.models import LogColorMapper
-from bokeh.palettes import Viridis6
-import bokeh.palettes as pal
+from bokeh.palettes import Magma256
 from bokeh.layouts import widgetbox, row, column
 
 from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar
@@ -53,8 +54,12 @@ def create_dict_forJS(df):
 
     a_dict = {}
     for i in range(0, len_col - 4):
-        a_dict[str(i)] = np.array(county_rates)[:, i]
+        day_str = col_names[i+4]
+        day_key = str(datetime.strptime(day_str, '%Y-%m-%d %H:%M:%S').date())
+        a_dict[day_key] = np.array(county_rates)[:, i]
+
     source_new=ColumnDataSource(data=a_dict)
+    print(a_dict)
     return source_new
 
 
@@ -92,11 +97,14 @@ def create_html_page(html_page_name, df):
     print(np.shape(source_new), type(source_new))
 
     # Define a sequential multi-hue color palette.
-    palette = brewer['YlGnBu'][9]
+    #palette = brewer['YlGnBu'][9]
+    palette = Magma256
     # palette = big_palette(200, bokeh.palettes.plasma)
 
     palette = palette[::-1]
-    color_mapper = LinearColorMapper(palette=palette, low=0, high=150)
+    color_mapper = LinearColorMapper(palette=palette, low=0, high=100)
+
+    #color_mapper = LogColorMapper(palette=palette)
 
     TOOLS = "pan,wheel_zoom,reset,hover,save"
     p = figure(title="US density", toolbar_location="left",
@@ -123,27 +131,31 @@ def create_html_page(html_page_name, df):
               fill_alpha=0.7, line_color="white", line_width=0.5)
 
     # Make a slider object: slider
-    # TODO: replace int with date
-    last_day = col_names[len_col - 1]
-    first_day = col_names[4]  # first 4 colums contain names etc
-    dates_available = len_col - 4
-    slider = Slider(title='Day', start=1, end=dates_available, step=1, value=dates_available)
+    last_day_str = col_names[len_col - 1]
+    last_day = datetime.strptime(last_day_str, '%Y-%m-%d %H:%M:%S').date()# + timedelta(days=1)
+    first_day_str = col_names[4]  # first 4 colums contain names etc
+    first_day = datetime.strptime(first_day_str, '%Y-%m-%d %H:%M:%S').date()
+    print(last_day)
 
+    date_slider = DateSlider(title="Date:", start=first_day, end=last_day, value=last_day, step=1)
     callback = CustomJS(args=dict(source=source_new, ts=source_visible), code="""
-                        var data=ts.data;
-                        var rate=data['rate'];
-                        var name=data['name'];
-                        var data1=source.data;
-                        var f=cb_obj.value; //this is the selection value
-                        console.log(rate);
-                
-                        data['rate']=data1[f];
-                        source.change.emit();
-                """)
+                            var data=ts.data;
+                            var rate=data['rate'];
+                            var name=data['name'];
+                            var data1=source.data;
+                            var f=cb_obj.value; //this is the selection value of slider 
+                            const event = new Date(f);
+                            var date_selected = event.toISOString().substring(0,10); // converting date from python to JS
+                            //console.log(typeof data1[0]);
 
-    slider.js_on_change('value', callback)
+                            data['rate']=data1[date_selected];
+                            ts.change.emit();
+                    """)
 
-    layout = column(p, widgetbox(slider))
+    date_slider.js_on_change('value', callback)
+
+    #layout = column(p, widgetbox(slider),widgetbox(date_slider))
+    layout = column(p, date_slider)
     output_file(html_page_name, title="Interactive USA density map")
     show(layout)
 
