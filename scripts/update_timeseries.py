@@ -87,6 +87,8 @@ def insert_row(df, index, fips, admin, state):
 
 if __name__ == '__main__':
     os.chdir('../raw_data/national/JHU_Infections/')
-    file_path = 'cases.csv'
-    clean_file_path = clean_file(file_path)
+    
+    #file_path = 'cases.csv'
+    #clean_file_path = clean_file(file_path)
+    clean_file_path = 'cases_29_03_clean.csv'
     merge(clean_file_path)
