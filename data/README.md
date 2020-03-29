@@ -11,7 +11,7 @@
 * `filtered_cases_and_deaths.csv` contains only counties with a significant number of cases.
 * `filtered_cases_and_deaths.csv` contains info on all fifty states and DC.
 * `interventions.csv` contains the dates that counties (or states governing them) took measures to
-  mitigate the spread by restricting gatherings, measured in days since **t0 = February 29, 2020**,
+  mitigate the spread by restricting gatherings, measured in days since **February 29, 2020**,
   (i.e. t = 0 on that day).
 * `counties_order.csv` contains the FIPS codes and county name for each of these counties. FIPS
   codes are unambiguous identifiers for each county, since the same county name may appear in many
