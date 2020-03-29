@@ -683,24 +683,20 @@ class Formatter():
       json.dump(imputed, file)
     imputed = np.array([imputed[fips] for fips in imputed])
     print(f'imputed {np.sum(imputed)} / {imputed.shape[0]} ({np.mean(imputed)}) climate values')
-  
-  def make_national_data(self):
-    """Make the national data.
 
-    :returns: 
-    :rtype: 
+  def parse_national_data(self):
+    """Parse multiple csv files into one national data file."""
 
-    """
-
-    # parse the incoming data by fips, creating a mapping from fips to a dict mapping datatype keys
+        # parse the incoming data by fips, creating a mapping from fips to a dict mapping datatype keys
     # to data for that row, ready to by joined.
-    self.national_data = dict(
+    national_data = dict(
       (fips, dict(
         (k, ['NA'] * len(self.national_data_which_columns[k])) for k in self.keys))
       for fips in self.fips_codes)
-    self.national_data['labels'] = dict(
+    national_data['labels'] = dict(
       (k, ['NA'] * len(self.national_data_which_columns[k])) for k in self.keys)
 
+    # parse the data into national_data
     for k in self.keys:
       with open(self.national_data_filenames[k], 'r', newline='') as file:
         delimiter = self.national_data_delimiters.get(k, ',')
@@ -713,10 +709,10 @@ class Formatter():
             print(k)
             print(*list(map(lambda t: f'      {t[0]},                      # {t[1]}', enumerate(row))), sep='\n')
             if k == 'health':
-              self.national_data['labels'][k] = [row[j].strip().replace(',', '').replace('Percentage', 'Fraction')
+              national_data['labels'][k] = [row[j].strip().replace(',', '').replace('Percentage', 'Fraction')
                                                  for j in self.national_data_which_columns[k]]
             else:
-              self.national_data['labels'][k] = [row[j].strip().replace(',', '')
+              national_data['labels'][k] = [row[j].strip().replace(',', '')
                                                  for j in self.national_data_which_columns[k]]
             continue
 
@@ -746,24 +742,42 @@ class Formatter():
             if values[j] == '':
               values[j] = 'NA'
 
-          self.national_data[fips][k] = values
+          national_data[fips][k] = values
 
+    return national_data
+    
+  def make_national_data(self):
+    """Make the national data.
+
+    :returns: 
+    :rtype: 
+
+    """
+
+    self.national_data = self.parse_national_data()
+    
     # write to csv
-    with open(join(self.data_dir, 'counties.csv'), 'w', newline='') as counties_file, \
-         open(join(self.data_dir, 'states.csv'), 'w', newline='') as states_file:
+    with open(join(self.data_dir, 'counties_only.csv'), 'w', newline='') as counties_file, \
+         open(join(self.data_dir, 'states_only.csv'), 'w', newline='') as states_file, \
+         open(join(self.data_dir, 'counties.csv'), 'w', newline='') as file:
       counties_writer = csv.writer(counties_file, delimiter=',')
       states_writer = csv.writer(states_file, delimiter=',')
+      writer = csv.writer(file, delimiter=',')
       labels = sum([self.national_data['labels'][k] for k in self.keys], [])
       na_counties = OrderedDict([(label, 0) for label in labels])
 
       counties_writer.writerow(labels)
       states_writer.writerow(labels)
+      writer.writerow(labels)
 
       num_counties = 0
       num_states = 0
       for i, fips in enumerate(self.fips_codes):
         row = sum([self.national_data[fips][k] for k in self.keys], [])
 
+        # write to both files
+        writer.writerow(row)
+        
         # write the row to counties or states (which includes the US)
         if self._is_county(fips):
           num_counties += 1

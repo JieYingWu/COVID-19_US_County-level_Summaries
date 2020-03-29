@@ -1,11 +1,24 @@
 # Datasets
 
-* `counties.csv` contains demographic, socioeconomic, health care, education and transit data for each
-  county in the 50 states and Washington DC.
+* `counties.csv` contains demographic, socioeconomic, health care, education and transit data for
+  each county in the 50 states and Washington DC. Note that this also includes analogous data for
+  states, as available.
+* `counties_only.csv` contains the same columns for counties only.
+* `states_only.csv` contains the same columns for the fifty states and DC.
+* `infections_timeseries.csv` contains an county-level timeseries of cumulative COVID-19 infections in the US.
+* `deaths_timeseries.csv` contains analogous information for COVID-19 related deaths.
+* `filtered_cases_and_deaths.csv` contains only counties with a significant number of cases.
+* `filtered_cases_and_deaths.csv` contains info on all fifty states and DC.
+* `interventions.csv` contains the dates that counties (or states governing them) took measures to
+  mitigate the spread by restricting gatherings, measured in days since February 29, 2020.
 * `counties_order.csv` contains the FIPS codes and county name for each of these counties. FIPS
   codes are unambiguous identifiers for each county, since the same county name may appear in many
   states. See [this list](https://www.wikiwand.com/en/List_of_the_most_common_U.S._county_names)
-  for examples.
+  for examples. This is the first three columns of `counties.csv`.
+* [list_of_columns.md](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/blob/master/data/list_of_columns.md)
+  contains descriptions for each column in `counties.csv`, `counties_only.csv`, etc.
+* `recovered_timeseries.csv` is a *limited* timeseries for recovered patients. This data is not
+  very well-tracked, but we include it as we are able.
 
 #### Data links
 1. [ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/](ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/)

@@ -1,7 +1,7 @@
 """
 Create beautiful plots
 """
-
+n
 from shutil import copyfile
 from bokeh.plotting import curdoc
 from os.path import join, exists
@@ -25,6 +25,10 @@ from bokeh.layouts import widgetbox, row, column
 
 from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar
 from bokeh.palettes import brewer
+
+
+visualizations_dir = 'visualizations'
+
 
 def create_dict_forJS(df):
     EXCLUDED = ("ak", "hi", "pr", "gu", "vi", "mp", "as")
@@ -180,8 +184,8 @@ def big_palette(size, palette_func):
 
 
 def main():
-    data_dir = r"D:\JHU\corona\disease_spread\data"
-    html_page_name = "us_cases.html"
+    data_dir = 'data'
+    html_page_name = join(visualizations_dir, "us_cases.html")
     infected_cases = create_cases_dict(data_dir)
     df = create_infections_dict(data_dir)
     create_html_page(html_page_name, df)
