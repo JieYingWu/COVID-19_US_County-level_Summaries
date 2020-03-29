@@ -35,21 +35,22 @@ class Net(nn.Module):
   def __init__(self, num_counties, in_channels, channels=[1024, 1024]):
     super().__init__()
     self.num_counties = num_counties
-    self.county_mlp = MLP(in_channels=in_channels - 2, out_channels=3, channels=channels)
+    self.county_mlp = MLP(in_channels=in_channels - 2, out_channels=3, channels=channels, use_bn=True)
     self.t0_table = nn.Parameter(data=torch.zeros(num_counties), requires_grad=True)
     self.logistic = LogisticModel()
 
   def forward(self, x):
     t = x[:, 0:1]                   # current timestep
-    county_index = x[:, 1:2].long()  # for getting t0 for this county
+    county_index = x[:, 1].long()  # for getting t0 for this county
+    county_index_one_hot = F.one_hot(county_index, num_classes=self.num_counties)
     county = x[:, 2:]                # rest of the data on this county
-    
+
     abc = self.county_mlp(county)
-    t0 = self.t0_table[county_index]
+    t0 = torch.sum(self.t0_table.view(1, -1) * county_index_one_hot, dim=1, keepdim=True)
     lparams = torch.cat([t, t0, abc], dim=1)
     q = self.logistic(lparams)
-    # print(abc, abc.shape)
-    # print(t0, t0.shape)
-    # print('q', q, q.shape)
+    print('abc', abc, abc.shape)
+    print('t0', t0, t0.shape)
+    print('q', q, q.shape)
     return q
 

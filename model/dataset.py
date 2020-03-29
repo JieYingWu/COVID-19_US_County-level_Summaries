@@ -114,14 +114,7 @@ class CumulativeCoronavirusCases(Dataset):
     self.device = device
     self.threshold = threshold
     self.min_t = min_t
-
-    self.val_states = {'53'}           # Washington State FIPS
-    self.test_states = {'06'}          # California FIPS
-    self.train_states = set(str(i).zfill(2) for i in range(1, 100)
-                            if str(i).zfill(2) not in self.val_states
-                            and str(i).zfill(2) not in self.test_states)
     self.split = split
-    self.which_states = getattr(self, split + '_states')
     
     self.counties = np.genfromtxt(join(data_dir, 'counties.csv'), delimiter=',', skip_header=1, dtype=str)
     self.num_counties = self.counties.shape[0]
