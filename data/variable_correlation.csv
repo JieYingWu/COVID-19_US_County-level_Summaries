@@ -1,0 +1,51 @@
+FIPS,STATE,AREA_NAME,infected,Most correlated variable
+1000,AL,alabama,449.0,Bachelor's degree or higher 2014-18
+2000,AK,alaska,4.0,HBA_FEMALE
+4000,AZ,arizona,508.0,CI90LB517_2018
+5000,AR,arkansas,311.0,BAC_MALE
+6000,CA,california,3247.0,INTERNATIONAL_MIG_2018
+8000,CO,colorado,1069.0,Bachelor's degree or higher 2014-18
+9000,CT,connecticut,875.0,NATURAL_INC_2018
+10000,DE,delaware,130.0,Bachelor's degree or higher 2014-18
+12000,FL,florida,2357.0,Less than a high school diploma 2014-18
+13000,GA,georgia,1359.0,Housing units
+15000,HI,hawaii,71.0,NATURAL_INC_2018
+16000,ID,idaho,146.0,CI90LBINC_2018
+17000,IL,illinois,1868.0,HNA_FEMALE
+18000,IN,indiana,638.0,NHBAC_MALE
+19000,IA,iowa,179.0,INTERNATIONAL_MIG_2018
+20000,KS,kansas,138.0,Density per square mile of land area - Population
+21000,KY,kentucky,143.0,NHAA_MALE
+22000,LA,louisiana,2291.0,Density per square mile of land area - Housing units
+23000,ME,maine,154.0,NHAA_FEMALE
+24000,MD,maryland,511.0,Bachelor's degree or higher 2014-18
+25000,MA,massachusetts,1676.0,INTERNATIONAL_MIG_2018
+26000,MI,michigan,2838.0,NHBAC_FEMALE
+27000,MN,minnesota,344.0,Bachelor's degree or higher 2014-18
+28000,MS,mississippi,485.0,Employed_2018
+29000,MO,missouri,289.0,NHAA_MALE
+30000,MT,montana,71.0,NATURAL_INC_2018
+31000,NE,nebraska,74.0,NHBA_FEMALE
+32000,NV,nevada,412.0,NA_FEMALE
+33000,NH,new hampshire,137.0,CI90LBINC_2018
+34000,NJ,new jersey,5398.0,Bachelor's degree or higher 2014-18
+35000,NM,new mexico,100.0,Bachelor's degree or higher 2014-18
+36000,NY,new york,37769.0,Density per square mile of land area - Housing units
+37000,NC,north carolina,680.0,INTERNATIONAL_MIG_2018
+38000,ND,north dakota,51.0,Total_age85plusr
+39000,OH,ohio,868.0,HBA_FEMALE
+40000,OK,oklahoma,245.0,NHAA_FEMALE
+41000,OR,oregon,266.0,HAA_FEMALE
+42000,PA,pennsylvania,1722.0,NHAA_FEMALE
+44000,RI,rhode island,103.0,Percent of adults with less than a high school diploma 2014-18
+45000,SC,south carolina,424.0,Bachelor's degree or higher 2014-18
+46000,SD,south dakota,46.0,NHAA_FEMALE
+47000,TN,tennessee,798.0,INTERNATIONAL_MIG_2018
+48000,TX,texas,1456.0,Density per square mile of land area - Housing units
+49000,UT,utah,333.0,NHBA_FEMALE
+50000,VT,vermont,150.0,NHBA_FEMALE
+51000,VA,virginia,350.0,Bachelor's degree or higher 2014-18
+53000,WA,washington,2598.0,AA_FEMALE
+54000,WV,west virginia,52.0,NHAA_MALE
+55000,WI,wisconsin,708.0,CI90LBAll_2018
+56000,WY,wyoming,53.0,HIAC_MALE
