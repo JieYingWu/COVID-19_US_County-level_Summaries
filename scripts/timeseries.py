@@ -2,9 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-infections = pd.read_csv(r'../raw_data/national/USAfacts_infections/covid_confirmed_usafacts_aligned.csv')
-
-for row in infections.iterrows():
+def plot_timeseries(infections):
+  for row in infections.iterrows():
     row = row[1].to_numpy()
     datapoints = row[5:].astype(np.float)
     datapoints = datapoints[~np.isnan(datapoints)]
@@ -45,4 +44,8 @@ for row in infections.iterrows():
             plt.legend()
 
             plt.show()
+
+if __name__=='__main__':
+  infections = pd.read_csv(r'../raw_data/national/USAfacts_infections/covid_confirmed_usafacts_aligned.csv')
+  plot_timeseries(infections)
 
