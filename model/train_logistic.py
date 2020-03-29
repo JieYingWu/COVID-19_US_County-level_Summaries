@@ -8,6 +8,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 
+from time import strftime
 import tqdm
 import numpy as np
 from logistic import Net
@@ -48,8 +49,9 @@ val_loader = DataLoader(dataset=val_dataset, batch_size=batch_size, shuffle=True
 
 # Checkpoint parameter
 root = Path("checkpoints")
+timestamp = strftime('%Y-%m-%d-%H-%M-%S')
 try:
-    model_root = root / "models"
+    model_root = root / f"{timestamp}_models"
     model_root.mkdir(mode=0o777, parents=False)
 except OSError:
     print("Model path exists")
