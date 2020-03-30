@@ -8,3 +8,4 @@ writing
 raw_data/national/Climate/climdiv/
 raw_data/national/Climate/climdiv-*-v1.0.0-20200304
 *.#*
+.idea/
