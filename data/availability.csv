@@ -332,6 +332,7 @@ Oncology (Cancer) specialists (2019),3142,78,0.9758,0.0242
 Endocrinology Diabetes and Metabolism specialists (2019),3142,78,0.9758,0.0242
 All Other Specialties specialists (2019),3142,78,0.9758,0.0242
 Total Specialist Physicians (2019),3142,78,0.9758,0.0242
+ICU Beds,3142,78,0.9758,0.0242
 transit_scores - population weighted averages aggregated from town/city level to county,3061,159,0.9506,0.0494
 crime_rate_per_100000,3135,85,0.9736,0.0264
 COUNTY POPULATION-AGENCIES REPORT ARRESTS,3135,85,0.9736,0.0264
