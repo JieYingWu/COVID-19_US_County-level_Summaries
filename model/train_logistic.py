@@ -26,7 +26,7 @@ def init_weights(m):
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # Model parameters
-in_channels = 1085 # 734
+county_dim = 1083 # 732
 channels = [2048, 2048, 1024, 1024, 512, 512, 256, 256, 128, 128, 2]
 # channels = [1024, 1024, 512, 512]
 out_channels = 1
@@ -61,7 +61,7 @@ use_previous_model = False
 epoch_to_use = 0
 
 # Make model, loss, optimizer, and scheduler
-model = Net(train_dataset.num_counties, in_channels, channels=channels).to(device)
+model = Net(train_dataset.num_counties, county_dim, channels=channels).to(device)
 loss_fn = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=lr) 
 scheduler = ReduceLROnPlateau(optimizer)
