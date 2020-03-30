@@ -215,7 +215,7 @@ class CumulativeCoronavirusCases(Dataset):
       qs = qs[start:]
       ts = ts[start:]
       
-      ps, _ = curve_fit(f, ts, qs, p0=np.array([0, self.mean_pop, 1, 1]))
+      ps, _ = curve_fit(f, ts, qs, p0=np.array([1, self.mean_pop, 1, 1]))
       print(ps)
       
       out[fips] = ps
