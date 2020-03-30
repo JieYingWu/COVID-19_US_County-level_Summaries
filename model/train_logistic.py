@@ -115,7 +115,6 @@ for e in range(epoch, n_epochs):
     tq.update(batch_size)
     tq.set_postfix(loss=' loss={:.5f}'.format(loss.item()))
 
-  print(model.t0_table.mean())
   tq.set_postfix(loss=' loss={:.5f}'.format(epoch_loss / step))
   
   if e % validate_each == 0:

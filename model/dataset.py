@@ -151,12 +151,12 @@ class CumulativeCoronavirusCases(Dataset):
     for county_index, row in enumerate(self.counties):
       fips = self._get_fips(row[0])
       if (fips[:2] not in self.which_states  # state not in train/val/test set
-          or self.cases.get(fips) is None
-          or self.cases[fips][1][-1] < self.threshold):
+          or self.cases.get(fips) is None):
+          # or self.cases[fips][1][-1] < self.threshold):
         continue
 
       # train on the first n - 1 days, test on the last day
-      ts, qs = self.cases[fips]
+      # ts, qs = self.cases[fips]
       entries.append((county_index, fips))
     return entries
           
@@ -199,21 +199,26 @@ class CumulativeCoronavirusCases(Dataset):
     for row in cases:
       fips = self._get_fips(row[0])
       if fips is None or not self._is_county(fips):
-        # print(f'skipping {row[:3]}')
         continue
 
       try:
         qs = np.array([float(x) for x in row[4:]])
       except ValueError:
         continue
-      if np.all(qs == 0):
+
+      nonzero_elems = np.nonzero(qs)[0]
+      if len(nonzero_elems) < 5:
         continue
       
       ts = np.arange(self.min_t, self.min_t + qs.shape[0])
-      # t0, a, b, c = 
+      start = nonzero_elems[0]
+      qs = qs[start:]
+      ts = ts[start:]
       
+      ps, _ = curve_fit(f, ts, qs, p0=np.array([0, self.mean_pop, 1, 1]))
+      print(ps)
       
-      out[fips] = (ts, qs)
+      out[fips] = ps
     return out
     
   def format_county(self, row):
@@ -271,14 +276,14 @@ class CumulativeCoronavirusCases(Dataset):
     county = self.format_county(self.counties[county_index])
     intervention = self.format_intervention(self.interventions[county_index])
 
-    ts, qs = self.cases[fips]
+    t0, a, b, c = self.cases[fips]
     # county_index_one_hot = np.zeros(self.num_counties, np.float32)
     # county_index_one_hot[county_index] = 1
 
     # input to model is [county_index, [interventions], [county_data], ts]
     # county and intervention have  features between them
-    x = np.concatenate([[county_index], county, intervention, ts], axis=0)
-    y = qs
+    x = np.concatenate([county, intervention], axis=0)
+    y = np.array([a, b, c])
         
     x = torch.from_numpy(x).float().to(self.device)
     y = torch.from_numpy(y).float().to(self.device)

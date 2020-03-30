@@ -38,22 +38,24 @@ class Net(nn.Module):
     self.logistic = LogisticModel()
 
   def forward(self, x):
-    county_index = x[:, 0].long()  # for getting t0 for this county
-    county_index_one_hot = F.one_hot(county_index, num_classes=self.num_counties)
-    t0 = torch.sum(self.t0_table.view(1, -1) * county_index_one_hot, dim=1, keepdim=True)
+    # county_index = x[:, 0].long()  # for getting t0 for this county
+    # county_index_one_hot = F.one_hot(county_index, num_classes=self.num_counties)
+    # t0 = torch.sum(self.t0_table.view(1, -1) * county_index_one_hot, dim=1, keepdim=True)
 
-    county = x[:, 1:1 + self.county_dim]                # rest of the data on this county
-    ts = x[:, 1 + self.county_dim:]
+    # county = x[:, 1:1 + self.county_dim]                # rest of the data on this county
+    county = x
+    # ts = x[:, 1 + self.county_dim:]
 
     # inputs = torch.cat([county], dim=1)
     # qs = self.county_mlp(inputs)
     
     abc = self.county_mlp(county)
-    lparams = torch.cat([t0, abc, ts], dim=1)
+    return abc
+    # lparams = torch.cat([t0, abc, ts], dim=1)
     # print(lparams)
-    qs = self.logistic(lparams)
+    # qs = self.logistic(lparams)
     # print('abc', abc, abc.shape)
     # print('t0', t0, t0.shape)
     # print('q', q, q.shape)
-    return qs
+    # return qs
 
