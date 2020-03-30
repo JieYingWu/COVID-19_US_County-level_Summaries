@@ -16,11 +16,6 @@ from mlp import MLP
 
 
 class LogisticModel(nn.Module):
-  """Take as input (5,) tensor with t, t0, a, b, and c for each channel. Output the cumulative number as a single tensor."""
-  
-  def __init__(self, **kwargs):
-    super().__init__(**kwargs)
-
   def forward(self, x):
     t = x[:, 0]
     t0 = x[:, 1]
@@ -31,11 +26,23 @@ class LogisticModel(nn.Module):
     return out.view(-1, 1)
 
   
+class BertalanffyModel(nn.Module):
+  def forward(self, x):
+    t = x[:, 0]
+    t0 = x[:, 1]
+    a = x[:, 2]
+    b = x[:, 3]
+    c = x[:, 4]
+    out = a * torch.pow(1 - torch.exp(- b * (t - t0)), c)
+    return out.view(-1, 1)
+
+  
 class Net(nn.Module):
   def __init__(self, num_counties, in_channels, channels=[1024, 1024]):
     super().__init__()
     self.num_counties = num_counties
-    self.county_mlp = MLP(in_channels=in_channels - 2, out_channels=3, channels=channels, use_bn=True)
+    # self.county_mlp = MLP(in_channels=in_channels - 2, out_channels=3, channels=channels, use_bn=True)
+    self.county_mlp = MLP(in_channels=in_channels - 1, out_channels=1, channels=channels, use_bn=True)
     self.t0_table = nn.Parameter(data=21 * torch.ones(num_counties), requires_grad=True)
     self.logistic = LogisticModel()
 
@@ -45,11 +52,14 @@ class Net(nn.Module):
     county_index_one_hot = F.one_hot(county_index, num_classes=self.num_counties)
     county = x[:, 2:]                # rest of the data on this county
 
-    abc = self.county_mlp(county)
     t0 = torch.sum(self.t0_table.view(1, -1) * county_index_one_hot, dim=1, keepdim=True)
-    lparams = torch.cat([t, t0, abc], dim=1)
-    print(lparams)
-    q = self.logistic(lparams)
+    t = t - t0
+    inputs = torch.cat([t, county], dim=1)
+    q = self.county_mlp(inputs)
+    # abc = self.county_mlp(county)
+    # lparams = torch.cat([t, t0, abc], dim=1)
+    # print(lparams)
+    # q = self.logistic(lparams)
     # print('abc', abc, abc.shape)
     # print('t0', t0, t0.shape)
     # print('q', q, q.shape)
