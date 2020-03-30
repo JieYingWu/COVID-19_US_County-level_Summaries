@@ -29,28 +29,29 @@ infections = pd.read_csv(join(formatter.raw_data_dir, 'national/USAfacts_infecti
 deaths = pd.read_csv(join(formatter.raw_data_dir, 'national/USAfacts_infections/covid_deaths_usafacts_aligned.csv'))
 fips = [53033, 36061]
 
+## Extract the features from those counties
+national_data = formatter.parse_national_data()
+king_data = national_data[str(fips[0])]
+nyc_data = national_data[str(fips[1])]
+
+king_population = int(king_data['population'][6])
+nyc_population = int(nyc_data['population'][6])
+
 ## To get a general overview of the data, we can first plot them
-timeseries.plot_timeseries(infections, fips=fips, label='Infections')
-timeseries.plot_timeseries(deaths, fips=fips, label='Deaths')
+#timeseries.plot_timeseries(infections, fips=fips, label='Infections')
+#timeseries.plot_timeseries(deaths, fips=fips, label='Deaths')
 
 ## Let's take a deeper look at the data and see how the growth in these two counties compare
 ## Read out the timeseries in each county and we can calculate the growth rate
-king_time, king_infections, king_deaths = utils.get_timeseries(infections, deaths, fips[0])
-nyc_time, nyc_infections, nyc_deaths = utils.get_timeseries(infections, deaths, fips[1])
+king_time, king_infections, king_deaths = utils.get_timeseries(infections, deaths, fips[0], king_population)
+nyc_time, nyc_infections, nyc_deaths = utils.get_timeseries(infections, deaths, fips[1], nyc_population)
 
 king_param, king_param_cov = curve_fit(utils.fit_sigmoid, king_time, king_infections)
-king_error = utils.error(king_infections, utils.fit_sigmoid(king_time, king_param))
+king_error = utils.error(king_infections, utils.fit_sigmoid(king_time, king_param[0], king_param[1]))
 
 nyc_param, nyc_param_cov = curve_fit(utils.fit_sigmoid, nyc_time, nyc_infections)
-nyc_error = utils.error(nyc_infections, utils.fit_sigmoid(nyc_time, nyc_param))
+nyc_error = utils.error(nyc_infections, utils.fit_sigmoid(nyc_time, nyc_param[0], nyc_param[1]))
 
-utils.print_fit('King County', king_param[0], king_param_cov[0][0], king_error)
-utils.print_fit('New York City', nyc_param[0], nyc_param_cov[0][0], nyc_error)
+utils.print_fit('King County', king_param, king_param_cov, king_error)
+utils.print_fit('New York City', nyc_param, nyc_param_cov, nyc_error)
               
-## Extract the features from those counties
-national_data = formatter.parse_national_data()
-king_data = national_data[str(fips[1])]
-nyc_data = national_data[str(fips[1])]
-#print(king_data)
-#print(nyc_data)
-
