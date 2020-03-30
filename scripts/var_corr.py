@@ -12,6 +12,7 @@ import numpy as np
 import argparse
 import os
 import csv
+import itertools
 from collections import OrderedDict
 
 
@@ -37,7 +38,8 @@ def main():
     # file settings
     parser.add_argument('--data-dir', default='./data', help='data directory')
     parser.add_argument('--output-dir', default='./data', help='output directory')
-    parser.add_argument('--threshold', default='10', help='threshold for infected cases across counties')
+    parser.add_argument('--threshold', default=10, help='threshold for infected cases across counties')
+    parser.add_argument('--topn', default= 5, help = 'Top N correlated variables')
 
     args = parser.parse_args()
     if os.path.isdir(args.data_dir):
@@ -68,32 +70,40 @@ def main():
 
     states = np.unique(df_infect['State'])
 
-    corr_var = OrderedDict()
+    with open(output_path, 'w', newline='') as file:
+        writer = csv.writer(file, delimiter=',')
+        #### Writing out the columns
+        corr_colname = ['Corr_Var_{0}'.format(s) for s in range(1, 6)]
+        corr_colval = ['Corr_Value_{0}'.format(s) for s in range(1, 6)]
+        columns = [x for x in itertools.chain.from_iterable(zip(corr_colname, corr_colval))]
+        writer.writerow(['FIPS', 'STATE', 'STATE_NAME'] + columns)
 
-    for state in states:
-        state_data = df_infect.loc[
-            (df_infect['State'] == state) & (df_infect['FIPS'] % 1000 != 0)]  # excludes state data
+        for state in states:
+            #### Extractinf FIPS code and Area Name
+            state_fips = df_infect.loc[(df_infect['State'] == state) & (df_infect['FIPS'] % 1000 == 0)]['FIPS']
+            state_fips = int(state_fips)
+            state_areaname = df_infect.loc[(df_infect['State'] == state) & (df_infect['FIPS'] % 1000 == 0)]['Area_Name']
+            state_areaname = state_areaname.to_string(index=False)
 
-        if state_data.shape[0] < 2:
-            continue
-        if state_data['infected'].sum() < int(args.threshold):
-            continue
-        state_data.drop(excluded, axis=1, inplace=True)
-        var = state_data.corrwith(state_data['infected'])[:-1]
-        corr_var[state] = var.idxmax()
+            #### Discarding states with only one county data and having no. of infections < 10
+            state_data = df_infect.loc[
+                (df_infect['State'] == state) & (df_infect['FIPS'] % 1000 != 0)]  # excludes state data
+            if state_data.shape[0] < 2:
+                continue
+            if state_data['infected'].sum() < int(args.threshold):
+                continue
+            state_data.drop(excluded, axis=1, inplace=True)
 
-    df_ = pd.DataFrame.from_dict(corr_var, orient='index',
-                                 columns=['Most correlated variable'])
-    df_['STATE'] = df_.index
-    # print(df_.shape)
+            #### Pearson correlation
+            var = state_data.corrwith(state_data['infected'])[:-1]
+            #### Extracting topn data
+            corr_dict = var.nlargest(args.topn).to_dict(OrderedDict)
+            corr_cols = list(itertools.chain(*corr_dict.items()))
 
-    final_ = map_abbr_to_state(cases_data)
-    # print(final_.shape)
-
-    df_final = pd.merge(final_, df_, how='right', left_on='STATE', right_on='STATE')
-    # print(df_final_.shape)
-
-    df_final.to_csv(output_path, index=False)
+            cols = [state_fips, state, state_areaname]
+            for x in corr_cols:
+                cols.append(x)
+            writer.writerow(cols)
 
 
 if __name__ == '__main__':
