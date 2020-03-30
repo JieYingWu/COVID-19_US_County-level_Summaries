@@ -4,6 +4,7 @@ import csv
 
 import pandas as pd 
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 def merge(cleaned_file):
@@ -30,6 +31,53 @@ def merge(cleaned_file):
 
     cases_new.to_csv(pc, index=False)
     deaths_new.to_csv(pd_, index=False)
+
+
+def find_drops(path):
+    df = pd.read_csv(path)
+
+    headers = df.columns.values
+    df_compare_list = []
+
+    for idx in range(5, len(headers)):
+        df_temp = df[headers[idx]] - df[headers[idx-1]]
+        df_compare_list.append(df_temp)
+        
+    df_compare = pd.concat(df_compare_list, axis=1)
+
+    drops = {}
+    counter = 0
+    for i in range(len(df_compare)):
+        for j in range(len(df_compare.columns.values)):
+            if df_compare.loc[i,j] < 0:
+                print(f'Value {df_compare.loc[i,j]} at index {i},{j}')
+                drops_dict_list = drops.setdefault(df_compare.loc[i,j], [])
+                drops[df_compare.loc[i,j]].append((i,j))
+                counter += 1
+
+    print(counter)
+    percentages = []
+    keys = []
+    for key, value in drops.items():
+        print(len(value))
+        print(key)
+        keys.append(key)
+        percentages.append(len(value))
+
+    print(percentages)
+    print(min(drops))
+
+    x = np.arange(len(keys))
+    width = 0.35
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    ax.bar(x, percentages, width)
+    ax.set_ylabel('Number of Occurences')
+    ax.set_title('Difference to last day: Total: 141')
+    ax.set_xticks(x)
+    ax.set_xticklabels(keys)
+    ax.legend()
+    plt.show()
 
 
 def clean_file(path):
@@ -76,19 +124,15 @@ def insert_row(df, index, fips, admin, state):
     df2 = df[index:]  
     df1.loc[index] = ([fips, admin, state, 'US','NA','NA','NA','NA','NA']) 
    
-    # Concat the two dataframes 
     df_result = pd.concat([df1, df2]) 
-   
-    # Reassign the index labels 
     df_result.index = [*range(df_result.shape[0])] 
-   
-    # Return the updated dataframe 
     return df_result
 
 if __name__ == '__main__':
     os.chdir('../raw_data/national/JHU_Infections/')
-    
+    file_path = 'cases_time_series_JHU.csv'
+    find_drops(file_path)
     #file_path = 'cases.csv'
     #clean_file_path = clean_file(file_path)
-    clean_file_path = 'cases_29_03_clean.csv'
-    merge(clean_file_path)
+    #clean_file_path = 'cases_29_03_clean.csv'
+    #merge(clean_file_path)
