@@ -731,8 +731,8 @@ class Formatter():
             continue
 
           if i == self.national_data_skiprows[k]:
-            print(k)
-            print(*list(map(lambda t: f'      {t[0]},                      # {t[1]}', enumerate(row))), sep='\n')
+#            print(k)
+#            print(*list(map(lambda t: f'      {t[0]},                      # {t[1]}', enumerate(row))), sep='\n')
             if k == 'health':
               national_data['labels'][k] = [row[j].strip().replace(',', '').replace('Percentage', 'Fraction')
                                                  for j in self.national_data_which_columns[k]]

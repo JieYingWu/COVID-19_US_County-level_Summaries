@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def plot_data(data, min_days = 15, min_cases = 100):
+def plot_data(data, min_days = 15, min_cases = 100, label=''):
     for row in data.iterrows():
         row = row[1].to_numpy()
         datapoints = row[5:].astype(np.float)
@@ -26,14 +26,14 @@ def plot_data(data, min_days = 15, min_cases = 100):
                 plt.figure()
 
                 plt.subplot(121)
-                plt.plot(y, label='Infections')
+                plt.plot(y, label=label)
                 plt.title(row[1] + ', ' + row[2])
                 plt.xlabel('Days after first case')
                 plt.ylabel('Number cases')
                 plt.legend()
 
                 plt.subplot(122)
-                plt.plot(y_log, label='Infections log')
+                plt.plot(y_log, label= label + ' log')
 
                 x = np.arange(y_log.shape[0])
                 y_fit = m * x + b
@@ -46,14 +46,14 @@ def plot_data(data, min_days = 15, min_cases = 100):
                 plt.legend()
 
 
-def plot_timeseries(infections, fips=None):
+def plot_timeseries(infections, fips=None, label=''):
     # if no fips list is given: plot all counties which fulfill min days and cases
     if fips is None:
         plot_data(infections)
     # else plot only those counties corresponding to the given fips list
     else:
         fips_rows = infections.loc[infections['countyFIPS'].isin(fips)]
-        plot_data(fips_rows, min_days=0, min_cases=1)
+        plot_data(fips_rows, min_days=0, min_cases=1, label=label)
 
     plt.show()
 
