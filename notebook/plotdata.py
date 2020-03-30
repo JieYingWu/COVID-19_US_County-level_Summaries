@@ -7,8 +7,11 @@ import timeseries
 import csv
 import argparse
 from os.path import join, exists
-from scipy.optimize import curve_fit
 import utils
+
+## Define some parameters
+susceptible_factor = 0.8 
+model = utils.fit_exponential
 
 ## Preprocessing - Make a formatter that contains many counties data 
 parser = argparse.ArgumentParser(description='data formatter')
@@ -34,8 +37,8 @@ national_data = formatter.parse_national_data()
 king_data = national_data[str(fips[0])]
 nyc_data = national_data[str(fips[1])]
 
-king_population = int(king_data['population'][6])
-nyc_population = int(nyc_data['population'][6])
+king_population = int(king_data['population'][6])*susceptible_factor
+nyc_population = int(nyc_data['population'][6])*susceptible_factor
 
 ## To get a general overview of the data, we can first plot them
 #timeseries.plot_timeseries(infections, fips=fips, label='Infections')
@@ -43,15 +46,23 @@ nyc_population = int(nyc_data['population'][6])
 
 ## Let's take a deeper look at the data and see how the growth in these two counties compare
 ## Read out the timeseries in each county and we can calculate the growth rate
-king_time, king_infections, king_deaths = utils.get_timeseries(infections, deaths, fips[0], king_population)
-nyc_time, nyc_infections, nyc_deaths = utils.get_timeseries(infections, deaths, fips[1], nyc_population)
+king_time, king_infections, king_deaths = utils.get_timeseries(infections, deaths, fips[0])
+nyc_time, nyc_infections, nyc_deaths = utils.get_timeseries(infections, deaths, fips[1])
 
-king_param, king_param_cov = curve_fit(utils.fit_sigmoid, king_time, king_infections)
-king_error = utils.error(king_infections, utils.fit_sigmoid(king_time, king_param[0], king_param[1]))
+king_infections_param, king_infections_param_cov, king_infections_pred, king_infections_error = utils.fit_timeseries(model, king_time, king_infections)
+nyc_infections_param, nyc_infections_param_cov, nyc_infections_pred, nyc_infections_error = utils.fit_timeseries(model, nyc_time, nyc_infections)
+king_deaths_param, king_deaths_param_cov, king_deaths_pred, king_deaths_error = utils.fit_timeseries(model, king_time, king_deaths)
+nyc_deaths_param, nyc_deaths_param_cov, nyc_deaths_pred, nyc_deaths_error = utils.fit_timeseries(model, nyc_time, nyc_deaths)
 
-nyc_param, nyc_param_cov = curve_fit(utils.fit_sigmoid, nyc_time, nyc_infections)
-nyc_error = utils.error(nyc_infections, utils.fit_sigmoid(nyc_time, nyc_param[0], nyc_param[1]))
 
-utils.print_fit('King County', king_param, king_param_cov, king_error)
-utils.print_fit('New York City', nyc_param, nyc_param_cov, nyc_error)
-              
+utils.print_fit('King County infections', king_infections_param, king_infections_param_cov, king_infections_error)
+utils.print_fit('New York City infections', nyc_infections_param, nyc_infections_param_cov, nyc_infections_error)
+utils.print_fit('King County death', king_deaths_param, king_deaths_param_cov, king_deaths_error)
+utils.print_fit('New York City deaths', nyc_deaths_param, nyc_deaths_param_cov, nyc_deaths_error)
+
+utils.plot(king_infections, king_infections_pred, 'Infections')
+utils.plot(nyc_infections, nyc_infections_pred, 'Infections')
+utils.plot(king_deaths, king_deaths_pred, 'Infections')
+utils.plot(nyc_deaths, nyc_deaths_pred, 'Infections')
+
+
