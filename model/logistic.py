@@ -36,7 +36,7 @@ class Net(nn.Module):
     super().__init__()
     self.num_counties = num_counties
     self.county_mlp = MLP(in_channels=in_channels - 2, out_channels=3, channels=channels, use_bn=True)
-    self.t0_table = nn.Parameter(data=torch.zeros(num_counties), requires_grad=True)
+    self.t0_table = nn.Parameter(data=21 * torch.ones(num_counties), requires_grad=True)
     self.logistic = LogisticModel()
 
   def forward(self, x):
@@ -48,6 +48,7 @@ class Net(nn.Module):
     abc = self.county_mlp(county)
     t0 = torch.sum(self.t0_table.view(1, -1) * county_index_one_hot, dim=1, keepdim=True)
     lparams = torch.cat([t, t0, abc], dim=1)
+    print(lparams)
     q = self.logistic(lparams)
     # print('abc', abc, abc.shape)
     # print('t0', t0, t0.shape)

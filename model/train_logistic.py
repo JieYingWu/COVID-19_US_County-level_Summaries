@@ -36,7 +36,7 @@ max_cols = None
 
 # Training parameters
 batch_size = 32
-lr = 1.0e-6
+lr = 1.0
 n_epochs = 1000
 validate_each = 5
 
@@ -114,23 +114,24 @@ for e in range(epoch, n_epochs):
     step += 1
     tq.update(batch_size)
     tq.set_postfix(loss=' loss={:.5f}'.format(loss.item()))
-    
+
+  print(model.t0_table.mean())
   tq.set_postfix(loss=' loss={:.5f}'.format(epoch_loss / step))
   
   if e % validate_each == 0:
     all_val_loss = []
-        
+    
   with torch.no_grad():
     for j, (x, y) in enumerate(val_loader):
       pred = model(x)
       loss = loss_fn(pred, y)
       all_val_loss.append(loss.item())
-        
+    
     mean_loss = np.mean(all_val_loss)
     scheduler.step(mean_loss)
-    tq.set_postfix(loss='val_loss={:5f}'.format(mean_loss))
-    
+    tq.set_postfix(loss='val_loss={:.5f}'.format(mean_loss))
+
     model_path = model_root / "model_{}.pt".format(e)
     save(e, model, model_path, mean_loss, optimizer, scheduler)
-        
+    
   tq.close()
