@@ -472,8 +472,10 @@ class Formatter():
       86,                      # Oncology (Cancer) specialists (2019)
       87,                      # Endocrinology, Diabetes, and Metabolism specialists (2019)
       88,                      # All Other Specialties specialists (2019)
-      89                      # Total Specialist Physicians (2019)
+      89,                      # Total Specialist Physicians (2019)
+      90                       # ICU Beds
     ]),
+
     ('transit', [
       2                      # transit_scores - population weighted averages aggregated from town/city level to county
     ]),
@@ -1109,7 +1111,7 @@ def main():
 
   # run
   formatter = Formatter(args)
-  # formatter.unify_climate_data() # only run if data files present, see function for which files
+  formatter.unify_climate_data() # only run if data files present, see function for which files
   formatter.make_national_data()
   formatter.make_cases_data()
   # formatter.filter_data()

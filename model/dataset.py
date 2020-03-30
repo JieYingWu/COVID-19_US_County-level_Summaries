@@ -5,6 +5,7 @@ from torch.utils.data import Dataset
 import torch
 import torch.nn.functional as F
 import re
+from scipy.optimize import curve_fit
 
 class CoronavirusCases(Dataset):
   def __init__(self, data_dir='data', split='train', threshold=8, device='cpu'):
@@ -115,6 +116,13 @@ class CumulativeCoronavirusCases(Dataset):
     self.threshold = threshold
     self.min_t = min_t
     self.split = split
+
+    self.val_states = {'53'}           # Washington State FIPS
+    self.test_states = {'06'}          # California FIPS
+    self.train_states = set(str(i).zfill(2) for i in range(1, 100)
+                            if str(i).zfill(2) not in self.val_states
+                            and str(i).zfill(2) not in self.test_states)
+    self.which_states = getattr(self, split + '_states')
     
     self.counties = np.genfromtxt(join(data_dir, 'counties.csv'), delimiter=',', skip_header=1, dtype=str)
     self.num_counties = self.counties.shape[0]
@@ -134,26 +142,24 @@ class CumulativeCoronavirusCases(Dataset):
                             skip_header=1, dtype=str, usecols=usecols)
 
     self.cases = self.process_cases(cases)
+    self.entries = self.make_entries()
 
-    # build the entries table, int64
+
+  def make_entries(self):
+    # build the entries table
     entries = []
     for county_index, row in enumerate(self.counties):
       fips = self._get_fips(row[0])
-
-      if self.cases.get(fips) is None or self.cases[fips][1][-1] < self.threshold:
+      if (fips[:2] not in self.which_states  # state not in train/val/test set
+          or self.cases.get(fips) is None):
+          # or self.cases[fips][1][-1] < self.threshold):
         continue
 
       # train on the first n - 1 days, test on the last day
-      ts, qs = self.cases[fips]
-      if split == 'val' or split == 'test':
-        entries.append([county_index, ts[-1], qs[-1]])
-      else:
-        for t, q in zip(ts[:-1], qs[:-1]):
-          if q == 0:
-            continue
-          entries.append([county_index, t, q])
-    self.entries = np.array(entries, dtype=np.int64)
-
+      # ts, qs = self.cases[fips]
+      entries.append((county_index, fips))
+    return entries
+          
   def _get_fips(self, x, default=None):
     if isinstance(x, str) and re.match(r'^\d{1,5}$', x) is not None:
       return x.zfill(5)
@@ -175,7 +181,9 @@ class CumulativeCoronavirusCases(Dataset):
     fips = self._get_fips(x)
     assert len(fips) == 5
     return fips[2:] != '000'
-    
+
+  mean_pop = 10000
+  
   def process_cases(self, cases):
     """Process infections or deaths cases into a lookup table.
     
@@ -184,20 +192,33 @@ class CumulativeCoronavirusCases(Dataset):
     :rtype: 
 
     """
+    def f(t, t0, a, b, c):
+      return a / (1 + np.exp(b - c * (t - t0)))
+    
     out = {}
     for row in cases:
       fips = self._get_fips(row[0])
       if fips is None or not self._is_county(fips):
-        # print(f'skipping {row[:3]}')
         continue
 
       try:
-        values = np.array([float(x) for x in row[4:]])
+        qs = np.array([float(x) for x in row[4:]])
       except ValueError:
         continue
+
+      nonzero_elems = np.nonzero(qs)[0]
+      if len(nonzero_elems) < 5:
+        continue
       
-      timesteps = np.arange(self.min_t, self.min_t + values.shape[0])
-      out[fips] = (timesteps, values)
+      ts = np.arange(self.min_t, self.min_t + qs.shape[0])
+      start = nonzero_elems[0]
+      qs = qs[start:]
+      ts = ts[start:]
+      
+      ps, _ = curve_fit(f, ts, qs, p0=np.array([1, self.mean_pop, 1, 1]))
+      print(ps)
+      
+      out[fips] = ps
     return out
     
   def format_county(self, row):
@@ -250,18 +271,19 @@ class CumulativeCoronavirusCases(Dataset):
     return y
   
   def __getitem__(self, i):
-    county_index, t, q = self.entries[i]
+    county_index, fips = self.entries[i]
     
     county = self.format_county(self.counties[county_index])
     intervention = self.format_intervention(self.interventions[county_index])
 
+    t0, a, b, c = self.cases[fips]
     # county_index_one_hot = np.zeros(self.num_counties, np.float32)
     # county_index_one_hot[county_index] = 1
 
-    # input to model is [t, [one hot county index], [interventions], [county_data]]
-    # county and intervention have 732 features between them
-    x = np.concatenate([[t], [county_index], county, intervention], axis=0)
-    y = np.array([q])
+    # input to model is [county_index, [interventions], [county_data], ts]
+    # county and intervention have  features between them
+    x = np.concatenate([county, intervention], axis=0)
+    y = np.array([a, b, c])
         
     x = torch.from_numpy(x).float().to(self.device)
     y = torch.from_numpy(y).float().to(self.device)
@@ -269,7 +291,7 @@ class CumulativeCoronavirusCases(Dataset):
     return x, y
   
   def __len__(self):
-    return self.entries.shape[0]
+    return len(self.entries)
 
   
 if __name__ == '__main__':
