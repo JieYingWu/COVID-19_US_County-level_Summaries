@@ -1051,7 +1051,6 @@ class Formatter():
           writer.writerow(to_write)
 #        print(f'wrote {fips}')
 
-
   def intervention_to_ordinal(self):
     t0 = datetime.date(2020, 2, 29).toordinal()
     
