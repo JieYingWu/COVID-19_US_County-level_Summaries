@@ -5,14 +5,15 @@
   states, as available.
 * `counties_only.csv` contains the same columns for counties only.
 * `states_only.csv` contains the same columns for the fifty states and DC.
-* `infections_timeseries.csv` contains an county-level timeseries of cumulative COVID-19 infections in the US.
+* `infections_timeseries.csv` contains an county-level timeseries of cumulative COVID-19 infections
+  in the US.
 * `deaths_timeseries.csv` contains analogous information for COVID-19 related deaths.
-  **Note** that the first column in the infections and deaths data corresponds to **t = 21**.
+  **Note** that the first column in the infections and deaths data corresponds to Jan 22, 2020, or **t = 737446**.
 * `filtered_cases_and_deaths.csv` contains only counties with a significant number of cases.
 * `filtered_cases_and_deaths.csv` contains info on all fifty states and DC.
 * `interventions.csv` contains the dates that counties (or states governing them) took measures to
-  mitigate the spread by restricting gatherings, measured in days since **February 29, 2020**,
-  (i.e. t = 0 on that day).
+  mitigate the spread by restricting gatherings, given as the proleptic Gregorian ordinal of the
+  date, where January 1 of year 1 has `t = 1`.
 * `counties_order.csv` contains the FIPS codes and county name for each of these counties. FIPS
   codes are unambiguous identifiers for each county, since the same county name may appear in many
   states. See [this list](https://www.wikiwand.com/en/List_of_the_most_common_U.S._county_names)
