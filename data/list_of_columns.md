@@ -297,8 +297,8 @@
 Data presented below was retrieved at state level and projected onto county level. Absolute numbers were projected based on the county to state population proportion. Ratios (e.g. per 100,00 people) or percentages at the state level were assumed to be representative of the county level.
 | Data variable     | Description |
 | ---   | --- |
-|Active Physicians per 100,000 Population, 2018 (AAMC)|Active Physicians per 100,000 Population, 2018 |
-|Total Active Patient Care Physicians per 100,000 Population, 2018 (AAMC)|Total Active Patient Care Physicians per 100,000 Population, 2018 |
+|Active Physicians per 100,000 Population, 2018 (AAMC)|Active Physicians per 100,000 Population, 2018 (Assumed identical to state)|
+|Total Active Patient Care Physicians per 100,000 Population, 2018 (AAMC)|Total Active Patient Care Physicians per 100,000 Population, 2018 (Assumed identical to state)|
 |Active Primary Care Physicians per 100,000 Population, 2018 (AAMC)|Active Primary Care Physicians per 100,000 Population, 2018 |
 |Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (AAMC)|Active Patient Care Primary Care Physicians per 100,000 Population, 2018 |
 |Active General Surgeons per 100,000 Population, 2018 (AAMC)|Active General Surgeons per 100,000 Population, 2018 |
