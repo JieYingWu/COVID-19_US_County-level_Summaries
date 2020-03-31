@@ -931,6 +931,39 @@ class Formatter():
     self.copy_cases_data(infections_filename, join(self.data_dir, 'infections_timeseries.csv'))
     self.copy_cases_data(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'))
 
+  def copy_traffic_file(self, src_filename, dst_filename):
+    with open(src_filename, 'r', newline='') as src_file, \
+         open(dst_filename, 'w', newline='') as dst_file:
+      reader = csv.reader(src_file, delimiter=',')
+      writer = csv.writer(dst_file, delimiter=',')
+      
+      for i, row in enumerate(reader):
+        if all(map(lambda x : x == '', row)):
+          continue
+
+        if i == 0:
+          # write teh labels
+          d0 = datetime.date(2020, 3, 1).toordinal()  # May 1, 2020
+          dates = [datetime.date.fromordinal(d0 + d) for d in range(len(row[1:]))]
+          writer.writerow(['FIPS'] + [f'{d.month} / {d.day} / {d.year}' for d in dates])
+
+        row[0] = row[0].zfill(5)
+        writer.writerow(row)
+
+  def make_foot_traffic_data(self):
+    src_filenames = [
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'Grocery_cty_visits.csv'),
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'Healthcare_cty_visits.csv'),
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'Hospitals_cty_visits.csv'),
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'cty_visits.csv')]
+    dst_filenames = [
+      join(self.data_dir, 'foot_traffic', 'grocery_visits.csv'),
+      join(self.data_dir, 'foot_traffic', 'healthcare_visits.csv'),
+      join(self.data_dir, 'foot_traffic', 'hospital_visits.csv'),
+      join(self.data_dir, 'foot_traffic', 'poi_visits.csv')]
+    for src, dst in zip(src_filenames, dst_filenames):
+      self.copy_traffic_file(src, dst)
+
   def filter_data(self):
     """Filter out counties that have few cases
 
@@ -1068,11 +1101,12 @@ def main():
   # run
   formatter = Formatter(args)
   # formatter.unify_climate_data() # only run if data files present, see function for which files
-  formatter.make_national_data()
-  formatter.make_cases_data()
+  # formatter.make_national_data()
+  # formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
-  formatter.intervention_to_ordinal()
+  # formatter.intervention_to_ordinal()
+  formatter.make_foot_traffic_data()
 
   
 if __name__ == '__main__':
