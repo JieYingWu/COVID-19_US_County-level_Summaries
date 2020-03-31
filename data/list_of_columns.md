@@ -299,23 +299,23 @@ Data presented below was retrieved at state level and projected onto county leve
 | ---   | --- |
 |Active Physicians per 100,000 Population, 2018 (AAMC)|Active Physicians per 100,000 Population, 2018 (Assumed identical to state)|
 |Total Active Patient Care Physicians per 100,000 Population, 2018 (AAMC)|Total Active Patient Care Physicians per 100,000 Population, 2018 (Assumed identical to state)|
-|Active Primary Care Physicians per 100,000 Population, 2018 (AAMC)|Active Primary Care Physicians per 100,000 Population, 2018 |
-|Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (AAMC)|Active Patient Care Primary Care Physicians per 100,000 Population, 2018 |
-|Active General Surgeons per 100,000 Population, 2018 (AAMC)|Active General Surgeons per 100,000 Population, 2018 |
-|Active Patient Care General Surgeons per 100,000 Population, 2018 (AAMC)|Active Patient Care General Surgeons per 100,000 Population, 2018 |
-|Percentage of Active Physicians Who Are Female, 2018 (AAMC)|Percentage of Active Physicians Who Are Female, 2018 |
-|Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (AAMC)|Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 |
-|Percentage of Active Physicians Who Are Age 60 or Older, 2018 (AAMC)|Percentage of Active Physicians Who Are Age 60 or Older, 2018 |
-|MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (AAMC)|MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 |
-|Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (AAMC)|Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 |
-|Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (AAMC)|Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 |
-|Percentage of MD Students Matriculating In-State, AY 2018-2019* (AAMC)|Percentage of MD Students Matriculating In-State, AY 2018-2019 |
-|Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (AAMC)|Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 |
-|Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (AAMC)|Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 |
-|Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (AAMC)|Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 |
-|Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (AAMC)|Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 |
-|Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (AAMC)|Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 |
-|Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (AAMC)|Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 |
+|Active Primary Care Physicians per 100,000 Population, 2018 (AAMC)|Active Primary Care Physicians per 100,000 Population, 2018 (Assumed identical to state)|
+|Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (AAMC)|Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (Assumed identical to state)|
+|Active General Surgeons per 100,000 Population, 2018 (AAMC)|Active General Surgeons per 100,000 Population, 2018 (Assumed identical to state)|
+|Active Patient Care General Surgeons per 100,000 Population, 2018 (AAMC)|Active Patient Care General Surgeons per 100,000 Population, 2018 (Assumed identical to state)|
+|Percentage of Active Physicians Who Are Female, 2018 (AAMC)|Percentage of Active Physicians Who Are Female, 2018 (Assumed identical to state)|
+|Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (AAMC)|Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (Assumed identical to state)|
+|Percentage of Active Physicians Who Are Age 60 or Older, 2018 (AAMC)|Percentage of Active Physicians Who Are Age 60 or Older, 2018 (Assumed identical to state)|
+|MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (AAMC)|MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (Assumed identical to state)|
+|Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (AAMC)|Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (Assumed identical to state)|
+|Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (AAMC)|Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (Assumed identical to state)|
+|Percentage of MD Students Matriculating In-State, AY 2018-2019* (AAMC)|Percentage of MD Students Matriculating In-State, AY 2018-2019 (Assumed identical to state)|
+|Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (AAMC)|Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (Assumed identical to state)|
+|Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (AAMC)|Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (Assumed identical to state)|
+|Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (AAMC)|Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (Assumed identical to state)|
+|Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (AAMC)|Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (Assumed identical to state)|
+|Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (AAMC)|Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (Assumed identical to state)|
+|Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (AAMC)|Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (Assumed identical to state)|
 |All Specialties (AAMC)|All Specialties |
 |Allergy & Immunology (AAMC)|Allergy & Immunology |
 |Anatomic/Clinical Pathology (AAMC)|Anatomic/Clinical Pathology |
