@@ -97,22 +97,22 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 2275,wrangell city and borough,AK,,,,19-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 2282,yakutat city and borough,AK,,,,19-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 2290,yukon-koyukuk census area,AK,,,,19-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-4000,arizona,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4001,apache county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4003,cochise county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4005,coconino county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4007,gila county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4009,graham county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4011,greenlee county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4012,la paz county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4013,maricopa county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4015,mohave county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4017,navajo county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4019,pima county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4021,pinal county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4023,santa cruz county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4025,yavapai county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
-4027,yuma county,AZ,,,,16-Mar,20-Mar,,16-Mar,11-Mar
+4000,arizona,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4001,apache county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4003,cochise county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4005,coconino county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4007,gila county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4009,graham county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4011,greenlee county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4012,la paz county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4013,maricopa county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4015,mohave county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4017,navajo county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4019,pima county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4021,pinal county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4023,santa cruz county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4025,yavapai county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
+4027,yuma county,AZ,31-Mar,31-Mar,31-Mar,16-Mar,20-Mar,,16-Mar,11-Mar
 5000,arkansas,AR,,,,17-Mar,19-Mar,19-Mar,16-Mar,11-Mar
 5001,arkansas county,AR,,,,17-Mar,19-Mar,19-Mar,16-Mar,11-Mar
 5003,ashley county,AR,,,,17-Mar,19-Mar,19-Mar,16-Mar,11-Mar
@@ -248,71 +248,71 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 6111,ventura county,CA,19-Mar,19-Mar,19-Mar,19-Mar,15-Mar,15-Mar,16-Mar,11-Mar
 6113,yolo county,CA,19-Mar,19-Mar,19-Mar,19-Mar,15-Mar,15-Mar,16-Mar,11-Mar
 6115,yuba county,CA,19-Mar,19-Mar,19-Mar,19-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-8000,colorado,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8000,colorado,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8001,adams county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8003,alamosa county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8003,alamosa county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8005,arapahoe county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8007,archuleta county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8009,baca county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8011,bent county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8009,baca county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8011,bent county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8013,boulder county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8014,broomfield county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8015,chaffee county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8017,cheyenne county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8019,clear creek county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8021,conejos county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8023,costilla county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8025,crowley county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8027,custer county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8029,delta county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8014,broomfield county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8015,chaffee county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8017,cheyenne county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8019,clear creek county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8021,conejos county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8023,costilla county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8025,crowley county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8027,custer county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8029,delta county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8031,denver county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8033,dolores county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8033,dolores county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8035,douglas county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8037,eagle county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8039,elbert county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8041,el paso county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8043,fremont county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8045,garfield county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8047,gilpin county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8039,elbert county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8041,el paso county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8043,fremont county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8045,garfield county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8047,gilpin county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8049,grand county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8051,gunnison county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8053,hinsdale county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8055,huerfano county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8057,jackson county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8051,gunnison county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8053,hinsdale county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8055,huerfano county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8057,jackson county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8059,jefferson county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8061,kiowa county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8063,kit carson county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8065,lake county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8061,kiowa county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8063,kit carson county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8065,lake county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8067,la plata county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8069,larimer county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8071,las animas county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8073,lincoln county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8075,logan county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8077,mesa county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8079,mineral county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8081,moffat county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8083,montezuma county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8085,montrose county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8087,morgan county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8089,otero county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8091,ouray county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8093,park county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8095,phillips county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8069,larimer county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8071,las animas county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8073,lincoln county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8075,logan county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8077,mesa county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8079,mineral county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8081,moffat county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8083,montezuma county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8085,montrose county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8087,morgan county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8089,otero county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8091,ouray county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8093,park county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8095,phillips county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8097,pitkin county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8099,prowers county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8101,pueblo county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8103,rio blanco county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8105,rio grande county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8107,routt county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8109,saguache county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8111,san juan county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8099,prowers county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8101,pueblo county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8103,rio blanco county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8105,rio grande county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8107,routt county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8109,saguache county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8111,san juan county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 8113,san miguel county,CO,24-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8115,sedgwick county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8117,summit county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8119,teller county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8121,washington county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8123,weld county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
-8125,yuma county,CO,,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8115,sedgwick county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8117,summit county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8119,teller county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8121,washington county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8123,weld county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
+8125,yuma county,CO,26-Mar,24-Mar,13-Mar,23-Mar,20-Mar,17-Mar,16-Mar,11-Mar
 9000,connecticut,CT,23-Mar,23-Mar,23-Mar,17-Mar,16-Mar,16-Mar,16-Mar,11-Mar
 9001,fairfield county,CT,23-Mar,23-Mar,23-Mar,17-Mar,16-Mar,16-Mar,16-Mar,11-Mar
 9003,hartford county,CT,23-Mar,23-Mar,23-Mar,17-Mar,16-Mar,16-Mar,16-Mar,11-Mar
@@ -326,15 +326,15 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 10001,kent county,DE,24-Mar,24-Mar,24-Mar,16-Mar,12-Mar,12-Mar,16-Mar,11-Mar
 10003,new castle county,DE,24-Mar,24-Mar,24-Mar,16-Mar,12-Mar,12-Mar,16-Mar,11-Mar
 10005,sussex county,DE,24-Mar,24-Mar,24-Mar,16-Mar,12-Mar,12-Mar,16-Mar,11-Mar
-11000,district of columbia,DC,,25-Mar,25-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-11001,district of columbia,DC,,25-Mar,25-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+11000,district of columbia,DC,1-Apr,25-Mar,25-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+11001,district of columbia,DC,1-Apr,25-Mar,25-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
 12000,florida,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12001,alachua county,FL,25-Mar,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12003,baker county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12005,bay county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12007,bradford county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12009,brevard county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-12011,broward county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+12011,broward county,FL,27-Mar,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12013,calhoun county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12015,charlotte county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12017,citrus county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
@@ -356,7 +356,7 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 12051,hendry county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12053,hernando county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12055,highlands county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-12057,hillsborough county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+12057,hillsborough county,FL,27-Mar,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12059,holmes county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12061,indian river county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12063,jackson county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
@@ -371,16 +371,16 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 12081,manatee county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12083,marion county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12085,martin county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-12086,miami-dade county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-12087,monroe county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+12086,miami-dade county,FL,25-Mar,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+12087,monroe county,FL,30-Mar,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12089,nassau county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12091,okaloosa county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12093,okeechobee county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12095,orange county,FL,26-Mar,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-12097,osceola county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-12099,palm beach county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+12097,osceola county,FL,26-Mar,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+12099,palm beach county,FL,30-Mar,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12101,pasco county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-12103,pinellas county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+12103,pinellas county,FL,26-Mar,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12105,polk county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12107,putnam county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 12109,st. johns county,FL,,17-Mar,17-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
@@ -443,7 +443,7 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 13089,dekalb county,GA,,17-Mar,17-Mar,18-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 13091,dodge county,GA,,17-Mar,17-Mar,18-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 13093,dooly county,GA,,17-Mar,17-Mar,18-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-13095,dougherty county,GA,,17-Mar,17-Mar,18-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+13095,dougherty county,GA,21-Mar,17-Mar,17-Mar,18-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 13097,douglas county,GA,,17-Mar,17-Mar,18-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 13099,early county,GA,,17-Mar,17-Mar,18-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 13101,echols county,GA,,17-Mar,17-Mar,18-Mar,20-Mar,20-Mar,16-Mar,11-Mar
@@ -903,233 +903,233 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 19193,woodbury county,IA,,,,,17-Mar,17-Mar,16-Mar,11-Mar
 19195,worth county,IA,,,,,17-Mar,17-Mar,16-Mar,11-Mar
 19197,wright county,IA,,,,,17-Mar,17-Mar,16-Mar,11-Mar
-20000,kansas,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20001,allen county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20003,anderson county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20005,atchison county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20007,barber county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20009,barton county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20011,bourbon county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20013,brown county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20015,butler county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20017,chase county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20019,chautauqua county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20021,cherokee county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20023,cheyenne county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20025,clark county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20027,clay county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20029,cloud county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20031,coffey county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20033,comanche county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20035,cowley county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20037,crawford county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20039,decatur county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20041,dickinson county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20043,doniphan county,KS,,,,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20000,kansas,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20001,allen county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20003,anderson county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20005,atchison county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20007,barber county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20009,barton county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20011,bourbon county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20013,brown county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20015,butler county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20017,chase county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20019,chautauqua county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20021,cherokee county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20023,cheyenne county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20025,clark county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20027,clay county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20029,cloud county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20031,coffey county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20033,comanche county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20035,cowley county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20037,crawford county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20039,decatur county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20041,dickinson county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20043,doniphan county,KS,30-Mar,30-Mar,30-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
 20045,douglas county,KS,24-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20047,edwards county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20049,elk county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20051,ellis county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20053,ellsworth county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20055,finney county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20057,ford county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20059,franklin county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20061,geary county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20063,gove county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20065,graham county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20067,grant county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20069,gray county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20071,greeley county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20073,greenwood county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20075,hamilton county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20077,harper county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20079,harvey county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20081,haskell county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20083,hodgeman county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20085,jackson county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20087,jefferson county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20089,jewell county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20047,edwards county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20049,elk county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20051,ellis county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20053,ellsworth county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20055,finney county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20057,ford county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20059,franklin county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20061,geary county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20063,gove county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20065,graham county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20067,grant county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20069,gray county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20071,greeley county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20073,greenwood county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20075,hamilton county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20077,harper county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20079,harvey county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20081,haskell county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20083,hodgeman county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20085,jackson county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20087,jefferson county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20089,jewell county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
 20091,johnson county,KS,24-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20093,kearny county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20095,kingman county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20097,kiowa county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20099,labette county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20101,lane county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20093,kearny county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20095,kingman county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20097,kiowa county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20099,labette county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20101,lane county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
 20103,leavenworth county,KS,24-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20105,lincoln county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20107,linn county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20109,logan county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20111,lyon county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20113,mcpherson county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20115,marion county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20117,marshall county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20119,meade county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20121,miami county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20123,mitchell county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20125,montgomery county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20127,morris county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20129,morton county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20131,nemaha county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20133,neosho county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20135,ness county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20137,norton county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20139,osage county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20141,osborne county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20143,ottawa county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20145,pawnee county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20147,phillips county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20149,pottawatomie county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20151,pratt county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20153,rawlins county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20155,reno county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20157,republic county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20159,rice county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20161,riley county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20163,rooks county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20165,rush county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20167,russell county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20169,saline county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20171,scott county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20105,lincoln county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20107,linn county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20109,logan county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20111,lyon county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20113,mcpherson county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20115,marion county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20117,marshall county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20119,meade county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20121,miami county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20123,mitchell county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20125,montgomery county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20127,morris county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20129,morton county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20131,nemaha county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20133,neosho county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20135,ness county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20137,norton county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20139,osage county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20141,osborne county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20143,ottawa county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20145,pawnee county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20147,phillips county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20149,pottawatomie county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20151,pratt county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20153,rawlins county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20155,reno county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20157,republic county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20159,rice county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20161,riley county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20163,rooks county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20165,rush county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20167,russell county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20169,saline county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20171,scott county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
 20173,sedgwick county,KS,25-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20175,seward county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20177,shawnee county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20179,sheridan county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20181,sherman county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20183,smith county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20185,stafford county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20187,stanton county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20189,stevens county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20191,sumner county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20193,thomas county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20195,trego county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20197,wabaunsee county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20199,wallace county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20201,washington county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20203,wichita county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20205,wilson county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-20207,woodson county,KS,,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20175,seward county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20177,shawnee county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20179,sheridan county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20181,sherman county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20183,smith county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20185,stafford county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20187,stanton county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20189,stevens county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20191,sumner county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20193,thomas county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20195,trego county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20197,wabaunsee county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20199,wallace county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20201,washington county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20203,wichita county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20205,wilson county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
+20207,woodson county,KS,30-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
 20209,wyandotte county,KS,24-Mar,17-Mar,17-Mar,18-Mar,24-Mar,24-Mar,16-Mar,11-Mar
-21000,kentucky,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21001,adair county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21003,allen county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21005,anderson county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21007,ballard county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21009,barren county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21011,bath county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21013,bell county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21015,boone county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21017,bourbon county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21019,boyd county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21021,boyle county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21023,bracken county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21025,breathitt county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21027,breckinridge county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21029,bullitt county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21031,butler county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21033,caldwell county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21035,calloway county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21037,campbell county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21039,carlisle county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21041,carroll county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21043,carter county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21045,casey county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21047,christian county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21049,clark county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21051,clay county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21053,clinton county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21055,crittenden county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21057,cumberland county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21059,daviess county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21061,edmonson county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21063,elliott county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21065,estill county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21067,fayette county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21069,fleming county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21071,floyd county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21073,franklin county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21075,fulton county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21077,gallatin county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21079,garrard county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21081,grant county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21083,graves county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21085,grayson county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21087,green county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21089,greenup county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21091,hancock county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21093,hardin county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21095,harlan county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21097,harrison county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21099,hart county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21101,henderson county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21103,henry county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21105,hickman county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21107,hopkins county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21109,jackson county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21111,jefferson county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21113,jessamine county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21115,johnson county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21117,kenton county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21119,knott county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21121,knox county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21123,larue county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21125,laurel county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21127,lawrence county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21129,lee county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21131,leslie county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21133,letcher county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21135,lewis county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21137,lincoln county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21139,livingston county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21141,logan county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21143,lyon county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21145,mccracken county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21147,mccreary county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21149,mclean county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21151,madison county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21153,magoffin county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21155,marion county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21157,marshall county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21159,martin county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21161,mason county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21163,meade county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21165,menifee county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21167,mercer county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21169,metcalfe county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21171,monroe county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21173,montgomery county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21175,morgan county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21177,muhlenberg county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21179,nelson county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21181,nicholas county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21183,ohio county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21185,oldham county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21187,owen county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21189,owsley county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21191,pendleton county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21193,perry county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21195,pike county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21197,powell county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21199,pulaski county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21201,robertson county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21203,rockcastle county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21205,rowan county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21207,russell county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21209,scott county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21211,shelby county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21213,simpson county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21215,spencer county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21217,taylor county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21219,todd county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21221,trigg county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21223,trimble county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21225,union county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21227,warren county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21229,washington county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21231,wayne county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21233,webster county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21235,whitley county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21237,wolfe county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
-21239,woodford county,KY,,,,16-Mar,,18-Mar,16-Mar,11-Mar
+21000,kentucky,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21001,adair county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21003,allen county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21005,anderson county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21007,ballard county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21009,barren county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21011,bath county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21013,bell county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21015,boone county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21017,bourbon county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21019,boyd county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21021,boyle county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21023,bracken county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21025,breathitt county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21027,breckinridge county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21029,bullitt county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21031,butler county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21033,caldwell county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21035,calloway county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21037,campbell county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21039,carlisle county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21041,carroll county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21043,carter county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21045,casey county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21047,christian county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21049,clark county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21051,clay county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21053,clinton county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21055,crittenden county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21057,cumberland county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21059,daviess county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21061,edmonson county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21063,elliott county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21065,estill county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21067,fayette county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21069,fleming county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21071,floyd county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21073,franklin county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21075,fulton county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21077,gallatin county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21079,garrard county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21081,grant county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21083,graves county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21085,grayson county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21087,green county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21089,greenup county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21091,hancock county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21093,hardin county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21095,harlan county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21097,harrison county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21099,hart county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21101,henderson county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21103,henry county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21105,hickman county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21107,hopkins county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21109,jackson county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21111,jefferson county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21113,jessamine county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21115,johnson county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21117,kenton county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21119,knott county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21121,knox county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21123,larue county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21125,laurel county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21127,lawrence county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21129,lee county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21131,leslie county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21133,letcher county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21135,lewis county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21137,lincoln county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21139,livingston county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21141,logan county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21143,lyon county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21145,mccracken county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21147,mccreary county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21149,mclean county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21151,madison county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21153,magoffin county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21155,marion county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21157,marshall county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21159,martin county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21161,mason county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21163,meade county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21165,menifee county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21167,mercer county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21169,metcalfe county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21171,monroe county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21173,montgomery county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21175,morgan county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21177,muhlenberg county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21179,nelson county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21181,nicholas county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21183,ohio county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21185,oldham county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21187,owen county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21189,owsley county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21191,pendleton county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21193,perry county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21195,pike county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21197,powell county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21199,pulaski county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21201,robertson county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21203,rockcastle county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21205,rowan county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21207,russell county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21209,scott county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21211,shelby county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21213,simpson county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21215,spencer county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21217,taylor county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21219,todd county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21221,trigg county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21223,trimble county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21225,union county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21227,warren county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21229,washington county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21231,wayne county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21233,webster county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21235,whitley county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21237,wolfe county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
+21239,woodford county,KY,26-Mar,26-Mar,26-Mar,16-Mar,16-Mar,18-Mar,16-Mar,11-Mar
 22000,louisiana,LA,23-Mar,17-Mar,17-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 22001,acadia parish,LA,23-Mar,17-Mar,17-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 22003,allen parish,LA,23-Mar,17-Mar,17-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
@@ -1212,31 +1212,31 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 23027,waldo county,ME,,18-Mar,18-Mar,15-Mar,18-Mar,,16-Mar,11-Mar
 23029,washington county,ME,,18-Mar,18-Mar,15-Mar,18-Mar,,16-Mar,11-Mar
 23031,york county,ME,,18-Mar,18-Mar,15-Mar,18-Mar,,16-Mar,11-Mar
-24000,maryland,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24001,allegany county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24003,anne arundel county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24005,baltimore county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24009,calvert county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24011,caroline county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24013,carroll county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24015,cecil county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24017,charles county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24019,dorchester county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24021,frederick county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24023,garrett county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24025,harford county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24027,howard county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24029,kent county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24031,montgomery county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24033,prince george's county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24035,queen anne's county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24037,st. mary's county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24039,somerset county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24041,talbot county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24043,washington county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24045,wicomico county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24047,worcester county,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-24510,baltimore city,MD,,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24000,maryland,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24001,allegany county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24003,anne arundel county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24005,baltimore county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24009,calvert county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24011,caroline county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24013,carroll county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24015,cecil county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24017,charles county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24019,dorchester county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24021,frederick county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24023,garrett county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24025,harford county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24027,howard county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24029,kent county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24031,montgomery county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24033,prince george's county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24035,queen anne's county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24037,st. mary's county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24039,somerset county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24041,talbot county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24043,washington county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24045,wicomico county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24047,worcester county,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+24510,baltimore city,MD,30-Mar,16-Mar,13-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
 25000,massachusetts,MA,24-Mar,17-Mar,17-Mar,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 25001,barnstable county,MA,24-Mar,17-Mar,17-Mar,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 25003,berkshire county,MA,24-Mar,17-Mar,17-Mar,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
@@ -1336,94 +1336,94 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 26161,washtenaw county,MI,24-Mar,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
 26163,wayne county,MI,24-Mar,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
 26165,wexford county,MI,24-Mar,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-27000,minnesota,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27001,aitkin county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27003,anoka county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27005,becker county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27007,beltrami county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27009,benton county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27011,big stone county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27013,blue earth county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27015,brown county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27017,carlton county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27019,carver county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27021,cass county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27023,chippewa county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27025,chisago county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27027,clay county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27029,clearwater county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27031,cook county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27033,cottonwood county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27035,crow wing county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27037,dakota county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27039,dodge county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27041,douglas county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27043,faribault county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27045,fillmore county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27047,freeborn county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27049,goodhue county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27051,grant county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27053,hennepin county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27055,houston county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27057,hubbard county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27059,isanti county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27061,itasca county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27063,jackson county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27065,kanabec county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27067,kandiyohi county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27069,kittson county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27071,koochiching county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27073,lac qui parle county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27075,lake county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27077,lake of the woods county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27079,le sueur county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27081,lincoln county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27083,lyon county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27085,mcleod county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27087,mahnomen county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27089,marshall county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27091,martin county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27093,meeker county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27095,mille lacs county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27097,morrison county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27099,mower county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27101,murray county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27103,nicollet county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27105,nobles county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27107,norman county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27109,olmsted county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27111,otter tail county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27113,pennington county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27115,pine county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27117,pipestone county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27119,polk county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27121,pope county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27123,ramsey county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27125,red lake county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27127,redwood county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27129,renville county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27131,rice county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27133,rock county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27135,roseau county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27137,st. louis county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27139,scott county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27141,sherburne county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27143,sibley county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27145,stearns county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27147,steele county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27149,stevens county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27151,swift county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27153,todd county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27155,traverse county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27157,wabasha county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27159,wadena county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27161,waseca county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27163,washington county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27165,watonwan county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27167,wilkin county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27169,winona county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27171,wright county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-27173,yellow medicine county,MN,,,,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27000,minnesota,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27001,aitkin county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27003,anoka county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27005,becker county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27007,beltrami county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27009,benton county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27011,big stone county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27013,blue earth county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27015,brown county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27017,carlton county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27019,carver county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27021,cass county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27023,chippewa county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27025,chisago county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27027,clay county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27029,clearwater county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27031,cook county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27033,cottonwood county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27035,crow wing county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27037,dakota county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27039,dodge county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27041,douglas county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27043,faribault county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27045,fillmore county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27047,freeborn county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27049,goodhue county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27051,grant county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27053,hennepin county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27055,houston county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27057,hubbard county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27059,isanti county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27061,itasca county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27063,jackson county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27065,kanabec county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27067,kandiyohi county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27069,kittson county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27071,koochiching county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27073,lac qui parle county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27075,lake county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27077,lake of the woods county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27079,le sueur county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27081,lincoln county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27083,lyon county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27085,mcleod county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27087,mahnomen county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27089,marshall county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27091,martin county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27093,meeker county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27095,mille lacs county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27097,morrison county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27099,mower county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27101,murray county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27103,nicollet county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27105,nobles county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27107,norman county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27109,olmsted county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27111,otter tail county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27113,pennington county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27115,pine county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27117,pipestone county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27119,polk county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27121,pope county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27123,ramsey county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27125,red lake county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27127,redwood county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27129,renville county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27131,rice county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27133,rock county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27135,roseau county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27137,st. louis county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27139,scott county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27141,sherburne county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27143,sibley county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27145,stearns county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27147,steele county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27149,stevens county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27151,swift county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27153,todd county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27155,traverse county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27157,wabasha county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27159,wadena county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27161,waseca county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27163,washington county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27165,watonwan county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27167,wilkin county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27169,winona county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27171,wright county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+27173,yellow medicine county,MN,27-Mar,27-Mar,27-Mar,18-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 28000,mississippi,MS,,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
 28001,adams county,MS,,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
 28003,alcorn county,MS,,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
@@ -1462,7 +1462,7 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 28069,kemper county,MS,,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
 28071,lafayette county,MS,22-Mar,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
 28073,lamar county,MS,,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
-28075,lauderdale county,MS,,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
+28075,lauderdale county,MS,31-Mar,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
 28077,lawrence county,MS,,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
 28079,leake county,MS,,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
 28081,lee county,MS,,25-Mar,25-Mar,20-Mar,25-Mar,25-Mar,16-Mar,11-Mar
@@ -1517,7 +1517,7 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 29013,bates county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29015,benton county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29017,bollinger county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
-29019,boone county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
+29019,boone county,MO,25-Mar,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29021,buchanan county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29023,butler county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29025,caldwell county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
@@ -1526,14 +1526,14 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 29031,cape girardeau county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29033,carroll county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29035,carter county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
-29037,cass county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
+29037,cass county,MO,24-Mar,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29039,cedar county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29041,chariton county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29043,christian county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29045,clark county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29047,clay county,MO,24-Mar,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29049,clinton county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
-29051,cole county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
+29051,cole county,MO,23-Mar,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29053,cooper county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29055,crawford county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29057,dade county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
@@ -1546,7 +1546,7 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 29071,franklin county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29073,gasconade county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29075,gentry county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
-29077,greene county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
+29077,greene county,MO,26-Mar,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29079,grundy county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29081,harrison county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29083,henry county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
@@ -1557,7 +1557,7 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 29093,iron county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29095,jackson county,MO,24-Mar,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29097,jasper county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
-29099,jefferson county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
+29099,jefferson county,MO,24-Mar,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29101,johnson county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29103,knox county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29105,laclede county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
@@ -1590,13 +1590,13 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 29159,pettis county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29161,phelps county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29163,pike county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
-29165,platte county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
+29165,platte county,MO,24-Mar,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29167,polk county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29169,pulaski county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29171,putnam county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29173,ralls county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
-29175,randolph county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
-29177,ray county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
+29175,randolph county,MO,25-Mar,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
+29177,ray county,MO,25-Mar,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29179,reynolds county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29181,ripley county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29183,st. charles county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
@@ -1623,157 +1623,157 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 29227,worth county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29229,wright county,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
 29510,st. louis city,MO,,21-Mar,21-Mar,19-Mar,21-Mar,,16-Mar,11-Mar
-30000,montana,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30001,beaverhead county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30003,big horn county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30005,blaine county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30007,broadwater county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30009,carbon county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30011,carter county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30013,cascade county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30015,chouteau county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30017,custer county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30019,daniels county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30021,dawson county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30023,deer lodge county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30025,fallon county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30027,fergus county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30029,flathead county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30031,gallatin county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30033,garfield county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30035,glacier county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30037,golden valley county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30039,granite county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30041,hill county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30043,jefferson county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30045,judith basin county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30047,lake county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30049,lewis and clark county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30051,liberty county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30053,lincoln county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30055,mccone county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30057,madison county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30059,meagher county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30061,mineral county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30063,missoula county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30065,musselshell county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30067,park county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30069,petroleum county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30071,phillips county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30073,pondera county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30075,powder river county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30077,powell county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30079,prairie county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30081,ravalli county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30083,richland county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30085,roosevelt county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30087,rosebud county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30089,sanders county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30091,sheridan county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30093,silver bow county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30095,stillwater county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30097,sweet grass county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30099,teton county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30101,toole county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30103,treasure county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30105,valley county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30107,wheatland county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30109,wibaux county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-30111,yellowstone county,MT,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-31000,nebraska,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31001,adams county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31003,antelope county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31005,arthur county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31007,banner county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31009,blaine county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31011,boone county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31013,box butte county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31015,boyd county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31017,brown county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31019,buffalo county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31021,burt county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31023,butler county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31025,cass county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31027,cedar county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31029,chase county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31031,cherry county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31033,cheyenne county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31035,clay county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31037,colfax county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31039,cuming county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31041,custer county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31043,dakota county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31045,dawes county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31047,dawson county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31049,deuel county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31051,dixon county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31053,dodge county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31055,douglas county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31057,dundy county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31059,fillmore county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31061,franklin county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31063,frontier county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31065,furnas county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31067,gage county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31069,garden county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31071,garfield county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31073,gosper county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31075,grant county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31077,greeley county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31079,hall county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31081,hamilton county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31083,harlan county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31085,hayes county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31087,hitchcock county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31089,holt county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31091,hooker county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31093,howard county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31095,jefferson county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31097,johnson county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31099,kearney county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31101,keith county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31103,keya paha county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31105,kimball county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31107,knox county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31109,lancaster county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31111,lincoln county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31113,logan county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31115,loup county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31117,mcpherson county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31119,madison county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31121,merrick county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31123,morrill county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31125,nance county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31127,nemaha county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31129,nuckolls county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31131,otoe county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31133,pawnee county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31135,perkins county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31137,phelps county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31139,pierce county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31141,platte county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31143,polk county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31145,red willow county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31147,richardson county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31149,rock county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31151,saline county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31153,sarpy county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31155,saunders county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31157,scotts bluff county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31159,seward county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31161,sheridan county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31163,sherman county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31165,sioux county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31167,stanton county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31169,thayer county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31171,thomas county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31173,thurston county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31175,valley county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31177,washington county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31179,wayne county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31181,webster county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31183,wheeler county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
-31185,york county,NE,,19-Mar,19-Mar,19-Mar,19-Mar,,16-Mar,11-Mar
+30000,montana,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30001,beaverhead county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30003,big horn county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30005,blaine county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30007,broadwater county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30009,carbon county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30011,carter county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30013,cascade county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30015,chouteau county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30017,custer county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30019,daniels county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30021,dawson county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30023,deer lodge county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30025,fallon county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30027,fergus county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30029,flathead county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30031,gallatin county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30033,garfield county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30035,glacier county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30037,golden valley county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30039,granite county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30041,hill county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30043,jefferson county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30045,judith basin county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30047,lake county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30049,lewis and clark county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30051,liberty county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30053,lincoln county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30055,mccone county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30057,madison county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30059,meagher county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30061,mineral county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30063,missoula county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30065,musselshell county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30067,park county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30069,petroleum county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30071,phillips county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30073,pondera county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30075,powder river county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30077,powell county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30079,prairie county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30081,ravalli county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30083,richland county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30085,roosevelt county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30087,rosebud county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30089,sanders county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30091,sheridan county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30093,silver bow county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30095,stillwater county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30097,sweet grass county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30099,teton county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30101,toole county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30103,treasure county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30105,valley county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30107,wheatland county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30109,wibaux county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+30111,yellowstone county,MT,28-Mar,28-Mar,28-Mar,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
+31000,nebraska,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31001,adams county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31003,antelope county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31005,arthur county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31007,banner county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31009,blaine county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31011,boone county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31013,box butte county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31015,boyd county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31017,brown county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31019,buffalo county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31021,burt county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31023,butler county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31025,cass county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31027,cedar county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31029,chase county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31031,cherry county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31033,cheyenne county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31035,clay county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31037,colfax county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31039,cuming county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31041,custer county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31043,dakota county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31045,dawes county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31047,dawson county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31049,deuel county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31051,dixon county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31053,dodge county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31055,douglas county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31057,dundy county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31059,fillmore county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31061,franklin county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31063,frontier county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31065,furnas county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31067,gage county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31069,garden county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31071,garfield county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31073,gosper county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31075,grant county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31077,greeley county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31079,hall county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31081,hamilton county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31083,harlan county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31085,hayes county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31087,hitchcock county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31089,holt county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31091,hooker county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31093,howard county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31095,jefferson county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31097,johnson county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31099,kearney county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31101,keith county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31103,keya paha county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31105,kimball county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31107,knox county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31109,lancaster county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31111,lincoln county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31113,logan county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31115,loup county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31117,mcpherson county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31119,madison county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31121,merrick county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31123,morrill county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31125,nance county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31127,nemaha county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31129,nuckolls county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31131,otoe county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31133,pawnee county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31135,perkins county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31137,phelps county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31139,pierce county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31141,platte county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31143,polk county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31145,red willow county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31147,richardson county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31149,rock county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31151,saline county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31153,sarpy county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31155,saunders county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31157,scotts bluff county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31159,seward county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31161,sheridan county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31163,sherman county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31165,sioux county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31167,stanton county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31169,thayer county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31171,thomas county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31173,thurston county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31175,valley county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31177,washington county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31179,wayne county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31181,webster county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31183,wheeler county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
+31185,york county,NE,,19-Mar,19-Mar,19-Mar,,,16-Mar,11-Mar
 32000,nevada,NV,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 32001,churchill county,NV,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 32003,clark county,NV,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
@@ -1792,17 +1792,17 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 32031,washoe county,NV,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 32033,white pine county,NV,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
 32510,carson city,NV,,,,16-Mar,20-Mar,20-Mar,16-Mar,11-Mar
-33000,new hampshire,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
-33001,belknap county,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
-33003,carroll county,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
-33005,cheshire county,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
-33007,coos county,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
-33009,grafton county,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
-33011,hillsborough county,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
-33013,merrimack county,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
-33015,rockingham county,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
-33017,strafford county,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
-33019,sullivan county,NH,,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33000,new hampshire,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33001,belknap county,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33003,carroll county,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33005,cheshire county,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33007,coos county,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33009,grafton county,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33011,hillsborough county,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33013,merrimack county,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33015,rockingham county,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33017,strafford county,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
+33019,sullivan county,NH,27-Mar,24-Mar,24-Mar,16-Mar,16-Mar,,16-Mar,11-Mar
 34000,new jersey,NJ,21-Mar,16-Mar,16-Mar,18-Mar,16-Mar,16-Mar,16-Mar,11-Mar
 34001,atlantic county,NJ,21-Mar,16-Mar,16-Mar,18-Mar,16-Mar,16-Mar,16-Mar,11-Mar
 34003,bergen county,NJ,21-Mar,16-Mar,16-Mar,18-Mar,16-Mar,16-Mar,16-Mar,11-Mar
@@ -1922,107 +1922,107 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 36119,westchester county,NY,22-Mar,16-Mar,13-Mar,18-Mar,16-Mar,16-Mar,16-Mar,11-Mar
 36121,wyoming county,NY,22-Mar,16-Mar,13-Mar,18-Mar,16-Mar,16-Mar,16-Mar,11-Mar
 36123,yates county,NY,22-Mar,16-Mar,13-Mar,18-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-37000,north carolina,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37001,alamance county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37003,alexander county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37005,alleghany county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37007,anson county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37009,ashe county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37011,avery county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37013,beaufort county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37015,bertie county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37017,bladen county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37019,brunswick county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37021,buncombe county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37023,burke county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37025,cabarrus county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37027,caldwell county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37029,camden county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37031,carteret county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37033,caswell county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37035,catawba county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37037,chatham county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37039,cherokee county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37041,chowan county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37043,clay county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37045,cleveland county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37047,columbus county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37049,craven county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37051,cumberland county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37053,currituck county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37055,dare county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37057,davidson county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37059,davie county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37061,duplin county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37063,durham county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37065,edgecombe county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37067,forsyth county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37069,franklin county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37071,gaston county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37073,gates county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37075,graham county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37077,granville county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37079,greene county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37081,guilford county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37083,halifax county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37085,harnett county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37087,haywood county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37089,henderson county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37091,hertford county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37093,hoke county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37095,hyde county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37097,iredell county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37099,jackson county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37101,johnston county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37103,jones county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37105,lee county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37107,lenoir county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37109,lincoln county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37111,mcdowell county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37113,macon county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37115,madison county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37117,martin county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37119,mecklenburg county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37121,mitchell county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37123,montgomery county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37125,moore county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37127,nash county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37129,new hanover county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37131,northampton county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37133,onslow county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37135,orange county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37137,pamlico county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37139,pasquotank county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37141,pender county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37143,perquimans county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37145,person county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37147,pitt county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37149,polk county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37151,randolph county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37153,richmond county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37155,robeson county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37157,rockingham county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37159,rowan county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37161,rutherford county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37163,sampson county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37165,scotland county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37167,stanly county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37169,stokes county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37171,surry county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37173,swain county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37175,transylvania county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37177,tyrrell county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37179,union county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37181,vance county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37183,wake county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37185,warren county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37187,washington county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37189,watauga county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37191,wayne county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37193,wilkes county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37195,wilson county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37197,yadkin county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-37199,yancey county,NC,26-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37000,north carolina,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37001,alamance county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37003,alexander county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37005,alleghany county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37007,anson county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37009,ashe county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37011,avery county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37013,beaufort county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37015,bertie county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37017,bladen county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37019,brunswick county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37021,buncombe county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37023,burke county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37025,cabarrus county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37027,caldwell county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37029,camden county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37031,carteret county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37033,caswell county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37035,catawba county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37037,chatham county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37039,cherokee county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37041,chowan county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37043,clay county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37045,cleveland county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37047,columbus county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37049,craven county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37051,cumberland county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37053,currituck county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37055,dare county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37057,davidson county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37059,davie county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37061,duplin county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37063,durham county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37065,edgecombe county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37067,forsyth county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37069,franklin county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37071,gaston county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37073,gates county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37075,graham county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37077,granville county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37079,greene county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37081,guilford county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37083,halifax county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37085,harnett county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37087,haywood county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37089,henderson county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37091,hertford county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37093,hoke county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37095,hyde county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37097,iredell county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37099,jackson county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37101,johnston county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37103,jones county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37105,lee county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37107,lenoir county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37109,lincoln county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37111,mcdowell county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37113,macon county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37115,madison county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37117,martin county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37119,mecklenburg county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37121,mitchell county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37123,montgomery county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37125,moore county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37127,nash county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37129,new hanover county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37131,northampton county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37133,onslow county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37135,orange county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37137,pamlico county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37139,pasquotank county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37141,pender county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37143,perquimans county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37145,person county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37147,pitt county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37149,polk county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37151,randolph county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37153,richmond county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37155,robeson county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37157,rockingham county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37159,rowan county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37161,rutherford county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37163,sampson county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37165,scotland county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37167,stanly county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37169,stokes county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37171,surry county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37173,swain county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37175,transylvania county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37177,tyrrell county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37179,union county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37181,vance county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37183,wake county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37185,warren county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37187,washington county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37189,watauga county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37191,wayne county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37193,wilkes county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37195,wilson county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37197,yadkin county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+37199,yancey county,NC,30-Mar,23-Mar,12-Mar,16-Mar,17-Mar,23-Mar,16-Mar,11-Mar
 38000,north dakota,ND,,,,16-Mar,19-Mar,19-Mar,16-Mar,11-Mar
 38001,adams county,ND,,,,16-Mar,19-Mar,19-Mar,16-Mar,11-Mar
 38003,barnes county,ND,,,,16-Mar,19-Mar,19-Mar,16-Mar,11-Mar
@@ -2166,84 +2166,84 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 39171,williams county,OH,23-Mar,15-Mar,15-Mar,17-Mar,15-Mar,22-Mar,16-Mar,11-Mar
 39173,wood county,OH,23-Mar,15-Mar,15-Mar,17-Mar,15-Mar,22-Mar,16-Mar,11-Mar
 39175,wyandot county,OH,23-Mar,15-Mar,15-Mar,17-Mar,15-Mar,22-Mar,16-Mar,11-Mar
-40000,oklahoma,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40001,adair county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40003,alfalfa county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40005,atoka county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40007,beaver county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40009,beckham county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40011,blaine county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40013,bryan county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40015,caddo county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40017,canadian county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40019,carter county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40021,cherokee county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40023,choctaw county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40025,cimarron county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40027,cleveland county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40029,coal county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40031,comanche county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40033,cotton county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40035,craig county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40037,creek county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40039,custer county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40041,delaware county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40043,dewey county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40045,ellis county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40047,garfield county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40049,garvin county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40051,grady county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40053,grant county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40055,greer county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40057,harmon county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40059,harper county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40061,haskell county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40063,hughes county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40065,jackson county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40067,jefferson county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40069,johnston county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40071,kay county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40073,kingfisher county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40075,kiowa county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40077,latimer county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40079,le flore county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40081,lincoln county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40083,logan county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40085,love county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40087,mcclain county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40089,mccurtain county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40091,mcintosh county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40093,major county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40095,marshall county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40097,mayes county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40099,murray county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40101,muskogee county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40103,noble county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40105,nowata county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40107,okfuskee county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+40000,oklahoma,OK,,,,17-Mar,,,16-Mar,11-Mar
+40001,adair county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40003,alfalfa county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40005,atoka county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40007,beaver county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40009,beckham county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40011,blaine county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40013,bryan county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40015,caddo county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40017,canadian county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40019,carter county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40021,cherokee county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40023,choctaw county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40025,cimarron county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40027,cleveland county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40029,coal county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40031,comanche county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40033,cotton county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40035,craig county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40037,creek county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40039,custer county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40041,delaware county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40043,dewey county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40045,ellis county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40047,garfield county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40049,garvin county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40051,grady county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40053,grant county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40055,greer county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40057,harmon county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40059,harper county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40061,haskell county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40063,hughes county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40065,jackson county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40067,jefferson county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40069,johnston county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40071,kay county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40073,kingfisher county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40075,kiowa county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40077,latimer county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40079,le flore county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40081,lincoln county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40083,logan county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40085,love county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40087,mcclain county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40089,mccurtain county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40091,mcintosh county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40093,major county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40095,marshall county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40097,mayes county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40099,murray county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40101,muskogee county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40103,noble county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40105,nowata county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40107,okfuskee county,OK,,,,17-Mar,,,16-Mar,11-Mar
 40109,oklahoma county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40111,okmulgee county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40113,osage county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40115,ottawa county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40117,pawnee county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40119,payne county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40121,pittsburg county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40123,pontotoc county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40125,pottawatomie county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40127,pushmataha county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40129,roger mills county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40131,rogers county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40133,seminole county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40135,sequoyah county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40137,stephens county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40139,texas county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40141,tillman county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40143,tulsa county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40145,wagoner county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40147,washington county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40149,washita county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40151,woods county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-40153,woodward county,OK,,,,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+40111,okmulgee county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40113,osage county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40115,ottawa county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40117,pawnee county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40119,payne county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40121,pittsburg county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40123,pontotoc county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40125,pottawatomie county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40127,pushmataha county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40129,roger mills county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40131,rogers county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40133,seminole county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40135,sequoyah county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40137,stephens county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40139,texas county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40141,tillman county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40143,tulsa county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40145,wagoner county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40147,washington county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40149,washita county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40151,woods county,OK,,,,17-Mar,,,16-Mar,11-Mar
+40153,woodward county,OK,,,,17-Mar,,,16-Mar,11-Mar
 41000,oregon,OR,23-Mar,16-Mar,16-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 41001,baker county,OR,23-Mar,16-Mar,16-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 41003,benton county,OR,23-Mar,16-Mar,16-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
@@ -2285,17 +2285,17 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 42001,adams county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42003,allegheny county,PA,23-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42005,armstrong county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42007,beaver county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42007,beaver county,PA,28-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42009,bedford county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42011,berks county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42011,berks county,PA,27-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42013,blair county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42015,bradford county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42017,bucks county,PA,23-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42019,butler county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42019,butler county,PA,27-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42021,cambria county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42023,cameron county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42025,carbon county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42027,centre county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42027,centre county,PA,28-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42029,chester county,PA,23-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42031,clarion county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42033,clearfield county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
@@ -2306,7 +2306,7 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 42043,dauphin county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42045,delaware county,PA,23-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42047,elk county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42049,erie county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42049,erie county,PA,24-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42051,fayette county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42053,forest county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42055,franklin county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
@@ -2316,12 +2316,12 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 42063,indiana county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42065,jefferson county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42067,juniata county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42069,lackawanna county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42071,lancaster county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42069,lackawanna county,PA,27-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42071,lancaster county,PA,27-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42073,lawrence county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42075,lebanon county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42077,lehigh county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42079,luzerne county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42077,lehigh county,PA,25-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42079,luzerne county,PA,27-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42081,lycoming county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42083,mckean county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42085,mercer county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
@@ -2329,11 +2329,11 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 42089,monroe county,PA,23-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42091,montgomery county,PA,23-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42093,montour county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42095,northampton county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42095,northampton county,PA,25-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42097,northumberland county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42099,perry county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42101,philadelphia county,PA,23-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42103,pike county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42103,pike county,PA,27-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42105,potter county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42107,schuylkill county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42109,snyder county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
@@ -2344,17 +2344,17 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 42119,union county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42121,venango county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42123,warren county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42125,washington county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42127,wayne county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42129,westmoreland county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42125,washington county,PA,28-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42127,wayne county,PA,27-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+42129,westmoreland county,PA,27-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 42131,wyoming county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-42133,york county,PA,,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
-44000,rhode island,RI,,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-44001,bristol county,RI,,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-44003,kent county,RI,,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-44005,newport county,RI,,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-44007,providence county,RI,,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-44009,washington county,RI,,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+42133,york county,PA,27-Mar,23-Mar,23-Mar,16-Mar,17-Mar,17-Mar,16-Mar,11-Mar
+44000,rhode island,RI,28-Mar,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+44001,bristol county,RI,28-Mar,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+44003,kent county,RI,28-Mar,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+44005,newport county,RI,28-Mar,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+44007,providence county,RI,28-Mar,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+44009,washington county,RI,28-Mar,16-Mar,16-Mar,16-Mar,23-Mar,23-Mar,16-Mar,11-Mar
 45000,south carolina,SC,,18-Mar,18-Mar,16-Mar,18-Mar,,16-Mar,11-Mar
 45001,abbeville county,SC,,18-Mar,18-Mar,16-Mar,18-Mar,,16-Mar,11-Mar
 45003,aiken county,SC,,18-Mar,18-Mar,16-Mar,18-Mar,,16-Mar,11-Mar
@@ -2469,102 +2469,102 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 46129,walworth county,SD,,,,16-Mar,,,16-Mar,11-Mar
 46135,yankton county,SD,,,,16-Mar,,,16-Mar,11-Mar
 46137,ziebach county,SD,,,,16-Mar,,,16-Mar,11-Mar
-47000,tennessee,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47001,anderson county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47003,bedford county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47005,benton county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47007,bledsoe county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47009,blount county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47011,bradley county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47013,campbell county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47015,cannon county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47017,carroll county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47019,carter county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47021,cheatham county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47023,chester county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47025,claiborne county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47027,clay county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47029,cocke county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47031,coffee county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47033,crockett county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47035,cumberland county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47000,tennessee,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47001,anderson county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47003,bedford county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47005,benton county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47007,bledsoe county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47009,blount county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47011,bradley county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47013,campbell county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47015,cannon county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47017,carroll county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47019,carter county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47021,cheatham county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47023,chester county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47025,claiborne county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47027,clay county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47029,cocke county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47031,coffee county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47033,crockett county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47035,cumberland county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
 47037,davidson county,TN,25-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47039,decatur county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47041,dekalb county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47043,dickson county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47045,dyer county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47047,fayette county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47049,fentress county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47039,decatur county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47041,dekalb county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47043,dickson county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47045,dyer county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47047,fayette county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47049,fentress county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
 47051,franklin county,TN,25-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47053,gibson county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47055,giles county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47057,grainger county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47059,greene county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47061,grundy county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47063,hamblen county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47065,hamilton county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47067,hancock county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47069,hardeman county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47071,hardin county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47073,hawkins county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47075,haywood county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47077,henderson county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47079,henry county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47081,hickman county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47083,houston county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47085,humphreys county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47087,jackson county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47089,jefferson county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47091,johnson county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47093,knox county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47095,lake county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47097,lauderdale county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47099,lawrence county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47101,lewis county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47103,lincoln county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47105,loudon county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47107,mcminn county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47109,mcnairy county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47111,macon county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47113,madison county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47115,marion county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47117,marshall county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47119,maury county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47121,meigs county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47123,monroe county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47125,montgomery county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47127,moore county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47129,morgan county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47131,obion county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47133,overton county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47135,perry county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47137,pickett county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47139,polk county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47141,putnam county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47143,rhea county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47145,roane county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47147,robertson county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47149,rutherford county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47151,scott county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47153,sequatchie county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47155,sevier county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47157,shelby county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47159,smith county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47161,stewart county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47163,sullivan county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47165,sumner county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47167,tipton county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47169,trousdale county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47171,unicoi county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47173,union county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47175,van buren county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47177,warren county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47179,washington county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47181,wayne county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47183,weakley county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47185,white county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47187,williamson county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
-47189,wilson county,TN,,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47053,gibson county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47055,giles county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47057,grainger county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47059,greene county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47061,grundy county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47063,hamblen county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47065,hamilton county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47067,hancock county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47069,hardeman county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47071,hardin county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47073,hawkins county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47075,haywood county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47077,henderson county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47079,henry county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47081,hickman county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47083,houston county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47085,humphreys county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47087,jackson county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47089,jefferson county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47091,johnson county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47093,knox county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47095,lake county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47097,lauderdale county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47099,lawrence county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47101,lewis county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47103,lincoln county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47105,loudon county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47107,mcminn county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47109,mcnairy county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47111,macon county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47113,madison county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47115,marion county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47117,marshall county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47119,maury county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47121,meigs county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47123,monroe county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47125,montgomery county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47127,moore county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47129,morgan county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47131,obion county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47133,overton county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47135,perry county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47137,pickett county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47139,polk county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47141,putnam county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47143,rhea county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47145,roane county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47147,robertson county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47149,rutherford county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47151,scott county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47153,sequatchie county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47155,sevier county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47157,shelby county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47159,smith county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47161,stewart county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47163,sullivan county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47165,sumner county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47167,tipton county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47169,trousdale county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47171,unicoi county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47173,union county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47175,van buren county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47177,warren county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47179,washington county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47181,wayne county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47183,weakley county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47185,white county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47187,williamson county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
+47189,wilson county,TN,31-Mar,25-Mar,25-Mar,20-Mar,23-Mar,23-Mar,16-Mar,11-Mar
 48000,texas,TX,,21-Mar,14-Mar,23-Mar,19-Mar,19-Mar,16-Mar,11-Mar
 48001,anderson county,TX,,21-Mar,14-Mar,23-Mar,19-Mar,19-Mar,16-Mar,11-Mar
 48003,andrews county,TX,,21-Mar,14-Mar,23-Mar,19-Mar,19-Mar,16-Mar,11-Mar
@@ -2838,11 +2838,11 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 49029,morgan county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
 49031,piute county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
 49033,rich county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
-49035,salt lake county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
+49035,salt lake county,UT,30-Mar,30-Mar,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
 49037,san juan county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
 49039,sanpete county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
 49041,sevier county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
-49043,summit county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
+49043,summit county,UT,27-Mar,27-Mar,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
 49045,tooele county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
 49047,uintah county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
 49049,utah county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
@@ -2850,155 +2850,155 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 49053,washington county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
 49055,wayne county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
 49057,weber county,UT,,,12-Mar,16-Mar,18-Mar,18-Mar,16-Mar,11-Mar
-50000,vermont,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50001,addison county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50003,bennington county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50005,caledonia county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50007,chittenden county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50009,essex county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50011,franklin county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50013,grand isle county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50015,lamoille county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50017,orange county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50019,orleans county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50021,rutland county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50023,washington county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50025,windham county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-50027,windsor county,VT,,,,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
-51000,virginia,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51001,accomack county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51003,albemarle county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51005,alleghany county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51007,amelia county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51009,amherst county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51011,appomattox county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51013,arlington county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51015,augusta county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51017,bath county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51019,bedford county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51021,bland county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51023,botetourt county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51025,brunswick county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51027,buchanan county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51029,buckingham county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51031,campbell county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51033,caroline county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51035,carroll county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51036,charles city county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51037,charlotte county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51041,chesterfield county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51043,clarke county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51045,craig county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51047,culpeper county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51049,cumberland county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51051,dickenson county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51053,dinwiddie county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51057,essex county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51059,fairfax county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51061,fauquier county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51063,floyd county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51065,fluvanna county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51067,franklin county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51069,frederick county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51071,giles county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51073,gloucester county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51075,goochland county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51077,grayson county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51079,greene county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51081,greensville county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51083,halifax county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51085,hanover county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51087,henrico county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51089,henry county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51091,highland county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51093,isle of wight county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51095,james city county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51097,king and queen county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51099,king george county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51101,king william county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51103,lancaster county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51105,lee county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51107,loudoun county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51109,louisa county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51111,lunenburg county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51113,madison county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51115,mathews county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51117,mecklenburg county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51119,middlesex county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51121,montgomery county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51125,nelson county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51127,new kent county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51131,northampton county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51133,northumberland county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51135,nottoway county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51137,orange county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51139,page county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51141,patrick county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51143,pittsylvania county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51145,powhatan county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51147,prince edward county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51149,prince george county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51153,prince william county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51155,pulaski county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51157,rappahannock county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51159,richmond county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51161,roanoke county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51163,rockbridge county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51165,rockingham county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51167,russell county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51169,scott county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51171,shenandoah county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51173,smyth county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51175,southampton county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51177,spotsylvania county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51179,stafford county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51181,surry county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51183,sussex county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51185,tazewell county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51187,warren county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51191,washington county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51193,westmoreland county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51195,wise county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51197,wythe county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51199,york county,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51510,alexandria city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51520,bristol city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51530,buena vista city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51540,charlottesville city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51550,chesapeake city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51570,colonial heights city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51580,covington city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51590,danville city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51595,emporia city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51600,fairfax city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51610,falls church city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51620,franklin city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51630,fredericksburg city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51640,galax city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51650,hampton city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51660,harrisonburg city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51670,hopewell city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51678,lexington city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51680,lynchburg city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51683,manassas city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51685,manassas park city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51690,martinsville city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51700,newport news city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51710,norfolk city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51720,norton city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51730,petersburg city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51735,poquoson city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51740,portsmouth city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51750,radford city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51760,richmond city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51770,roanoke city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51775,salem city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51790,staunton city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51800,suffolk city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51810,virginia beach city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51820,waynesboro city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51830,williamsburg city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
-51840,winchester city,VA,,24-Mar,24-Mar,16-Mar,16-Mar,16-Mar,16-Mar,11-Mar
+50000,vermont,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50001,addison county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50003,bennington county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50005,caledonia county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50007,chittenden county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50009,essex county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50011,franklin county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50013,grand isle county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50015,lamoille county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50017,orange county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50019,orleans county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50021,rutland county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50023,washington county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50025,windham county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+50027,windsor county,VT,25-Mar,25-Mar,25-Mar,18-Mar,17-Mar,23-Mar,16-Mar,11-Mar
+51000,virginia,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51001,accomack county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51003,albemarle county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51005,alleghany county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51007,amelia county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51009,amherst county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51011,appomattox county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51013,arlington county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51015,augusta county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51017,bath county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51019,bedford county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51021,bland county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51023,botetourt county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51025,brunswick county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51027,buchanan county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51029,buckingham county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51031,campbell county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51033,caroline county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51035,carroll county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51036,charles city county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51037,charlotte county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51041,chesterfield county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51043,clarke county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51045,craig county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51047,culpeper county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51049,cumberland county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51051,dickenson county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51053,dinwiddie county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51057,essex county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51059,fairfax county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51061,fauquier county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51063,floyd county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51065,fluvanna county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51067,franklin county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51069,frederick county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51071,giles county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51073,gloucester county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51075,goochland county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51077,grayson county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51079,greene county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51081,greensville county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51083,halifax county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51085,hanover county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51087,henrico county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51089,henry county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51091,highland county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51093,isle of wight county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51095,james city county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51097,king and queen county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51099,king george county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51101,king william county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51103,lancaster county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51105,lee county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51107,loudoun county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51109,louisa county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51111,lunenburg county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51113,madison county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51115,mathews county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51117,mecklenburg county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51119,middlesex county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51121,montgomery county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51125,nelson county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51127,new kent county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51131,northampton county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51133,northumberland county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51135,nottoway county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51137,orange county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51139,page county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51141,patrick county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51143,pittsylvania county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51145,powhatan county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51147,prince edward county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51149,prince george county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51153,prince william county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51155,pulaski county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51157,rappahannock county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51159,richmond county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51161,roanoke county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51163,rockbridge county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51165,rockingham county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51167,russell county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51169,scott county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51171,shenandoah county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51173,smyth county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51175,southampton county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51177,spotsylvania county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51179,stafford county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51181,surry county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51183,sussex county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51185,tazewell county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51187,warren county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51191,washington county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51193,westmoreland county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51195,wise county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51197,wythe county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51199,york county,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51510,alexandria city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51520,bristol city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51530,buena vista city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51540,charlottesville city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51550,chesapeake city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51570,colonial heights city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51580,covington city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51590,danville city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51595,emporia city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51600,fairfax city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51610,falls church city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51620,franklin city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51630,fredericksburg city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51640,galax city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51650,hampton city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51660,harrisonburg city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51670,hopewell city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51678,lexington city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51680,lynchburg city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51683,manassas city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51685,manassas park city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51690,martinsville city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51700,newport news city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51710,norfolk city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51720,norton city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51730,petersburg city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51735,poquoson city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51740,portsmouth city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51750,radford city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51760,richmond city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51770,roanoke city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51775,salem city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51790,staunton city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51800,suffolk city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51810,virginia beach city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51820,waynesboro city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51830,williamsburg city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
+51840,winchester city,VA,30-Mar,24-Mar,24-Mar,16-Mar,23-Mar,16-Mar,16-Mar,11-Mar
 53000,washington,WA,23-Mar,23-Mar,11-Mar,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 53001,adams county,WA,23-Mar,23-Mar,11-Mar,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
 53003,asotin county,WA,23-Mar,23-Mar,11-Mar,17-Mar,17-Mar,17-Mar,16-Mar,11-Mar
@@ -3193,81 +3193,81 @@ FIPS,,,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant din
 56043,washakie county,WY,,20-Mar,20-Mar,20-Mar,19-Mar,19-Mar,16-Mar,11-Mar
 56045,weston county,WY,,20-Mar,20-Mar,20-Mar,19-Mar,19-Mar,16-Mar,11-Mar
 72000,puerto rico,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72001,"adjuntas municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72003,"aguada municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72005,"aguadilla municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72007,"aguas buenas municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72009,"aibonito municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72011,"aÃ±asco municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72013,"arecibo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72015,"arroyo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72017,"barceloneta municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72019,"barranquitas municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72021,"bayamÃ³n municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72023,"cabo rojo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72025,"caguas municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72027,"camuy municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72029,"canÃ³vanas municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72031,"carolina municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72033,"cataÃ±o municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72035,"cayey municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72037,"ceiba municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72039,"ciales municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72041,"cidra municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72043,"coamo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72045,"comerÃ­o municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72047,"corozal municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72049,"culebra municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72051,"dorado municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72053,"fajardo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72054,"florida municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72055,"guÃ¡nica municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72057,"guayama municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72059,"guayanilla municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72061,"guaynabo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72063,"gurabo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72065,"hatillo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72067,"hormigueros municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72069,"humacao municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72071,"isabela municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72073,"jayuya municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72075,"juana dÃ­az municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72077,"juncos municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72079,"lajas municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72081,"lares municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72083,"las marÃ­as municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72085,"las piedras municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72087,"loÃ­za municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72089,"luquillo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72091,"manatÃ­ municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72093,"maricao municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72095,"maunabo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72097,"mayagÃ¼ez municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72099,"moca municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72101,"morovis municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72103,"naguabo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72105,"naranjito municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72107,"orocovis municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72109,"patillas municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72111,"peÃ±uelas municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72113,"ponce municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72115,"quebradillas municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72117,"rincÃ³n municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72119,"rÃ­o grande municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72121,"sabana grande municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72123,"salinas municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72125,"san germÃ¡n municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72127,"san juan municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72129,"san lorenzo municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72131,"san sebastiÃ¡n municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72133,"santa isabel municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72135,"toa alta municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72137,"toa baja municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72139,"trujillo alto municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72141,"utuado municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72143,"vega alta municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72145,"vega baja municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72147,"vieques municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72149,"villalba municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72151,"yabucoa municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
-72153,"yauco municipio,PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72001,"adjuntas municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72003,"aguada municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72005,"aguadilla municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72007,"aguas buenas municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72009,"aibonito municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72011,"aÃ±asco municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72013,"arecibo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72015,"arroyo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72017,"barceloneta municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72019,"barranquitas municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72021,"bayamÃ³n municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72023,"cabo rojo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72025,"caguas municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72027,"camuy municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72029,"canÃ³vanas municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72031,"carolina municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72033,"cataÃ±o municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72035,"cayey municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72037,"ceiba municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72039,"ciales municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72041,"cidra municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72043,"coamo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72045,"comerÃ­o municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72047,"corozal municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72049,"culebra municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72051,"dorado municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72053,"fajardo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72054,"florida municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72055,"guÃ¡nica municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72057,"guayama municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72059,"guayanilla municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72061,"guaynabo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72063,"gurabo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72065,"hatillo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72067,"hormigueros municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72069,"humacao municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72071,"isabela municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72073,"jayuya municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72075,"juana dÃ­az municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72077,"juncos municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72079,"lajas municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72081,"lares municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72083,"las marÃ­as municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72085,"las piedras municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72087,"loÃ­za municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72089,"luquillo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72091,"manatÃ­ municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72093,"maricao municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72095,"maunabo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72097,"mayagÃ¼ez municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72099,"moca municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72101,"morovis municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72103,"naguabo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72105,"naranjito municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72107,"orocovis municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72109,"patillas municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72111,"peÃ±uelas municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72113,"ponce municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72115,"quebradillas municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72117,"rincÃ³n municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72119,"rÃ­o grande municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72121,"sabana grande municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72123,"salinas municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72125,"san germÃ¡n municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72127,"san juan municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72129,"san lorenzo municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72131,"san sebastiÃ¡n municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72133,"santa isabel municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72135,"toa alta municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72137,"toa baja municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72139,"trujillo alto municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72141,"utuado municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72143,"vega alta municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72145,"vega baja municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72147,"vieques municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72149,"villalba municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72151,"yabucoa municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
+72153,"yauco municipio, puerto rico",PR,,,,16-Mar,15-Mar,15-Mar,16-Mar,11-Mar
