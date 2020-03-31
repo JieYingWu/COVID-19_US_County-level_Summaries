@@ -36,13 +36,13 @@ def calc_error(a, b):
 def print_fit(name, param, cov, err):
     print(f"{name}'s growth factor is estimated to be {param} ({cov}) with error {err}")
 
-def plot(gt, pred, label=''):
+def plot(gt, pred, label='', county=''):
     plt.figure()
     plt.plot(gt, label='Measured')
     plt.plot(pred, label='Predicted')
     plt.xlabel('Days after first case')
     plt.ylabel('Number of ' + label)
-    plt.title(label)
+    plt.title(county + ' ' + label)
     plt.legend()
     plt.show()
 
