@@ -943,7 +943,7 @@ class Formatter():
 
         if i == 0:
           # write teh labels
-          d0 = datetime.date(2020, 3, 1).toordinal()  # May 1, 2020
+          d0 = datetime.date(2020, 3, 1).toordinal()  # Mar 1, 2020
           dates = [datetime.date.fromordinal(d0 + d) for d in range(len(row[1:]))]
           writer.writerow(['FIPS'] + [f'{d.month} / {d.day} / {d.year}' for d in dates])
 
@@ -1067,22 +1067,22 @@ class Formatter():
         fips = self._get_fips(row[0])
         if fips is None:
           continue
-        data[fips] = np.array(list(map(lambda x: 'NA' if x == '' else date_to_ordinal(x), row[4:])))
+        data[fips] = np.array(list(map(lambda x: 'NA' if x.strip() == '' else date_to_ordinal(x), row[3:])))
 
     filename = join(self.data_dir, 'interventions.csv')
     with open(filename, 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
-      labels = ['FIPS', 'STATE', 'AREA_NAME', 'stay at home', '>50 gatherings', '>500 gatherings', 'public schools', 'restaurant dine-in', 'entertainment/gym', 'federal guidelines']
+      labels = ['FIPS', 'STATE', 'AREA_NAME', 'stay at home', '>50 gatherings', '>500 gatherings', 'public schools', 'restaurant dine-in', 'entertainment/gym', 'federal guidelines', 'foreign travel ban']
       writer.writerow(labels)
       
       for fips in self.fips_codes:
         area = self.fips_codes.get(fips, 'NA')
         state = self.fips_to_state.get(fips, 'NA')
         if not (fips in data):
-          writer.writerow([fips, state, area, 'NA', 'NA', 'NA', 'NA', 'NA', 'NA', 'NA'])
+          writer.writerow([fips, state, area] + ['NA'] * (len(labels) - 3))
           continue
 
-        writer.writerow([fips, state, area, f'{data[fips][0]}', f'{data[fips][1]}', f'{data[fips][2]}', f'{data[fips][3]}', f'{data[fips][4]}', f'{data[fips][5]}', f'{data[fips][6]}'])
+        writer.writerow([fips, state, area] + [f'{x}' for x in data[fips]])
         print(f'wrote {fips}: {data[fips]}')
 
     return data
@@ -1105,7 +1105,7 @@ def main():
   # formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
-  # formatter.intervention_to_ordinal()
+  formatter.intervention_to_ordinal()
   formatter.make_foot_traffic_data()
 
   
