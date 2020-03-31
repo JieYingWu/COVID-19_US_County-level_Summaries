@@ -15,7 +15,7 @@ import argparse
 from bokeh.plotting import figure, show, output_file
 from bokeh.sampledata.us_counties import data as counties
 from datetime import timedelta
-
+import math
 from bokeh.models import ColumnDataSource, CustomJS, Slider
 from bokeh.sampledata.us_states import data as states
 from bokeh.sampledata.unemployment import data as unemployment
@@ -26,7 +26,7 @@ from bokeh.layouts import widgetbox, row, column
 
 from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar
 from bokeh.palettes import brewer
-
+from bokeh.themes import built_in_themes
 
 def create_dict_forJS(df):
     EXCLUDED = ("ak", "hi", "pr", "gu", "vi", "mp", "as")
@@ -44,7 +44,10 @@ def create_dict_forJS(df):
         for i in range(0, len_col-4):
             rate = df.loc[df['FIPS'] == fips][col_names[i+4]].values
             if len(rate) > 0:
-                rates[i] = rate[0]
+                if math.isnan(rate[0]):
+                    rates[i] = 0.0
+                else:
+                    rates[i] = rate[0]
             else:
                 rates[i] = 0.0
         county_rates.append(rates)
@@ -57,7 +60,45 @@ def create_dict_forJS(df):
 
     source_new=ColumnDataSource(data=a_dict)
     print(a_dict)
-    return source_new
+    return a_dict
+
+
+def create_colors_forJS(df):
+    EXCLUDED = ("ak", "hi", "pr", "gu", "vi", "mp", "as")
+    hex_color = rgb_to_hex((255, 255, 255))
+    col_names = list(df.columns.values)
+    len_col = len(col_names)
+    county_rates = []
+
+    for county_id in counties:
+        if counties[county_id]["state"] in EXCLUDED:
+            continue
+        fips = str(county_id[0]).zfill(2) + str(county_id[1]).zfill(3)
+        # len_col - 1 = its the last day that we have
+        rates = ["" for x in range(len_col - 4)]
+        for i in range(0, len_col-4):
+            rate = df.loc[df['FIPS'] == fips][col_names[i+4]].values
+            if len(rate) > 0:
+                if math.isnan(rate[0]):
+                    rates[i] = hex_color #0.0
+                else:
+                    rates[i] = hex_color # rate[0]
+            else:
+                rates[i] = hex_color # 0.0
+        county_rates.append(rates)
+
+    a_dict = {}
+    for i in range(0, len_col - 4):
+        day_str = col_names[i+4]
+        day_key = str(datetime.strptime(day_str, '%Y-%m-%d %H:%M:%S').date())
+        a_dict[day_key] = np.array(county_rates)[:, i]
+
+    print(a_dict)
+    return a_dict
+
+
+def rgb_to_hex(rgb):
+    return '#%02x%02x%02x' % rgb
 
 
 def create_html_page(html_page_name, df):
@@ -74,40 +115,39 @@ def create_html_page(html_page_name, df):
 
     county_names = [counties[code]["name"] for code in counties if counties[code]["state"] not in EXCLUDED]
 
-    county_rates = []
     col_names = list(df.columns.values)
     len_col = len(col_names)
 
-    for county_id in counties:
-        if counties[county_id]["state"] in EXCLUDED:
-            continue
-        fips = str(county_id[0]).zfill(2) + str(county_id[1]).zfill(3)
-        # len_col - 1 = its the last day that we have
-        rate = df.loc[df['FIPS'] == fips][col_names[len_col - 1]].values
-        if len(rate) == 0:
-            county_rates.append(0.0)
-        else:
-            county_rates.append(rate[0])
+    last_day_str = col_names[len_col - 1]
+    last_day = datetime.strptime(last_day_str, '%Y-%m-%d %H:%M:%S').date()
+    first_day_str = col_names[4]  # first 4 colums contain names etc
+    first_day = datetime.strptime(first_day_str, '%Y-%m-%d %H:%M:%S').date()
 
-    source_visible=ColumnDataSource(data={'x':county_xs, 'y':county_ys, 'name':county_names,'rate':county_rates})
-    source_new = create_dict_forJS(df)
-    print(np.shape(source_new), type(source_new))
+    a_dict = create_dict_forJS(df)
+    source_new = ColumnDataSource(data=a_dict)
+    source_visible = ColumnDataSource(data={'x': county_xs, 'y': county_ys,
+                                            'name': county_names, 'rate': a_dict[str(last_day)]})
+    '''
+    c_dict = create_colors_forJS(df)
+    hex_color = rgb_to_hex((255, 255, 255))
+
+    source_visible = ColumnDataSource(data={'x': county_xs, 'y': county_ys,
+                                            'name': county_names, 'rate': a_dict[str(last_day)],
+                                            'color': [hex_color]})
+    '''
 
     # Define a sequential multi-hue color palette.
-    #palette = brewer['YlGnBu'][9]
-    palette = Magma256
-    # palette = big_palette(200, bokeh.palettes.plasma)
-
+    palette = brewer['YlGnBu'][6]
     palette = palette[::-1]
+
+    # TODO: get the high value from median?
     color_mapper = LinearColorMapper(palette=palette, low=0, high=100)
-
-    #color_mapper = LogColorMapper(palette=palette)
-
-    TOOLS = "pan,wheel_zoom,reset,hover,save"
-    p = figure(title="US density", toolbar_location="left",
+    # TODO: add agenda?
+    TOOLS = "pan,zoom_in,zoom_out,wheel_zoom,box_zoom,reset,hover,save"
+    p = figure(title="US density", toolbar_location="right", output_backend="webgl",
                plot_width=1100, plot_height=700, tools=TOOLS,
                tooltips=[
-                   ("County", "@name"), ("Infection rate", "@rate"), ("(Long, Lat)", "($x, $y)")
+                   ("County", "@name"), ("Confirmed cases", "@rate"), ("(Long, Lat)", "($x, $y)")
                ])
 
     # hide grid and axes
@@ -116,51 +156,43 @@ def create_html_page(html_page_name, df):
     p.ygrid.grid_line_color = None
     p.hover.point_policy = "follow_mouse"
 
-    p.patches(county_xs, county_ys,
+    # p.patches(county_xs, county_ys,
               # fill_alpha=0.7,
-              line_color="white", line_width=0.5)
+    #          line_color="white", line_width=0.5)
 
-    p.patches(state_xs, state_ys, fill_alpha=0.0,
-              line_color="#884444", line_width=2, line_alpha=0.3)
+    p.patches(state_xs, state_ys, fill_alpha=0.7,
+              line_color="white", line_width=2, line_alpha=0.3)
 
     p.patches('x', 'y', source=source_visible,
               fill_color={'field': 'rate', 'transform': color_mapper},
-              fill_alpha=0.7, line_color="white", line_width=0.5)
-
-    # Make a slider object: slider
-    last_day_str = col_names[len_col - 1]
-    last_day = datetime.strptime(last_day_str, '%Y-%m-%d %H:%M:%S').date()# + timedelta(days=1)
-    first_day_str = col_names[4]  # first 4 colums contain names etc
-    first_day = datetime.strptime(first_day_str, '%Y-%m-%d %H:%M:%S').date()
-    print(last_day)
+              #fill_color='color',
+              fill_alpha=0.7, line_color="white", line_width=0.2)
 
     date_slider = DateSlider(title="Date:", start=first_day, end=last_day, value=last_day, step=1)
     callback = CustomJS(args=dict(source=source_new, ts=source_visible), code="""
                             var data=ts.data;
-                            var rate=data['rate'];
-                            var name=data['name'];
                             var data1=source.data;
                             var f=cb_obj.value; //this is the selection value of slider 
-                            const event = new Date(f);
+                            var event = new Date(f);
                             var date_selected = event.toISOString().substring(0,10); // converting date from python to JS
-                            //console.log(typeof data1[0]);
-
+                            //ts.data['color'] = '#ffffff' //color_dict.data[date_selected];
                             data['rate']=data1[date_selected];
                             ts.change.emit();
                     """)
 
     date_slider.js_on_change('value', callback)
 
-    #layout = column(p, widgetbox(slider),widgetbox(date_slider))
-    layout = column(p, date_slider)
+    layout = row(column(date_slider), p)
     output_file(html_page_name, title="Interactive USA density map")
     show(layout)
+
 
 def create_infections_dict(data_dir):
     filename = join(data_dir, 'infections_timeseries.csv')
     df = pd.read_csv(filename, dtype={"FIPS": int})
     df['FIPS'] = df['FIPS'].apply(lambda x: str(x).zfill(5))
     return df
+
 
 # deprecated
 def create_cases_dict(data_dir):
