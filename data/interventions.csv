@@ -1,5 +1,5 @@
-FIPS,STATE,AREA_NAME,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant dine-in,entertainment/gym,federal guidelines,foreign travel ban
-00000,US,united states,NA,NA,NA,NA,NA,NA,NA,NA
+FIPS,STATE,AREA_NAME,stay at home,>50 gatherings,>500 gatherings,public schools,restaurant dine-in,entertainment/gym,federal guidelines
+00000,US,united states,NA,NA,NA,NA,NA,NA,NA
 01000,AL,alabama,20,13,16,19,NA,16,11
 01001,AL,autauga county,20,13,16,19,NA,16,11
 01003,AL,baldwin county,20,13,16,19,NA,16,11
@@ -3195,80 +3195,80 @@ FIPS,STATE,AREA_NAME,stay at home,>50 gatherings,>500 gatherings,public schools,
 56045,WY,weston county,20,20,20,19,19,16,11
 72000,PR,puerto rico,NA,NA,16,15,15,16,11
 72001,PR,"adjuntas municipio, puerto rico",NA,NA,16,15,15,16,11
-72003,PR,"aguada municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72003,PR,"aguada municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72005,PR,"aguadilla municipio, puerto rico",NA,NA,16,15,15,16,11
-72007,PR,"aguas buenas municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72007,PR,"aguas buenas municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72009,PR,"aibonito municipio, puerto rico",NA,NA,16,15,15,16,11
-72011,PR,"añasco municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72011,PR,"añasco municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72013,PR,"arecibo municipio, puerto rico",NA,NA,16,15,15,16,11
-72015,PR,"arroyo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72015,PR,"arroyo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72017,PR,"barceloneta municipio, puerto rico",NA,NA,16,15,15,16,11
-72019,PR,"barranquitas municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72019,PR,"barranquitas municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72021,PR,"bayamón municipio, puerto rico",NA,NA,16,15,15,16,11
-72023,PR,"cabo rojo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72023,PR,"cabo rojo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72025,PR,"caguas municipio, puerto rico",NA,NA,16,15,15,16,11
-72027,PR,"camuy municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72027,PR,"camuy municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72029,PR,"canóvanas municipio, puerto rico",NA,NA,16,15,15,16,11
-72031,PR,"carolina municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72031,PR,"carolina municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72033,PR,"cataño municipio, puerto rico",NA,NA,16,15,15,16,11
-72035,PR,"cayey municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72035,PR,"cayey municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72037,PR,"ceiba municipio, puerto rico",NA,NA,16,15,15,16,11
-72039,PR,"ciales municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72039,PR,"ciales municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72041,PR,"cidra municipio, puerto rico",NA,NA,16,15,15,16,11
-72043,PR,"coamo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72043,PR,"coamo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72045,PR,"comerío municipio, puerto rico",NA,NA,16,15,15,16,11
-72047,PR,"corozal municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72047,PR,"corozal municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72049,PR,"culebra municipio, puerto rico",NA,NA,16,15,15,16,11
-72051,PR,"dorado municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72051,PR,"dorado municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72053,PR,"fajardo municipio, puerto rico",NA,NA,16,15,15,16,11
-72054,PR,"florida municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72054,PR,"florida municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72055,PR,"guánica municipio, puerto rico",NA,NA,16,15,15,16,11
-72057,PR,"guayama municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72057,PR,"guayama municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72059,PR,"guayanilla municipio, puerto rico",NA,NA,16,15,15,16,11
-72061,PR,"guaynabo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72061,PR,"guaynabo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72063,PR,"gurabo municipio, puerto rico",NA,NA,16,15,15,16,11
-72065,PR,"hatillo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72065,PR,"hatillo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72067,PR,"hormigueros municipio, puerto rico",NA,NA,16,15,15,16,11
-72069,PR,"humacao municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72069,PR,"humacao municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72071,PR,"isabela municipio, puerto rico",NA,NA,16,15,15,16,11
-72073,PR,"jayuya municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72073,PR,"jayuya municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72075,PR,"juana díaz municipio, puerto rico",NA,NA,16,15,15,16,11
-72077,PR,"juncos municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72077,PR,"juncos municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72079,PR,"lajas municipio, puerto rico",NA,NA,16,15,15,16,11
-72081,PR,"lares municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72081,PR,"lares municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72083,PR,"las marías municipio, puerto rico",NA,NA,16,15,15,16,11
-72085,PR,"las piedras municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72085,PR,"las piedras municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72087,PR,"loíza municipio, puerto rico",NA,NA,16,15,15,16,11
-72089,PR,"luquillo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72089,PR,"luquillo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72091,PR,"manatí municipio, puerto rico",NA,NA,16,15,15,16,11
-72093,PR,"maricao municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72093,PR,"maricao municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72095,PR,"maunabo municipio, puerto rico",NA,NA,16,15,15,16,11
-72097,PR,"mayagüez municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72097,PR,"mayagüez municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72099,PR,"moca municipio, puerto rico",NA,NA,16,15,15,16,11
-72101,PR,"morovis municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72101,PR,"morovis municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72103,PR,"naguabo municipio, puerto rico",NA,NA,16,15,15,16,11
-72105,PR,"naranjito municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72105,PR,"naranjito municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72107,PR,"orocovis municipio, puerto rico",NA,NA,16,15,15,16,11
-72109,PR,"patillas municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72109,PR,"patillas municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72111,PR,"peñuelas municipio, puerto rico",NA,NA,16,15,15,16,11
-72113,PR,"ponce municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72113,PR,"ponce municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72115,PR,"quebradillas municipio, puerto rico",NA,NA,16,15,15,16,11
-72117,PR,"rincón municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72117,PR,"rincón municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72119,PR,"río grande municipio, puerto rico",NA,NA,16,15,15,16,11
-72121,PR,"sabana grande municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72121,PR,"sabana grande municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72123,PR,"salinas municipio, puerto rico",NA,NA,16,15,15,16,11
-72125,PR,"san germán municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72125,PR,"san germán municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72127,PR,"san juan municipio, puerto rico",NA,NA,16,15,15,16,11
-72129,PR,"san lorenzo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72129,PR,"san lorenzo municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72131,PR,"san sebastián municipio, puerto rico",NA,NA,16,15,15,16,11
-72133,PR,"santa isabel municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72133,PR,"santa isabel municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72135,PR,"toa alta municipio, puerto rico",NA,NA,16,15,15,16,11
-72137,PR,"toa baja municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72137,PR,"toa baja municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72139,PR,"trujillo alto municipio, puerto rico",NA,NA,16,15,15,16,11
-72141,PR,"utuado municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72141,PR,"utuado municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72143,PR,"vega alta municipio, puerto rico",NA,NA,16,15,15,16,11
-72145,PR,"vega baja municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72145,PR,"vega baja municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72147,PR,"vieques municipio, puerto rico",NA,NA,16,15,15,16,11
-72149,PR,"villalba municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72149,PR,"villalba municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA
 72151,PR,"yabucoa municipio, puerto rico",NA,NA,16,15,15,16,11
-72153,PR,"yauco municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA,NA
+72153,PR,"yauco municipio, puerto rico",NA,NA,NA,NA,NA,NA,NA

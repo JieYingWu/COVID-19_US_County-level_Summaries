@@ -1049,15 +1049,17 @@ class Formatter():
         to_write.extend(deaths[fips])
         if self._is_state(fips):
           writer.writerow(to_write)
-#        print(f'wrote {fips}')
 
+          
   def intervention_to_ordinal(self):
     t0 = datetime.date(2020, 2, 29).toordinal()
+
+    months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    months = dict(zip(months, range(1, len(months) + 1)))
     
     def date_to_ordinal(x):
-      
       x = x.split('-')
-      month = int(x[1])
+      month = months[x[1]]
       day = int(x[0])
       return datetime.date(2020, month, day).toordinal() - t0
       # if month == 'Mar':
@@ -1083,13 +1085,14 @@ class Formatter():
     filename = join(self.data_dir, 'interventions.csv')
     with open(filename, 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
-      writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'stay at home', '>50 gatherings', '>500 gatherings', 'public schools', 'restaurant dine-in', 'entertainment/gym', 'federal guidelines', 'foreign travel ban'])
+      labels = ['FIPS', 'STATE', 'AREA_NAME', 'stay at home', '>50 gatherings', '>500 gatherings', 'public schools', 'restaurant dine-in', 'entertainment/gym', 'federal guidelines']
+      writer.writerow(labels)
       
       for fips in self.fips_codes:
         area = self.fips_codes.get(fips, 'NA')
         state = self.fips_to_state.get(fips, 'NA')
         if not (fips in data):
-          writer.writerow([fips, state, area, 'NA', 'NA', 'NA', 'NA', 'NA', 'NA', 'NA', 'NA'])
+          writer.writerow([fips, state, area, 'NA', 'NA', 'NA', 'NA', 'NA', 'NA', 'NA'])
           continue
 
         writer.writerow([fips, state, area, f'{data[fips][0]}', f'{data[fips][1]}', f'{data[fips][2]}', f'{data[fips][3]}', f'{data[fips][4]}', f'{data[fips][5]}', f'{data[fips][6]}'])
@@ -1110,12 +1113,12 @@ def main():
 
   # run
   formatter = Formatter(args)
-  formatter.unify_climate_data() # only run if data files present, see function for which files
-  formatter.make_national_data()
-  formatter.make_cases_data()
+  # formatter.unify_climate_data() # only run if data files present, see function for which files
+  # formatter.make_national_data()
+  # formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
-  # formatter.intervention_to_ordinal()
+  formatter.intervention_to_ordinal()
 
   
 if __name__ == '__main__':
