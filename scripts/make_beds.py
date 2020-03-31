@@ -41,7 +41,7 @@ def plot_counties(fips, values):
 
 def main():
   data_dir = 'data'
-  filename = join(visualizations_dir, "icu_beds.png")
+  filename = join(visualizations_dir, "icu_beds.pdf")
   fips, beds = read_beds(data_dir)
   fig = plot_counties(fips, beds)
   fig.write_image(filename)
