@@ -1,7 +1,7 @@
 """
 Create beautiful plots
 """
-n
+
 from shutil import copyfile
 from bokeh.plotting import curdoc
 from os.path import join, exists
@@ -228,11 +228,11 @@ def big_palette(size, palette_func):
 
 
 def main():
-    data_dir = 'data'
     html_page_name = join(visualizations_dir, "us_cases.html")
     infected_cases = create_cases_dict(data_dir)
     df = create_infections_dict(data_dir)
     create_html_page(html_page_name, df)
+    
 
 
 if __name__ == '__main__':
