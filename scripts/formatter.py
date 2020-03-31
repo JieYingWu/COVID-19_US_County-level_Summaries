@@ -472,8 +472,10 @@ class Formatter():
       86,                      # Oncology (Cancer) specialists (2019)
       87,                      # Endocrinology, Diabetes, and Metabolism specialists (2019)
       88,                      # All Other Specialties specialists (2019)
-      89                      # Total Specialist Physicians (2019)
+      89,                      # Total Specialist Physicians (2019)
+      90                       # ICU Beds
     ]),
+
     ('transit', [
       2                      # transit_scores - population weighted averages aggregated from town/city level to county
     ]),
@@ -731,8 +733,8 @@ class Formatter():
             continue
 
           if i == self.national_data_skiprows[k]:
-            print(k)
-            print(*list(map(lambda t: f'      {t[0]},                      # {t[1]}', enumerate(row))), sep='\n')
+#            print(k)
+#            print(*list(map(lambda t: f'      {t[0]},                      # {t[1]}', enumerate(row))), sep='\n')
             if k == 'health':
               national_data['labels'][k] = [row[j].strip().replace(',', '').replace('Percentage', 'Fraction')
                                                  for j in self.national_data_which_columns[k]]
@@ -835,7 +837,7 @@ class Formatter():
           f'{counties_available / num_counties:.04f}',
           f'{na_counties[label] / num_counties:.04f}'])
       
-      print(f'wrote data for NA values')
+      print(f'wrote availability data')
       
   def _read_cases_data(self, infections_filename, deaths_filename, recovered_filename):
     def load(filename):
@@ -869,7 +871,36 @@ class Formatter():
     recovered = load(recovered_filename)
 
     return infections, deaths, recovered
+
+  def copy_cases_data(self, src_filename, dst_filename, max_cols=None):
+    """Copy the case timeseries data.
+
+    :param src_filename: 
+    :param dst_filename: 
+    :returns: 
+    :rtype: 
+
+    """
+    with open(src_filename, 'r', newline='') as src_file, \
+         open(dst_filename, 'w', newline='') as dst_file:
+      reader = csv.reader(src_file, delimiter=',')
+      writer = csv.writer(dst_file, delimiter=',')
+      for i, row in enumerate(reader):
+        if all(map(lambda x : x == '', row)):
+          continue
+        if max_cols is not None:
+          row = row[:max_cols]
+
+        row = [x.replace(',', '') for x in row]
+
+        if i == 0:
+          writer.writerow(row)
+          continue
         
+        row[0] = self._get_fips(row[0])
+        writer.writerow(row)
+        
+  
   def make_cases_data(self):
     """Solve for beta and gamma for each county.
 
@@ -888,56 +919,61 @@ class Formatter():
     infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_time_series_JHU.csv')
     deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_time_series_JHU.csv')
     recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_time_series_JHU.csv')
-    copyfile(infections_filename, join(self.data_dir, 'infections_timeseries.csv'))
-    copyfile(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'))
+    
+    # copyfile(infections_filename, join(self.data_dir, 'infections_timeseries.csv'))
+    # copyfile(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'))
+    max_cols = None
+    self.copy_cases_data(infections_filename, join(self.data_dir, 'infections_timeseries.csv'), max_cols=max_cols)
+    self.copy_cases_data(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'), max_cols=max_cols)
+    
     copyfile(recovered_filename, join(self.data_dir, 'recovered_timeseries.csv'))
     
     infections, deaths, recovered = self._read_cases_data(infections_filename, deaths_filename, recovered_filename)
 
-    filename = join(self.data_dir, 'cases.csv')
-    with open(filename, 'w', newline='') as file:
-      writer = csv.writer(file, delimiter=',')
-      writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'infected', 'beta', 'gamma'])
+    # filename = join(self.data_dir, 'cases.csv')
+    # with open(filename, 'w', newline='') as file:
+    #   writer = csv.writer(file, delimiter=',')
+    #   writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'infected', 'beta', 'gamma'])
       
-      for fips in self.fips_codes:
-        area = self.fips_codes.get(fips, 'NA')
-        state = self.fips_to_state.get(fips, 'NA')
-        if not (fips in infections and fips in deaths and fips in recovered) or np.all(infections[fips] == 0):
-          writer.writerow([fips, state, area, '0', 'NA', 'NA'])
-          continue
+    #   for fips in self.fips_codes:
+    #     area = self.fips_codes.get(fips, 'NA')
+    #     state = self.fips_to_state.get(fips, 'NA')
+    #     if not (fips in infections and fips in deaths and fips in recovered) or np.all(infections[fips] == 0):
+    #       writer.writerow([fips, state, area, '0', 'NA', 'NA'])
+    #       continue
 
-        if fips not in self.fips_codes:
-          writer.writerow([fips, state, area, infections[fips][-1], 'NA', 'NA'])
-          continue
+    #     if fips not in self.fips_codes:
+    #       writer.writerow([fips, state, area, infections[fips][-1], 'NA', 'NA'])
+    #       continue
 
-        # Total population, N.
-        N = self.populations[fips]
+    #     # Total population, N.
+    #     N = self.populations[fips]
 
-        # number of infected people
-        start = np.nonzero(infections[fips] > 0)[0][0]
-        end = min(infections[fips].shape[0], recovered[fips].shape[0], deaths[fips].shape[0])
-        start = min(start, end)
-        if start == end:
-          writer.writerow([fips, state, area, '0', 'NA', 'NA'])
-          continue
+    #     # number of infected people
+    #     start = np.nonzero(infections[fips] > 0)[0][0]
+    #     end = min(infections[fips].shape[0], recovered[fips].shape[0], deaths[fips].shape[0])
+    #     start = min(start, end)
+    #     if start == end:
+    #       writer.writerow([fips, state, area, '0', 'NA', 'NA'])
+    #       continue
           
-        X = infections[fips][start:end] / N
+    #     X = infections[fips][start:end] / N
 
-        # fraction removed (recovered or dead)
-        R = (recovered[fips][start:end] + deaths[fips][start:end]) / N
+    #     # fraction removed (recovered or dead)
+    #     R = (recovered[fips][start:end] + deaths[fips][start:end]) / N
 
-        # fraction of population susceptible
-        S = 1 - X - R
+    #     # fraction of population susceptible
+    #     S = 1 - X - R
 
-        # integrate with trapezoidal method
-        beta = - (S[-1] - S[0]) / np.trapz(S - X, x=None, dx=1)
-        gamma = R[-1] / np.trapz(X, x=None, dx=1)
+    #     # integrate with trapezoidal method
+    #     beta = - (S[-1] - S[0]) / np.trapz(S - X, x=None, dx=1)
+    #     gamma = R[-1] / np.trapz(X, x=None, dx=1)
 
-        if np.isnan(beta) or np.isnan(gamma):
-          beta = gamma = 'NA'
+    #     if np.isnan(beta) or np.isnan(gamma):
+    #       beta = gamma = 'NA'
 
-        writer.writerow([fips, state, area, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
-        print(f'wrote {fips}: N = {N}, beta = {beta}, gamma = {gamma}')
+    #     writer.writerow([fips, state, area, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
+    #     print(f'wrote {fips}: N = {N}, beta = {beta}, gamma = {gamma}')
 
 
   def filter_data(self):
@@ -955,7 +991,7 @@ class Formatter():
     filename = join(self.data_dir, 'filtered_cases_and_deaths.csv')
     with open(filename, 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
-#      writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'infected', 'beta', 'gamma'])
+      # writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'infected', 'beta', 'gamma'])
       
       for fips in self.fips_codes:
         area = self.fips_codes.get(fips, 'NA')
@@ -1075,9 +1111,9 @@ def main():
 
   # run
   formatter = Formatter(args)
-  # formatter.unify_climate_data() # only run if data files present, see function for which files
+  formatter.unify_climate_data() # only run if data files present, see function for which files
   formatter.make_national_data()
-  # formatter.make_cases_data()
+  formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
   # formatter.intervention_to_ordinal()
