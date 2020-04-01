@@ -9,8 +9,8 @@ colors = sns.color_palette('muted')
 
 
 def plot(*fnames,
-         which_counties=['36047', '06037', '17031'],
-         county_names=['Kings County, NY', 'Los Angeles, CA', 'Cook County, IL']):
+         which_counties=['53033', '06037', '17031'],
+         county_names=['King County, WA', 'Los Angeles, CA', 'Cook County, IL']):
   fig, axes = plt.subplots(len(fnames), 1, figsize=(10, 8), sharex=True)
 
   for ax, fname in zip(axes, fnames):

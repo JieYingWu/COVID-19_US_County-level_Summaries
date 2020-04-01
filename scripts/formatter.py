@@ -450,10 +450,10 @@ class Formatter():
       64,                      # Urology (AAMC)
       65,                      # Vascular & Interventional Radiology (AAMC)
       66,                      # Vascular Surgery (AAMC)
-      67,                      # State/Local Government hospital beds per 1000 people (2019)
-      68,                      # Non-profit hospital beds per 1000 people (2019)
-      69,                      # For-profit hospital beds per 1000 people (2019)
-      70,                      # Total hospital beds per 1000 people (2019)
+      # 67,                      # State/Local Government hospital beds per 1000 people (2019)
+      # 68,                      # Non-profit hospital beds per 1000 people (2019)
+      # 69,                      # For-profit hospital beds per 1000 people (2019)
+      # 70,                      # Total hospital beds per 1000 people (2019)
       71,                      # Total nurse practitioners (2019)
       72,                      # Total physician assistants (2019)
       73,                      # Total Hospitals (2019)
@@ -1101,12 +1101,12 @@ def main():
   # run
   formatter = Formatter(args)
   # formatter.unify_climate_data() # only run if data files present, see function for which files
-  # formatter.make_national_data()
+  formatter.make_national_data()
   # formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
-  formatter.intervention_to_ordinal()
-  formatter.make_foot_traffic_data()
+  # formatter.intervention_to_ordinal()
+  # formatter.make_foot_traffic_data()
 
   
 if __name__ == '__main__':
