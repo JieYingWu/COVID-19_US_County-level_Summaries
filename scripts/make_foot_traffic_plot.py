@@ -37,7 +37,7 @@ def plot(*fnames,
   axes[1].set_ylabel('Number of Visits')
   # axes[1].set_ylabel('Number of Visits')
   plt.xticks([0, 7, 14])
-  plt.savefig(join('visualizations', 'foot_traffic.pdf'))
+  plt.savefig(join('visualizations', 'foot_traffic.png'))
 
 
 if __name__ == '__main__':
