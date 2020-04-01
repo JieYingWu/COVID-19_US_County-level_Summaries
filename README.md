@@ -22,10 +22,6 @@ We accumulated statistics from different sources on a county level granularity.
 - [./model](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/tree/master/model) *under construction*.
 - [./scripts](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/tree/master/scripts) - scripts for making the `raw_data` machine-readable
 
-## Dataset
-
-![foot traffic](visualizations/foot_traffic.png "foot traffic")
-
 ## Instructions for Adding Data
 
 Please create a new directory in [./raw_data](https://github.com/JieYingWu/disease_spread/raw_data)
