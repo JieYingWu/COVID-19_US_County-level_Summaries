@@ -31,6 +31,7 @@ print(date.month, date.day, date.year)
   very well-tracked, but we include it as we are able.
 
 #### Data links
+
 1. [ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/](ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/)
 2. [https://data.census.gov/cedsci/table?q=dp02&hidePreview=true&tid=ACSDP1Y2018.DP02&vintage=2018&g=0400000US36.050000&tp=true&y=2018](https://data.census.gov/cedsci/table?q=dp02&hidePreview=true&tid=ACSDP1Y2018.DP02&vintage=2018&g=0400000US36.050000&tp=true&y=2018)
 3. [https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/](https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/)
@@ -42,5 +43,46 @@ print(date.month, date.day, date.year)
 9. [https://www.aamc.org/data-reports/workforce/data/2019-state-profiles](https://www.aamc.org/data-reports/workforce/data/2019-state-profiles)
 10. [https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)
 11. [https://alltransit.cnt.org/data-download/](https://alltransit.cnt.org/data-download/)
-12.[https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/](https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/)
-
+12. [https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/](https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/)
+13. Foot traffic data from [SafeGraph](https://shop.safegraph.com/).
+14. Interventions data from numerous media sources:
+  * https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html
+  * https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html
+  * https://www.cnn.com/2020/03/23/us/coronavirus-which-states-stay-at-home-order-trnd/index.html
+  * https://www.today.com/food/which-states-have-closed-restaurants-bars-due-coronavirus-t176039
+https://www.eater.com/2020/3/15/21180761/coronavirus-restaurants-bars-closed-new-york-la-chicago
+  * https://www.heraldtribune.com/news/20200320/coronavirus-florida-governor-closes-all-restaurants-and-gyms
+  * https://www.usnews.com/news/national-news/articles/2020-03-27/alabama-gov-kay-ivey-closes-nonessential-businesses-as-coronavirus-spreads
+  * https://www.peninsulaclarion.com/news/local-bars-resaurants-gyms-theaters-react-to-coronavirus/
+  * https://www.alaskapublic.org/2020/03/17/state-bans-restaurant-dining-as-alaskas-confirmed-coronavirus-cases-grow-to-6/
+  * https://www.fox10phoenix.com/news/phoenix-tucson-order-closures-of-bars-restaurants1
+  * https://www.livescience.com/coronavirus-arkansas.html
+  * https://katv.com/news/local/coronavirus-cases-rise-to-46-in-arkansas
+  * https://dc.eater.com/2020/3/15/21180673/dc-mayor-muriel-bowser-coronavirus-response-elminate-bar-seats-limit-table-size
+  * https://www.heraldtribune.com/news/20200320/coronavirus-florida-governor-closes-all-restaurants-and-gyms
+  * https://www.forsythnews.com/news/health-care/heres-latest-coronavirus-georgia/
+  * https://www.hawaiinewsnow.com/2020/03/18/list-bar-closures-cruise-ship-screening-here-are-all-iges-covid-directives/
+  * https://www.kcci.com/article/gov-reynolds-issues-state-of-public-health-disaster/31700874
+  * https://www.kansascity.com/news/coronavirus/article241494536.html
+  * https://www.courier-journal.com/story/news/2020/03/16/coronavirus-kentucky-beshear-orders-restaurants-bars-close/5057062002/
+  * https://wgme.com/news/coronavirus/gov-mills-mandates-maine-bars-restaurants-close-to-dine-in-customers
+  * https://mississippitoday.org/2020/03/25/mayors-scramble-to-know-does-gov-reeves-coronavirus-declaration-clash-with-local-orders/
+  * https://ktvo.com/news/local/in-missouri-no-dining-in-at-restaurants-groups-of-10-or-more-banned-amid-coronavirus
+  * https://www.usnews.com/news/best-states/montana/articles/2020-03-22/evidence-of-community-spread-in-montanas-gallatin-county
+  * https://www.ketv.com/article/coronavirus-covid19-nebraska-omaha-latest/31213658
+  * https://www.latimes.com/world-nation/story/2020-03-17/las-vegas-to-close-all-casinos-at-midnight
+  * https://whdh.com/news/new-hampshire-bans-dine-in-restaurant-meals-until-april-7/
+  * https://www.cnbc.com/2020/03/16/new-york-new-jersey-and-connecticut-agree-to-close-restaurants-limit-events-to-less-than-50-people.html
+  * https://www.krqe.com/health/coronavirus-new-mexico/new-restrictions-for-new-mexico-restaurants-and-bars-in-to-begin-monday/
+  * https://www.ny1.com/nyc/all-boroughs/coronavirus/2020/03/16/bars-restaurants-gyms-movie-theaters-casinos-new-york-state
+  * https://www.newsobserver.com/news/coronavirus/article241284781.html
+  * https://www.grandforksherald.com/news/education/5007393-Burgum-closes-bars-restaurants-amid-coronavirus-concerns-schools-to-stay-closed-indefinitely
+  * https://www.axios.com/ohio-governor-bars-restaurants-coronavirus-26e4b6e3-7f65-4f6a-abf9-f3940220cc6f.html
+  * https://patch.com/rhode-island/newport/coronavirus-ri-dine-restaurants-closed-2-weeks
+  * https://www.tennessean.com/story/news/health/2020/03/22/tennessee-governor-restaurants-bars-closed-takeout-and-delivery/2892481001/
+  * https://www.texastribune.org/2020/03/19/texas-restaurants-bars-closed-greg-abbott/
+  * https://www.sltrib.com/news/2020/03/18/utah-orders-restaurants/
+  * https://www.burlingtonfreepress.com/story/news/2020/03/16/coronavirus-vermont-burlington-mayor-orders-24-hour-restaurant-bar-closure/5062491002/
+  * https://www.washingtonian.com/2020/03/23/virginia-restaurants-and-bars-close-for-dine-in-service-to-help-curb-coronavirus/
+  * https://trib.com/news/state-and-regional/health/wyoming-governor-announces-statewide-business-closures-in-response-to-coronavirus/article_fd9b3090-536e-5e55-902e-0585322740a2.html
+  * https://www.nytimes.com/2020/03/12/world/europe/trump-travel-ban-coronavirus.html
