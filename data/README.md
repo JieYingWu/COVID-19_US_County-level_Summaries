@@ -32,20 +32,22 @@ print(date.month, date.day, date.year)
 
 #### Data links
 
-1. [ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/](ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/)
-2. [https://data.census.gov/cedsci/table?q=dp02&hidePreview=true&tid=ACSDP1Y2018.DP02&vintage=2018&g=0400000US36.050000&tp=true&y=2018](https://data.census.gov/cedsci/table?q=dp02&hidePreview=true&tid=ACSDP1Y2018.DP02&vintage=2018&g=0400000US36.050000&tp=true&y=2018)
-3. [https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/](https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/)
-4. [https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk](https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk)
-5. Johns Hopkins CSSE COVID-19 Tracking: [https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
-6. [https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)
-7. USAfacts: [https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)
-8. [https://www.kff.org/state-category/providers-service-use/](https://www.kff.org/state-category/providers-service-use/)
-9. [https://www.aamc.org/data-reports/workforce/data/2019-state-profiles](https://www.aamc.org/data-reports/workforce/data/2019-state-profiles)
-10. [https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)
-11. [https://alltransit.cnt.org/data-download/](https://alltransit.cnt.org/data-download/)
-12. [https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/](https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/)
+1. Our COVID-19 infections and deaths data come from the Johns Hopkins University [CSSE COVID-19
+   Tracking Project](https://github.com/CSSEGISandData/COVID-19) and
+   [Dashboard](https://coronavirus.jhu.edu/map.html).
+2. Our climate data comes from the [NOAA](ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/)
+3. Our county-level demographic data is primarily sourced from the United States Census Bureau
+    * https://data.census.gov/cedsci/table?q=dp02&hidePreview=true&tid=ACSDP1Y2018.DP02&vintage=2018&g=0400000US36.050000&tp=true&y=2018
+    * https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/
+    * https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
+4. Additional county-level data from the [USDA](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)
+5. Additional COVID-19 Case information from [USAfacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)
+6. Healthcare capacity related information comes primarily from [Kaiser Family Foundation](https://www.kff.org/state-category/providers-service-use/).
+7. [https://www.aamc.org/data-reports/workforce/data/2019-state-profiles](https://www.aamc.org/data-reports/workforce/data/2019-state-profiles)
+11. Traffic score information from the [Center for Neighborhood Technology](https://alltransit.cnt.org/data-download/)
+12. ICU Bed information from [KHN](https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/)
 13. Foot traffic data from [SafeGraph](https://shop.safegraph.com/).
-14. Interventions data from numerous media sources:
+14. COVID-19 related Interventions data from numerous media sources:
     * https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html
     * https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html
     * https://www.cnn.com/2020/03/23/us/coronavirus-which-states-stay-at-home-order-trnd/index.html
