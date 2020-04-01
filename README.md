@@ -1,6 +1,6 @@
 # County-level Socioeconomic Data for Predictive Modeling of Epidemiological Effects
 
-![icubeds](visualizations/icu_beds.png "icubeds")
+![County-level Number of Intensive Care Unit Beds](visualizations/icu_beds.png "icubeds")
 
 **TL/DR:** We gather a *machine readable* dataset related to socioeconomic factors that may affect the spread and/or consequences of epidemiological outbreaks, particularly the novel coronavirus (COVID-19). This dataset is envisioned to serve the data science, machine learning, and epidemiological modeling communities. If you want to contribute, please let us know!
 

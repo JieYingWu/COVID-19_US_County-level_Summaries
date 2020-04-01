@@ -37,8 +37,8 @@ def plot_counties(fips, values):
     binning_endpoints=binning_endpoints,
     county_outline={'color': 'rgb(255,255,255)', 'width': 0.05},
     colorscale=colorscale,
-    round_legend_values=True
-    # title='Total Intensive Care Unit Beds'
+    round_legend_values=True,
+    title='County-level Number of Intensive Care Unit Beds'
   )
   fig.layout.template = None
   return fig
