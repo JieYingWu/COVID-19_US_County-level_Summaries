@@ -1,5 +1,7 @@
 # County-level Socioeconomic Data for Predictive Modeling of Epidemiological Effects
 
+![icubeds](visualizations/icu_beds.png "icubeds")
+
 **TL/DR:** We aim to gather a *machine readable* dataset related to socioeconomic factors that may affect the spread and/or consequences of epidemiological outbreaks, particularly the novel coronavirus (COVID-19). This dataset is envisioned to serve the data science, machine learning, and epidemiological modeling communities. If you want to contribute, please let us know!
 
 **Overview:** Despite overoptimistic promises of an “American Resurrection” by Easter Sunday, many scientists and citizens fear that current mitigation strategies are likely insufficient to avert the collapse of the US healthcare system. Confirmed COVID-19 cases, hospitalizations, and - unfortunately - deaths are rapidly increasing; implementing an aggressive suppression strategy - “The Hammer” - seems to be the only viable option to buy time. How can we make best use of the time these measures buy?
