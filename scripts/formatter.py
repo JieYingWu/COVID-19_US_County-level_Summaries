@@ -450,10 +450,10 @@ class Formatter():
       64,                      # Urology (AAMC)
       65,                      # Vascular & Interventional Radiology (AAMC)
       66,                      # Vascular Surgery (AAMC)
-      67,                      # State/Local Government hospital beds per 1000 people (2019)
-      68,                      # Non-profit hospital beds per 1000 people (2019)
-      69,                      # For-profit hospital beds per 1000 people (2019)
-      70,                      # Total hospital beds per 1000 people (2019)
+      # 67,                      # State/Local Government hospital beds per 1000 people (2019)
+      # 68,                      # Non-profit hospital beds per 1000 people (2019)
+      # 69,                      # For-profit hospital beds per 1000 people (2019)
+      # 70,                      # Total hospital beds per 1000 people (2019)
       71,                      # Total nurse practitioners (2019)
       72,                      # Total physician assistants (2019)
       73,                      # Total Hospitals (2019)
@@ -733,8 +733,8 @@ class Formatter():
             continue
 
           if i == self.national_data_skiprows[k]:
-            print(k)
-            print(*list(map(lambda t: f'      {t[0]},                      # {t[1]}', enumerate(row))), sep='\n')
+#            print(k)
+#            print(*list(map(lambda t: f'      {t[0]},                      # {t[1]}', enumerate(row))), sep='\n')
             if k == 'health':
               national_data['labels'][k] = [row[j].strip().replace(',', '').replace('Percentage', 'Fraction')
                                                  for j in self.national_data_which_columns[k]]
@@ -872,8 +872,14 @@ class Formatter():
 
     return infections, deaths, recovered
 
-  def copy_cases_data(self, src_filename, dst_filename, max_cols=None):
+  def copy_cases_data(self, src_filename, dst_filename):
     """Copy the case timeseries data.
+
+    cases start at j = 11, 5-digit fips is row[0][-5:], e.g. Weston County, Wyoming has entry 84056045.
+
+    The cases also includes full designation in row[10].
+
+    Some rows are not for  counties, e.g. Diamond Princess. We do not copy these over.
 
     :param src_filename: 
     :param dst_filename: 
@@ -886,18 +892,19 @@ class Formatter():
       reader = csv.reader(src_file, delimiter=',')
       writer = csv.writer(dst_file, delimiter=',')
       for i, row in enumerate(reader):
+        if i == 0:
+          writer.writerow(['FIPS'] + row[10:])
+          
         if all(map(lambda x : x == '', row)):
           continue
-        if max_cols is not None:
-          row = row[:max_cols]
+        if len(row[0]) != 8 or row[0][:3] != '840':
+          continue
 
-        row = [x.replace(',', '') for x in row]
-
-        if i == 0:
-          writer.writerow(row)
+        fips = row[0][-5:]
+        if fips not in self.fips_codes:
           continue
         
-        row[0] = self._get_fips(row[0])
+        row = [fips] + [row[10].replace(',', ' -')] + row[11:]
         writer.writerow(row)
         
   
@@ -916,65 +923,46 @@ class Formatter():
     """
     # mapping from fips to numpy array giving timeseries for each, starting from the first day with
     # nonzero infections
-    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_time_series_JHU.csv')
-    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_time_series_JHU.csv')
-    recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_time_series_JHU.csv')
-    
-    # copyfile(infections_filename, join(self.data_dir, 'infections_timeseries.csv'))
-    # copyfile(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'))
-    max_cols = None
-    self.copy_cases_data(infections_filename, join(self.data_dir, 'infections_timeseries.csv'), max_cols=max_cols)
-    self.copy_cases_data(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'), max_cols=max_cols)
-    
-    copyfile(recovered_filename, join(self.data_dir, 'recovered_timeseries.csv'))
-    
-    infections, deaths, recovered = self._read_cases_data(infections_filename, deaths_filename, recovered_filename)
+    infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections_time_series',
+                               'time_series_covid19_confirmed_US.csv')
+    deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections_time_series',
+                           'time_series_covid19_deaths_US.csv')
+        
+    self.copy_cases_data(infections_filename, join(self.data_dir, 'infections_timeseries.csv'))
+    self.copy_cases_data(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'))
 
-    # filename = join(self.data_dir, 'cases.csv')
-    # with open(filename, 'w', newline='') as file:
-    #   writer = csv.writer(file, delimiter=',')
-    #   writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'infected', 'beta', 'gamma'])
+  def copy_traffic_file(self, src_filename, dst_filename):
+    with open(src_filename, 'r', newline='') as src_file, \
+         open(dst_filename, 'w', newline='') as dst_file:
+      reader = csv.reader(src_file, delimiter=',')
+      writer = csv.writer(dst_file, delimiter=',')
       
-    #   for fips in self.fips_codes:
-    #     area = self.fips_codes.get(fips, 'NA')
-    #     state = self.fips_to_state.get(fips, 'NA')
-    #     if not (fips in infections and fips in deaths and fips in recovered) or np.all(infections[fips] == 0):
-    #       writer.writerow([fips, state, area, '0', 'NA', 'NA'])
-    #       continue
+      for i, row in enumerate(reader):
+        if all(map(lambda x : x == '', row)):
+          continue
 
-    #     if fips not in self.fips_codes:
-    #       writer.writerow([fips, state, area, infections[fips][-1], 'NA', 'NA'])
-    #       continue
+        if i == 0:
+          # write teh labels
+          d0 = datetime.date(2020, 3, 1).toordinal()  # Mar 1, 2020
+          dates = [datetime.date.fromordinal(d0 + d) for d in range(len(row[1:]))]
+          writer.writerow(['FIPS'] + [f'{d.month} / {d.day} / {d.year}' for d in dates])
 
-    #     # Total population, N.
-    #     N = self.populations[fips]
+        row[0] = row[0].zfill(5)
+        writer.writerow(row)
 
-    #     # number of infected people
-    #     start = np.nonzero(infections[fips] > 0)[0][0]
-    #     end = min(infections[fips].shape[0], recovered[fips].shape[0], deaths[fips].shape[0])
-    #     start = min(start, end)
-    #     if start == end:
-    #       writer.writerow([fips, state, area, '0', 'NA', 'NA'])
-    #       continue
-          
-    #     X = infections[fips][start:end] / N
-
-    #     # fraction removed (recovered or dead)
-    #     R = (recovered[fips][start:end] + deaths[fips][start:end]) / N
-
-    #     # fraction of population susceptible
-    #     S = 1 - X - R
-
-    #     # integrate with trapezoidal method
-    #     beta = - (S[-1] - S[0]) / np.trapz(S - X, x=None, dx=1)
-    #     gamma = R[-1] / np.trapz(X, x=None, dx=1)
-
-    #     if np.isnan(beta) or np.isnan(gamma):
-    #       beta = gamma = 'NA'
-
-    #     writer.writerow([fips, state, area, f'{infections[fips][-1]}', f'{beta}', f'{gamma}'])
-    #     print(f'wrote {fips}: N = {N}, beta = {beta}, gamma = {gamma}')
-
+  def make_foot_traffic_data(self):
+    src_filenames = [
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'Grocery_cty_visits.csv'),
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'Healthcare_cty_visits.csv'),
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'Hospitals_cty_visits.csv'),
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'cty_visits.csv')]
+    dst_filenames = [
+      join(self.data_dir, 'foot_traffic', 'grocery_visits.csv'),
+      join(self.data_dir, 'foot_traffic', 'healthcare_visits.csv'),
+      join(self.data_dir, 'foot_traffic', 'hospital_visits.csv'),
+      join(self.data_dir, 'foot_traffic', 'poi_visits.csv')]
+    for src, dst in zip(src_filenames, dst_filenames):
+      self.copy_traffic_file(src, dst)
 
   def filter_data(self):
     """Filter out counties that have few cases
@@ -1049,18 +1037,18 @@ class Formatter():
         to_write.extend(deaths[fips])
         if self._is_state(fips):
           writer.writerow(to_write)
-#        print(f'wrote {fips}')
-
-
+          
   def intervention_to_ordinal(self):
-    t0 = datetime.date(2020, 2, 29).toordinal()
+    # t0 = datetime.date(2020, 2, 29).toordinal()
+
+    months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    months = dict(zip(months, range(1, len(months) + 1)))
     
     def date_to_ordinal(x):
-      
       x = x.split('-')
-      month = int(x[1])
+      month = months[x[1]]
       day = int(x[0])
-      return datetime.date(2020, month, day).toordinal() - t0
+      return datetime.date(2020, month, day).toordinal()
       # if month == 'Mar':
       #   return day
       # elif month == 'Apr':
@@ -1079,21 +1067,22 @@ class Formatter():
         fips = self._get_fips(row[0])
         if fips is None:
           continue
-        data[fips] = np.array(list(map(lambda x: 'NA' if x == '' else date_to_ordinal(x), row[4:])))
+        data[fips] = np.array(list(map(lambda x: 'NA' if x.strip() == '' else date_to_ordinal(x), row[3:])))
 
     filename = join(self.data_dir, 'interventions.csv')
     with open(filename, 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
-      writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'stay at home', '>50 gatherings', '>500 gatherings', 'public schools', 'restaurant dine-in', 'entertainment/gym', 'federal guidelines', 'foreign travel ban'])
+      labels = ['FIPS', 'STATE', 'AREA_NAME', 'stay at home', '>50 gatherings', '>500 gatherings', 'public schools', 'restaurant dine-in', 'entertainment/gym', 'federal guidelines', 'foreign travel ban']
+      writer.writerow(labels)
       
       for fips in self.fips_codes:
         area = self.fips_codes.get(fips, 'NA')
         state = self.fips_to_state.get(fips, 'NA')
         if not (fips in data):
-          writer.writerow([fips, state, area, 'NA', 'NA', 'NA', 'NA', 'NA', 'NA', 'NA', 'NA'])
+          writer.writerow([fips, state, area] + ['NA'] * (len(labels) - 3))
           continue
 
-        writer.writerow([fips, state, area, f'{data[fips][0]}', f'{data[fips][1]}', f'{data[fips][2]}', f'{data[fips][3]}', f'{data[fips][4]}', f'{data[fips][5]}', f'{data[fips][6]}'])
+        writer.writerow([fips, state, area] + [f'{x}' for x in data[fips]])
         print(f'wrote {fips}: {data[fips]}')
 
     return data
@@ -1111,12 +1100,13 @@ def main():
 
   # run
   formatter = Formatter(args)
-  formatter.unify_climate_data() # only run if data files present, see function for which files
+  # formatter.unify_climate_data() # only run if data files present, see function for which files
   formatter.make_national_data()
-  formatter.make_cases_data()
+  # formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
   # formatter.intervention_to_ordinal()
+  # formatter.make_foot_traffic_data()
 
   
 if __name__ == '__main__':

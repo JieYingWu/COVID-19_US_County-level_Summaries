@@ -35,12 +35,12 @@ def create_aligned(input_file, output_file, skiprow=False):
 
 if __name__ == '__main__':
     # for infections
-    input_path = r'..\raw_data\national\USAfacts_infections\covid_confirmed_usafacts.csv'
+    input_path = r'../raw_data/national/USAfacts_infections/covid_confirmed_usafacts.csv'
     output_path = os.path.join(os.path.dirname(input_path), 'covid_confirmed_usafacts_aligned.csv')
 
     create_aligned(input_path, output_path, skiprow=True)
 
-    input_path = r'..\raw_data\national\USAfacts_infections\covid_deaths_usafacts.csv'
+    input_path = r'../raw_data/national/USAfacts_infections/covid_deaths_usafacts.csv'
     output_path = os.path.join(os.path.dirname(input_path), 'covid_deaths_usafacts_aligned.csv')
 
     create_aligned(input_path, output_path, skiprow=False)
