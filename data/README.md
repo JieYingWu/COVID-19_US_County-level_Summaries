@@ -10,8 +10,6 @@
 * `deaths_timeseries.csv` contains analogous information for COVID-19 related deaths.  **Note**
   that the first column in the infections and deaths data corresponds to Jan 22, 2020, or **t =
   737446**.
-* `filtered_cases_and_deaths.csv` contains only counties with a significant number of cases.
-* `filtered_cases_and_deaths.csv` contains info on all fifty states and DC.
 * `interventions.csv` contains the dates that counties (or states governing them) took measures to
   mitigate the spread by restricting gatherings, given as the proleptic Gregorian ordinal of the
   date, where January 1 of year 1 has `t = 1`. This convention is chosen for consistency with the
