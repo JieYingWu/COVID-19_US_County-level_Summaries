@@ -40,10 +40,6 @@ If you find our dataset or code useful, please consider citing our [paper](https
   author = {Killeen, Benjamin D. and Wu, Jie Ying and Shah, Kinjal and Zapaishchykova, Anna and Nikutta, Philipp and Tamhane, Aniruddha and Chakraborty, Shreya and Wei, Jinchi and Gao, Tiger and Thies, Mareike and Unberath, Mathias},
   year = {2020},
   month = apr,
-  archivePrefix = {arXiv},
-  eprint = {2004.00756},
-  eprinttype = {arxiv},
-  journal = {arXiv:2004.00756 [physics, q-bio]},
 }
 ```
 
