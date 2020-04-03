@@ -31,6 +31,22 @@ with a sensible name based on the type of data you are adding.
 * Team at UC Berkeley trying to estimate where ventilators should go: https://yu-group.github.io/covid-19-ventilator-demand-prediction/outline
 * Students at CalTech working on COVID-19 predictions: https://github.com/COVIDmodeling/covid_19_modeling 
 
+## Citation
+
+If you find our dataset or code useful, please consider citing our [paper](https://arxiv.org/abs/2004.00756):
+```latex
+@article{killeenCountylevelDatasetInforming2020,
+  title = {A {{County}}-Level {{Dataset}} for {{Informing}} the {{United States}}' {{Response}} to {{COVID}}-19},
+  author = {Killeen, Benjamin D. and Wu, Jie Ying and Shah, Kinjal and Zapaishchykova, Anna and Nikutta, Philipp and Tamhane, Aniruddha and Chakraborty, Shreya and Wei, Jinchi and Gao, Tiger and Thies, Mareike and Unberath, Mathias},
+  year = {2020},
+  month = apr,
+  archivePrefix = {arXiv},
+  eprint = {2004.00756},
+  eprinttype = {arxiv},
+  journal = {arXiv:2004.00756 [physics, q-bio]},
+}
+```
+
 ## Acknowledgements
 This dataset is the result of a herculean effort by a group of students and faculty at Johns Hopkins University. Special thanks goes to Jie Ying Wu, Benjamin Killeen, Kinjal Shah, Anna Zapaishchykova, Philipp Nikutta, Aniruddha Tamhane, Shreya Chakraborty, Jinchi Wei, Tiger Gao, and Mareike Thies.
 
