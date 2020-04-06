@@ -1110,11 +1110,11 @@ def main():
   formatter = Formatter(args)
   # formatter.unify_climate_data() # only run if data files present, see function for which files
   # formatter.make_national_data()
-  # formatter.make_cases_data()
+  formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
   # formatter.intervention_to_ordinal()
-  formatter.make_out_of_home_activity()
+  # formatter.make_out_of_home_activity()
 
   
 if __name__ == '__main__':
