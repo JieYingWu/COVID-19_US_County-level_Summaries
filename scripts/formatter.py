@@ -950,17 +950,25 @@ class Formatter():
         row[0] = row[0].zfill(5)
         writer.writerow(row)
 
-  def make_foot_traffic_data(self):
+  def make_out_of_home_activity(self):
     src_filenames = [
       join(self.raw_data_dir, 'national', 'SafeGraph', 'Grocery_cty_visits.csv'),
       join(self.raw_data_dir, 'national', 'SafeGraph', 'Healthcare_cty_visits.csv'),
       join(self.raw_data_dir, 'national', 'SafeGraph', 'Hospitals_cty_visits.csv'),
-      join(self.raw_data_dir, 'national', 'SafeGraph', 'cty_visits.csv')]
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'cty_visits.csv'),
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'Alcohol_cty_visits.csv'),
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'Grocery_convenience_cty_visits.csv'),
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'Misc_incl_COSTCO_cty_visits.csv'),
+      join(self.raw_data_dir, 'national', 'SafeGraph', 'Specialty_food_cty_visits.csv')]
     dst_filenames = [
-      join(self.data_dir, 'foot_traffic', 'grocery_visits.csv'),
-      join(self.data_dir, 'foot_traffic', 'healthcare_visits.csv'),
-      join(self.data_dir, 'foot_traffic', 'hospital_visits.csv'),
-      join(self.data_dir, 'foot_traffic', 'poi_visits.csv')]
+      join(self.data_dir, 'out_of_home_activity', 'grocery_visits.csv'),
+      join(self.data_dir, 'out_of_home_activity', 'healthcare_visits.csv'),
+      join(self.data_dir, 'out_of_home_activity', 'hospital_visits.csv'),
+      join(self.data_dir, 'out_of_home_activity', 'poi_visits.csv'),
+      join(self.raw_data_dir, 'out_of_home_activity', 'alcohol_visits.csv'),
+      join(self.raw_data_dir, 'out_of_home_activity', 'grocery_convenience_visits.csv'),
+      join(self.raw_data_dir, 'out_of_home_activity', 'misc_incl_costco_visits.csv'),
+      join(self.raw_data_dir, 'out_of_home_activity', 'specialty_food_visits.csv')]
     for src, dst in zip(src_filenames, dst_filenames):
       self.copy_traffic_file(src, dst)
 
@@ -1101,12 +1109,12 @@ def main():
   # run
   formatter = Formatter(args)
   # formatter.unify_climate_data() # only run if data files present, see function for which files
-  formatter.make_national_data()
-  # formatter.make_cases_data()
+  # formatter.make_national_data()
+  formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
   # formatter.intervention_to_ordinal()
-  # formatter.make_foot_traffic_data()
+  # formatter.make_out_of_home_activity()
 
   
 if __name__ == '__main__':
