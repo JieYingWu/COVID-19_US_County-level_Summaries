@@ -411,14 +411,7 @@ def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=T
             #print("County with FIPS {fips} has {num} days of data".format(fips=fips_list[i], num=final_dict['case']))
             print("County with FIPS {fips} has start date: ".format(fips=fips_list[i]), dict_of_start_dates[i])
 
-    filename1 = 'us_county_start_dates.csv'
-    filename2 = 'us_county_geocode.csv'
-    df_sd = pd.DataFrame(dict_of_start_dates, index=[0])
-    df_geo = pd.DataFrame(dict_of_geo, index=[0])
-    df_sd.to_csv('results/' + filename1, sep=',')
-    df_geo.to_csv('results/' + filename2, sep=',')
-
-    return final_dict, fips_list
+    return final_dict, fips_list, dict_of_start_dates, dict_of_geo
 
 def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=True):
 
@@ -498,15 +491,7 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=True
         for i in range(len(fips_list)):
             print("State with FIPS {fips} has start date: ".format(fips=fips_list[i]), dict_of_start_dates[i])
 
-
-    filename1 = 'us_states_start_dates.csv'
-    filename2 = 'us_states_geocode.csv'
-    df_sd = pd.DataFrame(dict_of_start_dates, index=[0])
-    df_geo = pd.DataFrame(dict_of_geo, index=[0])
-    df_sd.to_csv('results/' + filename1, sep=',')
-    df_geo.to_csv('results/' + filename2, sep=',')
-
-    return final_dict, fips_list
+    return final_dict, fips_list, dict_of_start_dates, dict_of_geo
     
 
 def simple_impute_data(arr):
