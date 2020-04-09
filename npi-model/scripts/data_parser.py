@@ -540,9 +540,9 @@ def advanced_impute_data(arr):
             if i < first[0]:
                 continue
             #Special Case where series is decreasing towards the end
-            if cell == -1 and len(change_list) != 1:
+            if cell == -1 and len(change_list) > 1:
                 first_idx = change_list[0]
-                diff = county[first_idx] -county[first_idx-1]
+                diff = county[first_idx] - county[first_idx-1]
                 new_value = county[first_idx] + diff
 
                 for j, idx in enumerate(change_list[1:], 1):
