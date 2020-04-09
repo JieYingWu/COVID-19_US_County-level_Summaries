@@ -21,7 +21,7 @@ if sys.argv[2] == 'europe':
 
 elif sys.argv[2] == 'US_county':
     num_of_counties = int(sys.argv[3])
-    stan_data, countries = get_stan_parameters_by_county_us(num_of_counties, data_dir, show=False)
+    stan_data, countries, start_date, geocode = get_stan_parameters_by_county_us(num_of_counties, data_dir, show=False)
     weighted_fatalities = np.loadtxt(join(data_dir, 'us_data', 'weighted_fatality.csv'), skiprows=1, delimiter=',', dtype=str)
     ifrs = {}
     for i in range(weighted_fatalities.shape[0]):
@@ -29,7 +29,7 @@ elif sys.argv[2] == 'US_county':
 
 elif sys.argv[2] == 'US_state':
     num_of_states = int(sys.argv[3])
-    stan_data, countries = get_stan_parameters_by_state_us(num_of_states, data_dir, show=False)
+    stan_data, countries, start_date, geocode = get_stan_parameters_by_state_us(num_of_states, data_dir, show=False)
     weighted_fatalities = np.loadtxt(join(data_dir, 'us_data', 'state_weighted_fatality.csv'), skiprows=1, delimiter=',', dtype=str)
     ifrs = {}
     for i in range(weighted_fatalities.shape[0]):
@@ -37,6 +37,7 @@ elif sys.argv[2] == 'US_state':
 
 stan_data['cases'] = stan_data['cases'].astype(np.int)
 stan_data['deaths'] = stan_data['deaths'].astype(np.int)
+
 # print("**********Preprocessing done**********")
 # np.savetxt('cases.csv', stan_data['cases'].astype(int), delimiter=',', fmt='%i')
 # np.savetxt('deaths.csv', stan_data['deaths'].astype(int), delimiter=',', fmt='%i')
@@ -88,7 +89,7 @@ stan_data['f'] = all_f
 # Train the model and generate samples - returns a StanFit4Model
 sm = pystan.StanModel(file='stan-models/base.stan')
 
-fit = sm.sampling(data=stan_data, iter=200, chains=8, warmup=100, thin=4, control={'adapt_delta':0.9, 'max_treedepth':10})
+fit = sm.sampling(data=stan_data, iter=4000, chains=6, warmup=2000, thin=4, control={'adapt_delta':0.9, 'max_treedepth':10})
 # fit = sm.sampling(data=stan_data, iter=2000, chains=4, warmup=10, thin=4, seed=101, control={'adapt_delta':0.9, 'max_treedepth':10})
 
 # All the parameters in the stan model
@@ -111,5 +112,9 @@ df = pd.DataFrame(summary_dict['summary'],
 
 df.to_csv('results/' + sys.argv[2] + '_summary.csv', sep=',')
 
+df_sd = pd.DataFrame(start_dates, index=[0])
+df_geo = pd.DataFrame(geocode, index=[0])
+df_sd.to_csv('results/' + sys.argv[2] + '_start_dates.csv', sep=',')
+df_geo.to_csv('results/' + sys.argv[2] + '_geocode.csv', sep=',')
 ## TODO: Make pretty plots
 # plot_forecasts()
