@@ -297,91 +297,91 @@
 Data presented below was retrieved at state level and projected onto county level. Absolute numbers were projected based on the county to state population proportion. Ratios (e.g. per 100,00 people) or percentages at the state level were assumed to be representative of the county level.
 | Data variable     | Description |
 | ---   | --- |
-|Active Physicians per 100,000 Population, 2018 (AAMC)|Active Physicians per 100,000 Population, 2018 |
-|Total Active Patient Care Physicians per 100,000 Population, 2018 (AAMC)|Total Active Patient Care Physicians per 100,000 Population, 2018 |
-|Active Primary Care Physicians per 100,000 Population, 2018 (AAMC)|Active Primary Care Physicians per 100,000 Population, 2018 |
-|Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (AAMC)|Active Patient Care Primary Care Physicians per 100,000 Population, 2018 |
-|Active General Surgeons per 100,000 Population, 2018 (AAMC)|Active General Surgeons per 100,000 Population, 2018 |
-|Active Patient Care General Surgeons per 100,000 Population, 2018 (AAMC)|Active Patient Care General Surgeons per 100,000 Population, 2018 |
-|Percentage of Active Physicians Who Are Female, 2018 (AAMC)|Percentage of Active Physicians Who Are Female, 2018 |
-|Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (AAMC)|Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 |
-|Percentage of Active Physicians Who Are Age 60 or Older, 2018 (AAMC)|Percentage of Active Physicians Who Are Age 60 or Older, 2018 |
-|MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (AAMC)|MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 |
-|Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (AAMC)|Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 |
-|Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (AAMC)|Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 |
-|Percentage of MD Students Matriculating In-State, AY 2018-2019* (AAMC)|Percentage of MD Students Matriculating In-State, AY 2018-2019 |
-|Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (AAMC)|Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 |
-|Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (AAMC)|Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 |
-|Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (AAMC)|Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 |
-|Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (AAMC)|Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 |
-|Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (AAMC)|Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 |
-|Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (AAMC)|Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 |
-|All Specialties (AAMC)|All Specialties |
-|Allergy & Immunology (AAMC)|Allergy & Immunology |
-|Anatomic/Clinical Pathology (AAMC)|Anatomic/Clinical Pathology |
-|Anesthesiology (AAMC)|Anesthesiology |
-|Cardiovascular Disease (AAMC)|Cardiovascular Disease |
-|Child & Adolescent Psychiatry** (AAMC)|Child & Adolescent Psychiatry** |
-|Critical Care Medicine (AAMC)|Critical Care Medicine |
-|Dermatology (AAMC)|Dermatology |
-|Emergency Medicine (AAMC)|Emergency Medicine |
-|Endocrinology, Diabetes & Metabolism (AAMC)|Endocrinology, Diabetes & Metabolism |
-|Family Medicine/General Practice (AAMC)|Family Medicine/General Practice |
-|Gastroenterology (AAMC)|Gastroenterology |
-|General Surgery (AAMC)|General Surgery |
-|Geriatric Medicine*** (AAMC)|Geriatric Medicine*** |
-|Hematology & Oncology (AAMC)|Hematology & Oncology |
-|Infectious Disease (AAMC)|Infectious Disease |
-|Internal Medicine (AAMC)|Internal Medicine |
-|Internal Medicine/Pediatrics (AAMC)|Internal Medicine/Pediatrics |
-|Interventional Cardiology (AAMC)|Interventional Cardiology |
-|Neonatal-Perinatal Medicine (AAMC)|Neonatal-Perinatal Medicine |
-|Nephrology (AAMC)|Nephrology |
-|Neurological Surgery (AAMC)|Neurological Surgery |
-|Neurology (AAMC)|Neurology |
-|Neuroradiology (AAMC)|Neuroradiology |
-|Obstetrics & Gynecology (AAMC)|Obstetrics & Gynecology |
-|Ophthalmology (AAMC)|Ophthalmology |
-|Orthopedic Surgery (AAMC)|Orthopedic Surgery |
-|Otolaryngology (AAMC)|Otolaryngology |
-|Pain Medicine & Pain Management (AAMC)|Pain Medicine & Pain Management |
-|Pediatrics** (AAMC)|Pediatrics** |
-|Physical Medicine & Rehabilitation (AAMC)|Physical Medicine & Rehabilitation |
-|Plastic Surgery (AAMC)|Plastic Surgery |
-|Preventive Medicine (AAMC)|Preventive Medicine |
-|Psychiatry (AAMC)|Psychiatry |
-|Pulmonary Disease (AAMC)|Pulmonary Disease |
-|Radiation Oncology (AAMC)|Radiation Oncology |
-|Radiology & Diagnostic Radiology (AAMC)|Radiology & Diagnostic Radiology |
-|Rheumatology (AAMC)|Rheumatology |
-|Sports Medicine (AAMC)|Sports Medicine |
-|Thoracic Surgery (AAMC)|Thoracic Surgery |
-|Urology (AAMC)|Urology |
-|Vascular & Interventional Radiology (AAMC)|Vascular & Interventional Radiology |
-|Vascular Surgery (AAMC)|Vascular Surgery |
-|State/Local Government hospital beds per 1000 people (2019)|State/Local Government hospital beds per 1000 people (2019)|
-|Non-profit hospital beds per 1000 people (2019)|Non-profit hospital beds per 1000 people (2019)|
-|For-profit hospital beds per 1000 people (2019)|For-profit hospital beds per 1000 people (2019)|
-|Total hospital beds per 1000 people (2019)|Total hospital beds per 1000 people (2019)|
-|Total nurse practitioners (2019)|Total nurses (2019)|
-|Total physician assistants (2019)|Total physical assistants (2019)|
-|Total Hospitals (2019)|Total Hospitals (2019)|
-|Internal Medicine Primary Care (2019)|Active Internal Medicine Primary Care Physicians (2019)|
-|Family Medicine/General Practice Primary Care (2019)|Active Family Medicine/General Practice Primary Care Physicians (2019)|
-|Pediatrics Primary Care (2019)|Active Pediatrics Primary Care Physicians (2019)|
-|Obstetrics & Gynecology Primary Care (2019)|Active Obstetrics & Gynecology Primary Care Physicians (2019)|
-|Geriatrics Primary Care (2019)|Active Geriatrics Primary Care Physicians (2019)|
-|Total Primary Care specialists (2019)|Sum of Internal Medicine, Family Med/General Practice, Pediatrics, OBGYN, and Geriatrics (2019)|
-|Psychiatry specialists (2019)|Active Psychiatry specialists (2019)|
-|Surgery specialists (2019)|Active Surgery specialists (2019)|
-|Anesthesiology specialists (2019)|Active Anesthesiology specialists (2019)|
-|Emergency Medicine specialists (2019)|Active Emergency Medicine specialists (2019)|
-|Radiology specialists (2019)|Active Radiology specialists (2019)|
-|Cardiology specialists (2019)|Active Cardiology specialists (2019)|
-|Oncology (Cancer) specialists (2019)|Active Oncology (Cancer) specialists (2019)|
+|Active Physicians per 100,000 Population, 2018 (AAMC)|Active Physicians per 100,000 Population, 2018 (Assumed identical to state)|
+|Total Active Patient Care Physicians per 100,000 Population, 2018 (AAMC)|Total Active Patient Care Physicians per 100,000 Population, 2018 (Assumed identical to state)|
+|Active Primary Care Physicians per 100,000 Population, 2018 (AAMC)|Active Primary Care Physicians per 100,000 Population, 2018 (Assumed identical to state)|
+|Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (AAMC)|Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (Assumed identical to state)|
+|Active General Surgeons per 100,000 Population, 2018 (AAMC)|Active General Surgeons per 100,000 Population, 2018 (Assumed identical to state)|
+|Active Patient Care General Surgeons per 100,000 Population, 2018 (AAMC)|Active Patient Care General Surgeons per 100,000 Population, 2018 (Assumed identical to state)|
+|Percentage of Active Physicians Who Are Female, 2018 (AAMC)|Percentage of Active Physicians Who Are Female, 2018 (Assumed identical to state)|
+|Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (AAMC)|Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (Assumed identical to state)|
+|Percentage of Active Physicians Who Are Age 60 or Older, 2018 (AAMC)|Percentage of Active Physicians Who Are Age 60 or Older, 2018 (Assumed identical to state)|
+|MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (AAMC)|MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (Assumed identical to state)|
+|Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (AAMC)|Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (Assumed identical to state)|
+|Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (AAMC)|Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (Assumed identical to state)|
+|Percentage of MD Students Matriculating In-State, AY 2018-2019* (AAMC)|Percentage of MD Students Matriculating In-State, AY 2018-2019 (Assumed identical to state)|
+|Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (AAMC)|Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (Assumed identical to state)|
+|Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (AAMC)|Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (Assumed identical to state)|
+|Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (AAMC)|Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (Assumed identical to state)|
+|Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (AAMC)|Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (Assumed identical to state)|
+|Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (AAMC)|Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (Assumed identical to state)|
+|Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (AAMC)|Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (Assumed identical to state)|
+|All Specialties (AAMC)|All Specialties (Assumed proportion to fraction of state population living in county)|
+|Allergy & Immunology (AAMC)|Allergy & Immunology (Assumed proportion to fraction of state population living in county)|
+|Anatomic/Clinical Pathology (AAMC)|Anatomic/Clinical Pathology (Assumed proportion to fraction of state population living in county)|
+|Anesthesiology (AAMC)|Anesthesiology (Assumed proportion to fraction of state population living in county)|
+|Cardiovascular Disease (AAMC)|Cardiovascular Disease (Assumed proportion to fraction of state population living in county)|
+|Child & Adolescent Psychiatry** (AAMC)|Child & Adolescent Psychiatry** (Assumed proportion to fraction of state population living in county)|
+|Critical Care Medicine (AAMC)|Critical Care Medicine (Assumed proportion to fraction of state population living in county)|
+|Dermatology (AAMC)|Dermatology (Assumed proportion to fraction of state population living in county)|
+|Emergency Medicine (AAMC)|Emergency Medicine (Assumed proportion to fraction of state population living in county)|
+|Endocrinology, Diabetes & Metabolism (AAMC)|Endocrinology, Diabetes & Metabolism (Assumed proportion to fraction of state population living in county)|
+|Family Medicine/General Practice (AAMC)|Family Medicine/General Practice (Assumed proportion to fraction of state population living in county)|
+|Gastroenterology (AAMC)|Gastroenterology (Assumed proportion to fraction of state population living in county)|
+|General Surgery (AAMC)|General Surgery (Assumed proportion to fraction of state population living in county)|
+|Geriatric Medicine*** (AAMC)|Geriatric Medicine*** (Assumed proportion to fraction of state population living in county)|
+|Hematology & Oncology (AAMC)|Hematology & Oncology (Assumed proportion to fraction of state population living in county)|
+|Infectious Disease (AAMC)|Infectious Disease (Assumed proportion to fraction of state population living in county)|
+|Internal Medicine (AAMC)|Internal Medicine (Assumed proportion to fraction of state population living in county)|
+|Internal Medicine/Pediatrics (AAMC)|Internal Medicine/Pediatrics (Assumed proportion to fraction of state population living in county)|
+|Interventional Cardiology (AAMC)|Interventional Cardiology (Assumed proportion to fraction of state population living in county)|
+|Neonatal-Perinatal Medicine (AAMC)|Neonatal-Perinatal Medicine (Assumed proportion to fraction of state population living in county)|
+|Nephrology (AAMC)|Nephrology (Assumed proportion to fraction of state population living in county)|
+|Neurological Surgery (AAMC)|Neurological Surgery (Assumed proportion to fraction of state population living in county)|
+|Neurology (AAMC)|Neurology (Assumed proportion to fraction of state population living in county)|
+|Neuroradiology (AAMC)|Neuroradiology (Assumed proportion to fraction of state population living in county)|
+|Obstetrics & Gynecology (AAMC)|Obstetrics & Gynecology (Assumed proportion to fraction of state population living in county)|
+|Ophthalmology (AAMC)|Ophthalmology (Assumed proportion to fraction of state population living in county)|
+|Orthopedic Surgery (AAMC)|Orthopedic Surgery (Assumed proportion to fraction of state population living in county) |
+|Otolaryngology (AAMC)|Otolaryngology (Assumed proportion to fraction of state population living in county)|
+|Pain Medicine & Pain Management (AAMC)|Pain Medicine & Pain Management (Assumed proportion to fraction of state population living in county)|
+|Pediatrics** (AAMC)|Pediatrics** (Assumed proportion to fraction of state population living in county)|
+|Physical Medicine & Rehabilitation (AAMC)|Physical Medicine & Rehabilitation (Assumed proportion to fraction of state population living in county)|
+|Plastic Surgery (AAMC)|Plastic Surgery (Assumed proportion to fraction of state population living in county)|
+|Preventive Medicine (AAMC)|Preventive Medicine (Assumed proportion to fraction of state population living in county)|
+|Psychiatry (AAMC)|Psychiatry (Assumed proportion to fraction of state population living in county)|
+|Pulmonary Disease (AAMC)|Pulmonary Disease (Assumed proportion to fraction of state population living in county)|
+|Radiation Oncology (AAMC)|Radiation Oncology (Assumed proportion to fraction of state population living in county)|
+|Radiology & Diagnostic Radiology (AAMC)|Radiology & Diagnostic Radiology (Assumed proportion to fraction of state population living in county)|
+|Rheumatology (AAMC)|Rheumatology (Assumed proportion to fraction of state population living in county)|
+|Sports Medicine (AAMC)|Sports Medicine (Assumed proportion to fraction of state population living in county)|
+|Thoracic Surgery (AAMC)|Thoracic Surgery (Assumed proportion to fraction of state population living in county)|
+|Urology (AAMC)|Urology (Assumed proportion to fraction of state population living in county)|
+|Vascular & Interventional Radiology (AAMC)|Vascular & Interventional Radiology (Assumed proportion to fraction of state population living in county)|
+|Vascular Surgery (AAMC)|Vascular Surgery (Assumed proportion to fraction of state population living in county)|
+|State/Local Government hospital beds per 1000 people (2019)|State/Local Government hospital beds per 1000 people (2019) (Assumed identical to state)|
+|Non-profit hospital beds per 1000 people (2019)|Non-profit hospital beds per 1000 people (2019) (Assumed identical to state)|
+|For-profit hospital beds per 1000 people (2019)|For-profit hospital beds per 1000 people (2019) (Assumed identical to state)|
+|Total hospital beds per 1000 people (2019)|Total hospital beds per 1000 people (2019) (Assumed identical to state)|
+|Total nurse practitioners (2019)|Total nurses (2019) (Assumed proportion to fraction of state population living in county)|
+|Total physician assistants (2019)|Total physical assistants (2019) (Assumed proportion to fraction of state population living in county)|
+|Total Hospitals (2019)|Total Hospitals (2019) (Assumed proportion to fraction of state population living in county)|
+|Internal Medicine Primary Care (2019)|Active Internal Medicine Primary Care Physicians (2019) (Assumed proportion to fraction of state population living in county)|
+|Family Medicine/General Practice Primary Care (2019)|Active Family Medicine/General Practice Primary Care Physicians (2019) (Assumed proportion to fraction of state population living in county)|
+|Pediatrics Primary Care (2019)|Active Pediatrics Primary Care Physicians (2019) (Assumed proportion to fraction of state population living in county)|
+|Obstetrics & Gynecology Primary Care (2019)|Active Obstetrics & Gynecology Primary Care Physicians (2019) (Assumed proportion to fraction of state population living in county)|
+|Geriatrics Primary Care (2019)|Active Geriatrics Primary Care Physicians (2019) (Assumed proportion to fraction of state population living in county)|
+|Total Primary Care specialists (2019)|Sum of Internal Medicine, Family Med/General Practice, Pediatrics, OBGYN, and Geriatrics (2019) (Assumed proportion to fraction of state population living in county)|
+|Psychiatry specialists (2019)|Active Psychiatry specialists (2019) (Assumed proportion to fraction of state population living in county)|
+|Surgery specialists (2019)|Active Surgery specialists (2019) (Assumed proportion to fraction of state population living in county)|
+|Anesthesiology specialists (2019)|Active Anesthesiology specialists (2019) (Assumed proportion to fraction of state population living in county)|
+|Emergency Medicine specialists (2019)|Active Emergency Medicine specialists (2019) (Assumed proportion to fraction of state population living in county)|
+|Radiology specialists (2019)|Active Radiology specialists (2019) (Assumed proportion to fraction of state population living in county)|
+|Cardiology specialists (2019)|Active Cardiology specialists (2019) (Assumed proportion to fraction of state population living in county)|
+|Oncology (Cancer) specialists (2019)|Active Oncology (Cancer) specialists (2019) (Assumed proportion to fraction of state population living in county)|
 |Endocrinology, Diabetes, and Metabolism specialists (2019)|Active Endocrinology, Diabetes, and Metabolism specialists (2019)|
-|All Other Specialties specialists (2019)|All Other Specialties specialists (2019)|
-|Total specialists (2019)|Sum of Psychiatry, Surgery, Anesthesiology, Emergency Med, Radiology, Cardiology, Oncology, Endocrinology, and Other specialists (2019)|
+|All Other Specialties specialists (2019)|All Other Specialties specialists (2019) (Assumed proportion to fraction of state population living in county)|
+|Total specialists (2019)|Sum of Psychiatry, Surgery, Anesthesiology, Emergency Med, Radiology, Cardiology, Oncology, Endocrinology, and Other specialists (2019) (Assumed proportion to fraction of state population living in county)|
 |ICU Beds | Number of ICU beds per county|
 \* All physician data includes MDs and DOs
 

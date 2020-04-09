@@ -1,0 +1,8 @@
+Cython
+pandas
+future
+numpy
+pystan
+matplotlib
+seaborn
+statsmodels
