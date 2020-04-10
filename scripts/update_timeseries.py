@@ -1,10 +1,13 @@
 import os 
 import sys
-import csv 
+import csv
+import argparse 
 
 import pandas as pd 
 import numpy as np
 import matplotlib.pyplot as plt
+
+import formatter
 
 def clean_file(path):
     name = path.split('.')[0]
@@ -33,4 +36,17 @@ if __name__ == '__main__':
     deaths_path = 'time_series_covid19_deaths_US.csv'
     clean_file(confirmed_path)
     clean_file(deaths_path)
+
+    os.chdir('../../../')
+    parser = argparse.ArgumentParser(description='data formatter')
+
+    # file settings
+    parser.add_argument('--raw-data-dir', default='./raw_data', help='directory containing raw data')
+    parser.add_argument('--data-dir', default='./data', help='directory to write formatted data to')
+    parser.add_argument('--threshold', default='20', help='threshold for relevant counties')
+        
+    args = parser.parse_args()
+
+    formatter = formatter.Formatter(args)
+    formatter.make_cases_data()
     
