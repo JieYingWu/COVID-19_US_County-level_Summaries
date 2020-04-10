@@ -45,7 +45,7 @@ print(date.month, date.day, date.year)
 11. Traffic score information from the [Center for Neighborhood Technology](https://alltransit.cnt.org/data-download/)
 12. ICU Bed information from [KHN](https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/)
 13. Foot traffic data from [SafeGraph](https://shop.safegraph.com/).
-14. State-level hospitalization and ICU requirements projections from [IHME](https://covid19.healthdata.org/united-states-of-america).
+14. State-level hospitalization and ICU requirements projections from [IHME](http://www.healthdata.org/covid/data-downloads).
 15. COVID-19 related Interventions data from numerous media sources:
     * https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html
     * https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html
