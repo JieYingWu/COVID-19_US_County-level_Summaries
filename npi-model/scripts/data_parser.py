@@ -557,7 +557,7 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=True
             print("State with FIPS {fips} has start date: ".format(fips=fips_list[i]), dict_of_start_dates[i])
 
 
-    return final_dict, fips_list
+    return final_dict, fips_list, dict_of_start_dates, dict_of_geo
     
 
 # if __name__ == '__main__':
