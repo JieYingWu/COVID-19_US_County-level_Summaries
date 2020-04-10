@@ -147,13 +147,6 @@ def get_stan_parameters_europe(data_dir, show):
 
     final_dict = {}
 
-    filename1 = 'europe_start_dates.csv'
-    filename2 = 'europe_geocode.csv'
-    df_sd = pd.DataFrame(dict_of_start_dates, index=[0])
-    df_geo = pd.DataFrame(dict_of_geo, index=[0])
-    df_sd.to_csv('results/' + filename1, sep=',')
-    df_geo.to_csv('results/' + filename2, sep=',')
-
     final_dict['M'] = len(countries)
     final_dict['N0'] = 6
     final_dict['N'] = np.asarray(N_arr).astype(np.int)
@@ -171,7 +164,7 @@ def get_stan_parameters_europe(data_dir, show):
     final_dict['covariate6'] = covariate6
     final_dict['covariate7'] = covariate7
 
-    return final_dict, countries
+    return final_dict, countries, dict_of_start_dates, dict_of_geo
 
 def check_monotonicity(L):
     is_monotonic = np.sum([x<= y for x, y in zip(L, L[1:])])
@@ -182,6 +175,146 @@ def county_monotonicity(df):
     df1 = df1[df1!=(df.shape[1] - 3)]
     idx_row = {}
     return df.iloc[df1.index]['FIPS']
+
+
+def simple_impute_data(arr):
+    """
+    Naive data imputation that does NOT yield a monotonically increasing timeseries
+
+    """
+
+    arr = arr.T
+    for county in arr:
+        for i, cell in enumerate(county[1:], 1):
+            if cell != -1 and county[i + 1] != -1 and cell < county[i - 1]:
+                county[i] = interpolate(county[i - 1], county[i + 1])
+    arr = arr.T
+    return arr
+
+
+def advanced_impute_data(arr):
+    """
+    Make array monotonically increasing by linear interpolation
+    Returns:
+    - Imputed Array
+
+    """
+
+    arr = arr.T
+    for county in arr:
+        change_list = []
+        # get first date of cases/deaths and skip it
+        first = np.nonzero(county)[0]
+        for i, cell in enumerate(county[1:], 1):
+            if i < first[0]:
+                continue
+            # Special Case where series is decreasing towards the end
+            if cell == -1 and len(change_list) != 1:
+                first_idx = change_list[0]
+                diff = county[first_idx] - county[first_idx - 1]
+                new_value = county[first_idx] + diff
+
+                for j, idx in enumerate(change_list[1:], 1):
+                    new_value += diff
+                    county[idx] = new_value
+                break
+
+            if cell != -1 and county[i + 1] != -1 and change_list == []:
+                change_list.append(i)
+
+            if i not in change_list:
+                change_list.append(i)
+            if cell > county[change_list[0]]:
+                if len(change_list) >= 3:
+                    # cut first and last value of change list
+                    first_, *change_list, last_ = change_list
+                    county[change_list[0]:change_list[-1] + 1] = interpolate(change_list,
+                                                                             county[first_],
+                                                                             county[last_])
+                    change_list = [last_]
+    arr = arr.T
+    return arr
+
+def impute(df):
+    """
+    Impute the dataframe directly via linear interpolation
+
+    Arguments:
+    - df : pandas DataFrame
+
+    Returns:
+    - imputes pandas DataFrame
+
+    """
+    FIPS_EXISTS = False
+    COMBINED_KEY_EXISTS = False
+    if 'FIPS' in df:
+        fips = df['FIPS']
+        fips = fips.reset_index(drop=True)
+        df = df.drop('FIPS', axis=1)
+        FIPS_EXISTS = True
+    if 'Combined_Key' in df:
+        combined_key = df ['Combined_Key']
+        combined_key = combined_key.reset_index(drop=True)
+        df = df.drop('Combined_Key', axis=1)
+        COMBINED_KEY_EXISTS = True
+
+    header = df.columns.values
+    df = df.to_numpy()
+    
+    for county in df:
+        change_list = []
+        # get first date of cases/deaths and skip it
+        first = np.nonzero(county)[0]
+        if len(first) == 0:
+            continue
+        change_list.append(first[0])
+        for i, cell in enumerate(county[1:], 1):
+            if i < first[0]:
+                continue
+
+            if i not in change_list:
+                change_list.append(i)
+
+            # Special Case where series is decreasing towards the end
+            if i == (len(county)-1) and len(change_list) > 1:
+                first_idx = change_list[0]
+                diff = county[first_idx] - county[first_idx - 1]
+                new_value = county[first_idx] + diff
+
+                for j, idx in enumerate(change_list[1:], 1):
+                    county[idx] = new_value
+                    new_value += diff
+                break
+
+            if cell > county[change_list[0]]:
+                if len(change_list) >= 3:
+                    # cut first and last value of change list
+                    first_, *change_list, last_ = change_list
+                    county[change_list[0]:change_list[-1] + 1] = interpolate(change_list,
+                                                                             county[first_],
+                                                                             county[last_]) 
+                    change_list = [last_]
+                else:
+                    change_list = [change_list[-1]]
+    df = pd.DataFrame(df, columns=header)
+    if COMBINED_KEY_EXISTS:
+        df = pd.concat([combined_key, df], axis=1)
+    if FIPS_EXISTS:
+        df = pd.concat([fips, df], axis=1)
+    return df
+
+def interpolate(change_list, lower, upper):
+    """
+    Interpolate values with length ofchange_list between two given values lower and upper
+
+    """
+
+    x = np.arange(1, len(change_list) + 1)
+    xp = np.array([0, len(change_list) + 1])
+    fp = np.array([lower, upper])
+    interpolated_values = np.interp(x, xp, fp)
+    return np.ceil(interpolated_values)
 
 def preprocessing_us_data(data_dir):
     """"
@@ -221,6 +354,28 @@ def preprocessing_us_data(data_dir):
     df_deaths.iloc[:, 2:] = df_deaths.iloc[:, 2:].apply(get_daily_counts, axis=1)
 
     return df_cases, df_deaths, interventions
+
+def filter_negative_counts(df_cases, df_deaths, idx):
+    """"
+    Returns:
+        df_cases: Infections time series with no negative values
+        df_deaths: Deaths time series with no negative values
+    """
+    ## drop if daily count negative
+    sanity_check = df_cases.iloc[:, idx:].apply(lambda x: np.sum(x < 0), axis=1)
+    drop_counties = sanity_check[sanity_check != 0].index
+    df_cases = df_cases.drop(drop_counties)
+
+    sanity_check2 = df_deaths.iloc[:, idx:].apply(lambda x: np.sum(x < 0), axis=1)
+    drop_counties = sanity_check2[sanity_check2 != 0].index
+    df_deaths = df_deaths.drop(drop_counties)
+
+    ## filter only the FIPS that are present in both cases and deaths timeseries
+    intersect = list(set(df_cases['FIPS']) & set(df_deaths['FIPS']))
+    df_cases = df_cases[df_cases['FIPS'].isin(intersect)]
+    df_deaths = df_deaths[df_deaths['FIPS'].isin(intersect)]
+
+    return df_cases, df_deaths
 
 def filtering(df_cases, df_deaths, interventions, num_counties):
     """"
@@ -335,10 +490,7 @@ def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_
     deaths = np.array(deaths).T
     #print(np.sum(cases<-1))
     #print(np.sum(deaths<-1))
-    
-    if interpolate:
-        deaths = advanced_impute_data(deaths)
-        cases = advanced_impute_data(cases)
+
 
     final_dict = {}
     final_dict['N0'] = 6
@@ -358,26 +510,19 @@ def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_
 
     return dict_of_start_dates, final_dict
 
-def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=True):
+def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=False, filter=False):
 
     df_cases, df_deaths, interventions = preprocessing_us_data(data_dir)
 
     ## select counties
     interventions = interventions[interventions['FIPS'] % 1000 != 0]
 
-    ## drop if daily count negative
-    sanity_check = df_cases.iloc[:, 2:].apply(lambda x: np.sum(x < 0), axis=1)
-    drop_counties = sanity_check[sanity_check != 0].index
-    df_cases = df_cases.drop(drop_counties)
+    if interpolate:
+        df_cases = impute(df_cases)
+        df_deaths = impute(df_deaths)
 
-    sanity_check2 = df_deaths.iloc[:, 2:].apply(lambda x: np.sum(x < 0), axis=1)
-    drop_counties = sanity_check2[sanity_check2 != 0].index
-    df_deaths = df_deaths.drop(drop_counties)
-
-    ## filter only the FIPS that are present in both cases and deaths timeseries
-    intersect = list(set(df_cases['FIPS']) & set(df_deaths['FIPS']))
-    df_cases = df_cases[df_cases['FIPS'].isin(intersect)]
-    df_deaths = df_deaths[df_deaths['FIPS'].isin(intersect)]
+    if filter:
+        df_cases, df_deaths = filter_negative_counts(df_cases, df_deaths, idx=2)
 
     df_cases, df_deaths, interventions, fips_list = filtering(df_cases, df_deaths, interventions, num_counties)
 
@@ -411,16 +556,9 @@ def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=T
             #print("County with FIPS {fips} has {num} days of data".format(fips=fips_list[i], num=final_dict['case']))
             print("County with FIPS {fips} has start date: ".format(fips=fips_list[i]), dict_of_start_dates[i])
 
-    filename1 = 'us_county_start_dates.csv'
-    filename2 = 'us_county_geocode.csv'
-    df_sd = pd.DataFrame(dict_of_start_dates, index=[0])
-    df_geo = pd.DataFrame(dict_of_geo, index=[0])
-    df_sd.to_csv('results/' + filename1, sep=',')
-    df_geo.to_csv('results/' + filename2, sep=',')
+    return final_dict, fips_list, dict_of_start_dates, dict_of_geo
 
-    return final_dict, fips_list
-
-def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=True):
+def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=False, filter=False):
 
     df_cases, df_deaths, interventions = preprocessing_us_data(data_dir)
 
@@ -452,19 +590,12 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=True
     state_cases.insert(0, 'FIPS', state_cases.index)
     state_deaths.insert(0, 'FIPS', state_deaths.index)
 
-    ## drop if daily count negative
-    sanity_check = state_cases.iloc[:, 1:].apply(lambda x: np.sum(x < 0), axis=1)
-    drop_states = sanity_check[sanity_check != 0].index
-    state_cases = state_cases.drop(drop_states)
+    if interpolate:
+        state_cases = impute(state_cases)
+        state_deaths = impute(state_deaths)
 
-    sanity_check2 = state_deaths.iloc[:, 1:].apply(lambda x: np.sum(x < 0), axis=1)
-    drop_states = sanity_check2[sanity_check2 != 0].index
-    state_deaths = state_deaths.drop(drop_states)
-
-    ## filter only the FIPS that are present in both cases and deaths timeseries
-    intersect = list(set(state_cases['FIPS']) & set(state_deaths['FIPS']))
-    state_cases = state_cases[state_cases['FIPS'].isin(intersect)]
-    state_deaths = state_deaths[state_deaths['FIPS'].isin(intersect)]
+    if filter:
+        state_cases, state_deaths = filter_negative_counts(state_cases, state_deaths, idx=1)
 
     state_cases, state_deaths, state_interventions, fips_list \
         = filtering(state_cases, state_deaths, state_interventions, num_states)
@@ -499,94 +630,17 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=True
             print("State with FIPS {fips} has start date: ".format(fips=fips_list[i]), dict_of_start_dates[i])
 
 
-    filename1 = 'us_states_start_dates.csv'
-    filename2 = 'us_states_geocode.csv'
-    df_sd = pd.DataFrame(dict_of_start_dates, index=[0])
-    df_geo = pd.DataFrame(dict_of_geo, index=[0])
-    df_sd.to_csv('results/' + filename1, sep=',')
-    df_geo.to_csv('results/' + filename2, sep=',')
-
-    return final_dict, fips_list
+    return final_dict, fips_list, dict_of_start_dates, dict_of_geo
     
 
-def simple_impute_data(arr):
-    """
-    Naive data imputation that does NOT yield a monotonically increasing timeseries
-
-    """
-
-    arr = arr.T 
-    for county in arr:
-        for i, cell in enumerate(county[1:], 1):
-            if cell != -1 and county[i+1] != -1 and cell < county[i-1]:
-                county[i] = interpolate(county[i-1], county[i+1])
-    arr = arr.T
-    return arr
-
-def advanced_impute_data(arr):
-    """
-    Make array monotonically increasing by linear interpolation
-    Returns:
-    - Imputed Array
-
-    """
-
-    arr = arr.T 
-    for county in arr:
-        change_list = []
-        #get first date of cases/deaths and skip it
-        first = np.nonzero(county)[0]
-        for i, cell in enumerate(county[1:], 1):
-            if i < first[0]:
-                continue
-            #Special Case where series is decreasing towards the end
-            if cell == -1 and len(change_list) > 1:
-                first_idx = change_list[0]
-                diff = county[first_idx] - county[first_idx-1]
-                new_value = county[first_idx] + diff
-
-                for j, idx in enumerate(change_list[1:], 1):
-                    new_value += diff
-                    county[idx] = new_value
-                break
-
-            if cell != -1 and county[i+1] != -1 and change_list == []:
-                change_list.append(i)
-
-            if i not in change_list:
-                    change_list.append(i)
-            if cell > county[change_list[0]]:
-                if len(change_list) >= 3:
-                    #cut first and last value of change list  
-                    first_, *change_list, last_ = change_list
-                    county[change_list[0]:change_list[-1]+1] = interpolate(change_list, 
-                                                                            county[first_],
-                                                                            county[last_])
-                    change_list = [last_]
-    arr = arr.T
-    return arr
-
-def interpolate(change_list, lower, upper):
-    """
-    Interpolate values with length ofchange_list between two given values lower and upper
-
-    """
-    
-    x = np.arange(1, len(change_list)+1)
-    xp = np.array([0, len(change_list)+1])
-    fp = np.array([lower, upper])
-    interpolated_values = np.interp(x, xp, fp)
-    return np.ceil(interpolated_values)
-
-if __name__ == '__main__':
-    path = 'data/us_data/infections_timeseries.csv'
-    data_dir = 'data'
+# if __name__ == '__main__':
+#     data_dir = 'data'
 #     ## Europe data
 #     get_stan_parameters_europe(data_dir, show=True)
 #     print("***********************")
 #     ## US data
-    get_stan_parameters_by_state_us(5, data_dir, show=False, interpolate=True)
+#     get_stan_parameters_by_state_us(data_dir=data_dir, show=True, interpolate=True, filter = False, num_states = 5)
 #     print("***********************")
-    get_stan_parameters_by_county_us(5, data_dir, show=True, interpolate=True)
+#     get_stan_parameters_by_county_us(data_dir=data_dir, show=True, interpolate=True, filter = False, num_counties = 5)
 
 
