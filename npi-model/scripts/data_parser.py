@@ -443,7 +443,7 @@ def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_
     final_dict['covariate6'] = covariate6
     final_dict['covariate7'] = covariate7
 
-    return final_dict, dict_of_start_dates, dict_of_start_dates, dict_of_geo
+    return dict_of_start_dates, final_dict
 
 def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=True, filter=False):
 
