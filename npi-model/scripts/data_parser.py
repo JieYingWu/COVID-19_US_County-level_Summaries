@@ -235,6 +235,72 @@ def advanced_impute_data(arr):
     arr = arr.T
     return arr
 
+def impute(df):
+    """
+    Impute the dataframe directly via linear interpolation
+
+    Arguments:
+    - df : pandas DataFrame
+
+    Returns:
+    - imputes pandas DataFrame
+
+    """
+    if 'FIPS' in df:
+        fips = df['FIPS']
+        fips = fips.reset_index(drop=True)
+        df = df.drop('FIPS', axis=1)
+        FIPS_EXISTS = True
+    if 'Combined_Key' in df:
+        combined_key = df ['Combined_Key']
+        combined_key = combined_key.reset_index(drop=True)
+        df = df.drop('Combined_Key', axis=1)
+        COMBINED_KEY_EXISTS = True
+
+    header = df.columns.values
+    df = df.to_numpy()
+    
+    for county in df:
+        change_list = []
+        # get first date of cases/deaths and skip it
+        first = np.nonzero(county)[0]
+        if len(first) == 0:
+            continue
+        change_list.append(first[0])
+        for i, cell in enumerate(county[1:], 1):
+            if i < first[0]:
+                continue
+
+            if i not in change_list:
+                change_list.append(i)
+
+            # Special Case where series is decreasing towards the end
+            if i == (len(county)-1) and len(change_list) > 1:
+                first_idx = change_list[0]
+                diff = county[first_idx] - county[first_idx - 1]
+                new_value = county[first_idx] + diff
+
+                for j, idx in enumerate(change_list[1:], 1):
+                    county[idx] = new_value
+                    new_value += diff
+                break
+
+            if cell > county[change_list[0]]:
+                if len(change_list) >= 3:
+                    # cut first and last value of change list
+                    first_, *change_list, last_ = change_list
+                    county[change_list[0]:change_list[-1] + 1] = interpolate(change_list,
+                                                                             county[first_],
+                                                                             county[last_]) 
+                    change_list = [last_]
+                else:
+                    change_list = [change_list[-1]]
+    df = pd.DataFrame(df, columns=header)
+    if COMBINED_KEY_EXISTS:
+        df = pd.concat([combined_key, df], axis=1)
+    if FIPS_EXISTS:
+        df = pd.concat([fips, df], axis=1)
+    return df
 
 def interpolate(change_list, lower, upper):
     """
@@ -423,9 +489,6 @@ def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_
     #print(np.sum(cases<-1))
     #print(np.sum(deaths<-1))
 
-    if interpolate:
-        deaths = advanced_impute_data(deaths)
-        cases = advanced_impute_data(cases)
 
     final_dict = {}
     final_dict['N0'] = 6
@@ -445,12 +508,16 @@ def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_
 
     return dict_of_start_dates, final_dict
 
-def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=True, filter=False):
+def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=False, filter=False):
 
     df_cases, df_deaths, interventions = preprocessing_us_data(data_dir)
 
     ## select counties
     interventions = interventions[interventions['FIPS'] % 1000 != 0]
+
+    if interpolate:
+        df_cases = impute(df_cases)
+        df_deaths = impute(df_deaths)
 
     if filter:
         df_cases, df_deaths = filter_negative_counts(df_cases, df_deaths, idx=2)
@@ -489,7 +556,7 @@ def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=T
 
     return final_dict, fips_list, dict_of_start_dates, dict_of_geo
 
-def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=True, filter=False):
+def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=False, filter=False):
 
     df_cases, df_deaths, interventions = preprocessing_us_data(data_dir)
 
@@ -520,6 +587,10 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=True
         state_deaths.loc[i * 1000, :] = county_death_int.sum(axis=0)
     state_cases.insert(0, 'FIPS', state_cases.index)
     state_deaths.insert(0, 'FIPS', state_deaths.index)
+
+    if interpolate:
+        state_cases = impute(state_cases)
+        state_deaths = impute(state_deaths)
 
     if filter:
         state_cases, state_deaths = filter_negative_counts(state_cases, state_deaths, idx=1)
