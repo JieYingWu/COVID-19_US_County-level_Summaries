@@ -13,7 +13,7 @@ assert len(sys.argv) < 5
 # Compile the model
 data_dir = sys.argv[1]
 if sys.argv[2] == 'europe':
-    stan_data, countries = get_stan_parameters_europe(data_dir, show=False)
+    stan_data, countries, start_date, geocode = get_stan_parameters_europe(data_dir, show=False)
     weighted_fatalities = np.loadtxt(join(data_dir, 'europe_data', 'weighted_fatality.csv'), skiprows=1, delimiter=',', dtype=str)
     ifrs = {}
     for i in range(weighted_fatalities.shape[0]):
