@@ -58,4 +58,4 @@ for county_number, state, start_date in zip(county_numbers, fips_list, start_dat
     data = Rt_data['mean'][:num_days].values
     plotting_data.loc[plotting_data.index[plotting_data['FIPS'] == state], time_data] = data
 
-plotting_data.to_csv(r'data\us_data\Dt_data_states.csv', na_rep='NA', index=False)
+plotting_data.to_csv(r'data\us_data\Rt_data_states.csv', na_rep='NA', index=False)
