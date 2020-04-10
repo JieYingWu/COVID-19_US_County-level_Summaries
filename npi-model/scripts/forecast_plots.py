@@ -193,8 +193,8 @@ def read_true_cases_us(plot_choice, num_of_country, dict_of_start_dates, dict_of
 
 # create a batch of all possible plots for usa
 def make_all_us_county_plots():
-    dict_of_start_dates = pd.read_csv('../results/us_county_start_dates.csv', delimiter=',', index_col=0)
-    dict_of_eu_geog = pd.read_csv('../results/us_county_geocode.csv', delimiter=',', index_col=0)
+    dict_of_start_dates = pd.read_csv('../results/US_county_start_dates.csv', delimiter=',', index_col=0)
+    dict_of_eu_geog = pd.read_csv('../results/US_county_geocode.csv', delimiter=',', index_col=0)
     path = "../results/US_county_summary.csv"
 
     for plot_choice in range(0, 2):
@@ -208,8 +208,8 @@ def make_all_us_county_plots():
 
 # create a batch of all possible plots for usa
 def make_all_us_states_plots():
-    dict_of_start_dates = pd.read_csv('../results/us_states_start_dates.csv', delimiter=',', index_col=0)
-    dict_of_eu_geog = pd.read_csv('../results/us_states_geocode.csv', delimiter=',', index_col=0)
+    dict_of_start_dates = pd.read_csv('../results/US_state_start_dates.csv', delimiter=',', index_col=0)
+    dict_of_eu_geog = pd.read_csv('../results/US_state_geocode.csv', delimiter=',', index_col=0)
     path = "../results/US_state_summary.csv"
 
     for plot_choice in range(0, 2):
