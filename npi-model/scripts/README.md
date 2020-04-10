@@ -30,6 +30,6 @@ for larger numbers, we consider only places with numbers high enough for our ana
 ## Plotting
 
 There are different scripts to create plots from the model's output data.
-- plot_rt.py: Creates plots of the varying reproduction number over time. The main function has three parts for europe, US county level and US state level plotting respectively. Images can be saved by setting the optional argument save_img to True.
+- plot_rt.py: Creates plots of the varying reproduction number over time (see plots in subfolders with ending 'intervention'). The main function has three parts for europe, US county level and US state level plotting respectively. Images can be saved by setting the optional argument save_img to True.
 - forecast_plots.py
 - make_state_plots.py
