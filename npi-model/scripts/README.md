@@ -16,6 +16,7 @@ the cumulative sum of deaths exceeds 10. This keeps the windows open to account 
 that is known to start at least 14 days earlier.
 
 ## To run
+
 To run the data_parser in itself, uncomment lines 581-589 and call `python scripts/data_parser.py` 
 from the base directory. To change the time period considered for analysis, change the value of `N2`. Currently,
 it is taken to be 75 (for Europe data) and 100 (for US data). You can change the number of counties/states considered
@@ -26,4 +27,9 @@ by changing the parameters `num_counties` and `num_states`.
 - Since the number of infections/deaths across certain counties/states are low, and the model is known to work mostly
 for larger numbers, we consider only places with numbers high enough for our analysis.
 
+## Plotting
 
+There are different scripts to create plots from the model's output data.
+- plot_rt.py: Creates plots of the varying reproduction number over time (see plots in subfolders with ending 'intervention'). The main function has three parts for europe, US county level and US state level plotting respectively. Images can be saved by setting the optional argument save_img to True.
+- forecast_plots.py
+- make_state_plots.py
