@@ -1,8 +1,8 @@
-
 from os.path import join
 import sys
 import numpy as np
-from data_parser import get_stan_parameters_europe, get_stan_parameters_by_state_us, get_stan_parameters_by_county_us
+from data_parser import get_stan_parameters_by_state_us, get_stan_parameters_by_county_us
+from data_parser_europe import get_stan_parameters_europe
 import pystan
 import pandas as pd
 from statsmodels.distributions.empirical_distribution import ECDF
@@ -13,7 +13,7 @@ assert len(sys.argv) < 5
 # Compile the model
 data_dir = sys.argv[1]
 if sys.argv[2] == 'europe':
-    stan_data, countries, start_date, geocode = get_stan_parameters_europe(data_dir, show=False, interpolate=True)
+    stan_data, countries, start_date, geocode = get_stan_parameters_europe(data_dir, show=False)
     weighted_fatalities = np.loadtxt(join(data_dir, 'europe_data', 'weighted_fatality.csv'), skiprows=1, delimiter=',', dtype=str)
     ifrs = {}
     for i in range(weighted_fatalities.shape[0]):
