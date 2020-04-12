@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import datetime
+from data_parser import impute
 
 # change here variables for different plotting options
 plot_settings = 'usa'  # choose 'eu' for europe and 'usa' for usa plots
@@ -172,7 +173,11 @@ def read_true_cases_us(plot_choice, num_of_country, dict_of_start_dates, dict_of
         #filepath = "../data/us_data/deaths_timeseries.csv"
         filepath = "../data/us_data/deaths_timeseries_w_states.csv"
 
-    df = pd.read_csv(filepath, delimiter=',', index_col=0)
+    df = pd.read_csv(filepath, delimiter=',')#, index_col=0)
+    # interpolate
+    df = impute(df)
+    df = df.set_index('FIPS')
+
     fips = int(dict_of_eu_geog[num_of_country].values)
 
     confirmed_start_date = datetime.datetime.strptime(start_day_of_confirmed, '%m/%d/%y')
