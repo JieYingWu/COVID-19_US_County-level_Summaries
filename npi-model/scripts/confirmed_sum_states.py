@@ -44,5 +44,6 @@ def main():
     filepath_to = "../data/us_data/deaths_timeseries_w_states.csv"
     compute_sums(filepath_from, filepath_to,'deaths')
 
+
 if __name__ == '__main__':
     main()
