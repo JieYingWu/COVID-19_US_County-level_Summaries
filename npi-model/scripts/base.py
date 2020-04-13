@@ -1,7 +1,7 @@
 from os.path import join
 import sys
 import numpy as np
-from data_parser import get_data_state, get_data_us
+from data_parser import get_data_state, get_data_county
 from data_parser_europe import get_data_europe
 import pystan
 import pandas as pd
@@ -15,7 +15,6 @@ if sys.argv[2] == 'europe':
     stan_data, regions, start_date, geocode = get_data_europe(data_dir, show=False)
     weighted_fatalities = np.loadtxt(join(data_dir, 'europe_data', 'weighted_fatality.csv'), skiprows=1, delimiter=',', dtype=str)
 
-
 elif sys.argv[2] == 'US_county':
     M = int(sys.argv[3])
     stan_data, regions, start_date, geocode = get_data_county(M, data_dir, interpolate=True)
@@ -28,11 +27,10 @@ elif sys.argv[2] == 'US_state':
     wf_file = join(data_dir, 'us_data', 'state_weighted_fatality.csv')
     weighted_fatalities = np.loadtxt(wf_file, skiprows=1, delimiter=',', dtype=str)
 
-
 # Build a dictionary of region identifier to weighted fatality rate
 ifrs = {}
 for i in range(weighted_fatalities.shape[0]):
-    ifrs[weighted_fatalities[i,1]] = float(weighted_fatalities[i,-1])
+    ifrs[weighted_fatalities[i,0]] = weighted_fatalities[i,-1]
 stan_data['cases'] = stan_data['cases'].astype(np.int)
 stan_data['deaths'] = stan_data['deaths'].astype(np.int)
 
