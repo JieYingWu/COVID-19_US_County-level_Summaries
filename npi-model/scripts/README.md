@@ -2,7 +2,17 @@
 
 Since the timeseries data obtained from USA on the county level have certain inconsistencies, 
 we tried several imputation techniques such as
-- Interpolation
+- Interpolation:
+    Our main goal is to keep the daily number of cases and deaths either constant or increasing. 
+    There are two cases to consider:
+    1. The daily cases7deaths are dropping but at some point in the timeseries there is a point where the number is higher than the last valid count. All the values inbetween them are linearly interpolated.
+    Example:
+    Original timeseries: `..., 1, 3, 6, 4, 5, 11, ...`
+    Interpolated:        `..., 1, 3, 6, 8, 10, 11, ...` (When we encounter decimals, we round up)
+    2. The count is dropping until the end of the timeseries. For extrapolation we take the difference between the last two valid counts and use this as the difference between the last valid count and the next invalid count. This countinues until the end of the timeseries.
+    Example: 
+    Original timeseries: `..., 35, 47, 63, 52, 50, 43`
+    Interpolated:        `..., 35, 47, 63, 79, 95, 111` 
 
 If using the original data, we include checks to ensure that daily counts do not drop to 0,
 and discard the counties/states for which they do.

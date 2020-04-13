@@ -248,6 +248,7 @@ def impute(df):
     """
     FIPS_EXISTS = False
     COMBINED_KEY_EXISTS = False
+    
     if 'FIPS' in df:
         fips = df['FIPS']
         fips = fips.reset_index(drop=True)
