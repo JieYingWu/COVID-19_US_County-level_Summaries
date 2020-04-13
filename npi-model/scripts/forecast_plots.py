@@ -174,8 +174,18 @@ def read_true_cases_us(plot_choice, num_of_country, dict_of_start_dates, dict_of
         filepath = "../data/us_data/deaths_timeseries_w_states.csv"
 
     df = pd.read_csv(filepath, delimiter=',')#, index_col=0)
+
+    # get rid of cummulative
+    col_names = df.columns.values[3:]
+    new_df = pd.DataFrame()
+    new_df['FIPS'] = df['FIPS']
+    new_df['Combined_Key'] = df['Combined_Key']
+    new_df[df.columns.values[2]] = df[df.columns.values[2]]
+    for i in range(0, len(col_names)):
+        new_df[col_names[i]] = df[col_names[i]] - df[col_names[i-1]]
+
     # interpolate
-    df = impute(df)
+    df = impute(new_df)
     df = df.set_index('FIPS')
 
     fips = int(dict_of_eu_geog[num_of_country].values)
@@ -188,12 +198,12 @@ def read_true_cases_us(plot_choice, num_of_country, dict_of_start_dates, dict_of
     diff = (forecast_start_date - confirmed_start_date).days + 1  # since it also has a name skip it
 
     confirmed_cases = list(df.loc[fips][diff:])
-    sustracted_confirmed_cases = [confirmed_cases[0]]
+    #sustracted_confirmed_cases = [confirmed_cases[0]]
     # since us data is cummulative
-    for i in range(1, len(confirmed_cases)):
-        sustracted_confirmed_cases.append(confirmed_cases[i]-confirmed_cases[i-1])
+    #for i in range(1, len(confirmed_cases)):
+    #    sustracted_confirmed_cases.append(confirmed_cases[i]-confirmed_cases[i-1])
     county_name = df.loc[fips][0]
-    return sustracted_confirmed_cases, county_name
+    return confirmed_cases, county_name #sustracted_confirmed_cases, county_name
 
 
 # create a batch of all possible plots for usa
