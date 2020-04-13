@@ -191,7 +191,7 @@ def primary_calculations(df_cases, df_deaths, covariates, df_cases_dates, fips_l
         covariate6.append(covariates2[:, 5])  # entertainment/gym
         covariate7.append(covariates2[:, 6])  # federal guidelines
         covariate8.append(covariates2[:, 7])  # federal guidelines
-
+        
     covariate1 = np.array(covariate1).T
     covariate2 = np.array(covariate2).T
     covariate3 = np.array(covariate3).T
@@ -224,7 +224,9 @@ def primary_calculations(df_cases, df_deaths, covariates, df_cases_dates, fips_l
     final_dict['covariate6'] = covariate6
     final_dict['covariate7'] = covariate7
     final_dict['covariate8'] = covariate8
-
+    
+    ## New covariate for foot traffic data
+    
     return dict_of_start_dates, final_dict
 
 
