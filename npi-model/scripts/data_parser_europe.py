@@ -7,7 +7,7 @@ from os.path import join, exists
 
 pd.set_option('mode.chained_assignment', None)
 
-def get_stan_parameters_europe(data_dir, show):
+def get_data_europe(data_dir, show):
     """
     Returns in a dict:
     M; // number of countries

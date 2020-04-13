@@ -8,7 +8,7 @@ from data_preprocess import *
 
 pd.set_option('mode.chained_assignment', None)
 
-def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=False, filter=False):
+def get_data_county(num_counties, data_dir, show=False, interpolate=False, filter_data=False):
 
     df_cases, df_deaths, interventions = preprocessing_us_data(data_dir)
 
@@ -19,7 +19,7 @@ def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=F
         df_cases = impute(df_cases)
         df_deaths = impute(df_deaths)
 
-    if filter:
+    if filter_data:
         df_cases, df_deaths = filter_negative_counts(df_cases, df_deaths, idx=2)
 
     df_cases, df_deaths, interventions, fips_list = filtering(df_cases, df_deaths, interventions, num_counties)
@@ -41,9 +41,9 @@ def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=F
 
     interventions.drop(['merge', 'FIPS', 'STATE', 'AREA_NAME'], axis=1, inplace=True)
     interventions_colnames = interventions.columns.values
-    covariates1 = interventions.to_numpy()
+    covariates = interventions.to_numpy()
 
-    dict_of_start_dates, final_dict = primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_list)
+    dict_of_start_dates, final_dict = primary_calculations(df_cases, df_deaths, covariates, df_cases_dates, fips_list)
     
     if show:
         for i in range(len(fips_list)):
@@ -51,7 +51,7 @@ def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=F
 
     return final_dict, fips_list, dict_of_start_dates, dict_of_geo
 
-def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=False, filter=False):
+def get_data_state_us(num_states, data_dir, show, interpolate=False, filter_data=False):
 
     df_cases, df_deaths, interventions = preprocessing_us_data(data_dir)
 
@@ -87,7 +87,7 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=Fals
         state_cases = impute(state_cases)
         state_deaths = impute(state_deaths)
 
-    if filter:
+    if filter_data:
         state_cases, state_deaths = filter_negative_counts(state_cases, state_deaths, idx=1)
 
     state_cases, state_deaths, state_interventions, fips_list \
@@ -109,10 +109,10 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=Fals
 
     state_interventions.drop(['merge', 'FIPS'], axis=1, inplace=True)
     state_interventions_colnames = state_interventions.columns.values
-    covariates1 = state_interventions.to_numpy()
+    covariates = state_interventions.to_numpy()
 
     dict_of_start_dates, final_dict = primary_calculations(state_cases, state_deaths,
-                                                           covariates1, state_cases_dates, fips_list)
+                                                           covariates, state_cases_dates, fips_list)
     
     if show:
         for i in range(len(fips_list)):
@@ -121,7 +121,7 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=Fals
 
     return final_dict, fips_list, dict_of_start_dates, dict_of_geo
 
-def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_list, interpolate=True):
+def primary_calculations(df_cases, df_deaths, covariates, df_cases_dates, fips_list, interpolate=True):
     """"
     Returns:
         final_dict: Stan_data used to feed main sampler
@@ -159,8 +159,8 @@ def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_
         req_dates = np.array([dt.datetime.strptime(x, '%m/%d/%y').date() for x in req_dates])
 
         ### check if interventions were in place start date onwards
-        for col in range(covariates1.shape[1]):
-            covariates2.append(np.where(req_dates >= covariates1[i, col], 1, 0))
+        for col in range(covariates.shape[1]):
+            covariates2.append(np.where(req_dates >= covariates[i, col], 1, 0))
         covariates2 = np.array(covariates2).T
 
         N = len(case)
@@ -208,7 +208,7 @@ def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_
     final_dict['N0'] = 6
     final_dict['N'] = np.asarray(N_arr, dtype=np.int)
     final_dict['N2'] = N2
-    final_dict['p'] = covariates1.shapes[2] - 1
+    final_dict['p'] = covariates.shape[1] - 1
     final_dict['x'] = np.arange(1, N2+1)
     final_dict['cases'] = cases
     final_dict['deaths'] = deaths
