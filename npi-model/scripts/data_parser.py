@@ -23,7 +23,7 @@ def get_data_county(num_counties, data_dir, show=False, interpolate=False, filte
         df_cases, df_deaths = filter_negative_counts(df_cases, df_deaths, idx=2)
 
     df_cases, df_deaths, interventions, fips_list = filtering(df_cases, df_deaths, interventions, num_counties)
-
+    
     dict_of_geo = {} ## map geocode
     for i in range(len(fips_list)):
         dict_of_geo[i] = fips_list[i]
@@ -51,7 +51,7 @@ def get_data_county(num_counties, data_dir, show=False, interpolate=False, filte
 
     return final_dict, fips_list, dict_of_start_dates, dict_of_geo
 
-def get_data_state_us(num_states, data_dir, show, interpolate=False, filter_data=False):
+def get_data_state(num_states, data_dir, show=False, interpolate=False, filter_data=False):
 
     df_cases, df_deaths, interventions = preprocessing_us_data(data_dir)
 
@@ -142,6 +142,7 @@ def primary_calculations(df_cases, df_deaths, covariates, df_cases_dates, fips_l
     covariate5 = []
     covariate6 = []
     covariate7 = []
+    covariate8 = []
 
     cases = []
     deaths = []
@@ -189,6 +190,7 @@ def primary_calculations(df_cases, df_deaths, covariates, df_cases_dates, fips_l
         covariate5.append(covariates2[:, 4])  # restaurant dine-in
         covariate6.append(covariates2[:, 5])  # entertainment/gym
         covariate7.append(covariates2[:, 6])  # federal guidelines
+        covariate8.append(covariates2[:, 7])  # federal guidelines
 
     covariate1 = np.array(covariate1).T
     covariate2 = np.array(covariate2).T
@@ -197,6 +199,7 @@ def primary_calculations(df_cases, df_deaths, covariates, df_cases_dates, fips_l
     covariate5 = np.array(covariate5).T
     covariate6 = np.array(covariate6).T
     covariate7 = np.array(covariate7).T
+    covariate8 = np.array(covariate8).T
     cases = np.array(cases).T
     deaths = np.array(deaths).T
     #print(np.sum(cases<-1))
@@ -220,6 +223,7 @@ def primary_calculations(df_cases, df_deaths, covariates, df_cases_dates, fips_l
     final_dict['covariate5'] = covariate5
     final_dict['covariate6'] = covariate6
     final_dict['covariate7'] = covariate7
+    final_dict['covariate8'] = covariate8
 
     return dict_of_start_dates, final_dict
 
