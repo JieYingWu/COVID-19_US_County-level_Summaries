@@ -8,7 +8,7 @@ from data_preprocess import *
 
 pd.set_option('mode.chained_assignment', None)
 
-def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=False, filter=False):
+def get_data_county(num_counties, data_dir, show=False, interpolate=False, filter_data=False):
 
     df_cases, df_deaths, interventions = preprocessing_us_data(data_dir)
 
@@ -19,14 +19,13 @@ def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=F
         df_cases = impute(df_cases)
         df_deaths = impute(df_deaths)
 
-    if filter:
+    if filter_data:
         df_cases, df_deaths = filter_negative_counts(df_cases, df_deaths, idx=2)
 
     df_cases, df_deaths, interventions, fips_list = filtering(df_cases, df_deaths, interventions, num_counties)
 
     dict_of_geo = {} ## map geocode
     for i in range(len(fips_list)):
-        # comb_key = df_cases.loc[df_cases['FIPS'] == fips_list[i], 'Combined_Key'].to_string(index=False)
         dict_of_geo[i] = fips_list[i]
 
     #### drop non-numeric columns
@@ -42,21 +41,17 @@ def get_stan_parameters_by_county_us(num_counties, data_dir, show, interpolate=F
 
     interventions.drop(['merge', 'FIPS', 'STATE', 'AREA_NAME'], axis=1, inplace=True)
     interventions_colnames = interventions.columns.values
-    covariates1 = interventions.to_numpy()
+    covariates = interventions.to_numpy()
 
-    dict_of_start_dates, final_dict = primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_list)
-
-    final_dict['M'] = num_counties
-    final_dict['p'] = len(interventions_colnames) - 1
-
+    dict_of_start_dates, final_dict = primary_calculations(df_cases, df_deaths, covariates, df_cases_dates, fips_list)
+    
     if show:
         for i in range(len(fips_list)):
-            #print("County with FIPS {fips} has {num} days of data".format(fips=fips_list[i], num=final_dict['case']))
             print("County with FIPS {fips} has start date: ".format(fips=fips_list[i]), dict_of_start_dates[i])
 
     return final_dict, fips_list, dict_of_start_dates, dict_of_geo
 
-def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=False, filter=False):
+def get_data_state_us(num_states, data_dir, show, interpolate=False, filter_data=False):
 
     df_cases, df_deaths, interventions = preprocessing_us_data(data_dir)
 
@@ -92,7 +87,7 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=Fals
         state_cases = impute(state_cases)
         state_deaths = impute(state_deaths)
 
-    if filter:
+    if filter_data:
         state_cases, state_deaths = filter_negative_counts(state_cases, state_deaths, idx=1)
 
     state_cases, state_deaths, state_interventions, fips_list \
@@ -100,7 +95,6 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=Fals
 
     dict_of_geo = {}
     for i in range(len(fips_list)):
-        # comb_key = df_cases.loc[df_cases['FIPS'] == fips_list[i], 'Combined_Key'].to_string(index=False)
         dict_of_geo[i] = fips_list[i]
 
     ### Drop non-numeric columns
@@ -115,14 +109,11 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=Fals
 
     state_interventions.drop(['merge', 'FIPS'], axis=1, inplace=True)
     state_interventions_colnames = state_interventions.columns.values
-    covariates1 = state_interventions.to_numpy()
+    covariates = state_interventions.to_numpy()
 
     dict_of_start_dates, final_dict = primary_calculations(state_cases, state_deaths,
-                                                           covariates1, state_cases_dates, fips_list)
-
-    final_dict['M'] = num_states
-    final_dict['p'] = len(state_interventions_colnames) - 1
-
+                                                           covariates, state_cases_dates, fips_list)
+    
     if show:
         for i in range(len(fips_list)):
             print("State with FIPS {fips} has start date: ".format(fips=fips_list[i]), dict_of_start_dates[i])
@@ -130,13 +121,13 @@ def get_stan_parameters_by_state_us(num_states, data_dir, show, interpolate=Fals
 
     return final_dict, fips_list, dict_of_start_dates, dict_of_geo
 
-def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_list, interpolate=True):
+def primary_calculations(df_cases, df_deaths, covariates, df_cases_dates, fips_list, interpolate=True):
     """"
     Returns:
         final_dict: Stan_data used to feed main sampler
         dict_of_start_dates: Starting dates considered for calculations for the top N places
     """
-
+    
     index = np.argmax(df_cases > 0)
     cum_sum = np.cumsum(df_deaths, axis=0) >= 10
     index1 = np.where(np.argmax(cum_sum, axis=0) != 0, np.argmax(cum_sum, axis=0), cum_sum.shape[0])
@@ -168,8 +159,8 @@ def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_
         req_dates = np.array([dt.datetime.strptime(x, '%m/%d/%y').date() for x in req_dates])
 
         ### check if interventions were in place start date onwards
-        for col in range(covariates1.shape[1]):
-            covariates2.append(np.where(req_dates >= covariates1[i, col], 1, 0))
+        for col in range(covariates.shape[1]):
+            covariates2.append(np.where(req_dates >= covariates[i, col], 1, 0))
         covariates2 = np.array(covariates2).T
 
         N = len(case)
@@ -213,9 +204,11 @@ def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_
 
 
     final_dict = {}
+    final_dict['M'] = len(fips_list)
     final_dict['N0'] = 6
     final_dict['N'] = np.asarray(N_arr, dtype=np.int)
     final_dict['N2'] = N2
+    final_dict['p'] = covariates.shape[1] - 1
     final_dict['x'] = np.arange(1, N2+1)
     final_dict['cases'] = cases
     final_dict['deaths'] = deaths
@@ -229,16 +222,5 @@ def primary_calculations(df_cases, df_deaths, covariates1, df_cases_dates, fips_
     final_dict['covariate7'] = covariate7
 
     return dict_of_start_dates, final_dict
-
-
-# if __name__ == '__main__':
-#     data_dir = 'data'
-#     ## Europe data
-#     get_stan_parameters_europe(data_dir, show=True)
-#     print("***********************")
-#     ## US data
-#     get_stan_parameters_by_state_us(data_dir=data_dir, show=True, interpolate=True, filter = False, num_states = 5)
-#     print("***********************")
-#     get_stan_parameters_by_county_us(data_dir=data_dir, show=True, interpolate=True, filter = False, num_counties = 5)
 
 

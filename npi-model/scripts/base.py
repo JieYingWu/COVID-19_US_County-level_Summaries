@@ -1,40 +1,38 @@
 from os.path import join
 import sys
 import numpy as np
-from data_parser import get_stan_parameters_by_state_us, get_stan_parameters_by_county_us
-from data_parser_europe import get_stan_parameters_europe
+from data_parser import get_data_state, get_data_us
+from data_parser_europe import get_data_europe
 import pystan
 import pandas as pd
 from statsmodels.distributions.empirical_distribution import ECDF
-#from forecast_plots import plot_forecasts
 
 assert len(sys.argv) < 5
 
 # Compile the model
 data_dir = sys.argv[1]
 if sys.argv[2] == 'europe':
-    stan_data, countries, start_date, geocode = get_stan_parameters_europe(data_dir, show=False)
+    stan_data, regions, start_date, geocode = get_data_europe(data_dir, show=False)
     weighted_fatalities = np.loadtxt(join(data_dir, 'europe_data', 'weighted_fatality.csv'), skiprows=1, delimiter=',', dtype=str)
-    ifrs = {}
-    for i in range(weighted_fatalities.shape[0]):
-        ifrs[weighted_fatalities[i,1]] = float(weighted_fatalities[i,-2])
+
 
 elif sys.argv[2] == 'US_county':
-    num_of_counties = int(sys.argv[3])
-    stan_data, countries, start_date, geocode = get_stan_parameters_by_county_us(num_of_counties, data_dir, show=False, interpolate=True)
-    weighted_fatalities = np.loadtxt(join(data_dir, 'us_data', 'weighted_fatality.csv'), skiprows=1, delimiter=',', dtype=str)
-    ifrs = {}
-    for i in range(weighted_fatalities.shape[0]):
-        ifrs[str(weighted_fatalities[i,0])] = weighted_fatalities[i,-1]
+    M = int(sys.argv[3])
+    stan_data, regions, start_date, geocode = get_data_county(M, data_dir, interpolate=True)
+    wf_file = join(data_dir, 'us_data', 'weighted_fatality.csv')
+    weighted_fatalities = np.loadtxt(wf_file, skiprows=1, delimiter=',', dtype=str)
 
 elif sys.argv[2] == 'US_state':
-    num_of_states = int(sys.argv[3])
-    stan_data, countries, start_date, geocode = get_stan_parameters_by_state_us(num_of_states, data_dir, show=False, interpolate=True)
-    weighted_fatalities = np.loadtxt(join(data_dir, 'us_data', 'state_weighted_fatality.csv'), skiprows=1, delimiter=',', dtype=str)
-    ifrs = {}
-    for i in range(weighted_fatalities.shape[0]):
-        ifrs[str(weighted_fatalities[i,0])] = weighted_fatalities[i,-1]
+    M = int(sys.argv[3])
+    stan_data, regions, start_date, geocode = get_data_state(M, data_dir, interpolate=True)
+    wf_file = join(data_dir, 'us_data', 'state_weighted_fatality.csv')
+    weighted_fatalities = np.loadtxt(wf_file, skiprows=1, delimiter=',', dtype=str)
 
+
+# Build a dictionary of region identifier to weighted fatality rate
+ifrs = {}
+for i in range(weighted_fatalities.shape[0]):
+    ifrs[weighted_fatalities[i,1]] = float(weighted_fatalities[i,-1])
 stan_data['cases'] = stan_data['cases'].astype(np.int)
 stan_data['deaths'] = stan_data['deaths'].astype(np.int)
 
@@ -59,9 +57,9 @@ cv2 = 0.45
 alpha2 = cv2**-2
 beta2 = mean2/alpha2
 
-all_f = np.zeros((N2, len(countries)))
-for c in range(len(countries)):
-    ifr = float(ifrs[str(countries[c])])
+all_f = np.zeros((N2, len(regions)))
+for r in range(len(regions)):
+    ifr = float(ifrs[str(regions[r])])
     ## assume that IFR is probability of dying given infection
     x1 = np.random.gamma(alpha1, beta1, 5000000) # infection-to-onset -> do all people who are infected get to onset?
     x2 = np.random.gamma(alpha2, beta2, 5000000) # onset-to-death
@@ -79,7 +77,7 @@ for c in range(len(countries)):
     for i in range(1, N2):
         s[i] = s[i-1]*(1-h[i-1])
 
-    all_f[:,c] = s * h
+    all_f[:,r] = s * h
 
 stan_data['f'] = all_f
 
@@ -88,18 +86,6 @@ sm = pystan.StanModel(file='stan-models/base.stan')
 
 fit = sm.sampling(data=stan_data, iter=200, chains=6, warmup=100, thin=4, control={'adapt_delta':0.9, 'max_treedepth':10})
 # fit = sm.sampling(data=stan_data, iter=2000, chains=4, warmup=10, thin=4, seed=101, control={'adapt_delta':0.9, 'max_treedepth':10})
-
-# All the parameters in the stan model
-# mu = fit['mu']
-# alpha = fit['alpha']
-# kappa = fit['kappa']
-# y = fit['y']
-# phi = fit['phi']
-# tau = fit['tau']
-# prediction = fit['prediction']
-# estimated_deaths = fit['E_deaths']
-# estimated_deaths_cf = fit['E_deaths0']
-# print(mu, alpha, kappa, y, phi, tau, prediction, estimated_deaths, estimated_deaths_cf)
 
 summary_dict = fit.summary()
 df = pd.DataFrame(summary_dict['summary'],
@@ -113,5 +99,3 @@ df_sd = pd.DataFrame(start_date, index=[0])
 df_geo = pd.DataFrame(geocode, index=[0])
 df_sd.to_csv('results/' + sys.argv[2] + '_start_dates.csv', sep=',')
 df_geo.to_csv('results/' + sys.argv[2] + '_geocode.csv', sep=',')
-## TODO: Make pretty plots
-# plot_forecasts()
