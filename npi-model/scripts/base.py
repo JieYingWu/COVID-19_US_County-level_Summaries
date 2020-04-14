@@ -80,11 +80,10 @@ for r in range(len(regions)):
 stan_data['f'] = all_f
 
 # Add a shelter-in-place score
-if sys.argv[2][0:2] == 'US' and sys.argv[:
+if sys.argv[2][0:2] == 'US':
     # Train the model and generate samples - returns a StanFit4Model
     sm = pystan.StanModel(file='stan-models/base_us.stan')
-
-elif:
+else:
     # Train the model and generate samples - returns a StanFit4Model
     sm = pystan.StanModel(file='stan-models/base_europe.stan')
 
