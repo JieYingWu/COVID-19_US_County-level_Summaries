@@ -5,14 +5,16 @@ from matplotlib.dates import DateFormatter
 import matplotlib.ticker as ticker
 import pandas as pd
 import numpy as np
+import sys
 import datetime as dt
 from pandas.plotting import register_matplotlib_converters
+from os.path import join
 register_matplotlib_converters()
 # otherwise rotation of x-labels by 90 deg crashes from time to time
 ticker.Locator.MAXTICKS = 10000
 
 
-def plot_rt_europe(simulation_file, interventions_file, country_number, country_name, start_date, num_days=75, save_img=False):
+def plot_rt_europe(simulation_file, interventions_file, country_number, country_name, start_date, num_days=75, save_img=False, show_img=True):
     # read data
     simulation_data = pd.read_csv(simulation_file, delimiter=',', index_col=0)
     interventions, interventions_data = get_interventions_europe(interventions_file)
@@ -23,7 +25,7 @@ def plot_rt_europe(simulation_file, interventions_file, country_number, country_
     # remove those interventions, that are not considered in the report
     interventions.remove('sport')
     interventions.remove('travel_restrictions')
-    interventions.remove('any government intervention')
+#    interventions.remove('any government intervention')
 
     start = 'Rt[1,' + str(country_number) + ']'
     end = 'Rt[' + str(num_days) + ',' + str(country_number) + ']'
@@ -84,12 +86,14 @@ def plot_rt_europe(simulation_file, interventions_file, country_number, country_
     plt.ylabel('Time-dependent Reproduction Number')
 
     if save_img:
+        path = join('results','plots','europe_interventions',r'Rt_{}.png'.format(country_name))
         plt.savefig(r'results\plots\europe_interventions\Rt_{}.png'.format(country_name), bbox_extra_artists=(lgd,), bbox_inches='tight')
 
-    plt.show()
+    if show_img:
+        plt.show()
 
 
-def plot_rt_US(simulation_file, interventions_file, county_number, fips, start_date, state_level, save_img=False):
+def plot_rt_US(simulation_file, interventions_file, county_number, fips, start_date, state_level, save_img=False, show_img=True):
     # read data
     simulation_data = pd.read_csv(simulation_file, delimiter=',', index_col=0)
     interventions, interventions_data = get_interventions_US(interventions_file, state_level=state_level)
@@ -161,12 +165,17 @@ def plot_rt_US(simulation_file, interventions_file, county_number, fips, start_d
 
     if save_img:
         if state_level:
-            plt.savefig(r'results\plots\usa_interventions\Rt_state_{}.png'.format(fips), bbox_extra_artists=(lgd,), bbox_inches='tight')
+            path = join('results','plots','usa_interventions',r'Rt_state_{}.png'.format(fips))
+            plt.savefig(path, bbox_extra_artists=(lgd,), bbox_inches='tight')
         else:
-            plt.savefig(r'results\plots\usa_interventions\Rt_county_{}.png'.format(fips), bbox_extra_artists=(lgd,),
+            path = join('results','plots','usa_interventions',r'Rt_county_{}.png'.format(fips))
+            plt.savefig(path, bbox_extra_artists=(lgd,),
                             bbox_inches='tight')
 
-    plt.show()
+    if show_img:
+        plt.show()
+    else:
+        plt.close()
 
 
 # copied from data_parser
@@ -274,10 +283,10 @@ if __name__ == '__main__':
     #     plot_rt_europe(simulation_file, interventions_file, country_ind, country_name, date, save_img=True)
 
     ### USA counties ###
-    simulation_file = r'results\US_county_summary.csv'
-    interventions_file = r'data\us_data\interventions.csv'
-    geo_file = r'results\US_county_geocode.csv'
-    startdate_file = r'results\US_county_start_dates.csv'
+    simulation_file = join('results', sys.argv[1] + '_summary.csv')
+    interventions_file = join('data','us_data','interventions.csv')
+    geo_file = join('results',sys.argv[1] + '_geocode.csv')
+    startdate_file = join('results',sys.argv[1] + '_start_dates.csv')
 
     fips_list, start_dates = get_geo_startdate_data(geo_file, startdate_file)
 
@@ -285,22 +294,5 @@ if __name__ == '__main__':
     county_numbers = np.arange(1, len(fips_list) + 1)
 
     for county, fips, date in zip(county_numbers, fips_list, start_dates):
-        plot_rt_US(simulation_file, interventions_file, county, fips, date, False, save_img=True)
-
-    ### USA states ###
-    # simulation_file = r'results\US_state_summary.csv'
-    # interventions_file = r'data\us_data\interventions.csv'
-    # geo_file = r'results\US_states_geocode.csv'
-    # startdate_file = r'results\US_states_start_dates.csv'
-    #
-    # fips_list, start_dates = get_geo_startdate_data(geo_file, startdate_file)
-    #
-    # # model output indices start at 1
-    # county_numbers = np.arange(1, len(fips_list) + 1)
-    #
-    # for county, fips, date in zip(county_numbers, fips_list, start_dates):
-    #     plot_rt_US(simulation_file, interventions_file, county, fips, date, True, save_img=True)
-
-
-
+        plot_rt_US(simulation_file, interventions_file, county, fips, date, False, save_img=True, show_img=False)
 

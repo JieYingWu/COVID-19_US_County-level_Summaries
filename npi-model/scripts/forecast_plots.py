@@ -87,7 +87,7 @@ def plot_forecasts_wo_dates_quantiles(quantiles_dict, confirmed_cases, county_na
     if save_image:
         name = str(metric) + str(dict_of_eu_geog[num_of_country].values[0])
         plt.tight_layout()
-        fig.savefig('../results/plots/{}/{}.jpg'.format(results_folder, name))
+        fig.savefig('results/plots/{}/{}.jpg'.format(results_folder, name))
         fig.clf()
     else:
         plt.show()
@@ -148,9 +148,9 @@ def read_true_cases_europe(plot_choice, num_of_country, dict_of_start_dates, dic
     0 for infections forecast
     '''
     if plot_choice == 0:
-        filepath = "../data/europe_data/COVID-19-up-to-date-cases-clean.csv"
+        filepath = "data/europe_data/COVID-19-up-to-date-cases-clean.csv"
     else:
-        filepath = "../data/europe_data/COVID-19-up-to-date-deaths-clean.csv"
+        filepath = "data/europe_data/COVID-19-up-to-date-deaths-clean.csv"
 
     df = pd.read_csv(filepath, delimiter=',', header=None)
 
@@ -167,11 +167,11 @@ def read_true_cases_europe(plot_choice, num_of_country, dict_of_start_dates, dic
 def read_true_cases_us(plot_choice, num_of_country, dict_of_start_dates, dict_of_eu_geog):
     # 1 for deaths forecast; 0 for infections forecast
     if plot_choice == 0:
-        #filepath = "../data/us_data/infections_timeseries.csv"
-        filepath = "../data/us_data/infections_timeseries_w_states.csv"
+        #filepath = "data/us_data/infections_timeseries.csv"
+        filepath = "data/us_data/infections_timeseries_w_states.csv"
     else:
-        #filepath = "../data/us_data/deaths_timeseries.csv"
-        filepath = "../data/us_data/deaths_timeseries_w_states.csv"
+        #filepath = "data/us_data/deaths_timeseries.csv"
+        filepath = "data/us_data/deaths_timeseries_w_states.csv"
 
     df = pd.read_csv(filepath, delimiter=',')#, index_col=0)
 
@@ -208,9 +208,9 @@ def read_true_cases_us(plot_choice, num_of_country, dict_of_start_dates, dict_of
 
 # create a batch of all possible plots for usa
 def make_all_us_county_plots():
-    dict_of_start_dates = pd.read_csv('../results/US_county_start_dates.csv', delimiter=',', index_col=0)
-    dict_of_eu_geog = pd.read_csv('../results/US_county_geocode.csv', delimiter=',', index_col=0)
-    path = "../results/US_county_summary.csv"
+    dict_of_start_dates = pd.read_csv('results/US_county_start_dates.csv', delimiter=',', index_col=0)
+    dict_of_eu_geog = pd.read_csv('results/US_county_geocode.csv', delimiter=',', index_col=0)
+    path = "results/US_county_summary.csv"
 
     for plot_choice in range(0, 2):
         for num_of_country in dict_of_eu_geog.keys():
@@ -223,9 +223,9 @@ def make_all_us_county_plots():
 
 # create a batch of all possible plots for usa
 def make_all_us_states_plots():
-    dict_of_start_dates = pd.read_csv('../results/US_state_start_dates.csv', delimiter=',', index_col=0)
-    dict_of_eu_geog = pd.read_csv('../results/US_state_geocode.csv', delimiter=',', index_col=0)
-    path = "../results/US_state_summary.csv"
+    dict_of_start_dates = pd.read_csv('results/US_state_start_dates.csv', delimiter=',', index_col=0)
+    dict_of_eu_geog = pd.read_csv('results/US_state_geocode.csv', delimiter=',', index_col=0)
+    path = "results/US_state_summary.csv"
 
     for plot_choice in range(0, 2):
         for num_of_country in dict_of_eu_geog.keys():
@@ -239,9 +239,9 @@ def make_all_us_states_plots():
 
 # create a batch of all possible plots for europe
 def make_all_eu_plots():
-    dict_of_start_dates = pd.read_csv('../results/europe_start_dates.csv', delimiter=',', index_col=0)
-    dict_of_eu_geog = pd.read_csv('../results/europe_geocode.csv', delimiter=',', index_col=0)
-    path = "../results/europe_summary.csv"
+    dict_of_start_dates = pd.read_csv('results/europe_start_dates.csv', delimiter=',', index_col=0)
+    dict_of_eu_geog = pd.read_csv('results/europe_geocode.csv', delimiter=',', index_col=0)
+    path = "results/europe_summary.csv"
 
     for plot_choice in range(0, 2):
         for num_of_country in dict_of_eu_geog.keys():
