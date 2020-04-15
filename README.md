@@ -15,10 +15,25 @@ This is because highly localized contextual factors, such as population density,
 To facilitate research on such questions, we present a **machine readable dataset** that aggregates relevant data from around 10 governmental and academic sources on the **county-level**. In addition to county-level time-series data from the [JHU CSSE COVID-19 Dashboard](https://github.com/CSSEGISandData/COVID-19), our dataset contains **more than 300 variables** that summarize population estimates, demographics, ethnicity, housing, education, employment and income, climate, transit scores, and healthcare system-related metrics. A detailed description of all variables can be found [here](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/tree/master/data).
 
 ## This Weeks Predictions
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| Washington State | 4/14/20 | 4/15/20 | 4/16/20 | 4/17/20 | 4/18/20 | 4/19/20 | 4/20/20 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Cases | 3319364 | 3869675 | 4513109 | 5265722 | 6146384 | 7177284 | 8384519 |
+| Deaths | 1581 | 1830 | 2119 | 2455 | 2846 | 3300 | 3829 |
+
+| New York State | 4/14/20 | 4/15/20 | 4/16/20 | 4/17/20 | 4/18/20 | 4/19/20 | 4/20/20 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Cases | 3319364 | 3869675 | 4513109 | 5265722 | 6146384 | 7177284 | 8384519 |
+| Deaths | 1581 | 1830 | 2119 | 2455 | 2846 | 3300 | 3829 |
+
+| Maryland | 4/14/20 | 4/15/20 | 4/16/20 | 4/17/20 | 4/18/20 | 4/19/20 | 4/20/20 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Cases | 3319364 | 3869675 | 4513109 | 5265722 | 6146384 | 7177284 | 8384519 |
+| Deaths | 1581 | 1830 | 2119 | 2455 | 2846 | 3300 | 3829 |
+
+| California | 4/14/20 | 4/15/20 | 4/16/20 | 4/17/20 | 4/18/20 | 4/19/20 | 4/20/20 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Cases | 3319364 | 3869675 | 4513109 | 5265722 | 6146384 | 7177284 | 8384519 |
+| Deaths | 1581 | 1830 | 2119 | 2455 | 2846 | 3300 | 3829 |
 
 ## Structure
 
