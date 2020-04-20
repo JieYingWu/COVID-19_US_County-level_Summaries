@@ -15,7 +15,7 @@
   mitigate the spread by restricting gatherings, given as the proleptic Gregorian ordinal of the
   date, where January 1 of year 1 has `t = 1`. This convention is chosen for consistency with the
   python `datetime` library. A date in this format can be converted to year, month, date with:
-```python
+``python
 import datetime
 date = datetime.date.fromordinal(ordinal_date)
 print(date.month, date.day, date.year)
@@ -28,7 +28,8 @@ print(date.month, date.day, date.year)
   contains descriptions for each column in `counties.csv`, `counties_only.csv`, etc.
 * `recovered_timeseries.csv` is a *limited* timeseries for recovered patients. This data is not
   very well-tracked, but we include it as we are able.
-
+* `google_reports` contains six csv files which correspond to the six areas of interest that Google is reporting in its mobility reports. For detailed information about the data:(https://www.google.com/covid19/mobility/data_documentation.html#about-this-data) 
+`
 #### Data links
 
 1. Our COVID-19 infections and deaths data come from the Johns Hopkins University [CSSE COVID-19
@@ -47,7 +48,8 @@ print(date.month, date.day, date.year)
 12. ICU Bed information from [KHN](https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/)
 13. Foot traffic data from [SafeGraph](https://shop.safegraph.com/).
 14. State-level hospitalization and ICU requirements projections from [IHME](http://www.healthdata.org/covid/data-downloads).
-15. COVID-19 related Interventions data from numerous media sources:
+15. Mobility Reports from [Google](https://www.google.com/covid19/mobility/index.html)
+16. COVID-19 related Interventions data from numerous media sources:
     * https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html
     * https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html
     * https://www.cnn.com/2020/03/23/us/coronavirus-which-states-stay-at-home-order-trnd/index.html
