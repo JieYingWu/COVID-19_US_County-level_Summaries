@@ -15,7 +15,7 @@
   mitigate the spread by restricting gatherings, given as the proleptic Gregorian ordinal of the
   date, where January 1 of year 1 has `t = 1`. This convention is chosen for consistency with the
   python `datetime` library. A date in this format can be converted to year, month, date with:
-``python
+```python
 import datetime
 date = datetime.date.fromordinal(ordinal_date)
 print(date.month, date.day, date.year)
@@ -28,7 +28,9 @@ print(date.month, date.day, date.year)
   contains descriptions for each column in `counties.csv`, `counties_only.csv`, etc.
 * `recovered_timeseries.csv` is a *limited* timeseries for recovered patients. This data is not
   very well-tracked, but we include it as we are able.
-* `google_reports` contains six csv files which correspond to the six areas of interest that Google is reporting in its mobility reports. For detailed information about the data:(https://www.google.com/covid19/mobility/data_documentation.html#about-this-data) 
+* `google_reports` contains six csv files which correspond to the six areas of interest that Goo
+   gle is reporting in its mobility reports.For detailed information about the data:(https://www
+   .google.com/covid19/mobility/data_documentation.html#about-this-data) 
 `
 #### Data links
 
