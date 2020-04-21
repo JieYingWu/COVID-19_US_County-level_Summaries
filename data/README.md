@@ -10,6 +10,7 @@
 * `deaths_timeseries.csv` contains analogous information for COVID-19 related deaths.  **Note**
   that the first column in the infections and deaths data corresponds to Jan 22, 2020, or **t =
   737446**.
+* `Hospitalization_all_locs.csv` contains a timeseries of projected requirements and deficits for hospital beds, ICUs, ventilators, across all US states from 1st March 2020 till 4th August 2020. The projections have been computed by the IHME "Chris Murray" model. The data has been processed to have a format similar to other timeseries in this dataset.
 * `interventions.csv` contains the dates that counties (or states governing them) took measures to
   mitigate the spread by restricting gatherings, given as the proleptic Gregorian ordinal of the
   date, where January 1 of year 1 has `t = 1`. This convention is chosen for consistency with the
