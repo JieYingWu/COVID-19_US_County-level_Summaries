@@ -1,4 +1,10 @@
 ![](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/blob/master/npi-model/results/plots/states.gif)
+## This Weeks Predications
+
+| Washington State | 04/22/20 | 04/23/20 | 04/24/20 | 04/25/20 | 04/26/20 | 04/27/20 | 04/28/20 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Cases |  119453  |  124773  |  130347  |  136185  |  142303  |  148713  |  155432  |
+| Deaths |  444  |  462  |  482  |  502  |  523  |  545  |  568  |
 
 This repository is a Python port of the model proposed by report 13 from the MRC Centre for Global Infectious Disease Analysis, Imperial College London. The original code in R is available at: https://github.com/ImperialCollegeLondon/covid19model. Since we started the project, they have also added Python support and a notebook. We keep our code for its additional visualizations in Python and integration with our US county-level dataset. We also use their data here to validate our model, that we can reproduce their results. 
 
