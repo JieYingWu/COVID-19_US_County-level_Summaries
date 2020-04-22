@@ -14,7 +14,10 @@ This is because highly localized contextual factors, such as population density,
 
 To facilitate research on such questions, we present a **machine readable dataset** that aggregates relevant data from around 10 governmental and academic sources on the **county-level**. In addition to county-level time-series data from the [JHU CSSE COVID-19 Dashboard](https://github.com/CSSEGISandData/COVID-19), our dataset contains **more than 300 variables** that summarize population estimates, demographics, ethnicity, housing, education, employment and income, climate, transit scores, and healthcare system-related metrics. A detailed description of all variables can be found [here](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/tree/master/data).
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4baca7994e5e607534f464298497445d24d6181f
 ## Structure
 
 We accumulated statistics from different sources on a county level granularity.
