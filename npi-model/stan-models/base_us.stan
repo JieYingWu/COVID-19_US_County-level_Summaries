@@ -3,7 +3,6 @@ data {
   int <lower=1> N0; // number of days for which to impute infections
   int<lower=1> N[M]; // days of observed data for country m. each entry must be <= N2
   int<lower=1> N2; // days of observed data + # of days to forecast
-  real<lower=0> x[N2]; // index of days (starting at 1)
   int cases[N2,M]; // reported cases
   int deaths[N2, M]; // reported deaths -- the rows with i > N contain -1 and should be ignored
   matrix[N2, M] f; // h * s
@@ -15,6 +14,7 @@ data {
   matrix[N2, M] covariate6;
   matrix[N2, M] covariate7;
   matrix[N2, M] covariate8;
+  matrix[N2, M] covariate9;
   int EpidemicStart[M];
   real SI[N2]; // fixed pre-calculated SI using emprical data from Neil
 }
@@ -25,11 +25,12 @@ transformed data {
 
 parameters {
   real<lower=0> mu[M]; // intercept for Rt
-  real<lower=0> alpha[8]; // the hier term
+  real<lower=0> alpha[9]; // the hier term
   real<lower=0> kappa;
   real<lower=0> y[M];
   real<lower=0> phi;
   real<lower=0> tau;
+  real<lower=0> ifr_noise[M];
 }
 
 transformed parameters {
@@ -46,7 +47,7 @@ transformed parameters {
  for (i in (N0+1):N2) {
         convolution=0;
         for(j in 1:(i-1)) {
-          convolution += prediction[j, m]*SI[i-j]; // Correctd 22nd March
+          convolution += prediction[j, m]*SI[i-j]; 
         }
         prediction[i, m] = Rt[i,m] * convolution;
       }
@@ -55,7 +56,7 @@ transformed parameters {
       for (i in 2:N2){
         E_deaths[i,m]= 0;
         for(j in 1:(i-1)){
-          E_deaths[i,m] += prediction[j,m]*f[i-j,m];
+          E_deaths[i,m] += prediction[j,m]*f[i-j,m] * ifr_noise[m];;
         }
       }
     }
@@ -66,9 +67,11 @@ model {
       y[m] ~ exponential(1.0/tau);
   }
   phi ~ normal(0,5);
-  kappa ~ normal(0,0.5);
-  mu ~ normal(2.4, kappa); // citation needed 
+//  kappa ~ normal(0,0.5);
+  kappa ~ normal(1.5,3);
+  mu ~ normal(3.28, kappa); // citation needed 
   alpha ~ gamma(.5,1);
+  ifr_noise ~ normal(1,0.1);
   for(m in 1:M){
     for(i in EpidemicStart[m]:N[m]){
        deaths[i,m] ~ neg_binomial_2(E_deaths[i,m],phi); 
@@ -96,12 +99,8 @@ generated quantities {
       for (i in 2:N2){
         E_deaths0[i,m]= 0;
         for(j in 1:(i-1)){
-          E_deaths0[i,m] += prediction0[j,m]*f[i-j,m];
+          E_deaths0[i,m] += prediction0[j,m] * f[i-j,m] * ifr_noise[m];
         }
-      }
-      for(i in 1:N[m]){
-        lp0[i,m] = neg_binomial_2_lpmf(deaths[i,m] | E_deaths[i,m],phi); 
-        lp1[i,m] = neg_binomial_2_lpmf(deaths[i,m] | E_deaths0[i,m],phi); 
       }
     }
 
