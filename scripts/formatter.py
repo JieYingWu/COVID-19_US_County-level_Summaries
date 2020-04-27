@@ -897,10 +897,10 @@ class Formatter():
           
         if all(map(lambda x : x == '', row)):
           continue
-        if len(row[0]) != 8 or row[0][:3] != '840':
+        if len(row[0]) != 10 or row[0][:3] != '840':
           continue
 
-        fips = row[0][-5:]
+        fips = row[4].split('.')[0].zfill(5)
         if fips not in self.fips_codes:
           continue
         
