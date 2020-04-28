@@ -903,8 +903,12 @@ class Formatter():
         fips = row[4].split('.')[0].zfill(5)
         if fips not in self.fips_codes:
           continue
-        
-        row = [fips] + [row[10].replace(',', ' -')] + row[11:]
+        if fips[0] == '0':
+            fips = fips[1:]
+        if 'death' in src_filename:
+            row = [fips] + [row[10].replace(',', ' -')] + row[12:]
+        else:
+            row = [fips] + [row[10].replace(',', ' -')] + row[11:]
         writer.writerow(row)
         
   
