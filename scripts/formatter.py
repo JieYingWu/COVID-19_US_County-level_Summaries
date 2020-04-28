@@ -893,7 +893,10 @@ class Formatter():
       writer = csv.writer(dst_file, delimiter=',')
       for i, row in enumerate(reader):
         if i == 0:
-          writer.writerow(['FIPS'] + row[10:])
+          if 'death' in src_filename:
+            writer.writerow(['FIPS'] + [row[10]] + row[12:])
+          else:
+            writer.writerow(['FIPS'] + row[10:])
           
         if all(map(lambda x : x == '', row)):
           continue
