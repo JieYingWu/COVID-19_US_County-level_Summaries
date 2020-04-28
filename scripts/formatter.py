@@ -893,18 +893,25 @@ class Formatter():
       writer = csv.writer(dst_file, delimiter=',')
       for i, row in enumerate(reader):
         if i == 0:
-          writer.writerow(['FIPS'] + row[10:])
+          if 'death' in src_filename:
+            writer.writerow(['FIPS'] + [row[10]] + row[12:])
+          else:
+            writer.writerow(['FIPS'] + row[10:])
           
         if all(map(lambda x : x == '', row)):
           continue
-        if len(row[0]) != 8 or row[0][:3] != '840':
+        if len(row[0]) != 10 or row[0][:3] != '840':
           continue
 
-        fips = row[0][-5:]
+        fips = row[4].split('.')[0].zfill(5)
         if fips not in self.fips_codes:
           continue
-        
-        row = [fips] + [row[10].replace(',', ' -')] + row[11:]
+        if fips[0] == '0':
+            fips = fips[1:]
+        if 'death' in src_filename:
+            row = [fips] + [row[10].replace(',', ' -')] + row[12:]
+        else:
+            row = [fips] + [row[10].replace(',', ' -')] + row[11:]
         writer.writerow(row)
         
   
