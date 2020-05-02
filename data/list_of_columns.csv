@@ -1,0 +1,348 @@
+ Data variable     , Description ,Group
+Jan Precipitation / inch, Precipitation/inch in the month of Jan for 2019 ,Climate
+Feb Precipitation / inch, Precipitation/inch in the month of Feb for 2019 ,Climate
+Mar Precipitation / inch, Precipitation/inch in the month of Mar for 2019 ,Climate
+Apr Precipitation / inch, Precipitation/inch in the month of Apr for 2019 ,Climate
+May Precipitation / inch, Precipitation/inch in the month of May for 2019 ,Climate
+Jun Precipitation / inch, Precipitation/inch in the month of Jun for 2019 ,Climate
+Jul Precipitation / inch, Precipitation/inch in the month of Jul for 2019 ,Climate
+Aug Precipitation / inch, Precipitation/inch in the month of Aug for 2019 ,Climate
+Sep Precipitation / inch, Precipitation/inch in the month of Sep for 2019 ,Climate
+Oct Precipitation / inch, Precipitation/inch in the month of Oct for 2019 ,Climate
+Nov Precipitation / inch, Precipitation/inch in the month of Nov for 2019 ,Climate
+Dec Precipitation / inch, Precipitation/inch in the month of Dec for 2019 ,Climate
+Jan Temp AVG / F," Average temperature in Jan, 2019 in Fahrenheit ",Climate
+Feb Temp AVG / F," Average temperature in Feb, 2019 in Fahrenheit ",Climate
+Mar Temp AVG / F," Average temperature in Mar, 2019 in Fahrenheit ",Climate
+Apr Temp AVG / F," Average temperature in Apr, 2019 in Fahrenheit ",Climate
+May Temp AVG / F," Average temperature in May, 2019 in Fahrenheit ",Climate
+Jun Temp AVG / F," Average temperature in Jun, 2019 in Fahrenheit ",Climate
+Jul Temp AVG / F," Average temperature in Jul, 2019 in Fahrenheit ",Climate
+Aug Temp AVG / F," Average temperature in Aug, 2019 in Fahrenheit ",Climate
+Sep Temp AVG / F," Average temperature in Sep, 2019 in Fahrenheit ",Climate
+Oct Temp AVG / F," Average temperature in Oct, 2019 in Fahrenheit ",Climate
+Nov Temp AVG / F," Average temperature in Nov, 2019 in Fahrenheit ",Climate
+Dec Temp AVG / F," Average temperature in Dec, 2019 in Fahrenheit ",Climate
+Jan Temp Min / F," Minimum temperature in Jan, 2019 in Fahrenheit ",Climate
+Feb Temp Min / F," Minimum temperature in Feb, 2019 in Fahrenheit ",Climate
+Mar Temp Min / F," Minimum temperature in Mar, 2019 in Fahrenheit ",Climate
+Apr Temp Min / F," Minimum temperature in Apr, 2019 in Fahrenheit ",Climate
+May Temp Min / F," Minimum temperature in May, 2019 in Fahrenheit ",Climate
+Jun Temp Min / F," Minimum temperature in Jun, 2019 in Fahrenheit ",Climate
+Jul Temp Min / F," Minimum temperature in Jul, 2019 in Fahrenheit ",Climate
+Aug Temp Min / F," Minimum temperature in Aug, 2019 in Fahrenheit ",Climate
+Sep Temp Min / F," Minimum temperature in Sep, 2019 in Fahrenheit ",Climate
+Oct Temp Min / F," Minimum temperature in Oct, 2019 in Fahrenheit ",Climate
+Nov Temp Min / F," Minimum temperature in Nov, 2019 in Fahrenheit ",Climate
+Dec Temp Min / F," Minimum temperature in Dec, 2019 in Fahrenheit ",Climate
+Jan Temp Max / F," Maximum temperature in Jan, 2019 in Fahrenheit ",Climate
+Feb Temp Max / F," Maximum temperature in Feb, 2019 in Fahrenheit ",Climate
+Mar Temp Max / F," Maximum temperature in Mar, 2019 in Fahrenheit ",Climate
+Apr Temp Max / F," Maximum temperature in Apr, 2019 in Fahrenheit ",Climate
+May Temp Max / F," Maximum temperature in May, 2019 in Fahrenheit ",Climate
+Jun Temp Max / F," Maximum temperature in Jun, 2019 in Fahrenheit ",Climate
+Jul Temp Max / F," Maximum temperature in Jul, 2019 in Fahrenheit ",Climate
+Aug Temp Max / F," Maximum temperature in Aug, 2019 in Fahrenheit ",Climate
+Sep Temp Max / F," Maximum temperature in Sep, 2019 in Fahrenheit ",Climate
+Oct Temp Max / F," Maximum temperature in Oct, 2019 in Fahrenheit ",Climate
+Nov Temp Max / F," Maximum temperature in Nov, 2019 in Fahrenheit ",Climate
+Dec Temp Max / F," Maximum temperature in Dec, 2019 in Fahrenheit ",Climate
+Total_Male, Total number of males,Demographics
+Total_Female, Total number of females,Demographics
+Total_age0to17,Total number of people between ages 0 to 17,Demographics
+Male_age0to17,Total number of males between ages 0 to 17,Demographics
+Female_age0to17,Total number of females between ages 0 to 17,Demographics
+Total_age18to64,Total number of people between ages 18 to 64,Demographics
+Male_age18to64,Total number of males between ages 18 to 64,Demographics
+Female_age18to64,Total number of females between ages 18 to 64,Demographics
+Total_age65plus,Total number of people with age >65,Demographics
+Male_age65plus,Total number of males with age >65,Demographics
+Female_age65plus,Total number of females with age >65,Demographics
+Total_age85plusr,Total number of people with age >85,Demographics
+Male_age85plusr,Total number of males with age >85,Demographics
+Female_age85plusr,Total number of females with age >85,Demographics
+pop_density, Population density as of 2018,Demographics
+Total households,Total number of households,Demographics
+Total households!!Family households (families),Total number of Family households (families),Demographics
+Total households!!Family households (families)!!With own children of the householder under 18 years,Total number of family households (families) with own children of the householder under 18 years,Demographics
+Total households!!Family households (families)!!Married-couple family,Total number of family households (families) with Married-couple family,Demographics
+Total households!!Family households (families)!!Married-couple family!!With own children of the householder under 18 years,Total number of family households (families) with married-couple family and with own children of the householder under 18 years,Demographics
+"Total households!!Family households (families)!!Male householder, no wife present, family","Total number of family households (families) with Male householder, no wife present, family",Demographics
+HOUSEHOLDS BY TYPE!!, Total number of households by type,Demographics
+"Total households!!Family households (families)!!Female householder, no husband present, family","Total number of family households (families) with Female householder, no husband present, family",Demographics
+"Total households!!Family households (families)!!Female householder, no husband present, family!!With own children of the householder under 18 years","Total number of family households (families) with female householder, no husband present, family with own children of the householder under 18 years",Demographics
+Total households!!Nonfamily households,Total number of Nonfamily households,Demographics
+Total households!!Nonfamily households!!Householder living alone,Total number of Nonfamily households where householder living alone,Demographics
+Total households!!Nonfamily households!!Householder living alone!!65 years and over,Total number of nonfamily households where Householder living alone is 65 years and over,Demographics
+Total households!!Households with one or more people under 18 years,Total number of households with one or more people under 18 years,Demographics
+Total households!!Households with one or more people 65 years and over,Total number of households with one or more people 65 years and over,Demographics
+Total households!!Average household size,Total Average household size,Demographics
+Total households!!Average family size,Total household Average family size,Demographics
+RELATIONSHIP!!Population in households,Total Population in households,Demographics
+RELATIONSHIP!!Population in households!!Householder,Number of Householders living in household,Demographics
+RELATIONSHIP!!Population in households!!Spouse,Number of Spouse living in household,Demographics
+RELATIONSHIP!!Population in households!!Child,Number of Child living in household,Demographics
+RELATIONSHIP!!Population in households!!Other relatives,Number of Other relatives living in household,Demographics
+RELATIONSHIP!!Population in households!!Nonrelatives,Number of Nonrelatives living in household,Demographics
+RELATIONSHIP!!Population in households!!Nonrelatives!!Unmarried partner,Number of Nonrelatives/Unmarried partner living in household,Demographics
+MARITAL STATUS!!Males 15 years and over,Total number of Males 15 years and over,Demographics
+MARITAL STATUS!!Males 15 years and over!!Never married,Total number of Males 15 years and over that Never married,Demographics
+"MARITAL STATUS!!Males 15 years and over!!Now married, except separated"," Total number of  Males 15 years and over that are Now married, except separated",Demographics
+MARITAL STATUS!!Males 15 years and over!!Separated,Total number of Males 15 years and over that are Separated,Demographics
+MARITAL STATUS!!Males 15 years and over!!Widowed,Total number of Males 15 years and over that are Widowed,Demographics
+MARITAL STATUS!!Males 15 years and over!!Divorced,Total number of Males 15 years and over that are Divorced,Demographics
+MARITAL STATUS!!Females 15 years and over,Total number of Females 15 years and over,Demographics
+MARITAL STATUS!!Females 15 years and over!!Never married,Total number of Females 15 years and over that Never married,Demographics
+"MARITAL STATUS!!Females 15 years and over!!Now married, except separated","Total number of Females 15 years and over that are now married, except separated",Demographics
+MARITAL STATUS!!Females 15 years and over!!Separated,Total number of Females 15 years and over that are Separated,Demographics
+MARITAL STATUS!!Females 15 years and over!!Widowed,Total number of Females 15 years and over that are Widowed,Demographics
+MARITAL STATUS!!Females 15 years and over!!Divorced,Total number of Females 15 years and overt that are Divorced,Demographics
+SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school,Total Population 3 years and over enrolled in school,Demographics
+"SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool","Population 3 years and over enrolled in nursery school, preschool",Demographics
+SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten,Population 3 years and over enrolled in kindergarten,Demographics
+SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8),Population 3 years and over enrolled in Elementary school (grades 1-8),Demographics
+SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12),Population 3 years and over enrolled in High school (grades 9-12),Demographics
+SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school,Population 3 years and over enrolled in College or graduate school,Demographics
+EDUCATIONAL ATTAINMENT!!Population 25 years and over,Total Population 25 years and over,Demographics
+EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade,Population 25 years and over that completed less than 9th grade,Demographics
+"EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma","Population 25 years and over that completed between 9th to 12th grade, no diploma",Demographics
+EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency),Population 25 years and over that is High school graduate (includes equivalency),Demographics
+"EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree","Population 25 years and over that completed some college, no degree",Demographics
+EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree,Population 25 years and over that has Associate's degree,Demographics
+EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree,Population 25 years and over that has Bachelor's degree,Demographics
+EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree,Population 25 years and over that has Graduate or professional degree,Demographics
+EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher,Population 25 years and over that has High school graduate or higher,Demographics
+EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher,Population 25 years and over that has Bachelor's degree or higher,Demographics
+VETERAN STATUS!!Civilian population 18 years and over,Total Civilian population 18 years and over,Demographics
+VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans,Civilian population 18 years and over that are Civilian veterans,Demographics
+DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population,Total Civilian Noninstitutionalized Population,Demographics
+DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability,Total Civilian Noninstitutionalized Population with a disability,Demographics
+DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years,Total Civilian population under 18 years,Demographics
+DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability,Total Civilian population with disability Under 18 years,Demographics
+DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years,Total Civilian population from 18 to 64 years,Demographics
+DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability,Total Civilian population with disability from 18 to 64 years,Demographics
+DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over,Total Civilian population 65 years and over,Demographics
+DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability,Total Civilian population with disability65 years and over,Demographics
+Less than a high school diploma 2014-18,Number of adults who do not have a high school diploma,Education
+High school diploma only 2014-18,Number of adults who just have a high school diploma,Education
+Some college or associate's degree 2014-18,Number of adults with a college degree below bachelor's,Education
+Bachelor's degree or higher 2014-18,Number of adults who have at least a bachelor's degree,Education
+Percent of adults with less than a high school diploma 2014-18,Percentage of adults who do not have a high school diploma,Education
+Percent of adults with a high school diploma only 2014-18,Percentage of adults who just have a high school diploma,Education
+Percent of adults completing some college or associate's degree 2014-18,Percentage of adults with a college degree below bachelor's,Education
+Percent of adults with a bachelor's degree or higher 2014-18,Percentage of adults who have at least a bachelor's degree,Education
+POVALL_2018,Estimate of people of all ages in poverty 2018,Education
+CI90LBAll_2018,90% confidence interval lower bound of estimate of people of all ages in poverty 2018,Education
+CI90UBALL_2018,90% confidence interval upper bound of estimate of people of all ages in poverty 2018,Education
+PCTPOVALL_2018,Estimated percent of people of all ages in poverty 2018,Education
+CI90LBALLP_2018,90% confidence interval lower bound of estimate of percent of people of all ages in poverty 2018,Education
+CI90UBALLP_2018,90% confidence interval upper bound of estimate of percent of people of all ages in poverty 2018,Education
+POV017_2018,Estimate of people age 0-17 in poverty 2018,Education
+CI90LB017_2018,90% confidence interval lower bound of estimate of people age 0-17 in poverty 2018,Education
+CI90UB017_2018,90% confidence interval upper bound of estimate of people age 0-17 in poverty 2018,Education
+PCTPOV017_2018,Estimated percent of people age 0-17 in poverty 2018,Education
+CI90LB017P_2018,90% confidence interval lower bound of estimate of percent of people age 0-17 in poverty 2018,Education
+CI90UB017P_2018,90% confidence interval upper bound of estimate of percent of people age 0-17 in poverty 2018,Education
+POV517_2018,Estimate of related children age 5-17 in families in poverty 2018,Education
+CI90LB517_2018,90% confidence interval lower bound of estimate of related children age 5-17 in families in poverty 2018,Education
+CI90UB517_2018,90% confidence interval upper bound of estimate of related children age 5-17 in families in poverty 2018,Education
+PCTPOV517_2018,Estimated percent of related children age 5-17 in families in poverty 2018,Education
+CI90LB517P_2018,90% confidence interval lower bound of estimate of percent of related children age 5-17 in families in poverty 2018,Education
+CI90UB517P_2018,90% confidence interval upper bound of estimate of percent of related children age 5-17 in families in poverty 2018,Education
+MEDHHINC_2018,Estimate of median household income 2018,Education
+CI90LBINC_2018,90% confidence interval lower bound of estimate of median household income 2018,Education
+CI90UBINC_2018,90% confidence interval upper bound of estimate of median household income 2018,Education
+Civilian_labor_force_2018 , Civilian labor force annual average,Employment and median household income
+Employed_2018 ,Number employed annual average ,Employment and median household income
+Unemployed_2018 ,Number unemployed annual average ,Employment and median household income
+Unemployment_rate_2018 ,Unemployment rate ,Employment and median household income
+Median_Household_Income_2018 ,"Estimate of Median household Income, 2018 ",Employment and median household income
+Med_HH_Income_Percent_of_State_Total_2018 ,"County Household Median Income as a percent of the State Total Median Household Income, 2018 ",Employment and median household income
+TOT_POP, Total population,Ethnicity
+TOT_MALE, Total male population,Ethnicity
+TOT_FEMALE, Total female population,Ethnicity
+WA_MALE, White alone male population,Ethnicity
+WA_FEMALE, White alone female population,Ethnicity
+BA_MALE, Black or African American alone male population ,Ethnicity
+BA_FEMALE, Black or African American alone female population,Ethnicity
+IA_MALE, American Indian and Alaska Native alone male population,Ethnicity
+IA_FEMALE, American Indian and Alaska Native alone female population,Ethnicity
+AA_MALE, Asian alone male population ,Ethnicity
+AA_FEMALE, Asian alone female population,Ethnicity
+NA_MALE, Native Hawaiian and Other Pacific Islander alone male population,Ethnicity
+NA_FEMALE, Native Hawaiian and Other Pacific Islander alone female population,Ethnicity
+TOM_MALE, Two or More Races male population,Ethnicity
+TOM_FEMALE, Two or More Races female population,Ethnicity
+WAC_MALE, White alone or in combination male population,Ethnicity
+WAC_FEMALE, White alone or in combination female population,Ethnicity
+BAC_MALE, Black or African American alone or in combination male population,Ethnicity
+BAC_FEMALE, Black or African American alone or in combination female population,Ethnicity
+IAC_MALE, American Indian and Alaska Native alone or in combination male population ,Ethnicity
+IAC_FEMALE, American Indian and Alaska Native alone or in combination male population,Ethnicity
+AAC_MALE, Asian alone or in combination male population,Ethnicity
+AAC_FEMALE, Asian alone or in combination female population,Ethnicity
+NAC_MALE, Native Hawaiian and Other Pacific Islander alone or in combination male population,Ethnicity
+NAC_FEMALE, Native Hawaiian and Other Pacific Islander alone or in combination female population,Ethnicity
+NH_MALE, Not Hispanic male population,Ethnicity
+NH_FEMALE, Not Hispanic female population,Ethnicity
+NHWA_MALE," Not Hispanic, White alone male population",Ethnicity
+NHWA_FEMALE," Not Hispanic, White alone female population",Ethnicity
+NHBA_MALE," Not Hispanic, Black or African American alone male population",Ethnicity
+NHBA_FEMALE," Not Hispanic, Black or African American alone female population",Ethnicity
+NHIA_MALE," Not Hispanic, American Indian and Alaska Native alone male population",Ethnicity
+NHIA_FEMALE," Not Hispanic, American Indian and Alaska Native alone female population",Ethnicity
+NHAA_MALE," Not Hispanic, Asian alone male population",Ethnicity
+NHAA_FEMALE," Not Hispanic, Asian alone female population",Ethnicity
+NHNA_MALE," Not Hispanic, Native Hawaiian and Other Pacific Islander alone male population",Ethnicity
+NHNA_FEMALE," Not Hispanic, Native Hawaiian and Other Pacific Islander alone female population",Ethnicity
+NHTOM_MALE," Not Hispanic, Two or More Races male population",Ethnicity
+NHTOM_FEMALE," Not Hispanic, Two or More Races female population",Ethnicity
+NHWAC_MALE," Not Hispanic, White alone or in combination male population",Ethnicity
+NHWAC_FEMALE," Not Hispanic, White alone or in combination female population",Ethnicity
+NHBAC_MALE," Not Hispanic, Black or African American alone or in combination male population",Ethnicity
+NHBAC_FEMALE," Not Hispanic, Black or African American alone or in combination female population",Ethnicity
+NHIAC_MALE," Not Hispanic, American Indian and Alaska Native alone or in combination male population",Ethnicity
+NHIAC_FEMALE," Not Hispanic, American Indian and Alaska Native alone or in combination female population",Ethnicity
+NHAAC_MALE," Not Hispanic, Asian alone or in combination male population",Ethnicity
+NHAAC_FEMALE," Not Hispanic, Asian alone or in combination female population",Ethnicity
+NHNAC_MALE," Not Hispanic, Native Hawaiian and Other Pacific Islander alone or in combination male population",Ethnicity
+NHNAC_FEMALE," Not Hispanic, Native Hawaiian and Other Pacific Islander alone or in combination female population",Ethnicity
+H_MALE, Hispanic male population,Ethnicity
+H_FEMALE, Hispanic female population,Ethnicity
+HWA_MALE," Hispanic, White alone male population",Ethnicity
+HWA_FEMALE," Hispanic, White alone female population",Ethnicity
+HBA_MALE," Hispanic, Black or African American alone male population",Ethnicity
+HBA_FEMALE," Hispanic, Black or African American alone female population",Ethnicity
+HIA_MALE," Hispanic, American Indian and Alaska Native alone male population",Ethnicity
+HIA_FEMALE," Hispanic, American Indian and Alaska Native alone female population",Ethnicity
+HAA_MALE," Hispanic, Asian alone male population",Ethnicity
+HAA_FEMALE," Hispanic, Asian alone female population",Ethnicity
+HNA_MALE," Hispanic, Native Hawaiian and Other Pacific Islander alone male population",Ethnicity
+HNA_FEMALE," Hispanic, Native Hawaiian and Other Pacific Islander alone female population",Ethnicity
+HTOM_MALE," Hispanic, Two or More Races male population",Ethnicity
+HTOM_FEMALE," Hispanic, Two or More Races female population",Ethnicity
+HWAC_MALE," Hispanic, White alone or in combination male population",Ethnicity
+HWAC_FEMALE," Hispanic, White alone or in combination female population",Ethnicity
+HBAC_MALE," Hispanic, Black or African American alone or in combination male population",Ethnicity
+HBAC_FEMALE," Hispanic, Black or African American alone or in combination female population",Ethnicity
+HIAC_MALE," Hispanic, American Indian and Alaska Native alone or in combination male population",Ethnicity
+HIAC_FEMALE," Hispanic, American Indian and Alaska Native alone or in combination female population",Ethnicity
+HAAC_MALE," Hispanic, Asian alone or in combination male population",Ethnicity
+HAAC_FEMALE," Hispanic, Asian alone or in combination female population",Ethnicity
+HNAC_MALE," Hispanic, Native Hawaiian and Other Pacific Islander alone or in combination male population",Ethnicity
+HNAC_FEMALE," Hispanic, Native Hawaiian and Other Pacific Islander alone or in combination female population",Ethnicity
+"Active Physicians per 100,000 Population, 2018 (AAMC)","Active Physicians per 100,000 Population, 2018 (Assumed identical to state)",Healthcare
+"Total Active Patient Care Physicians per 100,000 Population, 2018 (AAMC)","Total Active Patient Care Physicians per 100,000 Population, 2018 (Assumed identical to state)",Healthcare
+"Active Primary Care Physicians per 100,000 Population, 2018 (AAMC)","Active Primary Care Physicians per 100,000 Population, 2018 (Assumed identical to state)",Healthcare
+"Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (AAMC)","Active Patient Care Primary Care Physicians per 100,000 Population, 2018 (Assumed identical to state)",Healthcare
+"Active General Surgeons per 100,000 Population, 2018 (AAMC)","Active General Surgeons per 100,000 Population, 2018 (Assumed identical to state)",Healthcare
+"Active Patient Care General Surgeons per 100,000 Population, 2018 (AAMC)","Active Patient Care General Surgeons per 100,000 Population, 2018 (Assumed identical to state)",Healthcare
+"Percentage of Active Physicians Who Are Female, 2018 (AAMC)","Percentage of Active Physicians Who Are Female, 2018 (Assumed identical to state)",Healthcare
+"Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (AAMC)","Percentage of Active Physicians Who Are International Medical Graduates (IMGs), 2018 (Assumed identical to state)",Healthcare
+"Percentage of Active Physicians Who Are Age 60 or Older, 2018 (AAMC)","Percentage of Active Physicians Who Are Age 60 or Older, 2018 (Assumed identical to state)",Healthcare
+"MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (AAMC)","MD and DO Student Enrollment per 100,000 Population, AY 2018-2019 (Assumed identical to state)",Healthcare
+"Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (AAMC)","Student Enrollment at Public MD and DO Schools per 100,000 Population, AY 2018-2019 (Assumed identical to state)",Healthcare
+"Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (AAMC)","Percentage Change in Student Enrollment at MD and DO Schools, 2008-2018 (Assumed identical to state)",Healthcare
+"Percentage of MD Students Matriculating In-State, AY 2018-2019* (AAMC)","Percentage of MD Students Matriculating In-State, AY 2018-2019 (Assumed identical to state)",Healthcare
+"Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (AAMC)","Total Residents/Fellows in ACGME Programs per 100,000 Population as of December 31, 2018 (Assumed identical to state)",Healthcare
+"Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (AAMC)","Total Residents/Fellows in Primary Care ACGME Programs per 100,000 Population as of Dec. 31, 2018 (Assumed identical to state)",Healthcare
+"Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (AAMC)","Percentage of Residents in ACGME Programs Who Are IMGs as of December 31, 2018 (Assumed identical to state)",Healthcare
+"Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (AAMC)","Ratio of Residents and Fellows (GME) to Medical Students (UME), AY 2017-2018 (Assumed identical to state)",Healthcare
+"Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (AAMC)","Percent Change in Residents and Fellows in ACGME-Accredited Programs, 2008-2018 (Assumed identical to state)",Healthcare
+"Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (AAMC)","Percentage of Physicians Retained in State from Undergraduate Medical Education (UME), 2018 (Assumed identical to state)",Healthcare
+All Specialties (AAMC),All Specialties (Assumed proportion to fraction of state population living in county),Healthcare
+Allergy & Immunology (AAMC),Allergy & Immunology (Assumed proportion to fraction of state population living in county),Healthcare
+Anatomic/Clinical Pathology (AAMC),Anatomic/Clinical Pathology (Assumed proportion to fraction of state population living in county),Healthcare
+Anesthesiology (AAMC),Anesthesiology (Assumed proportion to fraction of state population living in county),Healthcare
+Cardiovascular Disease (AAMC),Cardiovascular Disease (Assumed proportion to fraction of state population living in county),Healthcare
+Child & Adolescent Psychiatry** (AAMC),Child & Adolescent Psychiatry** (Assumed proportion to fraction of state population living in county),Healthcare
+Critical Care Medicine (AAMC),Critical Care Medicine (Assumed proportion to fraction of state population living in county),Healthcare
+Dermatology (AAMC),Dermatology (Assumed proportion to fraction of state population living in county),Healthcare
+Emergency Medicine (AAMC),Emergency Medicine (Assumed proportion to fraction of state population living in county),Healthcare
+"Endocrinology, Diabetes & Metabolism (AAMC)","Endocrinology, Diabetes & Metabolism (Assumed proportion to fraction of state population living in county)",Healthcare
+Family Medicine/General Practice (AAMC),Family Medicine/General Practice (Assumed proportion to fraction of state population living in county),Healthcare
+Gastroenterology (AAMC),Gastroenterology (Assumed proportion to fraction of state population living in county),Healthcare
+General Surgery (AAMC),General Surgery (Assumed proportion to fraction of state population living in county),Healthcare
+Geriatric Medicine*** (AAMC),Geriatric Medicine*** (Assumed proportion to fraction of state population living in county),Healthcare
+Hematology & Oncology (AAMC),Hematology & Oncology (Assumed proportion to fraction of state population living in county),Healthcare
+Infectious Disease (AAMC),Infectious Disease (Assumed proportion to fraction of state population living in county),Healthcare
+Internal Medicine (AAMC),Internal Medicine (Assumed proportion to fraction of state population living in county),Healthcare
+Internal Medicine/Pediatrics (AAMC),Internal Medicine/Pediatrics (Assumed proportion to fraction of state population living in county),Healthcare
+Interventional Cardiology (AAMC),Interventional Cardiology (Assumed proportion to fraction of state population living in county),Healthcare
+Neonatal-Perinatal Medicine (AAMC),Neonatal-Perinatal Medicine (Assumed proportion to fraction of state population living in county),Healthcare
+Nephrology (AAMC),Nephrology (Assumed proportion to fraction of state population living in county),Healthcare
+Neurological Surgery (AAMC),Neurological Surgery (Assumed proportion to fraction of state population living in county),Healthcare
+Neurology (AAMC),Neurology (Assumed proportion to fraction of state population living in county),Healthcare
+Neuroradiology (AAMC),Neuroradiology (Assumed proportion to fraction of state population living in county),Healthcare
+Obstetrics & Gynecology (AAMC),Obstetrics & Gynecology (Assumed proportion to fraction of state population living in county),Healthcare
+Ophthalmology (AAMC),Ophthalmology (Assumed proportion to fraction of state population living in county),Healthcare
+Orthopedic Surgery (AAMC),Orthopedic Surgery (Assumed proportion to fraction of state population living in county) ,Healthcare
+Otolaryngology (AAMC),Otolaryngology (Assumed proportion to fraction of state population living in county),Healthcare
+Pain Medicine & Pain Management (AAMC),Pain Medicine & Pain Management (Assumed proportion to fraction of state population living in county),Healthcare
+Pediatrics** (AAMC),Pediatrics** (Assumed proportion to fraction of state population living in county),Healthcare
+Physical Medicine & Rehabilitation (AAMC),Physical Medicine & Rehabilitation (Assumed proportion to fraction of state population living in county),Healthcare
+Plastic Surgery (AAMC),Plastic Surgery (Assumed proportion to fraction of state population living in county),Healthcare
+Preventive Medicine (AAMC),Preventive Medicine (Assumed proportion to fraction of state population living in county),Healthcare
+Psychiatry (AAMC),Psychiatry (Assumed proportion to fraction of state population living in county),Healthcare
+Pulmonary Disease (AAMC),Pulmonary Disease (Assumed proportion to fraction of state population living in county),Healthcare
+Radiation Oncology (AAMC),Radiation Oncology (Assumed proportion to fraction of state population living in county),Healthcare
+Radiology & Diagnostic Radiology (AAMC),Radiology & Diagnostic Radiology (Assumed proportion to fraction of state population living in county),Healthcare
+Rheumatology (AAMC),Rheumatology (Assumed proportion to fraction of state population living in county),Healthcare
+Sports Medicine (AAMC),Sports Medicine (Assumed proportion to fraction of state population living in county),Healthcare
+Thoracic Surgery (AAMC),Thoracic Surgery (Assumed proportion to fraction of state population living in county),Healthcare
+Urology (AAMC),Urology (Assumed proportion to fraction of state population living in county),Healthcare
+Vascular & Interventional Radiology (AAMC),Vascular & Interventional Radiology (Assumed proportion to fraction of state population living in county),Healthcare
+Vascular Surgery (AAMC),Vascular Surgery (Assumed proportion to fraction of state population living in county),Healthcare
+State/Local Government hospital beds per 1000 people (2019),State/Local Government hospital beds per 1000 people (2019) (Assumed identical to state),Healthcare
+Non-profit hospital beds per 1000 people (2019),Non-profit hospital beds per 1000 people (2019) (Assumed identical to state),Healthcare
+For-profit hospital beds per 1000 people (2019),For-profit hospital beds per 1000 people (2019) (Assumed identical to state),Healthcare
+Total hospital beds per 1000 people (2019),Total hospital beds per 1000 people (2019) (Assumed identical to state),Healthcare
+Total nurse practitioners (2019),Total nurses (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Total physician assistants (2019),Total physical assistants (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Total Hospitals (2019),Total Hospitals (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Internal Medicine Primary Care (2019),Active Internal Medicine Primary Care Physicians (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Family Medicine/General Practice Primary Care (2019),Active Family Medicine/General Practice Primary Care Physicians (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Pediatrics Primary Care (2019),Active Pediatrics Primary Care Physicians (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Obstetrics & Gynecology Primary Care (2019),Active Obstetrics & Gynecology Primary Care Physicians (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Geriatrics Primary Care (2019),Active Geriatrics Primary Care Physicians (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Total Primary Care specialists (2019),"Sum of Internal Medicine, Family Med/General Practice, Pediatrics, OBGYN, and Geriatrics (2019) (Assumed proportion to fraction of state population living in county)",Healthcare
+Psychiatry specialists (2019),Active Psychiatry specialists (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Surgery specialists (2019),Active Surgery specialists (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Anesthesiology specialists (2019),Active Anesthesiology specialists (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Emergency Medicine specialists (2019),Active Emergency Medicine specialists (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Radiology specialists (2019),Active Radiology specialists (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Cardiology specialists (2019),Active Cardiology specialists (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Oncology (Cancer) specialists (2019),Active Oncology (Cancer) specialists (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+"Endocrinology, Diabetes, and Metabolism specialists (2019)","Active Endocrinology, Diabetes, and Metabolism specialists (2019)",Healthcare
+All Other Specialties specialists (2019),All Other Specialties specialists (2019) (Assumed proportion to fraction of state population living in county),Healthcare
+Total specialists (2019),"Sum of Psychiatry, Surgery, Anesthesiology, Emergency Med, Radiology, Cardiology, Oncology, Endocrinology, and Other specialists (2019) (Assumed proportion to fraction of state population living in county)",Healthcare
+ICU Beds , Number of ICU beds per county,Healthcare
+Housing units, Number of housing units as per 2010 census,Housing
+Area in square miles - Total area, Total area in sq. miles as per 2010 census,Housing
+Area in square miles - Water area, Total water area in sq. miles as per 2010 census,Housing
+Area in square miles - Land area, Total land area in sq. miles as per 2010 census,Housing
+Density per square mile of land area - Population, Land area density for population as per 2010 census,Housing
+Density per square mile of land area - Housing units, Land area density for housing units as per 2010 census,Housing
+FIPS, State-County FIPS Code ,Identifying Variables
+State, State Abbreviation ,Identifying Variables
+Area_Name, Area name (State/County) ,Identifying Variables
+Rural-urban_Continuum Code_2013," Rural-urban Continuum Code, 2013 ",Population Estimates
+Urban_Influence_Code_2013," Urban Influence Code, 2013",Population Estimates
+Economic_typology_2015," County economic types, 2015 edition",Population Estimates
+POP_ESTIMATE_2018, 7/1/2018 resident total population estimate ,Population Estimates
+N_POP_CHG_2018, Numeric Change in resident total population 7/1/2017 to 7/1/2018,Population Estimates
+Births_2018,Births in period 7/1/2017 to 6/30/2018,Population Estimates
+Deaths_2018, Deaths in period 7/1/2017 to 6/30/2018,Population Estimates
+NATURAL_INC_2018, Natural increase in period 7/1/2017 to 6/30/2018,Population Estimates
+INTERNATIONAL_MIG_2018, Net international migration in period 7/1/2017 to 6/30/2018,Population Estimates
+DOMESTIC_MIG_2018, Net domestic migration in period 7/1/2017 to 6/30/2018,Population Estimates
+NET_MIG_2018, Net migration in period 7/1/2017 to 6/30/2018,Population Estimates
+RESIDUAL_2018, Residual for period 7/1/2017 to 6/30/2018,Population Estimates
+GQ_ESTIMATES_2018, 7/1/2018 Group Quarters total population estimate,Population Estimates
+R_birth_2018, Birth rate in period 7/1/2017 to 6/30/2018,Population Estimates
+R_death_2018, Death rate in period 7/1/2017 to 6/30/2018,Population Estimates
+R_NATURAL_INC_2018, Natural increase rate in period 7/1/2016 to 6/30/2017,Population Estimates
+R_INTERNATIONAL_MIG_2018, Net international migration rate in period 7/1/2017 to 6/30/2018,Population Estimates
+R_DOMESTIC_MIG_2018, Net domestic migration rate in period 7/1/2017 to 6/30/2018,Population Estimates
+R_NET_MIG_2018, Net migration rate in period 7/1/2017 to 6/30/2018,Population Estimates
+transit_scores - population weighted averages aggregated from town/city level to county, Transit scores - how well a location is served by public transit,Transit Scores
