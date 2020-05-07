@@ -104,6 +104,6 @@ def parse_Rt_for_counties(max_date_='05/07/20'):
 
 
 if __name__ == '__main__':
-    #parse_Rt_for_states('05/07/20')
-    parse_Rt_for_counties('05/07/20')
+    parse_Rt_for_states('05/04/20')
+    parse_Rt_for_counties('05/04/20')
 
