@@ -904,7 +904,7 @@ class Formatter():
           continue
 
         fips = row[4].split('.')[0].zfill(5)
-        if fips not in self.fips_codes:
+        if fips not in self.fips_codes or fips == '00000':
           continue
         if fips[0] == '0':
             fips = fips[1:]

@@ -1,25 +1,25 @@
 ![](https://github.com/JieYingWu/COVID-19_US_County-level_Summaries/blob/master/npi-model/results/plots/states.gif)
 ## This Weeks Predications
 
-| Washington State | 04/22/20 | 04/23/20 | 04/24/20 | 04/25/20 | 04/26/20 | 04/27/20 | 04/28/20 |
+| Washington State | 05/07/20 | 05/08/20 | 05/09/20 | 05/10/20 | 05/11/20 | 05/12/20 | 05/13/20 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Cases |  119453  |  124773  |  130347  |  136185  |  142303  |  148713  |  155432  |
-| Deaths |  444  |  462  |  482  |  502  |  523  |  545  |  568  |
+| Cases |  228121  |  238986  |  250405  |  262406  |  275020  |  288282  |  291  |
+| Deaths |  799  |  835  |  872  |  911  |  952  |  995  |  0  |
 
-| New York State | 04/22/20 | 04/23/20 | 04/24/20 | 04/25/20 | 04/26/20 | 04/27/20 | 04/28/20 |
+| New York State | 05/07/20 | 05/08/20 | 05/09/20 | 05/10/20 | 05/11/20 | 05/12/20 | 05/13/20 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Cases |  16717555  |  19316150  |  22321298  |  25797001  |  29817398  |  34468380  |  39849460  |
-| Deaths |  10212  |  11781  |  13590  |  15678  |  18089  |  20872  |  24085  |
+| Cases |  130627254  |  151216998  |  175070684  |  202708629  |  234734556  |  271849031  |  314865087  |
+| Deaths |  77309  |  89339  |  103252  |  119344  |  137959  |  159495  |  184411  |
 
-| Maryland | 04/22/20 | 04/23/20 | 04/24/20 | 04/25/20 | 04/26/20 | 04/27/20 | 04/28/20 |
+| Maryland | 05/07/20 | 05/08/20 | 05/09/20 | 05/10/20 | 05/11/20 | 05/12/20 | 05/13/20 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Cases |  7534  |  7657  |  7784  |  7914  |  8048  |  8185  |  8327  |
-| Deaths |  56  |  58  |  59  |  61  |  62  |  63  |  64  |
+| Cases |  12650  |  12978  |  13318  |  13670  |  14034  |  14411  |  14802  |
+| Deaths |  84  |  86  |  88  |  90  |  92  |  94  |  96  |
 
-| California | 04/22/20 | 04/23/20 | 04/24/20 | 04/25/20 | 04/26/20 | 04/27/20 | 04/28/20 |
+| California | 05/07/20 | 05/08/20 | 05/09/20 | 05/10/20 | 05/11/20 | 05/12/20 | 05/13/20 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Cases |  34909  |  36594  |  38366  |  40227  |  42184  |  44241  |  46403  |
-| Deaths |  119  |  125  |  131  |  137  |  143  |  150  |  157  |
+| Cases |  66759  |  70048  |  73507  |  77146  |  80975  |  85005  |  89245  |
+| Deaths |  225  |  236  |  247  |  259  |  271  |  284  |  297  |
 
 This repository is a Python port of the model proposed by report 13 from the MRC Centre for Global Infectious Disease Analysis, Imperial College London. The original code in R is available at: https://github.com/ImperialCollegeLondon/covid19model. Since we started the project, they have also added Python support and a notebook. We keep our code for its additional visualizations in Python and integration with our US county-level dataset. We also use their data here to validate our model, that we can reproduce their results. 
 
