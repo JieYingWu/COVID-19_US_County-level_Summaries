@@ -68,9 +68,9 @@ def plot_forecasts_wo_dates_quantiles(quantiles_dict, confirmed_cases, county_na
     # plot creation
     fig = plt.figure('Forecast ')
     ax = fig.add_subplot(111)
-    ax.fill_between(date_list, quantiles_dict['2.5%'], quantiles_dict['97.5%'], alpha=0.25, color='b')
-    ax.fill_between(date_list, quantiles_dict['25%'], quantiles_dict['75%'], alpha=0.2, color='b')
-    ax.bar(date_list, barplot_values, color='r', width=0.9, alpha=0.3)
+    ax.fill_between(date_list, quantiles_dict['2.5%'], quantiles_dict['97.5%'], alpha=0.25, color='#FDBD84')
+    ax.fill_between(date_list, quantiles_dict['25%'], quantiles_dict['75%'], alpha=0.2, color='#FBE7C5')
+    ax.bar(date_list, barplot_values, color=' #666666', width=0.9, alpha=0.3)
     ax.set_ylabel("Daily number of {}".format(metric))
     ax.set_xlabel("Date")
 
