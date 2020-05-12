@@ -13,8 +13,22 @@ def to_fips(row):
 # https://www2.census.gov/programs-surveys/popest/datasets/2010-2018/counties/asrh/
 census_data = pd.read_csv(join('data', 'us_data', 'cc-est2018-alldata.csv'), encoding="ISO-8859-1")
 census_data = census_data[census_data['YEAR'] == 11]
-census_data = census_data[['STATE', 'COUNTY', 'STNAME', 'CTYNAME', 'AGEGRP', 'TOT_POP']]
+ind = ['STATE', 'COUNTY', 'STNAME', 'CTYNAME', 'AGEGRP', 'TOT_POP']
+census_data = census_data[ind]
+
+# add rows for state level by aggregating the counties of each state
+states = np.unique(census_data['STATE'])
+state_names = np.unique(census_data['STNAME'])
+for state, state_name in zip(states, state_names):
+    # add total population per age group over all counties of that state
+    state_data = census_data[census_data['STATE'] == state]
+    for age_group in range(19):
+        total = state_data[state_data['AGEGRP'] == age_group]['TOT_POP'].sum()
+        new_row = pd.Series([state, 0.0, state_name, 'NA', age_group, total], index=ind)
+        census_data = census_data.append(new_row, ignore_index=True)
+        
 census_data['FIPS'] = census_data.apply(to_fips, axis=1)
+census_data = census_data.sort_values(by=['FIPS', 'AGEGRP'])
 share = census_data.pivot_table(index=['FIPS'], columns=['AGEGRP'], values=['TOT_POP'])
 share = share.divide(share[('TOT_POP', 0)], axis=0)
 
