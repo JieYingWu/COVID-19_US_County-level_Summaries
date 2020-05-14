@@ -25,7 +25,7 @@ def plot_states(df, date):
 
 def main():
     visualizations_dir = '../results/plots/states_r/'
-    df = pd.read_csv('../data/us_data/Dt_data_states.csv', delimiter=',')
+    df = pd.read_csv('../data/us_data/Rt_data_states.csv', delimiter=',')
     col_names = list(df.columns.values)[2:]
     for date in col_names:
         fig = plot_states(df, date)
