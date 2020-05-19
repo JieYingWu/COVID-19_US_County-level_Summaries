@@ -3,8 +3,6 @@
 * `counties.csv` contains demographic, socioeconomic, health care, education and transit data for
   each county in the 50 states and Washington DC. Note that this also includes analogous data for
   states, as available.
-* `counties_only.csv` contains the same columns for counties only.
-* `states_only.csv` contains the same columns for the fifty states and DC.
 * `infections_timeseries.csv` contains an county-level timeseries of cumulative COVID-19 infections
   in the US.
 * `deaths_timeseries.csv` contains analogous information for COVID-19 related deaths.  **Note**
