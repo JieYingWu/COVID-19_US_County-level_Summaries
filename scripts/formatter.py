@@ -85,7 +85,7 @@ class Formatter():
     'transit',
     'crime'
   ]
-  
+
   national_data_skiprows = {
     'population': 2,
     'education': 4,
@@ -116,7 +116,7 @@ class Formatter():
   national_data_delimiters = {'demographics': ';',
                               'transit': ';',
                               'crime': ';'}
-  
+
   national_data_which_columns = OrderedDict([
     ('population', [
       0,                        # FIPS
@@ -142,7 +142,7 @@ class Formatter():
       140,                      # R_DOMESTIC_MIG_2018
       148                       # R_NET_MIG_2018
     ]),
-    
+
     ('education', [
       39,                       # Less than a high school diploma, 2014-18
       40,                       # High school diploma only, 2014-18
@@ -153,7 +153,7 @@ class Formatter():
       45,                       # Percent of adults completing some college or associate's degree, 2014-18
       46                        # Percent of adults with a bachelor's degree or higher, 2014-18
     ]),
-    
+
     ('poverty', [
       7,                        # POVALL_2018
       8,                        # CI90LBAll_2018
@@ -177,7 +177,7 @@ class Formatter():
       26,                       # CI90LBINC_2018
       27                        # CI90UBINC_2018
     ]),
-    
+
     ('unemployment', [
       50,                      # Civilian_labor_force_2018
       51,                      # Employed_2018
@@ -186,7 +186,7 @@ class Formatter():
       54,                      # Median_Household_Income_2018
       55                       # Med_HH_Income_Percent_of_State_Total_2018
     ]),
-    
+
     ('climate', [
       1,                        # Jan Precipitation / inch
       2,                        # Feb Precipitation / inch
@@ -237,7 +237,7 @@ class Formatter():
       47,                       # Nov Temp Max / F
       48                        # Dec Temp Max / F
     ]),
-    
+
     ('density', [
       8,                        # Housing units
       9,                        # Area in square miles - Total area
@@ -246,7 +246,7 @@ class Formatter():
       12,                       # Density per square mile of land area - Population
       13                        # Density per square mile of land area - Housing units
     ]),
-    
+
     ('demographics', [
       3,                      #  Total_Male
       4,                      #  Total_Female
@@ -507,7 +507,7 @@ class Formatter():
     for idx in national_data_which_columns[k]:
       national_data_column_mapping[k][idx] = i
       i += 1
-  
+
   def __init__(self, args):
     self.args = args
     for k, v in args.__dict__.items():
@@ -526,19 +526,19 @@ class Formatter():
       'transit': join(self.raw_data_dir, 'national', 'transit_scores.csv'),
       'crime': join(self.raw_data_dir, 'national', 'crime_data.csv')
     }
-    
+
     self._make_reference()
     # self._write_reference()
 
   def _get_key(self, key):
     return key.lower().strip()
-    
+
   def _get_state(self, x):
     """Get the standard state abbreviation.
 
     :param state: String identifying state.
-    :returns: 
-    :rtype: 
+    :returns:
+    :rtype:
 
     """
     if x in self.abbreviations:
@@ -563,14 +563,14 @@ class Formatter():
       rows = iter(csv.reader(file, delimiter=','))
       for _ in range(self.national_data_skiprows['population'] + 1):
         next(rows)
-      
+
       for i, row in enumerate(rows):
         if all(map(lambda x: x == '', row)):
           break
         fips = row[0]
         state = self._get_state(row[1])
         area = self._get_key(row[2])
-        
+
         self.fips_codes[fips] = area
         self.fips_order.append(fips)
         self.fips_indices[fips] = i
@@ -583,14 +583,14 @@ class Formatter():
           self.state_to_fips_codes[state] = self.state_to_fips_codes.get(state, []) + [fips]
           self.state_to_fips_codes['US'] = self.state_to_fips_codes.get('US', []) + [fips]
         self.populations[fips] = int(row[18].replace(',', '')) # POP_ESTIMATE_2018
-          
+
   def _write_reference(self):
     with open(join(self.data_dir, 'counties_order.csv'), 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
       for fips, area in self.fips_codes.items():
         state = self.fips_to_state[fips]
         writer.writerow([fips, area, state])
-        
+
   def _get_fips(self, x, key=None, default=None):
     """Get the 5 digit FIPS string from x, which could be a couple things.
 
@@ -601,14 +601,14 @@ class Formatter():
     - a (state, county name) pair
 
     :param x: the value
-    :returns: 
-    :rtype: 
+    :returns:
+    :rtype:
 
     """
 
     if isinstance(x, list) and key is not None:
       # assume fips in first column unless otherwise noted
-      return self._get_fips(x[self.fips_columns.get(key, 0)])  
+      return self._get_fips(x[self.fips_columns.get(key, 0)])
     elif isinstance(x, dict) and key is not None:
       if x.get(key, None) is None:
         return default
@@ -628,13 +628,13 @@ class Formatter():
       return self._get_fips(fips + ''.join(['0'] * (5 - len(fips))))
     else:
       return default
-    
+
   def _is_county(self, x):
     """Tell whether the area x is a county equivalent.
 
     :param x: an area identifier, e.g. fips string
-    :returns: 
-    :rtype: 
+    :returns:
+    :rtype:
 
     """
     fips = self._get_fips(x)
@@ -645,8 +645,8 @@ class Formatter():
     """
 
     :param x: an fips code
-    :returns: 
-    :rtype: 
+    :returns:
+    :rtype:
 
     """
     fips = self._get_fips(x)
@@ -654,24 +654,37 @@ class Formatter():
 
   def unify_climate_data(self):
     # requires datafiles downloaded from ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/
-    filenames = [join(self.raw_data_dir, 'national', 'Climate', 'climdiv-pcpncy-v1.0.0-20200304'),
-                 join(self.raw_data_dir, 'national', 'Climate', 'climdiv-tmpccy-v1.0.0-20200304'),
-                 join(self.raw_data_dir, 'national', 'Climate', 'climdiv-tmaxcy-v1.0.0-20200304'),
-                 join(self.raw_data_dir, 'national', 'Climate', 'climdiv-tmincy-v1.0.0-20200304')]
+    filenames = [join(self.raw_data_dir, 'national', 'Climate', 'climdiv-pcpncy-v1.0.0-20200504'),
+                 join(self.raw_data_dir, 'national', 'Climate', 'climdiv-tmpccy-v1.0.0-20200504'),
+                 join(self.raw_data_dir, 'national', 'Climate', 'climdiv-tmaxcy-v1.0.0-20200504'),
+                 join(self.raw_data_dir, 'national', 'Climate', 'climdiv-tmincy-v1.0.0-20200504')]
     labels = ['Precipitation / inch', 'Temp AVG / F', 'Temp Min / F', 'Temp Max / F']
     months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+    # State ID to FIPS mapping
+    fips_map_file = join(self.raw_data_dir, 'national','Climate','fips_conversionTable.csv')
+
+    with open(fips_map_file, newline='') as fipsFile:
+        readData = np.array(list(csv.reader(fipsFile,delimiter=',')))
+        fipsMap = dict(readData[1:])
+
     out = OrderedDict()  # fips to row
     for filename, label in zip(filenames, labels):
       with open(filename, 'r', newline='') as file:
         reader = csv.reader(file, delimiter=' ')
         for row in reader:
-          fips = row[0][:5]
+          fips_raw = row[0][:5]
+          stateID = fips_raw[:2]
+          fips = fipsMap[stateID] + fips_raw[2:]
+          #print(fips)
+
           if out.get(fips, None) is None:
             out[fips] = {}
           year = int(row[0][7:11])
           if year != 2019:
             continue
           out[fips][label] = [x for x in row[1:] if x != '']
+
 
     # collect data from each state
     state_averages = {}
@@ -729,7 +742,7 @@ class Formatter():
         delimiter = self.national_data_delimiters.get(k, ',')
         reader = csv.reader(file, delimiter=delimiter)
         for i, row in enumerate(reader):
-          if i < self.national_data_skiprows[k]:            
+          if i < self.national_data_skiprows[k]:
             continue
 
           if i == self.national_data_skiprows[k]:
@@ -754,7 +767,7 @@ class Formatter():
             # get rid of r values
             for j in range(len(values)):
               values[j] = re.sub(r'\(r\d+\)', '', values[j])
-          
+
           if k == 'unemployment':
             # fix the median household income dollar sign
             values[self.national_data_column_mapping[k][54]] = values[
@@ -772,17 +785,17 @@ class Formatter():
           national_data[fips][k] = values
 
     return national_data
-    
+
   def make_national_data(self):
     """Make the national data.
 
-    :returns: 
-    :rtype: 
+    :returns:
+    :rtype:
 
     """
 
     self.national_data = self.parse_national_data()
-    
+
     # write to csv
     with open(join(self.data_dir, 'counties_only.csv'), 'w', newline='') as counties_file, \
          open(join(self.data_dir, 'states_only.csv'), 'w', newline='') as states_file, \
@@ -804,23 +817,23 @@ class Formatter():
 
         # write to both files
         writer.writerow(row)
-        
+
         # write the row to counties or states (which includes the US)
         if self._is_county(fips):
           num_counties += 1
           counties_writer.writerow(row)
-          
+
           # record availability data
           for j, label in enumerate(na_counties):
             if row[j] == 'NA':
               na_counties[label] += 1
-              
+
         elif self._is_state(fips):
           num_states += 1
           states_writer.writerow(row)
         else:
           raise RuntimeError(f'neither state nor county: {row[:3]}')
-          
+
       num_columns = len(row)
       print(f'wrote {num_columns} data columns for {num_counties} counties, {num_states} states')
 
@@ -836,9 +849,9 @@ class Formatter():
           na_counties[label],
           f'{counties_available / num_counties:.04f}',
           f'{na_counties[label] / num_counties:.04f}'])
-      
+
       print(f'wrote availability data')
-      
+
   def _read_cases_data(self, infections_filename, deaths_filename, recovered_filename):
     def load(filename):
       data = {}
@@ -864,7 +877,7 @@ class Formatter():
             x += data.get(fips, np.zeros_like(x))
           data[self._get_fips(state)] = x
       return data
-      
+
     # mapping from fips to numpy array giving timeseries for each.
     infections = load(infections_filename)
     deaths = load(deaths_filename)
@@ -881,10 +894,10 @@ class Formatter():
 
     Some rows are not for  counties, e.g. Diamond Princess. We do not copy these over.
 
-    :param src_filename: 
-    :param dst_filename: 
-    :returns: 
-    :rtype: 
+    :param src_filename:
+    :param dst_filename:
+    :returns:
+    :rtype:
 
     """
     with open(src_filename, 'r', newline='') as src_file, \
@@ -897,7 +910,7 @@ class Formatter():
             writer.writerow(['FIPS'] + [row[10]] + row[12:])
           else:
             writer.writerow(['FIPS'] + row[10:])
-          
+
         if all(map(lambda x : x == '', row)):
           continue
         if len(row[0]) != 8 or row[0][:3] != '840':
@@ -913,8 +926,8 @@ class Formatter():
         else:
             row = [fips] + [row[10].replace(',', ' -')] + row[11:]
         writer.writerow(row)
-        
-  
+
+
   def make_cases_data(self):
     """Solve for beta and gamma for each county.
 
@@ -924,8 +937,8 @@ class Formatter():
 
     FIPS, beta, gamma
 
-    :returns: 
-    :rtype: 
+    :returns:
+    :rtype:
 
     """
     # mapping from fips to numpy array giving timeseries for each, starting from the first day with
@@ -934,7 +947,7 @@ class Formatter():
                                'time_series_covid19_confirmed_US.csv')
     deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections_time_series',
                            'time_series_covid19_deaths_US.csv')
-        
+
     self.copy_cases_data(infections_filename, join(self.data_dir, 'infections_timeseries.csv'))
     self.copy_cases_data(deaths_filename, join(self.data_dir, 'deaths_timeseries.csv'))
 
@@ -943,7 +956,7 @@ class Formatter():
          open(dst_filename, 'w', newline='') as dst_file:
       reader = csv.reader(src_file, delimiter=',')
       writer = csv.writer(dst_file, delimiter=',')
-      
+
       for i, row in enumerate(reader):
         if all(map(lambda x : x == '', row)):
           continue
@@ -988,14 +1001,14 @@ class Formatter():
     infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_time_series_JHU.csv')
     deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_time_series_JHU.csv')
     recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_time_series_JHU.csv')
-    
+
     infections, deaths, recovered = self._read_cases_data(infections_filename, deaths_filename, recovered_filename)
 
     filename = join(self.data_dir, 'filtered_cases_and_deaths.csv')
     with open(filename, 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
       # writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'infected', 'beta', 'gamma'])
-      
+
       for fips in self.fips_codes:
         area = self.fips_codes.get(fips, 'NA')
         state = self.fips_to_state.get(fips, 'NA')
@@ -1027,14 +1040,14 @@ class Formatter():
     infections_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'cases_time_series_JHU.csv')
     deaths_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'deaths_time_series_JHU.csv')
     recovered_filename = join(self.raw_data_dir, 'national', 'JHU_Infections', 'recovered_time_series_JHU.csv')
-    
+
     infections, deaths, recovered = self._read_cases_data(infections_filename, deaths_filename, recovered_filename)
 
     filename = join(self.data_dir, 'filtered_cases_and_deaths_states.csv')
     with open(filename, 'w', newline='') as file:
       writer = csv.writer(file, delimiter=',')
 #      writer.writerow(['FIPS', 'STATE', 'AREA_NAME', 'infected', 'beta', 'gamma'])
-      
+
       for fips in self.fips_codes:
         area = self.fips_codes.get(fips, 'NA')
         state = self.fips_to_state.get(fips, 'NA')
@@ -1052,13 +1065,13 @@ class Formatter():
         to_write.extend(deaths[fips])
         if self._is_state(fips):
           writer.writerow(to_write)
-          
+
   def intervention_to_ordinal(self):
     # t0 = datetime.date(2020, 2, 29).toordinal()
 
     months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     months = dict(zip(months, range(1, len(months) + 1)))
-    
+
     def date_to_ordinal(x):
       x = x.split('-')
       month = months[x[1]]
@@ -1071,7 +1084,7 @@ class Formatter():
       # else:
       #   print('Invalid month')
       #   exit()
-    
+
     interventions_filename = join(self.raw_data_dir, 'national', 'public_implementations_fips.csv')
     data = {}
     with open(interventions_filename, 'r', newline='') as file:
@@ -1089,7 +1102,7 @@ class Formatter():
       writer = csv.writer(file, delimiter=',')
       labels = ['FIPS', 'STATE', 'AREA_NAME', 'stay at home', '>50 gatherings', '>500 gatherings', 'public schools', 'restaurant dine-in', 'entertainment/gym', 'federal guidelines', 'foreign travel ban']
       writer.writerow(labels)
-      
+
       for fips in self.fips_codes:
         area = self.fips_codes.get(fips, 'NA')
         state = self.fips_to_state.get(fips, 'NA')
@@ -1102,28 +1115,28 @@ class Formatter():
 
     return data
 
-          
+
 def main():
   parser = argparse.ArgumentParser(description='data formatter')
-  
+
   # file settings
   parser.add_argument('--raw-data-dir', default='./raw_data', help='directory containing raw data')
   parser.add_argument('--data-dir', default='./data', help='directory to write formatted data to')
   parser.add_argument('--threshold', default='20', help='threshold for relevant counties')
-    
+
   args = parser.parse_args()
 
   # run
   formatter = Formatter(args)
-  # formatter.unify_climate_data() # only run if data files present, see function for which files
-  # formatter.make_national_data()
+  formatter.unify_climate_data() # only run if data files present, see function for which files
+  formatter.make_national_data()
   # formatter.make_cases_data()
   # formatter.filter_data()
   # formatter.filter_data_states()
-  formatter.intervention_to_ordinal()
+  #formatter.intervention_to_ordinal()
   # formatter.make_out_of_home_activity()
 
-  
+
 if __name__ == '__main__':
   main()
-  
+

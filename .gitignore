@@ -7,8 +7,11 @@ model/checkpoints/*
 writing
 raw_data/national/Climate/climdiv/
 raw_data/national/Climate/climdiv-*-v1.0.0-20200304
+raw_data/national/Climate/climdiv-*
 *.#*
 .idea/
 **.ipynb_checkpoints
 **raw_data/national/SafeGraph/
 **data/out_of_home_activity
+*.swp
+*.swo
