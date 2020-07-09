@@ -18,7 +18,7 @@ import datetime
 date = datetime.date.fromordinal(ordinal_date)
 print(date.month, date.day, date.year)
 ```
-* `tmp_interventions.csv` is an updated version of the `interventions.csv`, includes reopenings data.
+  It has now been updated to include intervention rollbacks. Any type of restaurant or gym reopening was taken as the rollback date (ex. the county could have reopened at 25% capacity and only outdoor, all the way to business as usual)
 * `counties_order.csv` contains the FIPS codes and county name for each of these counties. FIPS
   codes are unambiguous identifiers for each county, since the same county name may appear in many
   states. See [this list](https://www.wikiwand.com/en/List_of_the_most_common_U.S._county_names)
