@@ -18,6 +18,7 @@ import datetime
 date = datetime.date.fromordinal(ordinal_date)
 print(date.month, date.day, date.year)
 ```
+  It has now been updated to include intervention rollbacks. Any type of restaurant or gym reopening was taken as the rollback date (ex. the county could have reopened at 25% capacity and only outdoor, all the way to business as usual)
 * `counties_order.csv` contains the FIPS codes and county name for each of these counties. FIPS
   codes are unambiguous identifiers for each county, since the same county name may appear in many
   states. See [this list](https://www.wikiwand.com/en/List_of_the_most_common_U.S._county_names)
@@ -90,3 +91,86 @@ print(date.month, date.day, date.year)
     * https://www.washingtonian.com/2020/03/23/virginia-restaurants-and-bars-close-for-dine-in-service-to-help-curb-coronavirus/
     * https://trib.com/news/state-and-regional/health/wyoming-governor-announces-statewide-business-closures-in-response-to-coronavirus/article_fd9b3090-536e-5e55-902e-0585322740a2.html
     * https://www.nytimes.com/2020/03/12/world/europe/trump-travel-ban-coronavirus.html
+    * https://covid19.alaska.gov/wp-content/uploads/2020/05/05142020-Reopen-Alaska-Plan.pdf
+    * https://abc7news.com/sonoma-county-restaurants-napa-newsoms-plan-to-reopen-california-when/6178845/
+    * http://www.calaverasenterprise.com/news/coronavirus_information/article_da41af68-9577-11ea-affd-fb8bc483a30b.html
+    * http://www.acphd.org/2019-ncov/shelter-in-place.aspx
+    * https://abc7news.com/reopening-california-monterey-tourism-shelter-in-place-carmel-by-the-sea/6257886/
+    * https://www.latimes.com/california/story/2020-05-12/coronavirus-beaches-reopen-los-angeles-county-move-toward-new-normal
+    * https://covid19.lacounty.gov/covid19-news/nail-salons-spas-tattoo-shops-casinos-bars-and-wineries-reopening-with-safeguards/
+    * https://sf.gov/step-by-step/reopening-san-francisco
+    * https://www.smcgov.org/smc-reopening
+    * https://abc7news.com/santa-cruz-beaches-reopen-covid-is-open-coronavirus/6243867/
+    * https://www.visaliatimesdelta.com/story/news/2020/05/27/tulare-county-meets-readiness-criteria-can-reopen-pending-state-approval/5263823002/
+    * https://portal.ct.gov/-/media/DECD/Covid_Business_Recovery-Phase-2/Amusement_Parks_C3_V1.pdf
+    * https://coronavirus.delaware.gov/reopening/phase2/
+    * https://coronavirus.dc.gov/phasetwo
+    * https://twitter.com/govrondesantis/status/1261369779035623425?lang=en
+    * https://floridahealthcovid19.gov/plan-for-floridas-recovery/
+    * https://www.11alive.com/article/news/health/coronavirus/georgia-reopening-dates-plan-kemp/85-1df2aa97-48fd-4cf8-a9fd-afbd8c73dfcf
+    * https://rebound.idaho.gov/stages-of-reopening/
+    * https://www.pantagraph.com/news/state-and-regional/illinois-stay-at-home-order-ends-and-restrictions-lifted-on-churches-as-the-state-advances/article_71393207-40a5-58cf-a658-c580da3d437d.html
+    * https://wcfcourier.com/news/local/govt-and-politics/update-watch-now-iowa-to-reopen-restaurants-friday/article_7636be19-9dec-5cb9-8344-29c6aafd0196.html
+    * https://www.thegazette.com/subject/news/business/gyms-working-up-a-sweat-to-reopen-friday-20200514
+    * https://gov.louisiana.gov/index.cfm/newsroom/detail/2573
+    * https://conduitstreet.mdcounties.org/2020/05/15/marylands-reopening-status-by-county/
+    * https://www.aacounty.org/coronavirus/road-to-recovery/
+    * https://baltimore.cbslocal.com/reopening-maryland-whats-open-whats-closed-county-by-county/
+    * https://www.baltimorecountymd.gov/News/BaltimoreCountyNow/baltimore-county-to-fully-enter-stage-one-reopening
+    * https://www.charlescountymd.gov/services/health-and-human-services/covid-19
+    * https://health.frederickcountymd.gov/621/Recovery
+    * https://www.howardcountymd.gov/News/ArticleID/2007/Coronavirus-Updates-Howard-County-Aligns-with-Governor%E2%80%99s-Phase-2-Reopening-Contact-Tracing-Campaign
+    * https://www.montgomerycountymd.gov/covid19/news/index.html
+    * https://www.princegeorgescountymd.gov/Archive.aspx?AMID=142
+    * https://www.mass.gov/info-details/safety-standards-and-checklist-restaurants
+    * https://mn.gov/covid19/for-minnesotans/stay-safe-mn/stay-safe-plan.jsp
+    * https://governor.mo.gov/show-me-strong-recovery-plan-guidance-and-frequently-asked-questions
+    * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
+    * https://www.sos.mo.gov/library/reference/orders/2020/eo12
+    * https://stlpartnership.com/details-on-state-stl-county-and-city-of-stl-reopening/
+    * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
+    * https://www.thegazette.com/subject/news/business/gyms-working-up-a-sweat-to-reopen-friday-20200514
+    * https://www.newmexico.gov/2020/05/28/governor-announces-limited-reopening-for-dine-in-restaurants-indoor-malls-gyms-salons-and-more/
+    * https://www.usnews.com/news/best-states/new-mexico/articles/2020-05-25/new-mexico-governor-blocks-plans-to-reopen-drive-in-theater
+    * https://nymag.com/intelligencer/2020/07/when-will-new-york-reopen-phases-and-full-plan-explained.html
+    * https://www1.nyc.gov/nycbusiness/article/nyc-restaurant-reopening-guide
+    * https://www.governor.ny.gov/news/governor-cuomo-announces-outdoor-dining-restaurants-will-be-permitted-phase-two-reopening
+    * https://www.nbcnewyork.com/news/local/hundreds-of-restaurants-expected-to-reopen-on-long-island-as-phase-ii-begins-cuomo-shifts-metrics-focus/2454500/
+    * https://www.dailyfreeman.com/news/local-news/phase-2-starts-tuesday-in-mid-hudson-region-outdoor-dining-at-restaurants-haircuts-in-store/article_afba1bea-a9a4-11ea-bf5a-677d5abe84e2.html
+    * https://www.governor.ny.gov/news/governor-cuomo-announces-capital-region-cleared-global-public-health-experts-enter-phase-4
+    * https://www.governor.ny.gov/news/governor-cuomo-announces-five-regions-track-enter-phase-iv-reopening-friday
+    * https://spectrumlocalnews.com/nys/buffalo/politics/2020/06/29/western-new-york-begins-phase-4-reopening-tuesday-
+    * https://www.dailyfreeman.com/news/local-news/mid-hudson-region-starts-phase-4-of-reopening-process-on-tuesday/article_bf23d59c-bf9f-11ea-bd04-979c464b1ebc.html
+    * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
+    * https://www.newsobserver.com/news/coronavirus/article242836711.html
+    * https://www.usnews.com/news/best-states/north-dakota/articles/2020-05-01/north-dakota-cafes-other-businesses-reopen-under-new-rules
+    * https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/governor-reopen-certain-facilities
+    * https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/reopening-restaurants-bars-personal-care-services
+    * https://govstatus.egov.com/reopening-oregon#countyStatuses
+    * https://www.clackamas.us/coronavirus/updates
+    * https://www.co.marion.or.us/HLT/COVID-19/Pages/Reopening.aspx
+    * https://www.co.polk.or.us/ph/covid-19-news
+    * https://www.oregon.gov/newsroom/Pages/NewsDetail.aspx?newsid=36806
+    * https://www.kgw.com/article/news/health/coronavirus/these-oregon-counties-have-been-approved-for-phase-1-of-reopening/283-b24c4243-bb25-43e7-bafa-75e5126a71a0
+    * https://www.wgal.com/article/pennsylvania-counties-reopening-coronavirus/32343176#
+    * https://www.governor.pa.gov/newsroom/gov-wolf-12-more-counties-to-move-to-yellow-phase-on-may-22/
+    * https://www.pahomepage.com/news/wolf-announces-next-counties-to-move-to-yellow-phase/
+    * https://www.mcall.com/coronavirus/mc-nws-coronavirus-pa-counties-reopening-20200509-hqwbnzot5bb6tlw3g3j7qalxhq-story.html
+    * https://www.ddec.pr.gov/covid19_informaciongeneral/ 
+    * https://governor.sc.gov/news/2020-05/gov-henry-mcmaster-restaurants-are-able-open-limited-dine-services-monday-may-11
+    * https://governor.sc.gov/news/2020-05/gov-henry-mcmaster-announces-additional-businesses-gyms-pools-are-able-open-monday-may
+    * https://www.wsmv.com/news/tennessee-releases-new-guidelines-for-reopening-restaurants-retail-and-large-attractions/article_0f74cd22-9ad3-11ea-9f03-e3784e1e4029.html
+    * https://www.knoxnews.com/story/news/health/2020/06/17/knox-county-moves-align-state-coronavirus-reopening-plan/3205652001/
+    * https://www.wjhl.com/local-coronavirus-coverage/sullivan-county-health-officials-mirroring-gov-lees-plan-to-reopen-businesses/
+    * https://www.wmcactionnews5.com/2020/06/14/shelby-county-begin-phase-reopening-monday/
+    * https://www.asafenashville.org/roadmap-for-reopening-nashville/
+    * https://coronavirus-download.utah.gov/Governor/Utah_Leads_Together_3.0_May2020_v20.pdf
+    * https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/Forward-Virginia-Phase-Three-Guidelines.pdf
+    * https://www.governor.wa.gov/sites/default/files/SafeStartPhasedReopening.pdf
+    * https://mynorthwest.com/1872686/phases-counties-washington-reopen-inslee/?
+    * https://governor.wv.gov/Pages/The-Comeback.aspx
+    * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
+    * https://www.wisbank.com/articles/2020/05/wisconsin-county-list-of-safer-at-home-orders/
+    * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
+    * https://www.wyo-wcca.org/index.php/covid-19-resources/emergency-declarations-and-public-building-access/
+    * https://drive.google.com/file/d/1yP1IHC60t9pHQMeenAEzyAuVZJSNAvH2/view
