@@ -50,7 +50,7 @@ print(date.month, date.day, date.year)
 13. Foot traffic data from [SafeGraph](https://shop.safegraph.com/).
 14. State-level hospitalization and ICU requirements projections from [IHME](http://www.healthdata.org/covid/data-downloads).
 15. Mobility Reports from [Google](https://www.google.com/covid19/mobility/index.html)
-16. COVID-19 related Interventions data from numerous media sources:
+16. COVID-19 related interventions data from numerous media sources:
     * https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html
     * https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html
     * https://www.cnn.com/2020/03/23/us/coronavirus-which-states-stay-at-home-order-trnd/index.html
@@ -91,6 +91,7 @@ print(date.month, date.day, date.year)
     * https://www.washingtonian.com/2020/03/23/virginia-restaurants-and-bars-close-for-dine-in-service-to-help-curb-coronavirus/
     * https://trib.com/news/state-and-regional/health/wyoming-governor-announces-statewide-business-closures-in-response-to-coronavirus/article_fd9b3090-536e-5e55-902e-0585322740a2.html
     * https://www.nytimes.com/2020/03/12/world/europe/trump-travel-ban-coronavirus.html
+17. Rollback of interventions from numerous media sources:
     * https://covid19.alaska.gov/wp-content/uploads/2020/05/05142020-Reopen-Alaska-Plan.pdf
     * https://abc7news.com/sonoma-county-restaurants-napa-newsoms-plan-to-reopen-california-when/6178845/
     * http://www.calaverasenterprise.com/news/coronavirus_information/article_da41af68-9577-11ea-affd-fb8bc483a30b.html
@@ -128,7 +129,6 @@ print(date.month, date.day, date.year)
     * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
     * https://www.sos.mo.gov/library/reference/orders/2020/eo12
     * https://stlpartnership.com/details-on-state-stl-county-and-city-of-stl-reopening/
-    * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
     * https://www.thegazette.com/subject/news/business/gyms-working-up-a-sweat-to-reopen-friday-20200514
     * https://www.newmexico.gov/2020/05/28/governor-announces-limited-reopening-for-dine-in-restaurants-indoor-malls-gyms-salons-and-more/
     * https://www.usnews.com/news/best-states/new-mexico/articles/2020-05-25/new-mexico-governor-blocks-plans-to-reopen-drive-in-theater
@@ -141,7 +141,6 @@ print(date.month, date.day, date.year)
     * https://www.governor.ny.gov/news/governor-cuomo-announces-five-regions-track-enter-phase-iv-reopening-friday
     * https://spectrumlocalnews.com/nys/buffalo/politics/2020/06/29/western-new-york-begins-phase-4-reopening-tuesday-
     * https://www.dailyfreeman.com/news/local-news/mid-hudson-region-starts-phase-4-of-reopening-process-on-tuesday/article_bf23d59c-bf9f-11ea-bd04-979c464b1ebc.html
-    * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
     * https://www.newsobserver.com/news/coronavirus/article242836711.html
     * https://www.usnews.com/news/best-states/north-dakota/articles/2020-05-01/north-dakota-cafes-other-businesses-reopen-under-new-rules
     * https://coronavirus.ohio.gov/wps/portal/gov/covid-19/resources/news-releases-news-you-can-use/governor-reopen-certain-facilities
@@ -169,8 +168,6 @@ print(date.month, date.day, date.year)
     * https://www.governor.wa.gov/sites/default/files/SafeStartPhasedReopening.pdf
     * https://mynorthwest.com/1872686/phases-counties-washington-reopen-inslee/?
     * https://governor.wv.gov/Pages/The-Comeback.aspx
-    * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
     * https://www.wisbank.com/articles/2020/05/wisconsin-county-list-of-safer-at-home-orders/
-    * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
     * https://www.wyo-wcca.org/index.php/covid-19-resources/emergency-declarations-and-public-building-access/
     * https://drive.google.com/file/d/1yP1IHC60t9pHQMeenAEzyAuVZJSNAvH2/view
