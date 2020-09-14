@@ -129,7 +129,6 @@ print(date.month, date.day, date.year)
     * https://www.nytimes.com/interactive/2020/us/states-reopen-map-coronavirus.html
     * https://www.sos.mo.gov/library/reference/orders/2020/eo12
     * https://stlpartnership.com/details-on-state-stl-county-and-city-of-stl-reopening/
-    * https://www.thegazette.com/subject/news/business/gyms-working-up-a-sweat-to-reopen-friday-20200514
     * https://www.newmexico.gov/2020/05/28/governor-announces-limited-reopening-for-dine-in-restaurants-indoor-malls-gyms-salons-and-more/
     * https://www.usnews.com/news/best-states/new-mexico/articles/2020-05-25/new-mexico-governor-blocks-plans-to-reopen-drive-in-theater
     * https://nymag.com/intelligencer/2020/07/when-will-new-york-reopen-phases-and-full-plan-explained.html
